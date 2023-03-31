@@ -1,0 +1,35 @@
+- Add race Free People of Middle Earth.
+- Add hero Boromir.
+- Add hero Aragorn.
+- Add hero Legolas.
+- Add hero Gimli.
+- Improve the performance of custom spell Ride Down by disabling periodic checks when nothing is casted.
+- Add Chinese Soldier unit to Medieval race.
+- Add neutral building Chest.
+- Add item Lock Pick.
+- Add hero spell Disarmament.
+- Allow skilling Silence, Disarmament and Preservation on Theramore.
+- Add chat command "-playercolor".
+- Add chat command "-rename".
+- Add chat command "-scale".
+- Research Improved Trading increases hit points and defense instead of movement speed.
+- Remove food cost from units Acclamator and Droid Control Ship and adapt their gold and lumber cost to a Town Hall.
+- Add hero Darth Maul.
+- Add hero Gandalf.
+- Add hero Frodo Baggins.
+- Rename ability Jedi Master into Force Master.
+- Increase attack speed and movement speed reductions per level for ability Force Master.
+- Add Eagle mount for The Lord of the Rings heroes.
+- Allow buying Star Wars, The Lord of the Rings and Medieval mounts.
+- Fix making Star Wars mounts unavailable from start.
+- Item Jedi Drone gets a custom icon.
+- Add reskillable ability Summon Bear, Summon Quilbeast, Summon Hawk, Pocket Factory, Cluster Rockets, Engineering Upgrade, Rain of Fire, How olf Terror, Black Arrow, Healing Spray, Chemical Rage and Acid Bomb.
+- Replace Silence with Disarmament for hero Bishop.
+- Add chat command "-tomes".
+- Add chat command "-notomes".
+- Add race Modern Warfare.
+- Add building Anti Air Wall.
+- Use wall system by The_Silent.
+- Revised hero abilities of General Grievous.
+- Add hero U. S. General.
+- Fix air attack for heroes Mountain Giant and Iron Fist.

@@ -1,0 +1,48 @@
+- Staff of Silence is not included into random choice for dropped items anymore.
+- Fix icon position of Open Gate.
+- Allow enabling/disable AI attacking for enemy players.
+- Ring of Superiority should not be dropped by creeps anymore.
+- Move Feral Spirit to slot 3 and fix its hotkey.
+- Fix learning Summon Bear.
+- Fix learning Pocket Factory.
+- Killing summoned AI units won't lead to multiple "Defeat AI" messages anymore.
+- Removed a memory leak when checking for AI defeat.
+- Let Dalaran AI enable Dalaran Shield whenever possible.
+- Configure unit types for all races, so they won't get removed on repicking the race: Trading Post, Antimagic Ward, Pack Horse, Ground Wall, Air Wall.
+- Improve race Free People of Middle Earth.
+- Reset music if no matching race music is found when using chat command "-raceui".
+- Item Scepter of the Sea Giant transforms your hero into a Sea Giant now since changing the movement type did not work.
+- Items Scepter of the Sea Giant and Angel Wings work on every hero now no matter its movement type.
+- Configure initial game mode in the player selection to Warlord for every player.
+- Recreate backpack and equipment bags on picking up Angel Wings and Scepter of the Sea to fix hero icon positions.
+- Only list UIs for "-raceui" which are supported.
+- Show usage for "-gold" and "-lumber" chat commands.
+- Add system WoWReforgedHeroTransformation for item based hero transformations.
+- Add systems to allow reskilling heroes: WoWReforgedLearnableSkills, WoWReforgedHeroSkills and WoWReforgedLearnableSkillsShop.
+- Fix ulti of bonus hero Kel'Thuzad.
+- Add many hero spells to be skilled from towers.
+- Avoid spawning Tomes of Retraining by resetting the heroes ability cooldowns when reskilling.
+- Add building Spell Book.
+- Add hero spell Mana Ward.
+- Fix setting level of Healing Ward aura ability on summoning it.
+- Add hero spell Fountain of Power Ward.
+- Add hero spell Slide and give it to hero Shado Pan.
+- Add item Spell Book.
+- Add mount White Tiger.
+- Add Discord UI to copy the URL.
+- Reduce maximum stocks of item Tiny Clan Hall to 1.
+- Add hero spell Repair Aura.
+- Improve race Modern Warfare.
+- Add custom icon for Research Tent.
+- Do not sell summoned units in Thieves Guilds.
+- Fix skip level requirement for Summon Sapphiron.
+- Add mount Apache.
+- Add hero spell Mana Flare.
+- Scale down Marketplace and Thieves Guild buildings.
+- AI builds Antimagic Wards, Marketplaces, Thieves Guilds and Dragon Roosts now.
+- AI researches Dragon Roost research now.
+- AI sends chat message back when you enable/disable them attacking.
+- Change soundsets of Wall buildings.
+- Improve info text for enchanter.
+- Give Spell Book, Research Tent and Event House ground textures.
+- Disabled unit sound sets for turrets.

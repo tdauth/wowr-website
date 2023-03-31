@@ -1,0 +1,100 @@
+- Fix food maximum in player info.
+- Add XP rate to player info.
+- Change colors of Jewelcrafter items.
+- Add item types of Jewelcrafter, Enchanter, Pirate, Witch Doctor and Merchant professions to savecodes.
+- Add different Claw item types to savecodes.
+- Add Orb of Wind and Orb of Royality to savecodes.
+- Add worker and male citizen unit types for more races.
+- Add farm and altar unit types for more races.
+- Disable tier 2 and 3 XP bonuses.
+- Remove all hero equivalents.
+- Increase food maximum to 600.
+- Add male CIS citizen.
+- Add item Tiny Scout Tower to Market of Medieval race.
+- Decrease damage base of building Trebuchet of Medieval race.
+- Increase selection scale for building Trebuchet of Medieval race.
+- Limit building Encampment of Medieval race to 2.
+- Increase selection scale for building Encampment of Medieval race.
+- Add helmet attachment to Crossbowmen of Medieval race.
+- Unit Swiss Guard of Medieval race gets ability Shockwave.
+- Move icon position of ability Quarter of Medieval race.
+- Increase scaling of building Barracks of Medieval race.
+- Increase gold and lumber costs for age buildings above Age III of Medieval race.
+- Remove units Swiss Guard and Samurai from building Barracks of Medieval race.
+- Remove units Archer and Crossbowman from building Encampment of Medieval race.
+- Increase selection scale of building University of Medieval race.
+- Increase scale of building Siege Workshop of Medieval race.
+- Rename unit Knight of Medieval race into Knight on Horseback.
+- Add unit Knight to Medieval race.
+- Add unit Hussar to Medieval race.
+- Building Farm of Medieval race can be upgrade to Plantation now.
+- Building Plantation and Farm of Medieval race give more food and have higher costs now than a House.
+- Add research Fletching to Medieval race.
+- Add research Town Watch to Medieval race.
+- Add research Wheelbarrow to Medieval race.
+- Rename unit Peasant of Medieval race into Villager.
+- Mention Age of Empires II in the tooltip of Medieval race.
+- Add research Heresy to Medieval race.
+- Increase the range of ability Quarter of Medieval race.
+- Add research Cavalery Plating to Medieval race.
+- Remove Human and Kul Tiras researches from Medieval race.
+- Fix Kul Tiras Ghost spawn.
+- Change owner of Legendary Artifact building next to Archimonde to bosses to avoid attacks by AI.
+- Scepter of Healing regenerates 5 % of life.
+- Thieves Guild sells killed units from enemy players.
+- Marketplace has a limit of 11 slots for items now.
+- Add building Kul Tiras Advanced Shipyard.
+- Fix tooltip of unit Peregrin Falcon.
+- Move floating text for lumber from Pack Horses down, so players can see the gold text.
+- Pack Horses are sent to the Trading Post and town halls furthest away now instead of the closest.
+- Pack Horses collect resources for all allies as well.
+- Add JASS function GetUnitFurthestAway to simplify the code for Pack Horses and reduce memory leaks.
+- Add gold and lumber items to Pack Horses and Trading Posts which indicate the transported resources.
+- Do not send Pack Horses to Town Halls if they get 0 resources from Trading Posts.
+- Apply upkeep rates to earned gold and lumber from Pack Horses.
+- Move floating texts for lumber bounty for Merchant profession and Trading Horses to the left.
+- Move Equipment Laboratory to Theramore.
+- Reduce damage caused by Eye of Dalaran.
+- Fix coloring of Night Elf Citizen (female).
+- Reives building Night Elf Housing.
+- Make building Night Elf housing unavailable for AI.
+- Make building Entangled Gold Mine unavailable for users.
+- Change hotkey of special building World Tree.
+- Dalaran Housings start with 10 000 gold.
+- Add pathing blockers to the walls of Sylvanas' spot.
+- Change hero Hydromancer to intelligence based hero.
+- Remove cheats "-attacktypes" and "-defensetypes".
+- Add cheat "-unitinfo".
+- Fix replacing hero with Archangel with the correct primary attribute.
+- Fix icon positions for Kul Tiras town halls.
+- Fix icon position of Kul Tiras research Devour.
+- Fix icon position of Kul Tiras ability True Sight.
+- Ring of the Trading Guild can not be used to increase charges with Bill items anymore.
+- Fix Ring of the Trading Guild bonus on selling items.
+- Try to reorder race initialization to fix GetItemRace.
+- Use SimError for item pick up errors due to different race and profession.
+- Fix icon of ability Send to Trading Post.
+- Reduce life healed by Tranquility per level.
+- Reduce maximum stacks of Ankh of Reincarnation to 2.
+- Host is player 1-20 in this order instead of the actual host.
+- Add system UnitEventEx from Spellbound with all of its dependencies.
+- Create custom system CargoLocationSystem to get a unit's X and Y even when being transported.
+- Move transported heroes to their transporters location to fix VIP floating texts and Equipment Bag locations.
+- Do not allow certain spells for Equipment Bags: Starfall, Tranquility, Stampede, Volcano, Big Bad Voodoo.
+- Increase gained XP from creeps from 50 % to 60 %.
+- Decrease previous value factor for required XP per hero level from 1.1 down to 1.0 and increase the constant factor from 0 to 100.
+- Do not show info about second and third hero picks every time when leveling up.
+- Fix entering Boss Fight Island at hero level 55 instead of 70.
+- Add column "Attack" to AI player settings.
+- Fix icon position of ability Charge.
+- Add bonus hero Leprechaun.
+- Change movement speed bonus of research Improved Mount from percentage to absolute value to fix a bug.
+- Add Clone spell as reskillable spell.
+- Fix resetting Trueshot Aura on reskilling.
+- Reduce the Damage Reduction per Target for ability Healing Wave.
+- Reduce the percentage per level for ability Command Aura.
+- Increase percentage per level for ability Trueshot Aura.
+- Reduce duration of ability Tranquility to 8 seconds.
+- Place a Thieves Guild on Theramore.
+- Revise quest log info.
+- Release 3.1 
