@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tdauth/wowr-website#readme",
   "dependencies": {
-    "mdx-m3-viewer": "^5.12.0"
+    "mdx-m3-viewer": "^5.12.0",
+    "bootstrap": "5.3.0-alpha2"
   }
 }
