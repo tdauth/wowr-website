@@ -6,34 +6,50 @@ Creeps:
 <tr>
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Bandit
-</td>
+</td>" )
+	call Preload( "
 <td>
 1
-</td>
+</td>" )
+	call Preload( "
 <td>
 1
-</td>
+</td>" )
+	call Preload( "
 <td>
 105
-</td>
+</td>" )
+	call Preload( "
 <td>
 0
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 270.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 Normal
-</td>
+</td>" )
+	call Preload( "
 <td>
 0.000
-<" )
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+</tr>
+" )
 	call PreloadEnd( 0.0 )
 
 endfunction
