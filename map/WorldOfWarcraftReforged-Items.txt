@@ -2,7 +2,6 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Items:
 <tr>
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
@@ -13,6 +12,10 @@ Items:
 </td>" )
 	call Preload( "
 <td>
+0
+</td>" )
+	call Preload( "
+<td>
 
 </td>" )
 	call Preload( "
@@ -26,6 +29,15 @@ Items:
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -41,11 +53,11 @@ Potion of Greater Healing
 </td>" )
 	call Preload( "
 <td>
-Heals 500 hit points when used.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Heals 500 hit points when used.
 </td>" )
 	call Preload( "
 <td>
@@ -54,6 +66,19 @@ Heals 500 hit points when used.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -69,11 +94,11 @@ Health Stone
 </td>" )
 	call Preload( "
 <td>
-Increases the life regeneration rate of the Hero by 1 hit points per second when worn. Can be consumed for 500 health.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Increases the life regeneration rate of the Hero by 1 hit points per second when worn. Can be consumed for 500 health.
 </td>" )
 	call Preload( "
 <td>
@@ -82,6 +107,19 @@ Increases the life regeneration rate of the Hero by 1 hit points per second when
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -97,11 +135,11 @@ Potion of Invulnerability
 </td>" )
 	call Preload( "
 <td>
-Makes the Hero invulnerable to damage for 15 seconds when used. An invulnerable Hero may not be the target of spells or effects.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Makes the Hero invulnerable to damage for 15 seconds when used. An invulnerable Hero may not be the target of spells or effects.
 </td>" )
 	call Preload( "
 <td>
@@ -110,6 +148,19 @@ Makes the Hero invulnerable to damage for 15 seconds when used. An invulnerable 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -125,11 +176,11 @@ Talisman of Everlasting
 </td>" )
 	call Preload( "
 <td>
-Increases Life by 600 and grants 2 extra Hitpoints regeneration per second.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Increases Life by 600 and grants 2 extra Hitpoints regeneration per second.
 </td>" )
 	call Preload( "
 <td>
@@ -138,6 +189,19 @@ Increases Life by 600 and grants 2 extra Hitpoints regeneration per second.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -153,11 +217,11 @@ Potion of Greater Mana
 </td>" )
 	call Preload( "
 <td>
-Restores 250 mana when used.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Restores 250 mana when used.
 </td>" )
 	call Preload( "
 <td>
@@ -166,6 +230,19 @@ Restores 250 mana when used.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -181,11 +258,11 @@ Mana Stone
 </td>" )
 	call Preload( "
 <td>
-Increases the mana regeneration rate of the Hero by 25% when worn. Can be consumed for 250 mana.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Increases the mana regeneration rate of the Hero by 25% when worn. Can be consumed for 250 mana.
 </td>" )
 	call Preload( "
 <td>
@@ -194,6 +271,19 @@ Increases the mana regeneration rate of the Hero by 25% when worn. Can be consum
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -209,11 +299,11 @@ Wand of Mana Stealing
 </td>" )
 	call Preload( "
 <td>
-Steals 800 mana instantly from a target unit and gives it to the Hero. |nContains 3 charges.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Steals 800 mana instantly from a target unit and gives it to the Hero. |nContains 3 charges.
 </td>" )
 	call Preload( "
 <td>
@@ -222,6 +312,19 @@ Steals 800 mana instantly from a target unit and gives it to the Hero. |nContain
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -237,11 +340,11 @@ Talisman of Spell Protection
 </td>" )
 	call Preload( "
 <td>
-Blocks an enemy spell every 15 seconds and adds 250 Mana.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Blocks an enemy spell every 15 seconds and adds 250 Mana.
 </td>" )
 	call Preload( "
 <td>
@@ -250,6 +353,19 @@ Blocks an enemy spell every 15 seconds and adds 250 Mana.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -265,11 +381,11 @@ Bow of Fire
 </td>" )
 	call Preload( "
 <td>
-Precisely crafted magical bow. Grants +10 damage and allows to attack air units with fiery arrows.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Precisely crafted magical bow. Grants +10 damage and allows to attack air units with fiery arrows.
 </td>" )
 	call Preload( "
 <td>
@@ -278,6 +394,19 @@ Precisely crafted magical bow. Grants +10 damage and allows to attack air units 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -293,11 +422,11 @@ Mithril Long Sword
 </td>" )
 	call Preload( "
 <td>
-Long Sword that gives the bearer supreme combat capabilities. Grants +5 Damage and Fire damage bonus +10.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Long Sword that gives the bearer supreme combat capabilities. Grants +5 Damage and Fire damage bonus +10.
 </td>" )
 	call Preload( "
 <td>
@@ -306,6 +435,19 @@ Long Sword that gives the bearer supreme combat capabilities. Grants +5 Damage a
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -321,11 +463,11 @@ Demon Slayer Axe
 </td>" )
 	call Preload( "
 <td>
-Heavy Axe made of very rare minerals. Causes terrible pain among its victims. Grants +10 damage and 15% chance to deal 2x damage. Multiple axes lead to multiple different Critical Strike abilities and hence increase the chance of Critical Strike! Howe" )
-	call Preload( "
-<td>
 7
 </td>" )
+	call Preload( "
+<td>
+Heavy Axe made of very rare minerals. Causes terrible pain among its victims. Grants +10 damage and 15% chance to deal 2x damage. Multiple axes lead to multiple different Critical Strike abilities and hence increase the chance of Critical Strike! Howe" )
 	call Preload( "
 <td>
 720
@@ -333,6 +475,19 @@ Heavy Axe made of very rare minerals. Causes terrible pain among its victims. Gr
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -348,11 +503,11 @@ Blessed Dragon Lance
 </td>" )
 	call Preload( "
 <td>
-Magically enhanced lance. Because it is so hard to forge them, they are very rare. Some enemies already flee when they see the bearer of such a mighty weapon. Grants +10 damage, Lightning attack bonus +12 damage and casts Chain Lightning.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Magically enhanced lance. Because it is so hard to forge them, they are very rare. Some enemies already flee when they see the bearer of such a mighty weapon. Grants +10 damage, Lightning attack bonus +12 damage and casts Chain Lightning.
 </td>" )
 	call Preload( "
 <td>
@@ -361,6 +516,19 @@ Magically enhanced lance. Because it is so hard to forge them, they are very rar
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -376,11 +544,11 @@ Light Leather Armor
 </td>" )
 	call Preload( "
 <td>
-Armor made of various animal hides. Grants +3 Defense and faster life regeneration.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Armor made of various animal hides. Grants +3 Defense and faster life regeneration.
 </td>" )
 	call Preload( "
 <td>
@@ -389,6 +557,19 @@ Armor made of various animal hides. Grants +3 Defense and faster life regenerati
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -404,11 +585,11 @@ Plated Helmet
 </td>" )
 	call Preload( "
 <td>
-Plate Helmet forged in a complicated process. Grants +5 defense and 15% Evasion.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Plate Helmet forged in a complicated process. Grants +5 defense and 15% Evasion.
 </td>" )
 	call Preload( "
 <td>
@@ -417,6 +598,19 @@ Plate Helmet forged in a complicated process. Grants +5 defense and 15% Evasion.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -432,11 +626,11 @@ Heavy Plated Shield
 </td>" )
 	call Preload( "
 <td>
-Plated Shield made of very durable metals. Grants +8 defense and 70% protection from ranged attacks.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Plated Shield made of very durable metals. Grants +8 defense and 70% protection from ranged attacks.
 </td>" )
 	call Preload( "
 <td>
@@ -445,6 +639,19 @@ Plated Shield made of very durable metals. Grants +8 defense and 70% protection 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -460,11 +667,11 @@ Blessed Champion Armor
 </td>" )
 	call Preload( "
 <td>
-Magically enhanced, Diamond-socketed Armor. Grants +8 defense, Devotion Aura and blocks an enemy spell every 40 Seconds.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Magically enhanced, Diamond-socketed Armor. Grants +8 defense, Devotion Aura and blocks an enemy spell every 40 Seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -473,6 +680,19 @@ Magically enhanced, Diamond-socketed Armor. Grants +8 defense, Devotion Aura and
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -488,11 +708,11 @@ Tiny Flame Tower
 </td>" )
 	call Preload( "
 <td>
-Creates a Flame Tower at a target location.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Creates a Flame Tower at a target location.
 </td>" )
 	call Preload( "
 <td>
@@ -501,6 +721,19 @@ Creates a Flame Tower at a target location.
 	call Preload( "
 <td>
 240
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -516,11 +749,11 @@ Tiny Cold Tower
 </td>" )
 	call Preload( "
 <td>
-Creates a Cold Tower at a target location.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Creates a Cold Tower at a target location.
 </td>" )
 	call Preload( "
 <td>
@@ -529,6 +762,19 @@ Creates a Cold Tower at a target location.
 	call Preload( "
 <td>
 120
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -544,11 +790,11 @@ Tiny Death Tower
 </td>" )
 	call Preload( "
 <td>
-Creates a Death Tower at a target location.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Creates a Death Tower at a target location.
 </td>" )
 	call Preload( "
 <td>
@@ -557,6 +803,19 @@ Creates a Death Tower at a target location.
 	call Preload( "
 <td>
 360
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -572,11 +831,11 @@ Scroll of Protection
 </td>" )
 	call Preload( "
 <td>
-Increases the armor of all friendly units in an area around your Hero by 2 for 30 seconds.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Increases the armor of all friendly units in an area around your Hero by 2 for 30 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -585,6 +844,19 @@ Increases the armor of all friendly units in an area around your Hero by 2 for 3
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -600,11 +872,11 @@ Scroll of Restoration
 </td>" )
 	call Preload( "
 <td>
-Restores 150 hit points and 150 mana of friendly non-mechanical units in an area around your Hero.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Restores 150 hit points and 150 mana of friendly non-mechanical units in an area around your Hero.
 </td>" )
 	call Preload( "
 <td>
@@ -613,6 +885,19 @@ Restores 150 hit points and 150 mana of friendly non-mechanical units in an area
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -628,11 +913,11 @@ Scroll of Resurrection
 </td>" )
 	call Preload( "
 <td>
-Brings 6 of your nearby dead units back to life.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Brings 6 of your nearby dead units back to life.
 </td>" )
 	call Preload( "
 <td>
@@ -641,6 +926,19 @@ Brings 6 of your nearby dead units back to life.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -656,11 +954,11 @@ Ankh of Reincarnation
 </td>" )
 	call Preload( "
 <td>
-Automatically brings the Hero back to life with 99999 hit points when the Hero wearing the Ankh dies.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Automatically brings the Hero back to life with 99999 hit points when the Hero wearing the Ankh dies.
 </td>" )
 	call Preload( "
 <td>
@@ -669,6 +967,19 @@ Automatically brings the Hero back to life with 99999 hit points when the Hero w
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -684,11 +995,11 @@ Wand of Neutralization
 </td>" )
 	call Preload( "
 <td>
-Hurls forth a stream of neutralizing magic that bounces up to 8 times, dispelling units in its wake. |nContains 4 charges.
+2
 </td>" )
 	call Preload( "
 <td>
-2
+Hurls forth a stream of neutralizing magic that bounces up to 8 times, dispelling units in its wake. |nContains 4 charges.
 </td>" )
 	call Preload( "
 <td>
@@ -697,6 +1008,19 @@ Hurls forth a stream of neutralizing magic that bounces up to 8 times, dispellin
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -712,11 +1036,11 @@ Wand of the Wind
 </td>" )
 	call Preload( "
 <td>
-Allows the Hero to cast Cyclone. Cyclone tosses a target enemy unit into the air, rendering it unable to attack, move or cast spells. |nContains 4 charges. |nLasts 20 seconds.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Allows the Hero to cast Cyclone. Cyclone tosses a target enemy unit into the air, rendering it unable to attack, move or cast spells. |nContains 4 charges. |nLasts 20 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -725,6 +1049,19 @@ Allows the Hero to cast Cyclone. Cyclone tosses a target enemy unit into the air
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -740,11 +1077,11 @@ Wand of Reanimation
 </td>" )
 	call Preload( "
 <td>
-Reanimates 5 dead corpses for 60 seconds.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Reanimates 5 dead corpses for 60 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -753,6 +1090,19 @@ Reanimates 5 dead corpses for 60 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -768,12 +1118,12 @@ Wand of Illusion
 </td>" )
 	call Preload( "
 <td>
-Create an illusory double of the targeted unit when used. The illusory double deals no damage to enemy units, takes 2 times the damage from enemy attacks, and will disappear after 60 seconds or when its hit points reach zero. |nContains 4 charges.
-</" )
-	call Preload( "
-<td>
 2
 </td>" )
+	call Preload( "
+<td>
+Create an illusory double of the targeted unit when used. The illusory double deals no damage to enemy units, takes 2 times the damage from enemy attacks, and will disappear after 60 seconds or when its hit points reach zero. |nContains 4 charges.
+</" )
 	call Preload( "
 <td>
 36
@@ -781,6 +1131,19 @@ Create an illusory double of the targeted unit when used. The illusory double de
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -796,11 +1159,11 @@ Rune of Speed (Runeforger)
 </td>" )
 	call Preload( "
 <td>
-Increases the movement speed of all nearby allied units to the maximum movement speed. |nLasts 60 seconds.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases the movement speed of all nearby allied units to the maximum movement speed. |nLasts 60 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -809,6 +1172,19 @@ Increases the movement speed of all nearby allied units to the maximum movement 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -824,6 +1200,10 @@ Rune of Dispel Magic
 </td>" )
 	call Preload( "
 <td>
+0
+</td>" )
+	call Preload( "
+<td>
 Dispels all nearby magic effects. |n|cffffcc00Deals 250 damage to summoned units.|r
 </td>" )
 	call Preload( "
@@ -836,7 +1216,16 @@ Dispels all nearby magic effects. |n|cffffcc00Deals 250 damage to summoned units
 </td>" )
 	call Preload( "
 <td>
-0
+4
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -852,11 +1241,11 @@ Rune of Restoration (Runeforger)
 </td>" )
 	call Preload( "
 <td>
-Restores 300 hit points and 150 mana of friendly non-mechanical units in an area around your Hero.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Restores 300 hit points and 150 mana of friendly non-mechanical units in an area around your Hero.
 </td>" )
 	call Preload( "
 <td>
@@ -865,6 +1254,19 @@ Restores 300 hit points and 150 mana of friendly non-mechanical units in an area
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -880,6 +1282,10 @@ Rune of Rebirth (Runeforger)
 </td>" )
 	call Preload( "
 <td>
+0
+</td>" )
+	call Preload( "
+<td>
 Places the monster that held this rune under your control. Give it to one of your units and when the unit dies use it to recreate the unit.
 </td>" )
 	call Preload( "
@@ -892,7 +1298,16 @@ Places the monster that held this rune under your control. Give it to one of you
 </td>" )
 	call Preload( "
 <td>
-0
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -908,11 +1323,11 @@ Green Dragon Whelp Egg
 </td>" )
 	call Preload( "
 <td>
-Summons a Green Dragon Whelp to fight for you. |nLasts 180 seconds.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Summons a Green Dragon Whelp to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -921,6 +1336,19 @@ Summons a Green Dragon Whelp to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -936,11 +1364,11 @@ Green Drake Egg
 </td>" )
 	call Preload( "
 <td>
-Summons a Green Drake to fight for you. |nLasts 180 seconds.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Summons a Green Drake to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -949,6 +1377,19 @@ Summons a Green Drake to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -964,11 +1405,11 @@ Tharifas Egg
 </td>" )
 	call Preload( "
 <td>
-Summons Tharifas to fight for you. |nLasts 180 seconds.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Summons Tharifas to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -977,6 +1418,19 @@ Summons Tharifas to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -992,11 +1446,11 @@ Green Dragon Egg
 </td>" )
 	call Preload( "
 <td>
-Summons a Green Dragon to fight for you. |nLasts 180 seconds.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Summons a Green Dragon to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -1005,6 +1459,19 @@ Summons a Green Dragon to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1020,11 +1487,11 @@ Pickpocketing
 </td>" )
 	call Preload( "
 <td>
-Gives your hero the chance of 45 % to pickpocket a nearby killed unit with inventory. It will steal a random item from the unit's inventory including equipment bags.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Gives your hero the chance of 45 % to pickpocket a nearby killed unit with inventory. It will steal a random item from the unit's inventory including equipment bags.
 </td>" )
 	call Preload( "
 <td>
@@ -1033,6 +1500,19 @@ Gives your hero the chance of 45 % to pickpocket a nearby killed unit with inven
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1048,11 +1528,11 @@ Magical Creep Summoner
 </td>" )
 	call Preload( "
 <td>
-When using this magical creep summoner, all dead creeps within a radius of 1000 will be summoned.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+When using this magical creep summoner, all dead creeps within a radius of 1000 will be summoned.
 </td>" )
 	call Preload( "
 <td>
@@ -1061,6 +1541,19 @@ When using this magical creep summoner, all dead creeps within a radius of 1000 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1076,11 +1569,11 @@ Magical Cutter
 </td>" )
 	call Preload( "
 <td>
-When using this magical cutter, all living trees within a radius of 1000 will be cut down.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+When using this magical cutter, all living trees within a radius of 1000 will be cut down.
 </td>" )
 	call Preload( "
 <td>
@@ -1089,6 +1582,19 @@ When using this magical cutter, all living trees within a radius of 1000 will be
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1104,6 +1610,10 @@ Bundle of Lumber
 </td>" )
 	call Preload( "
 <td>
+0
+</td>" )
+	call Preload( "
+<td>
 Gives 250 lumber to the player when used.
 </td>" )
 	call Preload( "
@@ -1116,7 +1626,16 @@ Gives 250 lumber to the player when used.
 </td>" )
 	call Preload( "
 <td>
-0
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1132,11 +1651,11 @@ Magical Seed
 </td>" )
 	call Preload( "
 <td>
-When planting these magical seeds, all dead trees within a radius of 1000 regrow.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+When planting these magical seeds, all dead trees within a radius of 1000 regrow.
 </td>" )
 	call Preload( "
 <td>
@@ -1145,6 +1664,19 @@ When planting these magical seeds, all dead trees within a radius of 1000 regrow
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1160,11 +1692,11 @@ Magical Seed (3)
 </td>" )
 	call Preload( "
 <td>
-When planting these magical seeds, all dead trees within a radius of 1000 regrow.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+When planting these magical seeds, all dead trees within a radius of 1000 regrow.
 </td>" )
 	call Preload( "
 <td>
@@ -1173,6 +1705,19 @@ When planting these magical seeds, all dead trees within a radius of 1000 regrow
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1188,11 +1733,11 @@ Amulet of Spell Shield
 </td>" )
 	call Preload( "
 <td>
-Blocks a negative spell that an enemy casts on the Hero once every 40 seconds.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Blocks a negative spell that an enemy casts on the Hero once every 40 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -1201,6 +1746,19 @@ Blocks a negative spell that an enemy casts on the Hero once every 40 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1216,11 +1774,11 @@ Dust of Appearance
 </td>" )
 	call Preload( "
 <td>
-Reveals enemy invisible units in an area around the Hero. |nContains 2 charges. |nLasts 20 seconds.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Reveals enemy invisible units in an area around the Hero. |nContains 2 charges. |nLasts 20 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -1229,6 +1787,19 @@ Reveals enemy invisible units in an area around the Hero. |nContains 2 charges. 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1244,11 +1815,11 @@ Alleria's Flute of Accuracy
 </td>" )
 	call Preload( "
 <td>
-Increases nearby ranged units' damage by 7%. |nDoes not stack with Trueshot Aura.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Increases nearby ranged units' damage by 7%. |nDoes not stack with Trueshot Aura.
 </td>" )
 	call Preload( "
 <td>
@@ -1257,6 +1828,19 @@ Increases nearby ranged units' damage by 7%. |nDoes not stack with Trueshot Aura
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1272,11 +1856,11 @@ Ancient Janggo of Endurance
 </td>" )
 	call Preload( "
 <td>
-Grants the Hero and friendly nearby units 3% increased attack speed and 5% movement speed. |nDoes not stack with Endurance Aura.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Grants the Hero and friendly nearby units 3% increased attack speed and 5% movement speed. |nDoes not stack with Endurance Aura.
 </td>" )
 	call Preload( "
 <td>
@@ -1285,6 +1869,19 @@ Grants the Hero and friendly nearby units 3% increased attack speed and 5% movem
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1300,11 +1897,11 @@ Khadgar's Pipe of Insight
 </td>" )
 	call Preload( "
 <td>
-Grants the Hero and friendly nearby units 0.5 bonus mana regeneration. |nDoes not stack with Brilliance Aura.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Grants the Hero and friendly nearby units 0.5 bonus mana regeneration. |nDoes not stack with Brilliance Aura.
 </td>" )
 	call Preload( "
 <td>
@@ -1313,6 +1910,19 @@ Grants the Hero and friendly nearby units 0.5 bonus mana regeneration. |nDoes no
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1328,11 +1938,11 @@ Legion Doom-Horn
 </td>" )
 	call Preload( "
 <td>
-Grants the Hero and friendly nearby units 0.3 life regeneration and 5% increased movement speed. |nDoes not stack with Unholy Aura.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Grants the Hero and friendly nearby units 0.3 life regeneration and 5% increased movement speed. |nDoes not stack with Unholy Aura.
 </td>" )
 	call Preload( "
 <td>
@@ -1341,6 +1951,19 @@ Grants the Hero and friendly nearby units 0.3 life regeneration and 5% increased
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1356,11 +1979,11 @@ Tome of Retraining
 </td>" )
 	call Preload( "
 <td>
-Unlearns all of the Hero's spells, allowing the Hero to learn different skills.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Unlearns all of the Hero's spells, allowing the Hero to learn different skills.
 </td>" )
 	call Preload( "
 <td>
@@ -1369,6 +1992,19 @@ Unlearns all of the Hero's spells, allowing the Hero to learn different skills.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1384,11 +2020,11 @@ Scourge Bone Chimes
 </td>" )
 	call Preload( "
 <td>
-Grants a melee Hero and friendly nearby melee units life stealing attacks which take 15% of the damage they deal and convert it into life. |nDoes not stack with Vampiric Aura.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Grants a melee Hero and friendly nearby melee units life stealing attacks which take 15% of the damage they deal and convert it into life. |nDoes not stack with Vampiric Aura.
 </td>" )
 	call Preload( "
 <td>
@@ -1399,6 +2035,19 @@ Grants a melee Hero and friendly nearby melee units life stealing attacks which 
 0
 </td>" )
 	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
 </tr>
 " )
 	call Preload( "
@@ -1409,6 +2058,10 @@ Grants a melee Hero and friendly nearby melee units life stealing attacks which 
 	call Preload( "
 <td>
 Warsong Battle Drums
+</td>" )
+	call Preload( "
+<td>
+0
 </td>" )
 	call Preload( "
 <td>
@@ -1416,15 +2069,24 @@ Increases the attack damage of nearby friendly units by 10% when worn. |nDoes no
 </td>" )
 	call Preload( "
 <td>
-0
-</td>" )
-	call Preload( "
-<td>
 120
 </td>" )
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1440,11 +2102,11 @@ Warsong Battle Drums
 </td>" )
 	call Preload( "
 <td>
-Increases the attack damage of nearby friendly units by 7% when worn. |nDoes not stack with War Drums.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the attack damage of nearby friendly units by 7% when worn. |nDoes not stack with War Drums.
 </td>" )
 	call Preload( "
 <td>
@@ -1453,6 +2115,19 @@ Increases the attack damage of nearby friendly units by 7% when worn. |nDoes not
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1468,11 +2143,11 @@ The Lion Horn of Stormwind
 </td>" )
 	call Preload( "
 <td>
-Grants the Hero and friendly nearby units 1 bonus armor. |nDoes not stack with Devotion Aura.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Grants the Hero and friendly nearby units 1 bonus armor. |nDoes not stack with Devotion Aura.
 </td>" )
 	call Preload( "
 <td>
@@ -1481,6 +2156,19 @@ Grants the Hero and friendly nearby units 1 bonus armor. |nDoes not stack with D
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1496,11 +2184,11 @@ Chaos Stone Fragment
 </td>" )
 	call Preload( "
 <td>
-Boosts attack damage by 20 and casts Vampirism. Also needed for the Destroyer Transformation Ritual.
+8
 </td>" )
 	call Preload( "
 <td>
-8
+Boosts attack damage by 20 and casts Vampirism. Also needed for the Destroyer Transformation Ritual.
 </td>" )
 	call Preload( "
 <td>
@@ -1509,6 +2197,19 @@ Boosts attack damage by 20 and casts Vampirism. Also needed for the Destroyer Tr
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1524,11 +2225,11 @@ Order Stone Fragment
 </td>" )
 	call Preload( "
 <td>
-Boosts defense by 10 and casts Holy Light. Also needed for the Guardian Transformation Ritual.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Boosts defense by 10 and casts Holy Light. Also needed for the Guardian Transformation Ritual.
 </td>" )
 	call Preload( "
 <td>
@@ -1537,6 +2238,19 @@ Boosts defense by 10 and casts Holy Light. Also needed for the Guardian Transfor
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1552,11 +2266,11 @@ Orb of Engineering
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attack also becomes ranged when attacking air and will create a Clockwerk Goblin when it is the killing blow on an enemy unit. Clockwerk Goblins lasts 100 seconds.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attack also becomes ranged when attacking air and will create a Clockwerk Goblin when it is the killing blow on an enemy unit. Clockwerk Goblins lasts 100 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -1565,6 +2279,19 @@ Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attack also
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1580,11 +2307,11 @@ Dwarven Celestial Orb of Souls
 </td>" )
 	call Preload( "
 <td>
-Brings 6 of your nearby dead units back to life.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Brings 6 of your nearby dead units back to life.
 </td>" )
 	call Preload( "
 <td>
@@ -1593,6 +2320,19 @@ Brings 6 of your nearby dead units back to life.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1608,11 +2348,11 @@ Orb of Sun
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus sun damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air. It also removes 6 mana from hit heroes and 20 mana from the hit units and causes 10 extra damage to summoned units.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Adds 6 bonus sun damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air. It also removes 6 mana from hit heroes and 20 mana from the hit units and causes 10 extra damage to summoned units.
 </td>" )
 	call Preload( "
 <td>
@@ -1621,6 +2361,19 @@ Adds 6 bonus sun damage to the attack of a Hero when carried. The Hero's attacks
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1636,11 +2389,11 @@ Orb of Orbs
 </td>" )
 	call Preload( "
 <td>
-Combines effects of known orbs to one single item. Adds 60 bonus damage to the attack of a Hero when carried. The Hero's attack also becomes ranged when attacking air and it has the following effects:|n- AOE damage.|n- Slows movement speed.|n- Summons" )
-	call Preload( "
-<td>
 8
 </td>" )
+	call Preload( "
+<td>
+Combines effects of known orbs to one single item. Adds 60 bonus damage to the attack of a Hero when carried. The Hero's attack also becomes ranged when attacking air and it has the following effects:|n- AOE damage.|n- Slows movement speed.|n- Summons" )
 	call Preload( "
 <td>
 1200
@@ -1648,6 +2401,19 @@ Combines effects of known orbs to one single item. Adds 60 bonus damage to the a
 	call Preload( "
 <td>
 3000
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1663,11 +2429,11 @@ Gloves of Haste
 </td>" )
 	call Preload( "
 <td>
-Increases the attack speed of the Hero by 15% when worn.
+2
 </td>" )
 	call Preload( "
 <td>
-2
+Increases the attack speed of the Hero by 15% when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1676,6 +2442,19 @@ Increases the attack speed of the Hero by 15% when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1691,11 +2470,11 @@ Healing Salve
 </td>" )
 	call Preload( "
 <td>
-|cff87ceebNon-Combat Consumable|r|nRegenerates a target unit's hit points by 400 over 45 seconds when used. |nContains 3 charges.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+|cff87ceebNon-Combat Consumable|r|nRegenerates a target unit's hit points by 400 over 45 seconds when used. |nContains 3 charges.
 </td>" )
 	call Preload( "
 <td>
@@ -1704,6 +2483,19 @@ Healing Salve
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1719,11 +2511,11 @@ Claws of Attack +3
 </td>" )
 	call Preload( "
 <td>
-Increases the attack damage of the Hero by 3 when worn.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases the attack damage of the Hero by 3 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1732,6 +2524,19 @@ Increases the attack damage of the Hero by 3 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1747,11 +2552,11 @@ Claws of Attack +5
 </td>" )
 	call Preload( "
 <td>
-Increases the attack damage of the Hero by 5 when worn.
+2
 </td>" )
 	call Preload( "
 <td>
-2
+Increases the attack damage of the Hero by 5 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1760,6 +2565,19 @@ Increases the attack damage of the Hero by 5 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1775,11 +2593,11 @@ Claws of Attack +9
 </td>" )
 	call Preload( "
 <td>
-Increases the attack damage of the Hero by 9 when worn.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Increases the attack damage of the Hero by 9 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1788,6 +2606,19 @@ Increases the attack damage of the Hero by 9 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1803,11 +2634,11 @@ Claws of Attack +12
 </td>" )
 	call Preload( "
 <td>
-Increases the attack damage of the Hero by 12 when worn.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the attack damage of the Hero by 12 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1816,6 +2647,19 @@ Increases the attack damage of the Hero by 12 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1831,11 +2675,11 @@ Claws of Attack +15
 </td>" )
 	call Preload( "
 <td>
-Increases the attack damage of the Hero by 15 when worn.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Increases the attack damage of the Hero by 15 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1844,6 +2688,19 @@ Increases the attack damage of the Hero by 15 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1859,11 +2716,11 @@ Cloak of Shadows
 </td>" )
 	call Preload( "
 <td>
-Provides the Hero with invisibility when worn. An invisible Hero is untargetable by the enemy unless detected. If the Hero moves, attacks, uses an ability, or casts a spell, the invisibility effect is lost.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Provides the Hero with invisibility when worn. An invisible Hero is untargetable by the enemy unless detected. If the Hero moves, attacks, uses an ability, or casts a spell, the invisibility effect is lost.
 </td>" )
 	call Preload( "
 <td>
@@ -1872,6 +2729,19 @@ Provides the Hero with invisibility when worn. An invisible Hero is untargetable
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1887,19 +2757,32 @@ Cloak of Flames
 </td>" )
 	call Preload( "
 <td>
-Engulfs the Hero in fire which deals 10 damage per second to nearby enemy land units. Also increases defense by +3 and adds 300 Life. |nDoes not stack with Immolation.
-</td>" )
-	call Preload( "
-<td>
 5
 </td>" )
 	call Preload( "
 <td>
+Engulfs the Hero in fire which deals 10 damage per second to nearby enemy land units. Also increases defense by +3 and adds 300 Life. |nDoes not stack with Immolation.
+</td>" )
+	call Preload( "
+<td>
 0
 </td>" )
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1915,11 +2798,11 @@ Gauntlets of Ogre Strength +3
 </td>" )
 	call Preload( "
 <td>
-Increases the Strength of the Hero by 3 when worn.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Increases the Strength of the Hero by 3 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1928,6 +2811,19 @@ Increases the Strength of the Hero by 3 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1943,11 +2839,11 @@ Helm of Valor
 </td>" )
 	call Preload( "
 <td>
-Increases the Strength and Agility of the Hero by 5 when worn.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the Strength and Agility of the Hero by 5 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1956,6 +2852,19 @@ Increases the Strength and Agility of the Hero by 5 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1971,11 +2880,11 @@ Hood of Cunning
 </td>" )
 	call Preload( "
 <td>
-Increases the Agility and Intelligence of the Hero by 5 when worn.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the Agility and Intelligence of the Hero by 5 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -1984,6 +2893,19 @@ Increases the Agility and Intelligence of the Hero by 5 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1999,11 +2921,11 @@ Ring of Protection +1
 </td>" )
 	call Preload( "
 <td>
-Increases the armor of the Hero by 1 when worn.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases the armor of the Hero by 1 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2012,6 +2934,19 @@ Increases the armor of the Hero by 1 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2027,11 +2962,11 @@ Ring of Protection +2
 </td>" )
 	call Preload( "
 <td>
-Increases the armor of the Hero by 2 when worn.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases the armor of the Hero by 2 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2040,6 +2975,19 @@ Increases the armor of the Hero by 2 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2055,11 +3003,11 @@ Ring of Protection +3
 </td>" )
 	call Preload( "
 <td>
-Increases the armor of the Hero by 3 when worn.
+2
 </td>" )
 	call Preload( "
 <td>
-2
+Increases the armor of the Hero by 3 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2068,6 +3016,19 @@ Increases the armor of the Hero by 3 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2083,11 +3044,11 @@ Ring of Protection +4
 </td>" )
 	call Preload( "
 <td>
-Increases the armor of the Hero by 4 when worn.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Increases the armor of the Hero by 4 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2096,6 +3057,19 @@ Increases the armor of the Hero by 4 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2111,11 +3085,11 @@ Ring of Protection +5
 </td>" )
 	call Preload( "
 <td>
-Increases the armor of the Hero by 5 when worn.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Increases the armor of the Hero by 5 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2124,6 +3098,19 @@ Increases the armor of the Hero by 5 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2139,11 +3126,11 @@ Ring of Regeneration
 </td>" )
 	call Preload( "
 <td>
-Increases the Hero's hit point regeneration by 2 hit points per second.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Increases the Hero's hit point regeneration by 2 hit points per second.
 </td>" )
 	call Preload( "
 <td>
@@ -2152,6 +3139,19 @@ Increases the Hero's hit point regeneration by 2 hit points per second.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2167,11 +3167,11 @@ Orb of Frost
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus cold damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and slow the movement speed and attack rate of the enemy for 3 seconds.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Adds 6 bonus cold damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and slow the movement speed and attack rate of the enemy for 3 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2180,6 +3180,19 @@ Adds 6 bonus cold damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2195,11 +3208,11 @@ Orb of Corruption
 </td>" )
 	call Preload( "
 <td>
-Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and reduce the armor of enemy units for 5 seconds.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and reduce the armor of enemy units for 5 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2208,6 +3221,19 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2220,6 +3246,10 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <td>
 Orb of Fire
+</td>" )
+	call Preload( "
+<td>
+3
 </td>" )
 	call Preload( "
 <td>
@@ -2227,15 +3257,24 @@ Adds 5 bonus fire damage to the attack of a Hero when carried. The Hero's attack
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
 60
 </td>" )
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2251,11 +3290,11 @@ Orb of Fire
 </td>" )
 	call Preload( "
 <td>
-Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and reduce the effectiveness of healing and regeneration on enemy units by 35% for 3 seconds.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and reduce the effectiveness of healing and regeneration on enemy units by 35% for 3 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2266,6 +3305,19 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 0
 </td>" )
 	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
 </tr>
 " )
 	call Preload( "
@@ -2279,11 +3331,11 @@ Orb of Lightning
 </td>" )
 	call Preload( "
 <td>
-Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to dispel magic and immobilize the enemy for 3 seconds; they will slowly regain their movement speed over 15 seconds." )
-	call Preload( "
-<td>
 3
 </td>" )
+	call Preload( "
+<td>
+Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to dispel magic and immobilize the enemy for 3 seconds; they will slowly regain their movement speed over 15 seconds." )
 	call Preload( "
 <td>
 90
@@ -2293,6 +3345,19 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 0
 </td>" )
 	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
 </tr>
 " )
 	call Preload( "
@@ -2306,11 +3371,11 @@ Orb of Lightning
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to dispel magic and slows its movement speed by a factor of 2; they will slowly regain their movement speed over 3 se" )
-	call Preload( "
-<td>
 0
 </td>" )
+	call Preload( "
+<td>
+Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to dispel magic and slows its movement speed by a factor of 2; they will slowly regain their movement speed over 3 se" )
 	call Preload( "
 <td>
 108
@@ -2318,6 +3383,19 @@ Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2333,11 +3411,11 @@ Orb of Slow
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to slow a target enemy unit's movement speed by 60% and attack rate by 25% for 60 seconds.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air, and have a chance to slow a target enemy unit's movement speed by 60% and attack rate by 25% for 60 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2346,6 +3424,19 @@ Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2361,11 +3452,11 @@ Orb of Venom
 </td>" )
 	call Preload( "
 <td>
-Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and poison enemy units for 6 seconds.
+3
 </td>" )
 	call Preload( "
 <td>
-3
+Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and poison enemy units for 6 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2374,6 +3465,19 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2389,11 +3493,11 @@ Shadow Orb +1
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 1.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 1.
 </td>" )
 	call Preload( "
 <td>
@@ -2402,6 +3506,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2417,11 +3534,11 @@ Shadow Orb +2
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 2.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 2.
 </td>" )
 	call Preload( "
 <td>
@@ -2430,6 +3547,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2445,11 +3575,11 @@ Shadow Orb +3
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 3.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 3.
 </td>" )
 	call Preload( "
 <td>
@@ -2458,6 +3588,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2473,11 +3616,11 @@ Shadow Orb +4
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 4 and armor by 1.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 4 and armor by 1.
 </td>" )
 	call Preload( "
 <td>
@@ -2486,6 +3629,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2501,11 +3657,11 @@ Shadow Orb +5
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 5 and armor by 1.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 5 and armor by 1.
 </td>" )
 	call Preload( "
 <td>
@@ -2514,6 +3670,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2529,11 +3698,11 @@ Shadow Orb +6
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 6 and armor by 1.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 6 and armor by 1.
 </td>" )
 	call Preload( "
 <td>
@@ -2542,6 +3711,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2557,11 +3739,11 @@ Shadow Orb +7
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 7 and armor by 2.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 7 and armor by 2.
 </td>" )
 	call Preload( "
 <td>
@@ -2570,6 +3752,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2585,11 +3780,11 @@ Shadow Orb +8
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 8 and armor by 2.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 8 and armor by 2.
 </td>" )
 	call Preload( "
 <td>
@@ -2598,6 +3793,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2613,11 +3821,11 @@ Shadow Orb +9
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 9, armor by 2 and grants enhanced hit point regeneration.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 9, armor by 2 and grants enhanced hit point regeneration.
 </td>" )
 	call Preload( "
 <td>
@@ -2626,6 +3834,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2641,11 +3862,11 @@ Shadow Orb +10
 </td>" )
 	call Preload( "
 <td>
-This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 10, armor by 3 and grants enhanced hit point regeneration.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+This artifact was imbued with special powers by the Orc Shadow Council. It increases your attack damage by 10, armor by 3 and grants enhanced hit point regeneration.
 </td>" )
 	call Preload( "
 <td>
@@ -2654,6 +3875,19 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2669,11 +3903,11 @@ Amulet of Recall
 </td>" )
 	call Preload( "
 <td>
-Teleports 12 of the player's units within the targeted area to the location of the Hero when used.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Teleports 12 of the player's units within the targeted area to the location of the Hero when used.
 </td>" )
 	call Preload( "
 <td>
@@ -2682,6 +3916,19 @@ Teleports 12 of the player's units within the targeted area to the location of t
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2697,11 +3944,11 @@ Ancestral Staff
 </td>" )
 	call Preload( "
 <td>
-|cffff8c00Artifact|r|nSummons 2 Berserkers to fight for you. Also grants the Hero and friendly nearby units increased attack rate and movement speed. |nDoes not stack with Endurance Aura.|n|cffffcc00History|r|n|cffffdeadNames of generations of Witch D" )
-	call Preload( "
-<td>
 0
 </td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Berserkers to fight for you. Also grants the Hero and friendly nearby units increased attack rate and movement speed. |nDoes not stack with Endurance Aura.|n|cffffcc00History|r|n|cffffdeadNames of generations of Witch D" )
 	call Preload( "
 <td>
 720
@@ -2709,6 +3956,19 @@ Ancestral Staff
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2724,11 +3984,11 @@ Mantle of Intelligence +3
 </td>" )
 	call Preload( "
 <td>
-Increases the Intelligence of the Hero by 3 when worn.
+1
 </td>" )
 	call Preload( "
 <td>
-1
+Increases the Intelligence of the Hero by 3 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2737,6 +3997,19 @@ Increases the Intelligence of the Hero by 3 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2752,11 +4025,11 @@ Demonic Figurine
 </td>" )
 	call Preload( "
 <td>
-Summons a Doom Guard to fight for you. |nLasts 180 seconds.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Summons a Doom Guard to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2765,6 +4038,19 @@ Summons a Doom Guard to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2780,11 +4066,11 @@ Blue Drake Egg
 </td>" )
 	call Preload( "
 <td>
-Summons a Blue Drake to fight for you. |nLasts 180 seconds.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Summons a Blue Drake to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2793,6 +4079,19 @@ Summons a Blue Drake to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2808,11 +4107,11 @@ Engraved Scale
 </td>" )
 	call Preload( "
 <td>
-Summons a Blue Dragonspawn Overseer to fight for you.|nLasts 180 seconds.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Summons a Blue Dragonspawn Overseer to fight for you.|nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2821,6 +4120,19 @@ Summons a Blue Dragonspawn Overseer to fight for you.|nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2836,11 +4148,11 @@ Healing Wards
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's hit points per second. |nContains 3 charges. |nLasts 30 seconds. 
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's hit points per second. |nContains 3 charges. |nLasts 30 seconds. 
 </td>" )
 	call Preload( "
 <td>
@@ -2849,6 +4161,19 @@ Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2864,11 +4189,11 @@ Idol of the Wild
 </td>" )
 	call Preload( "
 <td>
-Summons a Furbolg Tracker to fight for you. |nLasts 180 seconds.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Summons a Furbolg Tracker to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2877,6 +4202,19 @@ Summons a Furbolg Tracker to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2892,11 +4230,11 @@ Spiked Collar
 </td>" )
 	call Preload( "
 <td>
-Summons a Fel Stalker to fight for you. |nLasts 180 seconds.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Summons a Fel Stalker to fight for you. |nLasts 180 seconds.
 </td>" )
 	call Preload( "
 <td>
@@ -2905,6 +4243,19 @@ Summons a Fel Stalker to fight for you. |nLasts 180 seconds.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2920,11 +4271,11 @@ Ring of Superiority
 </td>" )
 	call Preload( "
 <td>
-Increases the Strength, Agility and Intelligence of the Hero by 1 when worn.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases the Strength, Agility and Intelligence of the Hero by 1 when worn.
 </td>" )
 	call Preload( "
 <td>
@@ -2933,6 +4284,19 @@ Increases the Strength, Agility and Intelligence of the Hero by 1 when worn.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2948,11 +4312,11 @@ Enchanted Gemstone
 </td>" )
 	call Preload( "
 <td>
-Increases all hero stats by 2.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases all hero stats by 2.
 </td>" )
 	call Preload( "
 <td>
@@ -2961,6 +4325,19 @@ Increases all hero stats by 2.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2976,11 +4353,11 @@ Green Gemstone
 </td>" )
 	call Preload( "
 <td>
-Increases all hero stats by 3.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases all hero stats by 3.
 </td>" )
 	call Preload( "
 <td>
@@ -2989,6 +4366,19 @@ Increases all hero stats by 3.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3004,11 +4394,11 @@ Jewel Amulet
 </td>" )
 	call Preload( "
 <td>
-Increases all hero stats by 4.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Increases all hero stats by 4.
 </td>" )
 	call Preload( "
 <td>
@@ -3017,6 +4407,19 @@ Increases all hero stats by 4.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3032,11 +4435,11 @@ Novice Enchanting Formula
 </td>" )
 	call Preload( "
 <td>
-Provides +1 to hero stats, summoned units and defense, +3 to damage and +50 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will " )
-	call Preload( "
-<td>
 0
 </td>" )
+	call Preload( "
+<td>
+Provides +1 to hero stats, summoned units and defense, +3 to damage and +50 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will " )
 	call Preload( "
 <td>
 24
@@ -3044,6 +4447,19 @@ Provides +1 to hero stats, summoned units and defense, +3 to damage and +50 to h
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3059,11 +4475,11 @@ Advanced Enchanting Formula
 </td>" )
 	call Preload( "
 <td>
-Provides +2 to hero stats, summoned units and defense, +5 to damage and +100 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will" )
-	call Preload( "
-<td>
 0
 </td>" )
+	call Preload( "
+<td>
+Provides +2 to hero stats, summoned units and defense, +5 to damage and +100 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will" )
 	call Preload( "
 <td>
 24
@@ -3071,6 +4487,19 @@ Provides +2 to hero stats, summoned units and defense, +5 to damage and +100 to 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3086,11 +4515,11 @@ Adept Enchanting Formula
 </td>" )
 	call Preload( "
 <td>
-Provides +3 to hero stats, summoned units and defense, +7 to damage and +150 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will" )
-	call Preload( "
-<td>
 0
 </td>" )
+	call Preload( "
+<td>
+Provides +3 to hero stats, summoned units and defense, +7 to damage and +150 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will" )
 	call Preload( "
 <td>
 24
@@ -3098,6 +4527,19 @@ Provides +3 to hero stats, summoned units and defense, +7 to damage and +150 to 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3113,11 +4555,11 @@ Master Enchanting Formula
 </td>" )
 	call Preload( "
 <td>
-Provides +4 to hero stats, summoned units and defense, +9 to damage and +200 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will" )
-	call Preload( "
-<td>
 0
 </td>" )
+	call Preload( "
+<td>
+Provides +4 to hero stats, summoned units and defense, +9 to damage and +200 to hit point and mana item abilities.|n|nPut enchantable items (chat command "-e") into your inventory together with formulas to improve their effects. Stacking formulas will" )
 	call Preload( "
 <td>
 24
@@ -3125,6 +4567,19 @@ Provides +4 to hero stats, summoned units and defense, +9 to damage and +200 to 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3140,11 +4595,11 @@ Tiny Pirate Ship
 </td>" )
 	call Preload( "
 <td>
-Summons a Pirate Ship to cross the sea.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Summons a Pirate Ship to cross the sea.
 </td>" )
 	call Preload( "
 <td>
@@ -3153,6 +4608,19 @@ Summons a Pirate Ship to cross the sea.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3168,11 +4636,11 @@ Treasure Map
 </td>" )
 	call Preload( "
 <td>
-Gives you the location of a hidden treasure on the map which increases your gold and lumber.
+0
 </td>" )
 	call Preload( "
 <td>
-0
+Gives you the location of a hidden treasure on the map which increases your gold and lumber.
 </td>" )
 	call Preload( "
 <td>
@@ -3181,6 +4649,19 @@ Gives you the location of a hidden treasure on the map which increases your gold
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3196,11 +4677,11 @@ Compass
 </td>" )
 	call Preload( "
 <td>
-Detects enemy ships on the sea.
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Detects enemy ships on the sea.
 </td>" )
 	call Preload( "
 <td>
@@ -3209,6 +4690,19 @@ Detects enemy ships on the sea.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3224,11 +4718,11 @@ Navigation Wheel
 </td>" )
 	call Preload( "
 <td>
-Increases the stats of a ship which transports the hero.
+6
 </td>" )
 	call Preload( "
 <td>
-6
+Increases the stats of a ship which transports the hero.
 </td>" )
 	call Preload( "
 <td>
@@ -3237,6 +4731,19 @@ Increases the stats of a ship which transports the hero.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3252,11 +4759,11 @@ Sentry Wards
 </td>" )
 	call Preload( "
 <td>
-Drops a Sentry Ward to spy upon an area for 180 seconds. |nContains 2 charges.
+2
 </td>" )
 	call Preload( "
 <td>
-2
+Drops a Sentry Ward to spy upon an area for 180 seconds. |nContains 2 charges.
 </td>" )
 	call Preload( "
 <td>
@@ -3265,6 +4772,19 @@ Drops a Sentry Ward to spy upon an area for 180 seconds. |nContains 2 charges.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3280,12 +4800,12 @@ Stasis Traps
 </td>" )
 	call Preload( "
 <td>
-Drops an invisible and immovable ward that stuns enemy land units around it. The trap activates when an enemy land unit approaches and destroys all other stasis wards in its area of effect. |nThe trap lasts 150 seconds. |nThe stun lasts 6 seconds.
-</" )
-	call Preload( "
-<td>
 2
 </td>" )
+	call Preload( "
+<td>
+Drops an invisible and immovable ward that stuns enemy land units around it. The trap activates when an enemy land unit approaches and destroys all other stasis wards in its area of effect. |nThe trap lasts 150 seconds. |nThe stun lasts 6 seconds.
+</" )
 	call Preload( "
 <td>
 36
@@ -3293,6 +4813,19 @@ Drops an invisible and immovable ward that stuns enemy land units around it. The
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3308,11 +4841,11 @@ Mana Wards
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that regenerates 1% of nearby friendly non-mechanical unit's mana points per second. |nContains 3 charges. |nLasts 30 seconds. 
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Summons an immovable ward that regenerates 1% of nearby friendly non-mechanical unit's mana points per second. |nContains 3 charges. |nLasts 30 seconds. 
 </td>" )
 	call Preload( "
 <td>
@@ -3321,6 +4854,19 @@ Summons an immovable ward that regenerates 1% of nearby friendly non-mechanical 
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3336,11 +4882,11 @@ Healing Wards
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's hit points per second. |nContains 3 charges. |nLasts 30 seconds. 
+4
 </td>" )
 	call Preload( "
 <td>
-4
+Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's hit points per second. |nContains 3 charges. |nLasts 30 seconds. 
 </td>" )
 	call Preload( "
 <td>
@@ -3349,6 +4895,19 @@ Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3364,11 +4923,11 @@ Small Bill
 </td>" )
 	call Preload( "
 <td>
-Increases the charges of the target item by 1.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the charges of the target item by 1.
 </td>" )
 	call Preload( "
 <td>
@@ -3377,6 +4936,19 @@ Increases the charges of the target item by 1.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3392,11 +4964,11 @@ Bill
 </td>" )
 	call Preload( "
 <td>
-Increases the charges of the target item by 2.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the charges of the target item by 2.
 </td>" )
 	call Preload( "
 <td>
@@ -3405,6 +4977,19 @@ Increases the charges of the target item by 2.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3420,11 +5005,11 @@ Large Bill
 </td>" )
 	call Preload( "
 <td>
-Increases the charges of the target item by 3.
+5
 </td>" )
 	call Preload( "
 <td>
-5
+Increases the charges of the target item by 3.
 </td>" )
 	call Preload( "
 <td>
@@ -3433,6 +5018,19 @@ Increases the charges of the target item by 3.
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3448,11 +5046,11 @@ Ring of the Trading Guild
 </td>" )
 	call Preload( "
 <td>
-Increases the gold and lumber gained from selling items. Multiplies the sold item's gold and lumber values with the number of charges of all rings in the selling hero's inventory. If the gold or lumber value of the sold item is 0 it will be at least 1" )
-	call Preload( "
-<td>
 5
 </td>" )
+	call Preload( "
+<td>
+Increases the gold and lumber gained from selling items. Multiplies the sold item's gold and lumber values with the number of charges of all rings in the selling hero's inventory. If the gold or lumber value of the sold item is 0 it will be at least 1" )
 	call Preload( "
 <td>
 34
@@ -3460,6 +5058,19 @@ Increases the gold and lumber gained from selling items. Multiplies the sold ite
 	call Preload( "
 <td>
 10
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3475,11 +5086,11 @@ Orb of Wind
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and give a chance of 15 % to stun the enemy for 2 seconds and cause 25 extra damage.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and give a chance of 15 % to stun the enemy for 2 seconds and cause 25 extra damage.
 </td>" )
 	call Preload( "
 <td>
@@ -3488,6 +5099,19 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3503,11 +5127,11 @@ Orb of Royality
 </td>" )
 	call Preload( "
 <td>
-Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and give a chance of 20 % to charm enemy units with a base level up to 5.
+7
 </td>" )
 	call Preload( "
 <td>
-7
+Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attacks also become ranged when attacking air and give a chance of 20 % to charm enemy units with a base level up to 5.
 </td>" )
 	call Preload( "
 <td>
@@ -3518,9 +5142,1239 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 0
 </td>" )
 	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 1.4 )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Book of the 4 Elements
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis spell book made by an unknown author contains arcane spells from each of the 4 elements to be wielded by its owner, giving him many advantages in and out of combat. Truly a very valuable item !|n|n Grants +6 Int, Brilliance Au" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Dragonspawn Necklace
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis Amulet has been enchanted by powerful magic used by the Dragonspawn Sorcerors. Grants 200 Mana, blocks an enemy Spell every 10 seconds and makes the bearer 75% resistant to harmful spells.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Helm of the Void
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nAn ancient Artifact that holds the Void Revenant´s dark power. Made by dark sorcery, it brings death and destruction to everyone who dares to oppose its master.|nGrants +10 defense, +10 Damage, Unholy Aura and casts Ray of Death t" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Hydra Queen Scales
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nAn extremely rare Armor made of a Hydra Queen´s Skin. Apart from looking eerie, it has many powerful abilities.|nGrants +10 defense, faster Life Regeneration, Endurance Aura and summons an Elder Hydra every 100 seconds (lasts 120 " )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Legion´s Hate
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis Cleaver has been used by Mannoroth in ages past to decapitate all those Orcs on Draenor who resisted to make the Blood Pact with him. Though they refused to serve in life, they must heed the call of the weapon´s wielder in de" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Shield of the Void
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nAn ancient Artifact of unknown origin. Some wizards believe it was a gift for Medivh from the first invading Orcs in Azeroth, since the runes on the shield resemble old orcish shamanistic language.|nGrants +10 defense, 50% spell da" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGuldanSkull.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Skull of Gul'dan
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nOnce a powerful user of Demonic magics, the Demons answered his calls, and found a greater use for his head.|nGrants +10 to all hero stats, permanent Immolation, +800 maximum mana and allows you to summon Demons every 220 seconds f" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Stormbringer´s Horn
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe Horn a legendary Stormbringer Dragon. Though the creature from whose head the horn has been cut off has perished, the frequent use of lightning magic has somehow enchanted the horn with magicks from the elemental plane of air.|" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Varimathras´ Wings
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe wings of the last of the legendary 3 Nathrezim. Although the Dreadlord´s corporeal form is destroyed, his magical energies are somehow still trapped in this Artifact as long as it exists. |nGrants +10 defense, 15% Vampiric Aur" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Mask of Death
+</td>" )
+	call Preload( "
+<td>
+8
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nWhile wearing this mask, a Hero will recover hit points equal to 60% of the attack damage dealt to an enemy unit. Allows your hero to summon a Nether Dragon for 100 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Medivh's Spell Book
+</td>" )
+	call Preload( "
+<td>
+8
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe spell book of Medivh allows your hero to use a number of powerful abilities.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Scepter of the Sea Giant
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nAn ancient Artifact from the seabed which the Sea Giant brought to the surface with him. It gave him the power to reign over the Sunken Ruins.|nGrants +10 to all hero attributes and allows you to summon 4 Sea Elementals for 60 seco" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Ancient Turtle Shell
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe shell of a powerful ancient Sea Turtle. Gives your hero Divine armor and +15 defense.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAshbringer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - The Ashbringer
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nPowerful sword named for its ability to slaughter the undead and leave nothing but ash in its wake.|nGrants +5 defense, +10 fire damage, life steal of 20 % and Chaos damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLesserRejuvScroll.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Murloc Scroll
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nA powerful scroll from the Murloc Sorcerer of an ancient temple in sunken ruines far away in the sea where he lived for thousends of years untouched by anyone.|nTeleports the Hero a short distance, reveals nearby invsibile hostile " )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - The Eye of Sargeras
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe Eye of Sargeras was hidden in another tomb after being used by Illidan. It contains immense powers from the titan Sargeras.|nIncreases all hero stats by 15. Slows down the attack speed of hit targets by 45 % and the movement sp" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Enchanted Spider Crab Claw
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe enchanted claw of a Spider Crab from an ancient dungeon. Allows you to Hex an enemy unit and gives your hero +20 damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCagedIllidan.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Mathog's Cage
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis is the cage of Mathog to enslave humans.|nGrants +5 to all hero stats, +500 maximum life and allows to summon a permanent cage to enslave enemy units.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Gul'dan's Mana Shield
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis is a powerful mana shield from Gul'dan.|nAdds 1500 mana, increases the mana regeneration and allows the hero to cast a mana shield which will exchange 2 mana for every received damage point until it is empty.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Sea Witch Tail
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe head of a powerful Sea Witch who was able to sink a whole island.|nAllows blocking a negative spell every 10 seconds. Adds 20 damage to the hero.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Jeweled Scepter of Sargeras
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis scepter which belongs to the Dark Titan Sargeras.|n|nGrants +30 hero attributes and allows attacking 3 more targets. Whenever you move your hero to any visible point or object in the map, it will cast Blink with no cooldown.
+" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Portable Goblin Laboratory
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nA portable laboratory from an intelligent Goblin Alchemist living on their island Kezan.|nAllows converting creeps into 200 % of their gold and 200 % of their lumber cost. Adds 20 damage with an AOE effect, 60 movement speed and 12" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Portable Tinker Factory
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis factory was crafted by a very skillful Tinker who was the best of his kind. It allows you changing unit classifications. Increases the armor by 10.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Doomhammer
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nA powerful hammer crafted in Draenor which belongs to the Orc Leader Thrall.|n|nIncreases the damage by 12 with an Orb of Lightning attack, increases the damage against regular heroes and heroes with divine armor and allows casting" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Heart of Aszhara
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe heart of Queen Aszhara. Gives your hero +5 to all stats, lets the hero cast a powerful Tornado, gives your hero the Orb of Annihilation ability which adds +20 damage and allows your hero to cause AOE damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTN_CR_Heart_of_Gold.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Heart of Y'Shaarj
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThe heart of the old god Y'Shaarj.|n|nContains arcane spells to convert units into different races and summon the Old Gods.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBlastHammer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Sulfuras
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nThis is the legendary hammer of the Fire Lord, Ragnaros. |nGrants +30 fire attack damage, summons 2 Core Hounds, gives the hero the passive ability Incinerate.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEyeOfDalaran.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Eye of Dalaran
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nA powerful artifact from Dalaran. Gives your hero Divine armor and +15 Intelligence and 1500 Mana. Allows your hero to cast Dalaran Shield causing 10 % damage per second to all units in a target area.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNP_AngelWings.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Angel Wings
+</td>" )
+	call Preload( "
+<td>
+7
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nPowerful angel wings from Silvermoon. Gives your hero +10 agility, increased movement and attack speed and allows your hero to fly and to cast Blink.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unique - Elune's Moonstone
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+|cff8b00ffUnique|r|nAn enchanted Moonstone by Elune herself.|n|nReduces the cooldown of all abilities.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 2.3 )
 
 endfunction
 

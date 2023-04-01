@@ -1,0 +1,847 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Races:
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Humans
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Humans
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Orcs
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Orcs
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Great Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Undead
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Undead
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Necropolis
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Night Elves
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Night Elves
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Tree of Life
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Blood Elves
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Blood Elves
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Blood Elf Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Naga
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Naga
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Temple of Tides
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Demons
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Demons
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Demon Gate
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Draenei
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Draenei
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Draenei Haven
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Furbolg
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Young Furbolgs to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this sta" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Furbolg
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Furbolg Tribal Center
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Goblins
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Goblins
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Goblin Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Dwarves
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Dwarves
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Dwarf Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of High Elves
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of High Elves
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny High Elf Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Dalaran
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Dalaran
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Dalaran Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Kul Tiras
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Kul Tiras
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Kul Tiras Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Pandaren
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Pandaren
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Pandaren Temple
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Trolls
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Trolls
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Great Hall of Trolls
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Tauren
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Tauren
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Great Hall of Tauren
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Galactic Republic
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Galactic Republic
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Acclamator
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of CIS
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of CIS
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Droid Control Ship
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of the Roman Empire
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of the Roman Empire
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTent.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Command Tent
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Medieval
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Medieval
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Medieval Town Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Free People of Middle Earth
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Free People of Middle Earth
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Hobbit Hole
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Sauron's Forces
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Sauron's Forces
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Great Hall
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Modern Warfare
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Modern Warfare
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Command Center
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Germans WWII
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Germans WWII
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Headquarters
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Vrykul
+</td>" )
+	call Preload( "
+<td>
+|cffff8c00Artifact|r|nSummons 2 Workers to do your bidding. Also grants the Hero and friendly nearby units increased attack rate and movement speed.|n|cffffcc00History|r|n|cffffdeadNames of generations of Nation Leaders are carved into this staff. The" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scepter of Vrykul
+</td>" )
+	call Preload( "
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tiny Dragon's Reach
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 0.2 )
+
+endfunction
+
+
