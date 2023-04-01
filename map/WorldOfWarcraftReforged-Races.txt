@@ -3,7 +3,7 @@ function PreloadFiles takes nothing returns nothing
 	call PreloadStart()
 	call Preload( "
 Races:
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
 </td>" )
@@ -35,7 +35,7 @@ Races:
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" />
 </td>" )
@@ -66,7 +66,7 @@ Tiny Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" />
 </td>" )
@@ -97,7 +97,7 @@ Tiny Great Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" />
 </td>" )
@@ -128,7 +128,7 @@ Tiny Necropolis
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" />
 </td>" )
@@ -159,7 +159,7 @@ Tiny Tree of Life
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" />
 </td>" )
@@ -190,7 +190,7 @@ Tiny Blood Elf Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" />
 </td>" )
@@ -221,7 +221,7 @@ Tiny Temple of Tides
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" />
 </td>" )
@@ -252,7 +252,7 @@ Tiny Demon Gate
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" />
 </td>" )
@@ -283,7 +283,7 @@ Tiny Draenei Haven
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStone.blp" />
 </td>" )
@@ -314,7 +314,7 @@ Tiny Furbolg Tribal Center
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" />
 </td>" )
@@ -345,7 +345,7 @@ Tiny Goblin Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" />
 </td>" )
@@ -376,7 +376,7 @@ Tiny Dwarf Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" />
 </td>" )
@@ -407,7 +407,7 @@ Tiny High Elf Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" />
 </td>" )
@@ -438,7 +438,7 @@ Tiny Dalaran Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
 </td>" )
@@ -469,7 +469,7 @@ Tiny Kul Tiras Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" />
 </td>" )
@@ -500,7 +500,7 @@ Tiny Pandaren Temple
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
 </td>" )
@@ -531,7 +531,7 @@ Tiny Great Hall of Trolls
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
 </td>" )
@@ -562,7 +562,7 @@ Tiny Great Hall of Tauren
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
 </td>" )
@@ -593,7 +593,7 @@ Tiny Acclamator
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
 </td>" )
@@ -624,7 +624,7 @@ Tiny Droid Control Ship
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" />
 </td>" )
@@ -655,7 +655,7 @@ Tiny Command Tent
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" />
 </td>" )
@@ -686,7 +686,7 @@ Tiny Medieval Town Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" />
 </td>" )
@@ -717,7 +717,7 @@ Tiny Hobbit Hole
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
 </td>" )
@@ -748,7 +748,7 @@ Tiny Great Hall
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" />
 </td>" )
@@ -779,7 +779,7 @@ Tiny Command Center
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" />
 </td>" )
@@ -810,7 +810,7 @@ Tiny Headquarters
 </tr>
 " )
 	call Preload( "
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" />
 </td>" )

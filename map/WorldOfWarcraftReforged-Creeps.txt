@@ -3,7 +3,7 @@ function PreloadFiles takes nothing returns nothing
 	call PreloadStart()
 	call Preload( "
 Creeps:
-<tr>
+<tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
 </td>" )

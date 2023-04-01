@@ -3,7 +3,7 @@ function PreloadFiles takes nothing returns nothing
 	call PreloadStart()
 	call Preload( "
 Players:
-<tr>
+<tr id="Barade#2569">
 <td>
 Barade#2569
 </td>" )
