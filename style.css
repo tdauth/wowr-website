@@ -3,6 +3,10 @@ table, th, td {
   border-collapse: collapse;
 }
 
+table {
+    width: 100%
+}
+
 h1 {
     text-align: center;
 }
