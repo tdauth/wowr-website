@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -61,7 +64,7 @@ For every level up a hero gains additional attributes and 1 skill point which ca
 The primary attribute, start attributes, attributes per level and spells differ from hero to hero.
 
 <!-- Autogenerate from map file/object data: -->
-<table>
+<table id="heroes">
     <thead>
         <tr>
             <th>Icon</th>
@@ -1169,6 +1172,10 @@ Foot
 
     </tbody>
 </table>
+
+<script>
+	const table = new DataTable('#heroes');
+</script>
 
 </body>
 </html> 
