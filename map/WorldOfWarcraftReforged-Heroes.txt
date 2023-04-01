@@ -45,8 +45,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -93,8 +124,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+128
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -141,8 +203,39 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -189,8 +282,39 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -237,8 +361,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -285,8 +440,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -333,8 +519,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -381,8 +598,39 @@ None
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -429,8 +677,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+128
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -477,8 +756,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+128
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -525,8 +835,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -573,8 +914,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -621,8 +993,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -669,8 +1072,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-300.000
+300
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Fortified
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -717,8 +1151,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -765,8 +1230,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+128
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+5
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -813,8 +1309,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -861,8 +1388,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-300.000
+300
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Fortified
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -909,8 +1467,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-350.000
+350
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+700
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -957,8 +1546,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1005,8 +1625,39 @@ None
 </td>" )
 	call Preload( "
 <td>
-300.000
+300
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1053,8 +1704,39 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-320.000
+320
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+500
+</td>" )
+	call Preload( "
+<td>
+Small
+</td>" )
+	call Preload( "
+<td>
+5
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1101,8 +1783,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+900
+</td>" )
+	call Preload( "
+<td>
+Small
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+950
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1149,8 +1862,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Small
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1197,8 +1941,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-270.000
+270
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1245,8 +2020,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-270.000
+270
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+600
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+650
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1293,8 +2099,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Normal
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1341,8 +2178,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Small
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1389,8 +2257,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Small
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
@@ -1437,8 +2336,39 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-290.000
+290
 </td>" )
+	call Preload( "
+<td>
+Magic
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+100
+</td>" )
+	call Preload( "
+<td>
+Small
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+550
+</td>" )
+	call Preload( "
+<ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" />Default string
+</li>" )
+	call Preload( "
+</ul>" )
 	call Preload( "
 </tr>
 " )
