@@ -5,246 +5,15 @@ function PreloadFiles takes nothing returns nothing
 Heroes:
 <tr>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
-</td>
-<td>
-Paladin
-</td>
-<td>
-Intelligence
-</td>
-<td>
-2.700
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroArchMage.blp" />
-</td>
-<td>
-Archmage
-</td>
-<td>
-Strength
-</td>
-<td>
-1.800
-</td>
-<td>
-1.000
-</td>
-<td>
-3.200
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroMountainKing.blp" />
-</td>
-<td>
-Mountain King
-</td>
-<td>
-Intelligence
-</td>
-<td>
-3.000
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroBloodElfPrince.blp" />
-</td>
-<td>
-Blood Mage
-</td>
-<td>
-Strength
-</td>
-<td>
-2.000
-</td>
-<td>
-1.000
-</td>
-<td>
-3.000
-</td>
-<td>
-Foot
-</td>
-<td>
-300.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroBlademaster.blp" />
-</td>
-<td>
-Blademaster
-</td>
-<td>
-Strength
-</td>
-<td>
-2.000
-</td>
-<td>
-1.750
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroFarseer.blp" />
-</td>
-<td>
-Far Seer
-</td>
-<td>
-Strength
-</td>
-<td>
-2.000
-</td>
-<td>
-1.000
-</td>
-<td>
-3.000
-</td>
-<td>
-Hover
-</td>
-<td>
-320.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" />
-</td>
-<td>
-Tauren Chieftain
-</td>
-<td>
-Intelligence
-</td>
-<td>
-3.200
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-" )
-	call Preload( "
-<tr>
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNShadowHunter.blp" />
-</td>
-<td>
-Shadow Hunter
-</td>
-<td>
-Strength
-</td>
-<td>
-2.000
-</td>
-<td>
-1.500
-</td>
-<td>
-2.500
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
-	call Preload( "
-<tr>
-<td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroDeathKnight.blp" />
 </td>
 <td>
 Death Knight
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
-<td>
-2.700
-</td>
-<td>
-1.500
-</td>
-<td>
-1.800
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+" )
 	call Preload( "
 <tr>
 <td>
@@ -254,24 +23,14 @@ Foot
 Lich
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
+15
 </td>
 <td>
-1.000
-</td>
-<td>
-3.400
-</td>
-<td>
-None
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+14
+<" )
 	call Preload( "
 <tr>
 <td>
@@ -281,24 +40,11 @@ None
 Dreadlord
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-2.500
-</td>
-<td>
-1.000
-</td>
-<td>
-2.500
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+20
+</td" )
 	call Preload( "
 <tr>
 <td>
@@ -308,24 +54,11 @@ Foot
 Crypt Lord
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-3.200
-</td>
-<td>
-1.200
-</td>
-<td>
-1.600
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+26
+</t" )
 	call Preload( "
 <tr>
 <td>
@@ -335,24 +68,10 @@ Foot
 Keeper of the Grove
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-1.800
-</td>
-<td>
-1.500
-</td>
-<td>
-2.700
-</td>
-<td>
-Hover
-</td>
-<td>
-320.000
-</td>
-</t" )
+16" )
 	call Preload( "
 <tr>
 <td>
@@ -362,23 +81,9 @@ Hover
 Priestess of the Moon
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
-<td>
-1.900
-</td>
-<td>
-1.500
-</td>
-<td>
-2.600
-</td>
-<td>
-Hover
-</td>
-<td>
-320.000
-</td>" )
+<td>" )
 	call Preload( "
 <tr>
 <td>
@@ -388,24 +93,12 @@ Hover
 Demon Hunter
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.400
+19
 </td>
-<td>
-1.500
-</td>
-<td>
-2.100
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+" )
 	call Preload( "
 <tr>
 <td>
@@ -415,24 +108,14 @@ Foot
 Warden
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.400
+18
 </td>
 <td>
-1.600
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+20
+<" )
 	call Preload( "
 <tr>
 <td>
@@ -442,24 +125,11 @@ Foot
 Alchemist
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-3.300
-</td>
-<td>
-1.000
-</td>
-<td>
-2.000
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+25
+</td" )
 	call Preload( "
 <tr>
 <td>
@@ -469,24 +139,13 @@ Foot
 Sea Witch
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
+15
 </td>
 <td>
-1.000
-</td>
-<td>
-3.000
-</td>
-<td>
-None
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+" )
 	call Preload( "
 <tr>
 <td>
@@ -496,24 +155,14 @@ None
 Tinker
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.400
+20
 </td>
 <td>
-1.000
-</td>
-<td>
-2.600
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+15
+<" )
 	call Preload( "
 <tr>
 <td>
@@ -523,24 +172,11 @@ Foot
 Beastmaster
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-2.900
-</td>
-<td>
-1.300
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+22
+</td" )
 	call Preload( "
 <tr>
 <td>
@@ -550,24 +186,10 @@ Foot
 Brewmaster
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-3.000
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+23" )
 	call Preload( "
 <tr>
 <td>
@@ -577,24 +199,12 @@ Foot
 Dark Ranger
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-1.900
+18
 </td>
-<td>
-1.500
-</td>
-<td>
-2.600
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+<td" )
 	call Preload( "
 <tr>
 <td>
@@ -604,24 +214,12 @@ Foot
 Firelord
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
+15
 </td>
-<td>
-1.600
-</td>
-<td>
-2.500
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+<t" )
 	call Preload( "
 <tr>
 <td>
@@ -631,24 +229,12 @@ Foot
 Pit Lord
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-3.200
+26
 </td>
-<td>
-1.300
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-300.000
-</td>
-</tr>" )
+<td>" )
 	call Preload( "
 <tr>
 <td>
@@ -658,24 +244,12 @@ Foot
 Eredar Warlock
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-1.500
+14
 </td>
-<td>
-2.200
-</td>
-<td>
-3.000
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+<td>" )
 	call Preload( "
 <tr>
 <td>
@@ -685,24 +259,13 @@ Foot
 Elder Sage
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
+15
 </td>
 <td>
-1.200
-</td>
-<td>
-2.800
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+" )
 	call Preload( "
 <tr>
 <td>
@@ -712,24 +275,11 @@ Foot
 Furbolg Ursa Warrior
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.400
-</td>
-<td>
-1.600
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+18
+</" )
 	call Preload( "
 <tr>
 <td>
@@ -739,24 +289,10 @@ Foot
 Mountain Giant
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-3.200
-</td>
-<td>
-1.300
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-300.000
-</td>
-</tr>" )
+26" )
 	call Preload( "
 <tr>
 <td>
@@ -766,24 +302,12 @@ Foot
 Ranger
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-1.900
+18
 </td>
-<td>
-1.500
-</td>
-<td>
-2.600
-</td>
-<td>
-Foot
-</td>
-<td>
-350.000
-</td>
-</tr>" )
+<td" )
 	call Preload( "
 <tr>
 <td>
@@ -793,24 +317,14 @@ Foot
 Wizard
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-1.800
+13
 </td>
 <td>
-1.000
-</td>
-<td>
-3.200
-</td>
-<td>
-Foot
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+15
+<" )
 	call Preload( "
 <tr>
 <td>
@@ -820,24 +334,13 @@ Foot
 Sorceress
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
+18
 </td>
 <td>
-1.000
-</td>
-<td>
-3.000
-</td>
-<td>
-None
-</td>
-<td>
-300.000
-</td>
-</tr>" )
+14" )
 	call Preload( "
 <tr>
 <td>
@@ -847,24 +350,13 @@ None
 Hydromancer
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-1.800
+14
 </td>
 <td>
-1.000
-</td>
-<td>
-3.200
-</td>
-<td>
-Hover
-</td>
-<td>
-320.000
-</td>
-</tr>" )
+" )
 	call Preload( "
 <tr>
 <td>
@@ -874,24 +366,11 @@ Hover
 U. S. General
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-2.700
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+22
+</" )
 	call Preload( "
 <tr>
 <td>
@@ -901,24 +380,10 @@ Foot
 Military Tribune
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-2.700
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+22" )
 	call Preload( "
 <tr>
 <td>
@@ -928,24 +393,11 @@ Foot
 Gandalf the Grey
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
-</td>
-<td>
-1.000
-</td>
-<td>
-3.000
-</td>
-<td>
-Foot
-</td>
-<td>
-270.000
-</td>
-</tr>" )
+18
+</td>" )
 	call Preload( "
 <tr>
 <td>
@@ -955,24 +407,12 @@ Foot
 Saruman the White
 </td>
 <td>
-Strength
+<img class="primary-attribute" src="Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>
 <td>
-2.000
+18
 </td>
-<td>
-1.000
-</td>
-<td>
-3.000
-</td>
-<td>
-Foot
-</td>
-<td>
-270.000
-</td>
-</tr>" )
+<td" )
 	call Preload( "
 <tr>
 <td>
@@ -982,24 +422,10 @@ Foot
 Brewmaster
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-3.000
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+23" )
 	call Preload( "
 <tr>
 <td>
@@ -1009,23 +435,8 @@ Foot
 Supreme Martial Commander
 </td>
 <td>
-Intelligence
-</td>
-<td>
-2.700
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</" )
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+</t" )
 	call Preload( "
 <tr>
 <td>
@@ -1035,24 +446,11 @@ Foot
 Darth Tyranus
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-2.700
-</td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
+22
+</td" )
 	call Preload( "
 <tr>
 <td>
@@ -1062,25 +460,13 @@ Foot
 Jedi Master
 </td>
 <td>
-Intelligence
+<img class="primary-attribute" src="Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
 </td>
 <td>
-2.700
+22
 </td>
-<td>
-1.500
-</td>
-<td>
-2.250
-</td>
-<td>
-Foot
-</td>
-<td>
-290.000
-</td>
-</tr>" )
-	call PreloadEnd( 2.0 )
+<td>" )
+	call PreloadEnd( 2.1 )
 
 endfunction
 

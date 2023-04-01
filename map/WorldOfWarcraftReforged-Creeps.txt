@@ -22,7 +22,18 @@ Bandit
 <td>
 0
 </td>
-</tr>" )
+<td>
+Foot
+</td>
+<td>
+270.000
+</td>
+<td>
+Normal
+</td>
+<td>
+0.000
+<" )
 	call PreloadEnd( 0.0 )
 
 endfunction
