@@ -1,0 +1,1087 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Heroes:
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
+</td>
+<td>
+Paladin
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroArchMage.blp" />
+</td>
+<td>
+Archmage
+</td>
+<td>
+Strength
+</td>
+<td>
+1.800
+</td>
+<td>
+1.000
+</td>
+<td>
+3.200
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroMountainKing.blp" />
+</td>
+<td>
+Mountain King
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.000
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroBloodElfPrince.blp" />
+</td>
+<td>
+Blood Mage
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.000
+</td>
+<td>
+Foot
+</td>
+<td>
+300.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroBlademaster.blp" />
+</td>
+<td>
+Blademaster
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.750
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroFarseer.blp" />
+</td>
+<td>
+Far Seer
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.000
+</td>
+<td>
+Hover
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" />
+</td>
+<td>
+Tauren Chieftain
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.200
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShadowHunter.blp" />
+</td>
+<td>
+Shadow Hunter
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.500
+</td>
+<td>
+2.500
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroDeathKnight.blp" />
+</td>
+<td>
+Death Knight
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+1.800
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp" />
+</td>
+<td>
+Lich
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.400
+</td>
+<td>
+None
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroDreadLord.blp" />
+</td>
+<td>
+Dreadlord
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.500
+</td>
+<td>
+1.000
+</td>
+<td>
+2.500
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroCryptLord.blp" />
+</td>
+<td>
+Crypt Lord
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.200
+</td>
+<td>
+1.200
+</td>
+<td>
+1.600
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNKeeperOfTheGrove.blp" />
+</td>
+<td>
+Keeper of the Grove
+</td>
+<td>
+Strength
+</td>
+<td>
+1.800
+</td>
+<td>
+1.500
+</td>
+<td>
+2.700
+</td>
+<td>
+Hover
+</td>
+<td>
+320.000
+</td>
+</t" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestessOfTheMoon.blp" />
+</td>
+<td>
+Priestess of the Moon
+</td>
+<td>
+Strength
+</td>
+<td>
+1.900
+</td>
+<td>
+1.500
+</td>
+<td>
+2.600
+</td>
+<td>
+Hover
+</td>
+<td>
+320.000
+</td>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroDemonHunter.blp" />
+</td>
+<td>
+Demon Hunter
+</td>
+<td>
+Strength
+</td>
+<td>
+2.400
+</td>
+<td>
+1.500
+</td>
+<td>
+2.100
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroWarden.blp" />
+</td>
+<td>
+Warden
+</td>
+<td>
+Strength
+</td>
+<td>
+2.400
+</td>
+<td>
+1.600
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp" />
+</td>
+<td>
+Alchemist
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.300
+</td>
+<td>
+1.000
+</td>
+<td>
+2.000
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" />
+</td>
+<td>
+Sea Witch
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.000
+</td>
+<td>
+None
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
+</td>
+<td>
+Tinker
+</td>
+<td>
+Strength
+</td>
+<td>
+2.400
+</td>
+<td>
+1.000
+</td>
+<td>
+2.600
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" />
+</td>
+<td>
+Beastmaster
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.900
+</td>
+<td>
+1.300
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" />
+</td>
+<td>
+Brewmaster
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.000
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" />
+</td>
+<td>
+Dark Ranger
+</td>
+<td>
+Strength
+</td>
+<td>
+1.900
+</td>
+<td>
+1.500
+</td>
+<td>
+2.600
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroAvatarOfFlame.blp" />
+</td>
+<td>
+Firelord
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.600
+</td>
+<td>
+2.500
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
+</td>
+<td>
+Pit Lord
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.200
+</td>
+<td>
+1.300
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+300.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNeredarRed.blp" />
+</td>
+<td>
+Eredar Warlock
+</td>
+<td>
+Strength
+</td>
+<td>
+1.500
+</td>
+<td>
+2.200
+</td>
+<td>
+3.000
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />
+</td>
+<td>
+Elder Sage
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.200
+</td>
+<td>
+2.800
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolgElder.blp" />
+</td>
+<td>
+Furbolg Ursa Warrior
+</td>
+<td>
+Strength
+</td>
+<td>
+2.400
+</td>
+<td>
+1.600
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMountainGiant.blp" />
+</td>
+<td>
+Mountain Giant
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.200
+</td>
+<td>
+1.300
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+300.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp" />
+</td>
+<td>
+Ranger
+</td>
+<td>
+Strength
+</td>
+<td>
+1.900
+</td>
+<td>
+1.500
+</td>
+<td>
+2.600
+</td>
+<td>
+Foot
+</td>
+<td>
+350.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" />
+</td>
+<td>
+Wizard
+</td>
+<td>
+Strength
+</td>
+<td>
+1.800
+</td>
+<td>
+1.000
+</td>
+<td>
+3.200
+</td>
+<td>
+Foot
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSorceress.blp" />
+</td>
+<td>
+Sorceress
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.000
+</td>
+<td>
+None
+</td>
+<td>
+300.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" />
+</td>
+<td>
+Hydromancer
+</td>
+<td>
+Strength
+</td>
+<td>
+1.800
+</td>
+<td>
+1.000
+</td>
+<td>
+3.200
+</td>
+<td>
+Hover
+</td>
+<td>
+320.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
+</td>
+<td>
+U. S. General
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" />
+</td>
+<td>
+Military Tribune
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroArchMage.blp" />
+</td>
+<td>
+Gandalf the Grey
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.000
+</td>
+<td>
+Foot
+</td>
+<td>
+270.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSaruman.blp" />
+</td>
+<td>
+Saruman the White
+</td>
+<td>
+Strength
+</td>
+<td>
+2.000
+</td>
+<td>
+1.000
+</td>
+<td>
+3.000
+</td>
+<td>
+Foot
+</td>
+<td>
+270.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" />
+</td>
+<td>
+Brewmaster
+</td>
+<td>
+Intelligence
+</td>
+<td>
+3.000
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeneralGrievous.blp" />
+</td>
+<td>
+Supreme Martial Commander
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroDooku.blp" />
+</td>
+<td>
+Darth Tyranus
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNYoda.blp" />
+</td>
+<td>
+Jedi Master
+</td>
+<td>
+Intelligence
+</td>
+<td>
+2.700
+</td>
+<td>
+1.500
+</td>
+<td>
+2.250
+</td>
+<td>
+Foot
+</td>
+<td>
+290.000
+</td>
+</tr>" )
+	call PreloadEnd( 2.0 )
+
+endfunction
+
+

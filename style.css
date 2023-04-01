@@ -2,3 +2,11 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+h1 {
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 0.8em;
+}

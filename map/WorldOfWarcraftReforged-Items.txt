@@ -1,0 +1,2277 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Items:
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+</td>
+<td>
+
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" />
+</td>
+<td>
+Potion of Greater Healing
+</td>
+<td>
+3
+</td>
+<td>
+240
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" />
+</td>
+<td>
+Health Stone
+</td>
+<td>
+4
+</td>
+<td>
+480
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp" />
+</td>
+<td>
+Potion of Invulnerability
+</td>
+<td>
+3
+</td>
+<td>
+720
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNecklace.blp" />
+</td>
+<td>
+Talisman of Everlasting
+</td>
+<td>
+7
+</td>
+<td>
+960
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" />
+</td>
+<td>
+Potion of Greater Mana
+</td>
+<td>
+3
+</td>
+<td>
+240
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaStone.blp" />
+</td>
+<td>
+Mana Stone
+</td>
+<td>
+4
+</td>
+<td>
+480
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp" />
+</td>
+<td>
+Wand of Mana Stealing
+</td>
+<td>
+3
+</td>
+<td>
+720
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMedalionOfCourage.blp" />
+</td>
+<td>
+Talisman of Spell Protection
+</td>
+<td>
+7
+</td>
+<td>
+960
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" />
+</td>
+<td>
+Bow of Fire
+</td>
+<td>
+7
+</td>
+<td>
+240
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcaniteMelee.blp" />
+</td>
+<td>
+Mithril Long Sword
+</td>
+<td>
+7
+</td>
+<td>
+480
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" />
+</td>
+<td>
+Demon Slayer Axe
+</td>
+<td>
+7
+</td>
+<td>
+720
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcaniteRanged.blp" />
+</td>
+<td>
+Blessed Dragon Lance
+</td>
+<td>
+7
+</td>
+<td>
+960
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
+</td>
+<td>
+Light Leather Armor
+</td>
+<td>
+7
+</td>
+<td>
+240
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" />
+</td>
+<td>
+Plated Helmet
+</td>
+<td>
+7
+</td>
+<td>
+480
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp" />
+</td>
+<td>
+Heavy Plated Shield
+</td>
+<td>
+7
+</td>
+<td>
+504
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp" />
+</td>
+<td>
+Blessed Champion Armor
+</td>
+<td>
+7
+</td>
+<td>
+672
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" />
+</td>
+<td>
+Tiny Flame Tower
+</td>
+<td>
+1
+</td>
+<td>
+504
+</td>
+<td>
+240
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFrostTower.blp" />
+</td>
+<td>
+Tiny Cold Tower
+</td>
+<td>
+1
+</td>
+<td>
+336
+</td>
+<td>
+120
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedDeathTower.blp" />
+</td>
+<td>
+Tiny Death Tower
+</td>
+<td>
+1
+</td>
+<td>
+672
+</td>
+<td>
+360
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" />
+</td>
+<td>
+Scroll of Protection
+</td>
+<td>
+1
+</td>
+<td>
+168
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScrollOfHealing.blp" />
+</td>
+<td>
+Scroll of Restoration
+</td>
+<td>
+5
+</td>
+<td>
+336
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" />
+</td>
+<td>
+Scroll of Resurrection
+</td>
+<td>
+0
+</td>
+<td>
+504
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAnkh.blp" />
+</td>
+<td>
+Ankh of Reincarnation
+</td>
+<td>
+4
+</td>
+<td>
+672
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" />
+</td>
+<td>
+Wand of Neutralization
+</td>
+<td>
+2
+</td>
+<td>
+63
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" />
+</td>
+<td>
+Wand of the Wind
+</td>
+<td>
+4
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWandSkull.blp" />
+</td>
+<td>
+Wand of Reanimation
+</td>
+<td>
+5
+</td>
+<td>
+148
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" />
+</td>
+<td>
+Wand of Illusion
+</td>
+<td>
+2
+</td>
+<td>
+36
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+</td>
+<td>
+Rune of Speed (Runeforger)
+</td>
+<td>
+0
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+</td>
+<td>
+Rune of Dispel Magic
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+</td>
+<td>
+Rune of Restoration (Runeforger)
+</td>
+<td>
+0
+</td>
+<td>
+60
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+</td>
+<td>
+Rune of Rebirth (Runeforger)
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+</td>
+<td>
+Green Dragon Whelp Egg
+</td>
+<td>
+3
+</td>
+<td>
+72
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+</td>
+<td>
+Green Drake Egg
+</td>
+<td>
+4
+</td>
+<td>
+115
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+</td>
+<td>
+Tharifas Egg
+</td>
+<td>
+5
+</td>
+<td>
+156
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+</td>
+<td>
+Green Dragon Egg
+</td>
+<td>
+6
+</td>
+<td>
+180
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_10.blp" />
+</td>
+<td>
+Pickpocketing
+</td>
+<td>
+0
+</td>
+<td>
+360
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" />
+</td>
+<td>
+Magical Creep Summoner
+</td>
+<td>
+0
+</td>
+<td>
+192
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" />
+</td>
+<td>
+Magical Cutter
+</td>
+<td>
+0
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" />
+</td>
+<td>
+Bundle of Lumber
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDust.blp" />
+</td>
+<td>
+Magical Seed
+</td>
+<td>
+0
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDust.blp" />
+</td>
+<td>
+Magical Seed (3)
+</td>
+<td>
+0
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpellShieldAmulet.blp" />
+</td>
+<td>
+Amulet of Spell Shield
+</td>
+<td>
+6
+</td>
+<td>
+144
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDustOfAppearance.blp" />
+</td>
+<td>
+Dust of Appearance
+</td>
+<td>
+1
+</td>
+<td>
+18
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAlleriaFlute.blp" />
+</td>
+<td>
+Alleria's Flute of Accuracy
+</td>
+<td>
+4
+</td>
+<td>
+96
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNJanggo.blp" />
+</td>
+<td>
+Ancient Janggo of Endurance
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPipeOfInsight.blp" />
+</td>
+<td>
+Khadgar's Pipe of Insight
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHornOfDoom.blp" />
+</td>
+<td>
+Legion Doom-Horn
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTomeOfRetraining.blp" />
+</td>
+<td>
+Tome of Retraining
+</td>
+<td>
+3
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp" />
+</td>
+<td>
+Scourge Bone Chimes
+</td>
+<td>
+4
+</td>
+<td>
+96
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" />
+</td>
+<td>
+Warsong Battle Drums
+</td>
+<td>
+0
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" />
+</td>
+<td>
+Warsong Battle Drums
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLionHorn.blp" />
+</td>
+<td>
+The Lion Horn of Stormwind
+</td>
+<td>
+4
+</td>
+<td>
+96
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Chaos Stone Fragment
+</td>
+<td>
+8
+</td>
+<td>
+1200
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" />
+</td>
+<td>
+Order Stone Fragment
+</td>
+<td>
+7
+</td>
+<td>
+1200
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Orb of Engineering
+</td>
+<td>
+6
+</td>
+<td>
+144
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp" />
+</td>
+<td>
+Dwarven Celestial Orb of Souls
+</td>
+<td>
+0
+</td>
+<td>
+2400
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfTheSun.blp" />
+</td>
+<td>
+Orb of Sun
+</td>
+<td>
+3
+</td>
+<td>
+60
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMageOrb.blp" />
+</td>
+<td>
+Orb of Orbs
+</td>
+<td>
+8
+</td>
+<td>
+1200
+</td>
+<td>
+3000
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGlove.blp" />
+</td>
+<td>
+Gloves of Haste
+</td>
+<td>
+2
+</td>
+<td>
+30
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingSalve.blp" />
+</td>
+<td>
+Healing Salve
+</td>
+<td>
+1
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+</td>
+<td>
+Claws of Attack +3
+</td>
+<td>
+0
+</td>
+<td>
+12
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+</td>
+<td>
+Claws of Attack +5
+</td>
+<td>
+2
+</td>
+<td>
+30
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+</td>
+<td>
+Claws of Attack +9
+</td>
+<td>
+3
+</td>
+<td>
+72
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+</td>
+<td>
+Claws of Attack +12
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+</td>
+<td>
+Claws of Attack +15
+</td>
+<td>
+7
+</td>
+<td>
+192
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" />
+</td>
+<td>
+Cloak of Shadows
+</td>
+<td>
+1
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp" />
+</td>
+<td>
+Cloak of Flames
+</td>
+<td>
+5
+</td>
+<td>
+0
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGauntletsOfOgrePower.blp" />
+</td>
+<td>
+Gauntlets of Ogre Strength +3
+</td>
+<td>
+1
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHelmOfValor.blp" />
+</td>
+<td>
+Helm of Valor
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHoodOfCunning.blp" />
+</td>
+<td>
+Hood of Cunning
+</td>
+<td>
+5
+</td>
+<td>
+120
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+</td>
+<td>
+Ring of Protection +1
+</td>
+<td>
+0
+</td>
+<td>
+12
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+</td>
+<td>
+Ring of Protection +2
+</td>
+<td>
+0
+</td>
+<td>
+30
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+</td>
+<td>
+Ring of Protection +3
+</td>
+<td>
+2
+</td>
+<td>
+30
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+</td>
+<td>
+Ring of Protection +4
+</td>
+<td>
+3
+</td>
+<td>
+72
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+</td>
+<td>
+Ring of Protection +5
+</td>
+<td>
+6
+</td>
+<td>
+144
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingSkull.blp" />
+</td>
+<td>
+Ring of Regeneration
+</td>
+<td>
+3
+</td>
+<td>
+72
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp" />
+</td>
+<td>
+Orb of Frost
+</td>
+<td>
+7
+</td>
+<td>
+192
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp" />
+</td>
+<td>
+Orb of Corruption
+</td>
+<td>
+3
+</td>
+<td>
+90
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" />
+</td>
+<td>
+Orb of Fire
+</td>
+<td>
+3
+</td>
+<td>
+60
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" />
+</td>
+<td>
+Orb of Fire
+</td>
+<td>
+3
+</td>
+<td>
+60
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" />
+</td>
+<td>
+Orb of Lightning
+</td>
+<td>
+3
+</td>
+<td>
+90
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" />
+</td>
+<td>
+Orb of Lightning
+</td>
+<td>
+0
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp" />
+</td>
+<td>
+Orb of Slow
+</td>
+<td>
+3
+</td>
+<td>
+96
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp" />
+</td>
+<td>
+Orb of Venom
+</td>
+<td>
+3
+</td>
+<td>
+78
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +1
+</td>
+<td>
+0
+</td>
+<td>
+12
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +2
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +3
+</td>
+<td>
+0
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +4
+</td>
+<td>
+0
+</td>
+<td>
+72
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +5
+</td>
+<td>
+0
+</td>
+<td>
+84
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +6
+</td>
+<td>
+0
+</td>
+<td>
+96
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +7
+</td>
+<td>
+0
+</td>
+<td>
+132
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +8
+</td>
+<td>
+0
+</td>
+<td>
+168
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +9
+</td>
+<td>
+0
+</td>
+<td>
+216
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+</td>
+<td>
+Shadow Orb +10
+</td>
+<td>
+0
+</td>
+<td>
+300
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" />
+</td>
+<td>
+Amulet of Recall
+</td>
+<td>
+0
+</td>
+<td>
+60
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" />
+</td>
+<td>
+Ancestral Staff
+</td>
+<td>
+0
+</td>
+<td>
+720
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp" />
+</td>
+<td>
+Mantle of Intelligence +3
+</td>
+<td>
+1
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
+</td>
+<td>
+Demonic Figurine
+</td>
+<td>
+6
+</td>
+<td>
+168
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAzureDragon.blp" />
+</td>
+<td>
+Blue Drake Egg
+</td>
+<td>
+5
+</td>
+<td>
+132
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
+</td>
+<td>
+Engraved Scale
+</td>
+<td>
+6
+</td>
+<td>
+168
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" />
+</td>
+<td>
+Healing Wards
+</td>
+<td>
+4
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp" />
+</td>
+<td>
+Idol of the Wild
+</td>
+<td>
+5
+</td>
+<td>
+132
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" />
+</td>
+<td>
+Spiked Collar
+</td>
+<td>
+5
+</td>
+<td>
+132
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" />
+</td>
+<td>
+Ring of Superiority
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" />
+</td>
+<td>
+Enchanted Gemstone
+</td>
+<td>
+0
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGem.blp" />
+</td>
+<td>
+Green Gemstone
+</td>
+<td>
+0
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" />
+</td>
+<td>
+Jewel Amulet
+</td>
+<td>
+0
+</td>
+<td>
+48
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTome.blp" />
+</td>
+<td>
+Novice Enchanting Formula
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" />
+</td>
+<td>
+Advanced Enchanting Formula
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" />
+</td>
+<td>
+Adept Enchanting Formula
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp" />
+</td>
+<td>
+Master Enchanting Formula
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp" />
+</td>
+<td>
+Tiny Pirate Ship
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" />
+</td>
+<td>
+Treasure Map
+</td>
+<td>
+0
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSimple Compass1.2.blp" />
+</td>
+<td>
+Compass
+</td>
+<td>
+4
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPieceOfShip.blp" />
+</td>
+<td>
+Navigation Wheel
+</td>
+<td>
+6
+</td>
+<td>
+72
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp" />
+</td>
+<td>
+Sentry Wards
+</td>
+<td>
+2
+</td>
+<td>
+36
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp" />
+</td>
+<td>
+Stasis Traps
+</td>
+<td>
+2
+</td>
+<td>
+36
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" />
+</td>
+<td>
+Mana Wards
+</td>
+<td>
+4
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" />
+</td>
+<td>
+Healing Wards
+</td>
+<td>
+4
+</td>
+<td>
+108
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_12.blp" />
+</td>
+<td>
+Small Bill
+</td>
+<td>
+5
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_09.blp" />
+</td>
+<td>
+Bill
+</td>
+<td>
+5
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_03.blp" />
+</td>
+<td>
+Large Bill
+</td>
+<td>
+5
+</td>
+<td>
+24
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAquamarineRing.blp" />
+</td>
+<td>
+Ring of the Trading Guild
+</td>
+<td>
+5
+</td>
+<td>
+34
+</td>
+<td>
+10
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWindOrb.blp" />
+</td>
+<td>
+Orb of Wind
+</td>
+<td>
+7
+</td>
+<td>
+192
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call Preload( "
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRoyal.blp" />
+</td>
+<td>
+Orb of Royality
+</td>
+<td>
+7
+</td>
+<td>
+192
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call PreloadEnd( 1.5 )
+
+endfunction
+
+

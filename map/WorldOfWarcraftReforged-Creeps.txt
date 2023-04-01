@@ -1,0 +1,30 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Creeps:
+<tr>
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+</td>
+<td>
+Bandit
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+<td>
+105
+</td>
+<td>
+0
+</td>
+</tr>" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
