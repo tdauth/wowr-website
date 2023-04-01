@@ -1,0 +1,19 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Players:
+<tr>
+<td>
+Barade#2569
+</td>
+<td>
+!,(!(-(S:(C35g(S!+g(S!+g(D>(S:(S:(S:(S:(U/(-(!6Z(-(!6Z(E,(C35g(C35g(S:(S:(!()(SG(
+</td>
+</tr>
+" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
