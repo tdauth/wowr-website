@@ -2,7 +2,7 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Professions:
+<!-- Professions generated with chat command "-website". -->
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" title="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" />

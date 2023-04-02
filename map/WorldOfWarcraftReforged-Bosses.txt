@@ -2,7 +2,6 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Bosses:
 <!-- Bosses generated with chat command "-website". -->" )
 	call Preload( "
 <tr id="">
@@ -3461,7 +3460,7 @@ Foot
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.4 )
+	call PreloadEnd( 0.3 )
 
 endfunction
 

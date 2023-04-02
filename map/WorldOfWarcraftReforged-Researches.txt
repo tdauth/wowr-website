@@ -2,7 +2,7 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Researches:
+<!-- Researches generated with chat command "-website". -->
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" />
@@ -4280,6 +4280,8 @@ Allows unit abilities to target units with a level above their initial level: Po
 	call Preload( "
 </tr>
 " )
+	call Preload( "
+<!-- Researches generated with chat command "-website". -->" )
 	call PreloadEnd( 0.2 )
 
 endfunction

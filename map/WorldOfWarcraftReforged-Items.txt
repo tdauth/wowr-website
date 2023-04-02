@@ -4,47 +4,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
-</td>" )
-	call Preload( "
-<td>
-
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
--
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" title="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" />
 </td>" )
 	call Preload( "
@@ -634,7 +593,7 @@ Plated Shield made of very durable metals. Grants +8 defense and 70% protection 
 </td>" )
 	call Preload( "
 <td>
-504
+720
 </td>" )
 	call Preload( "
 <td>
@@ -1044,7 +1003,7 @@ Allows the Hero to cast Cyclone. Cyclone tosses a target enemy unit into the air
 </td>" )
 	call Preload( "
 <td>
-108
+189
 </td>" )
 	call Preload( "
 <td>
@@ -7457,7 +7416,7 @@ Plated Shield made of very durable metals. Grants +8 defense and 70% protection 
 </td>" )
 	call Preload( "
 <td>
-504
+720
 </td>" )
 	call Preload( "
 <td>
@@ -7867,7 +7826,7 @@ Allows the Hero to cast Cyclone. Cyclone tosses a target enemy unit into the air
 </td>" )
 	call Preload( "
 <td>
-108
+189
 </td>" )
 	call Preload( "
 <td>
@@ -12471,7 +12430,7 @@ Drops a Mobile Radar to spy upon an area for 180 seconds. It detects only enemy 
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 3.2 )
+	call PreloadEnd( 3.1 )
 
 endfunction
 

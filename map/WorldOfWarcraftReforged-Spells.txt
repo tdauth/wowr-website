@@ -2,7 +2,8 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Spells:
+<!-- Spells generated with chat command "-website". -->" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" />
@@ -13,11 +14,11 @@ Chain Lightning
 </td>" )
 	call Preload( "
 <td>
-Calls forth a bolt of lightning that bounces up to 4 times, dealing 85 damage on the primary target. Each jump deals less damage.
+Hurls a bolt of damaging lightning at a target enemy that jumps to nearby enemies. Each jump deals less damage. <br/><br/><div style="color: #ffcc00">Increases the damage and number of targets with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -26,15 +27,6 @@ Calls forth a bolt of lightning that bounces up to 4 times, dealing 85 damage on
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -50,11 +42,10 @@ Wind Walk
 </td>" )
 	call Preload( "
 <td>
-Allows the Blademaster to become invisible, and move 10% faster for 20 seconds. If the Blademaster attacks a unit to break invisibility, the attack will do 40 bonus damage.
-</td>" )
+Allows the Blademaster to become invisible, and move faster for a set amount of time. When the Blademaster attacks a unit to break invisibility, he will deal bonus damage.  <br/><br/><div style="color: #ffcc00">Increases the movement speed, damage and" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -63,15 +54,6 @@ Allows the Blademaster to become invisible, and move 10% faster for 20 seconds. 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -87,11 +69,11 @@ Carrion Swarm
 </td>" )
 	call Preload( "
 <td>
-Sends a horde of bats to deal 75 damage to each enemy unit in a cone.
+Sends a horde of bats to damage enemies. <br/><br/><div style="color: #ffcc00">Increases the damage every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -100,15 +82,6 @@ Sends a horde of bats to deal 75 damage to each enemy unit in a cone.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -124,11 +97,11 @@ Death Coil
 </td>" )
 	call Preload( "
 <td>
-A coil of death that can heal a friendly Undead or Demon unit for 200 hit points, or deal half damage to an enemy living unit.
+A coil of death that can damage an enemy living unit, or heal a friendly Undead or Demon unit.  <br/><br/><div style="color: #ffcc00">Increases the healed hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -137,15 +110,6 @@ A coil of death that can heal a friendly Undead or Demon unit for 200 hit points
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -161,11 +125,11 @@ Shockwave
 </td>" )
 	call Preload( "
 <td>
-A wave of force that ripples outward, causing 75 damage to land units in a line.
+A wave of force that ripples out from the Hero, causing damage to land units in a line. <br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -174,15 +138,6 @@ A wave of force that ripples outward, causing 75 damage to land units in a line.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -198,11 +153,11 @@ Healing Wave
 </td>" )
 	call Preload( "
 <td>
-Calls forth a wave of healing energy that bounces up to 3 times, healing 130 damage on the primary target. Each jump heals less damage.
+Calls forth a wave of energy that heals a target and bounces to nearby friendlies. Each bounce heals less damage.<br/><br/><div style="color: #ffcc00">Increases the healed damage and number of targets with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -211,15 +166,6 @@ Calls forth a wave of healing energy that bounces up to 3 times, healing 130 dam
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -235,11 +181,11 @@ Scout
 </td>" )
 	call Preload( "
 <td>
-Summons an Owl Scout, which can be used to scout.|nCan see invisible units. |nLasts 60 seconds.
+Temporarily summons an Owl Scout, which can be used to scout the map. <br/>Can see invisible units.<br/><br/><div style="color: #ffcc00">Increases the movement speed and sight range of the Owl Scout with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -248,15 +194,6 @@ Summons an Owl Scout, which can be used to scout.|nCan see invisible units. |nLa
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -272,11 +209,11 @@ Blizzard
 </td>" )
 	call Preload( "
 <td>
-Calls down 6 freezing ice shard waves; each wave deals 30 damage to units in an area.
+Calls down waves of freezing ice shards that damage units in a target area. <br/><br/><div style="color: #ffcc00">Increases the number of waves and damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -285,15 +222,6 @@ Calls down 6 freezing ice shard waves; each wave deals 30 damage to units in an 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -309,11 +237,11 @@ Flame Strike
 </td>" )
 	call Preload( "
 <td>
-Conjures a pillar of flame that burns ground units for 45 damage a second for 3 seconds. As the pillar of flame subsides, units within the fire continue to take minor damage.
+Conjures a pillar of fire which damages ground units in a target area over time.<br/><br/><div style="color: #ffcc00">Increases the damage and area of effect with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -322,15 +250,6 @@ Conjures a pillar of flame that burns ground units for 45 damage a second for 3 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -346,11 +265,11 @@ Holy Light
 </td>" )
 	call Preload( "
 <td>
-A holy light that can heal a friendly living unit for 200 or deal half damage to an enemy Undead unit.
+A holy light that can heal a friendly living unit or damage an enemy Undead unit.<br/><br/><div style="color: #ffcc00">Increases the healed hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -359,15 +278,6 @@ A holy light that can heal a friendly living unit for 200 or deal half damage to
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -383,11 +293,11 @@ Firebolt
 </td>" )
 	call Preload( "
 <td>
-Hurls a fiery bolt that stuns a target enemy unit 2 seconds and causes 100 damage.
+Hurls a fiery bolt that stuns a target enemy unit. <br/><br/><div style="color: #ffcc00">Increases the damage and stun duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -396,15 +306,6 @@ Hurls a fiery bolt that stuns a target enemy unit 2 seconds and causes 100 damag
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -420,10 +321,11 @@ Pocket Factory
 </td>" )
 	call Preload( "
 <td>
-Creates a factory which automatically constructs Clockwerk Goblins.|n|nClockwerk Goblins have 80 hit points, deal 12 - 14 damage, and explode upon death, causing up to 30 damage to nearby enemy units.|nFactory lasts 30 seconds. |n|n|cffffcc00Clockwerk" )
+Creates a factory which automatically constructs Clockwerk Goblins. These artificial Goblins, in addition to being potent attackers, explode upon death, causing damage to nearby enemy units.
+</td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -432,15 +334,6 @@ Creates a factory which automatically constructs Clockwerk Goblins.|n|nClockwerk
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -456,11 +349,11 @@ Summon Bear
 </td>" )
 	call Preload( "
 <td>
-Summons a powerful 600 hit point bear to attack your enemies. |nLasts 70 seconds.
+Summons a powerful bear to attack your enemies. <br/>Lasts 70 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats of the summoned bear with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -469,15 +362,6 @@ Summons a powerful 600 hit point bear to attack your enemies. |nLasts 70 seconds
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -493,11 +377,11 @@ Healing Spray
 </td>" )
 	call Preload( "
 <td>
-Sprays 3 waves of healing mist; each wave heals 30 damage to all friendly units in an area.
+Sprays waves of healing mist that heal friendly units in a target area.<br/><br/><div style="color: #ffcc00">Increases the number of waves, area of effect and healed life with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -506,15 +390,6 @@ Sprays 3 waves of healing mist; each wave heals 30 damage to all friendly units 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -530,11 +405,11 @@ Preservation
 </td>" )
 	call Preload( "
 <td>
-Teleports a target unit to its highest level town hall. Has a cooldown of 0 seconds.
+Teleports a target unit to its highest level town hall.<br/><br/><div style="color: #ffcc00">Decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -543,15 +418,6 @@ Teleports a target unit to its highest level town hall. Has a cooldown of 0 seco
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -567,11 +433,11 @@ Silence
 </td>" )
 	call Preload( "
 <td>
-Stops all enemies in a small target area from casting spells for 16 seconds.
+Stops all enemies in a target area from casting spells.<br/><br/><div style="color: #ffcc00">Increases the area of effect and duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -580,15 +446,6 @@ Stops all enemies in a small target area from casting spells for 16 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -604,11 +461,11 @@ Disarmament
 </td>" )
 	call Preload( "
 <td>
-Stops all enemies in a target area from attacking melee and ranged for 3.
+Stops all enemies in a target area from attacking melee and ranged for some time.<br/><br/><div style="color: #ffcc00">Increases the area of effect and duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -617,15 +474,6 @@ Stops all enemies in a target area from attacking melee and ranged for 3.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -641,11 +489,11 @@ Cyclone
 </td>" )
 	call Preload( "
 <td>
-Tosses a target non-mechanical enemy unit into the air, rendering it unable to move, attack or cast spells, and stopping others from attacking or casting on it. |nLasts 20 seconds.
-</td>" )
+Tosses a target non-mechanical enemy unit into the air, rendering it unable to move, attack or cast spells, and stopping others from attacking or casting on it. <br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
+</td" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -654,15 +502,6 @@ Tosses a target non-mechanical enemy unit into the air, rendering it unable to m
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -678,11 +517,11 @@ Entangling Roots
 </td>" )
 	call Preload( "
 <td>
-Causes roots to burst from the ground, immobilizing and disarming a target enemy unit for 9 seconds, and dealing 15 damage per second.
+Causes roots to burst from the ground, immobilizing, disarming and damaging a target enemy temporarily. <br/><br/><div style="color: #ffcc00">Increases damage and duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -691,15 +530,6 @@ Causes roots to burst from the ground, immobilizing and disarming a target enemy
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -715,11 +545,11 @@ Forked Lightning
 </td>" )
 	call Preload( "
 <td>
-Calls forth a cone of lightning on a target enemy unit, hitting up to 3 enemy units for 85 damage.
+Calls forth a cone of lightning to damage enemies.<br/><br/><div style="color: #ffcc00">Increases the damage per target with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -728,15 +558,6 @@ Calls forth a cone of lightning on a target enemy unit, hitting up to 3 enemy un
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -752,11 +573,10 @@ Mana Burn
 </td>" )
 	call Preload( "
 <td>
-Sends a bolt of negative energy that burns up to 50 points of a target enemy unit's mana. The mana combusts, dealing damage equal to the amount of mana burned.
-</td>" )
+Sends a bolt of negative energy that burns a target enemy unit's mana. Burned mana combusts, dealing damage to the target equal to the amount of mana burned. <br/><br/><div style="color: #ffcc00">Increases the burned up mana and decreases the cooldown" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -765,15 +585,6 @@ Sends a bolt of negative energy that burns up to 50 points of a target enemy uni
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -789,11 +600,10 @@ Impale
 </td>" )
 	call Preload( "
 <td>
-Slams the ground with the Crypt Lord's massive claws, shooting spiked tendrils out in a straight line, dealing 60 damage and hurling enemy ground units into the air in their wake, stunning them for 2 seconds.
-</td>" )
+Slams the ground with the Crypt Lord's massive claws, shooting spiked tendrils out in a straight line, dealing damage and hurling enemy ground units into the air in their wake. <br/><br/><div style="color: #ffcc00">Increases the damage, stun duration " )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -802,15 +612,6 @@ Slams the ground with the Crypt Lord's massive claws, shooting spiked tendrils o
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -826,11 +627,10 @@ Rain of Fire
 </td>" )
 	call Preload( "
 <td>
-Calls down waves of fire that damage units in an area. Each wave deals 25 initial damage and 5 damage per second for 3 seconds. |nLasts for 6 waves.
-</td>" )
+Calls down waves of fire that damage units in an area. Each wave deals initial damage and then burns enemies for 3 seconds.<br/><br/><div style="color: #ffcc00">Increases the damage per shard, damage per second from burning per target, maximum wave da" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -839,15 +639,6 @@ Calls down waves of fire that damage units in an area. Each wave deals 25 initia
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -863,11 +654,10 @@ Storm Bolt
 </td>" )
 	call Preload( "
 <td>
-Throws a magical hammer at a target enemy unit, dealing 100 damage and stunning the target for 5 seconds.
-</td>" )
+A magical hammer that is thrown at an enemy unit, causing damage and stunning the target. <br/><br/><div style="color: #ffcc00">Level 1</div> - 100 damage, 5 second stun. <br/><div style="color: #ffcc00">Level 2</div> - 200 damage, 7 second stun. <br/" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -876,15 +666,6 @@ Throws a magical hammer at a target enemy unit, dealing 100 damage and stunning 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -900,11 +681,11 @@ Frost Nova
 </td>" )
 	call Preload( "
 <td>
-Blasts enemy units with a wave of frost that deals 100 damage to the target, and 50 nova damage. Cold damage slows units' movement and attack rate for 4 seconds.
+Blasts enemy units around a target enemy unit with a wave of damaging frost that slows movement and attack rate. <br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -913,15 +694,6 @@ Blasts enemy units with a wave of frost that deals 100 damage to the target, and
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -937,11 +709,11 @@ Curse
 </td>" )
 	call Preload( "
 <td>
-Curses a target enemy unit, causing it to have a 33% chance to miss on an attack. |nLasts 120 seconds.
+Curses a target enemy unit, causing it to have a chance to miss on an attack. <br/>Lasts 120 seconds.<br/><br/><div style="color: #ffcc00">Increases the chance with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -950,15 +722,6 @@ Curses a target enemy unit, causing it to have a 33% chance to miss on an attack
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -974,11 +737,11 @@ Rejuvenation
 </td>" )
 	call Preload( "
 <td>
-Heals a target friendly unit for 400 hit points over 12 seconds.
+Heals a target friendly unit for hit points over 12 seconds.<br/><br/><div style="color: #ffcc00">Increases the gained hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -987,15 +750,6 @@ Heals a target friendly unit for 400 hit points over 12 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1011,11 +765,11 @@ Raise Dead
 </td>" )
 	call Preload( "
 <td>
-Raises 1 skeleton and 1 skeleton mage from a corpse.
+Raises 1 skeleton and 1 skeleton mage from a corpse. <br/><br/><div style="color: #ffcc00">Increases the stats of the summoned units with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1024,15 +778,6 @@ Raises 1 skeleton and 1 skeleton mage from a corpse.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1048,11 +793,11 @@ Cannibalize
 </td>" )
 	call Preload( "
 <td>
-Consumes a nearby corpse to heal 16 hit points per second up to 800 hit points.
+Consumes a nearby corpse to heal hit points per second up to a maximum of hit points.<br/><br/><div style="color: #ffcc00">Increases the hit points per second and maximum hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1061,15 +806,6 @@ Consumes a nearby corpse to heal 16 hit points per second up to 800 hit points.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1085,11 +821,11 @@ Hurl Boulder
 </td>" )
 	call Preload( "
 <td>
-A magical boulder that is thrown at an enemy unit, causing 100 points of damage and stunning the target for 2 seconds.
+A magical boulder that is thrown at an enemy unit, causing damage and stunning the target for some time. <br/><br/><div style="color: #ffcc00">Increases the caused damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1098,15 +834,6 @@ A magical boulder that is thrown at an enemy unit, causing 100 points of damage 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1122,11 +849,11 @@ Soul Burn
 </td>" )
 	call Preload( "
 <td>
-Wreaths an enemy unit in magical flames which cause 7 damage per second, prevent the casting of spells, and reduce attack damage by 50%.|nLasts 16 seconds.
+Wreaths an enemy unit in magical flames which cause damage over time, prevent the casting of spells, and reduce attack damage by 50%.<br/><br/><div style="color: #ffcc00">Increases the damaget and duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1135,15 +862,6 @@ Wreaths an enemy unit in magical flames which cause 7 damage per second, prevent
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1159,11 +877,11 @@ Fan of Knives
 </td>" )
 	call Preload( "
 <td>
-The Warden hurls a flurry of knives, damaging nearby enemies. Each knife does 75 damage.
+The Warden hurls a flurry of knives, damaging nearby enemies. <br/><br/><div style="color: #ffcc00">Increases the damage per target with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1172,15 +890,6 @@ The Warden hurls a flurry of knives, damaging nearby enemies. Each knife does 75
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1196,11 +905,10 @@ Breath of Fire
 </td>" )
 	call Preload( "
 <td>
-Breathes a cone of fire at enemy units, dealing 65 initial damage. Units that have Drunken Haze on them will ignite and burn for 7 damage per second over 5 seconds.
-</td>" )
+Breathes a cone of fire at enemy units which deals damage. Units that have Drunken Haze on them will ignite and take burn damage over time. <br/>Lasts 5 seconds.<br/><br/><div style="color: #ffcc00">Increases the initial damage and damage per second w" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1209,15 +917,6 @@ Breathes a cone of fire at enemy units, dealing 65 initial damage. Units that ha
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1233,11 +932,10 @@ Control Magic
 </td>" )
 	call Preload( "
 <td>
-Takes control of an enemy summoned unit. The mana cost is 45% of the summoned unit's current hit points.
-</td>" )
+Takes control of an enemy summoned unit. The mana cost is a percentage of the summoned unit's current hit points.<br/><br/><div style="color: #ffcc00">Decreases the mana cost for hit points and increases the maximum creep level with every level.</div>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1246,15 +944,6 @@ Takes control of an enemy summoned unit. The mana cost is 45% of the summoned un
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1270,11 +959,11 @@ Repair
 </td>" )
 	call Preload( "
 <td>
-Repairs mechanical units and structures at the cost of resources.
+Repairs mechanical units and structures at the cost of resources. <br/><br/><div style="color: #ffcc00">Increases the ratio of repaired hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1283,15 +972,6 @@ Repairs mechanical units and structures at the cost of resources.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1307,11 +987,11 @@ Harvest
 </td>" )
 	call Preload( "
 <td>
-Summons a Bundle of Lumber and Gold Coins.
+Summons Bundle of Lumbers and Gold Coins.<br/><br/><div style="color: #ffcc00">Decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1320,15 +1000,6 @@ Summons a Bundle of Lumber and Gold Coins.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1344,11 +1015,11 @@ Mass Invisibility
 </td>" )
 	call Preload( "
 <td>
-Makes targeted units invisible. If the units attack, use an ability or cast a spell, they will become visible. |nLasts 120 seconds.
+Makes targeted units invisible. If the units attack, use an ability or cast a spell, they will become visible..<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1357,15 +1028,6 @@ Makes targeted units invisible. If the units attack, use an ability or cast a sp
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1381,11 +1043,11 @@ Dark Portal
 </td>" )
 	call Preload( "
 <td>
-Opens a portal, allowing demons to step through and do Archimonde's bidding.
+Opens a portal, allowing demons to step through and do Archimonde's bidding. <br/><br/><div style="color: #ffcc00">Increases the number of summoned units and improves the unit types with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1394,15 +1056,6 @@ Opens a portal, allowing demons to step through and do Archimonde's bidding.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1418,11 +1071,11 @@ Lordaeron Villagers
 </td>" )
 	call Preload( "
 <td>
-Summons a number of permanent villagers.
+Summons a number of permanent villagers. <br/><br/><div style="color: #ffcc00">Increases the number of summoned units with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1431,15 +1084,6 @@ Summons a number of permanent villagers.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1455,11 +1099,10 @@ Minigun Tower
 </td>" )
 	call Preload( "
 <td>
-Summons an immobile turret ward to attack the Goblin Gunner's enemies. The ward is immune to magic and mechanical. |nLasts 40 seconds. |n|n|cffffcc00Attacks land and air units.|r
-</td>" )
+Summons an immobile turret ward to attack the Goblin Gunner's enemies. The ward is immune to magic and mechanical. <br/>Lasts 40 seconds. <br/><br/><div style="color: #ffcc00">Attacks land and air units.</div> <br/><br/><div style="color: #ffcc00">Inc" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1468,15 +1111,6 @@ Summons an immobile turret ward to attack the Goblin Gunner's enemies. The ward 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1492,11 +1126,11 @@ Healing Ward
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that heals 1% of a nearby friendly non-mechanical unit's hit points per second. |nLasts 30 seconds.
+Summons an immovable ward that heals life of a nearby friendly non-mechanical unit's hit points per second. <br/>Lasts 30 seconds.<br/><br/><div style="color: #ffcc00">Increases the healed life with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1505,15 +1139,6 @@ Summons an immovable ward that heals 1% of a nearby friendly non-mechanical unit
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1529,11 +1154,11 @@ Shadow Egg Strike
 </td>" )
 	call Preload( "
 <td>
-Hurls a poisoned dagger at a target enemy unit. If the unit dies within the next 8 seconds it drops lots of Easter Eggs. 
+Hurls a poisoned dagger at a target enemy unit.<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1542,15 +1167,6 @@ Hurls a poisoned dagger at a target enemy unit. If the unit dies within the next
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1566,11 +1182,11 @@ Christmas Tree
 </td>" )
 	call Preload( "
 <td>
-Creates a Christmas tree which automatically summons Christmas presents.
+Creates a Christmas tree which automatically summons Christmas presents.<br/><br/><div style="color: #ffcc00">Increases the duration and cooldown and decreases the spawn interval with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1579,15 +1195,6 @@ Creates a Christmas tree which automatically summons Christmas presents.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1603,11 +1210,10 @@ Moonstone
 </td>" )
 	call Preload( "
 <td>
-Causes an eclipse that blocks out the sun and creates an artificial night. |nLasts 15 seconds. Regenerates 400 hit points over 45 seconds of all friendly units nearby with hit point regeneration only at night.
-</td>" )
+Causes an eclipse that blocks out the sun and creates an artificial night. Regenerates hit points over time of all friendly units nearby with hit point regeneration only at night. <br/><br/><div style="color: #ffcc00">Increases the duration with every" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1616,15 +1222,6 @@ Causes an eclipse that blocks out the sun and creates an artificial night. |nLas
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1640,11 +1237,10 @@ Fountain of Power Ward
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that regenerates 50 % life points and 1% mana points of a nearby friendly non-mechanical units per second. |nLasts 30 seconds.
-</td>" )
+Summons an immovable ward that regenerates a percentage of a nearby friendly non-mechanical unit's life and mana points per second. <br/>Lasts 30 seconds.<br/><br/><div style="color: #ffcc00">Increases the percentage of regenerated life and mana point" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1653,15 +1249,6 @@ Summons an immovable ward that regenerates 50 % life points and 1% mana points o
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1677,11 +1264,11 @@ Slide
 </td>" )
 	call Preload( "
 <td>
-Lets your hero slide into the given direction, moving the hero quickly and damaging everything on its way.
+Lets your hero slide into the given direction, moving the hero quickly and damaging everything on its way.<br/><br/><div style="color: #ffcc00">Increases the distance and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1690,15 +1277,6 @@ Lets your hero slide into the given direction, moving the hero quickly and damag
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1714,11 +1292,11 @@ Repair Aura
 </td>" )
 	call Preload( "
 <td>
-Increases nearby friendly mechanical units'  life regeneration rate.
+Increases the life regeneration rate of nearby friendly mechanical units.  <br/><br/><div style="color: #ffcc00">Increases the regeneration bonus with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1727,15 +1305,6 @@ Increases nearby friendly mechanical units'  life regeneration rate.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1751,10 +1320,10 @@ Rewind Time
 </td>" )
 	call Preload( "
 <td>
-Records the time events for a target friendly unit, item or destructable or stops recording time events for a target enemy unit.|n|nRewinds the time for 60 seconds at maximum if targeted on the ground. This can be interrupted by any other caster in th" )
+Records the time events for a target friendly unit, item or destructable or stops recording time events for a target enemy unit.<br/><br/>Rewinds the time for a limited duration if targeted on the ground. This can be interrupted by any other caster in" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1763,15 +1332,6 @@ Records the time events for a target friendly unit, item or destructable or stop
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1787,11 +1347,11 @@ Mace Strike
 </td>" )
 	call Preload( "
 <td>
-Sauron uses his Mace for a powerful strike which knocks back enemy ground units and causes massive damage.
+Sauron uses his Mace for a powerful strike which knocks back enemy ground units and causes massive damage.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1800,15 +1360,6 @@ Sauron uses his Mace for a powerful strike which knocks back enemy ground units 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1824,11 +1375,11 @@ Telekinesis
 </td>" )
 	call Preload( "
 <td>
-Marks a target unit, item or destructable for moving it. Moves the marked target to the given location when cast on the ground.
+Marks a target unit, item or destructable for moving it. Moves the marked target to the given location when cast on the ground.<br/><br/><div style="color: #ffcc00">Increases the maximum distance and reduces the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1837,15 +1388,6 @@ Marks a target unit, item or destructable for moving it. Moves the marked target
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1861,11 +1403,11 @@ Burning Oil
 </td>" )
 	call Preload( "
 <td>
-Drenches the hero's ammo in burning oil, causing them to light the ground on fire and burn enemy units.
+Drenches the hero's ammo in burning oil, causing them to light the ground on fire and burn enemy units.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1874,15 +1416,6 @@ Drenches the hero's ammo in burning oil, causing them to light the ground on fir
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1898,11 +1431,10 @@ Defend
 </td>" )
 	call Preload( "
 <td>
-Activate to have a 30% chance to reflect Piercing attacks upon the source, and to take only 35% of the damage from attacks that are not reflected. While Defend is active, move speed is reduced by 30%.
-</td>" )
+Activate to have a chance to reflect Piercing attacks upon the source, and to take only some of the damage from attacks that are not reflected. While Defend is active, move speed is reduced by 30%.<br/><br/><div style="color: #ffcc00">Increases the da" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1911,15 +1443,6 @@ Activate to have a 30% chance to reflect Piercing attacks upon the source, and t
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1935,11 +1458,11 @@ Grenade
 </td>" )
 	call Preload( "
 <td>
-Throws a grenade which explodes after 3 seconds.
+Throws a grenade which explodes after 3 seconds and causes damage to enemy ground units nearby.<br/><br/><div style="color: #ffcc00">Increases the caused damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1948,15 +1471,6 @@ Throws a grenade which explodes after 3 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -1972,11 +1486,11 @@ Rain of Arrows
 </td>" )
 	call Preload( "
 <td>
-Calls down 6 arrow waves; each wave deals 30 damage to units in an area.
+Calls down waves of arrows that damage units in a target area. <br/><br/><div style="color: #ffcc00">Increases the number of waves and damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -1985,15 +1499,6 @@ Calls down 6 arrow waves; each wave deals 30 damage to units in an area.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2009,11 +1514,11 @@ Flare
 </td>" )
 	call Preload( "
 <td>
-Launches a Dwarven flare above a target point, which reveals that area for 15 seconds. |nReveals invisible units.
+Launches a Dwarven flare above a target point, which reveals that area for some time. <br/>Reveals invisible units.<br/><br/><div style="color: #ffcc00">Increases the duration, area and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -2022,15 +1527,6 @@ Launches a Dwarven flare above a target point, which reveals that area for 15 se
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2046,11 +1542,11 @@ Flame Whip
 </td>" )
 	call Preload( "
 <td>
-Magically binds a target enemy unit, so that it cannot move or attack and takes 30 damage per second. |nLasts 40 seconds.
+Magically binds a target enemy unit, so that it cannot move or attack and takes damage per second. <br/>Lasts 40 seconds.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-0
+1
 </td>" )
 	call Preload( "
 <td>
@@ -2059,15 +1555,6 @@ Magically binds a target enemy unit, so that it cannot move or attack and takes 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2083,11 +1570,11 @@ Mirror Image
 </td>" )
 	call Preload( "
 <td>
-Confuses the enemy by creating 1 illusion of the Blademaster. Dispels all magic from the Blademaster. |nLasts 60 seconds.
+Confuses the enemy by creating illusions of the Blademaster and dispelling all magic from the Blademaster.<br/><br/><div style="color: #ffcc00">Increases the number of illusions with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2096,15 +1583,6 @@ Confuses the enemy by creating 1 illusion of the Blademaster. Dispels all magic 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2120,11 +1598,11 @@ Thunder Clap
 </td>" )
 	call Preload( "
 <td>
-Slams the ground, dealing 60 damage to nearby enemy land units and slowing their movement by 50% and attack rate by 50%.
+Slams the ground, dealing damage to and slowing the movement speed and attack rate of nearby enemy land units.<br/><br/><div style="color: #ffcc00">Increases the damage and area with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2133,15 +1611,6 @@ Slams the ground, dealing 60 damage to nearby enemy land units and slowing their
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2157,11 +1626,10 @@ Summon Water Elemental
 </td>" )
 	call Preload( "
 <td>
-Summons a water elemental to attack the Archmage's enemies. Has 500 hit points and deals 19 - 23 damage. |nLasts 60 seconds. |n|n|cffffcc00Attacks land and air units.|r
-</td>" )
+Summons a water elemental to attack the Archmage's enemies. <br/>Lasts 60 seconds. <br/><br/><div style="color: #ffcc00">Attacks land and air units.</div><br/><br/><div style="color: #ffcc00">Increases the stats of the water elemental with every level" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2170,15 +1638,6 @@ Summons a water elemental to attack the Archmage's enemies. Has 500 hit points a
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2194,11 +1653,11 @@ Divine Shield
 </td>" )
 	call Preload( "
 <td>
-An impenetrable shield surrounds this unit, protecting it from all damage and spells for 15 seconds.
+An impenetrable shield surrounds the Paladin, protecting him from all damage and spells for a set amount of time.<br/><br/><div style="color: #ffcc00">Increases the duration and cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2207,15 +1666,6 @@ An impenetrable shield surrounds this unit, protecting it from all damage and sp
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2231,11 +1681,10 @@ Banish
 </td>" )
 	call Preload( "
 <td>
-Turns a non-mechanical unit ethereal and slows its movement speed by 50% for 12 seconds. Ethereal creatures cannot attack, but they can cast spells and certain spells cast upon them will have a greater effect.
-</td>" )
+Turns a non-mechanical unit ethereal and slows its movement speed by 50% for a short duration. Ethereal creatures cannot attack, but they can cast spells and certain spells cast upon them will have a greater effect.<br/><br/><div style="color: #ffcc00" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2244,15 +1693,6 @@ Turns a non-mechanical unit ethereal and slows its movement speed by 50% for 12 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2268,11 +1708,11 @@ Blink
 </td>" )
 	call Preload( "
 <td>
-Teleports the Warden a short distance, allowing her to move in and out of combat.
+Short distance teleportation that allows the Warden to move in and out of combat. <br/><br/><div style="color: #ffcc00">Increases maximum distance and decreases the cooldown and mana costs with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2281,15 +1721,6 @@ Teleports the Warden a short distance, allowing her to move in and out of combat
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2305,11 +1736,11 @@ War Stomp
 </td>" )
 	call Preload( "
 <td>
-Slams the ground, dealing 30 damage to nearby enemy land units and stunning them for 3 seconds.
+Slams the ground, stunning and damaging nearby enemy land units. <br/><br/><div style="color: #ffcc00">Increases the damage, stun duration, cooldown and area with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2318,15 +1749,6 @@ Slams the ground, dealing 30 damage to nearby enemy land units and stunning them
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2342,11 +1764,11 @@ Far Sight
 </td>" )
 	call Preload( "
 <td>
-Reveals the area of the map that it is cast upon for 8 seconds. Also reveals invisible units.
+Reveals the area of the map that it is cast upon. Also reveals invisible units.<br/><br/><div style="color: #ffcc00">Increases the revealed area with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2355,15 +1777,6 @@ Reveals the area of the map that it is cast upon for 8 seconds. Also reveals inv
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2379,11 +1792,11 @@ Hex
 </td>" )
 	call Preload( "
 <td>
-Transforms an enemy unit into a random critter for 15 seconds.
+Transforms an enemy unit into a random critter, disabling special abilities. <br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2392,15 +1805,6 @@ Transforms an enemy unit into a random critter for 15 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2416,11 +1820,11 @@ Death Pact
 </td>" )
 	call Preload( "
 <td>
-Kills a target friendly Undead unit, giving 100% of its hit points to the Death Knight.
+Kills a target friendly Undead unit, giving a percentage of its hit points to the Death Knight. <br/><br/><div style="color: #ffcc00">Increases the percentage converted into hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2429,15 +1833,6 @@ Kills a target friendly Undead unit, giving 100% of its hit points to the Death 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2453,11 +1848,11 @@ Frost Armor
 </td>" )
 	call Preload( "
 <td>
-Creates a shield of frost around a target friendly unit. The shield adds 3 armor and slows melee units that attack it for 4 seconds. |nLasts 45 seconds.
+Creates a shield of frost around a target friendly unit. The shield adds armor and slows melee units that attack it. <br/><br/><div style="color: #ffcc00">Increases the armor with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2466,15 +1861,6 @@ Creates a shield of frost around a target friendly unit. The shield adds 3 armor
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2490,11 +1876,11 @@ Spiked Carapace
 </td>" )
 	call Preload( "
 <td>
-Enhances the Crypt Lord's chitinous armor with organic barbs, giving the Crypt Lord 3 bonus armor and returning 15% of melee attack damage to enemies.
+The Crypt Lord forms barbed layers of chitinous armor that increases its defense and returns damage to enemy melee attackers.  <br/><br/><div style="color: #ffcc00">Increases the damage returned and bonus armor with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2503,15 +1889,6 @@ Enhances the Crypt Lord's chitinous armor with organic barbs, giving the Crypt L
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2527,11 +1904,11 @@ Sleep
 </td>" )
 	call Preload( "
 <td>
-Puts a target enemy unit to sleep for 15 seconds. A sleeping unit can be awoken by attacking it.
+Puts a target enemy unit to sleep. A sleeping unit can be awoken by attacking it.  <br/><br/><div style="color: #ffcc00">Increases the sleep duration and decreases the mana costs with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2540,15 +1917,6 @@ Puts a target enemy unit to sleep for 15 seconds. A sleeping unit can be awoken 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2564,11 +1932,10 @@ Anti-magic Shell
 </td>" )
 	call Preload( "
 <td>
-Creates a barrier that stops 420 points of spell damage from affecting a target unit. Causes 100 points of damage to summoned units. Reduces magic damage taken by the target unit by 5 %.|nLasts 90 seconds. 
-</td>" )
+Creates a barrier that stops points of spell damage from affecting a target unit. Causes damage to summoned units. Reduces magic damage taken by the target unit by a percentage.<br/>Lasts 90 seconds.<br/><br/><div style="color: #ffcc00">Increases the " )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2577,15 +1944,6 @@ Creates a barrier that stops 420 points of spell damage from affecting a target 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2601,11 +1959,11 @@ Frost Arrows
 </td>" )
 	call Preload( "
 <td>
-Adds a cold effect to each attack, dealing 5 bonus damage, slowing a target enemy unit's attacks by 30% and movement by 30% for 5 seconds.
+Adds a cold effect to each attack, causing bonus damage and slowing a target enemy unit's attacks and movement.<br/><br/><div style="color: #ffcc00">Increases the damage and decreases the attack and movement speed with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2614,15 +1972,6 @@ Adds a cold effect to each attack, dealing 5 bonus damage, slowing a target enem
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2638,11 +1987,11 @@ Faerie Fire
 </td>" )
 	call Preload( "
 <td>
-Reduces a target enemy unit's armor by 3 and gives vision of that unit. |nLasts 30 seconds.
+Reduces a target enemy unit's armor and gives vision of that unit. <br/>Lasts 30 seconds.<br/><br/><div style="color: #ffcc00">Increases the reduced armor with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2651,15 +2000,6 @@ Reduces a target enemy unit's armor by 3 and gives vision of that unit. |nLasts 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2675,11 +2015,11 @@ Charge
 </td>" )
 	call Preload( "
 <td>
-Resets the cooldown of all your abilities except Charge.
+Resets the cooldown of all your abilities except Charge.<br/><br/><div style="color: #ffcc00">Decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2688,15 +2028,6 @@ Resets the cooldown of all your abilities except Charge.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2712,11 +2043,11 @@ Summon Quilbeast
 </td>" )
 	call Preload( "
 <td>
-Summons an angry 425 hit point quilbeast to fling spines at your enemies. |nLasts 70 seconds.
+Summons an angry quilbeast to attack your enemies. <br/>Lasts 70 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats of the summoned quilbeast with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2725,15 +2056,6 @@ Summons an angry 425 hit point quilbeast to fling spines at your enemies. |nLast
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2749,11 +2071,11 @@ Cluster Rockets
 </td>" )
 	call Preload( "
 <td>
-Bombards an area with rockets, dealing up to 45 damage to nearby enemy units and stunning them for 1 second.
+Bombards an area with rockets, stunning enemy units for 1 second and damaging nearby enemy units. <br/><br/><div style="color: #ffcc00">Increases the damage amount and missile count with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2762,15 +2084,6 @@ Bombards an area with rockets, dealing up to 45 damage to nearby enemy units and
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2786,11 +2099,11 @@ Chemical Rage
 </td>" )
 	call Preload( "
 <td>
-The Alchemist causes his Ogre to enter a chemically induced rage, increasing movement rate by 50% and increasing attack rate by 25% for 15 seconds.
+The Alchemist causes his Ogre to enter a chemically induced rage, increasing movement rate by 50% and increasing attack rate.<br/>Lasts 15 seconds. <br/><br/><div style="color: #ffcc00">Increases the attack speed bonus with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2799,15 +2112,6 @@ The Alchemist causes his Ogre to enter a chemically induced rage, increasing mov
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2823,11 +2127,11 @@ Howl of Terror
 </td>" )
 	call Preload( "
 <td>
-The Pit Lord lets loose a terrifying howl that reduces nearby enemy units' attack damage by 1% for 15 seconds.
+The Pit Lord lets loose a terrifying howl that causes nearby enemy units to shiver in fear, reducing their attack damage. <br/>Lasts 15 seconds.<br/><br/><div style="color: #ffcc00">Decreases the attack damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2836,15 +2140,6 @@ The Pit Lord lets loose a terrifying howl that reduces nearby enemy units' attac
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2860,11 +2155,11 @@ Black Arrow
 </td>" )
 	call Preload( "
 <td>
-Adds 2 bonus damage to attacks. Units killed while under the effect of Black Arrow will turn into 215 hit point skeletons.
+Adds extra damage to attacks. Units killed while under the effect of Black Arrow will turn into skeletons. <br/><br/><div style="color: #ffcc00">Increases the bonus damage and stats of skeletons with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2873,15 +2168,6 @@ Adds 2 bonus damage to attacks. Units killed while under the effect of Black Arr
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2897,11 +2183,11 @@ Searing Arrows
 </td>" )
 	call Preload( "
 <td>
-Adds 10 bonus fire damage to an attack against enemies, but drains mana with each shot fired.
+Increases the damage of the Priestess' attack by adding fire.<br/><br/><div style="color: #ffcc00">Increases the bonus damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2910,15 +2196,6 @@ Adds 10 bonus fire damage to an attack against enemies, but drains mana with eac
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2934,11 +2211,11 @@ Force of Nature
 </td>" )
 	call Preload( "
 <td>
-Converts a small area of trees into 2 Treants. Treants have 300 hit points and deal 15 - 17 damage. Can learn Nature's Blessing. |nLasts 60 seconds. |n|n|cffffcc00Attacks land units.|r
+Converts an area of trees into Treants. Can learn Nature's Blessing. <br/><br/><div style="color: #ffcc00">Attacks land units.</div>  <br/><br/><div style="color: #ffcc00">Increases the stats of Treants with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2947,15 +2224,6 @@ Converts a small area of trees into 2 Treants. Treants have 300 hit points and d
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -2971,11 +2239,11 @@ Immolation
 </td>" )
 	call Preload( "
 <td>
-Activate Immolation to engulf this unit in flames, causing 7 damage per 0.5 second to nearby enemy land units. |nDrains mana until deactivated.
+Engulfs the Demon Hunter in flames, causing damage to nearby enemy land units. <br/>Drains mana until deactivated. <br/><br/><div style="color: #ffcc00">Increases the damage per second with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -2984,15 +2252,6 @@ Activate Immolation to engulf this unit in flames, causing 7 damage per 0.5 seco
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3008,10 +2267,10 @@ Drunken Haze
 </td>" )
 	call Preload( "
 <td>
-Drenches enemy units in alcohol, causing their movement speed to be reduced by 15%, and have a 1% chance to miss on attacks. When units with Drunken Haze cast on them are hit by Breath of Fire, they will ignite and take burn damage. |nLasts 12 seconds" )
+Drenches enemy units in alcohol, causing their movement speed to be reduced, and have a chance to miss on attacks. When units with Drunken Haze cast on them are hit by Breath of Fire, they will ignite and take burn damage over time. <br/>Lasts 12 seco" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3020,15 +2279,6 @@ Drenches enemy units in alcohol, causing their movement speed to be reduced by 1
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3044,11 +2294,11 @@ Poison Arrows
 </td>" )
 	call Preload( "
 <td>
-Adds 10 bonus fire damage to an attack against enemies, but drains mana with each shot fired. Damages the hit target with 4 damage per second for 10 seconds.
+Increases the damage of the Priestess' attack by adding fire. Damages the hit target per second for 10 seconds.<br/><br/><div style="color: #ffcc00">Increases the bonus damage and damage per second with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3057,15 +2307,6 @@ Adds 10 bonus fire damage to an attack against enemies, but drains mana with eac
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3081,10 +2322,11 @@ Summon Lava Spawn
 </td>" )
 	call Preload( "
 <td>
-Summons a Lava Spawn, a resilient and deadly fire creature. As a Lava Spawn deals damage, it consumes the flesh of its target, thereby fueling its fires and eventually splitting into two healthy Lava Spawns.|n|nHas 425 hit points and deals 11 - 27 dam" )
+Summons a Lava Spawn, a resilient and deadly fire creature. As a Lava Spawn deals damage, it consumes the flesh of its target, eventually splitting into two healthy Lava Spawns.<br/>Lasts 70 seconds.
+</td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3093,15 +2335,6 @@ Summons a Lava Spawn, a resilient and deadly fire creature. As a Lava Spawn deal
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3117,11 +2350,11 @@ Barrage
 </td>" )
 	call Preload( "
 <td>
-Allows the Goblin Gunner to fire at 3 nearby enemies at the same time. Causes 25 damage per target and 630 damage maximum in total.
+Allows the Goblin Gunner to fire at more nearby enemies at the same time.<br/><br/><div style="color: #ffcc00">Increases the damage and maximum number of targets per level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3130,15 +2363,6 @@ Allows the Goblin Gunner to fire at 3 nearby enemies at the same time. Causes 25
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3154,11 +2378,11 @@ Dark Portal
 </td>" )
 	call Preload( "
 <td>
-Creates a Dark Portal which automatically summons Orc and Demon units.
+Creates a Dark Portal which automatically summons Orc and Demon units.<br/><br/><div style="color: #ffcc00">Increases the duration and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3167,15 +2391,6 @@ Creates a Dark Portal which automatically summons Orc and Demon units.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3191,11 +2406,11 @@ Mass Slow
 </td>" )
 	call Preload( "
 <td>
-Slows a target enemy unit's attack rate by 10 % and movement speed by 20 %. |nLasts 60 seconds.
+Slows a target enemy unit's attack rate and movement speed. <br/>Lasts 60 seconds.<br/><br/><div style="color: #ffcc00">Increases the reduction percentage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3204,15 +2419,6 @@ Slows a target enemy unit's attack rate by 10 % and movement speed by 20 %. |nLa
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3228,11 +2434,10 @@ Devour
 </td>" )
 	call Preload( "
 <td>
-Consumes an enemy unit, slowly digesting it and dealing 5 damage per second to it. If the creep is killed while the consumed unit is still digesting, the unit that was devoured will be released.
-</td>" )
+Consumes an enemy unit, slowly digesting it and dealing damage per second to it. If the creep is killed while the consumed unit is still digesting, the unit that was devoured will be released.<br/><br/><div style="color: #ffcc00">Increases the maximum" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3241,15 +2446,6 @@ Consumes an enemy unit, slowly digesting it and dealing 5 damage per second to i
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3265,11 +2461,11 @@ Unholy Frenzy
 </td>" )
 	call Preload( "
 <td>
-Increases the attack rate of a target unit by 75%, but drains 4 hit points per second. |nLasts 45 seconds.
+Increases the attack rate of a target uni, but drains hit points per second. <br/>Lasts 45 seconds.<br/><br/><div style="color: #ffcc00">Increases the attack rate and damage per second with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3278,15 +2474,6 @@ Increases the attack rate of a target unit by 75%, but drains 4 hit points per s
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3302,11 +2489,11 @@ Summon Sea Elemental
 </td>" )
 	call Preload( "
 <td>
-Summons 2 powerful Sea Elemental with 550 hit points that does 28 - 37 damage. |nLasts 65 seconds.
+Summons powerful Sea Elementals.<br/><br/><div style="color: #ffcc00">Attack land and air units.</div><br/><br/><div style="color: #ffcc00">Increases the stats of the sea elementals with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3315,15 +2502,6 @@ Summons 2 powerful Sea Elemental with 550 hit points that does 28 - 37 damage. |
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3339,11 +2517,11 @@ Summon Golem
 </td>" )
 	call Preload( "
 <td>
-Summons a Siege Golem to attack the Dwarf Mage's enemies. |nLasts 60 seconds. |n|n|cffffcc00Attack land units.|r
+Summons a Siege Golem to attack the Dwarf Mage's enemies. <br/>Lasts 60 seconds.<br/><br/><div style="color: #ffcc00">Attacks land units.</div><br/><br/><div style="color: #ffcc00">Increases the stats of the Siege Golem with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3352,15 +2530,6 @@ Summons a Siege Golem to attack the Dwarf Mage's enemies. |nLasts 60 seconds. |n
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3376,10 +2545,10 @@ Drain
 </td>" )
 	call Preload( "
 <td>
-Absorbs the life essence of a target enemy unit by taking 30 hit points per second from it and giving them to Gul'dan. Transfers 30 life per second to a friendly target. Drains 15 mana from an enemy target per second. Transfers 30 mana per second to a" )
+Absorbs the life essence and mana of a target enemy unit by taking hit points from it every second and giving them to Gul'dan. <br/><br/>Drain also applies the current rank of the Black Arrow debuff to the target. <br/>Lasts 8 seconds.<br/><br/><div s" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3388,15 +2557,6 @@ Absorbs the life essence of a target enemy unit by taking 30 hit points per seco
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3412,11 +2572,11 @@ Hardened Skin
 </td>" )
 	call Preload( "
 <td>
-Reduces all attacks on the Mountain Giant by 8 damage. Attacks cannot be reduced below 3 damage.
+Reduces all attacks on the Mountain Giant. The reduced amount and the minimum reduced damage increase with every level.<br/><br/><div style="color: #ffcc00">Increases the reduced damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3425,15 +2585,6 @@ Reduces all attacks on the Mountain Giant by 8 damage. Attacks cannot be reduced
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3449,11 +2600,11 @@ Force Powers
 </td>" )
 	call Preload( "
 <td>
-Force powers.
+Jedi and Sith Force Powers inspired by the Jedi Knight games.<br/><br/><div style="color: #ffcc00">Increases the levels of all force abilities with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3462,15 +2613,6 @@ Force powers.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3486,11 +2628,11 @@ Mana Ward
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that regenerates 1% of a nearby friendly non-mechanical unit's mana points per second. |nLasts 30 seconds.
+Summons an immovable ward that regenerates a percentage of a nearby friendly non-mechanical unit's mana points per second. <br/>Lasts 30 seconds.<br/><br/><div style="color: #ffcc00">Increases the regenerated mana with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3499,15 +2641,6 @@ Summons an immovable ward that regenerates 1% of a nearby friendly non-mechanica
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3523,11 +2656,10 @@ Mana Flare
 </td>" )
 	call Preload( "
 <td>
-Causes the Faerie Dragon to channel negative magical energies that damage nearby enemies when they cast spells. Also increases the Faerie Dragon's armor by 12. |nLasts 30 seconds.
-</td>" )
+Causes the Faerie Dragon to channel negative magical energies that damage nearby enemies when they cast spells. Also increases the Faerie Dragon's armor. <br/>Lasts 30 seconds.<br/><br/><div style="color: #ffcc00">Increases the damage with every level" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3536,15 +2668,6 @@ Causes the Faerie Dragon to channel negative magical energies that damage nearby
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3560,11 +2683,10 @@ Send to the Future
 </td>" )
 	call Preload( "
 <td>
-Sends the target units, items and destructables to the future. Calls all of them back from the future if targeted on the ground. This will not call back enemy units from the future but items and destructables send to the future by enemies.
-</td>" )
+Sends the target units, items and destructables to the future. Calls all of them back from the future if targeted on the ground. This will not call back enemy units from the future but items and destructables send to the future by enemies.<br/><br/><d" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3573,15 +2695,6 @@ Sends the target units, items and destructables to the future. Calls all of them
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3597,11 +2710,11 @@ Flamethrower
 </td>" )
 	call Preload( "
 <td>
-Burns victims in front of the hero which costs mana per over time until the hero has no mana left. Causes 20 damage per second to nearby enemy units.
+Burns victims in front of the hero which costs mana per over time until the hero has no mana left.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3610,15 +2723,6 @@ Burns victims in front of the hero which costs mana per over time until the hero
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3634,11 +2738,11 @@ Summon Meat Wagon
 </td>" )
 	call Preload( "
 <td>
-Summons a Meat Wagon.
+Summons a Meat Wagon. <br/><br/><div style="color: #ffcc00">Increases the number of carried corpses and interval of generating new corpses with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3647,15 +2751,6 @@ Summons a Meat Wagon.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3671,11 +2766,11 @@ Kaboom!
 </td>" )
 	call Preload( "
 <td>
-Deals 250 damage in a small area. Effective against buildings and trees. Immediately revives the hero afterwards.
+Deals damage in a small area. Effective against buildings and trees. Immediately revives the hero afterwards.<br/><br/><div style="color: #ffcc00">Increases the dealt damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3684,15 +2779,6 @@ Deals 250 damage in a small area. Effective against buildings and trees. Immedia
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3708,11 +2794,11 @@ Crushing Wave
 </td>" )
 	call Preload( "
 <td>
-Sends a gigantic wave which deals 200 damage to each enemy land unit in a line, up to 900 max damage.
+Sends a gigantic wave which deals damage to each enemy land unit in a line.<br/><br/><div style="color: #ffcc00">Increases the damage, area of effect, maximum damage and range with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3721,15 +2807,6 @@ Sends a gigantic wave which deals 200 damage to each enemy land unit in a line, 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3745,11 +2822,11 @@ Elven Cloak
 </td>" )
 	call Preload( "
 <td>
-Makes the Hobbit invisible for 180 seconds.
+Makes the Hobbit invisible for a limited amount of time.<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3758,15 +2835,6 @@ Makes the Hobbit invisible for 180 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3782,11 +2850,11 @@ Jetpack
 </td>" )
 	call Preload( "
 <td>
-Uses the Jetpack to fly to another revealed location.
+Uses the Jetpack to fly to another revealed location.<br/><br/><div style="color: #ffcc00">Increases the distance and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3795,15 +2863,6 @@ Uses the Jetpack to fly to another revealed location.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3819,11 +2878,11 @@ Fragmentation Shards
 </td>" )
 	call Preload( "
 <td>
-Uses fragmentation mortars to increase damage dealt to Unarmored and Medium armor units.
+Uses fragmentation mortars to increase damage dealt to Unarmored and Medium armor units.<br/><br/><div style="color: #ffcc00">Increases the caused damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-1
+2
 </td>" )
 	call Preload( "
 <td>
@@ -3832,15 +2891,6 @@ Uses fragmentation mortars to increase damage dealt to Unarmored and Medium armo
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3856,11 +2906,11 @@ Command Aura
 </td>" )
 	call Preload( "
 <td>
-Gives extra damage to the attacks of nearby friendly units of 5 %.
+Gives extra damage to the attacks of nearby friendly units.<br/><br/><div style="color: #ffcc00">Increases the percentage of extra damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -3869,15 +2919,6 @@ Gives extra damage to the attacks of nearby friendly units of 5 %.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3893,11 +2934,11 @@ Vampiric Aura
 </td>" )
 	call Preload( "
 <td>
-Nearby friendly melee units gain 20% of their attack damage when they hit enemy units.
+Nearby friendly melee units gain hit points when they hit enemy units.  <br/><br/><div style="color: #ffcc00">Increases the percentage of hit points gained from damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -3906,15 +2947,6 @@ Nearby friendly melee units gain 20% of their attack damage when they hit enemy 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3930,11 +2962,11 @@ Unholy Aura
 </td>" )
 	call Preload( "
 <td>
-Increases nearby friendly units' movement speed by 10% and life regeneration rate.
+Increases the movement speed and life regeneration rate of nearby friendly units.  <br/><br/><div style="color: #ffcc00">Increases the movement and regeneration bonus with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -3943,15 +2975,6 @@ Increases nearby friendly units' movement speed by 10% and life regeneration rat
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -3967,11 +2990,11 @@ Dark Ritual
 </td>" )
 	call Preload( "
 <td>
-Sacrifices a target friendly Undead unit to convert 33% of its hit points into mana for the Lich.
+Sacrifices a target friendly Undead unit to convert its hit points into mana for the Lich. <br/><br/><div style="color: #ffcc00">Increases the mana converted into hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -3980,15 +3003,6 @@ Sacrifices a target friendly Undead unit to convert 33% of its hit points into m
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4004,11 +3018,11 @@ Bash
 </td>" )
 	call Preload( "
 <td>
-Gives a 20% chance that an attack will do 25 bonus damage and stun the target for 2 seconds.
+Gives a chance that an attack will do 25 bonus damage and stun the target for 2 seconds. <br/><br/><div style="color: #ffcc00">Increases the chance to stun with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4017,15 +3031,6 @@ Gives a 20% chance that an attack will do 25 bonus damage and stun the target fo
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4041,10 +3046,10 @@ Siphon Mana
 </td>" )
 	call Preload( "
 <td>
-Transfers mana between the Blood Mage and a target. Drains 15 mana per second from an enemy, or transfers 30 mana per second to an ally.|n|nSiphon Mana can push the Blood Mage's mana over its maximum value, though excess mana drains off rapidly if not" )
+Transfers mana between the Blood Mage and a target. Drains mana from an enemy, or transfers mana to an ally.<br/><br/>Siphon Mana can push the Blood Mage's mana over its maximum value, though excess mana drains off rapidly if not used.<br/>Lasts 6 sec" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4053,15 +3058,6 @@ Transfers mana between the Blood Mage and a target. Drains 15 mana per second fr
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4077,11 +3073,11 @@ Cleaving Attack
 </td>" )
 	call Preload( "
 <td>
-The Pit Lord strikes with such force that 40% of his damage strikes through to enemies near the primary attacked unit.
+The Pit Lord strikes with such force that he damages multiple enemies with his attack. <br/><br/><div style="color: #ffcc00">Increases the distributed damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4090,15 +3086,6 @@ The Pit Lord strikes with such force that 40% of his damage strikes through to e
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4114,11 +3101,11 @@ Endurance Aura
 </td>" )
 	call Preload( "
 <td>
-Increases nearby friendly units' movement speed by 10% and attack rate by 5%.
+Increases the movement speed and attack rate of nearby friendly units.<br/><br/><div style="color: #ffcc00">Increases movement and attack speed with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4127,15 +3114,6 @@ Increases nearby friendly units' movement speed by 10% and attack rate by 5%.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4151,11 +3129,11 @@ Brilliance Aura
 </td>" )
 	call Preload( "
 <td>
-Gives additional mana regeneration to nearby friendly units.
+Gives additional mana regeneration to nearby friendly units.<br/><br/><div style="color: #ffcc00">Increases the mana regeneration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4164,15 +3142,6 @@ Gives additional mana regeneration to nearby friendly units.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4188,11 +3157,11 @@ Drunken Brawler
 </td>" )
 	call Preload( "
 <td>
-Gives a 10% chance to dodge an attack and a 10% chance to deal 2 times total damage.
+Gives a percent chance to avoid attacks and a 10% chance to deal additional damage.<br/><br/><div style="color: #ffcc00">Increases the change and damage multiplier with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4201,15 +3170,6 @@ Gives a 10% chance to dodge an attack and a 10% chance to deal 2 times total dam
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4225,11 +3185,11 @@ Devotion Aura
 </td>" )
 	call Preload( "
 <td>
-Gives 2 additional armor to nearby friendly units.
+Gives additional armor to nearby friendly units.<br/><br/><div style="color: #ffcc00">Increases the armor bonus with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4238,15 +3198,6 @@ Gives 2 additional armor to nearby friendly units.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4262,11 +3213,11 @@ Critical Strike
 </td>" )
 	call Preload( "
 <td>
-Gives a 15% chance to do 200% damage on an attack.
+Gives a chance to do more damage on an attack.<br/><br/><div style="color: #ffcc00">Increases the damage multiplier with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4275,15 +3226,6 @@ Gives a 15% chance to do 200% damage on an attack.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4299,11 +3241,10 @@ Engineering Upgrade
 </td>" )
 	call Preload( "
 <td>
-Improves other Tinker abilities, gives 2 attack damage and increases Tinker movement speed by 10%.
-</td>" )
+Enhances other Tinker abilities with each level learned:<br/><br/><div style="color: #ffcc00">Cluster Rockets</div> - Larger Area.<br/><div style="color: #ffcc00">Pocket Factory</div> - Builds Clockwerk Goblins more quickly.<br/><div style="color: #ff" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4312,15 +3253,6 @@ Improves other Tinker abilities, gives 2 attack damage and increases Tinker move
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4336,11 +3268,11 @@ Summon Hawk
 </td>" )
 	call Preload( "
 <td>
-Summons a proud 300 hit point hawk to spy on your enemies. Has the True Sight ability. |nLasts 70 seconds.
+Summons a proud hawk to spy on your enemies. <br/>Lasts 70 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats of the summoned hawk with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4349,15 +3281,6 @@ Summons a proud 300 hit point hawk to spy on your enemies. Has the True Sight ab
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4373,10 +3296,10 @@ Acid Bomb
 </td>" )
 	call Preload( "
 <td>
-Hurls a flask of acid at a target.  The flask breaks upon impact, splashing a powerful acid on nearby hostile units.|n|nDecreases armor by 3; deals 5 damage per second to the primary target; deals slightly less damage to nearby targets.|nLasts 15 seco" )
+Hurls a flask of acid at a target.  The flask breaks upon impact, splashing a powerful acid on nearby hostile units.<br/><br/>Decreases armor; deals high damage over time to the primary target; deals slightly less damage over time to nearby targets.<b" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4385,15 +3308,6 @@ Hurls a flask of acid at a target.  The flask breaks upon impact, splashing a po
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4409,11 +3323,11 @@ Mana Shield
 </td>" )
 	call Preload( "
 <td>
-Activates a shield that absorbs 2 damage per point of mana.
+Creates a shield that absorbs damage by using the hero's mana.<br/><br/><div style="color: #ffcc00">Increases the absorbed damage per mana point with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4422,15 +3336,6 @@ Activates a shield that absorbs 2 damage per point of mana.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4446,11 +3351,11 @@ Evasion
 </td>" )
 	call Preload( "
 <td>
-Gives a 10% chance to avoid an attack.
+Gives a percent chance to avoid attacks. <br/><br/><div style="color: #ffcc00">Increases the chance that an opponent misses with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4459,15 +3364,6 @@ Gives a 10% chance to avoid an attack.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4483,11 +3379,11 @@ Battle Roar
 </td>" )
 	call Preload( "
 <td>
-Gives nearby friendly units 10 bonus attack damage. |nLasts 10 seconds.
+Gives nearby friendly units a bonus to attack damage. <br/>Lasts 10 seconds. <br/><br/><div style="color: #ffcc00">Increases the bonus damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4496,15 +3392,6 @@ Gives nearby friendly units 10 bonus attack damage. |nLasts 10 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4520,11 +3407,11 @@ Thorns Aura
 </td>" )
 	call Preload( "
 <td>
-An aura that gives friendly nearby units a damage shield, which deals 11% of an enemy unit's melee attack damage back to it.
+An aura that gives friendly nearby units a damage shield, which returns a percentage of a melee attacker's damage back to it.<br/><br/><div style="color: #ffcc00">Increases the returned damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4533,15 +3420,6 @@ An aura that gives friendly nearby units a damage shield, which deals 11% of an 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4557,11 +3435,10 @@ Shadow Strike
 </td>" )
 	call Preload( "
 <td>
-Hurls a poisoned dagger at a target enemy unit, dealing 75 initial damage, and 10 damage every 3 seconds for 15 seconds. The poison slows the movement speed of the targeted unit for a short duration.
-</td>" )
+Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for a short duration.<br/><br/><div style="color: #ffcc00">Increases the strike and duration damage with every l" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4570,15 +3447,6 @@ Hurls a poisoned dagger at a target enemy unit, dealing 75 initial damage, and 1
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4594,11 +3462,10 @@ Carrion Beetles
 </td>" )
 	call Preload( "
 <td>
-Progenerates 2 Beetles from a target corpse. Beetles have 170 hit points, and deal 8 - 9 damage. Beetles are permanent until killed. |nMaximum of 6 Beetles.
-</td>" )
+The Crypt Lord progenerates 2 Carrion Beetles from a target corpse to attack the Crypt Lord's enemies. Beetles are permanent, but only 6 can be controlled at a time. <br/><br/><div style="color: #ffcc00">Increases the hit points and damage every level" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4607,15 +3474,6 @@ Progenerates 2 Beetles from a target corpse. Beetles have 170 hit points, and de
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4631,11 +3489,11 @@ Feedback
 </td>" )
 	call Preload( "
 <td>
-Antonidas attacks destroy 20 mana per hit. The mana combusts, dealing damage to the attacked unit.
+Antonidas attacks destroy mana per hit. The mana combusts, dealing damage to the attacked unit.<br/><br/><div style="color: #ffcc00">Increases the damage and maximum mana destroyed per hit with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4644,15 +3502,6 @@ Antonidas attacks destroy 20 mana per hit. The mana combusts, dealing damage to 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4668,11 +3517,11 @@ Trueshot Aura
 </td>" )
 	call Preload( "
 <td>
-An aura that gives friendly nearby units a 10% bonus damage to their ranged attacks.
+An aura that gives friendly nearby units bonus damage to their ranged attacks.<br/><br/><div style="color: #ffcc00">Increases the base ranged damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4681,15 +3530,6 @@ An aura that gives friendly nearby units a 10% bonus damage to their ranged atta
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4705,11 +3545,11 @@ Aura of Darkness
 </td>" )
 	call Preload( "
 <td>
-Hides the terrain around your hero from enemy players and block spells like Reveal and Far Sight as long as the enemy players do not have any units in the area.
+Hides the terrain around your hero from enemy players and block spells like Reveal and Far Sight as long as the enemy players do not have any units in the area.<br/><br/><div style="color: #ffcc00">Increases the range with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4718,15 +3558,6 @@ Hides the terrain around your hero from enemy players and block spells like Reve
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4742,11 +3573,11 @@ Feral Spirit
 </td>" )
 	call Preload( "
 <td>
-Summons 2 Spirit Wolf companions. Each wolf has 250 hit points and deals 11 - 12 damage. |nLasts 60 seconds. |n|n|cffffcc00Attacks land units.|r
+Summons 2 Spirit Wolves to fight the Far Seer's enemies. <br/>Lasts 60 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats of the Spirit Wolves with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4755,15 +3586,6 @@ Summons 2 Spirit Wolf companions. Each wolf has 250 hit points and deals 11 - 12
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4779,11 +3601,11 @@ Watery Minion
 </td>" )
 	call Preload( "
 <td>
-Summons 2 minions to do their master's bidding. |nLasts 60 seconds.
+Summons minions to do their master's bidding.<br/><br/><div style="color: #ffcc00">Increases the stats of the minions and durations with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4792,15 +3614,6 @@ Summons 2 minions to do their master's bidding. |nLasts 60 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4816,11 +3629,10 @@ Devour Magic
 </td>" )
 	call Preload( "
 <td>
-Consumes all magical buffs from units in an area. Each unit that is devoured of magic gives the Destroyer 50 hit points and 75 mana. |n|cffffcc00Deals 160 damage to summoned units.|r
-</td>" )
+Consumes all magical buffs from units in an area. Each unit that is devoured of magic gives the Destroyer hit points and  mana.<br/><br/><div style="color: #ffcc00">Deals damage to summoned units.</div><br/><br/><div style="color: #ffcc00">Increases t" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4829,15 +3641,6 @@ Consumes all magical buffs from units in an area. Each unit that is devoured of 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4853,10 +3656,10 @@ Ride Down
 </td>" )
 	call Preload( "
 <td>
-After riding for 6 seconds the rider starts charging which increases his attack speed by 10 % and movement speed by 25 % and damages all organic ground units creatures with a base level below 7 and not on a horse with 60 damage every 0.5 seconds if th" )
+After riding for 6 seconds the rider starts charging which increases his attack and movement speed and damages all organic ground units creatures with a base level below 7 and not on a horse periodically if they are nearby.<br/><br/>When the rider sto" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4865,15 +3668,6 @@ After riding for 6 seconds the rider starts charging which increases his attack 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4889,11 +3683,11 @@ Aura of Blight
 </td>" )
 	call Preload( "
 <td>
-Gives all friendly Undead nearby units a bonus of 2  to hit point regeneration. The aura does not stack with the regenerative effects of Blight.
+Gives all friendly Undead nearby units a bonus to hit point regeneration. The aura does not stack with the regenerative effects of Blight.<br/><br/><div style="color: #ffcc00">Increases the hit points regenerated with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4902,15 +3696,6 @@ Gives all friendly Undead nearby units a bonus of 2  to hit point regeneration. 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4926,11 +3711,11 @@ Skeletal Mastery
 </td>" )
 	call Preload( "
 <td>
-Increases the duration of raised Skeleton Warriors and Skeletal Mages of Raise Dead by 2 seconds.
+Increases the duration of raised Skeleton Warriors and Skeletal Mages of Raise Dead.<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4939,15 +3724,6 @@ Increases the duration of raised Skeleton Warriors and Skeletal Mages of Raise D
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -4963,11 +3739,11 @@ Eat Tree
 </td>" )
 	call Preload( "
 <td>
-Consume a tree to restore 300 hit points over 10 seconds.
+Consume a tree to restore hit points.<br/><br/><div style="color: #ffcc00">Increases the restored hit points with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -4976,15 +3752,6 @@ Consume a tree to restore 300 hit points over 10 seconds.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5000,11 +3767,11 @@ Elune's Grace
 </td>" )
 	call Preload( "
 <td>
-Reduces the damage taken from Piercing attacks to 30%, and spells and Magic attacks to 30%.
+Reduces the damage taken from Piercing, spells and Magic attacks. <br/><br/><div style="color: #ffcc00">Increases the reduced damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5013,15 +3780,6 @@ Reduces the damage taken from Piercing attacks to 30%, and spells and Magic atta
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5037,11 +3795,11 @@ Winged Clock
 </td>" )
 	call Preload( "
 <td>
-Increases or decreases the time speed for 60 seconds. Target the ground to increase the time speed. Target a unit to decrease the time speed.
-</td>" )
+Increases or decreases the time speed. Target the ground to increase the time speed. Target a unit to decrease the time speed.<br/><br/><div style="color: #ffcc00">Increases the maximum duration and decreases the cooldown with every level.</div>
+</td" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5050,15 +3808,6 @@ Increases or decreases the time speed for 60 seconds. Target the ground to incre
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5074,11 +3823,11 @@ Find Artifacts
 </td>" )
 	call Preload( "
 <td>
-Ner'Zhul finds random artifacts.
+Ner'Zhul finds random artifacts.<br/><br/><div style="color: #ffcc00">Increases the level of found artifacts with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5087,15 +3836,6 @@ Ner'Zhul finds random artifacts.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5111,11 +3851,11 @@ Cripple
 </td>" )
 	call Preload( "
 <td>
-Reduces movement speed by 1%, attack rate by 1%, and damage by 1% of a target enemy unit. |nLasts 60 seconds.
+Reduces movement speed, attack rate, and damage of a target enemy unit. <br/>Lasts 60 seconds.<br/><br/><div style="color: #ffcc00">Increases the reduced movement speed, attack rate and damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5124,15 +3864,6 @@ Reduces movement speed by 1%, attack rate by 1%, and damage by 1% of a target en
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5148,11 +3879,11 @@ Permanent Immolation
 </td>" )
 	call Preload( "
 <td>
-Burns nearby enemy units for 10 points of damage per second.
+Burns nearby enemy units for damage per second.<br/><br/><div style="color: #ffcc00">Increases the damage per second with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5161,15 +3892,6 @@ Burns nearby enemy units for 10 points of damage per second.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5185,11 +3907,11 @@ Heal
 </td>" )
 	call Preload( "
 <td>
-Heals a target friendly non-mechanical wounded unit for 25 hit points.
+Heals a target friendly non-mechanical wounded unit for some hit points.<br/><br/><div style="color: #ffcc00">Increases the amount of hit points which are healed with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5198,15 +3920,6 @@ Heals a target friendly non-mechanical wounded unit for 25 hit points.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5222,11 +3935,11 @@ Scream
 </td>" )
 	call Preload( "
 <td>
-The Banshee lets loose a terrifying howl that reduces nearby enemy units' armor by 1 for 15 seconds.
+The Banshee lets loose a terrifying howl that causes nearby enemy units to shiver in fear, reducing their armor. <br/>Lasts 15 seconds.<br/><br/><div style="color: #ffcc00">Decreases the armor with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5235,15 +3948,6 @@ The Banshee lets loose a terrifying howl that reduces nearby enemy units' armor 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5259,10 +3963,10 @@ Incinerate
 </td>" )
 	call Preload( "
 <td>
-Each attack made is enhanced with living flames that cling to the target. These flames add 2 damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.|n|nIf a unit dies while under this effect, it is" )
+Each attack made is enhanced with living flames that cling to the target. These flames add a small amount of damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.<br/><br/>If a unit dies while un" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5271,15 +3975,6 @@ Each attack made is enhanced with living flames that cling to the target. These 
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5295,11 +3990,11 @@ Trenches
 </td>" )
 	call Preload( "
 <td>
-Summons trenches for 60 seconds protecting your troops from enemy ground troops.
+Summons trenches for 60 seconds protecting your troops from enemy ground troops.<br/><br/><div style="color: #ffcc00">Increases the caused damage to ground units and the stats of the summoned trenches with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5308,15 +4003,6 @@ Summons trenches for 60 seconds protecting your troops from enemy ground troops.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5332,11 +4018,11 @@ Life Aura
 </td>" )
 	call Preload( "
 <td>
-Increases the maximum life of nearby friendly units.
+Increases the maximum life of nearby friendly units.<br/><br/><div style="color: #ffcc00">Increases the life bonus with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5345,15 +4031,6 @@ Increases the maximum life of nearby friendly units.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5369,11 +4046,10 @@ Summon Telescope
 </td>" )
 	call Preload( "
 <td>
-Summons a Telescope which helps all nearby friendly range units to increase their damage, increases the sight range and reveals enemy invisible units.
-</td>" )
+Summons a Telescope which helps all nearby friendly range units to increase their damage, increases the sight range and reveals enemy invisible units.<br/><br/><div style="color: #ffcc00">Increases the range and the damage bonus with every level.</div" )
 	call Preload( "
 <td>
-2
+3
 </td>" )
 	call Preload( "
 <td>
@@ -5382,15 +4058,6 @@ Summons a Telescope which helps all nearby friendly range units to increase thei
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5406,28 +4073,18 @@ Avatar
 </td>" )
 	call Preload( "
 <td>
-Activate Avatar to give the Mountain King 5 bonus armor, 500 bonus hit points, 20 bonus damage and spell immunity. |nLasts 60 seconds.
+When Avatar is activated, it gives the Mountain King bonus armor, bonus hit points, bonus damage and spell immunity. <br/>Lasts 60 seconds.<br/><br/><div style="color: #ffcc00">Increases the bonus armor, bonus hit points and bonus damage with every le" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5443,27 +4100,18 @@ Phoenix
 </td>" )
 	call Preload( "
 <td>
-Summons a powerful Phoenix. The Phoenix burns with such intensity that it damages itself and nearby enemy units. Has Spell Immunity, and Resistant Skin. When a Phoenix dies, it creates an egg that will hatch into a Phoenix. |n|n|cffffcc00Attacks land " )
+Summons a powerful Phoenix. The Phoenix burns with such intensity that it damages itself and nearby enemy units. Has Spell Immunity, and Resistant Skin. When a Phoenix dies, it creates an egg that will hatch into a Phoenix. <br/><br/><div style="color" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5479,28 +4127,19 @@ Resurrection
 </td>" )
 	call Preload( "
 <td>
-Brings back to life the corpses of 6 friendly nearby units.
+Brings back to life the corpses of some friendly nearby units.<br/><br/><div style="color: #ffcc00">Increases the number of corpses with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5516,28 +4155,19 @@ Mass Teleport
 </td>" )
 	call Preload( "
 <td>
-Teleports 24 of the player's nearby units, including the Archmage, to a friendly ground unit or structure.
+Teleports some of the player's nearby units, including the Archmage, to a friendly ground unit or structure.<br/><br/><div style="color: #ffcc00">Increases the number of teleported units with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5553,28 +4183,19 @@ Finger of Death
 </td>" )
 	call Preload( "
 <td>
-Instantly turns a creature or building inside-out, destroying it utterly. Causes 1000 damage.
+Instantly turns a creature or building inside-out, destroying it utterly. Increases damage with every level.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5594,24 +4215,15 @@ Calls down multiple Infernals from the sky.
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5627,28 +4239,19 @@ Big Bad Voodoo
 </td>" )
 	call Preload( "
 <td>
-Turns all friendly units invulnerable in an area around the Shadow Hunter. |nThe Shadow Hunter does not turn invulnerable. |nLasts 30 seconds.
+Turns all friendly units invulnerable in an area around the Shadow Hunter. <br/>The Shadow Hunter does not turn invulnerable. <br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5664,28 +4267,19 @@ Reincarnation
 </td>" )
 	call Preload( "
 <td>
-When killed, the Tauren Chieftain will come back to life. Reincarnation has a 240 second cooldown.
+When killed, the Tauren Chieftain will come back to life.<br/><br/><div style="color: #ffcc00">Decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5701,28 +4295,19 @@ Earthquake
 </td>" )
 	call Preload( "
 <td>
-Makes the ground tremble and break, causing 60 damage per second to buildings and slowing units by 75% within the area of effect. |nLasts 20 seconds.
+Makes the ground tremble and break, causing damage per second to buildings and slowing units by 75% within the area of effect. Lasts 20 seconds.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5738,28 +4323,19 @@ Dark Summoning
 </td>" )
 	call Preload( "
 <td>
-Summons 12 friendly units from a target area to the caster.
+Summons friendly units from a target area to the caster.<br/><br/><div style="color: #ffcc00">Increases the number of summoned units and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5775,28 +4351,18 @@ Charm
 </td>" )
 	call Preload( "
 <td>
-Takes control of a target enemy unit. |nCharm cannot be used on Heroes, or creeps above level 5. When Charm is being used on workers, they will die instantly.
+Takes control of a target enemy unit. <br/>Charm cannot be used on Heroes, or creeps above a certain level. When Charm is being used on workers, they will die instantly. <br/><br/><div style="color: #ffcc00">Increases the maximum creep level with ever" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5812,28 +4378,19 @@ Open Portals
 </td>" )
 	call Preload( "
 <td>
-Opens portals at the hero's position and the target location which are connected to each other.
+Opens portals at the hero's position and the target location which are connected to each other.<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5849,28 +4406,19 @@ Revive
 </td>" )
 	call Preload( "
 <td>
-Revives up to 1 friendly heroes.
+Revives friendly heroes.<br/><br/><div style="color: #ffcc00">Increases the number of revived heroes and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5886,28 +4434,18 @@ Tornado
 </td>" )
 	call Preload( "
 <td>
-Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings. It causes 14 damage per second to buildings. |nLasts 30 seconds.
+Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings.<br/><br/><div style="color: #ffcc00">Increases the slowdown and caused damage with every level.<" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5923,28 +4461,19 @@ Starfall
 </td>" )
 	call Preload( "
 <td>
-Calls down waves of falling stars that damage nearby enemy units. Each wave deals 50 damage. |nLasts for 45 seconds.
+Calls down waves of falling stars that damage nearby enemy units. Each wave deals 50 damage. <br/>Lasts for 45 seconds.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5960,28 +4489,19 @@ Tranquility
 </td>" )
 	call Preload( "
 <td>
-Causes rains of healing energy to pour down in a large area, healing friendly allied units for 48 hit points per second. |nLasts 8 seconds.
+Causes rains of healing energy to pour down in a large area, healing friendly allied units for 48 hit points per second. <br/>Lasts 8 seconds.<br/><br/><div style="color: #ffcc00">Increases the healed hit points per second with every level.</div>
+</t" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -5997,28 +4517,19 @@ Animate Dead
 </td>" )
 	call Preload( "
 <td>
-Raises 6 dead units in an area to fight for the Death Knight for 40 seconds.
+Raises dead units in an area to fight for the Death Knight for 40 seconds. Animated units are invulnerable.  <br/><br/><div style="color: #ffcc00">Increases the number of raised corpses with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6034,28 +4545,18 @@ Transmute
 </td>" )
 	call Preload( "
 <td>
-Kills a target unit instantly, transforming it into gold which is added to your available gold!|nTransmute cannot be used on Heroes, or creeps above level 5.
+Kills a target unit instantly, transforming it into gold which is added to your available gold!<br/>Transmute cannot be used on Heroes, or creeps above a certain level.<br/><br/><div style="color: #ffcc00">Increases the received gold and maximum creep" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6071,28 +4572,19 @@ Demon Master
 </td>" )
 	call Preload( "
 <td>
-Opens a portal, allowing 2 demons to step through. The demons last 60 seconds.
+Opens a portal, allowing demons to step through and do the hero's bidding.<br/>The demons last 60 seconds. <br/><br/><div style="color: #ffcc00">Increases the number of summoned units and improves the unit types with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6108,27 +4600,18 @@ Doom
 </td>" )
 	call Preload( "
 <td>
-Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells, has 50% reduced movement speed, and will take 40 damage per second until it dies. Upon its death, 1 great Demon(s) will spawn from its corpse. Doom cannot be " )
+Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells, has 50% reduced movement speed, and will take 40 damage per second until it dies. Upon its death, a great Demon will spawn from its corpse. Doom cannot be dis" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6144,28 +4627,19 @@ Stampede
 </td>" )
 	call Preload( "
 <td>
-Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals 60 damage. |nLasts 30 seconds.
+Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals damage.<br/><br/><div style="color: #ffcc00">Increases the dealt damage and decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6181,27 +4655,18 @@ Volcano
 </td>" )
 	call Preload( "
 <td>
-Causes the ground to erupt into a massive Volcano. Every 3 seconds, a wave of molten rocks is hurled from the Volcano at nearby ground units and buildings, causing 100 damage to each target and stunning it for 2 seconds. Buildings take 3 times more da" )
+Causes the ground to erupt into a massive Volcano. Every X seconds, a wave of molten rocks is hurled from the Volcano at nearby ground units and buildings, causing damage to each target and stunning it for some time. Buildings take more damage from mo" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6217,28 +4682,18 @@ Storm, Earth, And Fire
 </td>" )
 	call Preload( "
 <td>
-Splits the Brewmaster into elements, forming 3 specialized warriors. If any of them survive until the end of their summoned timer, the Brewmaster is reborn. |nLasts 45 seconds.
+Splits the Brewmaster into elements, forming specialized warriors. If any of them survive until the end of their summoned timer, the Brewmaster is reborn. <br/>Lasts 45 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats with every level" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6254,28 +4709,18 @@ Inferno
 </td>" )
 	call Preload( "
 <td>
-Calls an Infernal down from the sky, dealing 50 damage and stunning enemy land units for 4 seconds in an area. The Infernal lasts 180 seconds.
+Calls an Infernal down from the sky, dealing damage and stunning enemy land units for 4 seconds in an area. The Infernal does not last permanently. <br/><br/><div style="color: #ffcc00">Increases the damage, duration and stats of the Infernal with eve" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6291,28 +4736,19 @@ Clone
 </td>" )
 	call Preload( "
 <td>
-Clones a target unit for 10 seconds.
+Clones a target unit for some time.<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6328,28 +4764,19 @@ Council of Six
 </td>" )
 	call Preload( "
 <td>
-Summons the five other members of the Council of Six to support Khadgar.
+Summons the five other members of the Council of Six to support Khadgar.<br/><br/><div style="color: #ffcc00">Attacks land and air units.</div><br/><br/><div style="color: #ffcc00">Increases the stats of the members with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6365,28 +4792,19 @@ Dalaran Shield
 </td>" )
 	call Preload( "
 <td>
-Damages everything hostile and neutral in its area of effect by 5% of its base hit points per second. Also destroys trees. |nLasts 35 seconds.
+Damages everything neutral and hostile in its area of effect. Also destroys trees.<br/><br/><div style="color: #ffcc00">Increases the percentage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6402,28 +4820,19 @@ Last Alliance
 </td>" )
 	call Preload( "
 <td>
-Summons 2 Human, Orc and Night Elf warriors to fight for Medivh. The warriors last 60 seconds.
+Summons Human, Orc and Night Elf warriors to fight for Medivh. The warriors last for 60 seconds.<br/><br/><div style="color: #ffcc00">Increases the number and stats of the summoned units and improves their types with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6439,28 +4848,18 @@ Mass Polymorph
 </td>" )
 	call Preload( "
 <td>
-Turns a target enemy unit into a sheep. The targeted unit retains its hit points and armor, but cannot attack. |nCannot be cast on Heroes. |nLasts 40 seconds.|nMaximum target creep level 5.
+Turns a target enemy unit into a sheep. The targeted unit retains its hit points and armor, but cannot attack. <br/>Cannot be cast on Heroes. <br/>Lasts 60 seconds.<br/><br/><div style="color: #ffcc00">Increases the duration and maximum target creep l" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6476,28 +4875,19 @@ Summon Sapphiron
 </td>" )
 	call Preload( "
 <td>
-Summons Sapphiron, a powerful undead dragon, to attack your enemies.
+Summons Sapphiron, a powerful undead dragon, to attack your enemies. <br/><br/><div style="color: #ffcc00">Increases the stats of the summoned unit with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6513,28 +4903,19 @@ Force Master
 </td>" )
 	call Preload( "
 <td>
-Slams the ground, dealing 700 damage to nearby enemy land units and slowing their movement by 30% and attack rate by 30%.
+Slams the ground, dealing damage to and slowing the movement speed and attack rate of nearby enemy land units.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6550,28 +4931,18 @@ Shrink
 </td>" )
 	call Preload( "
 <td>
-Shrinks enemy target units which decreases their size, damage, armor, attack and movement speed, maximum hit points, maximum mana points, hit points regeneration and mana points regeneration.
+Shrinks enemy target units which decreases their size, damage, armor, attack and movement speed, maximum hit points, maximum mana points, hit points regeneration and mana points regeneration.<br/><br/><div style="color: #ffcc00">ncreases the reduced s" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6587,27 +4958,18 @@ Mass Rewind Time
 </td>" )
 	call Preload( "
 <td>
-Records the time events for a target friendly unit, item or destructable or stops recording time events for a target enemy unit.|n|nRewinds the time for 240 seconds if targeted on the ground. This can be interrupted by any other caster in the game cas" )
+Records the time events for a target friendly unit, item or destructable or stops recording time events for a target enemy unit.<br/><br/>Rewinds the time for some duration if targeted on the ground. This can be interrupted by any other caster in the " )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6627,24 +4989,15 @@ This unit is permanently invisible.
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6660,28 +5013,19 @@ The Ring of Power
 </td>" )
 	call Preload( "
 <td>
-Sauron uses his Ring of Power to charm multiple enemies. The maximum creep level of the targets can be 5.
+Sauron uses his Ring of Power to charm multiple enemies.<br/><br/><div style="color: #ffcc00">Increases the maximum creep level with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6697,28 +5041,19 @@ Full Regeneration
 </td>" )
 	call Preload( "
 <td>
-Immediately heals all hit points and regenerates all mana for a target friendly unit.
+Immediately heals all hit points and regenerates all mana for a target friendly unit.<br/><br/><div style="color: #ffcc00">Decreases the cooldown with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6734,28 +5069,19 @@ Demolish
 </td>" )
 	call Preload( "
 <td>
-Causes attacks to do 2 times normal damage to buildings.
+Causes attacks to do multiplied normal damage to buildings.<br/><br/><div style="color: #ffcc00">Increases the damage factor with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6771,28 +5097,19 @@ Disease Cloud
 </td>" )
 	call Preload( "
 <td>
-Infects nearby enemy living units with Disease Cloud. Disease Cloud deals 2 damage per second. |nLasts 75 seconds.
+Infects nearby enemy living units with Disease Cloud. Disease Cloud deals damage per second.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6808,28 +5125,19 @@ Monsoon
 </td>" )
 	call Preload( "
 <td>
-Calls down a storm of lightning to strike enemy units for 20 damage in a small target area. |nLasts 12 seconds.
+Calls a storm of lightning bolts to strike enemy units damaging them. <br/>Lasts 12 seconds.<br/><br/><div style="color: #ffcc00">Increases the damage and decreases the damage interval with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6845,28 +5153,19 @@ Summon Mercenary Camp
 </td>" )
 	call Preload( "
 <td>
-Summons a mercenary camp to train units.
+Summons a mercenary camp to train units.<br/><br/><div style="color: #ffcc00">Improves the units which can be trained with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6882,28 +5181,18 @@ Vengeance
 </td>" )
 	call Preload( "
 <td>
-Creates a powerful avatar that summons invulnerable spirits from nearby corpses to attack your enemies. When the Avatar of Vengeance dies, the spirits vanish. |nLasts 180 seconds.
+Creates a powerful avatar that summons invulnerable spirits from nearby corpses to attack your enemies. When the Avatar of Vengeance dies, the spirits vanish. <br/>Lasts 180 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats of the avat" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6919,28 +5208,19 @@ Bladestorm
 </td>" )
 	call Preload( "
 <td>
-Causes a bladestorm of destructive force around the Blademaster, rendering him immune to magic and dealing 110 damage per second to nearby enemy land units. |nLasts 7 seconds.
+Causes a bladestorm of destructive force around the Blademaster, rendering him immune to magic and dealing damage per second to nearby enemy land units.<br/><br/><div style="color: #ffcc00">Increases the duration and damage with every level.</div>
+</" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6956,28 +5236,19 @@ Death And Decay
 </td>" )
 	call Preload( "
 <td>
-Damages everything in its area of effect by 4% of its base hit points per second. Also destroys trees. |nLasts 35 seconds.
+Damages everything in its area of effect by a percentage of its base hit points per second. Also destroys trees. <br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -6993,27 +5264,18 @@ Locust Swarm
 </td>" )
 	call Preload( "
 <td>
-Creates a swarm of 20 angry locusts that bite and tear at nearby enemy units. As they chew the enemy flesh, they convert it into a substance that restores 75 % of the caused damage as hit points to the Crypt Lord when they return. |nLasts 30 seconds." )
+Creates a swarm of angry locusts that bite and tear at nearby enemy units. As they chew the enemy flesh, they convert it into a substance that restores hit points to the Crypt Lord when they return. <br/>Lasts 30 seconds. <br/><br/><div style="color: " )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7029,28 +5291,19 @@ Cripple Player
 </td>" )
 	call Preload( "
 <td>
-Exposes all enemy players for some time.
+Exposes all enemy players for some time.<br/><br/><div style="color: #ffcc00">Increases the duration with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7066,28 +5319,19 @@ Town Portal
 </td>" )
 	call Preload( "
 <td>
-Teleports the Hero and any of its nearby troops to a target friendly town hall. Maximum number of units 10 and cooldown 40 seconds.
+Teleports the Hero and any of its nearby troops to a target friendly town hall. <br/><br/><div style="color: #ffcc00">Decreases cooldown and increases maximum number of units with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7103,28 +5347,19 @@ Flamethrower Turret
 </td>" )
 	call Preload( "
 <td>
-Summons an immovable ward that attacks nearby enemy units with its flamethrower. |nLasts 30 seconds.
+Summons an immovable ward that attacks nearby enemy units with its flamethrower. <br/>Lasts 30 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats of the turret with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7140,27 +5375,18 @@ Mass Devour
 </td>" )
 	call Preload( "
 <td>
-Consumes enemy units, slowly digesting it and dealing damage per second to it. If the caster is killed while the consumed unit is still digesting, the unit that was devoured will be released. Maximum target creep level 5, maximum target cargo slots 4 " )
+Consumes enemy units, slowly digesting it and dealing damage per second to it. If the caster is killed while the consumed unit is still digesting, the unit that was devoured will be released.<br/><br/><div style="color: #ffcc00">Increases the maximum " )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7176,28 +5402,19 @@ Dark Conversion
 </td>" )
 	call Preload( "
 <td>
-Puts a target villager to sleep and converts it into a zombie.
+Puts a target villager to sleep and converts it into a zombie. <br/><br/><div style="color: #ffcc00">Decreases the cooldown and increases the stats of the converted zombies with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7213,28 +5430,19 @@ Split
 </td>" )
 	call Preload( "
 <td>
-Splits the Mortar Team into the Gunner and Spotter. If any of them survive until the end of their summoned timer, the Mortar Team is joined back. |nLasts 45 seconds.
+Splits the Mortar Team into the Gunner and Spotter. If any of them survive until the end of their summoned timer, the Mortar Team is joined back. <br/>Lasts 45 seconds.<br/><br/><div style="color: #ffcc00">Increases the stats with every level.</div>
+" )
+	call Preload( "
+<td>
+4
 </td>" )
 	call Preload( "
 <td>
-3
-</td>" )
-	call Preload( "
-<td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7250,28 +5458,19 @@ Flame Storm
 </td>" )
 	call Preload( "
 <td>
-Summons a powerful flame storm which damages enemy units around. Causes 50 damage per second to every target.
+Summons a powerful flame storm which damages enemy units around.<br/><br/><div style="color: #ffcc00">Increases the damage with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-3
+4
 </td>" )
 	call Preload( "
 <td>
-1
+6
 </td>" )
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7287,11 +5486,11 @@ Attribute Bonus
 </td>" )
 	call Preload( "
 <td>
-Gives a total of 3 points to Agility, Intelligence, and Strength
+Gives a permanent bonus to Agility, Intelligence, and Strength. <br/><br/><div style="color: #ffcc00">Increases the stats with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-4
+5
 </td>" )
 	call Preload( "
 <td>
@@ -7300,15 +5499,6 @@ Gives a total of 3 points to Agility, Intelligence, and Strength
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7324,11 +5514,11 @@ Strength Bonus
 </td>" )
 	call Preload( "
 <td>
-Gives a total of 0 points to Strength
+Gives a permanent bonus to Strength. <br/><br/><div style="color: #ffcc00">Increases the stats with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-4
+5
 </td>" )
 	call Preload( "
 <td>
@@ -7337,15 +5527,6 @@ Gives a total of 0 points to Strength
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7361,11 +5542,11 @@ Agility Bonus
 </td>" )
 	call Preload( "
 <td>
-Gives a total of 4 points to Agility.
+Gives a permanent bonus to Agility.<br/><br/><div style="color: #ffcc00">Increases the stats with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-4
+5
 </td>" )
 	call Preload( "
 <td>
@@ -7374,15 +5555,6 @@ Gives a total of 4 points to Agility.
 	call Preload( "
 <td>
 15
-</td>" )
-	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
 </td>" )
 	call Preload( "
 </tr>
@@ -7398,11 +5570,11 @@ Intelligence Bonus
 </td>" )
 	call Preload( "
 <td>
-Gives a total of 0 points to Intelligence.
+Gives a permanent bonus to Intelligence. <br/><br/><div style="color: #ffcc00">Increases the stats with every level.</div>
 </td>" )
 	call Preload( "
 <td>
-4
+5
 </td>" )
 	call Preload( "
 <td>
@@ -7413,18 +5585,11 @@ Gives a total of 0 points to Intelligence.
 15
 </td>" )
 	call Preload( "
-<td>
-60
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
-</td>" )
-	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 1.5 )
+	call Preload( "
+<!-- Spells generated with chat command "-website". -->" )
+	call PreloadEnd( 3.0 )
 
 endfunction
 

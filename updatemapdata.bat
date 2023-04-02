@@ -9,4 +9,5 @@ copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforg
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Spells.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Buildings.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Professions.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
+copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Mounts.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 pause

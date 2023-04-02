@@ -2,7 +2,6 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Creeps:
 <!-- Creeps generated with chat command "-website". -->" )
 	call Preload( "
 <tr id="">
@@ -8641,7 +8640,7 @@ Summons Heroes. Revives slain Heroes.
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 7.9 )
+	call PreloadEnd( 8.5 )
 
 endfunction
 

@@ -2,7 +2,7 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-Races:
+<!-- Races generated with chat command "-website". -->
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
