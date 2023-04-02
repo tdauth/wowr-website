@@ -61,6 +61,7 @@ Items can be crafted, are dropped by killed units or can be received as rewards 
         <tr>
             <th>Icon</th>
             <th>Name</th>
+            <th>Race</th>
             <th>Level</th>
             <th>Description</th>
             <th>Gold Cost <img src="images/WC3gold.webp" /></th>
@@ -9496,7 +9497,9 @@ Drops a Mobile Radar to spy upon an area for 180 seconds. It detects only enemy 
 </table>
 
 <script>
-	//const table = new DataTable('#items');
+    $('#items').dataTable({
+        "paging": false,//Dont want paging
+    });
 </script>
 
 </body>
