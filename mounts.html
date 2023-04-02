@@ -9,6 +9,11 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -51,145 +56,1128 @@ The mount can be improved with a research.
 These are all available mounts:
 
 <!-- Autogenerate from map file/object data: -->
-<table>
+<table id="mounts">
     <thead>
         <tr>
             <th>Icon</th>
             <th>Name</th>
-            <th>Level</th>
-            <th>Gold Cost <img src="images/WC3gold.webp" /></th>
-            <th>Lumber Cost <img src="images/WC3lumber.webp" /></th>
+            <td>Move Type</th>
+            <th>Move Speed</th>
             <th>Attack Type</th>
-            <th>Weapon Type</th>
-            <th>Ground Attack</th>
-            <th>Air Attack</th>
             <th>Attack Speed</th>
             <th>Attack Range</th>
             <th>Armor Type</th>
             <th>Armor</th>
             <th>HP</th>
-            <th>HP Regeneration</th>
-            <th>Mana</th>
-            <th>Mana Regeneration</th>
-            <th>Day Sight</th>
-            <th>Night Sight</th>
-            <th>Movement Speed</th>
             <th>Abilities</th>
         </tr>
     </thead>
     <tbody>
 
-<!-- Units generated with chat command "-website". -->
+<!-- Mounts generated with chat command "-website". -->
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" />
 </td>
 <td>
-Bandit
+Gryphon Mount
 </td>
 <td>
-1
+Fly
 </td>
 <td>
-1
+350
 </td>
 <td>
-105
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
 </td>
 <td>
-0
+2.000
 </td>
 <td>
-Foot
-</td>
-<td>
-270.000
+450
 </td>
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>
 <td>
-0.000
+8
 </td>
 <td>
-<img src="images\\Infocard-neutral-attack-melee.webp" title="Melee" />
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" title="Storm Hammer Lightning" /><a href="spells.html#">Storm Hammer Lightning</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
 </td>
 </tr>
 
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWyvern.tga" />
 </td>
 <td>
-Brigand
+Wyvern Mount
 </td>
 <td>
-2
+Fly
 </td>
 <td>
-2
+320
 </td>
 <td>
-150
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
 </td>
 <td>
-10
+2.000
 </td>
 <td>
-Foot
-</td>
-<td>
-270.000
+450
 </td>
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>
 <td>
-0.000
+8
 </td>
 <td>
-<img src="images\\Infocard-neutral-attack-piercing.webp" title="Pierce" />
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBloodLustOn.blp" title="Bloodlust" /><a href="spells.html#">Bloodlust</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
 </td>
 </tr>
 
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />
 </td>
 <td>
-Rogue
+Frost Wyrm Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="Frost Nova" /><a href="spells.html#">Frost Nova</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChimaera.blp" />
+</td>
+<td>
+Chimaera Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" />
+</td>
+<td>
+Nether Drake Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCurseOn.blp" title="Curse" /><a href="spells.html#">Curse</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWindSerpent.blp" />
+</td>
+<td>
+Couatl Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>
 <td>
 3
 </td>
 <td>
-2
+700
 </td>
 <td>
-150
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagicOn.blp" title="Abolish Magic" /><a href="spells.html#">Abolish Magic</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDragonHawk.blp" />
 </td>
 <td>
-0
+Dragonhawk Mount
 </td>
 <td>
-Foot
+Fly
 </td>
 <td>
-270.000
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
 </td>
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>
 <td>
-1.000
+8
 </td>
 <td>
-<img src="images\\Infocard-neutral-attack-melee.webp" title="Melee" />
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMagicLariet.blp" title="Aerial Shackles" /><a href="spells.html#">Aerial Shackles</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulProtoDrake.blp" />
+</td>
+<td>
+Proto Drake Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFireForTheCannon.blp" title="Breath of Fire" /><a href="spells.html#">Breath of Fire</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="	">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGermanZeppelin.blp" />
+</td>
+<td>
+Zeppelin Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReveal.blp" title="Reveal" /><a href="spells.html#">Reveal</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="
+">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGrizzlyBear.blp" />
+</td>
+<td>
+Bear Mount
+</td>
+<td>
+Foot
+</td>
+<td>
+300
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+100
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+550
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="Sleep" /><a href="spells.html#">Sleep</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostBear.blp" />
+</td>
+<td>
+Polar Bear Mount
+</td>
+<td>
+Foot
+</td>
+<td>
+300
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+100
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+550
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="Sleep" /><a href="spells.html#">Sleep</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleGreen.blp" />
+</td>
+<td>
+Giant Sea Turtle Mount
+</td>
+<td>
+Amphibious
+</td>
+<td>
+320
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" title="Spiked Shell" /><a href="spells.html#">Spiked Shell</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" /><a href="spells.html#">Default string</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="
+">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRiderlessHorse.blp" />
+</td>
+<td>
+Horse Mount
+</td>
+<td>
+On Horse
+</td>
+<td>
+320
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+0
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-large.webp" title="Large" />
+</td>
+<td>
+8
+</td>
+<td>
+550
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNEvasion.blp" title="Evasion" /><a href="spells.html#">Evasion</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Cargo Hold Death" /><a href="spells.html#">Cargo Hold Death</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestessOfTheMoon.blp" />
+</td>
+<td>
+White Tiger Mount
+</td>
+<td>
+On Horse
+</td>
+<td>
+320
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+0
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-large.webp" title="Large" />
+</td>
+<td>
+8
+</td>
+<td>
+550
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNEvasion.blp" title="Evasion" /><a href="spells.html#">Evasion</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Cargo Hold Death" /><a href="spells.html#">Cargo Hold Death</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRiderlessKodo.blp" />
+</td>
+<td>
+Kodo Beast Mount
+</td>
+<td>
+Foot
+</td>
+<td>
+280
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+0
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+1400
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrum.blp" title="War Drums" /><a href="spells.html#">War Drums</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Default string" /><a href="spells.html#">Default string</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp" />
+</td>
+<td>
+Cloud Serpent Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp" title="Cloud" /><a href="spells.html#">Cloud</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+</td>
+<td>
+Dragon Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" title="Storm Hammer Lightning" /><a href="spells.html#">Storm Hammer Lightning</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNApache.blp" />
+</td>
+<td>
+Apache Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNEvasion.blp" title="Evasion" /><a href="spells.html#">Evasion</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShuttle.blp" />
+</td>
+<td>
+Imperial Shuttle
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp" title="Hyperspace" /><a href="spells.html#">Hyperspace</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNJediInterceptor.blp" />
+</td>
+<td>
+Jedi Interceptor
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp" title="Hyperspace" /><a href="spells.html#">Hyperspace</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGermanZeppelin.blp" />
+</td>
+<td>
+Zeppelin Mount
+</td>
+<td>
+Fly
+</td>
+<td>
+350
+</td>
+<td>
+<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
+</td>
+<td>
+2.000
+</td>
+<td>
+450
+</td>
+<td>
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
+</td>
+<td>
+8
+</td>
+<td>
+950
+</td>
+<td>
+<ul>
+<li>
+<img src="" title="Defend" /><a href="spells.html#">Defend</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="Burrow Detection" /><a href="spells.html#">Burrow Detection</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReveal.blp" title="Reveal" /><a href="spells.html#">Reveal</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnLoad.blp" title="Unload" /><a href="spells.html#">Unload</a>
+</li>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLoad.blp" title="Load" /><a href="spells.html#">Load</a>
+</li>
+</ul>
 </td>
 </tr>
 
     </tbody>
 </table>
+
+<script>
+    $('#mounts').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
+
 
 </body>
 </html> 
