@@ -15,7 +15,7 @@ Paladin
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -108,7 +108,7 @@ Archmage
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -201,7 +201,7 @@ Mountain King
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -294,7 +294,7 @@ Mortar Team
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -371,7 +371,7 @@ Dwarf Mage
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -448,7 +448,7 @@ Blood Mage
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -541,7 +541,7 @@ Ranger
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -618,7 +618,7 @@ Wizard
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -695,7 +695,7 @@ Sorceress
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -723,7 +723,7 @@ Sorceress
 </td>" )
 	call Preload( "
 <td>
-None
+Hover
 </td>" )
 	call Preload( "
 <td>
@@ -772,7 +772,7 @@ Blademaster
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -849,7 +849,7 @@ Far Seer
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -877,7 +877,7 @@ Far Seer
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -942,7 +942,7 @@ Tauren Chieftain
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1019,7 +1019,7 @@ Shadow Hunter
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1096,7 +1096,7 @@ Warlock
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -1173,7 +1173,7 @@ Death Knight
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1250,7 +1250,7 @@ Lich
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -1278,7 +1278,7 @@ Lich
 </td>" )
 	call Preload( "
 <td>
-None
+Hover
 </td>" )
 	call Preload( "
 <td>
@@ -1327,7 +1327,7 @@ Crypt Lord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1404,7 +1404,7 @@ Dark Ranger
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1481,7 +1481,7 @@ Necromancer
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -1558,7 +1558,7 @@ Abomination
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1635,7 +1635,7 @@ Banshee
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -1663,7 +1663,7 @@ Banshee
 </td>" )
 	call Preload( "
 <td>
-None
+Hover
 </td>" )
 	call Preload( "
 <td>
@@ -1712,7 +1712,7 @@ Keeper of the Grove
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -1740,7 +1740,7 @@ Keeper of the Grove
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -1789,7 +1789,7 @@ Priestess of the Moon
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1817,7 +1817,7 @@ Priestess of the Moon
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -1866,7 +1866,7 @@ Demon Hunter
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1943,7 +1943,7 @@ Warden
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2020,7 +2020,7 @@ Mountain Giant
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2097,7 +2097,7 @@ Druid of the Claw
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -2125,7 +2125,7 @@ Druid of the Claw
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -2174,7 +2174,7 @@ Druid of the Talon
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -2202,7 +2202,7 @@ Druid of the Talon
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -2251,7 +2251,7 @@ Alchemist
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2328,7 +2328,7 @@ Tinker
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -2405,7 +2405,7 @@ Flame Shredder
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2482,7 +2482,7 @@ Sea Witch
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -2510,7 +2510,7 @@ Sea Witch
 </td>" )
 	call Preload( "
 <td>
-None
+Amphibious
 </td>" )
 	call Preload( "
 <td>
@@ -2559,7 +2559,7 @@ Beastmaster
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2636,7 +2636,7 @@ Firelord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2713,7 +2713,7 @@ Brewmaster
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2790,7 +2790,7 @@ Iron Fist
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2867,7 +2867,7 @@ Shado Pan
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2944,7 +2944,7 @@ Dreadlord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3021,7 +3021,7 @@ Pit Lord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3098,7 +3098,7 @@ Eredar Warlock
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -3175,7 +3175,7 @@ Succubus
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -3252,7 +3252,7 @@ Elder Sage
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -3329,7 +3329,7 @@ Furbolg Ursa Warrior
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -3406,7 +3406,7 @@ Hydromancer
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -3434,7 +3434,7 @@ Hydromancer
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -3483,7 +3483,7 @@ U. S. General
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3560,7 +3560,7 @@ Military Tribune
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3637,7 +3637,7 @@ Gandalf the Grey
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -3714,7 +3714,7 @@ Saruman the White
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -3791,7 +3791,7 @@ The Deceiver
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3868,7 +3868,7 @@ Balrog
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3945,7 +3945,7 @@ Supreme Martial Commander
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -4022,7 +4022,7 @@ Darth Tyranus
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -4099,7 +4099,7 @@ Sith Lord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -4176,7 +4176,7 @@ Jedi Master
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -4253,7 +4253,7 @@ Thane
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -4330,7 +4330,7 @@ Flamebinder
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="Intelligence" alt="Intelligence" />
 </td>" )
 	call Preload( "
 <td>
@@ -4407,7 +4407,7 @@ Wolf Rider
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="Agility" alt="Agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -4435,7 +4435,7 @@ Wolf Rider
 </td>" )
 	call Preload( "
 <td>
-Hover
+On Horse
 </td>" )
 	call Preload( "
 <td>
@@ -4484,7 +4484,7 @@ Deathclaw
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -4561,7 +4561,7 @@ Worgen Death Knight
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="Strength" alt="Strength" />
 </td>" )
 	call Preload( "
 <td>

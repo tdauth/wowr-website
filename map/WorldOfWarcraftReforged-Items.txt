@@ -5160,6 +5160,497 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <tr id="">
 <td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoldBar.blp" />
+</td>" )
+	call Preload( "
+<td>
+Gold Bars
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+Gives 500 gold to the player when used.
+</td>" )
+	call Preload( "
+<td>
+120
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPotionOfRestoration.blp" />
+</td>" )
+	call Preload( "
+<td>
+Potion of Greater Restoration
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+Heals 700 hit points and restores 400 mana when used.
+</td>" )
+	call Preload( "
+<td>
+192
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Restoration Stone
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+Increases the life regeneration rate of the Hero by 1 hit points per second when worn. Can be consumed for 500 health. Increases the mana regeneration rate of the Hero by 25% when worn. Can be consumed for 250 mana.
+</td>" )
+	call Preload( "
+<td>
+384
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flamethrower
+</td>" )
+	call Preload( "
+<td>
+5
+</td>" )
+	call Preload( "
+<td>
+Powerful weapon which has a limited number of charges to burn victims in front of the hero. Causes 30 damage per second to nearby enemy units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1000
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Random Artifact
+</td>" )
+	call Preload( "
+<td>
+8
+</td>" )
+	call Preload( "
+<td>
+Gives the hero a random ability. The ability can be changed by using the item.
+</td>" )
+	call Preload( "
+<td>
+192
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unlimited Trees
+</td>" )
+	call Preload( "
+<td>
+8
+</td>" )
+	call Preload( "
+<td>
+Summons an Unlimited Tree which can be used for harvesting lumber.
+</td>" )
+	call Preload( "
+<td>
+192
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" />
+</td>" )
+	call Preload( "
+<td>
+Wand of Future
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Sends the target units, items and destructables to the future. Calls all of them back from the future if targeted on the ground. This will not call back enemy units from the future but items and destructables send to the future by enemies. |nContains " )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTN.TimeUp.BLP" />
+</td>" )
+	call Preload( "
+<td>
+Wand of Time Clone
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Create an inverted double of the targeted unit when used. The inverted double does the targets actions inverted. |nContains 4 charges.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" />
+</td>" )
+	call Preload( "
+<td>
+Winged Clock
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Increases or decreases the time speed for 30 seconds. Target the ground to increase the time speed. Target a unit to decrease the time speed.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNJedi Drone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Jedi Drone
+</td>" )
+	call Preload( "
+<td>
+5
+</td>" )
+	call Preload( "
+<td>
+Automatically attacks nearby enemies.
+</td>" )
+	call Preload( "
+<td>
+120
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNsatchel.blp" />
+</td>" )
+	call Preload( "
+<td>
+C4
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+Places a hidden C4 explosive at a target point. It will explode automatically after 10 seconds causing massive area of effect damage to nearby units. |nContains 3 charges.
+</td>" )
+	call Preload( "
+<td>
+54
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRadar.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mobile Radar
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Drops a Mobile Radar to spy upon an area for 180 seconds. It detects only enemy mechanical units in a high range checking every 5 seconds. |nContains 2 charges.
+</td>" )
+	call Preload( "
+<td>
+36
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp" />
 </td>" )
 	call Preload( "
@@ -11489,7 +11980,498 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 2.3 )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoldBar.blp" />
+</td>" )
+	call Preload( "
+<td>
+Gold Bars
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+Gives 500 gold to the player when used.
+</td>" )
+	call Preload( "
+<td>
+120
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPotionOfRestoration.blp" />
+</td>" )
+	call Preload( "
+<td>
+Potion of Greater Restoration
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+Heals 700 hit points and restores 400 mana when used.
+</td>" )
+	call Preload( "
+<td>
+192
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Restoration Stone
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+Increases the life regeneration rate of the Hero by 1 hit points per second when worn. Can be consumed for 500 health. Increases the mana regeneration rate of the Hero by 25% when worn. Can be consumed for 250 mana.
+</td>" )
+	call Preload( "
+<td>
+384
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flamethrower
+</td>" )
+	call Preload( "
+<td>
+5
+</td>" )
+	call Preload( "
+<td>
+Powerful weapon which has a limited number of charges to burn victims in front of the hero. Causes 30 damage per second to nearby enemy units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1000
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Random Artifact
+</td>" )
+	call Preload( "
+<td>
+8
+</td>" )
+	call Preload( "
+<td>
+Gives the hero a random ability. The ability can be changed by using the item.
+</td>" )
+	call Preload( "
+<td>
+192
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unlimited Trees
+</td>" )
+	call Preload( "
+<td>
+8
+</td>" )
+	call Preload( "
+<td>
+Summons an Unlimited Tree which can be used for harvesting lumber.
+</td>" )
+	call Preload( "
+<td>
+192
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" />
+</td>" )
+	call Preload( "
+<td>
+Wand of Future
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Sends the target units, items and destructables to the future. Calls all of them back from the future if targeted on the ground. This will not call back enemy units from the future but items and destructables send to the future by enemies. |nContains " )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTN.TimeUp.BLP" />
+</td>" )
+	call Preload( "
+<td>
+Wand of Time Clone
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Create an inverted double of the targeted unit when used. The inverted double does the targets actions inverted. |nContains 4 charges.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" />
+</td>" )
+	call Preload( "
+<td>
+Winged Clock
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Increases or decreases the time speed for 30 seconds. Target the ground to increase the time speed. Target a unit to decrease the time speed.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNJedi Drone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Jedi Drone
+</td>" )
+	call Preload( "
+<td>
+5
+</td>" )
+	call Preload( "
+<td>
+Automatically attacks nearby enemies.
+</td>" )
+	call Preload( "
+<td>
+120
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNsatchel.blp" />
+</td>" )
+	call Preload( "
+<td>
+C4
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+Places a hidden C4 explosive at a target point. It will explode automatically after 10 seconds causing massive area of effect damage to nearby units. |nContains 3 charges.
+</td>" )
+	call Preload( "
+<td>
+54
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRadar.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mobile Radar
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+Drops a Mobile Radar to spy upon an area for 180 seconds. It detects only enemy mechanical units in a high range checking every 5 seconds. |nContains 2 charges.
+</td>" )
+	call Preload( "
+<td>
+36
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 2.7 )
 
 endfunction
 
