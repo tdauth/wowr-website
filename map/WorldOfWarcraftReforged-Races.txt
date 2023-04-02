@@ -5,7 +5,7 @@ function PreloadFiles takes nothing returns nothing
 Races:
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -22,10 +22,6 @@ Races:
 	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" /> <href="items.html#"></a>
-</td>" )
-	call Preload( "
-<td>
-
 </td>" )
 	call Preload( "
 </tr>
@@ -33,7 +29,7 @@ Races:
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -52,16 +48,12 @@ Human race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -80,16 +72,12 @@ Orc race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" /> <href="items.html#">Tiny Great Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Great Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" title="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -108,16 +96,12 @@ Undead race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" title="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" /> <href="items.html#">Tiny Necropolis</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Necropolis
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" title="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -136,16 +120,12 @@ Night Elf race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" /> <href="items.html#">Tiny Tree of Life</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Tree of Life
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -164,16 +144,12 @@ Blood Elf race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny Blood Elf Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Blood Elf Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -192,16 +168,12 @@ Naga race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" title="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" /> <href="items.html#">Tiny Temple of Tides</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Temple of Tides
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" title="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -220,16 +192,12 @@ Demon race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" /> <href="items.html#">Tiny Demon Gate</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Demon Gate
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -248,16 +216,12 @@ Draenei race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" /> <href="items.html#">Tiny Draenei Haven</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Draenei Haven
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" title="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -276,16 +240,12 @@ Furbolg race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" title="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" /> <href="items.html#">Tiny Furbolg Tribal Center</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Furbolg Tribal Center
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -304,16 +264,12 @@ Goblin race. Specialized on mechanical units, higher income and engineering.
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" /> <href="items.html#">Tiny Goblin Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Goblin Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -332,24 +288,20 @@ Dwarf race.
 <img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" /> <href="items.html#">Tiny Dwarf Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Dwarf Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+High Elf
 </td>" )
 	call Preload( "
 <td>
-
+High Elf race.
 </td>" )
 	call Preload( "
 <td>
@@ -360,24 +312,20 @@ Tiny Dwarf Town Hall
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny High Elf Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny High Elf Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" title="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Dalaran
 </td>" )
 	call Preload( "
 <td>
-
+Dalaran/Kirin Tor race. A human end elven faction which is specialized on magic and summoned creatures. Buildings can be teleported or moved around.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -388,24 +336,20 @@ Tiny High Elf Town Hall
 <img src="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" /> <href="items.html#">Tiny Dalaran Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Dalaran Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" title="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Kul Tiras
 </td>" )
 	call Preload( "
 <td>
-
+Kul Tiras race. A human faction which is specialized on a strong navy and water magic.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -416,24 +360,20 @@ Tiny Dalaran Town Hall
 <img src="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" /> <href="items.html#">Tiny Kul Tiras Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Kul Tiras Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Pandaren
 </td>" )
 	call Preload( "
 <td>
-
+Pandaren race. Specialized on healing, peace, cooking and alcohol.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -444,24 +384,20 @@ Tiny Kul Tiras Town Hall
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny Pandaren Temple</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Pandaren Temple
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" title="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Trolls
 </td>" )
 	call Preload( "
 <td>
-
+Trolls race. Allies of the Horde.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -472,24 +408,20 @@ Tiny Pandaren Temple
 <img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" /> <href="items.html#">Tiny Great Hall of Trolls</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Great Hall of Trolls
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Tauren
 </td>" )
 	call Preload( "
 <td>
-
+Tauren race. Allies of the Horde.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -500,24 +432,20 @@ Tiny Great Hall of Trolls
 <img src="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" title="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" /> <href="items.html#">Tiny Great Hall of Tauren</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Great Hall of Tauren
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" title="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Galactic Republic
 </td>" )
 	call Preload( "
 <td>
-
+Galactic Republic from Star Wars.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -528,24 +456,20 @@ Tiny Great Hall of Tauren
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny Acclamator</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Acclamator
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+CIS
 </td>" )
 	call Preload( "
 <td>
-
+Confederacy of Independent Systems from Star Wars.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -556,24 +480,20 @@ Tiny Acclamator
 <img src="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" /> <href="items.html#">Tiny Droid Control Ship</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Droid Control Ship
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" title="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Roman Empire
 </td>" )
 	call Preload( "
 <td>
-
+The Roman Empire from another universe.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -584,24 +504,20 @@ Tiny Droid Control Ship
 <img src="ReplaceableTextures\\CommandButtons\\BTNTent.blp" title="ReplaceableTextures\\CommandButtons\\BTNTent.blp" /> <href="items.html#">Tiny Command Tent</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Command Tent
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" title="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Medieval
 </td>" )
 	call Preload( "
 <td>
-
+European christian medieval race inspired by games like Age of Empires II.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -612,24 +528,20 @@ Tiny Command Tent
 <img src="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" title="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" /> <href="items.html#">Tiny Medieval Town Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Medieval Town Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Free People of Middle Earth
 </td>" )
 	call Preload( "
 <td>
-
+Free People of Middle Earth: Hobbits, Rohan, Gondor, Elven, Dwarves etc.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -640,24 +552,20 @@ Tiny Medieval Town Hall
 <img src="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" title="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" /> <href="items.html#">Tiny Hobbit Hole</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Hobbit Hole
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Sauron's Forces
 </td>" )
 	call Preload( "
 <td>
-
+Sauron's Forces: Mordor, Isengard, Rhûn, Haradrim, evil creatures etc.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -668,24 +576,20 @@ Tiny Hobbit Hole
 <img src="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" title="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" /> <href="items.html#">Tiny Great Hall</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Great Hall
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" title="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Modern Warfare
 </td>" )
 	call Preload( "
 <td>
-
+Modern Warfare era after WWII until today.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -696,24 +600,20 @@ Tiny Great Hall
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny Command Center</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Command Center
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" title="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Germans WWII
 </td>" )
 	call Preload( "
 <td>
-
+Germans during WWII. Sad story.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -724,24 +624,20 @@ Tiny Command Center
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /> <href="items.html#">Tiny Headquarters</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Headquarters
-</td>" )
-	call Preload( "
 </tr>
 " )
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" title="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" />
 </td>" )
 	call Preload( "
 <td>
-
+Vrykul
 </td>" )
 	call Preload( "
 <td>
-
+Vrykul race. Nordic giants, powerful warriors with strong ships and Proto-Drakes.<br/><br/><div style="font-color: ffffc">Requires hero level 60 or to be a VIP.</div>
 </td>" )
 	call Preload( "
 <td>
@@ -752,13 +648,9 @@ Tiny Headquarters
 <img src="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" title="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" /> <href="items.html#">Tiny Dragon's Reach</a>
 </td>" )
 	call Preload( "
-<td>
-Tiny Dragon's Reach
-</td>" )
-	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.2 )
+	call PreloadEnd( 0.4 )
 
 endfunction
 

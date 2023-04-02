@@ -76,6 +76,22 @@ Foot
 	call Preload( "
 <td>
 <ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" title="Holy Light" /><a href="spells.html#">Holy Light</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="Devotion Aura" /><a href="spells.html#">Devotion Aura</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
+</li>" )
+	call Preload( "
 </ul>
 </td>" )
 	call Preload( "
@@ -153,6 +169,22 @@ Foot
 	call Preload( "
 <td>
 <ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBlizzard.blp" title="Blizzard" /><a href="spells.html#">Blizzard</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSummonWaterElemental.blp" title="Summon Water Elemental" /><a href="spells.html#">Summon Water Elemental</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBrilliance.blp" title="Brilliance Aura" /><a href="spells.html#">Brilliance Aura</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp" title="Mass Teleport" /><a href="spells.html#">Mass Teleport</a>
+</li>" )
+	call Preload( "
 </ul>
 </td>" )
 	call Preload( "
@@ -477,6 +509,22 @@ Foot
 	call Preload( "
 <td>
 <ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" title="Flame Strike" /><a href="spells.html#">Flame Strike</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="Banish" /><a href="spells.html#">Banish</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" title="Siphon Mana" /><a href="spells.html#">Siphon Mana</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" title="Phoenix" /><a href="spells.html#">Phoenix</a>
+</li>" )
+	call Preload( "
 </ul>
 </td>" )
 	call Preload( "
@@ -862,6 +910,22 @@ Hover
 	call Preload( "
 <td>
 <ul>
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" title="Far Sight" /><a href="spells.html#">Far Sight</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="Feral Spirit" /><a href="spells.html#">Feral Spirit</a>
+</li>" )
+	call Preload( "
+<li>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp" title="Earthquake" /><a href="spells.html#">Earthquake</a>
+</li>" )
+	call Preload( "
 </ul>
 </td>" )
 	call Preload( "
@@ -4563,7 +4627,7 @@ Foot
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 4.2 )
+	call PreloadEnd( 4.3 )
 
 endfunction
 

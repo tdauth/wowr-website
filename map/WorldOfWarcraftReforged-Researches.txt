@@ -1,0 +1,3447 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Researches:
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
+</td>" )
+	call Preload( "
+<td>
+Default string
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Forged Swords
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Black Gunpowder
+</td>" )
+	call Preload( "
+<td>
+Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and Flying Machines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Plating
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Studded Leather Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" title="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Storm Hammers
+</td>" )
+	call Preload( "
+<td>
+Causes a Gryphon Rider's attacks to damage multiple units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flying Machine Bombs
+</td>" )
+	call Preload( "
+<td>
+Allows Flying Machines to attack land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of Human buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDefend.blp" title="ReplaceableTextures\\CommandButtons\\BTNDefend.blp" />
+</td>" )
+	call Preload( "
+<td>
+Defend
+</td>" )
+	call Preload( "
+<td>
+Allows Footmen to use the Defend ability, which increases their defensive capabilities against Piercing attacks.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Animal War Training
+</td>" )
+	call Preload( "
+<td>
+Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSorceressAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Sorceress Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Sorceresses' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Invisibility.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp" />
+</td>" )
+	call Preload( "
+<td>
+Long Rifles
+</td>" )
+	call Preload( "
+<td>
+Increases the range of Riflemen attacks.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of lumber that Peasants can carry by 10.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp" title="ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp" />
+</td>" )
+	call Preload( "
+<td>
+Magic Sentry
+</td>" )
+	call Preload( "
+<td>
+Provides Human towers with the ability to detect invisible units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlare.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flare
+</td>" )
+	call Preload( "
+<td>
+Provides Mortar Teams with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp" title="ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Control Magic
+</td>" )
+	call Preload( "
+<td>
+Gives Spellbreakers the ability to take control of enemy summoned units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" />
+</td>" )
+	call Preload( "
+<td>
+Barrage
+</td>" )
+	call Preload( "
+<td>
+Upgrades Siege Engines, giving them the Barrage ability, which allows them to damage nearby enemy air units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Human ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flak Cannons
+</td>" )
+	call Preload( "
+<td>
+Upgrades the weapons on Flying Machines to give them an area effect damage attack against air units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFragmentationBombs.blp" title="ReplaceableTextures\\CommandButtons\\BTNFragmentationBombs.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fragmentation Shards
+</td>" )
+	call Preload( "
+<td>
+Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the damage they deal to Unarmored and Medium armor units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp" title="ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cloud
+</td>" )
+	call Preload( "
+<td>
+Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings from attacking.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSunderingBlades.blp" title="ReplaceableTextures\\CommandButtons\\BTNSunderingBlades.blp" />
+</td>" )
+	call Preload( "
+<td>
+Sundering Blades
+</td>" )
+	call Preload( "
+<td>
+Upgrades Knights to deal increased damage to targets with Medium armor.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp" />
+</td>" )
+	call Preload( "
+<td>
+Arcane Observatory
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens an Arcane Observatory to reveal hostile units and resurrect dead player units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Melee Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the melee attack damage of Grunts, Raiders and Tauren.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Ranged Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the ranged attack damage of Headhunters, Wind Riders, Batriders and Demolishers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Grunts, Raiders, Batriders, Tauren, Headhunters, Wind Riders and Demolishers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" title="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" />
+</td>" )
+	call Preload( "
+<td>
+War Drums Damage Increase
+</td>" )
+	call Preload( "
+<td>
+Increases the damage bonus that the War Drums aura on the Kodo Beast gives. War Drums increases the damage of friendly units around Kodo Beasts.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPillage.blp" title="ReplaceableTextures\\CommandButtons\\BTNPillage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Pillage
+</td>" )
+	call Preload( "
+<td>
+Causes Peons', Grunts', and Raiders' attacks to gain resources when hitting enemy buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBerserk.blp" title="ReplaceableTextures\\CommandButtons\\BTNBerserk.blp" />
+</td>" )
+	call Preload( "
+<td>
+Brute Strength
+</td>" )
+	call Preload( "
+<td>
+Improves the fighting capabilities of Grunts with a 125 hit point increase, and 3 bonus attack damage.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSmash.blp" title="ReplaceableTextures\\CommandButtons\\BTNSmash.blp" />
+</td>" )
+	call Preload( "
+<td>
+Pulverize Damage Increase
+</td>" )
+	call Preload( "
+<td>
+Upgrades the totem carried by Tauren, increasing the damage of their Pulverize ability.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Ensnare
+</td>" )
+	call Preload( "
+<td>
+Enables Raiders to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnvenomedSpear.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnvenomedSpear.blp" />
+</td>" )
+	call Preload( "
+<td>
+Envenomed Spears
+</td>" )
+	call Preload( "
+<td>
+Adds an additional poison effect to Wind Riders' attacks. A unit poisoned by Envenomed Spears takes damage over time.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Witch Doctor Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Witch Doctors' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Stasis Trap.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShamanAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNShamanAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Shaman Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Shaman mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Lightning Shield.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpikedBarricades.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpikedBarricades.blp" />
+</td>" )
+	call Preload( "
+<td>
+Spiked Barricades
+</td>" )
+	call Preload( "
+<td>
+Surrounds Orc buildings with spikes that damage enemy melee attackers. Deals 5 damage per attack plus an additional 20% of the attacker's damage.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRegenerate.blp" title="ReplaceableTextures\\CommandButtons\\BTNRegenerate.blp" />
+</td>" )
+	call Preload( "
+<td>
+Troll Regeneration
+</td>" )
+	call Preload( "
+<td>
+Increases the hit point regeneration rate of Headhunters, Witch Doctors and Batriders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Liquid Fire
+</td>" )
+	call Preload( "
+<td>
+Gives Batriders the Liquid Fire attack, which deals damage over time to enemy buildings, reduces the repaired rate and the attack rate of enemy buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Spirit Walker Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Spirit Walkers' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Disenchant.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReinforcedBurrows.blp" title="ReplaceableTextures\\CommandButtons\\BTNReinforcedBurrows.blp" />
+</td>" )
+	call Preload( "
+<td>
+Reinforced Defenses
+</td>" )
+	call Preload( "
+<td>
+Upgrades Burrows and Watch Towers so that they have Fortified armor.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp" />
+</td>" )
+	call Preload( "
+<td>
+Berserker Upgrade
+</td>" )
+	call Preload( "
+<td>
+Transforms Headhunters into Berserkers, giving them increased hit points and the Berserk ability.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Orc ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFireRocks.blp" title="ReplaceableTextures\\CommandButtons\\BTNFireRocks.blp" />
+</td>" )
+	call Preload( "
+<td>
+Burning Oil
+</td>" )
+	call Preload( "
+<td>
+Upgrades Demolishers to fire rocks smothered in burning oil, which causes the ground to burn.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fel
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens a Fountain of Blood to train and convert Fel Orcs.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnholyStrength.blp" title="ReplaceableTextures\\CommandButtons\\BTNUnholyStrength.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unholy Strength
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warriors, and Skeletal Mages.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCreatureAttack.blp" title="ReplaceableTextures\\CommandButtons\\BTNCreatureAttack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Creature Attack
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Crypt Fiends, Gargoyles, Destroyers, and Frost Wyrms.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unholy Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mages.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp" title="ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cannibalize
+</td>" )
+	call Preload( "
+<td>
+Enables Ghouls and Abominations to use the Cannibalize ability. Cannibalize consumes a nearby corpse to restore health.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGhoulFrenzy.blp" title="ReplaceableTextures\\CommandButtons\\BTNGhoulFrenzy.blp" />
+</td>" )
+	call Preload( "
+<td>
+Ghoul Frenzy
+</td>" )
+	call Preload( "
+<td>
+Increases the attack rate of Ghouls by 35%, and increases their movement speed.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWeb.blp" title="ReplaceableTextures\\CommandButtons\\BTNWeb.blp" />
+</td>" )
+	call Preload( "
+<td>
+Web
+</td>" )
+	call Preload( "
+<td>
+Enables Crypt Fiends to use the Web ability. Web binds a target enemy air unit in webbing, forcing it to the ground. Webbed units can be hit as though they were land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Stone Form
+</td>" )
+	call Preload( "
+<td>
+Enables the ability for Gargoyles to assume Stone Form. Stone Form transforms the Gargoyle into a statue with high armor, spell immunity, and regeneration. The Gargoyle cannot attack in this form.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNecromancerAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNNecromancerAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Necromancer Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Necromancers' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Unholy Frenzy.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBansheeAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNBansheeAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Banshee Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Banshees' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Anti-magic Shell.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp" title="ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp" />
+</td>" )
+	call Preload( "
+<td>
+Freezing Breath
+</td>" )
+	call Preload( "
+<td>
+Enables Frost Wyrms to use the Freezing Breath ability. When cast on a building, temporarily stops production.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp" title="ReplaceableTextures\\CommandButtons\\BTNSkeletalLongevity.blp" />
+</td>" )
+	call Preload( "
+<td>
+Skeletal Longevity
+</td>" )
+	call Preload( "
+<td>
+Increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seconds.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCreatureCarapace.blp" title="ReplaceableTextures\\CommandButtons\\BTNCreatureCarapace.blp" />
+</td>" )
+	call Preload( "
+<td>
+Creature Carapace
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Crypt Fiends, Gargoyles, Destroyers, and Frost Wyrms.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPlagueCloud.blp" title="ReplaceableTextures\\CommandButtons\\BTNPlagueCloud.blp" />
+</td>" )
+	call Preload( "
+<td>
+Disease Cloud
+</td>" )
+	call Preload( "
+<td>
+Gives Abominations a Disease Cloud aura that deals 2 damage per second for 75 seconds to nearby enemy units. Meat Wagons will cause Disease Clouds wherever they attack that deal 2 damage per second for 75 seconds to nearby enemy units. |nUndead are im" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp" title="ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Skeletal Mastery
+</td>" )
+	call Preload( "
+<td>
+Causes one of the two skeletons created by Raise Dead to be a Skeletal Mage and increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seconds.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCryptFiendBurrow.blp" title="ReplaceableTextures\\CommandButtons\\BTNCryptFiendBurrow.blp" />
+</td>" )
+	call Preload( "
+<td>
+Burrow
+</td>" )
+	call Preload( "
+<td>
+Crypt Fiends gain the ability to burrow. Burrowed Crypt Fiends are invisible and gain increased hit point regeneration, but cannot attack.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDestroyer.blp" title="ReplaceableTextures\\CommandButtons\\BTNDestroyer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Destroyer Form
+</td>" )
+	call Preload( "
+<td>
+Allows the Obsidian Statue to transform into a Destroyer, a large flying unit that must devour magic to sustain its mana. The Destroyer has Spell Immunity, Devour Magic, Absorb Mana, and Orb of Annihilation. |n|n|cffffcc00Attacks land and air units.|r" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNExhumeCorpses.blp" title="ReplaceableTextures\\CommandButtons\\BTNExhumeCorpses.blp" />
+</td>" )
+	call Preload( "
+<td>
+Exhume Corpses
+</td>" )
+	call Preload( "
+<td>
+Gives Meat Wagons the ability to generate corpses.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Undead ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" title="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
+</td>" )
+	call Preload( "
+<td>
+Lich King
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens the Lich King to convert hostile units into Undead and summoning Shades somewhere on the map.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheMoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheMoon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Strength of the Moon
+</td>" )
+	call Preload( "
+<td>
+Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheWild.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheWild.blp" />
+</td>" )
+	call Preload( "
+<td>
+Strength of the Wild
+</td>" )
+	call Preload( "
+<td>
+Increases the damage of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Moon Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Archers, Huntresses, and Hippogryph Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp" title="ReplaceableTextures\\CommandButtons\\BTNReinforcedHides.blp" />
+</td>" )
+	call Preload( "
+<td>
+Reinforced Hides
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUltravision.blp" title="ReplaceableTextures\\CommandButtons\\BTNUltravision.blp" />
+</td>" )
+	call Preload( "
+<td>
+Ultravision
+</td>" )
+	call Preload( "
+<td>
+Gives Night Elves the ability to see as far at night as they do during the day.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNaturesBlessing.blp" title="ReplaceableTextures\\CommandButtons\\BTNNaturesBlessing.blp" />
+</td>" )
+	call Preload( "
+<td>
+Nature's Blessing
+</td>" )
+	call Preload( "
+<td>
+Upgrades all Ancients' and Treants' movement speed and armor.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSentinel.blp" title="ReplaceableTextures\\CommandButtons\\BTNSentinel.blp" />
+</td>" )
+	call Preload( "
+<td>
+Sentinel
+</td>" )
+	call Preload( "
+<td>
+Gives the Huntress the ability to send her owl companion to a nearby tree and provide vision. |nCan see invisible units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUpgradeMoonGlaive.blp" title="ReplaceableTextures\\CommandButtons\\BTNUpgradeMoonGlaive.blp" />
+</td>" )
+	call Preload( "
+<td>
+Upgrade Moon Glaive
+</td>" )
+	call Preload( "
+<td>
+Gives the Huntress the ability to strike additional units with her bouncing glaive attacks.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" title="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Bows
+</td>" )
+	call Preload( "
+<td>
+Increases the Archer's and Hippogryph Rider's attack range.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp" />
+</td>" )
+	call Preload( "
+<td>
+Marksmanship
+</td>" )
+	call Preload( "
+<td>
+Increases damage of Archers and Hippogryph Riders by 4.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNDOTAdeptTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Druid of the Talon Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, and gives them the ability Storm Crow Form.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDOCAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNDOCAdeptTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Druid of the Claw Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, attack damage and gives them the ability Rejuvenation.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagic.blp" title="ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Abolish Magic
+</td>" )
+	call Preload( "
+<td>
+Gives the Dryad the ability to dispel positive buffs from enemy units, and negative buffs from friendly units. |nDamages summoned units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorrosiveBreath.blp" />
+</td>" )
+	call Preload( "
+<td>
+Corrosive Breath
+</td>" )
+	call Preload( "
+<td>
+Gives Chimaeras the ability to hurl corrosive bile onto enemy buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTameHippogriff.blp" title="ReplaceableTextures\\CommandButtons\\BTNTameHippogriff.blp" />
+</td>" )
+	call Preload( "
+<td>
+Hippogryph Taming
+</td>" )
+	call Preload( "
+<td>
+Trains Hippogryphs to allow Archers to mount them. This allows them to attack both air and ground units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVorpalBlades.blp" title="ReplaceableTextures\\CommandButtons\\BTNVorpalBlades.blp" />
+</td>" )
+	call Preload( "
+<td>
+Vorpal Blades
+</td>" )
+	call Preload( "
+<td>
+Increases the speed of glaives launched by the Glaive Thrower. Also allows them to attack trees.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNResistantSkin.blp" title="ReplaceableTextures\\CommandButtons\\BTNResistantSkin.blp" />
+</td>" )
+	call Preload( "
+<td>
+Resistant Skin
+</td>" )
+	call Preload( "
+<td>
+Gives Mountain Giants increased resistance to spell damage.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHardenedSkin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHardenedSkin.blp" />
+</td>" )
+	call Preload( "
+<td>
+Hardened Skin
+</td>" )
+	call Preload( "
+<td>
+Gives Mountain Giants increased resistance to attack damage.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnchantedBears.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mark of the Claw
+</td>" )
+	call Preload( "
+<td>
+Allows Druids of the Claw to cast Roar while in Bear Form.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mark of the Talon
+</td>" )
+	call Preload( "
+<td>
+Allows Druids of the Talon to cast Faerie Fire while in Storm Crow Form.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp" title="ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp" />
+</td>" )
+	call Preload( "
+<td>
+Well Spring
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of mana that can be stored in Moon Wells by 125, and their rate of mana regeneration by 52%.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Night Elf ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
+</td>" )
+	call Preload( "
+<td>
+World Tree
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens a giant World Tree to heal and resurrect Night Elf units anywhere on the map!
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Blood Elf Animal War Training
+</td>" )
+	call Preload( "
+<td>
+Increases the maximum hit points of Dragonhawk Ridersby 100.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Forged Swords
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Plating
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of Blood Elf buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Studded Leather Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of lumber that Peasants can carry by 10.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Moon Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Archers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheMoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrengthOfTheMoon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Strength of the Moon
+</td>" )
+	call Preload( "
+<td>
+Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" title="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Bows
+</td>" )
+	call Preload( "
+<td>
+Increases the Archer's attack range.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp" />
+</td>" )
+	call Preload( "
+<td>
+Marksmanship
+</td>" )
+	call Preload( "
+<td>
+Increases damage of Archers by 4.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFireRocks.blp" title="ReplaceableTextures\\CommandButtons\\BTNFireRocks.blp" />
+</td>" )
+	call Preload( "
+<td>
+Burning Oil
+</td>" )
+	call Preload( "
+<td>
+Upgrades Ballistas to fire missiles smothered in burning oil, which causes the ground to burn.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Siege Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of Blood Elf siege weapons.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMagicVault.blp" title="ReplaceableTextures\\CommandButtons\\BTNMagicVault.blp" />
+</td>" )
+	call Preload( "
+<td>
+Magic Vault
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens a Magic Vault with abilities Burn Mana and Siphon Mana.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Ensnare
+</td>" )
+	call Preload( "
+<td>
+Enables Naga Myrmidons to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagic.blp" title="ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Abolish Magic
+</td>" )
+	call Preload( "
+<td>
+Gives the Couatl the ability to dispel positive buffs from enemy units, and negative buffs from friendly units. |nDamages summoned units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp1.blp" title="ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Coral Blades
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Naga attack units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp1.blp" title="ReplaceableTextures\\CommandButtons\\BTNNagaArmorUp1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Coral Scales
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Naga attack units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNagaBurrow.blp" title="ReplaceableTextures\\CommandButtons\\BTNNagaBurrow.blp" />
+</td>" )
+	call Preload( "
+<td>
+Submerge
+</td>" )
+	call Preload( "
+<td>
+Gives Naga Myrmidons and Snap Dragons the ability to submerge under water, hiding them from view.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNSirenAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Naga Siren Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Naga Sirens' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Frost Armor.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Naga ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Permanent Immolation
+</td>" )
+	call Preload( "
+<td>
+Allows Infernals and Reavers to use the ability Permanent Immolation.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNThickFur.blp" title="ReplaceableTextures\\CommandButtons\\BTNThickFur.blp" />
+</td>" )
+	call Preload( "
+<td>
+Resistant Skin
+</td>" )
+	call Preload( "
+<td>
+Gives Infernals the ability Resistant Skin.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNecromancerAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNNecromancerAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Eredar Sorcerer Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Eredar Sorcerers mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Sleep.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBansheeAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNBansheeAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Succubus Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Succubus' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnholyStrength.blp" title="ReplaceableTextures\\CommandButtons\\BTNUnholyStrength.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unholy Strength
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of  Overlords, Infernal Machines, Inquisitors and Doom Guards.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWeb.blp" title="ReplaceableTextures\\CommandButtons\\BTNWeb.blp" />
+</td>" )
+	call Preload( "
+<td>
+Web
+</td>" )
+	call Preload( "
+<td>
+Gives Fel Stalkers the ability Web.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp" title="ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Devour Magic
+</td>" )
+	call Preload( "
+<td>
+Gives Fel Stalkers the ability Devour Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" title="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cleaving Attack
+</td>" )
+	call Preload( "
+<td>
+Gives Overlords the ability Cleaving Attack.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Demon Fire
+</td>" )
+	call Preload( "
+<td>
+Improves the Demon Fire ability of Nether Drakes.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDefend.blp" title="ReplaceableTextures\\CommandButtons\\BTNDefend.blp" />
+</td>" )
+	call Preload( "
+<td>
+Defend
+</td>" )
+	call Preload( "
+<td>
+Gives Infernal Machines the ability Defend.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" title="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cripple
+</td>" )
+	call Preload( "
+<td>
+Gives Doom Guards the ability Cripple.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Rain of Fire
+</td>" )
+	call Preload( "
+<td>
+Gives Doom Guards the ability Rain of Fire.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSlow.blp" title="ReplaceableTextures\\CommandButtons\\BTNSlow.blp" />
+</td>" )
+	call Preload( "
+<td>
+Slow
+</td>" )
+	call Preload( "
+<td>
+Gives the Greater Voidwalkers the ability Slow.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNUnholyArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unholy Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Overlords, Infernal Machines, Inquisitors and Doom Guards.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCreatureCarapace.blp" title="ReplaceableTextures\\CommandButtons\\BTNCreatureCarapace.blp" />
+</td>" )
+	call Preload( "
+<td>
+Creature Carapace
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of  Fel Stalkers, Nether Drakes, Greate Voidwalkers, Jailers, Infernals and Reavers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHardenedSkin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHardenedSkin.blp" />
+</td>" )
+	call Preload( "
+<td>
+Hardened Skin
+</td>" )
+	call Preload( "
+<td>
+Allows Infernals and Reavers to use the ability Hardened Skin.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Demon ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Melee Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the melee attack damage of Draenei Vindicators and Draenei Stalkers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Ranged Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the ranged attack damage of Draenei Harbringers, Draenei Seers, Salamanders, Tamed Nether Drakes and Draenei Demolishers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Draenei Vindicators, Draenei Stalkers, Draenei Harbringers, Draenei Seers, Salamanders, Tamed Nether Drakes and Draenei Demolishers.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShamanAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNShamanAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Draenei Seer Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Draenei Seer mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Healing Wave.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Draenei Harbringer Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Draenei Harbringer's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Bloodlust.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of Draenei buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Demon Fire
+</td>" )
+	call Preload( "
+<td>
+Improves the Demon Fire ability of Tamed Nether Drakes.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDevour.blp" title="ReplaceableTextures\\CommandButtons\\BTNDevour.blp" />
+</td>" )
+	call Preload( "
+<td>
+Devour
+</td>" )
+	call Preload( "
+<td>
+Gives Salamanders the ability Devour.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCage.blp" title="ReplaceableTextures\\CommandButtons\\BTNCage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Draenei Prison
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens a Draenei Prison to capture enemy units anywhere on the map!
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Furbolg ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Melee Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the melee attack damage of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Ranged Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the ranged attack damage of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCreatureAttack.blp" title="ReplaceableTextures\\CommandButtons\\BTNCreatureAttack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Creature Attack
+</td>" )
+	call Preload( "
+<td>
+Increases attack damage of Timber Wolves, Giant Wolves, Dire Wolves and Green Drakes.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCreatureCarapace.blp" title="ReplaceableTextures\\CommandButtons\\BTNCreatureCarapace.blp" />
+</td>" )
+	call Preload( "
+<td>
+Creature Carapace
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Timber Wolves, Giant Wolves, Dire Wolves and Green Drakes.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Furbolg Shaman Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Furbolg Shaman's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Abolish Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Ensnare
+</td>" )
+	call Preload( "
+<td>
+Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFaerieFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNFaerieFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Faerie Fire
+</td>" )
+	call Preload( "
+<td>
+Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBloodLust.blp" title="ReplaceableTextures\\CommandButtons\\BTNBloodLust.blp" />
+</td>" )
+	call Preload( "
+<td>
+Blood Lust
+</td>" )
+	call Preload( "
+<td>
+Enables Furbolg Ursa Warriors to use the Blood Lust ability.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBash.blp" title="ReplaceableTextures\\CommandButtons\\BTNBash.blp" />
+</td>" )
+	call Preload( "
+<td>
+Bash
+</td>" )
+	call Preload( "
+<td>
+Enables Furbolg Ursa Warriors to use the Bash ability.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWeb.blp" title="ReplaceableTextures\\CommandButtons\\BTNWeb.blp" />
+</td>" )
+	call Preload( "
+<td>
+Web
+</td>" )
+	call Preload( "
+<td>
+Gives Polar Furbolgs the ability Web.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeDefiled.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeDefiled.blp" />
+</td>" )
+	call Preload( "
+<td>
+Corruption
+</td>" )
+	call Preload( "
+<td>
+Gives Furbolg Shamans and Furbolg Elder Shamans the ability Corruption.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of lumber that Young Furbolgs can carry by 10.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" title="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" />
+</td>" )
+	call Preload( "
+<td>
+Air Supplies
+</td>" )
+	call Preload( "
+<td>
+Allows to drop air supplies from flying units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Goblin ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNReveal.blp" title="ReplaceableTextures\\CommandButtons\\BTNReveal.blp" />
+</td>" )
+	call Preload( "
+<td>
+Observatory
+</td>" )
+	call Preload( "
+<td>
+Allows towers to use the Reveal ability.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNLiquidFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Explosives
+</td>" )
+	call Preload( "
+<td>
+Allows using explosives to blow up the whole tunnel system.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRepair.blp" title="ReplaceableTextures\\CommandButtons\\BTNRepair.blp" />
+</td>" )
+	call Preload( "
+<td>
+Repair
+</td>" )
+	call Preload( "
+<td>
+Allows Goblin warriors to repair mechanical units and structures.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAlembic.blp" title="ReplaceableTextures\\CommandButtons\\BTNAlembic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Chemistry
+</td>" )
+	call Preload( "
+<td>
+Gives units with flame attacks extra and AOE damage.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Melee Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the melee attack damage of Goblin units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" />
+</td>" )
+	call Preload( "
+<td>
+Barrage
+</td>" )
+	call Preload( "
+<td>
+Upgrades Goblin Air Drones, giving them the Barrage ability, which allows them to damage nearby enemy units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of lumber that Young Furbolgs can carry by 10.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNIncome.blp" title="ReplaceableTextures\\CommandButtons\\BTNIncome.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Banking
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of gold that Goblin Laborers can carry by 1.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTN#GoblinFuelSpill.blp" title="ReplaceableTextures\\CommandButtons\\BTN#GoblinFuelSpill.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fuel
+</td>" )
+	call Preload( "
+<td>
+Gives Fuel Pumps the ability Fuel.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDemolish.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemolish.blp" />
+</td>" )
+	call Preload( "
+<td>
+Demolish
+</td>" )
+	call Preload( "
+<td>
+Gives Goblin Emperors the ability Demolish.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
+</td>" )
+	call Preload( "
+<td>
+Engineering
+</td>" )
+	call Preload( "
+<td>
+Makes Goblin tank units faster.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp" title="ReplaceableTextures\\CommandButtons\\BTNUnstableConcoction.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flame Grenade
+</td>" )
+	call Preload( "
+<td>
+Allows Goblin Flamethrowers to use the ability Flame Grenade.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mobile Turret
+</td>" )
+	call Preload( "
+<td>
+Allows Goblin ground units to take turrets and carry them around.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOilStation.blp" title="ReplaceableTextures\\CommandButtons\\BTNOilStation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Oil Drilling
+</td>" )
+	call Preload( "
+<td>
+Allows constructing Oil Derricks.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFragmentationBombs.blp" title="ReplaceableTextures\\CommandButtons\\BTNFragmentationBombs.blp" />
+</td>" )
+	call Preload( "
+<td>
+Explosive Barrel
+</td>" )
+	call Preload( "
+<td>
+Allows Sappers to place Explosive Barrels which cause more damage than Goblin Land Mines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cluster Rockets
+</td>" )
+	call Preload( "
+<td>
+Allows Assault Tanks to cast Cluster Rockets.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Construction
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of Goblin buildings. Increases the speed of repairing buildings and mechanical units for Goblin Laborers and warriors.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Goblin units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelRanged.blp" />
+</td>" )
+	call Preload( "
+<td>
+Steel Ranged Weapons
+</td>" )
+	call Preload( "
+<td>
+Increases the ranged attack damage of Goblin units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Goblin War Zeppelin Bombs
+</td>" )
+	call Preload( "
+<td>
+Allows Goblin War Zeppelins to drop bombs on ground units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cut Down Trees
+</td>" )
+	call Preload( "
+<td>
+Allows Goblin Steam Rollers to cut down trees.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific Dwarf ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizardEgg.blp" title="ReplaceableTextures\\CommandButtons\\BTNThunderLizardEgg.blp" />
+</td>" )
+	call Preload( "
+<td>
+Breeding
+</td>" )
+	call Preload( "
+<td>
+Allows Gryphons to cast Breed.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenLumberMill.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarvenLumberMill.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dwarf Lumber Mill
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens a Dwarf Lumber Mill to collect lumber from nearby trees.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGolemThunderclap.blp" title="ReplaceableTextures\\CommandButtons\\BTNGolemThunderclap.blp" />
+</td>" )
+	call Preload( "
+<td>
+Slam
+</td>" )
+	call Preload( "
+<td>
+Allows War Golems to cast Slam.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDevour.blp" title="ReplaceableTextures\\CommandButtons\\BTNDevour.blp" />
+</td>" )
+	call Preload( "
+<td>
+Devour
+</td>" )
+	call Preload( "
+<td>
+Gives Gryphons and Giant Polar Bears the ability Devour.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarvenLongRifle.blp" />
+</td>" )
+	call Preload( "
+<td>
+Long Rifles
+</td>" )
+	call Preload( "
+<td>
+Increases the range of Riflemen and Gun Tower attacks.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp" />
+</td>" )
+	call Preload( "
+<td>
+Berserker Upgrade
+</td>" )
+	call Preload( "
+<td>
+Transforms Headhunters into Berserkers, giving them increased hit points and the Berserk ability.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" title="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mithril Armor
+</td>" )
+	call Preload( "
+<td>
+Reduces the received damage to 80 % and returns 30% of an enemy unit's melee attack damage back to it.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" />
+</td>" )
+	call Preload( "
+<td>
+Barrage
+</td>" )
+	call Preload( "
+<td>
+Upgrades Siege Engines, giving them the Barrage ability, which allows them to damage nearby enemy air units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeigeEngineWithMissles.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeigeEngineWithMissles.blp" />
+</td>" )
+	call Preload( "
+<td>
+Elite Siege Tank
+</td>" )
+	call Preload( "
+<td>
+Upgrades Siege Engines to Elite Siege Tanks.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of Dwarf buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of lumber that Dwarf Miners can carry by 10.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSorceressAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dwarf Runecaster Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Runecaster's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Summon Rock Golem.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Battle Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Battle Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" />
+</td>" )
+	call Preload( "
+<td>
+Sleep Form
+</td>" )
+	call Preload( "
+<td>
+Allows War Golems to cast Sleep Form.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlakCannons.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flak Cannons
+</td>" )
+	call Preload( "
+<td>
+Upgrades the weapons on Flying Machines to give them an area effect damage attack against air units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flying Machine Bombs
+</td>" )
+	call Preload( "
+<td>
+Allows Flying Machines to attack land units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFragmentationBombs.blp" title="ReplaceableTextures\\CommandButtons\\BTNFragmentationBombs.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fragmentation Shards
+</td>" )
+	call Preload( "
+<td>
+Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the damage they deal to Unarmored and Medium armor units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlare.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flare
+</td>" )
+	call Preload( "
+<td>
+Provides Mortar Teams with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Forged Swords
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Plating
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Studded Leather Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Black Gunpowder
+</td>" )
+	call Preload( "
+<td>
+Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and Flying Machines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Animal War Training
+</td>" )
+	call Preload( "
+<td>
+Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" title="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" />
+</td>" )
+	call Preload( "
+<td>
+Storm Hammers
+</td>" )
+	call Preload( "
+<td>
+Causes a Gryphon Rider's attacks to damage multiple units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Backpack
+</td>" )
+	call Preload( "
+<td>
+Gives specific High Elf ground units the ability to carry items.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp" title="ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp" />
+</td>" )
+	call Preload( "
+<td>
+Sunwell
+</td>" )
+	call Preload( "
+<td>
+Allows building male citizens a Sun Well with abilities Sun Key and Life and Mana Regeneration for player units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp" title="ReplaceableTextures\\CommandButtons\\BTNMagicalSentry.blp" />
+</td>" )
+	call Preload( "
+<td>
+Magic Sentry
+</td>" )
+	call Preload( "
+<td>
+Provides High Elf towers with the ability to detect invisible units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp" title="ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp" />
+</td>" )
+	call Preload( "
+<td>
+Antimagic Shield
+</td>" )
+	call Preload( "
+<td>
+Provides High Elf towers with the ability Antimagic Shield.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp" />
+</td>" )
+	call Preload( "
+<td>
+Marksmanship
+</td>" )
+	call Preload( "
+<td>
+Increases damage of Archers by 4.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp" title="ReplaceableTextures\\CommandButtons\\BTNCloudOfFog.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cloud
+</td>" )
+	call Preload( "
+<td>
+Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings from attacking.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNAnimalWarTraining.blp" />
+</td>" )
+	call Preload( "
+<td>
+Animal War Training
+</td>" )
+	call Preload( "
+<td>
+Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" title="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Bows
+</td>" )
+	call Preload( "
+<td>
+Increases the Archer's attack range.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberUpgrade1.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+Increases the amount of lumber that Peasants can carry by 10.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp" />
+</td>" )
+	call Preload( "
+<td>
+War Eagle Taming
+</td>" )
+	call Preload( "
+<td>
+Trains War Eagles to allow Archers to mount them. This allows them to attack both air and ground units.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" title="ReplaceableTextures\\CommandButtons\\BTNStoneArchitecture.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+Increases the armor and hit points of High Elf buildings.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" />
+</td>" )
+	call Preload( "
+<td>
+Arch Cleric Adept Training
+</td>" )
+	call Preload( "
+<td>
+Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Forged Swords
+</td>" )
+	call Preload( "
+<td>
+Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Iron Plating
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
+</td>" )
+	call Preload( "
+<td>
+Studded Leather Armor
+</td>" )
+	call Preload( "
+<td>
+Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp" />
+</td>" )
+	call Preload( "
+<td>
+Temple of Demigods Blueprints
+</td>" )
+	call Preload( "
+<td>
+Allows the upgrade of Level 3 Town Halls and Guardian Towers to a Temple of Light or Darkness.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" title="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" />
+</td>" )
+	call Preload( "
+<td>
+Storm Protection
+</td>" )
+	call Preload( "
+<td>
+Your units won't die in Maelstrom anymore.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinZeppelin.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinZeppelin.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Air Transport
+</td>" )
+	call Preload( "
+<td>
+Increases the cargo slots and armor by 2.
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" title="ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" />
+</td>" )
+	call Preload( "
+<td>
+Improved Creep Hunter
+</td>" )
+	call Preload( "
+<td>
+Allows unit abilities to target units with a level above their initial level: Polymorph (Human, Goblin), Transmute (Goblin), Possession (Undead), Charm Ccreeps) etc. This does not improve hero abilities!
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 0.1 )
+
+endfunction
+
+

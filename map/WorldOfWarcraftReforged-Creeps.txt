@@ -7,7 +7,7 @@ Creeps:
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -16,6 +16,10 @@ Bandit
 	call Preload( "
 <td>
 1
+</td>" )
+	call Preload( "
+<td>
+3 - 6
 </td>" )
 	call Preload( "
 <td>
@@ -28,6 +32,18 @@ Bandit
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+???
 </td>" )
 	call Preload( "
 <td>
@@ -55,7 +71,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -64,6 +80,10 @@ Brigand
 	call Preload( "
 <td>
 2
+</td>" )
+	call Preload( "
+<td>
+5 - 8
 </td>" )
 	call Preload( "
 <td>
@@ -76,6 +96,18 @@ Brigand
 	call Preload( "
 <td>
 10
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+???
 </td>" )
 	call Preload( "
 <td>
@@ -103,7 +135,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -112,6 +144,10 @@ Rogue
 	call Preload( "
 <td>
 3
+</td>" )
+	call Preload( "
+<td>
+7 - 10
 </td>" )
 	call Preload( "
 <td>
@@ -124,6 +160,18 @@ Rogue
 	call Preload( "
 <td>
 0
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+???
+</td>" )
+	call Preload( "
+<td>
+???
 </td>" )
 	call Preload( "
 <td>
