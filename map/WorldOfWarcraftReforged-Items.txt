@@ -11489,7 +11489,7 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 2.7 )
+	call PreloadEnd( 2.3 )
 
 endfunction
 

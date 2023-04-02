@@ -1,0 +1,7431 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "
+Spells:
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" />
+</td>" )
+	call Preload( "
+<td>
+Chain Lightning
+</td>" )
+	call Preload( "
+<td>
+Calls forth a bolt of lightning that bounces up to 4 times, dealing 85 damage on the primary target. Each jump deals less damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWindWalkOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNWindWalkOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Wind Walk
+</td>" )
+	call Preload( "
+<td>
+Allows the Blademaster to become invisible, and move 10% faster for 20 seconds. If the Blademaster attacks a unit to break invisibility, the attack will do 40 bonus damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCarrionSwarm.blp" title="ReplaceableTextures\\CommandButtons\\BTNCarrionSwarm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Carrion Swarm
+</td>" )
+	call Preload( "
+<td>
+Sends a horde of bats to deal 75 damage to each enemy unit in a cone.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp" title="ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp" />
+</td>" )
+	call Preload( "
+<td>
+Death Coil
+</td>" )
+	call Preload( "
+<td>
+A coil of death that can heal a friendly Undead or Demon unit for 200 hit points, or deal half damage to an enemy living unit.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShockWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNShockWave.blp" />
+</td>" )
+	call Preload( "
+<td>
+Shockwave
+</td>" )
+	call Preload( "
+<td>
+A wave of force that ripples outward, causing 75 damage to land units in a line.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealingWave.blp" />
+</td>" )
+	call Preload( "
+<td>
+Healing Wave
+</td>" )
+	call Preload( "
+<td>
+Calls forth a wave of healing energy that bounces up to 3 times, healing 130 damage on the primary target. Each jump heals less damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScout.blp" title="ReplaceableTextures\\CommandButtons\\BTNScout.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scout
+</td>" )
+	call Preload( "
+<td>
+Summons an Owl Scout, which can be used to scout.|nCan see invisible units. |nLasts 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBlizzard.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlizzard.blp" />
+</td>" )
+	call Preload( "
+<td>
+Blizzard
+</td>" )
+	call Preload( "
+<td>
+Calls down 6 freezing ice shard waves; each wave deals 30 damage to units in an area.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flame Strike
+</td>" )
+	call Preload( "
+<td>
+Conjures a pillar of flame that burns ground units for 45 damage a second for 3 seconds. As the pillar of flame subsides, units within the fire continue to take minor damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" title="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" />
+</td>" )
+	call Preload( "
+<td>
+Holy Light
+</td>" )
+	call Preload( "
+<td>
+A holy light that can heal a friendly living unit for 200 or deal half damage to an enemy Undead unit.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp" title="ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp" />
+</td>" )
+	call Preload( "
+<td>
+Firebolt
+</td>" )
+	call Preload( "
+<td>
+Hurls a fiery bolt that stuns a target enemy unit 2 seconds and causes 100 damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" title="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" />
+</td>" )
+	call Preload( "
+<td>
+Pocket Factory
+</td>" )
+	call Preload( "
+<td>
+Creates a factory which automatically constructs Clockwerk Goblins.|n|nClockwerk Goblins have 80 hit points, deal 12 - 14 damage, and explode upon death, causing up to 30 damage to nearby enemy units.|nFactory lasts 30 seconds. |n|n|cffffcc00Clockwerk" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGrizzlyBear.blp" title="ReplaceableTextures\\CommandButtons\\BTNGrizzlyBear.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Bear
+</td>" )
+	call Preload( "
+<td>
+Summons a powerful 600 hit point bear to attack your enemies. |nLasts 70 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp" />
+</td>" )
+	call Preload( "
+<td>
+Healing Spray
+</td>" )
+	call Preload( "
+<td>
+Sprays 3 waves of healing mist; each wave heals 30 damage to all friendly units in an area.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Preservation
+</td>" )
+	call Preload( "
+<td>
+Teleports a target unit to its highest level town hall. Has a cooldown of 0 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" title="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" />
+</td>" )
+	call Preload( "
+<td>
+Silence
+</td>" )
+	call Preload( "
+<td>
+Stops all enemies in a small target area from casting spells for 16 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAbility_Warrior_Disarm.blp" title="ReplaceableTextures\\CommandButtons\\BTNAbility_Warrior_Disarm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Disarmament
+</td>" )
+	call Preload( "
+<td>
+Stops all enemies in a target area from attacking melee and ranged for 3.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCyclone.blp" title="ReplaceableTextures\\CommandButtons\\BTNCyclone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cyclone
+</td>" )
+	call Preload( "
+<td>
+Tosses a target non-mechanical enemy unit into the air, rendering it unable to move, attack or cast spells, and stopping others from attacking or casting on it. |nLasts 20 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp" title="ReplaceableTextures\\CommandButtons\\BTNEntanglingRoots.blp" />
+</td>" )
+	call Preload( "
+<td>
+Entangling Roots
+</td>" )
+	call Preload( "
+<td>
+Causes roots to burst from the ground, immobilizing and disarming a target enemy unit for 9 seconds, and dealing 15 damage per second.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Forked Lightning
+</td>" )
+	call Preload( "
+<td>
+Calls forth a cone of lightning on a target enemy unit, hitting up to 3 enemy units for 85 damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mana Burn
+</td>" )
+	call Preload( "
+<td>
+Sends a bolt of negative energy that burns up to 50 points of a target enemy unit's mana. The mana combusts, dealing damage equal to the amount of mana burned.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImpale.blp" title="ReplaceableTextures\\CommandButtons\\BTNImpale.blp" />
+</td>" )
+	call Preload( "
+<td>
+Impale
+</td>" )
+	call Preload( "
+<td>
+Slams the ground with the Crypt Lord's massive claws, shooting spiked tendrils out in a straight line, dealing 60 damage and hurling enemy ground units into the air in their wake, stunning them for 2 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Rain of Fire
+</td>" )
+	call Preload( "
+<td>
+Calls down waves of fire that damage units in an area. Each wave deals 25 initial damage and 5 damage per second for 3 seconds. |nLasts for 6 waves.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp" title="ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp" />
+</td>" )
+	call Preload( "
+<td>
+Storm Bolt
+</td>" )
+	call Preload( "
+<td>
+Throws a magical hammer at a target enemy unit, dealing 100 damage and stunning the target for 5 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" />
+</td>" )
+	call Preload( "
+<td>
+Frost Nova
+</td>" )
+	call Preload( "
+<td>
+Blasts enemy units with a wave of frost that deals 100 damage to the target, and 50 nova damage. Cold damage slows units' movement and attack rate for 4 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCurseOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNCurseOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Curse
+</td>" )
+	call Preload( "
+<td>
+Curses a target enemy unit, causing it to have a 33% chance to miss on an attack. |nLasts 120 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp" title="ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Rejuvenation
+</td>" )
+	call Preload( "
+<td>
+Heals a target friendly unit for 400 hit points over 12 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRaiseDeadOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNRaiseDeadOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Raise Dead
+</td>" )
+	call Preload( "
+<td>
+Raises 1 skeleton and 1 skeleton mage from a corpse.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp" title="ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cannibalize
+</td>" )
+	call Preload( "
+<td>
+Consumes a nearby corpse to heal 16 hit points per second up to 800 hit points.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGolemStormBolt.blp" title="ReplaceableTextures\\CommandButtons\\BTNGolemStormBolt.blp" />
+</td>" )
+	call Preload( "
+<td>
+Hurl Boulder
+</td>" )
+	call Preload( "
+<td>
+A magical boulder that is thrown at an enemy unit, causing 100 points of damage and stunning the target for 2 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSoulBurn.blp" title="ReplaceableTextures\\CommandButtons\\BTNSoulBurn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Soul Burn
+</td>" )
+	call Preload( "
+<td>
+Wreaths an enemy unit in magical flames which cause 7 damage per second, prevent the casting of spells, and reduce attack damage by 50%.|nLasts 16 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFanOfKnives.blp" title="ReplaceableTextures\\CommandButtons\\BTNFanOfKnives.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fan of Knives
+</td>" )
+	call Preload( "
+<td>
+The Warden hurls a flurry of knives, damaging nearby enemies. Each knife does 75 damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBreathOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNBreathOfFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Breath of Fire
+</td>" )
+	call Preload( "
+<td>
+Breathes a cone of fire at enemy units, dealing 65 initial damage. Units that have Drunken Haze on them will ignite and burn for 7 damage per second over 5 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp" title="ReplaceableTextures\\CommandButtons\\BTNControlMagic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Control Magic
+</td>" )
+	call Preload( "
+<td>
+Takes control of an enemy summoned unit. The mana cost is 45% of the summoned unit's current hit points.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRepairOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNRepairOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Repair
+</td>" )
+	call Preload( "
+<td>
+Repairs mechanical units and structures at the cost of resources.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp" title="ReplaceableTextures\\CommandButtons\\BTNGatherGold.blp" />
+</td>" )
+	call Preload( "
+<td>
+Harvest
+</td>" )
+	call Preload( "
+<td>
+Summons a Bundle of Lumber and Gold Coins.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNInvisibility.blp" title="ReplaceableTextures\\CommandButtons\\BTNInvisibility.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mass Invisibility
+</td>" )
+	call Preload( "
+<td>
+Makes targeted units invisible. If the units attack, use an ability or cast a spell, they will become visible. |nLasts 120 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDizzy.blp" title="ReplaceableTextures\\CommandButtons\\BTNDizzy.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dark Portal
+</td>" )
+	call Preload( "
+<td>
+Opens a portal, allowing demons to step through and do Archimonde's bidding.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" />
+</td>" )
+	call Preload( "
+<td>
+Lordaeron Villagers
+</td>" )
+	call Preload( "
+<td>
+Summons a number of permanent villagers.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMinigunTower.blp" title="ReplaceableTextures\\CommandButtons\\BTNMinigunTower.blp" />
+</td>" )
+	call Preload( "
+<td>
+Minigun Tower
+</td>" )
+	call Preload( "
+<td>
+Summons an immobile turret ward to attack the Goblin Gunner's enemies. The ward is immune to magic and mechanical. |nLasts 40 seconds. |n|n|cffffcc00Attacks land and air units.|r
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" />
+</td>" )
+	call Preload( "
+<td>
+Healing Ward
+</td>" )
+	call Preload( "
+<td>
+Summons an immovable ward that heals 1% of a nearby friendly non-mechanical unit's hit points per second. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShadowEgg.blp" title="ReplaceableTextures\\CommandButtons\\BTNShadowEgg.blp" />
+</td>" )
+	call Preload( "
+<td>
+Shadow Egg Strike
+</td>" )
+	call Preload( "
+<td>
+Hurls a poisoned dagger at a target enemy unit. If the unit dies within the next 8 seconds it drops lots of Easter Eggs. 
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
+</td>" )
+	call Preload( "
+<td>
+Christmas Tree
+</td>" )
+	call Preload( "
+<td>
+Creates a Christmas tree which automatically summons Christmas presents.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Moonstone
+</td>" )
+	call Preload( "
+<td>
+Causes an eclipse that blocks out the sun and creates an artificial night. |nLasts 15 seconds. Regenerates 400 hit points over 45 seconds of all friendly units nearby with hit point regeneration only at night.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLife.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fountain of Power Ward
+</td>" )
+	call Preload( "
+<td>
+Summons an immovable ward that regenerates 50 % life points and 1% mana points of a nearby friendly non-mechanical units per second. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRun.blp" title="ReplaceableTextures\\CommandButtons\\BTNRun.blp" />
+</td>" )
+	call Preload( "
+<td>
+Slide
+</td>" )
+	call Preload( "
+<td>
+Lets your hero slide into the given direction, moving the hero quickly and damaging everything on its way.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASAutoRepairBotsPassive.blp" title="ReplaceableTextures\\PassiveButtons\\PASAutoRepairBotsPassive.blp" />
+</td>" )
+	call Preload( "
+<td>
+Repair Aura
+</td>" )
+	call Preload( "
+<td>
+Increases nearby friendly mechanical units'  life regeneration rate.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTimeSpell.blp" title="ReplaceableTextures\\CommandButtons\\BTNTimeSpell.blp" />
+</td>" )
+	call Preload( "
+<td>
+Rewind Time
+</td>" )
+	call Preload( "
+<td>
+Records the time events for a target friendly unit, item or destructable or stops recording time events for a target enemy unit.|n|nRewinds the time for 60 seconds at maximum if targeted on the ground. This can be interrupted by any other caster in th" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSauronsmace.blp" title="ReplaceableTextures\\CommandButtons\\BTNSauronsmace.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mace Strike
+</td>" )
+	call Preload( "
+<td>
+Sauron uses his Mace for a powerful strike which knocks back enemy ground units and causes massive damage.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTeleport.blp" title="ReplaceableTextures\\CommandButtons\\BTNTeleport.blp" />
+</td>" )
+	call Preload( "
+<td>
+Telekinesis
+</td>" )
+	call Preload( "
+<td>
+Marks a target unit, item or destructable for moving it. Moves the marked target to the given location when cast on the ground.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNFireRocks.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNFireRocks.blp" />
+</td>" )
+	call Preload( "
+<td>
+Burning Oil
+</td>" )
+	call Preload( "
+<td>
+Drenches the hero's ammo in burning oil, causing them to light the ground on fire and burn enemy units.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDefend.blp" title="ReplaceableTextures\\CommandButtons\\BTNDefend.blp" />
+</td>" )
+	call Preload( "
+<td>
+Defend
+</td>" )
+	call Preload( "
+<td>
+Activate to have a 30% chance to reflect Piercing attacks upon the source, and to take only 35% of the damage from attacks that are not reflected. While Defend is active, move speed is reduced by 30%.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStickGrenade.blp" title="ReplaceableTextures\\CommandButtons\\BTNStickGrenade.blp" />
+</td>" )
+	call Preload( "
+<td>
+Grenade
+</td>" )
+	call Preload( "
+<td>
+Throws a grenade which explodes after 3 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRainOfArrows.BLP" title="ReplaceableTextures\\CommandButtons\\BTNRainOfArrows.BLP" />
+</td>" )
+	call Preload( "
+<td>
+Rain of Arrows
+</td>" )
+	call Preload( "
+<td>
+Calls down 6 arrow waves; each wave deals 30 damage to units in an area.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlare.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flare
+</td>" )
+	call Preload( "
+<td>
+Launches a Dwarven flare above a target point, which reveals that area for 15 seconds. |nReveals invisible units.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGDFlameWhip.blp" title="ReplaceableTextures\\CommandButtons\\BTNGDFlameWhip.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flame Whip
+</td>" )
+	call Preload( "
+<td>
+Magically binds a target enemy unit, so that it cannot move or attack and takes 30 damage per second. |nLasts 40 seconds.
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMirrorImage.blp" title="ReplaceableTextures\\CommandButtons\\BTNMirrorImage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mirror Image
+</td>" )
+	call Preload( "
+<td>
+Confuses the enemy by creating 1 illusion of the Blademaster. Dispels all magic from the Blademaster. |nLasts 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" title="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" />
+</td>" )
+	call Preload( "
+<td>
+Thunder Clap
+</td>" )
+	call Preload( "
+<td>
+Slams the ground, dealing 60 damage to nearby enemy land units and slowing their movement by 50% and attack rate by 50%.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSummonWaterElemental.blp" title="ReplaceableTextures\\CommandButtons\\BTNSummonWaterElemental.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Water Elemental
+</td>" )
+	call Preload( "
+<td>
+Summons a water elemental to attack the Archmage's enemies. Has 500 hit points and deals 19 - 23 damage. |nLasts 60 seconds. |n|n|cffffcc00Attacks land and air units.|r
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" />
+</td>" )
+	call Preload( "
+<td>
+Divine Shield
+</td>" )
+	call Preload( "
+<td>
+An impenetrable shield surrounds this unit, protecting it from all damage and spells for 15 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" />
+</td>" )
+	call Preload( "
+<td>
+Banish
+</td>" )
+	call Preload( "
+<td>
+Turns a non-mechanical unit ethereal and slows its movement speed by 50% for 12 seconds. Ethereal creatures cannot attack, but they can cast spells and certain spells cast upon them will have a greater effect.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBlink.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlink.blp" />
+</td>" )
+	call Preload( "
+<td>
+Blink
+</td>" )
+	call Preload( "
+<td>
+Teleports the Warden a short distance, allowing her to move in and out of combat.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" />
+</td>" )
+	call Preload( "
+<td>
+War Stomp
+</td>" )
+	call Preload( "
+<td>
+Slams the ground, dealing 30 damage to nearby enemy land units and stunning them for 3 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" />
+</td>" )
+	call Preload( "
+<td>
+Far Sight
+</td>" )
+	call Preload( "
+<td>
+Reveals the area of the map that it is cast upon for 8 seconds. Also reveals invisible units.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHex.blp" title="ReplaceableTextures\\CommandButtons\\BTNHex.blp" />
+</td>" )
+	call Preload( "
+<td>
+Hex
+</td>" )
+	call Preload( "
+<td>
+Transforms an enemy unit into a random critter for 15 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp" title="ReplaceableTextures\\CommandButtons\\BTNDeathPact.blp" />
+</td>" )
+	call Preload( "
+<td>
+Death Pact
+</td>" )
+	call Preload( "
+<td>
+Kills a target friendly Undead unit, giving 100% of its hit points to the Death Knight.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostArmor.blp" />
+</td>" )
+	call Preload( "
+<td>
+Frost Armor
+</td>" )
+	call Preload( "
+<td>
+Creates a shield of frost around a target friendly unit. The shield adds 3 armor and slows melee units that attack it for 4 seconds. |nLasts 45 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" />
+</td>" )
+	call Preload( "
+<td>
+Spiked Carapace
+</td>" )
+	call Preload( "
+<td>
+Enhances the Crypt Lord's chitinous armor with organic barbs, giving the Crypt Lord 3 bonus armor and returning 15% of melee attack damage to enemies.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" />
+</td>" )
+	call Preload( "
+<td>
+Sleep
+</td>" )
+	call Preload( "
+<td>
+Puts a target enemy unit to sleep for 15 seconds. A sleeping unit can be awoken by attacking it.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp" title="ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp" />
+</td>" )
+	call Preload( "
+<td>
+Anti-magic Shell
+</td>" )
+	call Preload( "
+<td>
+Creates a barrier that stops 420 points of spell damage from affecting a target unit. Causes 100 points of damage to summoned units. Reduces magic damage taken by the target unit by 5 %.|nLasts 90 seconds. 
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Frost Arrows
+</td>" )
+	call Preload( "
+<td>
+Adds a cold effect to each attack, dealing 5 bonus damage, slowing a target enemy unit's attacks by 30% and movement by 30% for 5 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFaerieFireOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNFaerieFireOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Faerie Fire
+</td>" )
+	call Preload( "
+<td>
+Reduces a target enemy unit's armor by 3 and gives vision of that unit. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCharge.blp" title="ReplaceableTextures\\CommandButtons\\BTNCharge.blp" />
+</td>" )
+	call Preload( "
+<td>
+Charge
+</td>" )
+	call Preload( "
+<td>
+Resets the cooldown of all your abilities except Charge.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNQuillBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNQuillBeast.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Quilbeast
+</td>" )
+	call Preload( "
+<td>
+Summons an angry 425 hit point quilbeast to fling spines at your enemies. |nLasts 70 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cluster Rockets
+</td>" )
+	call Preload( "
+<td>
+Bombards an area with rockets, dealing up to 45 damage to nearby enemy units and stunning them for 1 second.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp" title="ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Chemical Rage
+</td>" )
+	call Preload( "
+<td>
+The Alchemist causes his Ogre to enter a chemically induced rage, increasing movement rate by 50% and increasing attack rate by 25% for 15 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp" title="ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp" />
+</td>" )
+	call Preload( "
+<td>
+Howl of Terror
+</td>" )
+	call Preload( "
+<td>
+The Pit Lord lets loose a terrifying howl that reduces nearby enemy units' attack damage by 1% for 15 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTheBlackArrowOnOff.blp" title="ReplaceableTextures\\CommandButtons\\BTNTheBlackArrowOnOff.blp" />
+</td>" )
+	call Preload( "
+<td>
+Black Arrow
+</td>" )
+	call Preload( "
+<td>
+Adds 2 bonus damage to attacks. Units killed while under the effect of Black Arrow will turn into 215 hit point skeletons.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSearingArrowsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNSearingArrowsOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Searing Arrows
+</td>" )
+	call Preload( "
+<td>
+Adds 10 bonus fire damage to an attack against enemies, but drains mana with each shot fired.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnt.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnt.blp" />
+</td>" )
+	call Preload( "
+<td>
+Force of Nature
+</td>" )
+	call Preload( "
+<td>
+Converts a small area of trees into 2 Treants. Treants have 300 hit points and deal 15 - 17 damage. Can learn Nature's Blessing. |nLasts 60 seconds. |n|n|cffffcc00Attacks land units.|r
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Immolation
+</td>" )
+	call Preload( "
+<td>
+Activate Immolation to engulf this unit in flames, causing 7 damage per 0.5 second to nearby enemy land units. |nDrains mana until deactivated.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" />
+</td>" )
+	call Preload( "
+<td>
+Drunken Haze
+</td>" )
+	call Preload( "
+<td>
+Drenches enemy units in alcohol, causing their movement speed to be reduced by 15%, and have a 1% chance to miss on attacks. When units with Drunken Haze cast on them are hit by Breath of Fire, they will ignite and take burn damage. |nLasts 12 seconds" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSearingArrowsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNSearingArrowsOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Poison Arrows
+</td>" )
+	call Preload( "
+<td>
+Adds 10 bonus fire damage to an attack against enemies, but drains mana with each shot fired. Damages the hit target with 4 damage per second for 10 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Lava Spawn
+</td>" )
+	call Preload( "
+<td>
+Summons a Lava Spawn, a resilient and deadly fire creature. As a Lava Spawn deals damage, it consumes the flesh of its target, thereby fueling its fires and eventually splitting into two healthy Lava Spawns.|n|nHas 425 hit points and deals 11 - 27 dam" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNScatterRockets.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNScatterRockets.blp" />
+</td>" )
+	call Preload( "
+<td>
+Barrage
+</td>" )
+	call Preload( "
+<td>
+Allows the Goblin Gunner to fire at 3 nearby enemies at the same time. Causes 25 damage per target and 630 damage maximum in total.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dark Portal
+</td>" )
+	call Preload( "
+<td>
+Creates a Dark Portal which automatically summons Orc and Demon units.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSlow.blp" title="ReplaceableTextures\\CommandButtons\\BTNSlow.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mass Slow
+</td>" )
+	call Preload( "
+<td>
+Slows a target enemy unit's attack rate by 10 % and movement speed by 20 %. |nLasts 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp" />
+</td>" )
+	call Preload( "
+<td>
+Devour
+</td>" )
+	call Preload( "
+<td>
+Consumes an enemy unit, slowly digesting it and dealing 5 damage per second to it. If the creep is killed while the consumed unit is still digesting, the unit that was devoured will be released.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp" title="ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unholy Frenzy
+</td>" )
+	call Preload( "
+<td>
+Increases the attack rate of a target unit by 75%, but drains 4 hit points per second. |nLasts 45 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Sea Elemental
+</td>" )
+	call Preload( "
+<td>
+Summons 2 powerful Sea Elemental with 550 hit points that does 28 - 37 damage. |nLasts 65 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Golem
+</td>" )
+	call Preload( "
+<td>
+Summons a Siege Golem to attack the Dwarf Mage's enemies. |nLasts 60 seconds. |n|n|cffffcc00Attack land units.|r
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDrain.blp" title="ReplaceableTextures\\CommandButtons\\BTNDrain.blp" />
+</td>" )
+	call Preload( "
+<td>
+Drain
+</td>" )
+	call Preload( "
+<td>
+Absorbs the life essence of a target enemy unit by taking 30 hit points per second from it and giving them to Gul'dan. Transfers 30 life per second to a friendly target. Drains 15 mana from an enemy target per second. Transfers 30 mana per second to a" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNHardenedSkin.blp" />
+</td>" )
+	call Preload( "
+<td>
+Hardened Skin
+</td>" )
+	call Preload( "
+<td>
+Reduces all attacks on the Mountain Giant by 8 damage. Attacks cannot be reduced below 3 damage.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpellBookBLS.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpellBookBLS.blp" />
+</td>" )
+	call Preload( "
+<td>
+Force Powers
+</td>" )
+	call Preload( "
+<td>
+Force powers.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mana Ward
+</td>" )
+	call Preload( "
+<td>
+Summons an immovable ward that regenerates 1% of a nearby friendly non-mechanical unit's mana points per second. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mana Flare
+</td>" )
+	call Preload( "
+<td>
+Causes the Faerie Dragon to channel negative magical energies that damage nearby enemies when they cast spells. Also increases the Faerie Dragon's armor by 12. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" />
+</td>" )
+	call Preload( "
+<td>
+Send to the Future
+</td>" )
+	call Preload( "
+<td>
+Sends the target units, items and destructables to the future. Calls all of them back from the future if targeted on the ground. This will not call back enemy units from the future but items and destructables send to the future by enemies.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flamethrower
+</td>" )
+	call Preload( "
+<td>
+Burns victims in front of the hero which costs mana per over time until the hero has no mana left. Causes 20 damage per second to nearby enemy units.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Meat Wagon
+</td>" )
+	call Preload( "
+<td>
+Summons a Meat Wagon.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSelfDestructOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNSelfDestructOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Kaboom!
+</td>" )
+	call Preload( "
+<td>
+Deals 250 damage in a small area. Effective against buildings and trees. Immediately revives the hero afterwards.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" />
+</td>" )
+	call Preload( "
+<td>
+Crushing Wave
+</td>" )
+	call Preload( "
+<td>
+Sends a gigantic wave which deals 200 damage to each enemy land unit in a line, up to 900 max damage.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" title="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" />
+</td>" )
+	call Preload( "
+<td>
+Elven Cloak
+</td>" )
+	call Preload( "
+<td>
+Makes the Hobbit invisible for 180 seconds.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClockwerkJetPack.blp" title="ReplaceableTextures\\CommandButtons\\BTNClockwerkJetPack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Jetpack
+</td>" )
+	call Preload( "
+<td>
+Uses the Jetpack to fly to another revealed location.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNFragmentationBombs.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNFragmentationBombs.blp" />
+</td>" )
+	call Preload( "
+<td>
+Fragmentation Shards
+</td>" )
+	call Preload( "
+<td>
+Uses fragmentation mortars to increase damage dealt to Unarmored and Medium armor units.
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNGnollCommandAura.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNGnollCommandAura.blp" />
+</td>" )
+	call Preload( "
+<td>
+Command Aura
+</td>" )
+	call Preload( "
+<td>
+Gives extra damage to the attacks of nearby friendly units of 5 %.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp" />
+</td>" )
+	call Preload( "
+<td>
+Vampiric Aura
+</td>" )
+	call Preload( "
+<td>
+Nearby friendly melee units gain 20% of their attack damage when they hit enemy units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" />
+</td>" )
+	call Preload( "
+<td>
+Unholy Aura
+</td>" )
+	call Preload( "
+<td>
+Increases nearby friendly units' movement speed by 10% and life regeneration rate.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dark Ritual
+</td>" )
+	call Preload( "
+<td>
+Sacrifices a target friendly Undead unit to convert 33% of its hit points into mana for the Lich.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" />
+</td>" )
+	call Preload( "
+<td>
+Bash
+</td>" )
+	call Preload( "
+<td>
+Gives a 20% chance that an attack will do 25 bonus damage and stun the target for 2 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" />
+</td>" )
+	call Preload( "
+<td>
+Siphon Mana
+</td>" )
+	call Preload( "
+<td>
+Transfers mana between the Blood Mage and a target. Drains 15 mana per second from an enemy, or transfers 30 mana per second to an ally.|n|nSiphon Mana can push the Blood Mage's mana over its maximum value, though excess mana drains off rapidly if not" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cleaving Attack
+</td>" )
+	call Preload( "
+<td>
+The Pit Lord strikes with such force that 40% of his damage strikes through to enemies near the primary attacked unit.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" />
+</td>" )
+	call Preload( "
+<td>
+Endurance Aura
+</td>" )
+	call Preload( "
+<td>
+Increases nearby friendly units' movement speed by 10% and attack rate by 5%.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBrilliance.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBrilliance.blp" />
+</td>" )
+	call Preload( "
+<td>
+Brilliance Aura
+</td>" )
+	call Preload( "
+<td>
+Gives additional mana regeneration to nearby friendly units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" />
+</td>" )
+	call Preload( "
+<td>
+Drunken Brawler
+</td>" )
+	call Preload( "
+<td>
+Gives a 10% chance to dodge an attack and a 10% chance to deal 2 times total damage.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" />
+</td>" )
+	call Preload( "
+<td>
+Devotion Aura
+</td>" )
+	call Preload( "
+<td>
+Gives 2 additional armor to nearby friendly units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" />
+</td>" )
+	call Preload( "
+<td>
+Critical Strike
+</td>" )
+	call Preload( "
+<td>
+Gives a 15% chance to do 200% damage on an attack.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\PASBTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\PASBTNEngineeringUpgrade.blp" />
+</td>" )
+	call Preload( "
+<td>
+Engineering Upgrade
+</td>" )
+	call Preload( "
+<td>
+Improves other Tinker abilities, gives 2 attack damage and increases Tinker movement speed by 10%.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarEagle.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Hawk
+</td>" )
+	call Preload( "
+<td>
+Summons a proud 300 hit point hawk to spy on your enemies. Has the True Sight ability. |nLasts 70 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp" title="ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp" />
+</td>" )
+	call Preload( "
+<td>
+Acid Bomb
+</td>" )
+	call Preload( "
+<td>
+Hurls a flask of acid at a target.  The flask breaks upon impact, splashing a powerful acid on nearby hostile units.|n|nDecreases armor by 3; deals 5 damage per second to the primary target; deals slightly less damage to nearby targets.|nLasts 15 seco" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mana Shield
+</td>" )
+	call Preload( "
+<td>
+Activates a shield that absorbs 2 damage per point of mana.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNEvasion.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNEvasion.blp" />
+</td>" )
+	call Preload( "
+<td>
+Evasion
+</td>" )
+	call Preload( "
+<td>
+Gives a 10% chance to avoid an attack.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" title="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" />
+</td>" )
+	call Preload( "
+<td>
+Battle Roar
+</td>" )
+	call Preload( "
+<td>
+Gives nearby friendly units 10 bonus attack damage. |nLasts 10 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNThorns.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNThorns.blp" />
+</td>" )
+	call Preload( "
+<td>
+Thorns Aura
+</td>" )
+	call Preload( "
+<td>
+An aura that gives friendly nearby units a damage shield, which deals 11% of an enemy unit's melee attack damage back to it.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShadowStrike.blp" title="ReplaceableTextures\\CommandButtons\\BTNShadowStrike.blp" />
+</td>" )
+	call Preload( "
+<td>
+Shadow Strike
+</td>" )
+	call Preload( "
+<td>
+Hurls a poisoned dagger at a target enemy unit, dealing 75 initial damage, and 10 damage every 3 seconds for 15 seconds. The poison slows the movement speed of the targeted unit for a short duration.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCarrionScarabsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNCarrionScarabsOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Carrion Beetles
+</td>" )
+	call Preload( "
+<td>
+Progenerates 2 Beetles from a target corpse. Beetles have 170 hit points, and deal 8 - 9 damage. Beetles are permanent until killed. |nMaximum of 6 Beetles.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNFeedBack.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNFeedBack.blp" />
+</td>" )
+	call Preload( "
+<td>
+Feedback
+</td>" )
+	call Preload( "
+<td>
+Antonidas attacks destroy 20 mana per hit. The mana combusts, dealing damage to the attacked unit.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNTrueShot.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNTrueShot.blp" />
+</td>" )
+	call Preload( "
+<td>
+Trueshot Aura
+</td>" )
+	call Preload( "
+<td>
+An aura that gives friendly nearby units a 10% bonus damage to their ranged attacks.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASAuraOfDarkness.blp" title="ReplaceableTextures\\PassiveButtons\\PASAuraOfDarkness.blp" />
+</td>" )
+	call Preload( "
+<td>
+Aura of Darkness
+</td>" )
+	call Preload( "
+<td>
+Hides the terrain around your hero from enemy players and block spells like Reveal and Far Sight as long as the enemy players do not have any units in the area.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" />
+</td>" )
+	call Preload( "
+<td>
+Feral Spirit
+</td>" )
+	call Preload( "
+<td>
+Summons 2 Spirit Wolf companions. Each wolf has 250 hit points and deals 11 - 12 damage. |nLasts 60 seconds. |n|n|cffffcc00Attacks land units.|r
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" />
+</td>" )
+	call Preload( "
+<td>
+Watery Minion
+</td>" )
+	call Preload( "
+<td>
+Summons 2 minions to do their master's bidding. |nLasts 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp" title="ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp" />
+</td>" )
+	call Preload( "
+<td>
+Devour Magic
+</td>" )
+	call Preload( "
+<td>
+Consumes all magical buffs from units in an area. Each unit that is devoured of magic gives the Destroyer 50 hit points and 75 mana. |n|cffffcc00Deals 160 damage to summoned units.|r
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNSunderingBlades.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNSunderingBlades.blp" />
+</td>" )
+	call Preload( "
+<td>
+Ride Down
+</td>" )
+	call Preload( "
+<td>
+After riding for 6 seconds the rider starts charging which increases his attack speed by 10 % and movement speed by 25 % and damages all organic ground units creatures with a base level below 7 and not on a horse with 60 damage every 0.5 seconds if th" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNRegenerationAura.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNRegenerationAura.blp" />
+</td>" )
+	call Preload( "
+<td>
+Aura of Blight
+</td>" )
+	call Preload( "
+<td>
+Gives all friendly Undead nearby units a bonus of 2  to hit point regeneration. The aura does not stack with the regenerative effects of Blight.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNSkeletonMage.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNSkeletonMage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Skeletal Mastery
+</td>" )
+	call Preload( "
+<td>
+Increases the duration of raised Skeleton Warriors and Skeletal Mages of Raise Dead by 2 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEatTree.blp" title="ReplaceableTextures\\CommandButtons\\BTNEatTree.blp" />
+</td>" )
+	call Preload( "
+<td>
+Eat Tree
+</td>" )
+	call Preload( "
+<td>
+Consume a tree to restore 300 hit points over 10 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" />
+</td>" )
+	call Preload( "
+<td>
+Elune's Grace
+</td>" )
+	call Preload( "
+<td>
+Reduces the damage taken from Piercing attacks to 30%, and spells and Magic attacks to 30%.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" title="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" />
+</td>" )
+	call Preload( "
+<td>
+Winged Clock
+</td>" )
+	call Preload( "
+<td>
+Increases or decreases the time speed for 60 seconds. Target the ground to increase the time speed. Target a unit to decrease the time speed.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Find Artifacts
+</td>" )
+	call Preload( "
+<td>
+Ner'Zhul finds random artifacts.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" title="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cripple
+</td>" )
+	call Preload( "
+<td>
+Reduces movement speed by 1%, attack rate by 1%, and damage by 1% of a target enemy unit. |nLasts 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNImmolation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNImmolation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Permanent Immolation
+</td>" )
+	call Preload( "
+<td>
+Burns nearby enemy units for 10 points of damage per second.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Heal
+</td>" )
+	call Preload( "
+<td>
+Heals a target friendly non-mechanical wounded unit for 25 hit points.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWaveOfTerror2.blp" title="ReplaceableTextures\\CommandButtons\\BTNWaveOfTerror2.blp" />
+</td>" )
+	call Preload( "
+<td>
+Scream
+</td>" )
+	call Preload( "
+<td>
+The Banshee lets loose a terrifying howl that reduces nearby enemy units' armor by 1 for 15 seconds.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNIncinerate.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNIncinerate.blp" />
+</td>" )
+	call Preload( "
+<td>
+Incinerate
+</td>" )
+	call Preload( "
+<td>
+Each attack made is enhanced with living flames that cling to the target. These flames add 2 damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.|n|nIf a unit dies while under this effect, it is" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinLandMine.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinLandMine.blp" />
+</td>" )
+	call Preload( "
+<td>
+Trenches
+</td>" )
+	call Preload( "
+<td>
+Summons trenches for 60 seconds protecting your troops from enemy ground troops.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Life Aura
+</td>" )
+	call Preload( "
+<td>
+Increases the maximum life of nearby friendly units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" title="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Telescope
+</td>" )
+	call Preload( "
+<td>
+Summons a Telescope which helps all nearby friendly range units to increase their damage, increases the sight range and reveals enemy invisible units.
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAvatarOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNAvatarOn.blp" />
+</td>" )
+	call Preload( "
+<td>
+Avatar
+</td>" )
+	call Preload( "
+<td>
+Activate Avatar to give the Mountain King 5 bonus armor, 500 bonus hit points, 20 bonus damage and spell immunity. |nLasts 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Phoenix
+</td>" )
+	call Preload( "
+<td>
+Summons a powerful Phoenix. The Phoenix burns with such intensity that it damages itself and nearby enemy units. Has Spell Immunity, and Resistant Skin. When a Phoenix dies, it creates an egg that will hatch into a Phoenix. |n|n|cffffcc00Attacks land " )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" />
+</td>" )
+	call Preload( "
+<td>
+Resurrection
+</td>" )
+	call Preload( "
+<td>
+Brings back to life the corpses of 6 friendly nearby units.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp" title="ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mass Teleport
+</td>" )
+	call Preload( "
+<td>
+Teleports 24 of the player's nearby units, including the Archmage, to a friendly ground unit or structure.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" />
+</td>" )
+	call Preload( "
+<td>
+Finger of Death
+</td>" )
+	call Preload( "
+<td>
+Instantly turns a creature or building inside-out, destroying it utterly. Causes 1000 damage.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" />
+</td>" )
+	call Preload( "
+<td>
+Rain of Chaos
+</td>" )
+	call Preload( "
+<td>
+Calls down multiple Infernals from the sky.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp" title="ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp" />
+</td>" )
+	call Preload( "
+<td>
+Big Bad Voodoo
+</td>" )
+	call Preload( "
+<td>
+Turns all friendly units invulnerable in an area around the Shadow Hunter. |nThe Shadow Hunter does not turn invulnerable. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" />
+</td>" )
+	call Preload( "
+<td>
+Reincarnation
+</td>" )
+	call Preload( "
+<td>
+When killed, the Tauren Chieftain will come back to life. Reincarnation has a 240 second cooldown.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp" title="ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp" />
+</td>" )
+	call Preload( "
+<td>
+Earthquake
+</td>" )
+	call Preload( "
+<td>
+Makes the ground tremble and break, causing 60 damage per second to buildings and slowing units by 75% within the area of effect. |nLasts 20 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dark Summoning
+</td>" )
+	call Preload( "
+<td>
+Summons 12 friendly units from a target area to the caster.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Charm
+</td>" )
+	call Preload( "
+<td>
+Takes control of a target enemy unit. |nCharm cannot be used on Heroes, or creeps above level 5. When Charm is being used on workers, they will die instantly.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNPortal.blp" />
+</td>" )
+	call Preload( "
+<td>
+Open Portals
+</td>" )
+	call Preload( "
+<td>
+Opens portals at the hero's position and the target location which are connected to each other.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDH_Revive.blp" title="ReplaceableTextures\\CommandButtons\\BTNDH_Revive.blp" />
+</td>" )
+	call Preload( "
+<td>
+Revive
+</td>" )
+	call Preload( "
+<td>
+Revives up to 1 friendly heroes.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" title="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tornado
+</td>" )
+	call Preload( "
+<td>
+Summons a fierce controllable Tornado that slows enemy units' movement speed, randomly tosses enemy ground units into the air and damages enemy buildings. It causes 14 damage per second to buildings. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStarfall.blp" title="ReplaceableTextures\\CommandButtons\\BTNStarfall.blp" />
+</td>" )
+	call Preload( "
+<td>
+Starfall
+</td>" )
+	call Preload( "
+<td>
+Calls down waves of falling stars that damage nearby enemy units. Each wave deals 50 damage. |nLasts for 45 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTranquility.blp" title="ReplaceableTextures\\CommandButtons\\BTNTranquility.blp" />
+</td>" )
+	call Preload( "
+<td>
+Tranquility
+</td>" )
+	call Preload( "
+<td>
+Causes rains of healing energy to pour down in a large area, healing friendly allied units for 48 hit points per second. |nLasts 8 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp" title="ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp" />
+</td>" )
+	call Preload( "
+<td>
+Animate Dead
+</td>" )
+	call Preload( "
+<td>
+Raises 6 dead units in an area to fight for the Death Knight for 40 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" />
+</td>" )
+	call Preload( "
+<td>
+Transmute
+</td>" )
+	call Preload( "
+<td>
+Kills a target unit instantly, transforming it into gold which is added to your available gold!|nTransmute cannot be used on Heroes, or creeps above level 5.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" />
+</td>" )
+	call Preload( "
+<td>
+Demon Master
+</td>" )
+	call Preload( "
+<td>
+Opens a portal, allowing 2 demons to step through. The demons last 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDoom.blp" title="ReplaceableTextures\\CommandButtons\\BTNDoom.blp" />
+</td>" )
+	call Preload( "
+<td>
+Doom
+</td>" )
+	call Preload( "
+<td>
+Marks a target unit for the manifestation of a Demon. The afflicted unit cannot cast spells, has 50% reduced movement speed, and will take 40 damage per second until it dies. Upon its death, 1 great Demon(s) will spawn from its corpse. Doom cannot be " )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStampede.blp" title="ReplaceableTextures\\CommandButtons\\BTNStampede.blp" />
+</td>" )
+	call Preload( "
+<td>
+Stampede
+</td>" )
+	call Preload( "
+<td>
+Calls down hordes of rampaging thunder lizards to explode upon the Beastmaster's enemies. Each exploding lizard deals 60 damage. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" />
+</td>" )
+	call Preload( "
+<td>
+Volcano
+</td>" )
+	call Preload( "
+<td>
+Causes the ground to erupt into a massive Volcano. Every 3 seconds, a wave of molten rocks is hurled from the Volcano at nearby ground units and buildings, causing 100 damage to each target and stunning it for 2 seconds. Buildings take 3 times more da" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormEarth&Fire.blp" title="ReplaceableTextures\\CommandButtons\\BTNStormEarth&Fire.blp" />
+</td>" )
+	call Preload( "
+<td>
+Storm, Earth, And Fire
+</td>" )
+	call Preload( "
+<td>
+Splits the Brewmaster into elements, forming 3 specialized warriors. If any of them survive until the end of their summoned timer, the Brewmaster is reborn. |nLasts 45 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernal.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernal.blp" />
+</td>" )
+	call Preload( "
+<td>
+Inferno
+</td>" )
+	call Preload( "
+<td>
+Calls an Infernal down from the sky, dealing 50 damage and stunning enemy land units for 4 seconds in an area. The Infernal lasts 180 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" title="ReplaceableTextures\\CommandButtons\\BTNWand.blp" />
+</td>" )
+	call Preload( "
+<td>
+Clone
+</td>" )
+	call Preload( "
+<td>
+Clones a target unit for 10 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" />
+</td>" )
+	call Preload( "
+<td>
+Council of Six
+</td>" )
+	call Preload( "
+<td>
+Summons the five other members of the Council of Six to support Khadgar.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeneradorazul.blp" title="ReplaceableTextures\\CommandButtons\\BTNGeneradorazul.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dalaran Shield
+</td>" )
+	call Preload( "
+<td>
+Damages everything hostile and neutral in its area of effect by 5% of its base hit points per second. Also destroys trees. |nLasts 35 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFootman.blp" title="ReplaceableTextures\\CommandButtons\\BTNFootman.blp" />
+</td>" )
+	call Preload( "
+<td>
+Last Alliance
+</td>" )
+	call Preload( "
+<td>
+Summons 2 Human, Orc and Night Elf warriors to fight for Medivh. The warriors last 60 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" title="ReplaceableTextures\\CommandButtons\\BTNPolymorph.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mass Polymorph
+</td>" )
+	call Preload( "
+<td>
+Turns a target enemy unit into a sheep. The targeted unit retains its hit points and armor, but cannot attack. |nCannot be cast on Heroes. |nLasts 40 seconds.|nMaximum target creep level 5.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Sapphiron
+</td>" )
+	call Preload( "
+<td>
+Summons Sapphiron, a powerful undead dragon, to attack your enemies.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" title="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" />
+</td>" )
+	call Preload( "
+<td>
+Force Master
+</td>" )
+	call Preload( "
+<td>
+Slams the ground, dealing 700 damage to nearby enemy land units and slowing their movement by 30% and attack rate by 30%.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShrink.blp" title="ReplaceableTextures\\CommandButtons\\BTNShrink.blp" />
+</td>" )
+	call Preload( "
+<td>
+Shrink
+</td>" )
+	call Preload( "
+<td>
+Shrinks enemy target units which decreases their size, damage, armor, attack and movement speed, maximum hit points, maximum mana points, hit points regeneration and mana points regeneration.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTimeSpell.blp" title="ReplaceableTextures\\CommandButtons\\BTNTimeSpell.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mass Rewind Time
+</td>" )
+	call Preload( "
+<td>
+Records the time events for a target friendly unit, item or destructable or stops recording time events for a target enemy unit.|n|nRewinds the time for 240 seconds if targeted on the ground. This can be interrupted by any other caster in the game cas" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTheOneRing.BLP" title="ReplaceableTextures\\CommandButtons\\BTNTheOneRing.BLP" />
+</td>" )
+	call Preload( "
+<td>
+The Ring of Power
+</td>" )
+	call Preload( "
+<td>
+This unit is permanently invisible.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTheOneRing.BLP" title="ReplaceableTextures\\CommandButtons\\BTNTheOneRing.BLP" />
+</td>" )
+	call Preload( "
+<td>
+The Ring of Power
+</td>" )
+	call Preload( "
+<td>
+Sauron uses his Ring of Power to charm multiple enemies. The maximum creep level of the targets can be 5.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp" title="ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp" />
+</td>" )
+	call Preload( "
+<td>
+Full Regeneration
+</td>" )
+	call Preload( "
+<td>
+Immediately heals all hit points and regenerates all mana for a target friendly unit.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDemolish.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDemolish.blp" />
+</td>" )
+	call Preload( "
+<td>
+Demolish
+</td>" )
+	call Preload( "
+<td>
+Causes attacks to do 2 times normal damage to buildings.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNPlagueCloud.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNPlagueCloud.blp" />
+</td>" )
+	call Preload( "
+<td>
+Disease Cloud
+</td>" )
+	call Preload( "
+<td>
+Infects nearby enemy living units with Disease Cloud. Disease Cloud deals 2 damage per second. |nLasts 75 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" />
+</td>" )
+	call Preload( "
+<td>
+Monsoon
+</td>" )
+	call Preload( "
+<td>
+Calls down a storm of lightning to strike enemy units for 20 damage in a small target area. |nLasts 12 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMercenaryCamp.blp" title="ReplaceableTextures\\CommandButtons\\BTNMercenaryCamp.blp" />
+</td>" )
+	call Preload( "
+<td>
+Summon Mercenary Camp
+</td>" )
+	call Preload( "
+<td>
+Summons a mercenary camp to train units.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp" />
+</td>" )
+	call Preload( "
+<td>
+Vengeance
+</td>" )
+	call Preload( "
+<td>
+Creates a powerful avatar that summons invulnerable spirits from nearby corpses to attack your enemies. When the Avatar of Vengeance dies, the spirits vanish. |nLasts 180 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp" title="ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp" />
+</td>" )
+	call Preload( "
+<td>
+Bladestorm
+</td>" )
+	call Preload( "
+<td>
+Causes a bladestorm of destructive force around the Blademaster, rendering him immune to magic and dealing 110 damage per second to nearby enemy land units. |nLasts 7 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp" title="ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp" />
+</td>" )
+	call Preload( "
+<td>
+Death And Decay
+</td>" )
+	call Preload( "
+<td>
+Damages everything in its area of effect by 4% of its base hit points per second. Also destroys trees. |nLasts 35 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLocustSwarm.blp" title="ReplaceableTextures\\CommandButtons\\BTNLocustSwarm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Locust Swarm
+</td>" )
+	call Preload( "
+<td>
+Creates a swarm of 20 angry locusts that bite and tear at nearby enemy units. As they chew the enemy flesh, they convert it into a substance that restores 75 % of the caused damage as hit points to the Crypt Lord when they return. |nLasts 30 seconds." )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNKingdomFlag.blp" title="ReplaceableTextures\\CommandButtons\\BTNKingdomFlag.blp" />
+</td>" )
+	call Preload( "
+<td>
+Cripple Player
+</td>" )
+	call Preload( "
+<td>
+Exposes all enemy players for some time.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNScrollUber.blp" title="ReplaceableTextures\\CommandButtons\\BTNScrollUber.blp" />
+</td>" )
+	call Preload( "
+<td>
+Town Portal
+</td>" )
+	call Preload( "
+<td>
+Teleports the Hero and any of its nearby troops to a target friendly town hall. Maximum number of units 10 and cooldown 40 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flamethrower Turret
+</td>" )
+	call Preload( "
+<td>
+Summons an immovable ward that attacks nearby enemy units with its flamethrower. |nLasts 30 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp" />
+</td>" )
+	call Preload( "
+<td>
+Mass Devour
+</td>" )
+	call Preload( "
+<td>
+Consumes enemy units, slowly digesting it and dealing damage per second to it. If the caster is killed while the consumed unit is still digesting, the unit that was devoured will be released. Maximum target creep level 5, maximum target cargo slots 4 " )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" />
+</td>" )
+	call Preload( "
+<td>
+Dark Conversion
+</td>" )
+	call Preload( "
+<td>
+Puts a target villager to sleep and converts it into a zombie.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMortarTeam.blp" title="ReplaceableTextures\\CommandButtons\\BTNMortarTeam.blp" />
+</td>" )
+	call Preload( "
+<td>
+Split
+</td>" )
+	call Preload( "
+<td>
+Splits the Mortar Team into the Gunner and Spotter. If any of them survive until the end of their summoned timer, the Mortar Team is joined back. |nLasts 45 seconds.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFlameStorm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFlameStorm.blp" />
+</td>" )
+	call Preload( "
+<td>
+Flame Storm
+</td>" )
+	call Preload( "
+<td>
+Summons a powerful flame storm which damages enemy units around. Causes 50 damage per second to every target.
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" />
+</td>" )
+	call Preload( "
+<td>
+Attribute Bonus
+</td>" )
+	call Preload( "
+<td>
+Gives a total of 3 points to Agility, Intelligence, and Strength
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" />
+</td>" )
+	call Preload( "
+<td>
+Strength Bonus
+</td>" )
+	call Preload( "
+<td>
+Gives a total of 0 points to Strength
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" />
+</td>" )
+	call Preload( "
+<td>
+Agility Bonus
+</td>" )
+	call Preload( "
+<td>
+Gives a total of 4 points to Agility.
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" />
+</td>" )
+	call Preload( "
+<td>
+Intelligence Bonus
+</td>" )
+	call Preload( "
+<td>
+Gives a total of 0 points to Intelligence.
+</td>" )
+	call Preload( "
+<td>
+4
+</td>" )
+	call Preload( "
+<td>
+1
+</td>" )
+	call Preload( "
+<td>
+15
+</td>" )
+	call Preload( "
+<td>
+60
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 1.5 )
+
+endfunction
+
+

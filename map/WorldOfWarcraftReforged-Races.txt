@@ -650,7 +650,7 @@ Vrykul race. Nordic giants, powerful warriors with strong ships and Proto-Drakes
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.4 )
+	call PreloadEnd( 0.3 )
 
 endfunction
 

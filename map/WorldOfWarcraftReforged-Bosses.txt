@@ -3461,7 +3461,7 @@ Foot
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.4 )
+	call PreloadEnd( 0.3 )
 
 endfunction
 

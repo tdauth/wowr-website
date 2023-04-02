@@ -4627,7 +4627,7 @@ Foot
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 4.3 )
+	call PreloadEnd( 4.0 )
 
 endfunction
 
