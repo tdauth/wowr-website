@@ -9,6 +9,11 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -53,7 +58,7 @@ Units can also have spells.
 Unit spells are improved with researches.
 
 <!-- Autogenerate from imported savecodes and generated file: -->
-<table>
+<table id="spells">
     <thead>
         <tr>
             <th>Icon</th>
@@ -5695,6 +5700,12 @@ Gives a total of 0 points to Intelligence.
 </ul>
 </td>
 </tr>
+
+<script>
+    $('#spells').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
     </tbody>
 </table>
