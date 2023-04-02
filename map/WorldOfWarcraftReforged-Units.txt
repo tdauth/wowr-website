@@ -6,7 +6,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "
 <tr id="nban">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -98,7 +98,7 @@ Foot
 	call Preload( "
 <tr id="nbrg">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -190,7 +190,7 @@ Foot
 	call Preload( "
 <tr id="nrog">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -282,7 +282,7 @@ Foot
 	call Preload( "
 <tr id="nass">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -374,7 +374,7 @@ Foot
 	call Preload( "
 <tr id="nenf">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -466,7 +466,7 @@ Foot
 	call Preload( "
 <tr id="nbld">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanditLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditLord.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditLord.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBanditLord.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -558,7 +558,7 @@ On Horse
 	call Preload( "
 <tr id="nbdm">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -650,7 +650,7 @@ Foot
 	call Preload( "
 <tr id="nbda">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -742,7 +742,7 @@ Foot
 	call Preload( "
 <tr id="nbdw">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBlueDragonSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -834,7 +834,7 @@ Foot
 	call Preload( "
 <tr id="nbds">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragonSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -926,7 +926,7 @@ Foot
 	call Preload( "
 <tr id="nbdo">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1018,7 +1018,7 @@ Foot
 	call Preload( "
 <tr id="nfgo">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNForgottenOne.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1110,7 +1110,7 @@ None
 	call Preload( "
 <tr id="n06P">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1202,7 +1202,7 @@ Foot
 	call Preload( "
 <tr id="n072">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFelReaverIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNFelReaverIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFelReaverIcon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFelReaverIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1294,7 +1294,7 @@ Foot
 	call Preload( "
 <tr id="n073">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalReaverIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalReaverIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalReaverIcon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNInfernalReaverIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1386,7 +1386,7 @@ Foot
 	call Preload( "
 <tr id="n074">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVoidReaverIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNVoidReaverIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVoidReaverIcon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVoidReaverIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1478,7 +1478,7 @@ Foot
 	call Preload( "
 <tr id="n04Q">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" title="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1570,7 +1570,7 @@ Foot
 	call Preload( "
 <tr id="n04P">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" title="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNShivarra_by67chrome.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1662,7 +1662,7 @@ Foot
 	call Preload( "
 <tr id="n07T">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIcon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1754,7 +1754,7 @@ Amphibious
 	call Preload( "
 <tr id="n07V">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIconFel.blp" title="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIconFel.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIconFel.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCoreHoundIconFel.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1846,7 +1846,7 @@ Amphibious
 	call Preload( "
 <tr id="n03S">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1938,7 +1938,7 @@ Foot
 	call Preload( "
 <tr id="hpea">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2030,7 +2030,7 @@ Foot
 	call Preload( "
 <tr id="n00E">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2122,7 +2122,7 @@ Foot
 	call Preload( "
 <tr id="n00F">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2214,7 +2214,7 @@ Foot
 	call Preload( "
 <tr id="hfoo">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFootman.blp" title="ReplaceableTextures\\CommandButtons\\BTNFootman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFootman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFootman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2306,7 +2306,7 @@ Foot
 	call Preload( "
 <tr id="hrif">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRifleman.blp" title="ReplaceableTextures\\CommandButtons\\BTNRifleman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNRifleman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRifleman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2398,7 +2398,7 @@ Foot
 	call Preload( "
 <tr id="hkni">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNKnight.blp" title="ReplaceableTextures\\CommandButtons\\BTNKnight.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNKnight.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNKnight.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2490,7 +2490,7 @@ On Horse
 	call Preload( "
 <tr id="hmpr">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriest.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriest.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriest.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPriest.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2582,7 +2582,7 @@ Foot
 	call Preload( "
 <tr id="hsor">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSorceress.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceress.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSorceress.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSorceress.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2674,7 +2674,7 @@ Hover
 	call Preload( "
 <tr id="hmtt">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSeigeEngine.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeigeEngine.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeigeEngine.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSeigeEngine.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2766,7 +2766,7 @@ Foot
 	call Preload( "
 <tr id="hgry">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" title="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2858,7 +2858,7 @@ Fly
 	call Preload( "
 <tr id="opeo">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2950,7 +2950,7 @@ Foot
 	call Preload( "
 <tr id="n00I">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3042,7 +3042,7 @@ Foot
 	call Preload( "
 <tr id="n00J">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3134,7 +3134,7 @@ Foot
 	call Preload( "
 <tr id="ogru">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGrunt.blp" title="ReplaceableTextures\\CommandButtons\\BTNGrunt.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGrunt.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGrunt.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3226,7 +3226,7 @@ Foot
 	call Preload( "
 <tr id="ohun">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeadhunter.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeadhunter.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeadhunter.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHeadhunter.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3318,7 +3318,7 @@ Foot
 	call Preload( "
 <tr id="orai">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRaider.blp" title="ReplaceableTextures\\CommandButtons\\BTNRaider.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNRaider.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRaider.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3410,7 +3410,7 @@ On Horse
 	call Preload( "
 <tr id="odoc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3502,7 +3502,7 @@ Foot
 	call Preload( "
 <tr id="oshm">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNShaman.blp" title="ReplaceableTextures\\CommandButtons\\BTNShaman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNShaman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNShaman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3594,7 +3594,7 @@ Foot
 	call Preload( "
 <tr id="ocat">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDemolisher.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemolisher.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDemolisher.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDemolisher.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3686,7 +3686,7 @@ Foot
 	call Preload( "
 <tr id="owyv">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWyvernRider.blp" title="ReplaceableTextures\\CommandButtons\\BTNWyvernRider.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNWyvernRider.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWyvernRider.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3778,7 +3778,7 @@ Fly
 	call Preload( "
 <tr id="uaco">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" title="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3870,7 +3870,7 @@ Foot
 	call Preload( "
 <tr id="n00G">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNZombie.blp" title="ReplaceableTextures\\CommandButtons\\BTNZombie.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNZombie.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNZombie.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3962,7 +3962,7 @@ Foot
 	call Preload( "
 <tr id="n00H">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGhost.tga" title="ReplaceableTextures\\CommandButtons\\BTNGhost.tga" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4054,7 +4054,7 @@ Foot
 	call Preload( "
 <tr id="ugho">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGhoul.blp" title="ReplaceableTextures\\CommandButtons\\BTNGhoul.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGhoul.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGhoul.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4146,7 +4146,7 @@ Foot
 	call Preload( "
 <tr id="ucry">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCryptFiend.blp" title="ReplaceableTextures\\CommandButtons\\BTNCryptFiend.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNCryptFiend.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCryptFiend.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4238,7 +4238,7 @@ Foot
 	call Preload( "
 <tr id="uabo">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAbomination.blp" title="ReplaceableTextures\\CommandButtons\\BTNAbomination.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNAbomination.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAbomination.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4330,7 +4330,7 @@ Foot
 	call Preload( "
 <tr id="unec">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNecromancer.blp" title="ReplaceableTextures\\CommandButtons\\BTNNecromancer.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNNecromancer.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNecromancer.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4422,7 +4422,7 @@ Foot
 	call Preload( "
 <tr id="uban">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanshee.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanshee.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanshee.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBanshee.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4514,7 +4514,7 @@ Hover
 	call Preload( "
 <tr id="umtw">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMeatWagon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4606,7 +4606,7 @@ Foot
 	call Preload( "
 <tr id="ufro">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4698,7 +4698,7 @@ Fly
 	call Preload( "
 <tr id="ewsp">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" title="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -4790,7 +4790,7 @@ Hover
 	call Preload( "
 <tr id="n00O">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.tga" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.tga" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.tga" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.tga" />
 </td>" )
 	call Preload( "
 <td>
@@ -4882,7 +4882,7 @@ Foot
 	call Preload( "
 <tr id="n00P">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.tga" title="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.tga" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.tga" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.tga" />
 </td>" )
 	call Preload( "
 <td>
@@ -4974,7 +4974,7 @@ Foot
 	call Preload( "
 <tr id="earc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5066,7 +5066,7 @@ Foot
 	call Preload( "
 <tr id="earc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcher.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5158,7 +5158,7 @@ Foot
 	call Preload( "
 <tr id="esen">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHuntress.blp" title="ReplaceableTextures\\CommandButtons\\BTNHuntress.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHuntress.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHuntress.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5250,7 +5250,7 @@ Foot
 	call Preload( "
 <tr id="edot">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" title="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5342,7 +5342,7 @@ Foot
 	call Preload( "
 <tr id="edot">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" title="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDruidOfTheTalon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5434,7 +5434,7 @@ Foot
 	call Preload( "
 <tr id="ebal">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGlaiveThrower.blp" title="ReplaceableTextures\\CommandButtons\\BTNGlaiveThrower.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGlaiveThrower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGlaiveThrower.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5526,7 +5526,7 @@ Foot
 	call Preload( "
 <tr id="echm">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChimaera.blp" title="ReplaceableTextures\\CommandButtons\\BTNChimaera.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNChimaera.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNChimaera.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5618,7 +5618,7 @@ Fly
 	call Preload( "
 <tr id="nhew">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5710,7 +5710,7 @@ Foot
 	call Preload( "
 <tr id="n00K">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5802,7 +5802,7 @@ Foot
 	call Preload( "
 <tr id="nmpe">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5894,7 +5894,7 @@ Amphibious
 	call Preload( "
 <tr id="n00M">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -5986,7 +5986,7 @@ Amphibious
 	call Preload( "
 <tr id="u006">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" title="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6078,7 +6078,7 @@ Foot
 	call Preload( "
 <tr id="n016">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLavaSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6170,7 +6170,7 @@ Foot
 	call Preload( "
 <tr id="n017">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6262,7 +6262,7 @@ Foot
 	call Preload( "
 <tr id="n01A">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.blp" title="ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6354,7 +6354,7 @@ Foot
 	call Preload( "
 <tr id="n019">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" title="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6446,7 +6446,7 @@ Foot
 	call Preload( "
 <tr id="n01D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6538,7 +6538,7 @@ Foot
 	call Preload( "
 <tr id="n014">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNeredarRed.blp" title="ReplaceableTextures\\CommandButtons\\BTNeredarRed.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNeredarRed.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNeredarRed.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6630,7 +6630,7 @@ Foot
 	call Preload( "
 <tr id="n015">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDemoness.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6722,7 +6722,7 @@ Foot
 	call Preload( "
 <tr id="n01C">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6814,7 +6814,7 @@ Foot
 	call Preload( "
 <tr id="n01B">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6906,7 +6906,7 @@ Fly
 	call Preload( "
 <tr id="ndrl">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -6998,7 +6998,7 @@ Foot
 	call Preload( "
 <tr id="n01L">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7090,7 +7090,7 @@ Foot
 	call Preload( "
 <tr id="h02L">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7182,7 +7182,7 @@ Foot
 	call Preload( "
 <tr id="n03Y">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7274,7 +7274,7 @@ Foot
 	call Preload( "
 <tr id="n03Z">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinFemale.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinFemale.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinFemale.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGoblinFemale.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7366,7 +7366,7 @@ Foot
 	call Preload( "
 <tr id="h02Q">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7458,7 +7458,7 @@ Foot
 	call Preload( "
 <tr id="n04S">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7550,7 +7550,7 @@ Foot
 	call Preload( "
 <tr id="n050">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7642,7 +7642,7 @@ Foot
 	call Preload( "
 <tr id="n05D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7734,7 +7734,7 @@ Foot
 	call Preload( "
 <tr id="n05E">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7826,7 +7826,7 @@ Foot
 	call Preload( "
 <tr id="n05J">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.tga" title="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.tga" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFemaleElfVillager.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -7918,7 +7918,7 @@ Foot
 	call Preload( "
 <tr id="h052">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" title="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8010,7 +8010,7 @@ Foot
 	call Preload( "
 <tr id="n082">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBanditMage.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8102,7 +8102,7 @@ Foot
 	call Preload( "
 <tr id="n00H">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGhost.tga" title="ReplaceableTextures\\CommandButtons\\BTNGhost.tga" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8194,7 +8194,7 @@ Foot
 	call Preload( "
 <tr id="h058">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" title="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8286,7 +8286,7 @@ Foot
 	call Preload( "
 <tr id="n066">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8378,7 +8378,7 @@ Foot
 	call Preload( "
 <tr id="n0BL">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8470,7 +8470,7 @@ Foot
 	call Preload( "
 <tr id="h067">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8562,7 +8562,7 @@ Foot
 	call Preload( "
 <tr id="n08M">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandaVillager.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandaVillager.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPandaVillager.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPandaVillager.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8654,7 +8654,7 @@ Foot
 	call Preload( "
 <tr id="n08N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8746,7 +8746,7 @@ Foot
 	call Preload( "
 <tr id="o02C">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" title="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8838,7 +8838,7 @@ Foot
 	call Preload( "
 <tr id="n07X">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -8930,7 +8930,7 @@ Foot
 	call Preload( "
 <tr id="n081">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNForestTrollFemale.blp" title="ReplaceableTextures\\CommandButtons\\BTNForestTrollFemale.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNForestTrollFemale.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNForestTrollFemale.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9022,7 +9022,7 @@ Foot
 	call Preload( "
 <tr id="o02N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9114,7 +9114,7 @@ Foot
 	call Preload( "
 <tr id="n09Z">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9206,7 +9206,7 @@ Foot
 	call Preload( "
 <tr id="n0BM">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9298,7 +9298,7 @@ Foot
 	call Preload( "
 <tr id="h084">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" title="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9390,7 +9390,7 @@ Foot
 	call Preload( "
 <tr id="n07J">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEwok.blp" title="ReplaceableTextures\\CommandButtons\\BTNEwok.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNEwok.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNEwok.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9482,7 +9482,7 @@ Foot
 	call Preload( "
 <tr id="n0BP">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9574,7 +9574,7 @@ Foot
 	call Preload( "
 <tr id="h079">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9666,7 +9666,7 @@ Foot
 	call Preload( "
 <tr id="n0A0">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9758,7 +9758,7 @@ Foot
 	call Preload( "
 <tr id="n0BQ">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9850,7 +9850,7 @@ Foot
 	call Preload( "
 <tr id="h08U">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRomanL2.1.blp" title="ReplaceableTextures\\CommandButtons\\BTNRomanL2.1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNRomanL2.1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRomanL2.1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -9942,7 +9942,7 @@ Foot
 	call Preload( "
 <tr id="n09Y">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10034,7 +10034,7 @@ Foot
 	call Preload( "
 <tr id="n0AS">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10126,7 +10126,7 @@ Foot
 	call Preload( "
 <tr id="h0AQ">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10218,7 +10218,7 @@ Foot
 	call Preload( "
 <tr id="n09J">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10310,7 +10310,7 @@ Foot
 	call Preload( "
 <tr id="n0BO">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10402,7 +10402,7 @@ Foot
 	call Preload( "
 <tr id="h0CX">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10494,7 +10494,7 @@ Foot
 	call Preload( "
 <tr id="n0A5">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMayor.blp" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMayor.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMayor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMayor.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10586,7 +10586,7 @@ Foot
 	call Preload( "
 <tr id="n0A6">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10678,7 +10678,7 @@ Foot
 	call Preload( "
 <tr id="o03O">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10770,7 +10770,7 @@ Foot
 	call Preload( "
 <tr id="n0AO">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNChaosPeon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10862,7 +10862,7 @@ Foot
 	call Preload( "
 <tr id="n0BR">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarlockRed.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -10954,7 +10954,7 @@ Foot
 	call Preload( "
 <tr id="h0DK">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHerrDaveIndustrialWorker.blp" title="ReplaceableTextures\\CommandButtons\\BTNHerrDaveIndustrialWorker.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHerrDaveIndustrialWorker.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHerrDaveIndustrialWorker.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -11046,7 +11046,7 @@ Foot
 	call Preload( "
 <tr id="n0AF">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan1.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -11138,7 +11138,7 @@ Foot
 	call Preload( "
 <tr id="n09M">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVillagerWoman.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -11227,7 +11227,7 @@ Foot
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.7 )
+	call PreloadEnd( 2.5 )
 
 endfunction
 
