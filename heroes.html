@@ -3121,7 +3121,9 @@ Large
 </table>
 
 <script>
-	const table = new DataTable('#heroes');
+    $('#heroes').dataTable({
+        "paging": false,//Dont want paging
+    });
 </script>
 
 </body>
