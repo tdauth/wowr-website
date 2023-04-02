@@ -3918,7 +3918,7 @@ Small
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 3.4 )
+	call PreloadEnd( 3.3 )
 
 endfunction
 
