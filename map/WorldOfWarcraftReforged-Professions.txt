@@ -1,304 +1,309 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>World of Warcraft Reforged - Professions</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="description" content="World of Warcraft Reforged official website.">
-    <meta name="keywords" content="warcraft3 RPG Reforged custommap">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+function PreloadFiles takes nothing returns nothing
 
-    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
-    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
-</head>
-<body class="p-3 mb-2 bg-dark text-white">
-
-<h1>World of Warcraft Reforged - Professions</h1>
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark border">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">News</a></li>
-            <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
-            <li class="nav-item"><a class="nav-link" href="herojourney.html">Hero Journey</a></li>
-            <li class="nav-item"><a class="nav-link" href="gamemodes.html">Game Modes</a></li>
-            <li class="nav-item"><a class="nav-link" href="heroes.html">Heroes</a></li>
-            <li class="nav-item"><a class="nav-link" href="spells.html">Spells</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#">Professions</a></li>
-            <li class="nav-item"><a class="nav-link" href="races.html">Races</a></li>
-            <li class="nav-item"><a class="nav-link" href="researches.html">Researches</a></li>
-            <li class="nav-item"><a class="nav-link" href="items.html">Items</a></li>
-            <li class="nav-item"><a class="nav-link" href="bosses.html">Bosses</a></li>
-            <li class="nav-item"><a class="nav-link" href="units.html">Units</a></li>
-            <li class="nav-item"><a class="nav-link" href="buildings.html">Buildings</a></li>
-            <li class="nav-item"><a class="nav-link" href="mounts.html">Mounts</a></li>
-            <li class="nav-item"><a class="nav-link" href="quests.html">Quests</a></li>
-            <li class="nav-item"><a class="nav-link" href="chatcommands.html">Chat Commands</a></li>
-            <li class="nav-item"><a class="nav-link" href="locations.html">Locations</a></li>
-            <li class="nav-item"><a class="nav-link" href="player.html">Players</a></li>
-            <li class="nav-item"><a class="nav-link" href="clans.html">Clans</a></li>
-            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://discord.gg/eM34z36">Discord</a></li>
-            <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCzGcsuPfRVqdaE87JYCK5zw">YouTube</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://github.com/tdauth/wowr">Development</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=ZAAKMQLSNGDK8">Donate</a></li>
-        </ul>
-    </div>
-</nav>
-
-Professions allow you to craft items.
-The first profession has to be chosen in the beginning of the game.
-
-<!-- Autogenerate from imported savecodes and generated file: -->
-<table id="professions">
-    <thead>
-        <tr>
-            <th>Icon</th>
-            <th>Name</th>
-            <th>Crafted Items</th>
-            <th>Item</th>
-        </tr>
-    </thead>
-    <tbody>
-
+	call PreloadStart()
+	call Preload( "
+Professions:
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" title="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Herbalist
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which heal your hero and increase the life.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Herbalism</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" title="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Alchemist
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which restore mana of your hero and increase the maximum mana.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Alchemy</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" title="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Weapon Smith
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which increase the damage of your hero.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Weaponsmithing</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Armorer
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which increase the armor of your hero.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Armoring</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" title="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Engineer
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting tiny towers to protect your base.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Engineering</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" title="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Lore Master
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting scrolls.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Lores</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" title="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Sorcerer
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting wands.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Sorcery</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" title="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Runeforger
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting runes.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Runeforging</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Dragon Breeder
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting dragon eggs.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Dragon Breeder</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Jewelcrafter
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which increase your hero attributes.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Jewelcrafting</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTome.blp" title="ReplaceableTextures\\CommandButtons\\BTNTome.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Enchanter
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which increase the bonuses of carried items. Recommended as secondary profession since it helps to improve other items. Use "-enchanter" to list all item types which can be enchanted.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Enchanting</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPirateFlag256.dds" title="ReplaceableTextures\\CommandButtons\\BTNPirateFlag256.dds" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Pirate
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting items which allow you to live as a pirate. Arrr!
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Piracy</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDigArtifact.blp" title="ReplaceableTextures\\CommandButtons\\BTNDigArtifact.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Archaeologist
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows digging for random items.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Archeology</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Witch Doctor
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting wards.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Witch Doctor</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMerchant.blp" title="ReplaceableTextures\\CommandButtons\\BTNMerchant.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Merchant
-</td>
+</td>" )
+	call Preload( "
 <td>
 Allows crafting bills to increase charges of other items.
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" /><href="items.html#">Book of Merchant</a>
-</td>
+</td>" )
+	call Preload( "
 </tr>
+" )
+	call PreloadEnd( 0.1 )
 
-    </tbody>
-</table>
+endfunction
 
-<script>
-    $('#professions').dataTable({
-        "paging": false,//Dont want paging
-    });
-</script>
 
-</body>
-</html> 

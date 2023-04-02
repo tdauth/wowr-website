@@ -9,6 +9,11 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -52,17 +57,19 @@ Once a research has been done, it stays during the whole game.
 Researches can also be saved and loaded.
 
 <!-- Autogenerate from map file/object data: -->
-<table>
+<table id="researches">
     <thead>
         <tr>
             <th>Icon</th>
             <th>Name</th>
             <th>Race</th>
             <th>Description</th>
+            <!--
             <th>Gold Cost</th>
             <th>Lumber Cost</th>
             <th>Time</th>
             <th>Levels</th>
+            -->
         </tr>
     </thead>
     <tbody>
@@ -70,25 +77,9 @@ Researches can also be saved and loaded.
         <tr id="R00U">
             <td><a href="#R00U"><img src="ReplaceableTextures\CommandButtons\BTNHealthStone.blp" title="Evolution" alt="Evolution" /></a></td>
             <td>Evolution</td>
+            <td>-</td>
             <td>Increases the maximum hit points, mana, the level by 1 every 10 upgrade levels and attack damage of units.</td>
-            <td>2000</td>
-            <td>1000</td>
-            <td>40</td>
-            <td>75</td>
-            <td>All</td>
         </tr>
-
-<tr id="">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
-</td>
-<td>
-Default string
-</td>
-<td>
-
-</td>
-</tr>
 
 <tr id="">
 <td>
@@ -96,6 +87,9 @@ Default string
 </td>
 <td>
 Iron Forged Swords
+</td>
+<td>
+-
 </td>
 <td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
@@ -110,6 +104,9 @@ Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Rider
 Black Gunpowder
 </td>
 <td>
+-
+</td>
+<td>
 Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and Flying Machines.
 </td>
 </tr>
@@ -120,6 +117,9 @@ Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and 
 </td>
 <td>
 Iron Plating
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
@@ -134,6 +134,9 @@ Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines
 Studded Leather Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
 </td>
 </tr>
@@ -144,6 +147,9 @@ Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Rid
 </td>
 <td>
 Storm Hammers
+</td>
+<td>
+-
 </td>
 <td>
 Causes a Gryphon Rider's attacks to damage multiple units.
@@ -158,6 +164,9 @@ Causes a Gryphon Rider's attacks to damage multiple units.
 Flying Machine Bombs
 </td>
 <td>
+-
+</td>
+<td>
 Allows Flying Machines to attack land units.
 </td>
 </tr>
@@ -168,6 +177,9 @@ Allows Flying Machines to attack land units.
 </td>
 <td>
 Improved Masonry
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor and hit points of Human buildings.
@@ -182,6 +194,9 @@ Increases the armor and hit points of Human buildings.
 Defend
 </td>
 <td>
+-
+</td>
+<td>
 Allows Footmen to use the Defend ability, which increases their defensive capabilities against Piercing attacks.
 </td>
 </tr>
@@ -194,6 +209,9 @@ Allows Footmen to use the Defend ability, which increases their defensive capabi
 Animal War Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
 </td>
 </tr>
@@ -204,6 +222,9 @@ Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Ride
 </td>
 <td>
 Priest Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
@@ -218,6 +239,9 @@ Increases Priests' mana capacity, mana regeneration rate, hit points, and gives 
 Sorceress Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Sorceresses' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Invisibility.
 </td>
 </tr>
@@ -228,6 +252,9 @@ Increases Sorceresses' mana capacity, mana regeneration rate, hit points, and gi
 </td>
 <td>
 Long Rifles
+</td>
+<td>
+-
 </td>
 <td>
 Increases the range of Riflemen attacks.
@@ -242,6 +269,9 @@ Increases the range of Riflemen attacks.
 Improved Lumber Harvesting
 </td>
 <td>
+-
+</td>
+<td>
 Increases the amount of lumber that Peasants can carry by 10.
 </td>
 </tr>
@@ -252,6 +282,9 @@ Increases the amount of lumber that Peasants can carry by 10.
 </td>
 <td>
 Magic Sentry
+</td>
+<td>
+-
 </td>
 <td>
 Provides Human towers with the ability to detect invisible units.
@@ -266,6 +299,9 @@ Provides Human towers with the ability to detect invisible units.
 Flare
 </td>
 <td>
+-
+</td>
+<td>
 Provides Mortar Teams with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units.
 </td>
 </tr>
@@ -276,6 +312,9 @@ Provides Mortar Teams with the Flare ability. Flares can be used to reveal any a
 </td>
 <td>
 Control Magic
+</td>
+<td>
+-
 </td>
 <td>
 Gives Spellbreakers the ability to take control of enemy summoned units.
@@ -290,6 +329,9 @@ Gives Spellbreakers the ability to take control of enemy summoned units.
 Barrage
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades Siege Engines, giving them the Barrage ability, which allows them to damage nearby enemy air units.
 </td>
 </tr>
@@ -300,6 +342,9 @@ Upgrades Siege Engines, giving them the Barrage ability, which allows them to da
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific Human ground units the ability to carry items.
@@ -314,6 +359,9 @@ Gives specific Human ground units the ability to carry items.
 Flak Cannons
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades the weapons on Flying Machines to give them an area effect damage attack against air units.
 </td>
 </tr>
@@ -326,6 +374,9 @@ Upgrades the weapons on Flying Machines to give them an area effect damage attac
 Fragmentation Shards
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the damage they deal to Unarmored and Medium armor units.
 </td>
 </tr>
@@ -336,6 +387,9 @@ Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the dam
 </td>
 <td>
 Cloud
+</td>
+<td>
+-
 </td>
 <td>
 Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings from attacking.
@@ -350,6 +404,9 @@ Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings 
 Sundering Blades
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades Knights to deal increased damage to targets with Medium armor.
 </td>
 </tr>
@@ -360,6 +417,9 @@ Upgrades Knights to deal increased damage to targets with Medium armor.
 </td>
 <td>
 Arcane Observatory
+</td>
+<td>
+-
 </td>
 <td>
 Allows building male citizens an Arcane Observatory to reveal hostile units and resurrect dead player units.
@@ -374,6 +434,9 @@ Allows building male citizens an Arcane Observatory to reveal hostile units and 
 Steel Melee Weapons
 </td>
 <td>
+-
+</td>
+<td>
 Increases the melee attack damage of Grunts, Raiders and Tauren.
 </td>
 </tr>
@@ -384,6 +447,9 @@ Increases the melee attack damage of Grunts, Raiders and Tauren.
 </td>
 <td>
 Steel Ranged Weapons
+</td>
+<td>
+-
 </td>
 <td>
 Increases the ranged attack damage of Headhunters, Wind Riders, Batriders and Demolishers.
@@ -398,6 +464,9 @@ Increases the ranged attack damage of Headhunters, Wind Riders, Batriders and De
 Steel Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Grunts, Raiders, Batriders, Tauren, Headhunters, Wind Riders and Demolishers.
 </td>
 </tr>
@@ -408,6 +477,9 @@ Increases the armor of Grunts, Raiders, Batriders, Tauren, Headhunters, Wind Rid
 </td>
 <td>
 War Drums Damage Increase
+</td>
+<td>
+-
 </td>
 <td>
 Increases the damage bonus that the War Drums aura on the Kodo Beast gives. War Drums increases the damage of friendly units around Kodo Beasts.
@@ -422,6 +494,9 @@ Increases the damage bonus that the War Drums aura on the Kodo Beast gives. War 
 Pillage
 </td>
 <td>
+-
+</td>
+<td>
 Causes Peons', Grunts', and Raiders' attacks to gain resources when hitting enemy buildings.
 </td>
 </tr>
@@ -432,6 +507,9 @@ Causes Peons', Grunts', and Raiders' attacks to gain resources when hitting enem
 </td>
 <td>
 Brute Strength
+</td>
+<td>
+-
 </td>
 <td>
 Improves the fighting capabilities of Grunts with a 125 hit point increase, and 3 bonus attack damage.
@@ -446,6 +524,9 @@ Improves the fighting capabilities of Grunts with a 125 hit point increase, and 
 Pulverize Damage Increase
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades the totem carried by Tauren, increasing the damage of their Pulverize ability.
 </td>
 </tr>
@@ -456,6 +537,9 @@ Upgrades the totem carried by Tauren, increasing the damage of their Pulverize a
 </td>
 <td>
 Ensnare
+</td>
+<td>
+-
 </td>
 <td>
 Enables Raiders to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
@@ -470,6 +554,9 @@ Enables Raiders to use the Ensnare ability. Ensnare causes a target enemy unit t
 Envenomed Spears
 </td>
 <td>
+-
+</td>
+<td>
 Adds an additional poison effect to Wind Riders' attacks. A unit poisoned by Envenomed Spears takes damage over time.
 </td>
 </tr>
@@ -480,6 +567,9 @@ Adds an additional poison effect to Wind Riders' attacks. A unit poisoned by Env
 </td>
 <td>
 Witch Doctor Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Witch Doctors' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Stasis Trap.
@@ -494,6 +584,9 @@ Increases Witch Doctors' mana capacity, mana regeneration rate, hit points, and 
 Shaman Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Shaman mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Lightning Shield.
 </td>
 </tr>
@@ -504,6 +597,9 @@ Increases Shaman mana capacity, mana regeneration rate, hit points, and gives th
 </td>
 <td>
 Spiked Barricades
+</td>
+<td>
+-
 </td>
 <td>
 Surrounds Orc buildings with spikes that damage enemy melee attackers. Deals 5 damage per attack plus an additional 20% of the attacker's damage.
@@ -518,6 +614,9 @@ Surrounds Orc buildings with spikes that damage enemy melee attackers. Deals 5 d
 Troll Regeneration
 </td>
 <td>
+-
+</td>
+<td>
 Increases the hit point regeneration rate of Headhunters, Witch Doctors and Batriders.
 </td>
 </tr>
@@ -528,6 +627,9 @@ Increases the hit point regeneration rate of Headhunters, Witch Doctors and Batr
 </td>
 <td>
 Liquid Fire
+</td>
+<td>
+-
 </td>
 <td>
 Gives Batriders the Liquid Fire attack, which deals damage over time to enemy buildings, reduces the repaired rate and the attack rate of enemy buildings.
@@ -542,6 +644,9 @@ Gives Batriders the Liquid Fire attack, which deals damage over time to enemy bu
 Spirit Walker Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Spirit Walkers' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Disenchant.
 </td>
 </tr>
@@ -552,6 +657,9 @@ Increases Spirit Walkers' mana capacity, mana regeneration rate, hit points, and
 </td>
 <td>
 Reinforced Defenses
+</td>
+<td>
+-
 </td>
 <td>
 Upgrades Burrows and Watch Towers so that they have Fortified armor.
@@ -566,6 +674,9 @@ Upgrades Burrows and Watch Towers so that they have Fortified armor.
 Berserker Upgrade
 </td>
 <td>
+-
+</td>
+<td>
 Transforms Headhunters into Berserkers, giving them increased hit points and the Berserk ability.
 </td>
 </tr>
@@ -576,6 +687,9 @@ Transforms Headhunters into Berserkers, giving them increased hit points and the
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific Orc ground units the ability to carry items.
@@ -590,6 +704,9 @@ Gives specific Orc ground units the ability to carry items.
 Burning Oil
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades Demolishers to fire rocks smothered in burning oil, which causes the ground to burn.
 </td>
 </tr>
@@ -600,6 +717,9 @@ Upgrades Demolishers to fire rocks smothered in burning oil, which causes the gr
 </td>
 <td>
 Fel
+</td>
+<td>
+-
 </td>
 <td>
 Allows building male citizens a Fountain of Blood to train and convert Fel Orcs.
@@ -614,6 +734,9 @@ Allows building male citizens a Fountain of Blood to train and convert Fel Orcs.
 Unholy Strength
 </td>
 <td>
+-
+</td>
+<td>
 Increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warriors, and Skeletal Mages.
 </td>
 </tr>
@@ -624,6 +747,9 @@ Increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warri
 </td>
 <td>
 Creature Attack
+</td>
+<td>
+-
 </td>
 <td>
 Increases the attack damage of Crypt Fiends, Gargoyles, Destroyers, and Frost Wyrms.
@@ -638,6 +764,9 @@ Increases the attack damage of Crypt Fiends, Gargoyles, Destroyers, and Frost Wy
 Unholy Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mages.
 </td>
 </tr>
@@ -648,6 +777,9 @@ Increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mag
 </td>
 <td>
 Cannibalize
+</td>
+<td>
+-
 </td>
 <td>
 Enables Ghouls and Abominations to use the Cannibalize ability. Cannibalize consumes a nearby corpse to restore health.
@@ -662,6 +794,9 @@ Enables Ghouls and Abominations to use the Cannibalize ability. Cannibalize cons
 Ghoul Frenzy
 </td>
 <td>
+-
+</td>
+<td>
 Increases the attack rate of Ghouls by 35%, and increases their movement speed.
 </td>
 </tr>
@@ -672,6 +807,9 @@ Increases the attack rate of Ghouls by 35%, and increases their movement speed.
 </td>
 <td>
 Web
+</td>
+<td>
+-
 </td>
 <td>
 Enables Crypt Fiends to use the Web ability. Web binds a target enemy air unit in webbing, forcing it to the ground. Webbed units can be hit as though they were land units.
@@ -686,6 +824,9 @@ Enables Crypt Fiends to use the Web ability. Web binds a target enemy air unit i
 Stone Form
 </td>
 <td>
+-
+</td>
+<td>
 Enables the ability for Gargoyles to assume Stone Form. Stone Form transforms the Gargoyle into a statue with high armor, spell immunity, and regeneration. The Gargoyle cannot attack in this form.
 </td>
 </tr>
@@ -696,6 +837,9 @@ Enables the ability for Gargoyles to assume Stone Form. Stone Form transforms th
 </td>
 <td>
 Necromancer Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Necromancers' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Unholy Frenzy.
@@ -710,6 +854,9 @@ Increases Necromancers' mana capacity, mana regeneration rate, hit points, and g
 Banshee Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Banshees' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Anti-magic Shell.
 </td>
 </tr>
@@ -720,6 +867,9 @@ Increases Banshees' mana capacity, mana regeneration rate, hit points, and gives
 </td>
 <td>
 Freezing Breath
+</td>
+<td>
+-
 </td>
 <td>
 Enables Frost Wyrms to use the Freezing Breath ability. When cast on a building, temporarily stops production.
@@ -734,6 +884,9 @@ Enables Frost Wyrms to use the Freezing Breath ability. When cast on a building,
 Skeletal Longevity
 </td>
 <td>
+-
+</td>
+<td>
 Increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seconds.
 </td>
 </tr>
@@ -744,6 +897,9 @@ Increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seco
 </td>
 <td>
 Creature Carapace
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Crypt Fiends, Gargoyles, Destroyers, and Frost Wyrms.
@@ -758,6 +914,9 @@ Increases the armor of Crypt Fiends, Gargoyles, Destroyers, and Frost Wyrms.
 Disease Cloud
 </td>
 <td>
+-
+</td>
+<td>
 Gives Abominations a Disease Cloud aura that deals 2 damage per second for 75 seconds to nearby enemy units. Meat Wagons will cause Disease Clouds wherever they attack that deal 2 damage per second for 75 seconds to nearby enemy units. |nUndead are im
 </tr>
 
@@ -767,6 +926,9 @@ Gives Abominations a Disease Cloud aura that deals 2 damage per second for 75 se
 </td>
 <td>
 Skeletal Mastery
+</td>
+<td>
+-
 </td>
 <td>
 Causes one of the two skeletons created by Raise Dead to be a Skeletal Mage and increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seconds.
@@ -781,6 +943,9 @@ Causes one of the two skeletons created by Raise Dead to be a Skeletal Mage and 
 Burrow
 </td>
 <td>
+-
+</td>
+<td>
 Crypt Fiends gain the ability to burrow. Burrowed Crypt Fiends are invisible and gain increased hit point regeneration, but cannot attack.
 </td>
 </tr>
@@ -793,6 +958,9 @@ Crypt Fiends gain the ability to burrow. Burrowed Crypt Fiends are invisible and
 Destroyer Form
 </td>
 <td>
+-
+</td>
+<td>
 Allows the Obsidian Statue to transform into a Destroyer, a large flying unit that must devour magic to sustain its mana. The Destroyer has Spell Immunity, Devour Magic, Absorb Mana, and Orb of Annihilation. |n|n|cffffcc00Attacks land and air units.|r
 </tr>
 
@@ -802,6 +970,9 @@ Allows the Obsidian Statue to transform into a Destroyer, a large flying unit th
 </td>
 <td>
 Exhume Corpses
+</td>
+<td>
+-
 </td>
 <td>
 Gives Meat Wagons the ability to generate corpses.
@@ -816,6 +987,9 @@ Gives Meat Wagons the ability to generate corpses.
 Backpack
 </td>
 <td>
+-
+</td>
+<td>
 Gives specific Undead ground units the ability to carry items.
 </td>
 </tr>
@@ -826,6 +1000,9 @@ Gives specific Undead ground units the ability to carry items.
 </td>
 <td>
 Lich King
+</td>
+<td>
+-
 </td>
 <td>
 Allows building male citizens the Lich King to convert hostile units into Undead and summoning Shades somewhere on the map.
@@ -840,6 +1017,9 @@ Allows building male citizens the Lich King to convert hostile units into Undead
 Strength of the Moon
 </td>
 <td>
+-
+</td>
+<td>
 Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Riders.
 </td>
 </tr>
@@ -850,6 +1030,9 @@ Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Rid
 </td>
 <td>
 Strength of the Wild
+</td>
+<td>
+-
 </td>
 <td>
 Increases the damage of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras.
@@ -864,6 +1047,9 @@ Increases the damage of Druids of the Claw in Bear Form, Druids of the Talon in 
 Moon Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Archers, Huntresses, and Hippogryph Riders.
 </td>
 </tr>
@@ -874,6 +1060,9 @@ Increases the armor of Archers, Huntresses, and Hippogryph Riders.
 </td>
 <td>
 Reinforced Hides
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras.
@@ -888,6 +1077,9 @@ Increases the armor of Druids of the Claw in Bear Form, Druids of the Talon in S
 Ultravision
 </td>
 <td>
+-
+</td>
+<td>
 Gives Night Elves the ability to see as far at night as they do during the day.
 </td>
 </tr>
@@ -898,6 +1090,9 @@ Gives Night Elves the ability to see as far at night as they do during the day.
 </td>
 <td>
 Nature's Blessing
+</td>
+<td>
+-
 </td>
 <td>
 Upgrades all Ancients' and Treants' movement speed and armor.
@@ -912,6 +1107,9 @@ Upgrades all Ancients' and Treants' movement speed and armor.
 Sentinel
 </td>
 <td>
+-
+</td>
+<td>
 Gives the Huntress the ability to send her owl companion to a nearby tree and provide vision. |nCan see invisible units.
 </td>
 </tr>
@@ -922,6 +1120,9 @@ Gives the Huntress the ability to send her owl companion to a nearby tree and pr
 </td>
 <td>
 Upgrade Moon Glaive
+</td>
+<td>
+-
 </td>
 <td>
 Gives the Huntress the ability to strike additional units with her bouncing glaive attacks.
@@ -936,6 +1137,9 @@ Gives the Huntress the ability to strike additional units with her bouncing glai
 Improved Bows
 </td>
 <td>
+-
+</td>
+<td>
 Increases the Archer's and Hippogryph Rider's attack range.
 </td>
 </tr>
@@ -946,6 +1150,9 @@ Increases the Archer's and Hippogryph Rider's attack range.
 </td>
 <td>
 Marksmanship
+</td>
+<td>
+-
 </td>
 <td>
 Increases damage of Archers and Hippogryph Riders by 4.
@@ -960,6 +1167,9 @@ Increases damage of Archers and Hippogryph Riders by 4.
 Druid of the Talon Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, and gives them the ability Storm Crow Form.
 </td>
 </tr>
@@ -970,6 +1180,9 @@ Increases their Night Elf Form's mana capacity, mana regeneration rate, hit poin
 </td>
 <td>
 Druid of the Claw Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, attack damage and gives them the ability Rejuvenation.
@@ -984,6 +1197,9 @@ Increases their Night Elf Form's mana capacity, mana regeneration rate, hit poin
 Abolish Magic
 </td>
 <td>
+-
+</td>
+<td>
 Gives the Dryad the ability to dispel positive buffs from enemy units, and negative buffs from friendly units. |nDamages summoned units.
 </td>
 </tr>
@@ -994,6 +1210,9 @@ Gives the Dryad the ability to dispel positive buffs from enemy units, and negat
 </td>
 <td>
 Corrosive Breath
+</td>
+<td>
+-
 </td>
 <td>
 Gives Chimaeras the ability to hurl corrosive bile onto enemy buildings.
@@ -1008,6 +1227,9 @@ Gives Chimaeras the ability to hurl corrosive bile onto enemy buildings.
 Hippogryph Taming
 </td>
 <td>
+-
+</td>
+<td>
 Trains Hippogryphs to allow Archers to mount them. This allows them to attack both air and ground units.
 </td>
 </tr>
@@ -1018,6 +1240,9 @@ Trains Hippogryphs to allow Archers to mount them. This allows them to attack bo
 </td>
 <td>
 Vorpal Blades
+</td>
+<td>
+-
 </td>
 <td>
 Increases the speed of glaives launched by the Glaive Thrower. Also allows them to attack trees.
@@ -1032,6 +1257,9 @@ Increases the speed of glaives launched by the Glaive Thrower. Also allows them 
 Resistant Skin
 </td>
 <td>
+-
+</td>
+<td>
 Gives Mountain Giants increased resistance to spell damage.
 </td>
 </tr>
@@ -1042,6 +1270,9 @@ Gives Mountain Giants increased resistance to spell damage.
 </td>
 <td>
 Hardened Skin
+</td>
+<td>
+-
 </td>
 <td>
 Gives Mountain Giants increased resistance to attack damage.
@@ -1056,6 +1287,9 @@ Gives Mountain Giants increased resistance to attack damage.
 Mark of the Claw
 </td>
 <td>
+-
+</td>
+<td>
 Allows Druids of the Claw to cast Roar while in Bear Form.
 </td>
 </tr>
@@ -1066,6 +1300,9 @@ Allows Druids of the Claw to cast Roar while in Bear Form.
 </td>
 <td>
 Mark of the Talon
+</td>
+<td>
+-
 </td>
 <td>
 Allows Druids of the Talon to cast Faerie Fire while in Storm Crow Form.
@@ -1080,6 +1317,9 @@ Allows Druids of the Talon to cast Faerie Fire while in Storm Crow Form.
 Well Spring
 </td>
 <td>
+-
+</td>
+<td>
 Increases the amount of mana that can be stored in Moon Wells by 125, and their rate of mana regeneration by 52%.
 </td>
 </tr>
@@ -1090,6 +1330,9 @@ Increases the amount of mana that can be stored in Moon Wells by 125, and their 
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific Night Elf ground units the ability to carry items.
@@ -1104,6 +1347,9 @@ Gives specific Night Elf ground units the ability to carry items.
 World Tree
 </td>
 <td>
+-
+</td>
+<td>
 Allows building male citizens a giant World Tree to heal and resurrect Night Elf units anywhere on the map!
 </td>
 </tr>
@@ -1114,6 +1360,9 @@ Allows building male citizens a giant World Tree to heal and resurrect Night Elf
 </td>
 <td>
 Blood Elf Animal War Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases the maximum hit points of Dragonhawk Ridersby 100.
@@ -1128,6 +1377,9 @@ Increases the maximum hit points of Dragonhawk Ridersby 100.
 Iron Forged Swords
 </td>
 <td>
+-
+</td>
+<td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
 </td>
 </tr>
@@ -1140,6 +1392,9 @@ Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Rider
 Iron Plating
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
 </td>
 </tr>
@@ -1150,6 +1405,9 @@ Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines
 </td>
 <td>
 Improved Masonry
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor and hit points of Blood Elf buildings.
@@ -1164,6 +1422,9 @@ Increases the armor and hit points of Blood Elf buildings.
 Studded Leather Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
 </td>
 </tr>
@@ -1176,6 +1437,9 @@ Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Rid
 Improved Lumber Harvesting
 </td>
 <td>
+-
+</td>
+<td>
 Increases the amount of lumber that Peasants can carry by 10.
 </td>
 </tr>
@@ -1186,6 +1450,9 @@ Increases the amount of lumber that Peasants can carry by 10.
 </td>
 <td>
 Priest Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
@@ -1200,6 +1467,9 @@ Increases Priests' mana capacity, mana regeneration rate, hit points, and gives 
 Moon Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Archers.
 </td>
 </tr>
@@ -1210,6 +1480,9 @@ Increases the armor of Archers.
 </td>
 <td>
 Strength of the Moon
+</td>
+<td>
+-
 </td>
 <td>
 Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Riders.
@@ -1224,6 +1497,9 @@ Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Rid
 Improved Bows
 </td>
 <td>
+-
+</td>
+<td>
 Increases the Archer's attack range.
 </td>
 </tr>
@@ -1234,6 +1510,9 @@ Increases the Archer's attack range.
 </td>
 <td>
 Marksmanship
+</td>
+<td>
+-
 </td>
 <td>
 Increases damage of Archers by 4.
@@ -1248,6 +1527,9 @@ Increases damage of Archers by 4.
 Burning Oil
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades Ballistas to fire missiles smothered in burning oil, which causes the ground to burn.
 </td>
 </tr>
@@ -1258,6 +1540,9 @@ Upgrades Ballistas to fire missiles smothered in burning oil, which causes the g
 </td>
 <td>
 Improved Siege Weapons
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor and hit points of Blood Elf siege weapons.
@@ -1272,6 +1557,9 @@ Increases the armor and hit points of Blood Elf siege weapons.
 Magic Vault
 </td>
 <td>
+-
+</td>
+<td>
 Allows building male citizens a Magic Vault with abilities Burn Mana and Siphon Mana.
 </td>
 </tr>
@@ -1282,6 +1570,9 @@ Allows building male citizens a Magic Vault with abilities Burn Mana and Siphon 
 </td>
 <td>
 Ensnare
+</td>
+<td>
+-
 </td>
 <td>
 Enables Naga Myrmidons to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
@@ -1296,6 +1587,9 @@ Enables Naga Myrmidons to use the Ensnare ability. Ensnare causes a target enemy
 Abolish Magic
 </td>
 <td>
+-
+</td>
+<td>
 Gives the Couatl the ability to dispel positive buffs from enemy units, and negative buffs from friendly units. |nDamages summoned units.
 </td>
 </tr>
@@ -1306,6 +1600,9 @@ Gives the Couatl the ability to dispel positive buffs from enemy units, and nega
 </td>
 <td>
 Coral Blades
+</td>
+<td>
+-
 </td>
 <td>
 Increases the attack damage of Naga attack units.
@@ -1320,6 +1617,9 @@ Increases the attack damage of Naga attack units.
 Coral Scales
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Naga attack units.
 </td>
 </tr>
@@ -1330,6 +1630,9 @@ Increases the armor of Naga attack units.
 </td>
 <td>
 Submerge
+</td>
+<td>
+-
 </td>
 <td>
 Gives Naga Myrmidons and Snap Dragons the ability to submerge under water, hiding them from view.
@@ -1344,6 +1647,9 @@ Gives Naga Myrmidons and Snap Dragons the ability to submerge under water, hidin
 Naga Siren Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Naga Sirens' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Frost Armor.
 </td>
 </tr>
@@ -1354,6 +1660,9 @@ Increases Naga Sirens' mana capacity, mana regeneration rate, hit points, and gi
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific Naga ground units the ability to carry items.
@@ -1368,6 +1677,9 @@ Gives specific Naga ground units the ability to carry items.
 Permanent Immolation
 </td>
 <td>
+-
+</td>
+<td>
 Allows Infernals and Reavers to use the ability Permanent Immolation.
 </td>
 </tr>
@@ -1378,6 +1690,9 @@ Allows Infernals and Reavers to use the ability Permanent Immolation.
 </td>
 <td>
 Resistant Skin
+</td>
+<td>
+-
 </td>
 <td>
 Gives Infernals the ability Resistant Skin.
@@ -1392,6 +1707,9 @@ Gives Infernals the ability Resistant Skin.
 Eredar Sorcerer Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Eredar Sorcerers mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Sleep.
 </td>
 </tr>
@@ -1402,6 +1720,9 @@ Increases Eredar Sorcerers mana capacity, mana regeneration rate, hit points, an
 </td>
 <td>
 Succubus Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Succubus' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
@@ -1416,6 +1737,9 @@ Increases Succubus' mana capacity, mana regeneration rate, hit points, and gives
 Unholy Strength
 </td>
 <td>
+-
+</td>
+<td>
 Increases the attack damage of  Overlords, Infernal Machines, Inquisitors and Doom Guards.
 </td>
 </tr>
@@ -1426,6 +1750,9 @@ Increases the attack damage of  Overlords, Infernal Machines, Inquisitors and Do
 </td>
 <td>
 Web
+</td>
+<td>
+-
 </td>
 <td>
 Gives Fel Stalkers the ability Web.
@@ -1440,6 +1767,9 @@ Gives Fel Stalkers the ability Web.
 Devour Magic
 </td>
 <td>
+-
+</td>
+<td>
 Gives Fel Stalkers the ability Devour Magic.
 </td>
 </tr>
@@ -1450,6 +1780,9 @@ Gives Fel Stalkers the ability Devour Magic.
 </td>
 <td>
 Cleaving Attack
+</td>
+<td>
+-
 </td>
 <td>
 Gives Overlords the ability Cleaving Attack.
@@ -1464,6 +1797,9 @@ Gives Overlords the ability Cleaving Attack.
 Improved Demon Fire
 </td>
 <td>
+-
+</td>
+<td>
 Improves the Demon Fire ability of Nether Drakes.
 </td>
 </tr>
@@ -1474,6 +1810,9 @@ Improves the Demon Fire ability of Nether Drakes.
 </td>
 <td>
 Defend
+</td>
+<td>
+-
 </td>
 <td>
 Gives Infernal Machines the ability Defend.
@@ -1488,6 +1827,9 @@ Gives Infernal Machines the ability Defend.
 Cripple
 </td>
 <td>
+-
+</td>
+<td>
 Gives Doom Guards the ability Cripple.
 </td>
 </tr>
@@ -1498,6 +1840,9 @@ Gives Doom Guards the ability Cripple.
 </td>
 <td>
 Rain of Fire
+</td>
+<td>
+-
 </td>
 <td>
 Gives Doom Guards the ability Rain of Fire.
@@ -1512,6 +1857,9 @@ Gives Doom Guards the ability Rain of Fire.
 Slow
 </td>
 <td>
+-
+</td>
+<td>
 Gives the Greater Voidwalkers the ability Slow.
 </td>
 </tr>
@@ -1522,6 +1870,9 @@ Gives the Greater Voidwalkers the ability Slow.
 </td>
 <td>
 Unholy Armor
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Overlords, Infernal Machines, Inquisitors and Doom Guards.
@@ -1536,6 +1887,9 @@ Increases the armor of Overlords, Infernal Machines, Inquisitors and Doom Guards
 Creature Carapace
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of  Fel Stalkers, Nether Drakes, Greate Voidwalkers, Jailers, Infernals and Reavers.
 </td>
 </tr>
@@ -1546,6 +1900,9 @@ Increases the armor of  Fel Stalkers, Nether Drakes, Greate Voidwalkers, Jailers
 </td>
 <td>
 Hardened Skin
+</td>
+<td>
+-
 </td>
 <td>
 Allows Infernals and Reavers to use the ability Hardened Skin.
@@ -1560,6 +1917,9 @@ Allows Infernals and Reavers to use the ability Hardened Skin.
 Backpack
 </td>
 <td>
+-
+</td>
+<td>
 Gives specific Demon ground units the ability to carry items.
 </td>
 </tr>
@@ -1570,6 +1930,9 @@ Gives specific Demon ground units the ability to carry items.
 </td>
 <td>
 Steel Melee Weapons
+</td>
+<td>
+-
 </td>
 <td>
 Increases the melee attack damage of Draenei Vindicators and Draenei Stalkers.
@@ -1584,6 +1947,9 @@ Increases the melee attack damage of Draenei Vindicators and Draenei Stalkers.
 Steel Ranged Weapons
 </td>
 <td>
+-
+</td>
+<td>
 Increases the ranged attack damage of Draenei Harbringers, Draenei Seers, Salamanders, Tamed Nether Drakes and Draenei Demolishers.
 </td>
 </tr>
@@ -1594,6 +1960,9 @@ Increases the ranged attack damage of Draenei Harbringers, Draenei Seers, Salama
 </td>
 <td>
 Steel Armor
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Draenei Vindicators, Draenei Stalkers, Draenei Harbringers, Draenei Seers, Salamanders, Tamed Nether Drakes and Draenei Demolishers.
@@ -1608,6 +1977,9 @@ Increases the armor of Draenei Vindicators, Draenei Stalkers, Draenei Harbringer
 Draenei Seer Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Draenei Seer mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Healing Wave.
 </td>
 </tr>
@@ -1618,6 +1990,9 @@ Increases Draenei Seer mana capacity, mana regeneration rate, hit points, and gi
 </td>
 <td>
 Draenei Harbringer Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Draenei Harbringer's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Bloodlust.
@@ -1632,6 +2007,9 @@ Increases Draenei Harbringer's mana capacity, mana regeneration rate, hit points
 Improved Masonry
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor and hit points of Draenei buildings.
 </td>
 </tr>
@@ -1642,6 +2020,9 @@ Increases the armor and hit points of Draenei buildings.
 </td>
 <td>
 Improved Demon Fire
+</td>
+<td>
+-
 </td>
 <td>
 Improves the Demon Fire ability of Tamed Nether Drakes.
@@ -1656,6 +2037,9 @@ Improves the Demon Fire ability of Tamed Nether Drakes.
 Devour
 </td>
 <td>
+-
+</td>
+<td>
 Gives Salamanders the ability Devour.
 </td>
 </tr>
@@ -1666,6 +2050,9 @@ Gives Salamanders the ability Devour.
 </td>
 <td>
 Draenei Prison
+</td>
+<td>
+-
 </td>
 <td>
 Allows building male citizens a Draenei Prison to capture enemy units anywhere on the map!
@@ -1680,6 +2067,9 @@ Allows building male citizens a Draenei Prison to capture enemy units anywhere o
 Backpack
 </td>
 <td>
+-
+</td>
+<td>
 Gives specific Furbolg ground units the ability to carry items.
 </td>
 </tr>
@@ -1690,6 +2080,9 @@ Gives specific Furbolg ground units the ability to carry items.
 </td>
 <td>
 Steel Melee Weapons
+</td>
+<td>
+-
 </td>
 <td>
 Increases the melee attack damage of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
@@ -1704,6 +2097,9 @@ Increases the melee attack damage of Furbolgs, Furbolg Trackers, Furbolg Champio
 Steel Ranged Weapons
 </td>
 <td>
+-
+</td>
+<td>
 Increases the ranged attack damage of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
 </td>
 </tr>
@@ -1714,6 +2110,9 @@ Increases the ranged attack damage of Furbolgs, Furbolg Trackers, Furbolg Champi
 </td>
 <td>
 Steel Armor
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
@@ -1728,6 +2127,9 @@ Increases the armor of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ur
 Creature Attack
 </td>
 <td>
+-
+</td>
+<td>
 Increases attack damage of Timber Wolves, Giant Wolves, Dire Wolves and Green Drakes.
 </td>
 </tr>
@@ -1738,6 +2140,9 @@ Increases attack damage of Timber Wolves, Giant Wolves, Dire Wolves and Green Dr
 </td>
 <td>
 Creature Carapace
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Timber Wolves, Giant Wolves, Dire Wolves and Green Drakes.
@@ -1752,6 +2157,9 @@ Increases the armor of Timber Wolves, Giant Wolves, Dire Wolves and Green Drakes
 Furbolg Shaman Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Furbolg Shaman's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Abolish Magic.
 </td>
 </tr>
@@ -1762,6 +2170,9 @@ Increases Furbolg Shaman's mana capacity, mana regeneration rate, hit points, an
 </td>
 <td>
 Ensnare
+</td>
+<td>
+-
 </td>
 <td>
 Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
@@ -1776,6 +2187,9 @@ Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target ene
 Faerie Fire
 </td>
 <td>
+-
+</td>
+<td>
 Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
 </td>
 </tr>
@@ -1786,6 +2200,9 @@ Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target ene
 </td>
 <td>
 Blood Lust
+</td>
+<td>
+-
 </td>
 <td>
 Enables Furbolg Ursa Warriors to use the Blood Lust ability.
@@ -1800,6 +2217,9 @@ Enables Furbolg Ursa Warriors to use the Blood Lust ability.
 Bash
 </td>
 <td>
+-
+</td>
+<td>
 Enables Furbolg Ursa Warriors to use the Bash ability.
 </td>
 </tr>
@@ -1810,6 +2230,9 @@ Enables Furbolg Ursa Warriors to use the Bash ability.
 </td>
 <td>
 Web
+</td>
+<td>
+-
 </td>
 <td>
 Gives Polar Furbolgs the ability Web.
@@ -1824,6 +2247,9 @@ Gives Polar Furbolgs the ability Web.
 Corruption
 </td>
 <td>
+-
+</td>
+<td>
 Gives Furbolg Shamans and Furbolg Elder Shamans the ability Corruption.
 </td>
 </tr>
@@ -1834,6 +2260,9 @@ Gives Furbolg Shamans and Furbolg Elder Shamans the ability Corruption.
 </td>
 <td>
 Improved Lumber Harvesting
+</td>
+<td>
+-
 </td>
 <td>
 Increases the amount of lumber that Young Furbolgs can carry by 10.
@@ -1848,6 +2277,9 @@ Increases the amount of lumber that Young Furbolgs can carry by 10.
 Air Supplies
 </td>
 <td>
+-
+</td>
+<td>
 Allows to drop air supplies from flying units.
 </td>
 </tr>
@@ -1858,6 +2290,9 @@ Allows to drop air supplies from flying units.
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific Goblin ground units the ability to carry items.
@@ -1872,6 +2307,9 @@ Gives specific Goblin ground units the ability to carry items.
 Observatory
 </td>
 <td>
+-
+</td>
+<td>
 Allows towers to use the Reveal ability.
 </td>
 </tr>
@@ -1882,6 +2320,9 @@ Allows towers to use the Reveal ability.
 </td>
 <td>
 Explosives
+</td>
+<td>
+-
 </td>
 <td>
 Allows using explosives to blow up the whole tunnel system.
@@ -1896,6 +2337,9 @@ Allows using explosives to blow up the whole tunnel system.
 Repair
 </td>
 <td>
+-
+</td>
+<td>
 Allows Goblin warriors to repair mechanical units and structures.
 </td>
 </tr>
@@ -1906,6 +2350,9 @@ Allows Goblin warriors to repair mechanical units and structures.
 </td>
 <td>
 Chemistry
+</td>
+<td>
+-
 </td>
 <td>
 Gives units with flame attacks extra and AOE damage.
@@ -1920,6 +2367,9 @@ Gives units with flame attacks extra and AOE damage.
 Steel Melee Weapons
 </td>
 <td>
+-
+</td>
+<td>
 Increases the melee attack damage of Goblin units.
 </td>
 </tr>
@@ -1930,6 +2380,9 @@ Increases the melee attack damage of Goblin units.
 </td>
 <td>
 Barrage
+</td>
+<td>
+-
 </td>
 <td>
 Upgrades Goblin Air Drones, giving them the Barrage ability, which allows them to damage nearby enemy units.
@@ -1944,6 +2397,9 @@ Upgrades Goblin Air Drones, giving them the Barrage ability, which allows them t
 Improved Lumber Harvesting
 </td>
 <td>
+-
+</td>
+<td>
 Increases the amount of lumber that Young Furbolgs can carry by 10.
 </td>
 </tr>
@@ -1954,6 +2410,9 @@ Increases the amount of lumber that Young Furbolgs can carry by 10.
 </td>
 <td>
 Improved Banking
+</td>
+<td>
+-
 </td>
 <td>
 Increases the amount of gold that Goblin Laborers can carry by 1.
@@ -1968,6 +2427,9 @@ Increases the amount of gold that Goblin Laborers can carry by 1.
 Fuel
 </td>
 <td>
+-
+</td>
+<td>
 Gives Fuel Pumps the ability Fuel.
 </td>
 </tr>
@@ -1978,6 +2440,9 @@ Gives Fuel Pumps the ability Fuel.
 </td>
 <td>
 Demolish
+</td>
+<td>
+-
 </td>
 <td>
 Gives Goblin Emperors the ability Demolish.
@@ -1992,6 +2457,9 @@ Gives Goblin Emperors the ability Demolish.
 Engineering
 </td>
 <td>
+-
+</td>
+<td>
 Makes Goblin tank units faster.
 </td>
 </tr>
@@ -2002,6 +2470,9 @@ Makes Goblin tank units faster.
 </td>
 <td>
 Flame Grenade
+</td>
+<td>
+-
 </td>
 <td>
 Allows Goblin Flamethrowers to use the ability Flame Grenade.
@@ -2016,6 +2487,9 @@ Allows Goblin Flamethrowers to use the ability Flame Grenade.
 Mobile Turret
 </td>
 <td>
+-
+</td>
+<td>
 Allows Goblin ground units to take turrets and carry them around.
 </td>
 </tr>
@@ -2026,6 +2500,9 @@ Allows Goblin ground units to take turrets and carry them around.
 </td>
 <td>
 Oil Drilling
+</td>
+<td>
+-
 </td>
 <td>
 Allows constructing Oil Derricks.
@@ -2040,6 +2517,9 @@ Allows constructing Oil Derricks.
 Explosive Barrel
 </td>
 <td>
+-
+</td>
+<td>
 Allows Sappers to place Explosive Barrels which cause more damage than Goblin Land Mines.
 </td>
 </tr>
@@ -2050,6 +2530,9 @@ Allows Sappers to place Explosive Barrels which cause more damage than Goblin La
 </td>
 <td>
 Cluster Rockets
+</td>
+<td>
+-
 </td>
 <td>
 Allows Assault Tanks to cast Cluster Rockets.
@@ -2064,6 +2547,9 @@ Allows Assault Tanks to cast Cluster Rockets.
 Improved Construction
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor and hit points of Goblin buildings. Increases the speed of repairing buildings and mechanical units for Goblin Laborers and warriors.
 </td>
 </tr>
@@ -2074,6 +2560,9 @@ Increases the armor and hit points of Goblin buildings. Increases the speed of r
 </td>
 <td>
 Steel Armor
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Goblin units.
@@ -2088,6 +2577,9 @@ Increases the armor of Goblin units.
 Steel Ranged Weapons
 </td>
 <td>
+-
+</td>
+<td>
 Increases the ranged attack damage of Goblin units.
 </td>
 </tr>
@@ -2098,6 +2590,9 @@ Increases the ranged attack damage of Goblin units.
 </td>
 <td>
 Goblin War Zeppelin Bombs
+</td>
+<td>
+-
 </td>
 <td>
 Allows Goblin War Zeppelins to drop bombs on ground units.
@@ -2112,6 +2607,9 @@ Allows Goblin War Zeppelins to drop bombs on ground units.
 Cut Down Trees
 </td>
 <td>
+-
+</td>
+<td>
 Allows Goblin Steam Rollers to cut down trees.
 </td>
 </tr>
@@ -2122,6 +2620,9 @@ Allows Goblin Steam Rollers to cut down trees.
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific Dwarf ground units the ability to carry items.
@@ -2136,6 +2637,9 @@ Gives specific Dwarf ground units the ability to carry items.
 Breeding
 </td>
 <td>
+-
+</td>
+<td>
 Allows Gryphons to cast Breed.
 </td>
 </tr>
@@ -2146,6 +2650,9 @@ Allows Gryphons to cast Breed.
 </td>
 <td>
 Dwarf Lumber Mill
+</td>
+<td>
+-
 </td>
 <td>
 Allows building male citizens a Dwarf Lumber Mill to collect lumber from nearby trees.
@@ -2160,6 +2667,9 @@ Allows building male citizens a Dwarf Lumber Mill to collect lumber from nearby 
 Slam
 </td>
 <td>
+-
+</td>
+<td>
 Allows War Golems to cast Slam.
 </td>
 </tr>
@@ -2170,6 +2680,9 @@ Allows War Golems to cast Slam.
 </td>
 <td>
 Devour
+</td>
+<td>
+-
 </td>
 <td>
 Gives Gryphons and Giant Polar Bears the ability Devour.
@@ -2184,6 +2697,9 @@ Gives Gryphons and Giant Polar Bears the ability Devour.
 Long Rifles
 </td>
 <td>
+-
+</td>
+<td>
 Increases the range of Riflemen and Gun Tower attacks.
 </td>
 </tr>
@@ -2194,6 +2710,9 @@ Increases the range of Riflemen and Gun Tower attacks.
 </td>
 <td>
 Berserker Upgrade
+</td>
+<td>
+-
 </td>
 <td>
 Transforms Headhunters into Berserkers, giving them increased hit points and the Berserk ability.
@@ -2208,6 +2727,9 @@ Transforms Headhunters into Berserkers, giving them increased hit points and the
 Mithril Armor
 </td>
 <td>
+-
+</td>
+<td>
 Reduces the received damage to 80 % and returns 30% of an enemy unit's melee attack damage back to it.
 </td>
 </tr>
@@ -2218,6 +2740,9 @@ Reduces the received damage to 80 % and returns 30% of an enemy unit's melee att
 </td>
 <td>
 Barrage
+</td>
+<td>
+-
 </td>
 <td>
 Upgrades Siege Engines, giving them the Barrage ability, which allows them to damage nearby enemy air units.
@@ -2232,6 +2757,9 @@ Upgrades Siege Engines, giving them the Barrage ability, which allows them to da
 Elite Siege Tank
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades Siege Engines to Elite Siege Tanks.
 </td>
 </tr>
@@ -2242,6 +2770,9 @@ Upgrades Siege Engines to Elite Siege Tanks.
 </td>
 <td>
 Improved Masonry
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor and hit points of Dwarf buildings.
@@ -2256,6 +2787,9 @@ Increases the armor and hit points of Dwarf buildings.
 Improved Lumber Harvesting
 </td>
 <td>
+-
+</td>
+<td>
 Increases the amount of lumber that Dwarf Miners can carry by 10.
 </td>
 </tr>
@@ -2266,6 +2800,9 @@ Increases the amount of lumber that Dwarf Miners can carry by 10.
 </td>
 <td>
 Dwarf Runecaster Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Runecaster's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Summon Rock Golem.
@@ -2280,6 +2817,9 @@ Increases Runecaster's mana capacity, mana regeneration rate, hit points, and gi
 Battle Priest Adept Training
 </td>
 <td>
+-
+</td>
+<td>
 Increases Battle Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
 </td>
 </tr>
@@ -2290,6 +2830,9 @@ Increases Battle Priests' mana capacity, mana regeneration rate, hit points, and
 </td>
 <td>
 Sleep Form
+</td>
+<td>
+-
 </td>
 <td>
 Allows War Golems to cast Sleep Form.
@@ -2304,6 +2847,9 @@ Allows War Golems to cast Sleep Form.
 Flak Cannons
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades the weapons on Flying Machines to give them an area effect damage attack against air units.
 </td>
 </tr>
@@ -2314,6 +2860,9 @@ Upgrades the weapons on Flying Machines to give them an area effect damage attac
 </td>
 <td>
 Flying Machine Bombs
+</td>
+<td>
+-
 </td>
 <td>
 Allows Flying Machines to attack land units.
@@ -2328,6 +2877,9 @@ Allows Flying Machines to attack land units.
 Fragmentation Shards
 </td>
 <td>
+-
+</td>
+<td>
 Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the damage they deal to Unarmored and Medium armor units.
 </td>
 </tr>
@@ -2338,6 +2890,9 @@ Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the dam
 </td>
 <td>
 Flare
+</td>
+<td>
+-
 </td>
 <td>
 Provides Mortar Teams with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units.
@@ -2352,6 +2907,9 @@ Provides Mortar Teams with the Flare ability. Flares can be used to reveal any a
 Iron Forged Swords
 </td>
 <td>
+-
+</td>
+<td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
 </td>
 </tr>
@@ -2364,6 +2922,9 @@ Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Rider
 Iron Plating
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
 </td>
 </tr>
@@ -2374,6 +2935,9 @@ Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines
 </td>
 <td>
 Studded Leather Armor
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
@@ -2388,6 +2952,9 @@ Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Rid
 Black Gunpowder
 </td>
 <td>
+-
+</td>
+<td>
 Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and Flying Machines.
 </td>
 </tr>
@@ -2398,6 +2965,9 @@ Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and 
 </td>
 <td>
 Animal War Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
@@ -2412,6 +2982,9 @@ Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Ride
 Storm Hammers
 </td>
 <td>
+-
+</td>
+<td>
 Causes a Gryphon Rider's attacks to damage multiple units.
 </td>
 </tr>
@@ -2422,6 +2995,9 @@ Causes a Gryphon Rider's attacks to damage multiple units.
 </td>
 <td>
 Backpack
+</td>
+<td>
+-
 </td>
 <td>
 Gives specific High Elf ground units the ability to carry items.
@@ -2436,6 +3012,9 @@ Gives specific High Elf ground units the ability to carry items.
 Sunwell
 </td>
 <td>
+-
+</td>
+<td>
 Allows building male citizens a Sun Well with abilities Sun Key and Life and Mana Regeneration for player units.
 </td>
 </tr>
@@ -2446,6 +3025,9 @@ Allows building male citizens a Sun Well with abilities Sun Key and Life and Man
 </td>
 <td>
 Magic Sentry
+</td>
+<td>
+-
 </td>
 <td>
 Provides High Elf towers with the ability to detect invisible units.
@@ -2460,6 +3042,9 @@ Provides High Elf towers with the ability to detect invisible units.
 Antimagic Shield
 </td>
 <td>
+-
+</td>
+<td>
 Provides High Elf towers with the ability Antimagic Shield.
 </td>
 </tr>
@@ -2470,6 +3055,9 @@ Provides High Elf towers with the ability Antimagic Shield.
 </td>
 <td>
 Marksmanship
+</td>
+<td>
+-
 </td>
 <td>
 Increases damage of Archers by 4.
@@ -2484,6 +3072,9 @@ Increases damage of Archers by 4.
 Cloud
 </td>
 <td>
+-
+</td>
+<td>
 Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings from attacking.
 </td>
 </tr>
@@ -2494,6 +3085,9 @@ Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings 
 </td>
 <td>
 Animal War Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
@@ -2508,6 +3102,9 @@ Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Ride
 Improved Bows
 </td>
 <td>
+-
+</td>
+<td>
 Increases the Archer's attack range.
 </td>
 </tr>
@@ -2518,6 +3115,9 @@ Increases the Archer's attack range.
 </td>
 <td>
 Improved Lumber Harvesting
+</td>
+<td>
+-
 </td>
 <td>
 Increases the amount of lumber that Peasants can carry by 10.
@@ -2532,6 +3132,9 @@ Increases the amount of lumber that Peasants can carry by 10.
 War Eagle Taming
 </td>
 <td>
+-
+</td>
+<td>
 Trains War Eagles to allow Archers to mount them. This allows them to attack both air and ground units.
 </td>
 </tr>
@@ -2542,6 +3145,9 @@ Trains War Eagles to allow Archers to mount them. This allows them to attack bot
 </td>
 <td>
 Priest Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
@@ -2556,6 +3162,9 @@ Increases Priests' mana capacity, mana regeneration rate, hit points, and gives 
 Improved Masonry
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor and hit points of High Elf buildings.
 </td>
 </tr>
@@ -2566,6 +3175,9 @@ Increases the armor and hit points of High Elf buildings.
 </td>
 <td>
 Arch Cleric Adept Training
+</td>
+<td>
+-
 </td>
 <td>
 Increases Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
@@ -2580,6 +3192,9 @@ Increases Priests' mana capacity, mana regeneration rate, hit points, and gives 
 Iron Forged Swords
 </td>
 <td>
+-
+</td>
+<td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
 </td>
 </tr>
@@ -2590,6 +3205,9 @@ Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Rider
 </td>
 <td>
 Iron Plating
+</td>
+<td>
+-
 </td>
 <td>
 Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
@@ -2604,6 +3222,9 @@ Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines
 Studded Leather Armor
 </td>
 <td>
+-
+</td>
+<td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
 </td>
 </tr>
@@ -2614,6 +3235,9 @@ Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Rid
 </td>
 <td>
 Temple of Demigods Blueprints
+</td>
+<td>
+-
 </td>
 <td>
 Allows the upgrade of Level 3 Town Halls and Guardian Towers to a Temple of Light or Darkness.
@@ -2628,6 +3252,9 @@ Allows the upgrade of Level 3 Town Halls and Guardian Towers to a Temple of Ligh
 Storm Protection
 </td>
 <td>
+-
+</td>
+<td>
 Your units won't die in Maelstrom anymore.
 </td>
 </tr>
@@ -2638,6 +3265,9 @@ Your units won't die in Maelstrom anymore.
 </td>
 <td>
 Improved Air Transport
+</td>
+<td>
+-
 </td>
 <td>
 Increases the cargo slots and armor by 2.
@@ -2652,12 +3282,21 @@ Increases the cargo slots and armor by 2.
 Improved Creep Hunter
 </td>
 <td>
-Allows unit abilities to target units with a level above their initial level: Polymorph (Human, Goblin), Transmute (Goblin), Possession (Undead), Charm Cunits) etc. This does not improve hero abilities!
+-
+</td>
+<td>
+Allows unit abilities to target units with a level above their initial level: Polymorph (Human, Goblin), Transmute (Goblin), Possession (Undead), Charm Ccreeps) etc. This does not improve hero abilities!
 </td>
 </tr>
 
     </tbody>
 </table>
+
+<script>
+    $('#researches').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
 </body>
 </html> 

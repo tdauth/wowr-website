@@ -982,7 +982,7 @@ Malfurion
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.0 )
+	call PreloadEnd( 0.1 )
 
 endfunction
 

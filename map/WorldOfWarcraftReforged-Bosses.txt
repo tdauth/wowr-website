@@ -7,7 +7,7 @@ Bosses:
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" title="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -96,7 +96,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElune'sVision.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNElune'sVision.blp" title="ReplaceableTextures\\CommandButtons\\BTNElune'sVision.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -185,7 +185,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp" title="ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -274,7 +274,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGhostMage.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGhostMage.blp" title="ReplaceableTextures\\CommandButtons\\BTNGhostMage.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -363,7 +363,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRagnaros.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNRagnaros.blp" title="ReplaceableTextures\\CommandButtons\\BTNRagnaros.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -452,7 +452,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSeaWitch.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaWitch.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeaWitch.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -534,23 +534,23 @@ Amphibious
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Forked Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="Frost Arrows" /><a href="spells.html#">Frost Arrows</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" /><a href="spells.html#">Frost Arrows</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="Watery Minion" /><a href="spells.html#">Watery Minion</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" /><a href="spells.html#">Watery Minion</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="Mana Shield" /><a href="spells.html#">Mana Shield</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" /><a href="spells.html#">Mana Shield</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="Volcano" /><a href="spells.html#">Volcano</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" /><a href="spells.html#">Volcano</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -561,7 +561,7 @@ Amphibious
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -643,23 +643,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" /><a href="spells.html#">Chain Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNShadowStrike.blp" title="Shadow Strike" /><a href="spells.html#">Shadow Strike</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShadowStrike.blp" title="ReplaceableTextures\\CommandButtons\\BTNShadowStrike.blp" /><a href="spells.html#">Shadow Strike</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" /><a href="spells.html#">Critical Strike</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="Feral Spirit" /><a href="spells.html#">Feral Spirit</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" /><a href="spells.html#">Feral Spirit</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" /><a href="spells.html#">Reincarnation</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -670,7 +670,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -752,23 +752,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" title="Pocket Factory" /><a href="spells.html#">Pocket Factory</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" title="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" /><a href="spells.html#">Pocket Factory</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="Cluster Rockets" /><a href="spells.html#">Cluster Rockets</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" /><a href="spells.html#">Cluster Rockets</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" title="Battle Roar" /><a href="spells.html#">Battle Roar</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" title="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" /><a href="spells.html#">Battle Roar</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="Cleaving Attack" /><a href="spells.html#">Cleaving Attack</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" /><a href="spells.html#">Cleaving Attack</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" /><a href="spells.html#">Critical Strike</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -779,7 +779,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -861,23 +861,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp" title="Healing Spray" /><a href="spells.html#">Healing Spray</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp" /><a href="spells.html#">Healing Spray</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp" title="Chemical Rage" /><a href="spells.html#">Chemical Rage</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp" title="ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp" /><a href="spells.html#">Chemical Rage</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="Cluster Rockets" /><a href="spells.html#">Cluster Rockets</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" /><a href="spells.html#">Cluster Rockets</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp" title="Acid Bomb" /><a href="spells.html#">Acid Bomb</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp" title="ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp" /><a href="spells.html#">Acid Bomb</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="Transmute" /><a href="spells.html#">Transmute</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" /><a href="spells.html#">Transmute</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -888,7 +888,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNYogg-saronIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -970,23 +970,23 @@ Amphibious
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBreathOfFrost.blp" title="Breath of Frost" /><a href="spells.html#">Breath of Frost</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBreathOfFrost.blp" title="ReplaceableTextures\\CommandButtons\\BTNBreathOfFrost.blp" /><a href="spells.html#">Breath of Frost</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="Frost Arrows" /><a href="spells.html#">Frost Arrows</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" /><a href="spells.html#">Frost Arrows</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" title="Frost Armor" /><a href="spells.html#">Frost Armor</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" /><a href="spells.html#">Frost Armor</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronMaceIcon.blp" title="Spawn Mace Tentacle" /><a href="spells.html#">Spawn Mace Tentacle</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronMaceIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNYogg-saronMaceIcon.blp" /><a href="spells.html#">Spawn Mace Tentacle</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronTentacleIcon.blp" title="Spawn Tentacle" /><a href="spells.html#">Spawn Tentacle</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronTentacleIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNYogg-saronTentacleIcon.blp" /><a href="spells.html#">Spawn Tentacle</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -997,7 +997,7 @@ Amphibious
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNzothIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNNzothIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNNzothIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1086,7 +1086,7 @@ Amphibious
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1175,7 +1175,7 @@ Amphibious
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" title="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1257,23 +1257,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" /><a href="spells.html#">Critical Strike</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" title="Cripple" /><a href="spells.html#">Cripple</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" title="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" /><a href="spells.html#">Cripple</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" /><a href="spells.html#">Drunken Brawler</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" /><a href="spells.html#">Finger of Death</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" /><a href="spells.html#">Demon Master</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1284,7 +1284,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" title="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1366,23 +1366,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Forked Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="Frost Arrows" /><a href="spells.html#">Frost Arrows</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" /><a href="spells.html#">Frost Arrows</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="Mana Shield" /><a href="spells.html#">Mana Shield</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" /><a href="spells.html#">Mana Shield</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="Watery Minion" /><a href="spells.html#">Watery Minion</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" /><a href="spells.html#">Watery Minion</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="Volcano" /><a href="spells.html#">Volcano</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" /><a href="spells.html#">Volcano</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1393,7 +1393,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChaosWarlord.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNChaosWarlord.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosWarlord.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1475,23 +1475,23 @@ On Horse
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" title="Silence" /><a href="spells.html#">Silence</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" title="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" /><a href="spells.html#">Silence</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" /><a href="spells.html#">Chain Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="Ensnare" /><a href="spells.html#">Ensnare</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="spells.html#">Ensnare</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="Feral Spirit" /><a href="spells.html#">Feral Spirit</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" /><a href="spells.html#">Feral Spirit</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="Transmute" /><a href="spells.html#">Transmute</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" /><a href="spells.html#">Transmute</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1502,7 +1502,7 @@ On Horse
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGuldan.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGuldan.blp" title="ReplaceableTextures\\CommandButtons\\BTNGuldan.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1584,23 +1584,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="Rain of Fire" /><a href="spells.html#">Rain of Fire</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNFire.blp" /><a href="spells.html#">Rain of Fire</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" title="Siphon Mana" /><a href="spells.html#">Siphon Mana</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" /><a href="spells.html#">Siphon Mana</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLifeDrain.blp" title="Life Drain" /><a href="spells.html#">Life Drain</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLifeDrain.blp" title="ReplaceableTextures\\CommandButtons\\BTNLifeDrain.blp" /><a href="spells.html#">Life Drain</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="Mana Shield" /><a href="spells.html#">Mana Shield</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" /><a href="spells.html#">Mana Shield</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" /><a href="spells.html#">Finger of Death</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1611,7 +1611,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDragonEye.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNDragonEye.blp" title="ReplaceableTextures\\CommandButtons\\BTNDragonEye.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1693,23 +1693,23 @@ Amphibious
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" /><a href="spells.html#">Bash</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" /><a href="spells.html#">Finger of Death</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" /><a href="spells.html#">Demon Master</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="Charm" /><a href="spells.html#">Charm</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" /><a href="spells.html#">Charm</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" /><a href="spells.html#">Attribute Bonus</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1720,7 +1720,7 @@ Amphibious
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1802,23 +1802,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="Ensnare" /><a href="spells.html#">Ensnare</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="spells.html#">Ensnare</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="Immolation" /><a href="spells.html#">Immolation</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" /><a href="spells.html#">Immolation</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHex.blp" title="Hex" /><a href="spells.html#">Hex</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHex.blp" title="ReplaceableTextures\\CommandButtons\\BTNHex.blp" /><a href="spells.html#">Hex</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" title="Summon Spider Crabs" /><a href="spells.html#">Summon Spider Crabs</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" /><a href="spells.html#">Summon Spider Crabs</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStarfall.blp" title="Starfall" /><a href="spells.html#">Starfall</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStarfall.blp" title="ReplaceableTextures\\CommandButtons\\BTNStarfall.blp" /><a href="spells.html#">Starfall</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1829,7 +1829,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -1911,23 +1911,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="Rain of Fire" /><a href="spells.html#">Rain of Fire</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNFire.blp" /><a href="spells.html#">Rain of Fire</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="Crushing Wave" /><a href="spells.html#">Crushing Wave</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" /><a href="spells.html#">Crushing Wave</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="Watery Minion" /><a href="spells.html#">Watery Minion</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" /><a href="spells.html#">Watery Minion</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" title="Tornado" /><a href="spells.html#">Tornado</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" title="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" /><a href="spells.html#">Tornado</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" /><a href="spells.html#">Attribute Bonus</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -1938,7 +1938,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2020,23 +2020,23 @@ Amphibious
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Monsoon" /><a href="spells.html#">Monsoon</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Monsoon</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="Crushing Wave" /><a href="spells.html#">Crushing Wave</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" /><a href="spells.html#">Crushing Wave</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="War Stomp" /><a href="spells.html#">War Stomp</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" /><a href="spells.html#">War Stomp</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" title="Spiked Shell" /><a href="spells.html#">Spiked Shell</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" /><a href="spells.html#">Spiked Shell</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" /><a href="spells.html#">Bash</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2047,7 +2047,7 @@ Amphibious
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2129,23 +2129,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" title="Holy Light" /><a href="spells.html#">Holy Light</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" title="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" /><a href="spells.html#">Holy Light</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" /><a href="spells.html#">Divine Shield</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="Devotion Aura" /><a href="spells.html#">Devotion Aura</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" /><a href="spells.html#">Devotion Aura</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" /><a href="spells.html#">Resurrection</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" /><a href="spells.html#">Attribute Bonus</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2156,7 +2156,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSeaGiantGreen.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaGiantGreen.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeaGiantGreen.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2238,23 +2238,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Monsoon" /><a href="spells.html#">Monsoon</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Monsoon</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="Crushing Wave" /><a href="spells.html#">Crushing Wave</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" /><a href="spells.html#">Crushing Wave</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp" title="Summon Sea Elemental" /><a href="spells.html#">Summon Sea Elemental</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp" title="ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp" /><a href="spells.html#">Summon Sea Elemental</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="War Stomp" /><a href="spells.html#">War Stomp</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" /><a href="spells.html#">War Stomp</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" /><a href="spells.html#">Bash</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2265,7 +2265,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" title="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2347,23 +2347,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" /><a href="spells.html#">Divine Shield</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" /><a href="spells.html#">Bash</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" /><a href="spells.html#">Drunken Brawler</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" /><a href="spells.html#">Demon Master</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" /><a href="spells.html#">Attribute Bonus</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2374,7 +2374,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2456,23 +2456,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="Banish" /><a href="spells.html#">Banish</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" /><a href="spells.html#">Banish</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="Immolation" /><a href="spells.html#">Immolation</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" /><a href="spells.html#">Immolation</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="Rain of Chaos" /><a href="spells.html#">Rain of Chaos</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" /><a href="spells.html#">Rain of Chaos</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" /><a href="spells.html#">Demon Master</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp" title="Demon Storm" /><a href="spells.html#">Demon Storm</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp" title="ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp" /><a href="spells.html#">Demon Storm</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2483,7 +2483,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2565,23 +2565,23 @@ Fly
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFrostMourne.blp" title="Life Steal" /><a href="spells.html#">Life Steal</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostMourne.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostMourne.blp" /><a href="spells.html#">Life Steal</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="Devotion Aura" /><a href="spells.html#">Devotion Aura</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" /><a href="spells.html#">Devotion Aura</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" /><a href="spells.html#">Critical Strike</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" /><a href="spells.html#">Demon Master</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" /><a href="spells.html#">Reincarnation</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2592,7 +2592,7 @@ Fly
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroDreadlord.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroDreadlord.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroDreadlord.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2674,23 +2674,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="Sleep" /><a href="spells.html#">Sleep</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" /><a href="spells.html#">Sleep</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp" title="Vampiric Aura" /><a href="spells.html#">Vampiric Aura</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp" /><a href="spells.html#">Vampiric Aura</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" /><a href="spells.html#">Critical Strike</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="Rain of Chaos" /><a href="spells.html#">Rain of Chaos</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" /><a href="spells.html#">Rain of Chaos</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" /><a href="spells.html#">Reincarnation</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2701,7 +2701,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp" title="ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2783,23 +2783,23 @@ Hover
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="Frost Nova" /><a href="spells.html#">Frost Nova</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" /><a href="spells.html#">Frost Nova</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" title="Frost Armor" /><a href="spells.html#">Frost Armor</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" /><a href="spells.html#">Frost Armor</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="Banish" /><a href="spells.html#">Banish</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" /><a href="spells.html#">Banish</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp" title="Dark Ritual" /><a href="spells.html#">Dark Ritual</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp" /><a href="spells.html#">Dark Ritual</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" /><a href="spells.html#">Finger of Death</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2810,7 +2810,7 @@ Hover
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -2892,23 +2892,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNShockWave.blp" title="Shockwave" /><a href="spells.html#">Shockwave</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNShockWave.blp" title="ReplaceableTextures\\CommandButtons\\BTNShockWave.blp" /><a href="spells.html#">Shockwave</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="War Stomp" /><a href="spells.html#">War Stomp</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" /><a href="spells.html#">War Stomp</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" title="Endurance Aura" /><a href="spells.html#">Endurance Aura</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" /><a href="spells.html#">Endurance Aura</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" /><a href="spells.html#">Reincarnation</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" /><a href="spells.html#">Resurrection</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -2919,7 +2919,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" title="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3001,23 +3001,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="Mana Burn" /><a href="spells.html#">Mana Burn</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" /><a href="spells.html#">Mana Burn</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" /><a href="spells.html#">Drunken Brawler</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" /><a href="spells.html#">Bash</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" /><a href="spells.html#">Reincarnation</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" /><a href="spells.html#">Resurrection</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -3028,7 +3028,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" title="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3110,23 +3110,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Forked Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" /><a href="spells.html#">Divine Shield</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" title="Unholy Aura" /><a href="spells.html#">Unholy Aura</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" /><a href="spells.html#">Unholy Aura</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" /><a href="spells.html#">Drunken Brawler</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" /><a href="spells.html#">Finger of Death</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -3137,7 +3137,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" title="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3219,23 +3219,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" title="Flame Strike" /><a href="spells.html#">Flame Strike</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" /><a href="spells.html#">Flame Strike</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="Frost Nova" /><a href="spells.html#">Frost Nova</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" /><a href="spells.html#">Frost Nova</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNImpale.blp" title="Impale" /><a href="spells.html#">Impale</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNImpale.blp" title="ReplaceableTextures\\CommandButtons\\BTNImpale.blp" /><a href="spells.html#">Impale</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="Touch of Darkness" /><a href="spells.html#">Touch of Darkness</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" /><a href="spells.html#">Touch of Darkness</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMirrorImage.blp" title="Mirror Image" /><a href="spells.html#">Mirror Image</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMirrorImage.blp" title="ReplaceableTextures\\CommandButtons\\BTNMirrorImage.blp" /><a href="spells.html#">Mirror Image</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -3246,7 +3246,7 @@ Foot
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" title="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3328,23 +3328,23 @@ On Horse
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" /><a href="spells.html#">Chain Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Forked Lightning</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="Mana Burn" /><a href="spells.html#">Mana Burn</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" /><a href="spells.html#">Mana Burn</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Monsoon" /><a href="spells.html#">Monsoon</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" /><a href="spells.html#">Monsoon</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStampede.blp" title="Stampede" /><a href="spells.html#">Stampede</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStampede.blp" title="ReplaceableTextures\\CommandButtons\\BTNStampede.blp" /><a href="spells.html#">Stampede</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -3355,7 +3355,7 @@ On Horse
 	call Preload( "
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
 </td>" )
 	call Preload( "
 <td>
@@ -3437,23 +3437,23 @@ Foot
 <td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" title="Thunder Clap" /><a href="spells.html#">Thunder Clap</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" title="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" /><a href="spells.html#">Thunder Clap</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp" title="Howl of Terror" /><a href="spells.html#">Howl of Terror</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp" title="ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp" /><a href="spells.html#">Howl of Terror</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="Cleaving Attack" /><a href="spells.html#">Cleaving Attack</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" /><a href="spells.html#">Cleaving Attack</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" /><a href="spells.html#">Demon Master</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" /><a href="spells.html#">Reincarnation</a>
 </li>" )
 	call Preload( "
 </ul>
@@ -3461,7 +3461,7 @@ Foot
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.3 )
+	call PreloadEnd( 0.4 )
 
 endfunction
 

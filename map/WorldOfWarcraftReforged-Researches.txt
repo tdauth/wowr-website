@@ -5,27 +5,15 @@ function PreloadFiles takes nothing returns nothing
 Researches:
 <tr id="">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" title="ReplaceableTextures\\CommandButtons\\BTNTemp.blp" />
-</td>" )
-	call Preload( "
-<td>
-Default string
-</td>" )
-	call Preload( "
-<td>
-
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" title="ReplaceableTextures\\CommandButtons\\BTNSteelMelee.blp" />
 </td>" )
 	call Preload( "
 <td>
 Iron Forged Swords
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -45,6 +33,10 @@ Black Gunpowder
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and Flying Machines.
 </td>" )
 	call Preload( "
@@ -58,6 +50,10 @@ Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and 
 	call Preload( "
 <td>
 Iron Plating
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -77,6 +73,10 @@ Studded Leather Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
 </td>" )
 	call Preload( "
@@ -90,6 +90,10 @@ Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Rid
 	call Preload( "
 <td>
 Storm Hammers
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -109,6 +113,10 @@ Flying Machine Bombs
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Flying Machines to attack land units.
 </td>" )
 	call Preload( "
@@ -122,6 +130,10 @@ Allows Flying Machines to attack land units.
 	call Preload( "
 <td>
 Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -141,6 +153,10 @@ Defend
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Footmen to use the Defend ability, which increases their defensive capabilities against Piercing attacks.
 </td>" )
 	call Preload( "
@@ -157,6 +173,10 @@ Animal War Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 100.
 </td>" )
 	call Preload( "
@@ -170,6 +190,10 @@ Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Ride
 	call Preload( "
 <td>
 Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -189,6 +213,10 @@ Sorceress Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Sorceresses' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Invisibility.
 </td>" )
 	call Preload( "
@@ -202,6 +230,10 @@ Increases Sorceresses' mana capacity, mana regeneration rate, hit points, and gi
 	call Preload( "
 <td>
 Long Rifles
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -221,6 +253,10 @@ Improved Lumber Harvesting
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the amount of lumber that Peasants can carry by 10.
 </td>" )
 	call Preload( "
@@ -234,6 +270,10 @@ Increases the amount of lumber that Peasants can carry by 10.
 	call Preload( "
 <td>
 Magic Sentry
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -253,6 +293,10 @@ Flare
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Provides Mortar Teams with the Flare ability. Flares can be used to reveal any area of the map. |nCan see invisible units.
 </td>" )
 	call Preload( "
@@ -266,6 +310,10 @@ Provides Mortar Teams with the Flare ability. Flares can be used to reveal any a
 	call Preload( "
 <td>
 Control Magic
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -285,6 +333,10 @@ Barrage
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades Siege Engines, giving them the Barrage ability, which allows them to damage nearby enemy air units.
 </td>" )
 	call Preload( "
@@ -298,6 +350,10 @@ Upgrades Siege Engines, giving them the Barrage ability, which allows them to da
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -317,6 +373,10 @@ Flak Cannons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades the weapons on Flying Machines to give them an area effect damage attack against air units.
 </td>" )
 	call Preload( "
@@ -333,6 +393,10 @@ Fragmentation Shards
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the damage they deal to Unarmored and Medium armor units.
 </td>" )
 	call Preload( "
@@ -346,6 +410,10 @@ Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the dam
 	call Preload( "
 <td>
 Cloud
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -365,6 +433,10 @@ Sundering Blades
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades Knights to deal increased damage to targets with Medium armor.
 </td>" )
 	call Preload( "
@@ -378,6 +450,10 @@ Upgrades Knights to deal increased damage to targets with Medium armor.
 	call Preload( "
 <td>
 Arcane Observatory
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -397,6 +473,10 @@ Steel Melee Weapons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the melee attack damage of Grunts, Raiders and Tauren.
 </td>" )
 	call Preload( "
@@ -410,6 +490,10 @@ Increases the melee attack damage of Grunts, Raiders and Tauren.
 	call Preload( "
 <td>
 Steel Ranged Weapons
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -429,6 +513,10 @@ Steel Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Grunts, Raiders, Batriders, Tauren, Headhunters, Wind Riders and Demolishers.
 </td>" )
 	call Preload( "
@@ -442,6 +530,10 @@ Increases the armor of Grunts, Raiders, Batriders, Tauren, Headhunters, Wind Rid
 	call Preload( "
 <td>
 War Drums Damage Increase
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -461,6 +553,10 @@ Pillage
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Causes Peons', Grunts', and Raiders' attacks to gain resources when hitting enemy buildings.
 </td>" )
 	call Preload( "
@@ -474,6 +570,10 @@ Causes Peons', Grunts', and Raiders' attacks to gain resources when hitting enem
 	call Preload( "
 <td>
 Brute Strength
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -493,6 +593,10 @@ Pulverize Damage Increase
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades the totem carried by Tauren, increasing the damage of their Pulverize ability.
 </td>" )
 	call Preload( "
@@ -506,6 +610,10 @@ Upgrades the totem carried by Tauren, increasing the damage of their Pulverize a
 	call Preload( "
 <td>
 Ensnare
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -525,6 +633,10 @@ Envenomed Spears
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Adds an additional poison effect to Wind Riders' attacks. A unit poisoned by Envenomed Spears takes damage over time.
 </td>" )
 	call Preload( "
@@ -538,6 +650,10 @@ Adds an additional poison effect to Wind Riders' attacks. A unit poisoned by Env
 	call Preload( "
 <td>
 Witch Doctor Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -557,6 +673,10 @@ Shaman Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Shaman mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Lightning Shield.
 </td>" )
 	call Preload( "
@@ -570,6 +690,10 @@ Increases Shaman mana capacity, mana regeneration rate, hit points, and gives th
 	call Preload( "
 <td>
 Spiked Barricades
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -589,6 +713,10 @@ Troll Regeneration
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the hit point regeneration rate of Headhunters, Witch Doctors and Batriders.
 </td>" )
 	call Preload( "
@@ -602,6 +730,10 @@ Increases the hit point regeneration rate of Headhunters, Witch Doctors and Batr
 	call Preload( "
 <td>
 Liquid Fire
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -621,6 +753,10 @@ Spirit Walker Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Spirit Walkers' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Disenchant.
 </td>" )
 	call Preload( "
@@ -634,6 +770,10 @@ Increases Spirit Walkers' mana capacity, mana regeneration rate, hit points, and
 	call Preload( "
 <td>
 Reinforced Defenses
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -653,6 +793,10 @@ Berserker Upgrade
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Transforms Headhunters into Berserkers, giving them increased hit points and the Berserk ability.
 </td>" )
 	call Preload( "
@@ -666,6 +810,10 @@ Transforms Headhunters into Berserkers, giving them increased hit points and the
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -685,6 +833,10 @@ Burning Oil
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades Demolishers to fire rocks smothered in burning oil, which causes the ground to burn.
 </td>" )
 	call Preload( "
@@ -698,6 +850,10 @@ Upgrades Demolishers to fire rocks smothered in burning oil, which causes the gr
 	call Preload( "
 <td>
 Fel
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -717,6 +873,10 @@ Unholy Strength
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warriors, and Skeletal Mages.
 </td>" )
 	call Preload( "
@@ -730,6 +890,10 @@ Increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warri
 	call Preload( "
 <td>
 Creature Attack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -749,6 +913,10 @@ Unholy Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mages.
 </td>" )
 	call Preload( "
@@ -762,6 +930,10 @@ Increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mag
 	call Preload( "
 <td>
 Cannibalize
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -781,6 +953,10 @@ Ghoul Frenzy
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the attack rate of Ghouls by 35%, and increases their movement speed.
 </td>" )
 	call Preload( "
@@ -794,6 +970,10 @@ Increases the attack rate of Ghouls by 35%, and increases their movement speed.
 	call Preload( "
 <td>
 Web
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -813,6 +993,10 @@ Stone Form
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Enables the ability for Gargoyles to assume Stone Form. Stone Form transforms the Gargoyle into a statue with high armor, spell immunity, and regeneration. The Gargoyle cannot attack in this form.
 </td>" )
 	call Preload( "
@@ -826,6 +1010,10 @@ Enables the ability for Gargoyles to assume Stone Form. Stone Form transforms th
 	call Preload( "
 <td>
 Necromancer Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -845,6 +1033,10 @@ Banshee Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Banshees' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Anti-magic Shell.
 </td>" )
 	call Preload( "
@@ -858,6 +1050,10 @@ Increases Banshees' mana capacity, mana regeneration rate, hit points, and gives
 	call Preload( "
 <td>
 Freezing Breath
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -877,6 +1073,10 @@ Skeletal Longevity
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seconds.
 </td>" )
 	call Preload( "
@@ -890,6 +1090,10 @@ Increases the duration of raised Skeleton Warriors and Skeletal Mages by 20 seco
 	call Preload( "
 <td>
 Creature Carapace
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -909,6 +1113,10 @@ Disease Cloud
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Abominations a Disease Cloud aura that deals 2 damage per second for 75 seconds to nearby enemy units. Meat Wagons will cause Disease Clouds wherever they attack that deal 2 damage per second for 75 seconds to nearby enemy units. |nUndead are im" )
 	call Preload( "
 </tr>
@@ -921,6 +1129,10 @@ Gives Abominations a Disease Cloud aura that deals 2 damage per second for 75 se
 	call Preload( "
 <td>
 Skeletal Mastery
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -940,6 +1152,10 @@ Burrow
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Crypt Fiends gain the ability to burrow. Burrowed Crypt Fiends are invisible and gain increased hit point regeneration, but cannot attack.
 </td>" )
 	call Preload( "
@@ -956,6 +1172,10 @@ Destroyer Form
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows the Obsidian Statue to transform into a Destroyer, a large flying unit that must devour magic to sustain its mana. The Destroyer has Spell Immunity, Devour Magic, Absorb Mana, and Orb of Annihilation. |n|n|cffffcc00Attacks land and air units.|r" )
 	call Preload( "
 </tr>
@@ -968,6 +1188,10 @@ Allows the Obsidian Statue to transform into a Destroyer, a large flying unit th
 	call Preload( "
 <td>
 Exhume Corpses
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -987,6 +1211,10 @@ Backpack
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives specific Undead ground units the ability to carry items.
 </td>" )
 	call Preload( "
@@ -1000,6 +1228,10 @@ Gives specific Undead ground units the ability to carry items.
 	call Preload( "
 <td>
 Lich King
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1019,6 +1251,10 @@ Strength of the Moon
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Riders.
 </td>" )
 	call Preload( "
@@ -1032,6 +1268,10 @@ Increases the damage of Archers, Huntresses, Glaive Throwers, and Hippogryph Rid
 	call Preload( "
 <td>
 Strength of the Wild
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1051,6 +1291,10 @@ Moon Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Archers, Huntresses, and Hippogryph Riders.
 </td>" )
 	call Preload( "
@@ -1064,6 +1308,10 @@ Increases the armor of Archers, Huntresses, and Hippogryph Riders.
 	call Preload( "
 <td>
 Reinforced Hides
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1083,6 +1331,10 @@ Ultravision
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Night Elves the ability to see as far at night as they do during the day.
 </td>" )
 	call Preload( "
@@ -1096,6 +1348,10 @@ Gives Night Elves the ability to see as far at night as they do during the day.
 	call Preload( "
 <td>
 Nature's Blessing
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1115,6 +1371,10 @@ Sentinel
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives the Huntress the ability to send her owl companion to a nearby tree and provide vision. |nCan see invisible units.
 </td>" )
 	call Preload( "
@@ -1128,6 +1388,10 @@ Gives the Huntress the ability to send her owl companion to a nearby tree and pr
 	call Preload( "
 <td>
 Upgrade Moon Glaive
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1147,6 +1411,10 @@ Improved Bows
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the Archer's and Hippogryph Rider's attack range.
 </td>" )
 	call Preload( "
@@ -1160,6 +1428,10 @@ Increases the Archer's and Hippogryph Rider's attack range.
 	call Preload( "
 <td>
 Marksmanship
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1179,6 +1451,10 @@ Druid of the Talon Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, and gives them the ability Storm Crow Form.
 </td>" )
 	call Preload( "
@@ -1192,6 +1468,10 @@ Increases their Night Elf Form's mana capacity, mana regeneration rate, hit poin
 	call Preload( "
 <td>
 Druid of the Claw Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1211,6 +1491,10 @@ Abolish Magic
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives the Dryad the ability to dispel positive buffs from enemy units, and negative buffs from friendly units. |nDamages summoned units.
 </td>" )
 	call Preload( "
@@ -1224,6 +1508,10 @@ Gives the Dryad the ability to dispel positive buffs from enemy units, and negat
 	call Preload( "
 <td>
 Corrosive Breath
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1243,6 +1531,10 @@ Hippogryph Taming
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Trains Hippogryphs to allow Archers to mount them. This allows them to attack both air and ground units.
 </td>" )
 	call Preload( "
@@ -1256,6 +1548,10 @@ Trains Hippogryphs to allow Archers to mount them. This allows them to attack bo
 	call Preload( "
 <td>
 Vorpal Blades
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1275,6 +1571,10 @@ Resistant Skin
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Mountain Giants increased resistance to spell damage.
 </td>" )
 	call Preload( "
@@ -1288,6 +1588,10 @@ Gives Mountain Giants increased resistance to spell damage.
 	call Preload( "
 <td>
 Hardened Skin
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1307,6 +1611,10 @@ Mark of the Claw
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Druids of the Claw to cast Roar while in Bear Form.
 </td>" )
 	call Preload( "
@@ -1320,6 +1628,10 @@ Allows Druids of the Claw to cast Roar while in Bear Form.
 	call Preload( "
 <td>
 Mark of the Talon
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1339,6 +1651,10 @@ Well Spring
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the amount of mana that can be stored in Moon Wells by 125, and their rate of mana regeneration by 52%.
 </td>" )
 	call Preload( "
@@ -1352,6 +1668,10 @@ Increases the amount of mana that can be stored in Moon Wells by 125, and their 
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1371,6 +1691,10 @@ World Tree
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows building male citizens a giant World Tree to heal and resurrect Night Elf units anywhere on the map!
 </td>" )
 	call Preload( "
@@ -1384,6 +1708,10 @@ Allows building male citizens a giant World Tree to heal and resurrect Night Elf
 	call Preload( "
 <td>
 Blood Elf Animal War Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1403,6 +1731,10 @@ Iron Forged Swords
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
 </td>" )
 	call Preload( "
@@ -1419,6 +1751,10 @@ Iron Plating
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
 </td>" )
 	call Preload( "
@@ -1432,6 +1768,10 @@ Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines
 	call Preload( "
 <td>
 Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1451,6 +1791,10 @@ Studded Leather Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
 </td>" )
 	call Preload( "
@@ -1467,6 +1811,10 @@ Improved Lumber Harvesting
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the amount of lumber that Peasants can carry by 10.
 </td>" )
 	call Preload( "
@@ -1480,6 +1828,10 @@ Increases the amount of lumber that Peasants can carry by 10.
 	call Preload( "
 <td>
 Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1499,6 +1851,10 @@ Moon Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Archers.
 </td>" )
 	call Preload( "
@@ -1512,6 +1868,10 @@ Increases the armor of Archers.
 	call Preload( "
 <td>
 Strength of the Moon
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1531,6 +1891,10 @@ Improved Bows
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the Archer's attack range.
 </td>" )
 	call Preload( "
@@ -1544,6 +1908,10 @@ Increases the Archer's attack range.
 	call Preload( "
 <td>
 Marksmanship
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1563,6 +1931,10 @@ Burning Oil
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades Ballistas to fire missiles smothered in burning oil, which causes the ground to burn.
 </td>" )
 	call Preload( "
@@ -1576,6 +1948,10 @@ Upgrades Ballistas to fire missiles smothered in burning oil, which causes the g
 	call Preload( "
 <td>
 Improved Siege Weapons
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1595,6 +1971,10 @@ Magic Vault
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows building male citizens a Magic Vault with abilities Burn Mana and Siphon Mana.
 </td>" )
 	call Preload( "
@@ -1608,6 +1988,10 @@ Allows building male citizens a Magic Vault with abilities Burn Mana and Siphon 
 	call Preload( "
 <td>
 Ensnare
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1627,6 +2011,10 @@ Abolish Magic
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives the Couatl the ability to dispel positive buffs from enemy units, and negative buffs from friendly units. |nDamages summoned units.
 </td>" )
 	call Preload( "
@@ -1640,6 +2028,10 @@ Gives the Couatl the ability to dispel positive buffs from enemy units, and nega
 	call Preload( "
 <td>
 Coral Blades
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1659,6 +2051,10 @@ Coral Scales
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Naga attack units.
 </td>" )
 	call Preload( "
@@ -1672,6 +2068,10 @@ Increases the armor of Naga attack units.
 	call Preload( "
 <td>
 Submerge
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1691,6 +2091,10 @@ Naga Siren Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Naga Sirens' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Frost Armor.
 </td>" )
 	call Preload( "
@@ -1704,6 +2108,10 @@ Increases Naga Sirens' mana capacity, mana regeneration rate, hit points, and gi
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1723,6 +2131,10 @@ Permanent Immolation
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Infernals and Reavers to use the ability Permanent Immolation.
 </td>" )
 	call Preload( "
@@ -1736,6 +2148,10 @@ Allows Infernals and Reavers to use the ability Permanent Immolation.
 	call Preload( "
 <td>
 Resistant Skin
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1755,6 +2171,10 @@ Eredar Sorcerer Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Eredar Sorcerers mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Sleep.
 </td>" )
 	call Preload( "
@@ -1768,6 +2188,10 @@ Increases Eredar Sorcerers mana capacity, mana regeneration rate, hit points, an
 	call Preload( "
 <td>
 Succubus Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1787,6 +2211,10 @@ Unholy Strength
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the attack damage of  Overlords, Infernal Machines, Inquisitors and Doom Guards.
 </td>" )
 	call Preload( "
@@ -1800,6 +2228,10 @@ Increases the attack damage of  Overlords, Infernal Machines, Inquisitors and Do
 	call Preload( "
 <td>
 Web
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1819,6 +2251,10 @@ Devour Magic
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Fel Stalkers the ability Devour Magic.
 </td>" )
 	call Preload( "
@@ -1832,6 +2268,10 @@ Gives Fel Stalkers the ability Devour Magic.
 	call Preload( "
 <td>
 Cleaving Attack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1851,6 +2291,10 @@ Improved Demon Fire
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Improves the Demon Fire ability of Nether Drakes.
 </td>" )
 	call Preload( "
@@ -1864,6 +2308,10 @@ Improves the Demon Fire ability of Nether Drakes.
 	call Preload( "
 <td>
 Defend
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1883,6 +2331,10 @@ Cripple
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Doom Guards the ability Cripple.
 </td>" )
 	call Preload( "
@@ -1896,6 +2348,10 @@ Gives Doom Guards the ability Cripple.
 	call Preload( "
 <td>
 Rain of Fire
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1915,6 +2371,10 @@ Slow
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives the Greater Voidwalkers the ability Slow.
 </td>" )
 	call Preload( "
@@ -1928,6 +2388,10 @@ Gives the Greater Voidwalkers the ability Slow.
 	call Preload( "
 <td>
 Unholy Armor
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1947,6 +2411,10 @@ Creature Carapace
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of  Fel Stalkers, Nether Drakes, Greate Voidwalkers, Jailers, Infernals and Reavers.
 </td>" )
 	call Preload( "
@@ -1960,6 +2428,10 @@ Increases the armor of  Fel Stalkers, Nether Drakes, Greate Voidwalkers, Jailers
 	call Preload( "
 <td>
 Hardened Skin
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -1979,6 +2451,10 @@ Backpack
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives specific Demon ground units the ability to carry items.
 </td>" )
 	call Preload( "
@@ -1992,6 +2468,10 @@ Gives specific Demon ground units the ability to carry items.
 	call Preload( "
 <td>
 Steel Melee Weapons
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2011,6 +2491,10 @@ Steel Ranged Weapons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the ranged attack damage of Draenei Harbringers, Draenei Seers, Salamanders, Tamed Nether Drakes and Draenei Demolishers.
 </td>" )
 	call Preload( "
@@ -2024,6 +2508,10 @@ Increases the ranged attack damage of Draenei Harbringers, Draenei Seers, Salama
 	call Preload( "
 <td>
 Steel Armor
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2043,6 +2531,10 @@ Draenei Seer Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Draenei Seer mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Healing Wave.
 </td>" )
 	call Preload( "
@@ -2056,6 +2548,10 @@ Increases Draenei Seer mana capacity, mana regeneration rate, hit points, and gi
 	call Preload( "
 <td>
 Draenei Harbringer Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2075,6 +2571,10 @@ Improved Masonry
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor and hit points of Draenei buildings.
 </td>" )
 	call Preload( "
@@ -2088,6 +2588,10 @@ Increases the armor and hit points of Draenei buildings.
 	call Preload( "
 <td>
 Improved Demon Fire
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2107,6 +2611,10 @@ Devour
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Salamanders the ability Devour.
 </td>" )
 	call Preload( "
@@ -2120,6 +2628,10 @@ Gives Salamanders the ability Devour.
 	call Preload( "
 <td>
 Draenei Prison
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2139,6 +2651,10 @@ Backpack
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives specific Furbolg ground units the ability to carry items.
 </td>" )
 	call Preload( "
@@ -2152,6 +2668,10 @@ Gives specific Furbolg ground units the ability to carry items.
 	call Preload( "
 <td>
 Steel Melee Weapons
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2171,6 +2691,10 @@ Steel Ranged Weapons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the ranged attack damage of Furbolgs, Furbolg Trackers, Furbolg Champions, Furbolg Ursa Warriors, Polar Furbolgs, Polar Furbolg Champions, Furbolg Shamans and Furbolg Elder Shamans.
 </td>" )
 	call Preload( "
@@ -2184,6 +2708,10 @@ Increases the ranged attack damage of Furbolgs, Furbolg Trackers, Furbolg Champi
 	call Preload( "
 <td>
 Steel Armor
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2203,6 +2731,10 @@ Creature Attack
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases attack damage of Timber Wolves, Giant Wolves, Dire Wolves and Green Drakes.
 </td>" )
 	call Preload( "
@@ -2216,6 +2748,10 @@ Increases attack damage of Timber Wolves, Giant Wolves, Dire Wolves and Green Dr
 	call Preload( "
 <td>
 Creature Carapace
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2235,6 +2771,10 @@ Furbolg Shaman Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Furbolg Shaman's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Abolish Magic.
 </td>" )
 	call Preload( "
@@ -2248,6 +2788,10 @@ Increases Furbolg Shaman's mana capacity, mana regeneration rate, hit points, an
 	call Preload( "
 <td>
 Ensnare
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2267,6 +2811,10 @@ Faerie Fire
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
 </td>" )
 	call Preload( "
@@ -2280,6 +2828,10 @@ Enables Furbolg Trackers to use the Ensnare ability. Ensnare causes a target ene
 	call Preload( "
 <td>
 Blood Lust
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2299,6 +2851,10 @@ Bash
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Enables Furbolg Ursa Warriors to use the Bash ability.
 </td>" )
 	call Preload( "
@@ -2312,6 +2868,10 @@ Enables Furbolg Ursa Warriors to use the Bash ability.
 	call Preload( "
 <td>
 Web
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2331,6 +2891,10 @@ Corruption
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Furbolg Shamans and Furbolg Elder Shamans the ability Corruption.
 </td>" )
 	call Preload( "
@@ -2344,6 +2908,10 @@ Gives Furbolg Shamans and Furbolg Elder Shamans the ability Corruption.
 	call Preload( "
 <td>
 Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2363,6 +2931,10 @@ Air Supplies
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows to drop air supplies from flying units.
 </td>" )
 	call Preload( "
@@ -2376,6 +2948,10 @@ Allows to drop air supplies from flying units.
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2395,6 +2971,10 @@ Observatory
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows towers to use the Reveal ability.
 </td>" )
 	call Preload( "
@@ -2408,6 +2988,10 @@ Allows towers to use the Reveal ability.
 	call Preload( "
 <td>
 Explosives
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2427,6 +3011,10 @@ Repair
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Goblin warriors to repair mechanical units and structures.
 </td>" )
 	call Preload( "
@@ -2440,6 +3028,10 @@ Allows Goblin warriors to repair mechanical units and structures.
 	call Preload( "
 <td>
 Chemistry
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2459,6 +3051,10 @@ Steel Melee Weapons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the melee attack damage of Goblin units.
 </td>" )
 	call Preload( "
@@ -2472,6 +3068,10 @@ Increases the melee attack damage of Goblin units.
 	call Preload( "
 <td>
 Barrage
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2491,6 +3091,10 @@ Improved Lumber Harvesting
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the amount of lumber that Young Furbolgs can carry by 10.
 </td>" )
 	call Preload( "
@@ -2504,6 +3108,10 @@ Increases the amount of lumber that Young Furbolgs can carry by 10.
 	call Preload( "
 <td>
 Improved Banking
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2523,6 +3131,10 @@ Fuel
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Gives Fuel Pumps the ability Fuel.
 </td>" )
 	call Preload( "
@@ -2536,6 +3148,10 @@ Gives Fuel Pumps the ability Fuel.
 	call Preload( "
 <td>
 Demolish
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2555,6 +3171,10 @@ Engineering
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Makes Goblin tank units faster.
 </td>" )
 	call Preload( "
@@ -2568,6 +3188,10 @@ Makes Goblin tank units faster.
 	call Preload( "
 <td>
 Flame Grenade
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2587,6 +3211,10 @@ Mobile Turret
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Goblin ground units to take turrets and carry them around.
 </td>" )
 	call Preload( "
@@ -2600,6 +3228,10 @@ Allows Goblin ground units to take turrets and carry them around.
 	call Preload( "
 <td>
 Oil Drilling
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2619,6 +3251,10 @@ Explosive Barrel
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Sappers to place Explosive Barrels which cause more damage than Goblin Land Mines.
 </td>" )
 	call Preload( "
@@ -2632,6 +3268,10 @@ Allows Sappers to place Explosive Barrels which cause more damage than Goblin La
 	call Preload( "
 <td>
 Cluster Rockets
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2651,6 +3291,10 @@ Improved Construction
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor and hit points of Goblin buildings. Increases the speed of repairing buildings and mechanical units for Goblin Laborers and warriors.
 </td>" )
 	call Preload( "
@@ -2664,6 +3308,10 @@ Increases the armor and hit points of Goblin buildings. Increases the speed of r
 	call Preload( "
 <td>
 Steel Armor
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2683,6 +3331,10 @@ Steel Ranged Weapons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the ranged attack damage of Goblin units.
 </td>" )
 	call Preload( "
@@ -2696,6 +3348,10 @@ Increases the ranged attack damage of Goblin units.
 	call Preload( "
 <td>
 Goblin War Zeppelin Bombs
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2715,6 +3371,10 @@ Cut Down Trees
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Goblin Steam Rollers to cut down trees.
 </td>" )
 	call Preload( "
@@ -2728,6 +3388,10 @@ Allows Goblin Steam Rollers to cut down trees.
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2747,6 +3411,10 @@ Breeding
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows Gryphons to cast Breed.
 </td>" )
 	call Preload( "
@@ -2760,6 +3428,10 @@ Allows Gryphons to cast Breed.
 	call Preload( "
 <td>
 Dwarf Lumber Mill
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2779,6 +3451,10 @@ Slam
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows War Golems to cast Slam.
 </td>" )
 	call Preload( "
@@ -2792,6 +3468,10 @@ Allows War Golems to cast Slam.
 	call Preload( "
 <td>
 Devour
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2811,6 +3491,10 @@ Long Rifles
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the range of Riflemen and Gun Tower attacks.
 </td>" )
 	call Preload( "
@@ -2824,6 +3508,10 @@ Increases the range of Riflemen and Gun Tower attacks.
 	call Preload( "
 <td>
 Berserker Upgrade
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2843,6 +3531,10 @@ Mithril Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Reduces the received damage to 80 % and returns 30% of an enemy unit's melee attack damage back to it.
 </td>" )
 	call Preload( "
@@ -2856,6 +3548,10 @@ Reduces the received damage to 80 % and returns 30% of an enemy unit's melee att
 	call Preload( "
 <td>
 Barrage
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2875,6 +3571,10 @@ Elite Siege Tank
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades Siege Engines to Elite Siege Tanks.
 </td>" )
 	call Preload( "
@@ -2888,6 +3588,10 @@ Upgrades Siege Engines to Elite Siege Tanks.
 	call Preload( "
 <td>
 Improved Masonry
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2907,6 +3611,10 @@ Improved Lumber Harvesting
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the amount of lumber that Dwarf Miners can carry by 10.
 </td>" )
 	call Preload( "
@@ -2920,6 +3628,10 @@ Increases the amount of lumber that Dwarf Miners can carry by 10.
 	call Preload( "
 <td>
 Dwarf Runecaster Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2939,6 +3651,10 @@ Battle Priest Adept Training
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases Battle Priests' mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Dispel Magic.
 </td>" )
 	call Preload( "
@@ -2952,6 +3668,10 @@ Increases Battle Priests' mana capacity, mana regeneration rate, hit points, and
 	call Preload( "
 <td>
 Sleep Form
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -2971,6 +3691,10 @@ Flak Cannons
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades the weapons on Flying Machines to give them an area effect damage attack against air units.
 </td>" )
 	call Preload( "
@@ -2984,6 +3708,10 @@ Upgrades the weapons on Flying Machines to give them an area effect damage attac
 	call Preload( "
 <td>
 Flying Machine Bombs
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3003,6 +3731,10 @@ Fragmentation Shards
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the damage they deal to Unarmored and Medium armor units.
 </td>" )
 	call Preload( "
@@ -3016,6 +3748,10 @@ Upgrades the mortar shells on Mortar Teams and Cannon Towers to increase the dam
 	call Preload( "
 <td>
 Flare
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3035,6 +3771,10 @@ Iron Forged Swords
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
 </td>" )
 	call Preload( "
@@ -3051,6 +3791,10 @@ Iron Plating
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines and Siege Engines.
 </td>" )
 	call Preload( "
@@ -3064,6 +3808,10 @@ Increases the armor of Militia, Footmen, Spellbreakers, Knights, Flying Machines
 	call Preload( "
 <td>
 Studded Leather Armor
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3083,6 +3831,10 @@ Black Gunpowder
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and Flying Machines.
 </td>" )
 	call Preload( "
@@ -3096,6 +3848,10 @@ Increases the ranged attack damage of Riflemen, Mortar Teams, Siege Engines and 
 	call Preload( "
 <td>
 Animal War Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3115,6 +3871,10 @@ Storm Hammers
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Causes a Gryphon Rider's attacks to damage multiple units.
 </td>" )
 	call Preload( "
@@ -3128,6 +3888,10 @@ Causes a Gryphon Rider's attacks to damage multiple units.
 	call Preload( "
 <td>
 Backpack
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3147,6 +3911,10 @@ Sunwell
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows building male citizens a Sun Well with abilities Sun Key and Life and Mana Regeneration for player units.
 </td>" )
 	call Preload( "
@@ -3160,6 +3928,10 @@ Allows building male citizens a Sun Well with abilities Sun Key and Life and Man
 	call Preload( "
 <td>
 Magic Sentry
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3179,6 +3951,10 @@ Antimagic Shield
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Provides High Elf towers with the ability Antimagic Shield.
 </td>" )
 	call Preload( "
@@ -3192,6 +3968,10 @@ Provides High Elf towers with the ability Antimagic Shield.
 	call Preload( "
 <td>
 Marksmanship
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3211,6 +3991,10 @@ Cloud
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings from attacking.
 </td>" )
 	call Preload( "
@@ -3224,6 +4008,10 @@ Provides Dragonhawk Riders with the Cloud ability, which stops ranged buildings 
 	call Preload( "
 <td>
 Animal War Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3243,6 +4031,10 @@ Improved Bows
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the Archer's attack range.
 </td>" )
 	call Preload( "
@@ -3256,6 +4048,10 @@ Increases the Archer's attack range.
 	call Preload( "
 <td>
 Improved Lumber Harvesting
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3275,6 +4071,10 @@ War Eagle Taming
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Trains War Eagles to allow Archers to mount them. This allows them to attack both air and ground units.
 </td>" )
 	call Preload( "
@@ -3288,6 +4088,10 @@ Trains War Eagles to allow Archers to mount them. This allows them to attack bot
 	call Preload( "
 <td>
 Priest Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3307,6 +4111,10 @@ Improved Masonry
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor and hit points of High Elf buildings.
 </td>" )
 	call Preload( "
@@ -3320,6 +4128,10 @@ Increases the armor and hit points of High Elf buildings.
 	call Preload( "
 <td>
 Arch Cleric Adept Training
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3339,6 +4151,10 @@ Iron Forged Swords
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Riders, Gryphon Riders and Knights.
 </td>" )
 	call Preload( "
@@ -3352,6 +4168,10 @@ Increases the attack damage of Militia, Footmen, Spellbreakers, Dragonhawk Rider
 	call Preload( "
 <td>
 Iron Plating
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3371,6 +4191,10 @@ Studded Leather Armor
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Riders.
 </td>" )
 	call Preload( "
@@ -3384,6 +4208,10 @@ Increases the armor of Riflemen, Mortar Teams, Dragonhawk Riders and Gryphon Rid
 	call Preload( "
 <td>
 Temple of Demigods Blueprints
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3403,6 +4231,10 @@ Storm Protection
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Your units won't die in Maelstrom anymore.
 </td>" )
 	call Preload( "
@@ -3416,6 +4248,10 @@ Your units won't die in Maelstrom anymore.
 	call Preload( "
 <td>
 Improved Air Transport
+</td>" )
+	call Preload( "
+<td>
+-
 </td>" )
 	call Preload( "
 <td>
@@ -3435,12 +4271,16 @@ Improved Creep Hunter
 </td>" )
 	call Preload( "
 <td>
+-
+</td>" )
+	call Preload( "
+<td>
 Allows unit abilities to target units with a level above their initial level: Polymorph (Human, Goblin), Transmute (Goblin), Possession (Undead), Charm Ccreeps) etc. This does not improve hero abilities!
 </td>" )
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 
