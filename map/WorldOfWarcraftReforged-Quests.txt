@@ -50,7 +50,7 @@ Magni Bronzebeard
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -77,7 +77,7 @@ Magni Bronzebeard
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -104,7 +104,7 @@ Anduin Wrynn
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -158,7 +158,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -185,7 +185,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -212,7 +212,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -239,7 +239,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -266,7 +266,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -293,7 +293,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -320,7 +320,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -347,7 +347,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -374,7 +374,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -401,7 +401,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -428,7 +428,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -455,7 +455,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -482,7 +482,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -509,7 +509,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -536,7 +536,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -563,7 +563,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -590,7 +590,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -617,7 +617,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -644,7 +644,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -672,7 +672,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -700,7 +700,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -727,7 +727,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -755,7 +755,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -782,7 +782,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -810,7 +810,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -838,7 +838,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -866,7 +866,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -894,7 +894,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -922,7 +922,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -950,7 +950,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>
@@ -977,7 +977,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href=#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>" )
 	call Preload( "
 </tr>

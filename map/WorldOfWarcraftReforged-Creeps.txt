@@ -3,6 +3,8 @@ function PreloadFiles takes nothing returns nothing
 	call PreloadStart()
 	call Preload( "
 Creeps:
+<!-- Creeps generated with chat command "-website". -->" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
@@ -37,7 +39,7 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -45,7 +47,103 @@ Normal
 </td>" )
 	call Preload( "
 <td>
-Normal
+Melee
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBanditSpearThrower.blp" />
+</td>" )
+	call Preload( "
+<td>
+Brigand
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+150
+</td>" )
+	call Preload( "
+<td>
+10
+</td>" )
+	call Preload( "
+<td>
+Foot
+</td>" )
+	call Preload( "
+<td>
+270.000
+</td>" )
+	call Preload( "
+<td>
+Medium
+</td>" )
+	call Preload( "
+<td>
+0.000
+</td>" )
+	call Preload( "
+<td>
+Pierce
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNBandit.blp" />
+</td>" )
+	call Preload( "
+<td>
+Rogue
+</td>" )
+	call Preload( "
+<td>
+3
+</td>" )
+	call Preload( "
+<td>
+2
+</td>" )
+	call Preload( "
+<td>
+150
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+Foot
+</td>" )
+	call Preload( "
+<td>
+270.000
+</td>" )
+	call Preload( "
+<td>
+Medium
+</td>" )
+	call Preload( "
+<td>
+1.000
+</td>" )
+	call Preload( "
+<td>
+Melee
 </td>" )
 	call Preload( "
 </tr>

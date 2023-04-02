@@ -3,6 +3,8 @@ function PreloadFiles takes nothing returns nothing
 	call PreloadStart()
 	call Preload( "
 Heroes:
+<!-- Heroes generated with chat command "-website". -->" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
@@ -13,7 +15,7 @@ Paladin
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -49,11 +51,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -61,7 +63,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -72,8 +74,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -124,11 +128,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.130
 </td>" )
 	call Preload( "
 <td>
@@ -136,7 +140,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -147,8 +151,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -163,7 +169,7 @@ Mountain King
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -199,11 +205,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.220
 </td>" )
 	call Preload( "
 <td>
@@ -211,7 +217,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -222,24 +228,26 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp" title="Storm Bolt" /><a href"">Storm Bolt</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStormBolt.blp" title="Storm Bolt" /><a href="spells.html#">Storm Bolt</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href"">Bash</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" title="Thunder Clap" /><a href"">Thunder Clap</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" title="Thunder Clap" /><a href="spells.html#">Thunder Clap</a>
 </li>" )
 	call Preload( "
 <li>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAvatarOn.blp" title="Avatar" /><a href"">Avatar</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAvatarOn.blp" title="Avatar" /><a href="spells.html#">Avatar</a>
 </li>" )
 	call Preload( "
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -254,7 +262,7 @@ Mortar Team
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -290,11 +298,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -302,7 +310,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -313,8 +321,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -365,11 +375,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.130
 </td>" )
 	call Preload( "
 <td>
@@ -377,7 +387,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -388,8 +398,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -440,11 +452,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.640
 </td>" )
 	call Preload( "
 <td>
@@ -452,7 +464,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -463,8 +475,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -479,7 +493,7 @@ Ranger
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -515,11 +529,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.460
 </td>" )
 	call Preload( "
 <td>
@@ -527,7 +541,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -538,8 +552,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -590,11 +606,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.130
 </td>" )
 	call Preload( "
 <td>
@@ -602,7 +618,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -613,8 +629,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -665,11 +683,11 @@ None
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.640
 </td>" )
 	call Preload( "
 <td>
@@ -677,7 +695,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -688,8 +706,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -704,7 +724,7 @@ Blademaster
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -740,11 +760,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.770
 </td>" )
 	call Preload( "
 <td>
@@ -752,7 +772,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -763,8 +783,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -815,11 +837,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.280
 </td>" )
 	call Preload( "
 <td>
@@ -827,7 +849,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -838,8 +860,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -854,7 +878,7 @@ Tauren Chieftain
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -890,11 +914,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.050
 </td>" )
 	call Preload( "
 <td>
@@ -902,7 +926,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -913,8 +937,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -929,7 +955,7 @@ Shadow Hunter
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -965,11 +991,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.280
 </td>" )
 	call Preload( "
 <td>
@@ -977,7 +1003,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -988,8 +1014,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1004,7 +1032,7 @@ Death Knight
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1040,11 +1068,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.330
 </td>" )
 	call Preload( "
 <td>
@@ -1052,7 +1080,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -1063,8 +1091,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1115,11 +1145,11 @@ None
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.900
 </td>" )
 	call Preload( "
 <td>
@@ -1127,7 +1157,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1138,8 +1168,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1154,7 +1186,7 @@ Crypt Lord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1190,11 +1222,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.900
 </td>" )
 	call Preload( "
 <td>
@@ -1202,7 +1234,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1213,8 +1245,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1229,7 +1263,7 @@ Dark Ranger
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1265,11 +1299,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.420
 </td>" )
 	call Preload( "
 <td>
@@ -1277,7 +1311,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1288,8 +1322,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1340,11 +1376,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.180
 </td>" )
 	call Preload( "
 <td>
@@ -1352,7 +1388,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1363,8 +1399,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1379,7 +1417,7 @@ Priestess of the Moon
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1415,11 +1453,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.330
 </td>" )
 	call Preload( "
 <td>
@@ -1427,7 +1465,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1438,8 +1476,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1454,7 +1494,7 @@ Demon Hunter
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1490,11 +1530,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.700
 </td>" )
 	call Preload( "
 <td>
@@ -1502,7 +1542,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1513,8 +1553,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1529,7 +1571,7 @@ Warden
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -1565,11 +1607,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.050
 </td>" )
 	call Preload( "
 <td>
@@ -1577,7 +1619,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1588,8 +1630,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1604,7 +1648,7 @@ Mountain Giant
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1640,11 +1684,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.700
 </td>" )
 	call Preload( "
 <td>
@@ -1652,7 +1696,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Fortified
+Hero
 </td>" )
 	call Preload( "
 <td>
@@ -1663,8 +1707,10 @@ Fortified
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1715,11 +1761,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.180
 </td>" )
 	call Preload( "
 <td>
@@ -1727,7 +1773,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1738,8 +1784,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1790,11 +1838,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.180
 </td>" )
 	call Preload( "
 <td>
@@ -1802,7 +1850,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1813,8 +1861,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1829,7 +1879,7 @@ Alchemist
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -1865,11 +1915,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.500
 </td>" )
 	call Preload( "
 <td>
@@ -1877,7 +1927,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1888,8 +1938,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1940,11 +1992,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -1952,7 +2004,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -1963,8 +2015,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -1979,7 +2033,7 @@ Flame Shredder
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2015,11 +2069,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-0
+0.800
 </td>" )
 	call Preload( "
 <td>
@@ -2027,7 +2081,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2038,8 +2092,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2090,11 +2146,11 @@ None
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.900
 </td>" )
 	call Preload( "
 <td>
@@ -2102,7 +2158,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2113,8 +2169,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2129,7 +2187,7 @@ Beastmaster
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2165,11 +2223,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.200
 </td>" )
 	call Preload( "
 <td>
@@ -2177,7 +2235,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2188,8 +2246,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2204,7 +2264,7 @@ Firelord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2240,11 +2300,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.800
 </td>" )
 	call Preload( "
 <td>
@@ -2252,7 +2312,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2263,8 +2323,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2279,7 +2341,7 @@ Brewmaster
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2315,11 +2377,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.220
 </td>" )
 	call Preload( "
 <td>
@@ -2327,7 +2389,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2338,8 +2400,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2354,7 +2418,7 @@ Iron Fist
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2390,11 +2454,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.700
 </td>" )
 	call Preload( "
 <td>
@@ -2402,7 +2466,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Fortified
+Hero
 </td>" )
 	call Preload( "
 <td>
@@ -2413,8 +2477,10 @@ Fortified
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2429,7 +2495,7 @@ Shado Pan
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2465,11 +2531,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.770
 </td>" )
 	call Preload( "
 <td>
@@ -2477,7 +2543,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2488,8 +2554,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2504,7 +2572,7 @@ Dreadlord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2540,11 +2608,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.800
 </td>" )
 	call Preload( "
 <td>
@@ -2552,7 +2620,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2563,8 +2631,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2579,7 +2649,7 @@ Pit Lord
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -2615,11 +2685,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.050
 </td>" )
 	call Preload( "
 <td>
@@ -2627,7 +2697,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Fortified
+Hero
 </td>" )
 	call Preload( "
 <td>
@@ -2638,8 +2708,10 @@ Fortified
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2690,11 +2762,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -2702,7 +2774,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2713,8 +2785,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2729,7 +2803,7 @@ Succubus
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2765,11 +2839,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.420
 </td>" )
 	call Preload( "
 <td>
@@ -2777,7 +2851,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2788,8 +2862,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2840,11 +2916,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.800
 </td>" )
 	call Preload( "
 <td>
@@ -2852,7 +2928,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2863,8 +2939,10 @@ Normal
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2879,7 +2957,7 @@ Furbolg Ursa Warrior
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -2915,11 +2993,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.050
 </td>" )
 	call Preload( "
 <td>
@@ -2927,7 +3005,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -2938,8 +3016,10 @@ Normal
 700
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -2990,11 +3070,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -3002,7 +3082,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3013,8 +3093,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3029,7 +3111,7 @@ U. S. General
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3065,11 +3147,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -3077,7 +3159,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3088,8 +3170,10 @@ Small
 950
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3104,7 +3188,7 @@ Military Tribune
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3140,11 +3224,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -3152,7 +3236,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3163,8 +3247,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3215,11 +3301,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.640
 </td>" )
 	call Preload( "
 <td>
@@ -3227,7 +3313,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -3238,8 +3324,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3290,11 +3378,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.640
 </td>" )
 	call Preload( "
 <td>
@@ -3302,7 +3390,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -3313,8 +3401,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3329,7 +3419,7 @@ Supreme Martial Commander
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3365,11 +3455,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -3377,7 +3467,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3388,8 +3478,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3404,7 +3496,7 @@ Darth Tyranus
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3440,11 +3532,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -3452,7 +3544,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3463,8 +3555,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3479,7 +3573,7 @@ Jedi Master
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3515,11 +3609,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.000
 </td>" )
 	call Preload( "
 <td>
@@ -3527,7 +3621,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3538,8 +3632,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3554,7 +3650,7 @@ Thane
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3590,11 +3686,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.220
 </td>" )
 	call Preload( "
 <td>
@@ -3602,7 +3698,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3613,8 +3709,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3665,11 +3763,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-1
+1.640
 </td>" )
 	call Preload( "
 <td>
@@ -3677,7 +3775,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -3688,8 +3786,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3704,7 +3804,7 @@ Wolf Rider
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
 </td>" )
 	call Preload( "
 <td>
@@ -3740,11 +3840,11 @@ Hover
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.280
 </td>" )
 	call Preload( "
 <td>
@@ -3752,7 +3852,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Normal
+Medium
 </td>" )
 	call Preload( "
 <td>
@@ -3763,8 +3863,10 @@ Normal
 650
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3779,7 +3881,7 @@ Deathclaw
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3815,11 +3917,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.220
 </td>" )
 	call Preload( "
 <td>
@@ -3827,7 +3929,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3838,8 +3940,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
@@ -3854,7 +3958,7 @@ Worgen Death Knight
 </td>" )
 	call Preload( "
 <td>
-<img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
+<img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
 </td>" )
 	call Preload( "
 <td>
@@ -3890,11 +3994,11 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Magic
+Hero
 </td>" )
 	call Preload( "
 <td>
-2
+2.330
 </td>" )
 	call Preload( "
 <td>
@@ -3902,7 +4006,7 @@ Magic
 </td>" )
 	call Preload( "
 <td>
-Small
+Large
 </td>" )
 	call Preload( "
 <td>
@@ -3913,8 +4017,10 @@ Small
 550
 </td>" )
 	call Preload( "
+<td>
 <ul>
-</ul>" )
+</ul>
+</td>" )
 	call Preload( "
 </tr>
 " )
