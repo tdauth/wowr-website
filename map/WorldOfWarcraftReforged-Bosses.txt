@@ -1,2750 +1,3468 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>World of Warcraft Reforged - Bosses</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="description" content="World of Warcraft Reforged official website.">
-    <meta name="keywords" content="warcraft3 RPG Reforged custommap">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+function PreloadFiles takes nothing returns nothing
 
-    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
-    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
-</head>
-<body class="p-3 mb-2 bg-dark text-white">
-
-<h1>World of Warcraft Reforged - Bosses</h1>
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark border">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">News</a></li>
-            <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
-            <li class="nav-item"><a class="nav-link" href="herojourney.html">Hero Journey</a></li>
-            <li class="nav-item"><a class="nav-link" href="gamemodes.html">Game Modes</a></li>
-            <li class="nav-item"><a class="nav-link" href="heroes.html">Heroes</a></li>
-            <li class="nav-item"><a class="nav-link" href="spells.html">Spells</a></li>
-            <li class="nav-item"><a class="nav-link" href="professions.html">Professions</a></li>
-            <li class="nav-item"><a class="nav-link" href="races.html">Races</a></li>
-            <li class="nav-item"><a class="nav-link" href="researches.html">Researches</a></li>
-            <li class="nav-item"><a class="nav-link" href="items.html">Items</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#">Bosses</a></li>
-            <li class="nav-item"><a class="nav-link" href="creeps.html">Creeps</a></li>
-            <li class="nav-item"><a class="nav-link" href="neutralbuildings.html">Neutral Buildings</a></li>
-            <li class="nav-item"><a class="nav-link" href="quests.html">Quests</a></li>
-            <li class="nav-item"><a class="nav-link" href="chatcommands.html">Chat Commands</a></li>
-            <li class="nav-item"><a class="nav-link" href="locations.html">Locations</a></li>
-            <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
-            <li class="nav-item"><a class="nav-link" href="clans.html">Clans</a></li>
-            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://discord.gg/eM34z36">Discord</a></li>
-            <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCzGcsuPfRVqdaE87JYCK5zw">YouTube</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://github.com/tdauth/wowr">Development</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=ZAAKMQLSNGDK8">Donate</a></li>
-        </ul>
-    </div>
-</nav>
-
-Bosses are special creep heroes which can be killed to gain XP and one legendary item.
-They are located and special locations and protected by their servents.
-After killing a boss, you have to destroy the building which holds the legendary item to pick it up.
-Bosses will respawn like creeps after some time.
-
-<!-- Autogenerate from map file/object data: -->
-<table id="bosses">
-    <thead>
-        <tr>
-            <th>Icon</th>
-            <th>Model</th>
-            <th>Name</th>
-            <th>Location</th>
-            <!-- <th>Legendary Item</th> -->
-            <th>Level</th>
-            <th>Primary Attribute</th>
-            <th>Start Strength</th>
-            <th>Start Agility</th>
-            <th>Start Intelligence</th>
-            <th>Strength Per Level</th>
-            <th>Agility Per Level</th>
-            <th>Intelligence Per Level</th>
-            <th>Movement Type</th>
-            <th>Movement Speed</th>
-            <th>Attack Type</th>
-            <th>Attack Speed</th>
-            <th>Attack Range</th>
-            <th>Armor Type</th>
-            <th>Armor</th>
-            <th>Day Sight</th>
-            <th>Abilities</th>
-        </tr>
-    </thead>
-    <tbody>
-    <!--
-        <tr>
-            <td><img src="ReplaceableTextures\CommandButtons\BTNThunderLizard.blp" /></td>
-            <td><canvas id="myCanvas" width="200" height="100" data-file="units\creeps\ThunderLizardVizier\ThunderLizardVizier.mdl"></canvas></td>
-            <td>Stormbringer</td>
-            <td>Barrens</td>
-            <td><img src="ReplaceableTextures\CommandButtons\BTNThunderLizard.blp" /><a href="items.html#I005">Stormbringer's Horn</a></td>
-            <td>25</td>
-            <td><img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" /></td>
-        </tr>
-        -->
-
-<!-- Bosses generated with chat command "-website". -->
+	call PreloadStart()
+	call Preload( "
+Bosses:
+<!-- Bosses generated with chat command "-website". -->" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 War Queen
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 120
-</td>
+</td>" )
+	call Preload( "
 <td>
 76
-</td>
+</td>" )
+	call Preload( "
 <td>
 207
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 20
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNElune'sVision.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Goddess
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 195
-</td>
+</td>" )
+	call Preload( "
 <td>
 138
-</td>
+</td>" )
+	call Preload( "
 <td>
 182
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.400
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.600
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.250
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.050
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 52
-</td>
+</td>" )
+	call Preload( "
 <td>
 700
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Ranger
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 65
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 139
-</td>
+</td>" )
+	call Preload( "
 <td>
 115
-</td>
+</td>" )
+	call Preload( "
 <td>
 181
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.600
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 350
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.460
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 46
-</td>
+</td>" )
+	call Preload( "
 <td>
 700
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGhostMage.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Ghostly Archmage
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 55
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 111
-</td>
+</td>" )
+	call Preload( "
 <td>
 71
-</td>
+</td>" )
+	call Preload( "
 <td>
 191
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.130
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 19
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRagnaros.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Elemental Lord
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 40
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 93
-</td>
+</td>" )
+	call Preload( "
 <td>
 82
-</td>
+</td>" )
+	call Preload( "
 <td>
 115
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.600
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 29
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSeaWitch.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Naga Queen
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 147
-</td>
+</td>" )
+	call Preload( "
 <td>
 91
-</td>
+</td>" )
+	call Preload( "
 <td>
 255
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="Frost Arrows" /><a href="spells.html#">Frost Arrows</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="Watery Minion" /><a href="spells.html#">Watery Minion</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="Mana Shield" /><a href="spells.html#">Mana Shield</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="Volcano" /><a href="spells.html#">Volcano</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Elder Sage
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 163
-</td>
+</td>" )
+	call Preload( "
 <td>
 108
-</td>
+</td>" )
+	call Preload( "
 <td>
 226
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 128
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 31
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNShadowStrike.blp" title="Shadow Strike" /><a href="spells.html#">Shadow Strike</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="Feral Spirit" /><a href="spells.html#">Feral Spirit</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Tinker
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 197
-</td>
+</td>" )
+	call Preload( "
 <td>
 89
-</td>
+</td>" )
+	call Preload( "
 <td>
 212
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.400
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.600
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 290
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 128
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" title="Pocket Factory" /><a href="spells.html#">Pocket Factory</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="Cluster Rockets" /><a href="spells.html#">Cluster Rockets</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" title="Battle Roar" /><a href="spells.html#">Battle Roar</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="Cleaving Attack" /><a href="spells.html#">Cleaving Attack</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroAlchemist.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Alchemist
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 70
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 252
-</td>
+</td>" )
+	call Preload( "
 <td>
 79
-</td>
+</td>" )
+	call Preload( "
 <td>
 156
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.300
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 290
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 21
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp" title="Healing Spray" /><a href="spells.html#">Healing Spray</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChemicalRage.blp" title="Chemical Rage" /><a href="spells.html#">Chemical Rage</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp" title="Cluster Rockets" /><a href="spells.html#">Cluster Rockets</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAcidBomb.blp" title="Acid Bomb" /><a href="spells.html#">Acid Bomb</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="Transmute" /><a href="spells.html#">Transmute</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronIcon.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Old God of Death
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 147
-</td>
+</td>" )
+	call Preload( "
 <td>
 91
-</td>
+</td>" )
+	call Preload( "
 <td>
 255
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 1
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBreathOfFrost.blp" title="Breath of Frost" /><a href="spells.html#">Breath of Frost</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="Frost Arrows" /><a href="spells.html#">Frost Arrows</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" title="Frost Armor" /><a href="spells.html#">Frost Armor</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronMaceIcon.blp" title="Spawn Mace Tentacle" /><a href="spells.html#">Spawn Mace Tentacle</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNYogg-saronTentacleIcon.blp" title="Spawn Tentacle" /><a href="spells.html#">Spawn Tentacle</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNzothIcon.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Old God of Nightmares
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 147
-</td>
+</td>" )
+	call Preload( "
 <td>
 91
-</td>
+</td>" )
+	call Preload( "
 <td>
 255
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 1
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Old God of Madness and Chaos
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 147
-</td>
+</td>" )
+	call Preload( "
 <td>
 91
-</td>
+</td>" )
+	call Preload( "
 <td>
 255
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 1
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Avatar of Sargeras
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 222
-</td>
+</td>" )
+	call Preload( "
 <td>
 123
-</td>
+</td>" )
+	call Preload( "
 <td>
 150
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.700
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.330
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-large.webp" title="Large" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 35
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCripple.blp" title="Cripple" /><a href="spells.html#">Cripple</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGhost.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Sea Witch
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 70
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 138
-</td>
+</td>" )
+	call Preload( "
 <td>
 86
-</td>
+</td>" )
+	call Preload( "
 <td>
 239
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 23
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNColdArrowsOn.blp" title="Frost Arrows" /><a href="spells.html#">Frost Arrows</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="Mana Shield" /><a href="spells.html#">Mana Shield</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="Watery Minion" /><a href="spells.html#">Watery Minion</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNVolcano.blp" title="Volcano" /><a href="spells.html#">Volcano</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChaosWarlord.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Slave Master
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 195
-</td>
+</td>" )
+	call Preload( "
 <td>
 74
-</td>
+</td>" )
+	call Preload( "
 <td>
 137
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 Hover
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.280
-</td>
+</td>" )
+	call Preload( "
 <td>
 90
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 20
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" title="Silence" /><a href="spells.html#">Silence</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="Ensnare" /><a href="spells.html#">Ensnare</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp" title="Feral Spirit" /><a href="spells.html#">Feral Spirit</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" title="Transmute" /><a href="spells.html#">Transmute</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGuldan.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Warlock
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 221
-</td>
+</td>" )
+	call Preload( "
 <td>
 124
-</td>
+</td>" )
+	call Preload( "
 <td>
 150
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.700
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 270
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.280
-</td>
+</td>" )
+	call Preload( "
 <td>
 1500
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-large.webp" title="Large" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 37
-</td>
+</td>" )
+	call Preload( "
 <td>
 1550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="Rain of Fire" /><a href="spells.html#">Rain of Fire</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNManaDrain.blp" title="Siphon Mana" /><a href="spells.html#">Siphon Mana</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNLifeDrain.blp" title="Life Drain" /><a href="spells.html#">Life Drain</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" title="Mana Shield" /><a href="spells.html#">Mana Shield</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDragonEye.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 The Eye of Sargeras
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 147
-</td>
+</td>" )
+	call Preload( "
 <td>
 91
-</td>
+</td>" )
+	call Preload( "
 <td>
 255
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 1
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 38
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="Charm" /><a href="spells.html#">Charm</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Spider Crab Behemoth
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 262
-</td>
+</td>" )
+	call Preload( "
 <td>
 112
-</td>
+</td>" )
+	call Preload( "
 <td>
 125
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.300
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 300
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.050
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-armor-hero.webp" title="Hero" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 31
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="Ensnare" /><a href="spells.html#">Ensnare</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="Immolation" /><a href="spells.html#">Immolation</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHex.blp" title="Hex" /><a href="spells.html#">Hex</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" title="Summon Spider Crabs" /><a href="spells.html#">Summon Spider Crabs</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStarfall.blp" title="Starfall" /><a href="spells.html#">Starfall</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Murloc Sorcerer
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 120
-</td>
+</td>" )
+	call Preload( "
 <td>
 76
-</td>
+</td>" )
+	call Preload( "
 <td>
 207
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 39
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="Rain of Fire" /><a href="spells.html#">Rain of Fire</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="Crushing Wave" /><a href="spells.html#">Crushing Wave</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMurgulTideWarrior.blp" title="Watery Minion" /><a href="spells.html#">Watery Minion</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTornado.blp" title="Tornado" /><a href="spells.html#">Tornado</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Ancient Dragon Turtle
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 45
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 166
-</td>
+</td>" )
+	call Preload( "
 <td>
 73
-</td>
+</td>" )
+	call Preload( "
 <td>
 80
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.300
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 300
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.050
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-armor-hero.webp" title="Hero" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 19
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Monsoon" /><a href="spells.html#">Monsoon</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="Crushing Wave" /><a href="spells.html#">Crushing Wave</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="War Stomp" /><a href="spells.html#">War Stomp</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNThornShield.blp" title="Spiked Shell" /><a href="spells.html#">Spiked Shell</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Keeper of Ashbringer
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 45
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 140
-</td>
+</td>" )
+	call Preload( "
 <td>
 79
-</td>
+</td>" )
+	call Preload( "
 <td>
 96
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.700
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 270
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-large.webp" title="Large" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 54
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp" title="Holy Light" /><a href="spells.html#">Holy Light</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="Devotion Aura" /><a href="spells.html#">Devotion Aura</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSeaGiantGreen.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Sea Giant
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 40
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 150
-</td>
+</td>" )
+	call Preload( "
 <td>
 66
-</td>
+</td>" )
+	call Preload( "
 <td>
 72
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.300
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 300
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.050
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-armor-hero.webp" title="Hero" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 17
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Monsoon" /><a href="spells.html#">Monsoon</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" title="Crushing Wave" /><a href="spells.html#">Crushing Wave</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp" title="Summon Sea Elemental" /><a href="spells.html#">Summon Sea Elemental</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="War Stomp" /><a href="spells.html#">War Stomp</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Archimonde
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 205
-</td>
+</td>" )
+	call Preload( "
 <td>
 90
-</td>
+</td>" )
+	call Preload( "
 <td>
 351
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 4.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 270
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 500
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-unarmored.webp" title="Normal" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 40
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNStatUp.blp" title="Attribute Bonus" /><a href="spells.html#">Attribute Bonus</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 The Deceiver
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 167
-</td>
+</td>" )
+	call Preload( "
 <td>
 75
-</td>
+</td>" )
+	call Preload( "
 <td>
 283
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 4.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 270
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 500
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-unarmored.webp" title="Normal" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 20
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="Banish" /><a href="spells.html#">Banish</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp" title="Immolation" /><a href="spells.html#">Immolation</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="Rain of Chaos" /><a href="spells.html#">Rain of Chaos</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp" title="Demon Storm" /><a href="spells.html#">Demon Storm</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNetherDragon.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Nether Dragon
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 55
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 155
-</td>
+</td>" )
+	call Preload( "
 <td>
 70
-</td>
+</td>" )
+	call Preload( "
 <td>
 261
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 4.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 On Horse
-</td>
+</td>" )
+	call Preload( "
 <td>
 350
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 500
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-unarmored.webp" title="Normal" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 37
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFrostMourne.blp" title="Life Steal" /><a href="spells.html#">Life Steal</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNDevotion.blp" title="Devotion Aura" /><a href="spells.html#">Devotion Aura</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroDreadlord.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Varimathras the Betrayer
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 30
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 92
-</td>
+</td>" )
+	call Preload( "
 <td>
 45
-</td>
+</td>" )
+	call Preload( "
 <td>
 148
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 4.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 296
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 11
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSleep.blp" title="Sleep" /><a href="spells.html#">Sleep</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNVampiricAura.blp" title="Vampiric Aura" /><a href="spells.html#">Vampiric Aura</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCriticalStrike.blp" title="Critical Strike" /><a href="spells.html#">Critical Strike</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" title="Rain of Chaos" /><a href="spells.html#">Rain of Chaos</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Arch Lich
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 45
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 103
-</td>
+</td>" )
+	call Preload( "
 <td>
 58
-</td>
+</td>" )
+	call Preload( "
 <td>
 169
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.000
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.400
-</td>
+</td>" )
+	call Preload( "
 <td>
 None
-</td>
+</td>" )
+	call Preload( "
 <td>
 493
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 15
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="Frost Nova" /><a href="spells.html#">Frost Nova</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp" title="Frost Armor" /><a href="spells.html#">Frost Armor</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBanish.blp" title="Banish" /><a href="spells.html#">Banish</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp" title="Dark Ritual" /><a href="spells.html#">Dark Ritual</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Hydra Queen
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 101
-</td>
+</td>" )
+	call Preload( "
 <td>
 46
-</td>
+</td>" )
+	call Preload( "
 <td>
 46
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.300
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 405
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.050
-</td>
+</td>" )
+	call Preload( "
 <td>
 128
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 12
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNShockWave.blp" title="Shockwave" /><a href="spells.html#">Shockwave</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWarStomp.blp" title="War Stomp" /><a href="spells.html#">War Stomp</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCommand.blp" title="Endurance Aura" /><a href="spells.html#">Endurance Aura</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Dragon Temple Guardian
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-agi.webp" title="agility" alt="agility" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 160
-</td>
+</td>" )
+	call Preload( "
 <td>
 109
-</td>
+</td>" )
+	call Preload( "
 <td>
 139
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.400
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.100
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.700
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 35
-</td>
+</td>" )
+	call Preload( "
 <td>
 700
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="Mana Burn" /><a href="spells.html#">Mana Burn</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp" title="Bash" /><a href="spells.html#">Bash</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNResurrection.blp" title="Resurrection" /><a href="spells.html#">Resurrection</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Void Revenant
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 50
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 155
-</td>
+</td>" )
+	call Preload( "
 <td>
 85
-</td>
+</td>" )
+	call Preload( "
 <td>
 105
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.700
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 512
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.330
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-large.webp" title="Large" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 24
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDivineIntervention.blp" title="Divine Shield" /><a href="spells.html#">Divine Shield</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp" title="Unholy Aura" /><a href="spells.html#">Unholy Aura</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNDrunkenDodge.blp" title="Drunken Brawler" /><a href="spells.html#">Drunken Brawler</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCorpseExplode.blp" title="Finger of Death" /><a href="spells.html#">Finger of Death</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFacelessOne.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Faceless Nightmare
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 40
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 150
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 76
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.600
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 318
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.900
-</td>
+</td>" )
+	call Preload( "
 <td>
 128
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 16
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWallOfFire.blp" title="Flame Strike" /><a href="spells.html#">Flame Strike</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGlacier.blp" title="Frost Nova" /><a href="spells.html#">Frost Nova</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNImpale.blp" title="Impale" /><a href="spells.html#">Impale</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="Touch of Darkness" /><a href="spells.html#">Touch of Darkness</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMirrorImage.blp" title="Mirror Image" /><a href="spells.html#">Mirror Image</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Stormbringer
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-int.webp" title="intelligence" alt="intelligence" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 59
-</td>
+</td>" )
+	call Preload( "
 <td>
 51
-</td>
+</td>" )
+	call Preload( "
 <td>
 82
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.800
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.700
-</td>
+</td>" )
+	call Preload( "
 <td>
 Hover
-</td>
+</td>" )
+	call Preload( "
 <td>
 320
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.180
-</td>
+</td>" )
+	call Preload( "
 <td>
 600
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 13
-</td>
+</td>" )
+	call Preload( "
 <td>
 650
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp" title="Chain Lightning" /><a href="spells.html#">Chain Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Forked Lightning" /><a href="spells.html#">Forked Lightning</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNManaBurn.blp" title="Mana Burn" /><a href="spells.html#">Mana Burn</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMonsoon.blp" title="Monsoon" /><a href="spells.html#">Monsoon</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStampede.blp" title="Stampede" /><a href="spells.html#">Stampede</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
-
+" )
+	call Preload( "
 <tr id="">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 Felwood's Pain
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 ???
-</td>
+</td>" )
+	call Preload( "
 <td>
 60
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img class="primary-attribute" src="images/Infocard-heroattributes-str.webp" title="strength" alt="strength" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 214
-</td>
+</td>" )
+	call Preload( "
 <td>
 92
-</td>
+</td>" )
+	call Preload( "
 <td>
 102
-</td>
+</td>" )
+	call Preload( "
 <td>
 3.200
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.300
-</td>
+</td>" )
+	call Preload( "
 <td>
 1.500
-</td>
+</td>" )
+	call Preload( "
 <td>
 Foot
-</td>
+</td>" )
+	call Preload( "
 <td>
 329
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-neutral-attack-chaos.webp" title="Chaos" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 2.050
-</td>
+</td>" )
+	call Preload( "
 <td>
 100
-</td>
+</td>" )
+	call Preload( "
 <td>
 <img src="images\\Infocard-armor-hero.webp" title="Hero" />
-</td>
+</td>" )
+	call Preload( "
 <td>
 25
-</td>
+</td>" )
+	call Preload( "
 <td>
 550
-</td>
+</td>" )
+	call Preload( "
 <td>
 <ul>
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNThunderclap.blp" title="Thunder Clap" /><a href="spells.html#">Thunder Clap</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHowlOfTerror.blp" title="Howl of Terror" /><a href="spells.html#">Howl of Terror</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNCleavingAttack.blp" title="Cleaving Attack" /><a href="spells.html#">Cleaving Attack</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="Demon Master" /><a href="spells.html#">Demon Master</a>
-</li>
+</li>" )
+	call Preload( "
 <li>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp" title="Reincarnation" /><a href="spells.html#">Reincarnation</a>
-</li>
+</li>" )
+	call Preload( "
 </ul>
-</td>
+</td>" )
+	call Preload( "
 </tr>
+" )
+	call PreloadEnd( 0.4 )
 
-    </tbody>
-</table>
+endfunction
 
-<script>
-    $('#bosses').dataTable({
-        "paging": false,//Dont want paging
-    });
 
-    /*
-    const canvas = document.getElementById("myCanvas");
-    const viewer = new ModelViewer.viewer.ModelViewer(canvas);
-    const scene = viewer.addScene();
-
-    // Move the camera backwards a bit, so we can actually see the origin.
-    scene.camera.move([0, 0, 500]);
-
-    (function step() {
-    requestAnimationFrame(step);
-
-    viewer.updateAndRender();
-    }());
-
-    viewer.addHandler(ModelViewer.viewer.handlers.mdx);
-    viewer.addHandler(ModelViewer.viewer.handlers.blp);
-
-    function pathSolver(path) {
-        return path;
-    }
-
-    const modelPromise = viewer.load(canvas.getAttribute('data-file'), pathSolver);
-    addEventListener('load', function (e) {
-        console.log('Load.');
-    });
-    addEventListener('error', function (e) {
-        console.log('Error.');
-    });
-    addEventListener('loadend', function (e) {
-        console.log('Load End.');
-    });
-
-    modelPromise.then(function(model) {
-        console.log('Loaded model.');
-        const instance = model.model.addInstance();
-        instance.setSequence(0); // First animation.
-    });
-    */
-</script>
-
-</body>
-</html> 
