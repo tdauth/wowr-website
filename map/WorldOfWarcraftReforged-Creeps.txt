@@ -39,7 +39,7 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Medium
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>" )
 	call Preload( "
 <td>
@@ -47,7 +47,7 @@ Medium
 </td>" )
 	call Preload( "
 <td>
-Melee
+<img src="images\\Infocard-neutral-attack-melee.webp" title="Melee" />
 </td>" )
 	call Preload( "
 </tr>
@@ -87,7 +87,7 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Medium
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>" )
 	call Preload( "
 <td>
@@ -95,7 +95,7 @@ Medium
 </td>" )
 	call Preload( "
 <td>
-Pierce
+<img src="images\\Infocard-neutral-attack-piercing.webp" title="Pierce" />
 </td>" )
 	call Preload( "
 </tr>
@@ -135,7 +135,7 @@ Foot
 </td>" )
 	call Preload( "
 <td>
-Medium
+<img src="images\\Infocard-neutral-armor-medium.webp" title="Medium" />
 </td>" )
 	call Preload( "
 <td>
@@ -143,7 +143,7 @@ Medium
 </td>" )
 	call Preload( "
 <td>
-Melee
+<img src="images\\Infocard-neutral-attack-melee.webp" title="Melee" />
 </td>" )
 	call Preload( "
 </tr>
