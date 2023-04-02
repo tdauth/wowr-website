@@ -2,9 +2,9 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "
-<!-- Creeps generated with chat command "-website". -->" )
+<!-- Buildings generated with chat command "-website". -->" )
 	call Preload( "
-<tr id="">
+<tr id="n049">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </td>" )
@@ -70,13 +70,13 @@ Hero Abilities
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n06S">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMerchant.blp" title="ReplaceableTextures\\CommandButtons\\BTNMerchant.blp" />
 </td>" )
@@ -142,13 +142,13 @@ Equipment Laboratory
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h0J2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNsteelcage.blp" title="ReplaceableTextures\\CommandButtons\\BTNsteelcage.blp" />
 </td>" )
@@ -214,13 +214,13 @@ Allows crafting items using the items in its inventory. You can drop items from 
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n09D">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNThievesGuildX.blp" title="ReplaceableTextures\\CommandButtons\\BTNThievesGuildX.blp" />
 </td>" )
@@ -286,13 +286,13 @@ Sells units killed from creeps and enemy players.<br/><br/><div style="color: #f
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="nmrk">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp" />
 </td>" )
@@ -358,13 +358,13 @@ Sells items dropped from creeps.<br/><br/><div style="color: #ffcc00">Limited to
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ngme">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMerchant.blp" title="ReplaceableTextures\\CommandButtons\\BTNMerchant.blp" />
 </td>" )
@@ -378,7 +378,7 @@ Black Market
 </td>" )
 	call Preload( "
 <td>
-
+Neutral shop with all kinds of items to improve your hero and unit stats and to build a Hideout for Freelancers.
 </td>" )
 	call Preload( "
 <td>
@@ -430,13 +430,13 @@ Black Market
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ngad">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" title="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" />
 </td>" )
@@ -502,13 +502,13 @@ Goblin Laboratory
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ngol">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoldMine.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoldMine.blp" />
 </td>" )
@@ -574,13 +574,13 @@ Gold Mine
 </td>" )
 	call Preload( "
 <td>
-0.000
+0
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="nwgt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWaygate.blp" title="ReplaceableTextures\\CommandButtons\\BTNWaygate.blp" />
 </td>" )
@@ -646,13 +646,13 @@ Way Gate
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="nfoh">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLife.blp" />
 </td>" )
@@ -718,13 +718,13 @@ Fountain of Health
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="nmoo">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLife.blp" />
 </td>" )
@@ -790,13 +790,13 @@ Fountain of Mana
 </td>" )
 	call Preload( "
 <td>
-0.000
+0
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n079">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCage.blp" title="ReplaceableTextures\\CommandButtons\\BTNCage.blp" />
 </td>" )
@@ -810,7 +810,7 @@ Zoo
 </td>" )
 	call Preload( "
 <td>
-
+Sells pets.
 </td>" )
 	call Preload( "
 <td>
@@ -862,13 +862,13 @@ Zoo
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n0CD">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp" />
 </td>" )
@@ -934,13 +934,13 @@ Alchemist Lab
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n0AN">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </td>" )
@@ -1006,13 +1006,13 @@ Allows buying hero spells for slot 1.
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n08I">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </td>" )
@@ -1078,13 +1078,13 @@ Hero Spells Slot 2
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n06Y">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </td>" )
@@ -1150,13 +1150,13 @@ Hero Spells Slot 3
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n08H">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </td>" )
@@ -1222,13 +1222,13 @@ Hero Spells Slot 4
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n08G">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </td>" )
@@ -1294,13 +1294,13 @@ Hero Spells Slot 5
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o041">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTaurenTotem.blp" title="ReplaceableTextures\\CommandButtons\\BTNTaurenTotem.blp" />
 </td>" )
@@ -1366,13 +1366,13 @@ Trains Flame Tanks, Assault Tanks, Goblin Emperors and Goblin Steam Rollers. <br
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n06U">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCage.blp" title="ReplaceableTextures\\CommandButtons\\BTNCage.blp" />
 </td>" )
@@ -1438,13 +1438,13 @@ Mounts Cage
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hhou">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFarm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarm.blp" />
 </td>" )
@@ -1510,13 +1510,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="halt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfKings.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfKings.blp" />
 </td>" )
@@ -1582,13 +1582,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hlum">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHumanLumberMill.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanLumberMill.blp" />
 </td>" )
@@ -1654,13 +1654,13 @@ Serves as a drop-off point for harvested lumber. <br/>Also contains the upgrades
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hbla">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBlacksmith.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlacksmith.blp" />
 </td>" )
@@ -1726,13 +1726,13 @@ Contains upgrades for improved armor, weaponry and gunpowder.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hbar">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHumanBarracks.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanBarracks.blp" />
 </td>" )
@@ -1798,13 +1798,13 @@ Primary troop production building. Trains Footmen, Riflemen and Knights. <br/>Al
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hvlt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNArcaneVault.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcaneVault.blp" />
 </td>" )
@@ -1870,13 +1870,13 @@ Creates a shop with purchasable items. The items available depend upon what leve
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hgtw">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGuardTower.blp" title="ReplaceableTextures\\CommandButtons\\BTNGuardTower.blp" />
 </td>" )
@@ -1942,13 +1942,13 @@ Primary defensive structure. Can learn the Magic Sentry ability. <br/><br/><div 
 </td>" )
 	call Preload( "
 <td>
-750.000
+750
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hars">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNArcaneSanctum.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcaneSanctum.blp" />
 </td>" )
@@ -2014,13 +2014,13 @@ Trains Priests, and Sorceresses. <br/>Also contains spell upgrades for Priests a
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="harm">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWorkshop.blp" title="ReplaceableTextures\\CommandButtons\\BTNWorkshop.blp" />
 </td>" )
@@ -2086,13 +2086,13 @@ Produces Siege Engines, Flying Machines, and Mortar Teams. <br/>Also contains th
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hgra">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGryphonAviary.blp" title="ReplaceableTextures\\CommandButtons\\BTNGryphonAviary.blp" />
 </td>" )
@@ -2158,13 +2158,13 @@ Trains Gryphon Riders, and Dragonhawk Riders. <br/>Also contains the Storm Hamme
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="htow">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" />
 </td>" )
@@ -2230,13 +2230,13 @@ Primary structure, used to train Peasants and receive gathered resources. Can be
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hkee">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKeep.blp" title="ReplaceableTextures\\CommandButtons\\BTNKeep.blp" />
 </td>" )
@@ -2302,13 +2302,13 @@ Upgrade to Keep to enable the production of additional types of structures and u
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hcas">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCastle.blp" title="ReplaceableTextures\\CommandButtons\\BTNCastle.blp" />
 </td>" )
@@ -2374,13 +2374,13 @@ Upgrade to Castle to enable the production of additional types of structures and
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h010">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHumanShipyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNHumanShipyard.blp" />
 </td>" )
@@ -2446,13 +2446,13 @@ Boat construction facility. Produces Human Transport Ships, Human Frigates, and 
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="otrb">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTrollBurrow.blp" title="ReplaceableTextures\\CommandButtons\\BTNTrollBurrow.blp" />
 </td>" )
@@ -2518,13 +2518,13 @@ Provides food, which increases the maximum number of units that can be trained. 
 </td>" )
 	call Preload( "
 <td>
-750.000
+750
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="oalt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfStorms.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfStorms.blp" />
 </td>" )
@@ -2590,13 +2590,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ofor">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNForge.blp" title="ReplaceableTextures\\CommandButtons\\BTNForge.blp" />
 </td>" )
@@ -2662,13 +2662,13 @@ Serves as a drop-off point for harvested lumber. <br/>Also contains upgrades for
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ofor">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNForge.blp" title="ReplaceableTextures\\CommandButtons\\BTNForge.blp" />
 </td>" )
@@ -2734,13 +2734,13 @@ Serves as a drop-off point for harvested lumber. <br/>Also contains upgrades for
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="obar">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBarracks.blp" title="ReplaceableTextures\\CommandButtons\\BTNBarracks.blp" />
 </td>" )
@@ -2806,13 +2806,13 @@ Primary troop production building. Trains Grunts, Headhunters and Demolishers. <
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ovln">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNVoodooLounge.blp" title="ReplaceableTextures\\CommandButtons\\BTNVoodooLounge.blp" />
 </td>" )
@@ -2878,13 +2878,13 @@ Creates a shop with purchasable items. The items available depend upon what leve
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="owtw">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNOrcTower.blp" title="ReplaceableTextures\\CommandButtons\\BTNOrcTower.blp" />
 </td>" )
@@ -2950,13 +2950,13 @@ Defensive structure. Can learn the Reinforced Defenses upgrade. <br/><br/><div s
 </td>" )
 	call Preload( "
 <td>
-950.000
+950
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="osld">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSpiritLodge.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritLodge.blp" />
 </td>" )
@@ -3022,13 +3022,13 @@ Spellcaster production building. Trains Shaman and Witch Doctors. <br/>Also cont
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="obar">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBarracks.blp" title="ReplaceableTextures\\CommandButtons\\BTNBarracks.blp" />
 </td>" )
@@ -3094,13 +3094,13 @@ Primary troop production building. Trains Grunts, Headhunters and Demolishers. <
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="otto">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTaurenTotem.blp" title="ReplaceableTextures\\CommandButtons\\BTNTaurenTotem.blp" />
 </td>" )
@@ -3166,13 +3166,13 @@ Trains Spirit Walkers and Tauren. <br/>Also contains upgrades for Spirit Walkers
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ogre">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" />
 </td>" )
@@ -3238,13 +3238,13 @@ Primary structure, used to train Peons and receive gathered resources. Can be up
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ostr">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStronghold.blp" title="ReplaceableTextures\\CommandButtons\\BTNStronghold.blp" />
 </td>" )
@@ -3310,13 +3310,13 @@ Upgrade to Stronghold to enable the production of additional types of structures
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ofrt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFortress.blp" title="ReplaceableTextures\\CommandButtons\\BTNFortress.blp" />
 </td>" )
@@ -3382,13 +3382,13 @@ Upgrade to Fortress to enable the production of additional types of structures a
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o009">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinShipyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinShipyard.blp" />
 </td>" )
@@ -3454,13 +3454,13 @@ Boat construction facility. Produces Orc Transport Ships, Orc Frigates, and Orc 
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="uzig">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNZiggurat.blp" title="ReplaceableTextures\\CommandButtons\\BTNZiggurat.blp" />
 </td>" )
@@ -3526,13 +3526,13 @@ Provides food, which increases the maximum number of units that can be trained. 
 </td>" )
 	call Preload( "
 <td>
-1600.000
+1600
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="uaod">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfDarkness.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfDarkness.blp" />
 </td>" )
@@ -3598,13 +3598,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ugrv">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGraveyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNGraveyard.blp" />
 </td>" )
@@ -3670,13 +3670,13 @@ Provides attack and armor upgrades for Undead units. Also produces corpses and s
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ugrv">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGraveyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNGraveyard.blp" />
 </td>" )
@@ -3742,13 +3742,13 @@ Provides attack and armor upgrades for Undead units. Also produces corpses and s
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="usep">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCrypt.blp" title="ReplaceableTextures\\CommandButtons\\BTNCrypt.blp" />
 </td>" )
@@ -3814,13 +3814,13 @@ Primary troop production building. Trains Ghouls, Crypt Fiends, and Gargoyles. A
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="utom">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTombOfRelics.blp" title="ReplaceableTextures\\CommandButtons\\BTNTombOfRelics.blp" />
 </td>" )
@@ -3886,13 +3886,13 @@ Creates a shop with purchasable items. The items available depend upon what leve
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="uzg1">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNZigguratUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNZigguratUpgrade.blp" />
 </td>" )
@@ -3958,13 +3958,13 @@ Upgrade to create a defensive structure. <br/><br/><div style="color: #ffcc00">A
 </td>" )
 	call Preload( "
 <td>
-950.000
+950
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="utod">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTempleOfTheDamned.blp" title="ReplaceableTextures\\CommandButtons\\BTNTempleOfTheDamned.blp" />
 </td>" )
@@ -4030,13 +4030,13 @@ Spellcaster production building. Trains Necromancers and Banshees. <br/>Also con
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="uslh">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSlaughterhouse.blp" title="ReplaceableTextures\\CommandButtons\\BTNSlaughterhouse.blp" />
 </td>" )
@@ -4102,13 +4102,13 @@ Produces Abominations, Obsidian Statues, and Meat Wagons. Also contains the Dise
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ubon">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBoneyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNBoneyard.blp" />
 </td>" )
@@ -4174,13 +4174,13 @@ Produces Frost Wyrms. Also contains the Freezing Breath upgrade.
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="unpl">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" title="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" />
 </td>" )
@@ -4246,13 +4246,13 @@ Primary structure, used to train Acolytes and receive lumber gathered by Ghouls.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="unp1">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHallOfTheDead.blp" title="ReplaceableTextures\\CommandButtons\\BTNHallOfTheDead.blp" />
 </td>" )
@@ -4318,13 +4318,13 @@ Upgrade to Halls of the Dead to enable the production of additional types of str
 </td>" )
 	call Preload( "
 <td>
-850.000
+850
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="unp2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBlackCitadel.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlackCitadel.blp" />
 </td>" )
@@ -4390,13 +4390,13 @@ Upgrade to Black Citadel to enable the production of additional types of structu
 </td>" )
 	call Preload( "
 <td>
-850.000
+850
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00K">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNUndeadShipyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNUndeadShipyard.blp" />
 </td>" )
@@ -4462,13 +4462,13 @@ Boat construction facility. Produces Undead Transport Ships, Undead Frigates, an
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="emow">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMoonWell.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonWell.blp" />
 </td>" )
@@ -4534,13 +4534,13 @@ Provides food, which increases the maximum number of units that can be trained. 
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="eate">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfElders.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfElders.blp" />
 </td>" )
@@ -4606,13 +4606,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="edob">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHuntersHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNHuntersHall.blp" />
 </td>" )
@@ -4678,13 +4678,13 @@ Contains the attack and armor upgrades for all units, the Ultravision and Well S
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="edob">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHuntersHall.blp" title="ReplaceableTextures\\CommandButtons\\BTNHuntersHall.blp" />
 </td>" )
@@ -4750,13 +4750,13 @@ Contains the attack and armor upgrades for all units, the Ultravision and Well S
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="eaom">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAncientOfTheEarth.blp" title="ReplaceableTextures\\CommandButtons\\BTNAncientOfTheEarth.blp" />
 </td>" )
@@ -4822,13 +4822,13 @@ Keeper of primary assault troops. Trains Archers, Huntresses, and Glaive Thrower
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="eden">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAncientOfWonders.blp" title="ReplaceableTextures\\CommandButtons\\BTNAncientOfWonders.blp" />
 </td>" )
@@ -4893,13 +4893,13 @@ Creates a shop with purchasable items. The items available depend upon what leve
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="etrp">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTreant.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreant.blp" />
 </td>" )
@@ -4965,13 +4965,13 @@ Defensive Ancient. When rooted in the ground, can hurl enormous rocks at nearby 
 </td>" )
 	call Preload( "
 <td>
-750.000
+750
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="eaoe">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAncientOfLore.blp" title="ReplaceableTextures\\CommandButtons\\BTNAncientOfLore.blp" />
 </td>" )
@@ -5036,13 +5036,13 @@ Keeper of ground based spellcasters. Trains Druids of the Claw, Dryads, and Moun
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="eaom">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAncientOfTheEarth.blp" title="ReplaceableTextures\\CommandButtons\\BTNAncientOfTheEarth.blp" />
 </td>" )
@@ -5108,13 +5108,13 @@ Keeper of primary assault troops. Trains Archers, Huntresses, and Glaive Thrower
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="edos">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChimaeraRoost.blp" title="ReplaceableTextures\\CommandButtons\\BTNChimaeraRoost.blp" />
 </td>" )
@@ -5180,13 +5180,13 @@ Trains Chimaeras. <br/>Also contains the Corrosive Breath upgrade.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="etol">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
 </td>" )
@@ -5251,13 +5251,13 @@ Primary structure, used to train Wisps and entangle gold mines. Can be upgraded 
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="etoa">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfAges.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfAges.blp" />
 </td>" )
@@ -5323,13 +5323,13 @@ Upgrade to Tree of Ages to enable the production of additional types of structur
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="etoe">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfEternity.blp" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfEternity.blp" />
 </td>" )
@@ -5395,13 +5395,13 @@ Upgrade to Tree of Eternity to enable the production of additional types of stru
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="e009">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNNightElfShipyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNNightElfShipyard.blp" />
 </td>" )
@@ -5467,13 +5467,13 @@ Boat construction facility. Produces Night Elf Transport Ships, Night Elf Frigat
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="hhou">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFarm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarm.blp" />
 </td>" )
@@ -5539,13 +5539,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="halt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfKings.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfKings.blp" />
 </td>" )
@@ -5611,13 +5611,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="nnfm">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCoralBed.blp" title="ReplaceableTextures\\CommandButtons\\BTNCoralBed.blp" />
 </td>" )
@@ -5683,13 +5683,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-1200.000
+1200
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="nnad">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfDepths.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfDepths.blp" />
 </td>" )
@@ -5755,13 +5755,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-1800.000
+1800
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u007">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalCannon.blp" />
 </td>" )
@@ -5827,13 +5827,13 @@ Provides food, which increases the maximum number of units that can be trained. 
 </td>" )
 	call Preload( "
 <td>
-1600.000
+1600
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u008">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfTerror.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfTerror.blp" />
 </td>" )
@@ -5899,13 +5899,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u009">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRockTower.blp" title="ReplaceableTextures\\CommandButtons\\BTNRockTower.blp" />
 </td>" )
@@ -5971,13 +5971,13 @@ Provides attack and armor upgrades for Demon units. Also serves as a drop-off po
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u009">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRockTower.blp" title="ReplaceableTextures\\CommandButtons\\BTNRockTower.blp" />
 </td>" )
@@ -6043,13 +6043,13 @@ Provides attack and armor upgrades for Demon units. Also serves as a drop-off po
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00A">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />
 </td>" )
@@ -6115,13 +6115,13 @@ Primary troop production building. Trains Overlords, Fel Stalkers, and Nether Dr
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00G">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarkOfFire.blp" />
 </td>" )
@@ -6187,13 +6187,13 @@ Creates a shop with purchasable items. The items available depend upon what leve
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00H">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNInfernalFlameCannon.blp" title="ReplaceableTextures\\CommandButtons\\BTNInfernalFlameCannon.blp" />
 </td>" )
@@ -6259,13 +6259,13 @@ Upgrade to create a defensive structure. <br/><br/><div style="color: #ffcc00">A
 </td>" )
 	call Preload( "
 <td>
-950.000
+950
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00C">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFire.blp" title="ReplaceableTextures\\CommandButtons\\BTNFire.blp" />
 </td>" )
@@ -6331,13 +6331,13 @@ Spellcaster production building. Trains Eredar Sorcerers and Succubus. <br/>Also
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00B">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNPortal.blp" />
 </td>" )
@@ -6403,13 +6403,13 @@ Produces Doom Guards, Greater Voidwalker and Infernal Machines. Also contains th
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00D">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNUndeadShrine.blp" title="ReplaceableTextures\\CommandButtons\\BTNUndeadShrine.blp" />
 </td>" )
@@ -6475,13 +6475,13 @@ Trains Infernals. Also contains the Permanent Immolation, Hardened Skin and Resi
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u005">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" />
 </td>" )
@@ -6547,13 +6547,13 @@ Primary structure, used to train Gan'arg Engineers and receive lumber gathered b
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00E">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" />
 </td>" )
@@ -6619,13 +6619,13 @@ Upgrade to Large Demon Gate to enable the production of additional types of stru
 </td>" )
 	call Preload( "
 <td>
-850.000
+850
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u00F">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" />
 </td>" )
@@ -6691,13 +6691,13 @@ Upgrade to Gigantic Demon Gate to enable the production of additional types of s
 </td>" )
 	call Preload( "
 <td>
-850.000
+850
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="u017">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNUndeadShipyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNUndeadShipyard.blp" />
 </td>" )
@@ -6763,13 +6763,13 @@ Boat construction facility. Produces Undead Transport Ships, Undead Frigates, an
 </td>" )
 	call Preload( "
 <td>
-500.000
+500
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ndh4">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDranaiHut.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiHut.blp" />
 </td>" )
@@ -6835,13 +6835,13 @@ Produces Draenei Seers, Harbingers and Tamed Nether Drakes.
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="ndh2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" />
 </td>" )
@@ -6907,13 +6907,13 @@ Allows the collection of gold, produces Laborers and can revive Heroes.
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="n028">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" title="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" />
 </td>" )
@@ -6979,13 +6979,13 @@ Provides food. Can cast Battle Stations which leads to Furbolgs entering the hut
 </td>" )
 	call Preload( "
 <td>
-550.000
+550
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h01R">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNResStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNResStone.blp" />
 </td>" )
@@ -7051,13 +7051,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o019">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinSheepProcessor.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinSheepProcessor.blp" />
 </td>" )
@@ -7123,13 +7123,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-750.000
+750
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o00T">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfStorms.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfStorms.blp" />
 </td>" )
@@ -7195,13 +7195,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o00O">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" />
 </td>" )
@@ -7267,13 +7267,13 @@ Primary structure, used to train Goblin Laborerers, Goblin Shredders Goblin Citi
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o00O">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" />
 </td>" )
@@ -7339,13 +7339,13 @@ Primary structure, used to train Goblin Laborerers, Goblin Shredders Goblin Citi
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o00O">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" />
 </td>" )
@@ -7411,13 +7411,13 @@ Primary structure, used to train Goblin Laborerers, Goblin Shredders Goblin Citi
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o01B">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGoblinShipyard.blp" title="ReplaceableTextures\\CommandButtons\\BTNGoblinShipyard.blp" />
 </td>" )
@@ -7483,13 +7483,13 @@ Boat construction facility. Produces Goblin Submarines, Engineer Ships, Transpor
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h033">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenAltar.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarvenAltar.blp" />
 </td>" )
@@ -7555,13 +7555,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h04B">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNElvenFarm.blp" title="ReplaceableTextures\\CommandButtons\\BTNElvenFarm.blp" />
 </td>" )
@@ -7627,13 +7627,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h042">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarofEternity.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarofEternity.blp" />
 </td>" )
@@ -7699,13 +7699,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h053">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGeneradorazul.blp" title="ReplaceableTextures\\CommandButtons\\BTNGeneradorazul.blp" />
 </td>" )
@@ -7771,13 +7771,13 @@ Provides food, which increases the maximum number of units that can be trained. 
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h09L">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNElvenAltarOfKings.blp" title="ReplaceableTextures\\CommandButtons\\BTNElvenAltarOfKings.blp" />
 </td>" )
@@ -7843,13 +7843,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h05B">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKultirasHouse.blp" title="ReplaceableTextures\\CommandButtons\\BTNKultirasHouse.blp" />
 </td>" )
@@ -7915,13 +7915,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h05A">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKultirasAltar.blp" title="ReplaceableTextures\\CommandButtons\\BTNKultirasAltar.blp" />
 </td>" )
@@ -7987,13 +7987,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h06R">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPandarianHut.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarianHut.blp" />
 </td>" )
@@ -8059,13 +8059,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h0A7">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNElementalShrine.blp" title="ReplaceableTextures\\CommandButtons\\BTNElementalShrine.blp" />
 </td>" )
@@ -8131,13 +8131,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o02E">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" title="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" />
 </td>" )
@@ -8203,13 +8203,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-750.000
+750
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o02P">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfBlood.blp" />
 </td>" )
@@ -8275,13 +8275,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o039">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNtentTauren.blp" title="ReplaceableTextures\\CommandButtons\\BTNtentTauren.blp" />
 </td>" )
@@ -8347,13 +8347,13 @@ Provides food, which increases the maximum number of units that can be trained. 
 </td>" )
 	call Preload( "
 <td>
-750.000
+750
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="oalt">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNAltarOfStorms.blp" title="ReplaceableTextures\\CommandButtons\\BTNAltarOfStorms.blp" />
 </td>" )
@@ -8419,13 +8419,13 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="o020">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTurbolazer.blp" title="ReplaceableTextures\\CommandButtons\\BTNTurbolazer.blp" />
 </td>" )
@@ -8491,13 +8491,13 @@ Defensive structure. Produces food, allows returning lumber and provides researc
 </td>" )
 	call Preload( "
 <td>
-950.000
+950
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h0AS">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHousing.blp" title="ReplaceableTextures\\CommandButtons\\BTNHousing.blp" />
 </td>" )
@@ -8563,13 +8563,13 @@ Provides food, which increases the maximum number of units that can be trained.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
 	call Preload( "
-<tr id="">
+<tr id="h0AT">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMedievalTavern.blp" title="ReplaceableTextures\\CommandButtons\\BTNMedievalTavern.blp" />
 </td>" )
@@ -8635,12 +8635,12 @@ Summons Heroes. Revives slain Heroes.
 </td>" )
 	call Preload( "
 <td>
-900.000
+900
 </td>" )
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 8.5 )
+	call PreloadEnd( 10.0 )
 
 endfunction
 

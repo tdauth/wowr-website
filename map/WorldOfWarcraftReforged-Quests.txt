@@ -20,7 +20,7 @@ Landazar
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" /><a href="items.html#">Ring of the Archmagi</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" /><a href="items.html#ram4">Ring of the Archmagi</a>
 </td>" )
 	call Preload( "
 <td>
@@ -46,7 +46,7 @@ Magni Bronzebeard
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="items.html#">Bladebane Armor</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="items.html#blba">Bladebane Armor</a>
 </td>" )
 	call Preload( "
 <td>
@@ -73,7 +73,7 @@ Magni Bronzebeard
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /><a href="items.html#">Muradin´s Axe</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /><a href="items.html#I01B">Muradin´s Axe</a>
 </td>" )
 	call Preload( "
 <td>
@@ -100,7 +100,7 @@ Anduin Wrynn
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" /><a href="items.html#">Royal Paladin Hammer</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" /><a href="items.html#I01C">Royal Paladin Hammer</a>
 </td>" )
 	call Preload( "
 <td>
@@ -127,7 +127,7 @@ Tyrande
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /><a href="items.html#">Staff of Negation</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /><a href="items.html#sneg">Staff of Negation</a>
 </td>" )
 	call Preload( "
 <td>
@@ -154,7 +154,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#schl">Scepter of Healing</a>
 </td>" )
 	call Preload( "
 <td>
@@ -181,7 +181,7 @@ Tyrande
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" /><a href="items.html#">Tyrande´s Moonstone</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" /><a href="items.html#I01I">Tyrande´s Moonstone</a>
 </td>" )
 	call Preload( "
 <td>
@@ -208,7 +208,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" /><a href="items.html#">Heart of Aszune</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" /><a href="items.html#azhr">Heart of Aszune</a>
 </td>" )
 	call Preload( "
 <td>
@@ -235,7 +235,7 @@ Thrall
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" /><a href="items.html#">Staff of Teleportation</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" /><a href="items.html#stel">Staff of Teleportation</a>
 </td>" )
 	call Preload( "
 <td>
@@ -261,7 +261,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -288,7 +288,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -315,7 +315,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -342,7 +342,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -369,7 +369,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -396,7 +396,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -423,7 +423,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -450,7 +450,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -477,7 +477,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -504,7 +504,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -531,7 +531,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -558,7 +558,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -585,7 +585,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -612,7 +612,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -639,7 +639,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -667,7 +667,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -695,7 +695,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -722,7 +722,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -750,7 +750,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -777,7 +777,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -805,7 +805,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -833,7 +833,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -861,7 +861,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -889,7 +889,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -917,7 +917,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -945,7 +945,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -972,7 +972,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#">Harpy Hunter´s Net</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>" )
 	call Preload( "
 <td>
@@ -981,7 +981,7 @@ Cairne Bloodhoof
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.0 )
 
 endfunction
 

@@ -9,6 +9,11 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -49,7 +54,7 @@
 There are several quests which can be completed once in a game to receive a reward item:
 
 <!-- Autogenerate from imported savecodes and generated file: -->
-<table class="table table-dark">
+<table class="table table-dark" id="quests">
     <thead>
         <tr>
             <th>Icon</th>
@@ -62,6 +67,7 @@ There are several quests which can be completed once in a game to receive a rewa
     </thead>
     <tbody>
 
+<!-- Quests generated with chat command "-website". -->
 <tr id="HumanQuest1">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" />
@@ -75,7 +81,7 @@ Lately there has been some harassment by an evil Red Dragon that recently appear
 Landazar
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" /><a href="items.html#">Ring of the Archmagi</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" /><a href="items.html#ram4">Ring of the Archmagi</a>
 </td>
 <td>
 </td>
@@ -94,10 +100,10 @@ The Engineers of Ironforge have discovered some very interesting blueprints in t
 Magni Bronzebeard
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="items.html#">Bladebane Armor</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="items.html#blba">Bladebane Armor</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="#HumanQuest2">Golem Factory</a>
 </td>
 </tr>
 
@@ -114,10 +120,10 @@ Although it may be a suicide mission, the High King of the Dwarves requests that
 Magni Bronzebeard
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /><a href="items.html#">Muradin´s Axe</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /><a href="items.html#I01B">Muradin´s Axe</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" title="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" /><a href="#HumanQuest3">Search for Mauradin</a>
 </td>
 </tr>
 
@@ -134,10 +140,10 @@ The time has come to take countermeasures against the increasing threat caused b
 Anduin Wrynn
 </td>
 <td>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" /><a href="items.html#">Royal Paladin Hammer</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" /><a href="items.html#I01C">Royal Paladin Hammer</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" /><a href="#HumanQuest4">Crusade</a>
 </td>
 </tr>
 
@@ -154,7 +160,7 @@ The City of Darnassus is flourishing as hoped. However, there seems to be a prob
 Tyrande
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /><a href="items.html#">Staff of Negation</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /><a href="items.html#sneg">Staff of Negation</a>
 </td>
 <td>
 </td>
@@ -174,14 +180,14 @@ Since the dispelling of
 Malfurion
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#schl">Scepter of Healing</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" title="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" /><a href="#NightElfQuest2">The World Tree</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="NightElfQuest3">
 <td>
 <img src="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" />
 </td>
@@ -191,17 +197,17 @@ Moon Stones
 <td>
 During an experiment with the newly discovered Moon Stones, there has been an accident. The effect of the Moon Stone somehow prolongued the Eclipse to an incredible length. Tyrande has tried many spells to cancel the eclipse but with no success. She b
 <td>
-Malfurion
+Tyrande
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" /><a href="items.html#I01I">Tyrande´s Moonstone</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" /><a href="#NightElfQuest3">Moon Stones</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="NightElfQuest4">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" />
 </td>
@@ -214,14 +220,14 @@ After the Legion´s defeat on Kalimdor, the Night Elves seem to have  overlooked
 Malfurion
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" /><a href="items.html#azhr">Heart of Aszune</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" /><a href="#NightElfQuest4">Demon Blood</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest1">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNThrall.blp" title="ReplaceableTextures\\CommandButtons\\BTNThrall.blp" />
 </td>
@@ -231,17 +237,16 @@ Durotar Law Code
 <td>
 The Orcish nation of Durotar is prospering well. Under the guidance of Warchief Thrall, they have established a council of elders that is responsible for establishing order and laws among the hot-headed Orcs. Although the Night Elves and Humans alread
 <td>
-Malfurion
+Thrall
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" /><a href="items.html#stel">Staff of Teleportation</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" />
 </td>
@@ -251,17 +256,17 @@ Harpy Menace
 <td>
 The Tauren have constantly been harassed by Harpies and Centaurs since they moved to Mulgore. Now a scout has discovered one of the Harpies´ Queens. Cairne believes that if she was destroyed, the Harpies would at last be silenced. He needs a strong H
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" />
 </td>
@@ -271,17 +276,17 @@ Arena Contest
 <td>
 Rexxar and the Stonemaul Ogres declare their Arena officially as open ! For the first warrior to beat Level 9 of the Gauntlet Arena, Rexxar has announced a special prize, apart from the items that may be dropped in the Arena fights. Beat Level 9 of th
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" />
 </td>
@@ -291,17 +296,17 @@ Centaur Khans
 <td>
 The Pandaren Brewmaster, Chem Stormstout, has recently arrived in Mulgore with interesting news from his travel in the south. There seems to be an increased movement of the centaurs. They apparently seem to have their seasonal fights for who is to be
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp" title="ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp" />
 </td>
@@ -311,17 +316,17 @@ Demigod´s Remnants
 <td>
 The Faceless Ones of Azjul-Nerub have drawn the Lich King´ interest in them. He wants them as part of the scourge, but he needs more magic power in order to control them. Anub´Arak has received word from Kel´Thuzad that the Lich King´s power could
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNHornOfCenarius.blp" title="ReplaceableTextures\\CommandButtons\\BTNHornOfCenarius.blp" />
 </td>
@@ -331,17 +336,17 @@ Demigod´s Horn
 <td>
 The next step to unravel Kel´Thzad´s spell requires the ancient Artifact known as the Horn of Cenarius. Fortunately as it is, the Horn seems to be guarded only by a few creatures and is vulnerable to theft. But in order to remove it from the pedesta
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" title="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
 </td>
@@ -351,17 +356,17 @@ Lich King´s Order
 <td>
 After having enabled the Lich King to control the the mysterious Faceless Ones, the time has come to unravel the Scourge´s Wrath. The Quest is as hard as easy it is to describe it: you are to destroy one Nation´s Capital (Tier 1, 2 or 3 Town Hall or
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
 </td>
@@ -371,17 +376,17 @@ The Burning Legion
 <td>
 The Lich King will now have his revenge on his original creator Kil'jaeden who is still active in the Outland area. The Lich King already betrayed his former master and creator but now it is time to act and to fight the Burning Legion. Use the help of
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />
 </td>
@@ -391,17 +396,17 @@ Dark Portal
 <td>
 The Orcish warriors are the fiercest warriors known and they would be a valuable addition to the Forsaken Army. The Dark Lady Sylvanas has devised a plan to enslave the unsuspecting Orcs and turn them into the undead. To realize this idea, it will tak
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp" title="ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp" />
 </td>
@@ -411,17 +416,17 @@ Stormreaver Hermit
 <td>
 After having captured the Nether Drake, the next step is to get a corpse probe of a dead orc. In Durotar, there is a Stormreaver Hermit who makes forbidden experiments with Orcish corpses. Sylvanas wants your Hero tage the bag of Gold, travel to Durot
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" title="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" />
 </td>
@@ -431,17 +436,17 @@ The Silver Hand
 <td>
 After having added the Orcs as part of the Forsaken, Sylvanas wants revenge on the Paladins of the Silver Hand who constantly hunt the Undead and cause the most dangerous threat for the Forsaken at the moment. There will be a bounty for the Hero who f
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" />
 </td>
@@ -451,17 +456,17 @@ Legendary Items
 <td>
 Now it is time to craft some powerful items to protect the base of the Forsaken in Azeroth. Slyvanas knows how to craft items but needs some references to create really powerful items. You must kill at least two Bosses and bring their legendary artifa
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
 </td>
@@ -471,17 +476,17 @@ Tomb of Sargeras
 <td>
 After having returned from Outland, Illidan, Kael and Vashj have devised a new plan to strike at the Lich King. However, Lord Illidan needs a special Artifact which he can only get from his Master, Kil´Jaeden himself. He is currently somewhere in the
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNWarden2.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarden2.blp" />
 </td>
@@ -491,17 +496,17 @@ Fight Fire with Fire
 <td>
 Lord Illidan is getting tired of being chased by the Night Elf Warden Maiev Shadowsong. Before the next step to strike at the Lich King, Illidan wants the Warden matter solved first. According to spy reports, Maiev and her group of Huntresses have cur
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />
 </td>
@@ -511,17 +516,17 @@ Sapphiron
 <td>
 The time to strike at the Lich King is coming near. But before, a final step is needed. There is a mighty Frost Wyrm called Sapphiron who watches every movement in and out of Icecrown. Lord Illidan requires you to destroy it in order to get to the Ice
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp" title="ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp" />
 </td>
@@ -531,17 +536,17 @@ Stormrage
 <td>
 It is time to strike at the Lich King himself ! Illidan has a score to settle with Arthas. However, the subject of this campaign is not to destroy the Lich King himself since his powers are still far too great at the moment. Even after striking down h
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" />
 </td>
@@ -552,17 +557,17 @@ Akama's Message
 Akama wants to send a message to Illidan and ask him for help in the fight against Maghteridon's Demons. Bring the message to Illidan.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" />
 </td>
@@ -573,17 +578,17 @@ An unlikely Alliance
 There is still some of the Orcs in the Outland regions. They suffer the same as the Draenei from the Demon invasion. Visit their leader and ask them for help. Return their answer back to Illidan.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
 </td>
@@ -593,17 +598,17 @@ Magtheridon's Defeat
 <td>
 Illidan needs to defeat Magtheridon in a final strike. He constructed a powerful orb which will help you to fight the powerful demon and to defeat him once and for all. Take the orb and defeat Magtheridon with it. Take his heart and bring it to Illida
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" title="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />
 </td>
@@ -614,17 +619,17 @@ Archimonde's Return
 Demons are trying to revive Archimonde through a powerful Demon Portal in Outland. This has to be prevented. Travel to the Demon Portal and destroy it. Return to Illidan to get your reward.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
 </td>
@@ -634,17 +639,17 @@ The New Citadel
 <td>
 Socrethar wants you to get information about the progress of the new Demon citadel in Outland as fast as possible. He gave you some instructions for the Commander of the Citadel. Visit the citadel and talk to the Commander of the Citadel who is in cha
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" />
 </td>
@@ -655,17 +660,17 @@ Draenei Deserters
 The upcoming Queen of the new Citadel needs information about planned attacks from the Draenei. Hence, she gives you spell to convert Draeneis which will give her the information she needs. Convert 5 Draenei and bring them to her.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />
 </td>
@@ -676,17 +681,17 @@ Akama
 The upcoming Queen of the new Citadel needs the Akama leader to be gone before the attack starts, so the Draenei forces will be weaker and the defense will be successful. Find the Akama, kill him and bring her his heart as proof.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />
 </td>
@@ -697,17 +702,17 @@ Citadel Defense
 A Draenei force is ready to attack The New Citadel. We must defend it at any cost to increase the presence of Demons in Outland and strengthen their position. Travel the The New Citadel and help defending it against Draenei forces.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" />
 </td>
@@ -718,17 +723,17 @@ A New Recipe
 Chen wants to try out a new recipe for his beer. He needs some ingredients from all over the World Tree next to Malfurion. Get the ingredients and return them to him to get your reward.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" title="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" />
 </td>
@@ -739,17 +744,17 @@ Goblin Invention
 Chen needs a special invention from the Goblins for constructing his big brewery. Travel to the Goblin Bank Island, buy a Goblin Blaster and return it to Chen.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" />
 </td>
@@ -760,17 +765,17 @@ Mur'gul Revenge
 The Mur'gul are back sending a herald with some conditions for the Pandaren to retreat from this land. Although peaceful we have to fight them back to protect our land. Kill the herald and bring the conditions to Chen to get your reward.
 </td>
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
-<tr id="NightElfQuest2">
+<tr id="OrcQuest2">
 <td>
 <img src="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" />
 </td>
@@ -780,18 +785,24 @@ The Old Gods
 <td>
 Jaina got the information that the titan Sargeras imprisioned the old gods of Azeroth in a prison and killed the most powerful one. She needs the heart the most powerful old god to defeat the titan Sargeras. You must travel to Outland and fight all of
 <td>
-Malfurion
+Cairne Bloodhoof
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /><a href="items.html#">Scepter of Healing</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /><a href="items.html#I01L">Harpy Hunter´s Net</a>
 </td>
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" /><a href="#HumanQuest1">Dragon Slayer</a>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
 </td>
 </tr>
 
     </tbody>
 </table>
+
+<script>
+    $('#quests').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
 </body>
 </html> 
