@@ -5,8 +5,7 @@ function PreloadFiles takes nothing returns nothing
 <!-- Races generated with chat command "-website". -->
 <tr id="I000">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
-</td>" )
+<a href="#I05U"><img src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" width="64" height="64" title="Human" alt="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" /></a" )
 	call Preload( "
 <td>
 Human
@@ -17,11 +16,11 @@ Human race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" /><href="items.html#I000">Scepter of Humans</a>
+<a href="items.htmlI000"><img src="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" width="64" height="64" title="Scepter of Humans" alt="ReplaceableTextures\\CommandButtons\\BTNBrilliance.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I02P">Tiny Town Hall</a>
+<a href="items.htmlI02P"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -29,7 +28,7 @@ Human race.
 	call Preload( "
 <tr id="I002">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" />
+<a href="#I06B"><img src="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" width="64" height="64" title="Orc" alt="ReplaceableTextures\\CommandButtons\\BTNPeon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -41,11 +40,11 @@ Orc race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" /><href="items.html#I002">Scepter of Orcs</a>
+<a href="items.htmlI002"><img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" width="64" height="64" title="Scepter of Orcs" alt="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" /><href="items.html#tgrh">Tiny Great Hall</a>
+<a href="items.htmltgrh"><img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" width="64" height="64" title="Tiny Great Hall" alt="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -53,7 +52,7 @@ Orc race.
 	call Preload( "
 <tr id="I003">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" />
+<a href="#I06C"><img src="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" width="64" height="64" title="Undead" alt="ReplaceableTextures\\CommandButtons\\BTNAcolyte.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -65,11 +64,11 @@ Undead race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" /><href="items.html#I003">Scepter of Undead</a>
+<a href="items.htmlI003"><img src="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" width="64" height="64" title="Scepter of Undead" alt="ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" /><href="items.html#I02K">Tiny Necropolis</a>
+<a href="items.htmlI02K"><img src="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" width="64" height="64" title="Tiny Necropolis" alt="ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -77,7 +76,7 @@ Undead race.
 	call Preload( "
 <tr id="I004">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" />
+<a href="#I06D"><img src="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" width="64" height="64" title="Night Elf" alt="ReplaceableTextures\\CommandButtons\\BTNWisp.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -89,11 +88,11 @@ Night Elf race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" /><href="items.html#I004">Scepter of Night Elves</a>
+<a href="items.htmlI004"><img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" width="64" height="64" title="Scepter of Night Elves" alt="ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" /><href="items.html#I02J">Tiny Tree of Life</a>
+<a href="items.htmlI02J"><img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" width="64" height="64" title="Tiny Tree of Life" alt="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -101,7 +100,7 @@ Night Elf race.
 	call Preload( "
 <tr id="I026">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" />
+<a href="#I06E"><img src="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" width="64" height="64" title="Blood Elf" alt="ReplaceableTextures\\CommandButtons\\BTNBloodElfPeasant.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -113,11 +112,11 @@ Blood Elf race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" /><href="items.html#I026">Scepter of Blood Elves</a>
+<a href="items.htmlI026"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" width="64" height="64" title="Scepter of Blood Elves" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I02L">Tiny Blood Elf Town Hall</a>
+<a href="items.htmlI02L"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny Blood Elf Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -125,7 +124,7 @@ Blood Elf race.
 	call Preload( "
 <tr id="I001">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" />
+<a href="#I06F"><img src="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" width="64" height="64" title="Naga" alt="ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -137,11 +136,11 @@ Naga race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /><href="items.html#I001">Scepter of Naga</a>
+<a href="items.htmlI001"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" width="64" height="64" title="Scepter of Naga" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" /><href="items.html#I02M">Tiny Temple of Tides</a>
+<a href="items.htmlI02M"><img src="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" width="64" height="64" title="Tiny Temple of Tides" alt="ReplaceableTextures\\CommandButtons\\BTNTempleOfTides.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -149,7 +148,7 @@ Naga race.
 	call Preload( "
 <tr id="I02A">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" />
+<a href="#I06G"><img src="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" width="64" height="64" title="Demon" alt="ReplaceableTextures\\CommandButtons\\BTNGanarg.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -161,11 +160,11 @@ Demon race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" /><href="items.html#I02A">Scepter of Demons</a>
+<a href="items.htmlI02A"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" width="64" height="64" title="Scepter of Demons" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" /><href="items.html#I02N">Tiny Demon Gate</a>
+<a href="items.htmlI02N"><img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" width="64" height="64" title="Tiny Demon Gate" alt="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -173,7 +172,7 @@ Demon race.
 	call Preload( "
 <tr id="I02G">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" />
+<a href="#I06H"><img src="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" width="64" height="64" title="Draenei" alt="ReplaceableTextures\\CommandButtons\\BTNDranai.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -185,11 +184,11 @@ Draenei race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWand.blp" /><href="items.html#I02G">Scepter of Draenei</a>
+<a href="items.htmlI02G"><img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" width="64" height="64" title="Scepter of Draenei" alt="ReplaceableTextures\\CommandButtons\\BTNWand.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" /><href="items.html#I02O">Tiny Draenei Haven</a>
+<a href="items.htmlI02O"><img src="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" width="64" height="64" title="Tiny Draenei Haven" alt="ReplaceableTextures\\CommandButtons\\BTNDranaiChiefHut.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -197,7 +196,7 @@ Draenei race.
 	call Preload( "
 <tr id="I03B">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" />
+<a href="#I06I"><img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" width="64" height="64" title="Furbolg" alt="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -209,11 +208,11 @@ Furbolg race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStone.blp" /><href="items.html#I03B">Scepter of Furbolg</a>
+<a href="items.htmlI03B"><img src="ReplaceableTextures\\CommandButtons\\BTNStone.blp" width="64" height="64" title="Scepter of Furbolg" alt="ReplaceableTextures\\CommandButtons\\BTNStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" /><href="items.html#I03A">Tiny Furbolg Tribal Center</a>
+<a href="items.htmlI03A"><img src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" width="64" height="64" title="Tiny Furbolg Tribal Center" alt="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -221,7 +220,7 @@ Furbolg race.
 	call Preload( "
 <tr id="I047">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" />
+<a href="#I06J"><img src="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" width="64" height="64" title="Goblin" alt="ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -233,11 +232,11 @@ Goblin race. Specialized on mechanical units, higher income and engineering.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" /><href="items.html#I047">Scepter of Goblins</a>
+<a href="items.htmlI047"><img src="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" width="64" height="64" title="Scepter of Goblins" alt="ReplaceableTextures\\CommandButtons\\BTNTransmute.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" /><href="items.html#I048">Tiny Goblin Town Hall</a>
+<a href="items.htmlI048"><img src="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" width="64" height="64" title="Tiny Goblin Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNGoblinHallTier1.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -245,7 +244,7 @@ Goblin race. Specialized on mechanical units, higher income and engineering.
 	call Preload( "
 <tr id="I053">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" />
+<a href="#I06K"><img src="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" width="64" height="64" title="Dwarf" alt="ReplaceableTextures\\CommandButtons\\BTNDwarfMiner.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -257,11 +256,11 @@ Dwarf race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" /><href="items.html#I053">Scepter of Dwarves</a>
+<a href="items.htmlI053"><img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" width="64" height="64" title="Scepter of Dwarves" alt="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" /><href="items.html#I054">Tiny Dwarf Town Hall</a>
+<a href="items.htmlI054"><img src="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" width="64" height="64" title="Tiny Dwarf Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNDwarvenHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -269,7 +268,7 @@ Dwarf race.
 	call Preload( "
 <tr id="I05G">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" />
+<a href="#I06L"><img src="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" width="64" height="64" title="High Elf" alt="ReplaceableTextures\\CommandButtons\\BTNElfVillager.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -281,11 +280,11 @@ High Elf race.
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" /><href="items.html#I05G">Scepter of High Elves</a>
+<a href="items.htmlI05G"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" width="64" height="64" title="Scepter of High Elves" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I05F">Tiny High Elf Town Hall</a>
+<a href="items.htmlI05F"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny High Elf Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -293,7 +292,7 @@ High Elf race.
 	call Preload( "
 <tr id="I08R">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" />
+<a href="#I06U"><img src="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" width="64" height="64" title="Dalaran" alt="ReplaceableTextures\\CommandButtons\\BTNLightingElemental.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -305,11 +304,11 @@ Dalaran/Kirin Tor race. A human end elven faction which is specialized on magic 
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" /><href="items.html#I08R">Scepter of Dalaran</a>
+<a href="items.htmlI08R"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" width="64" height="64" title="Scepter of Dalaran" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" /><href="items.html#I07Y">Tiny Dalaran Town Hall</a>
+<a href="items.htmlI07Y"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" width="64" height="64" title="Tiny Dalaran Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -317,7 +316,7 @@ Dalaran/Kirin Tor race. A human end elven faction which is specialized on magic 
 	call Preload( "
 <tr id="I06W">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" />
+<a href="#I06X"><img src="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" width="64" height="64" title="Kul Tiras" alt="ReplaceableTextures\\CommandButtons\\BTNSailor.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -329,11 +328,11 @@ Kul Tiras race. A human faction which is specialized on a strong navy and water 
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /><href="items.html#I06W">Scepter of Kul Tiras</a>
+<a href="items.htmlI06W"><img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="Scepter of Kul Tiras" alt="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" /><href="items.html#I06V">Tiny Kul Tiras Town Hall</a>
+<a href="items.htmlI06V"><img src="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" width="64" height="64" title="Tiny Kul Tiras Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNKultirasTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -341,7 +340,7 @@ Kul Tiras race. A human faction which is specialized on a strong navy and water 
 	call Preload( "
 <tr id="I07T">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" />
+<a href="#I07U"><img src="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" width="64" height="64" title="Pandaren" alt="ReplaceableTextures\\CommandButtons\\BTNPandarianWoodcutter.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -353,11 +352,11 @@ Pandaren race. Specialized on healing, peace, cooking and alcohol.<br/><br/><div
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" /><href="items.html#I07T">Scepter of Pandaren</a>
+<a href="items.htmlI07T"><img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" width="64" height="64" title="Scepter of Pandaren" alt="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I07S">Tiny Pandaren Temple</a>
+<a href="items.htmlI07S"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny Pandaren Temple" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -365,7 +364,7 @@ Pandaren race. Specialized on healing, peace, cooking and alcohol.<br/><br/><div
 	call Preload( "
 <tr id="I09P">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" />
+<a href="#I09Q"><img src="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" width="64" height="64" title="Trolls" alt="ReplaceableTextures\\CommandButtons\\BTNTrollGathererPurple.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -377,11 +376,11 @@ Trolls race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires 
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /><href="items.html#I09P">Scepter of Trolls</a>
+<a href="items.htmlI09P"><img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="Scepter of Trolls" alt="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" /><href="items.html#I09O">Tiny Great Hall of Trolls</a>
+<a href="items.htmlI09O"><img src="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" width="64" height="64" title="Tiny Great Hall of Trolls" alt="ReplaceableTextures\\CommandButtons\\BTNGreathall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -389,7 +388,7 @@ Trolls race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires 
 	call Preload( "
 <tr id="I09S">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" />
+<a href="#I09T"><img src="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" width="64" height="64" title="Tauren" alt="ReplaceableTextures\\CommandButtons\\BTNTauren.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -401,11 +400,11 @@ Tauren race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires 
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /><href="items.html#I09S">Scepter of Tauren</a>
+<a href="items.htmlI09S"><img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="Scepter of Tauren" alt="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" /><href="items.html#I09R">Tiny Great Hall of Tauren</a>
+<a href="items.htmlI09R"><img src="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" width="64" height="64" title="Tiny Great Hall of Tauren" alt="ReplaceableTextures\\CommandButtons\\BTNchieftainsgreathall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -413,7 +412,7 @@ Tauren race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires 
 	call Preload( "
 <tr id="I08Q">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" />
+<a href="#I08P"><img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" width="64" height="64" title="Galactic Republic" alt="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -425,11 +424,11 @@ Galactic Republic from Star Wars.<br/><br/><div style="color: #ffcc00">Requires 
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" /><href="items.html#I08Q">Scepter of Galactic Republic</a>
+<a href="items.htmlI08Q"><img src="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" width="64" height="64" title="Scepter of Galactic Republic" alt="ReplaceableTextures\\CommandButtons\\BTNGungan.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I08O">Tiny Acclamator</a>
+<a href="items.htmlI08O"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny Acclamator" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -437,7 +436,7 @@ Galactic Republic from Star Wars.<br/><br/><div style="color: #ffcc00">Requires 
 	call Preload( "
 <tr id="I08F">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" />
+<a href="#I08D"><img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" width="64" height="64" title="CIS" alt="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -449,11 +448,11 @@ Confederacy of Independent Systems from Star Wars.<br/><br/><div style="color: #
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" /><href="items.html#I08F">Scepter of CIS</a>
+<a href="items.htmlI08F"><img src="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" width="64" height="64" title="Scepter of CIS" alt="ReplaceableTextures\\CommandButtons\\BTNGeonosian.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" /><href="items.html#I08E">Tiny Droid Control Ship</a>
+<a href="items.htmlI08E"><img src="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" width="64" height="64" title="Tiny Droid Control Ship" alt="ReplaceableTextures\\CommandButtons\\BTNFlyingMachine.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -461,7 +460,7 @@ Confederacy of Independent Systems from Star Wars.<br/><br/><div style="color: #
 	call Preload( "
 <tr id="I04D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" />
+<a href="#I04C"><img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" width="64" height="64" title="Roman Empire" alt="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -473,11 +472,11 @@ The Roman Empire from another universe.<br/><br/><div style="color: #ffcc00">Req
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" /><href="items.html#I04D">Scepter of the Roman Empire</a>
+<a href="items.htmlI04D"><img src="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" width="64" height="64" title="Scepter of the Roman Empire" alt="ReplaceableTextures\\CommandButtons\\BTNRomanHelmet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTent.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTent.blp" /><href="items.html#I06Y">Tiny Command Tent</a>
+<a href="items.htmlI06Y"><img src="ReplaceableTextures\\CommandButtons\\BTNTent.blp" width="64" height="64" title="Tiny Command Tent" alt="ReplaceableTextures\\CommandButtons\\BTNTent.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -485,7 +484,7 @@ The Roman Empire from another universe.<br/><br/><div style="color: #ffcc00">Req
 	call Preload( "
 <tr id="I0AR">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" />
+<a href="#I0AQ"><img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" width="64" height="64" title="Medieval" alt="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -497,11 +496,11 @@ European christian medieval race inspired by games like Age of Empires II.<br/><
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" /><href="items.html#I0AR">Scepter of Medieval</a>
+<a href="items.htmlI0AR"><img src="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" width="64" height="64" title="Scepter of Medieval" alt="ReplaceableTextures\\CommandButtons\\BTNMedievalHelmet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" /><href="items.html#I0BB">Tiny Medieval Town Hall</a>
+<a href="items.htmlI0BB"><img src="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" width="64" height="64" title="Tiny Medieval Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNCastle1.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -509,7 +508,7 @@ European christian medieval race inspired by games like Age of Empires II.<br/><
 	call Preload( "
 <tr id="I0DD">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" />
+<a href="#I0DE"><img src="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" width="64" height="64" title="Free People of Middle Earth" alt="ReplaceableTextures\\CommandButtons\\BTNBTNHobbitMan.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -521,11 +520,11 @@ Free People of Middle Earth: Hobbits, Rohan, Gondor, Elven, Dwarves etc.<br/><br
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" /><href="items.html#I0DD">Scepter of Free People of Middle Earth</a>
+<a href="items.htmlI0DD"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" width="64" height="64" title="Scepter of Free People of Middle Earth" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfSanctuary.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" /><href="items.html#I0DC">Tiny Hobbit Hole</a>
+<a href="items.htmlI0DC"><img src="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" width="64" height="64" title="Tiny Hobbit Hole" alt="ReplaceableTextures\\CommandButtons\\BTNHobbitHole.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -533,7 +532,7 @@ Free People of Middle Earth: Hobbits, Rohan, Gondor, Elven, Dwarves etc.<br/><br
 	call Preload( "
 <tr id="I0G2">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" />
+<a href="#I0G3"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" width="64" height="64" title="Sauron's Forces" alt="ReplaceableTextures\\CommandButtons\\BTNOrcWarrior1.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -545,11 +544,11 @@ Sauron's Forces: Mordor, Isengard, Rhûn, Haradrim, evil creatures etc.<br/><br/
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /><href="items.html#I0G2">Scepter of Sauron's Forces</a>
+<a href="items.htmlI0G2"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Scepter of Sauron's Forces" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" /><href="items.html#I0G1">Tiny Great Hall</a>
+<a href="items.htmlI0G1"><img src="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" width="64" height="64" title="Tiny Great Hall" alt="ReplaceableTextures\\CommandButtons\\BTNBTNMordorStronghold1.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -557,7 +556,7 @@ Sauron's Forces: Mordor, Isengard, Rhûn, Haradrim, evil creatures etc.<br/><br/
 	call Preload( "
 <tr id="I0E0">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" />
+<a href="#I0E1"><img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" width="64" height="64" title="Modern Warfare" alt="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -569,11 +568,11 @@ Modern Warfare era after WWII until today.<br/><br/><div style="color: #ffcc00">
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" /><href="items.html#I0E0">Scepter of Modern Warfare</a>
+<a href="items.htmlI0E0"><img src="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" width="64" height="64" title="Scepter of Modern Warfare" alt="ReplaceableTextures\\CommandButtons\\BTNhelmet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I0DZ">Tiny Command Center</a>
+<a href="items.htmlI0DZ"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny Command Center" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -581,7 +580,7 @@ Modern Warfare era after WWII until today.<br/><br/><div style="color: #ffcc00">
 	call Preload( "
 <tr id="I0HF">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" />
+<a href="#I0HD"><img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" width="64" height="64" title="Germans WWII" alt="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -593,11 +592,11 @@ Germans during WWII. Sad story.<br/><br/><div style="color: #ffcc00">Requires he
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" /><href="items.html#I0HF">Scepter of Germans WWII</a>
+<a href="items.htmlI0HF"><img src="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" width="64" height="64" title="Scepter of Germans WWII" alt="ReplaceableTextures\\CommandButtons\\BTNReichSapper.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /><href="items.html#I0HE">Tiny Headquarters</a>
+<a href="items.htmlI0HE"><img src="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" width="64" height="64" title="Tiny Headquarters" alt="ReplaceableTextures\\CommandButtons\\BTNTownHall.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
@@ -605,7 +604,7 @@ Germans during WWII. Sad story.<br/><br/><div style="color: #ffcc00">Requires he
 	call Preload( "
 <tr id="I0HL">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" />
+<a href="#I0HK"><img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" width="64" height="64" title="Vrykul" alt="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -617,16 +616,40 @@ Vrykul race. Nordic giants, powerful warriors with strong ships and Proto-Drakes
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" /><href="items.html#I0HL">Scepter of Vrykul</a>
+<a href="items.htmlI0HL"><img src="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" width="64" height="64" title="Scepter of Vrykul" alt="ReplaceableTextures\\CommandButtons\\BTNVrykulWorker.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" /><href="items.html#I0HM">Tiny Dragon's Reach</a>
+<a href="items.htmlI0HM"><img src="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" width="64" height="64" title="Tiny Dragon's Reach" alt="ReplaceableTextures\\CommandButtons\\BTNVrykulMain1.blp" /></a>
 </td>" )
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 0.4 )
+	call Preload( "
+<tr id="I0HR">
+<td>
+<a href="#I0HQ"><img src="ReplaceableTextures\\CommandButtons\\BTNworgen.blp" width="64" height="64" title="Worgen" alt="ReplaceableTextures\\CommandButtons\\BTNworgen.blp" /></a>
+</td>" )
+	call Preload( "
+<td>
+Worgen
+</td>" )
+	call Preload( "
+<td>
+Worgen race. A human faction which is cursed and can transform into wolf like creatures.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
+</td>" )
+	call Preload( "
+<td>
+<a href="items.htmlI0HR"><img src="ReplaceableTextures\\CommandButtons\\BTNworgen.blp" width="64" height="64" title="Scepter of Worgen" alt="ReplaceableTextures\\CommandButtons\\BTNworgen.blp" /></a>
+</td>" )
+	call Preload( "
+<td>
+<a href="items.htmlI0HS"><img src="ReplaceableTextures\\CommandButtons\\BTNGilneasTownHall.blp" width="64" height="64" title="Tiny Town Hall" alt="ReplaceableTextures\\CommandButtons\\BTNGilneasTownHall.blp" /></a>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 0.2 )
 
 endfunction
 

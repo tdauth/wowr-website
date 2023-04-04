@@ -4,7 +4,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "
 <tr id="pghe">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" />
+<a href="#pghe"><img src="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" width="64" height="64" title="Potion of Greater Healing" alt="ReplaceableTextures\\CommandButtons\\BTNPotionGreen.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -49,7 +49,7 @@ Heals 500 hit points when used.
 	call Preload( "
 <tr id="hlst">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" />
+<a href="#hlst"><img src="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" width="64" height="64" title="Health Stone" alt="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -94,8 +94,8 @@ Increases the life regeneration rate of the Hero by 1 hit points per second when
 	call Preload( "
 <tr id="pnvu">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp" />
-</td>" )
+<a href="#pnvu"><img src="ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp" width="64" height="64" title="Potion of Invulnerability" alt="ReplaceableTextures\\CommandButtons\\BTNGreaterInvulneralbility.blp" /></a>
+<" )
 	call Preload( "
 <td>
 Potion of Invulnerability
@@ -139,7 +139,7 @@ Makes the Hero invulnerable to damage for 15 seconds when used. An invulnerable 
 	call Preload( "
 <tr id="I025">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNecklace.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNecklace.blp" />
+<a href="#I025"><img src="ReplaceableTextures\\CommandButtons\\BTNNecklace.blp" width="64" height="64" title="Talisman of Everlasting" alt="ReplaceableTextures\\CommandButtons\\BTNNecklace.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -184,7 +184,7 @@ Increases Life by 600 and grants 2 extra Hitpoints regeneration per second.
 	call Preload( "
 <tr id="pgma">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" />
+<a href="#pgma"><img src="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" width="64" height="64" title="Potion of Greater Mana" alt="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -229,7 +229,7 @@ Restores 250 mana when used.
 	call Preload( "
 <tr id="mnst">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManaStone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNManaStone.blp" />
+<a href="#mnst"><img src="ReplaceableTextures\\CommandButtons\\BTNManaStone.blp" width="64" height="64" title="Mana Stone" alt="ReplaceableTextures\\CommandButtons\\BTNManaStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -274,7 +274,7 @@ Increases the mana regeneration rate of the Hero by 25% when worn. Can be consum
 	call Preload( "
 <tr id="woms">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp" />
+<a href="#woms"><img src="ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp" width="64" height="64" title="Wand of Mana Stealing" alt="ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -319,7 +319,7 @@ Steals 800 mana instantly from a target unit and gives it to the Hero. <br/>Cont
 	call Preload( "
 <tr id="I024">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMedalionOfCourage.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMedalionOfCourage.blp" />
+<a href="#I024"><img src="ReplaceableTextures\\CommandButtons\\BTNMedalionOfCourage.blp" width="64" height="64" title="Talisman of Spell Protection" alt="ReplaceableTextures\\CommandButtons\\BTNMedalionOfCourage.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -364,7 +364,7 @@ Blocks an enemy spell every 15 seconds and adds 250 Mana.
 	call Preload( "
 <tr id="I00O">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" />
+<a href="#I00O"><img src="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" width="64" height="64" title="Bow of Fire" alt="ReplaceableTextures\\CommandButtons\\BTNImprovedBows.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -409,7 +409,7 @@ Precisely crafted magical bow. Grants +10 damage and allows to attack air units 
 	call Preload( "
 <tr id="I00P">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaniteMelee.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaniteMelee.blp" />
+<a href="#I00P"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaniteMelee.blp" width="64" height="64" title="Mithril Long Sword" alt="ReplaceableTextures\\CommandButtons\\BTNArcaniteMelee.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -454,7 +454,7 @@ Long Sword that gives the bearer supreme combat capabilities. Grants +5 Damage a
 	call Preload( "
 <tr id="I00Q">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" />
+<a href="#I00Q"><img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="Demon Slayer Axe" alt="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -498,7 +498,7 @@ Heavy Axe made of very rare minerals. Causes terrible pain among its victims. Gr
 	call Preload( "
 <tr id="I00R">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaniteRanged.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaniteRanged.blp" />
+<a href="#I00R"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaniteRanged.blp" width="64" height="64" title="Blessed Dragon Lance" alt="ReplaceableTextures\\CommandButtons\\BTNArcaniteRanged.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -543,7 +543,7 @@ Magically enhanced lance. Because it is so hard to forge them, they are very rar
 	call Preload( "
 <tr id="I00K">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" />
+<a href="#I00K"><img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" width="64" height="64" title="Light Leather Armor" alt="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -588,7 +588,7 @@ Armor made of various animal hides. Grants +3 Defense and faster life regenerati
 	call Preload( "
 <tr id="I00L">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" />
+<a href="#I00L"><img src="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" width="64" height="64" title="Plated Helmet" alt="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -633,7 +633,7 @@ Plate Helmet forged in a complicated process. Grants +5 defense and 15% Evasion.
 	call Preload( "
 <tr id="I00M">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp" />
+<a href="#I00M"><img src="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp" width="64" height="64" title="Heavy Plated Shield" alt="ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpThree.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -678,7 +678,7 @@ Plated Shield made of very durable metals. Grants +8 defense and 70% protection 
 	call Preload( "
 <tr id="I00N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp" />
+<a href="#I00N"><img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp" width="64" height="64" title="Blessed Champion Armor" alt="ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -723,7 +723,7 @@ Magically enhanced, Diamond-socketed Armor. Grants +8 defense, Devotion Aura and
 	call Preload( "
 <tr id="I00T">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" />
+<a href="#I00T"><img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" width="64" height="64" title="Tiny Flame Tower" alt="ReplaceableTextures\\CommandButtons\\BTNAdvancedFlameTower.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -768,7 +768,7 @@ Creates a Flame Tower at a target location.
 	call Preload( "
 <tr id="I00U">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFrostTower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAdvancedFrostTower.blp" />
+<a href="#I00U"><img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedFrostTower.blp" width="64" height="64" title="Tiny Cold Tower" alt="ReplaceableTextures\\CommandButtons\\BTNAdvancedFrostTower.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -813,7 +813,7 @@ Creates a Cold Tower at a target location.
 	call Preload( "
 <tr id="I00S">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedDeathTower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAdvancedDeathTower.blp" />
+<a href="#I00S"><img src="ReplaceableTextures\\CommandButtons\\BTNAdvancedDeathTower.blp" width="64" height="64" title="Tiny Death Tower" alt="ReplaceableTextures\\CommandButtons\\BTNAdvancedDeathTower.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -858,7 +858,7 @@ Creates a Death Tower at a target location.
 	call Preload( "
 <tr id="spro">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" />
+<a href="#spro"><img src="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" width="64" height="64" title="Scroll of Protection" alt="ReplaceableTextures\\CommandButtons\\BTNScroll.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -903,7 +903,7 @@ Increases the armor of all friendly units in an area around your Hero by 2 for 3
 	call Preload( "
 <tr id="sres">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNScrollOfHealing.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNScrollOfHealing.blp" />
+<a href="#sres"><img src="ReplaceableTextures\\CommandButtons\\BTNScrollOfHealing.blp" width="64" height="64" title="Scroll of Restoration" alt="ReplaceableTextures\\CommandButtons\\BTNScrollOfHealing.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -948,7 +948,7 @@ Restores 150 hit points and 150 mana of friendly non-mechanical units in an area
 	call Preload( "
 <tr id="srrc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" />
+<a href="#srrc"><img src="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" width="64" height="64" title="Scroll of Resurrection" alt="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -993,7 +993,7 @@ Brings 6 of your nearby dead units back to life.
 	call Preload( "
 <tr id="ankh">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAnkh.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAnkh.blp" />
+<a href="#ankh"><img src="ReplaceableTextures\\CommandButtons\\BTNAnkh.blp" width="64" height="64" title="Ankh of Reincarnation" alt="ReplaceableTextures\\CommandButtons\\BTNAnkh.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1038,7 +1038,7 @@ Automatically brings the Hero back to life with 99999 hit points when the Hero w
 	call Preload( "
 <tr id="wneu">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" />
+<a href="#wneu"><img src="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" width="64" height="64" title="Wand of Neutralization" alt="ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1083,7 +1083,7 @@ Hurls forth a stream of neutralizing magic that bounces up to 8 times, dispellin
 	call Preload( "
 <tr id="wcyc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" />
+<a href="#wcyc"><img src="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" width="64" height="64" title="Wand of the Wind" alt="ReplaceableTextures\\CommandButtons\\BTNWandOfCyclone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1128,7 +1128,7 @@ Allows the Hero to cast Cyclone. Cyclone tosses a target enemy unit into the air
 	call Preload( "
 <tr id="I038">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWandSkull.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWandSkull.blp" />
+<a href="#I038"><img src="ReplaceableTextures\\CommandButtons\\BTNWandSkull.blp" width="64" height="64" title="Wand of Reanimation" alt="ReplaceableTextures\\CommandButtons\\BTNWandSkull.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1173,7 +1173,7 @@ Reanimates 5 dead corpses for 60 seconds.
 	call Preload( "
 <tr id="will">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWand.blp" />
+<a href="#will"><img src="ReplaceableTextures\\CommandButtons\\BTNWand.blp" width="64" height="64" title="Wand of Illusion" alt="ReplaceableTextures\\CommandButtons\\BTNWand.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1217,7 +1217,7 @@ Create an illusory double of the targeted unit when used. The illusory double de
 	call Preload( "
 <tr id="I030">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+<a href="#I030"><img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="Rune of Speed (Runeforger)" alt="ReplaceableTextures\\CommandButtons\\BTNRune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1262,7 +1262,7 @@ Increases the movement speed of all nearby allied units to the maximum movement 
 	call Preload( "
 <tr id="rdis">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+<a href="#rdis"><img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="Rune of Dispel Magic" alt="ReplaceableTextures\\CommandButtons\\BTNRune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1307,7 +1307,7 @@ Dispels all nearby magic effects. <br/><div style="color: #ffcc00">Deals 250 dam
 	call Preload( "
 <tr id="I02Z">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+<a href="#I02Z"><img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="Rune of Restoration (Runeforger)" alt="ReplaceableTextures\\CommandButtons\\BTNRune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1352,7 +1352,7 @@ Restores 300 hit points and 150 mana of friendly non-mechanical units in an area
 	call Preload( "
 <tr id="I032">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRune.blp" />
+<a href="#I032"><img src="ReplaceableTextures\\CommandButtons\\BTNRune.blp" width="64" height="64" title="Rune of Rebirth (Runeforger)" alt="ReplaceableTextures\\CommandButtons\\BTNRune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1397,7 +1397,7 @@ Places the monster that held this rune under your control. Give it to one of you
 	call Preload( "
 <tr id="I034">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+<a href="#I034"><img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="Green Dragon Whelp Egg" alt="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1442,7 +1442,7 @@ Summons a Green Dragon Whelp to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="I035">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+<a href="#I035"><img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="Green Drake Egg" alt="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1487,7 +1487,7 @@ Summons a Green Drake to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="I036">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+<a href="#I036"><img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="Tharifas Egg" alt="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1532,7 +1532,7 @@ Summons Tharifas to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="I037">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" />
+<a href="#I037"><img src="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" width="64" height="64" title="Green Dragon Egg" alt="ReplaceableTextures\\CommandButtons\\BTNGreenDragon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1577,7 +1577,7 @@ Summons a Green Dragon to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="I03F">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_10.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_10.blp" />
+<a href="#I03F"><img src="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_10.blp" width="64" height="64" title="Pickpocketing" alt="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_10.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1622,7 +1622,7 @@ Gives your hero the chance of 45 % to pickpocket a nearby killed unit with inven
 	call Preload( "
 <tr id="I02W">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" />
+<a href="#I02W"><img src="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" width="64" height="64" title="Magical Creep Summoner" alt="ReplaceableTextures\\CommandButtons\\BTNFurbolg.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1667,7 +1667,7 @@ When using this magical creep summoner, all dead creeps within a radius of 1000 
 	call Preload( "
 <tr id="I02V">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" />
+<a href="#I02V"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" width="64" height="64" title="Magical Cutter" alt="ReplaceableTextures\\CommandButtons\\BTNOrcMeleeUpOne.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1712,7 +1712,7 @@ When using this magical cutter, all living trees within a radius of 1000 will be
 	call Preload( "
 <tr id="lmbr">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" />
+<a href="#lmbr"><img src="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" width="64" height="64" title="Bundle of Lumber" alt="ReplaceableTextures\\CommandButtons\\BTNBundleOfLumber.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1757,7 +1757,7 @@ Gives 250 lumber to the player when used.
 	call Preload( "
 <tr id="I00V">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDust.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDust.blp" />
+<a href="#I00V"><img src="ReplaceableTextures\\CommandButtons\\BTNDust.blp" width="64" height="64" title="Magical Seed" alt="ReplaceableTextures\\CommandButtons\\BTNDust.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1802,7 +1802,7 @@ When planting these magical seeds, all dead trees within a radius of 1000 regrow
 	call Preload( "
 <tr id="I017">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDust.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDust.blp" />
+<a href="#I017"><img src="ReplaceableTextures\\CommandButtons\\BTNDust.blp" width="64" height="64" title="Magical Seed (3)" alt="ReplaceableTextures\\CommandButtons\\BTNDust.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1847,7 +1847,7 @@ When planting these magical seeds, all dead trees within a radius of 1000 regrow
 	call Preload( "
 <tr id="spsh">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpellShieldAmulet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSpellShieldAmulet.blp" />
+<a href="#spsh"><img src="ReplaceableTextures\\CommandButtons\\BTNSpellShieldAmulet.blp" width="64" height="64" title="Amulet of Spell Shield" alt="ReplaceableTextures\\CommandButtons\\BTNSpellShieldAmulet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1892,7 +1892,7 @@ Blocks a negative spell that an enemy casts on the Hero once every 40 seconds.
 	call Preload( "
 <tr id="dust">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDustOfAppearance.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDustOfAppearance.blp" />
+<a href="#dust"><img src="ReplaceableTextures\\CommandButtons\\BTNDustOfAppearance.blp" width="64" height="64" title="Dust of Appearance" alt="ReplaceableTextures\\CommandButtons\\BTNDustOfAppearance.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1937,7 +1937,7 @@ Reveals enemy invisible units in an area around the Hero. <br/>Contains 2 charge
 	call Preload( "
 <tr id="afac">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAlleriaFlute.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAlleriaFlute.blp" />
+<a href="#afac"><img src="ReplaceableTextures\\CommandButtons\\BTNAlleriaFlute.blp" width="64" height="64" title="Alleria's Flute of Accuracy" alt="ReplaceableTextures\\CommandButtons\\BTNAlleriaFlute.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -1982,7 +1982,7 @@ Increases nearby ranged units' damage by 7%. <br/>Does not stack with Trueshot A
 	call Preload( "
 <tr id="ajen">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNJanggo.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNJanggo.blp" />
+<a href="#ajen"><img src="ReplaceableTextures\\CommandButtons\\BTNJanggo.blp" width="64" height="64" title="Ancient Janggo of Endurance" alt="ReplaceableTextures\\CommandButtons\\BTNJanggo.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2027,7 +2027,7 @@ Grants the Hero and friendly nearby units 3% increased attack speed and 5% movem
 	call Preload( "
 <tr id="kpin">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPipeOfInsight.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPipeOfInsight.blp" />
+<a href="#kpin"><img src="ReplaceableTextures\\CommandButtons\\BTNPipeOfInsight.blp" width="64" height="64" title="Khadgar's Pipe of Insight" alt="ReplaceableTextures\\CommandButtons\\BTNPipeOfInsight.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2072,7 +2072,7 @@ Grants the Hero and friendly nearby units 0.5 bonus mana regeneration. <br/>Does
 	call Preload( "
 <tr id="lgdh">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHornOfDoom.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHornOfDoom.blp" />
+<a href="#lgdh"><img src="ReplaceableTextures\\CommandButtons\\BTNHornOfDoom.blp" width="64" height="64" title="Legion Doom-Horn" alt="ReplaceableTextures\\CommandButtons\\BTNHornOfDoom.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2117,7 +2117,7 @@ Grants the Hero and friendly nearby units 0.3 life regeneration and 5% increased
 	call Preload( "
 <tr id="tret">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTomeOfRetraining.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTomeOfRetraining.blp" />
+<a href="#tret"><img src="ReplaceableTextures\\CommandButtons\\BTNTomeOfRetraining.blp" width="64" height="64" title="Tome of Retraining" alt="ReplaceableTextures\\CommandButtons\\BTNTomeOfRetraining.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2162,7 +2162,7 @@ Unlearns all of the Hero's spells, allowing the Hero to learn different skills.
 	call Preload( "
 <tr id="sbch">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp" />
+<a href="#sbch"><img src="ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp" width="64" height="64" title="Scourge Bone Chimes" alt="ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2207,7 +2207,7 @@ Grants a melee Hero and friendly nearby melee units life stealing attacks which 
 	call Preload( "
 <tr id="ward">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" />
+<a href="#ward"><img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" width="64" height="64" title="Warsong Battle Drums" alt="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2252,7 +2252,7 @@ Increases the attack damage of nearby friendly units by 10% when worn. <br/>Does
 	call Preload( "
 <tr id="war2">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" />
+<a href="#war2"><img src="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" width="64" height="64" title="Warsong Battle Drums" alt="ReplaceableTextures\\CommandButtons\\BTNDrum.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2297,7 +2297,7 @@ Increases the attack damage of nearby friendly units by 7% when worn. <br/>Does 
 	call Preload( "
 <tr id="lhst">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLionHorn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLionHorn.blp" />
+<a href="#lhst"><img src="ReplaceableTextures\\CommandButtons\\BTNLionHorn.blp" width="64" height="64" title="The Lion Horn of Stormwind" alt="ReplaceableTextures\\CommandButtons\\BTNLionHorn.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2342,7 +2342,7 @@ Grants the Hero and friendly nearby units 1 bonus armor. <br/>Does not stack wit
 	call Preload( "
 <tr id="I00X">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#I00X"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Chaos Stone Fragment" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2387,7 +2387,7 @@ Boosts attack damage by 20 and casts Vampirism. Also needed for the Destroyer Tr
 	call Preload( "
 <tr id="I00W">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" />
+<a href="#I00W"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" width="64" height="64" title="Order Stone Fragment" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2432,7 +2432,7 @@ Boosts defense by 10 and casts Holy Light. Also needed for the Guardian Transfor
 	call Preload( "
 <tr id="I049">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#I049"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Orb of Engineering" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2477,7 +2477,7 @@ Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attack also
 	call Preload( "
 <tr id="I058">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp" />
+<a href="#I058"><img src="ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp" width="64" height="64" title="Dwarven Celestial Orb of Souls" alt="ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2522,7 +2522,7 @@ Brings 6 of your nearby dead units back to life.
 	call Preload( "
 <tr id="I05J">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfTheSun.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfTheSun.blp" />
+<a href="#I05J"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfTheSun.blp" width="64" height="64" title="Orb of Sun" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfTheSun.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2567,7 +2567,7 @@ Adds 6 bonus sun damage to the attack of a Hero when carried. The Hero's attacks
 	call Preload( "
 <tr id="I05L">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMageOrb.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMageOrb.blp" />
+<a href="#I05L"><img src="ReplaceableTextures\\CommandButtons\\BTNMageOrb.blp" width="64" height="64" title="Orb of Orbs" alt="ReplaceableTextures\\CommandButtons\\BTNMageOrb.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2611,7 +2611,7 @@ Combines effects of known orbs to one single item. Adds 60 bonus damage to the a
 	call Preload( "
 <tr id="gcel">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGlove.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGlove.blp" />
+<a href="#gcel"><img src="ReplaceableTextures\\CommandButtons\\BTNGlove.blp" width="64" height="64" title="Gloves of Haste" alt="ReplaceableTextures\\CommandButtons\\BTNGlove.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2656,7 +2656,7 @@ Increases the attack speed of the Hero by 15% when worn.
 	call Preload( "
 <tr id="hslv">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHealingSalve.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHealingSalve.blp" />
+<a href="#hslv"><img src="ReplaceableTextures\\CommandButtons\\BTNHealingSalve.blp" width="64" height="64" title="Healing Salve" alt="ReplaceableTextures\\CommandButtons\\BTNHealingSalve.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2701,7 +2701,7 @@ Healing Salve
 	call Preload( "
 <tr id="rat3">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+<a href="#rat3"><img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="Claws of Attack +3" alt="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2746,7 +2746,7 @@ Increases the attack damage of the Hero by 3 when worn.
 	call Preload( "
 <tr id="rat6">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+<a href="#rat6"><img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="Claws of Attack +5" alt="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2791,7 +2791,7 @@ Increases the attack damage of the Hero by 5 when worn.
 	call Preload( "
 <tr id="rat9">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+<a href="#rat9"><img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="Claws of Attack +9" alt="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2836,7 +2836,7 @@ Increases the attack damage of the Hero by 9 when worn.
 	call Preload( "
 <tr id="ratc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+<a href="#ratc"><img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="Claws of Attack +12" alt="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2881,7 +2881,7 @@ Increases the attack damage of the Hero by 12 when worn.
 	call Preload( "
 <tr id="ratf">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" />
+<a href="#ratf"><img src="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" width="64" height="64" title="Claws of Attack +15" alt="ReplaceableTextures\\CommandButtons\\BTNClawsOfAttack.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2926,7 +2926,7 @@ Increases the attack damage of the Hero by 15 when worn.
 	call Preload( "
 <tr id="clsd">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" />
+<a href="#clsd"><img src="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" width="64" height="64" title="Cloak of Shadows" alt="ReplaceableTextures\\CommandButtons\\BTNCloak.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -2971,7 +2971,7 @@ Provides the Hero with invisibility when worn. An invisible Hero is untargetable
 	call Preload( "
 <tr id="clfm">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp" />
+<a href="#clfm"><img src="ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp" width="64" height="64" title="Cloak of Flames" alt="ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3016,8 +3016,8 @@ Engulfs the Hero in fire which deals 10 damage per second to nearby enemy land u
 	call Preload( "
 <tr id="rst1">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGauntletsOfOgrePower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGauntletsOfOgrePower.blp" />
-</td>" )
+<a href="#rst1"><img src="ReplaceableTextures\\CommandButtons\\BTNGauntletsOfOgrePower.blp" width="64" height="64" title="Gauntlets of Ogre Strength +3" alt="ReplaceableTextures\\CommandButtons\\BTNGauntletsOfOgrePower.blp" /></a>
+</t" )
 	call Preload( "
 <td>
 Gauntlets of Ogre Strength +3
@@ -3061,7 +3061,7 @@ Increases the Strength of the Hero by 3 when worn.
 	call Preload( "
 <tr id="hval">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHelmOfValor.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHelmOfValor.blp" />
+<a href="#hval"><img src="ReplaceableTextures\\CommandButtons\\BTNHelmOfValor.blp" width="64" height="64" title="Helm of Valor" alt="ReplaceableTextures\\CommandButtons\\BTNHelmOfValor.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3106,7 +3106,7 @@ Increases the Strength and Agility of the Hero by 5 when worn.
 	call Preload( "
 <tr id="hcun">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHoodOfCunning.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHoodOfCunning.blp" />
+<a href="#hcun"><img src="ReplaceableTextures\\CommandButtons\\BTNHoodOfCunning.blp" width="64" height="64" title="Hood of Cunning" alt="ReplaceableTextures\\CommandButtons\\BTNHoodOfCunning.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3151,7 +3151,7 @@ Increases the Agility and Intelligence of the Hero by 5 when worn.
 	call Preload( "
 <tr id="rde0">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+<a href="#rde0"><img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="Ring of Protection +1" alt="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3196,7 +3196,7 @@ Increases the armor of the Hero by 1 when worn.
 	call Preload( "
 <tr id="rde1">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+<a href="#rde1"><img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="Ring of Protection +2" alt="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3241,7 +3241,7 @@ Increases the armor of the Hero by 2 when worn.
 	call Preload( "
 <tr id="rde2">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+<a href="#rde2"><img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="Ring of Protection +3" alt="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3286,7 +3286,7 @@ Increases the armor of the Hero by 3 when worn.
 	call Preload( "
 <tr id="rde3">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+<a href="#rde3"><img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="Ring of Protection +4" alt="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3331,7 +3331,7 @@ Increases the armor of the Hero by 4 when worn.
 	call Preload( "
 <tr id="rde4">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" />
+<a href="#rde4"><img src="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" width="64" height="64" title="Ring of Protection +5" alt="ReplaceableTextures\\CommandButtons\\BTNRingGreen.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3376,7 +3376,7 @@ Increases the armor of the Hero by 5 when worn.
 	call Preload( "
 <tr id="rlif">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingSkull.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingSkull.blp" />
+<a href="#rlif"><img src="ReplaceableTextures\\CommandButtons\\BTNRingSkull.blp" width="64" height="64" title="Ring of Regeneration" alt="ReplaceableTextures\\CommandButtons\\BTNRingSkull.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3421,7 +3421,7 @@ Increases the Hero's hit point regeneration by 2 hit points per second.
 	call Preload( "
 <tr id="ofro">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp" />
+<a href="#ofro"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp" width="64" height="64" title="Orb of Frost" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfFrost.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3466,7 +3466,7 @@ Adds 6 bonus cold damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <tr id="ocor">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp" />
+<a href="#ocor"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp" width="64" height="64" title="Orb of Corruption" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3511,7 +3511,7 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <tr id="ofir">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" />
+<a href="#ofir"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" width="64" height="64" title="Orb of Fire" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3556,7 +3556,7 @@ Adds 5 bonus fire damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <tr id="ofr2">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" />
+<a href="#ofr2"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" width="64" height="64" title="Orb of Fire" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3601,7 +3601,7 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <tr id="oli2">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" />
+<a href="#oli2"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" width="64" height="64" title="Orb of Lightning" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3645,7 +3645,7 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <tr id="olig">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" />
+<a href="#olig"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" width="64" height="64" title="Orb of Lightning" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfLightning.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3689,7 +3689,7 @@ Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <tr id="oslo">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp" />
+<a href="#oslo"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp" width="64" height="64" title="Orb of Slow" alt="ReplaceableTextures\\CommandButtons\\BTNOrbofSlowness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3734,7 +3734,7 @@ Adds 6 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <tr id="oven">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp" />
+<a href="#oven"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp" width="64" height="64" title="Orb of Venom" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3779,7 +3779,7 @@ Adds 5 bonus damage to the attack of a Hero when carried. The Hero's attacks als
 	call Preload( "
 <tr id="sor1">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor1"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +1" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3824,7 +3824,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor2">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor2"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +2" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3869,7 +3869,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor3">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor3"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +3" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3914,7 +3914,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor4">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor4"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +4" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -3959,7 +3959,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor5">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor5"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +5" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4004,7 +4004,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor6">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor6"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +6" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4049,7 +4049,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor7">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor7"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +7" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4094,7 +4094,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor8">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor8"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +8" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4139,7 +4139,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sor9">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sor9"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +9" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4184,7 +4184,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="sora">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" />
+<a href="#sora"><img src="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" width="64" height="64" title="Shadow Orb +10" alt="ReplaceableTextures\\CommandButtons\\BTNOrbOfDarkness.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4229,7 +4229,7 @@ This artifact was imbued with special powers by the Orc Shadow Council. It incre
 	call Preload( "
 <tr id="amrc">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" />
+<a href="#amrc"><img src="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" width="64" height="64" title="Amulet of Recall" alt="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4274,7 +4274,7 @@ Teleports 12 of the player's units within the targeted area to the location of t
 	call Preload( "
 <tr id="axas">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" />
+<a href="#axas"><img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" width="64" height="64" title="Ancestral Staff" alt="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorMaster.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4290,7 +4290,7 @@ Ancestral Staff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Summons 2 Berserkers to fight for you. Also grants the Hero and friendly nearby units increased attack rate and movement speed. <br/>Does not stack with Endurance Aura.<br/><div style="color: #ffcc00">Histo" )
+<div style="color: #ff8c00">Artifact</div><br/>Summons 2 Berserkers to fight for you. Also grants the Hero and friendly nearby units increased attack rate and movement speed. <br/>Does not stack with Endurance Aura.<br/><div style="color: #ffcc00">His" )
 	call Preload( "
 <td>
 720
@@ -4318,7 +4318,7 @@ Ancestral Staff
 	call Preload( "
 <tr id="rin1">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp" />
+<a href="#rin1"><img src="ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp" width="64" height="64" title="Mantle of Intelligence +3" alt="ReplaceableTextures\\CommandButtons\\BTNMantleOfIntelligence.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4363,7 +4363,7 @@ Increases the Intelligence of the Hero by 3 when worn.
 	call Preload( "
 <tr id="fgdg">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
+<a href="#fgdg"><img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" width="64" height="64" title="Demonic Figurine" alt="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4408,7 +4408,7 @@ Summons a Doom Guard to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="fgbd">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAzureDragon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAzureDragon.blp" />
+<a href="#fgbd"><img src="ReplaceableTextures\\CommandButtons\\BTNAzureDragon.blp" width="64" height="64" title="Blue Drake Egg" alt="ReplaceableTextures\\CommandButtons\\BTNAzureDragon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4453,7 +4453,7 @@ Summons a Blue Drake to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="engr">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" />
+<a href="#engr"><img src="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" width="64" height="64" title="Engraved Scale" alt="ReplaceableTextures\\CommandButtons\\BTNpurpleDragonSpawn.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4498,7 +4498,7 @@ Summons a Blue Dragonspawn Overseer to fight for you.<br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="whwd">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" />
+<a href="#whwd"><img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" width="64" height="64" title="Healing Wards" alt="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4543,7 +4543,7 @@ Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's
 	call Preload( "
 <tr id="iotw">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp" />
+<a href="#iotw"><img src="ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp" width="64" height="64" title="Idol of the Wild" alt="ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4588,7 +4588,7 @@ Summons a Furbolg Tracker to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="fgfh">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" />
+<a href="#fgfh"><img src="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" width="64" height="64" title="Spiked Collar" alt="ReplaceableTextures\\CommandButtons\\BTNFelHound.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4633,7 +4633,7 @@ Summons a Fel Stalker to fight for you. <br/>Lasts 180 seconds.
 	call Preload( "
 <tr id="rnsp">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" />
+<a href="#rnsp"><img src="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" width="64" height="64" title="Ring of Superiority" alt="ReplaceableTextures\\CommandButtons\\BTNGoldRing.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4678,7 +4678,7 @@ Increases the Strength, Agility and Intelligence of the Hero by 1 when worn.
 	call Preload( "
 <tr id="I077">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" />
+<a href="#I077"><img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" width="64" height="64" title="Enchanted Gemstone" alt="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4723,7 +4723,7 @@ Increases all hero stats by 2.
 	call Preload( "
 <tr id="I078">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGem.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGem.blp" />
+<a href="#I078"><img src="ReplaceableTextures\\CommandButtons\\BTNGem.blp" width="64" height="64" title="Green Gemstone" alt="ReplaceableTextures\\CommandButtons\\BTNGem.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4768,7 +4768,7 @@ Increases all hero stats by 3.
 	call Preload( "
 <tr id="I079">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" />
+<a href="#I079"><img src="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" width="64" height="64" title="Jewel Amulet" alt="ReplaceableTextures\\CommandButtons\\BTNAmulet.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4813,7 +4813,7 @@ Increases all hero stats by 4.
 	call Preload( "
 <tr id="I07F">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTome.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTome.blp" />
+<a href="#I07F"><img src="ReplaceableTextures\\CommandButtons\\BTNTome.blp" width="64" height="64" title="Novice Enchanting Formula" alt="ReplaceableTextures\\CommandButtons\\BTNTome.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4857,7 +4857,7 @@ Provides +1 to hero stats, summoned units and defense, +3 to damage and +50 to h
 	call Preload( "
 <tr id="I07H">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" />
+<a href="#I07H"><img src="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" width="64" height="64" title="Advanced Enchanting Formula" alt="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4901,7 +4901,7 @@ Provides +2 to hero stats, summoned units and defense, +5 to damage and +100 to 
 	call Preload( "
 <tr id="I07I">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" />
+<a href="#I07I"><img src="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" width="64" height="64" title="Adept Enchanting Formula" alt="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4945,7 +4945,7 @@ Provides +3 to hero stats, summoned units and defense, +7 to damage and +150 to 
 	call Preload( "
 <tr id="I07J">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp" />
+<a href="#I07J"><img src="ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp" width="64" height="64" title="Master Enchanting Formula" alt="ReplaceableTextures\\CommandButtons\\BTNTomeRed.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -4989,7 +4989,7 @@ Provides +4 to hero stats, summoned units and defense, +9 to damage and +200 to 
 	call Preload( "
 <tr id="I082">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp" />
+<a href="#I082"><img src="ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp" width="64" height="64" title="Tiny Pirate Ship" alt="ReplaceableTextures\\CommandButtons\\BTNHumanBattleShip.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5034,7 +5034,7 @@ Summons a Pirate Ship to cross the sea.
 	call Preload( "
 <tr id="I083">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" />
+<a href="#I083"><img src="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" width="64" height="64" title="Treasure Map" alt="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5079,7 +5079,7 @@ Gives you the location of a hidden treasure on the map which increases your gold
 	call Preload( "
 <tr id="I085">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSimple Compass1.2.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSimple Compass1.2.blp" />
+<a href="#I085"><img src="ReplaceableTextures\\CommandButtons\\BTNSimple Compass1.2.blp" width="64" height="64" title="Compass" alt="ReplaceableTextures\\CommandButtons\\BTNSimple Compass1.2.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5124,7 +5124,7 @@ Detects enemy ships on the sea.
 	call Preload( "
 <tr id="I086">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPieceOfShip.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPieceOfShip.blp" />
+<a href="#I086"><img src="ReplaceableTextures\\CommandButtons\\BTNPieceOfShip.blp" width="64" height="64" title="Navigation Wheel" alt="ReplaceableTextures\\CommandButtons\\BTNPieceOfShip.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5169,7 +5169,7 @@ Increases the stats of a ship which transports the hero.
 	call Preload( "
 <tr id="wswd">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp" />
+<a href="#wswd"><img src="ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp" width="64" height="64" title="Sentry Wards" alt="ReplaceableTextures\\CommandButtons\\BTNSentryWard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5214,7 +5214,7 @@ Drops a Sentry Ward to spy upon an area for 180 seconds. <br/>Contains 2 charges
 	call Preload( "
 <tr id="I09K">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp" />
+<a href="#I09K"><img src="ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp" width="64" height="64" title="Stasis Traps" alt="ReplaceableTextures\\CommandButtons\\BTNStasisTrap.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5258,7 +5258,7 @@ Drops an invisible and immovable ward that stuns enemy land units around it. The
 	call Preload( "
 <tr id="I09I">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" />
+<a href="#I09I"><img src="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" width="64" height="64" title="Mana Wards" alt="ReplaceableTextures\\CommandButtons\\BTNManaWard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5303,7 +5303,7 @@ Summons an immovable ward that regenerates 1% of nearby friendly non-mechanical 
 	call Preload( "
 <tr id="whwd">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" />
+<a href="#whwd"><img src="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" width="64" height="64" title="Healing Wards" alt="ReplaceableTextures\\CommandButtons\\BTNHealingWard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5348,7 +5348,7 @@ Summons an immovable ward that heals 2% of nearby friendly non-mechanical unit's
 	call Preload( "
 <tr id="I0D3">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_12.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_12.blp" />
+<a href="#I0D3"><img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_12.blp" width="64" height="64" title="Small Bill" alt="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_12.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5393,7 +5393,7 @@ Increases the charges of the target item by 1.
 	call Preload( "
 <tr id="I0D4">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_09.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_09.blp" />
+<a href="#I0D4"><img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_09.blp" width="64" height="64" title="Bill" alt="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_09.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5438,7 +5438,7 @@ Increases the charges of the target item by 2.
 	call Preload( "
 <tr id="I0D5">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_03.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_03.blp" />
+<a href="#I0D5"><img src="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_03.blp" width="64" height="64" title="Large Bill" alt="ReplaceableTextures\\CommandButtons\\BTNINV_Letter_03.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5483,7 +5483,7 @@ Increases the charges of the target item by 3.
 	call Preload( "
 <tr id="I0D6">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAquamarineRing.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAquamarineRing.blp" />
+<a href="#I0D6"><img src="ReplaceableTextures\\CommandButtons\\BTNAquamarineRing.blp" width="64" height="64" title="Ring of the Trading Guild" alt="ReplaceableTextures\\CommandButtons\\BTNAquamarineRing.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5527,7 +5527,7 @@ Increases the gold and lumber gained from selling items. Multiplies the sold ite
 	call Preload( "
 <tr id="I09U">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWindOrb.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWindOrb.blp" />
+<a href="#I09U"><img src="ReplaceableTextures\\CommandButtons\\BTNWindOrb.blp" width="64" height="64" title="Orb of Wind" alt="ReplaceableTextures\\CommandButtons\\BTNWindOrb.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5572,7 +5572,7 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <tr id="I0BS">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRoyal.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRoyal.blp" />
+<a href="#I0BS"><img src="ReplaceableTextures\\CommandButtons\\BTNRoyal.blp" width="64" height="64" title="Orb of Royality" alt="ReplaceableTextures\\CommandButtons\\BTNRoyal.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5617,7 +5617,7 @@ Adds 6 bonus wind damage to the attack of a Hero when carried. The Hero's attack
 	call Preload( "
 <tr id="I0FR">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGoldBar.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGoldBar.blp" />
+<a href="#I0FR"><img src="ReplaceableTextures\\CommandButtons\\BTNGoldBar.blp" width="64" height="64" title="Gold Bars" alt="ReplaceableTextures\\CommandButtons\\BTNGoldBar.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5662,7 +5662,7 @@ Gives 500 gold to the player when used.
 	call Preload( "
 <tr id="I07C">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPotionOfRestoration.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPotionOfRestoration.blp" />
+<a href="#I07C"><img src="ReplaceableTextures\\CommandButtons\\BTNPotionOfRestoration.blp" width="64" height="64" title="Potion of Greater Restoration" alt="ReplaceableTextures\\CommandButtons\\BTNPotionOfRestoration.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5707,7 +5707,7 @@ Heals 700 hit points and restores 400 mana when used.
 	call Preload( "
 <tr id="I07D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" />
+<a href="#I07D"><img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" width="64" height="64" title="Restoration Stone" alt="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5752,7 +5752,7 @@ Increases the life regeneration rate of the Hero by 1 hit points per second when
 	call Preload( "
 <tr id="I0GK">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" />
+<a href="#I0GK"><img src="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" width="64" height="64" title="Flamethrower" alt="ReplaceableTextures\\CommandButtons\\BTNFlamethrower.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5797,7 +5797,7 @@ Powerful weapon which has a limited number of charges to burn victims in front o
 	call Preload( "
 <tr id="I0D7">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" />
+<a href="#I0D7"><img src="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" width="64" height="64" title="Random Artifact" alt="ReplaceableTextures\\CommandButtons\\BTNRandomBasicIcon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5842,7 +5842,7 @@ Gives the hero a random ability. The ability can be changed by using the item.
 	call Preload( "
 <tr id="I0HJ">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" />
+<a href="#I0HJ"><img src="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" width="64" height="64" title="Unlimited Trees" alt="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5887,7 +5887,7 @@ Summons an Unlimited Tree which can be used for harvesting lumber.
 	call Preload( "
 <tr id="I0G0">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" />
+<a href="#I0G0"><img src="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" width="64" height="64" title="Wand of Future" alt="ReplaceableTextures\\CommandButtons\\BTNSpell_Nature_TimeStop.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5931,7 +5931,7 @@ Sends the target units, items and destructables to the future. Calls all of them
 	call Preload( "
 <tr id="I0FZ">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTN.TimeUp.BLP" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTN.TimeUp.BLP" />
+<a href="#I0FZ"><img src="ReplaceableTextures\\CommandButtons\\BTN.TimeUp.BLP" width="64" height="64" title="Wand of Time Clone" alt="ReplaceableTextures\\CommandButtons\\BTN.TimeUp.BLP" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -5976,7 +5976,7 @@ Create an inverted double of the targeted unit when used. The inverted double do
 	call Preload( "
 <tr id="I0FY">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" />
+<a href="#I0FY"><img src="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" width="64" height="64" title="Winged Clock" alt="ReplaceableTextures\\CommandButtons\\BTNWinged-Clock.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6021,7 +6021,7 @@ Increases or decreases the time speed for 30 seconds. Target the ground to incre
 	call Preload( "
 <tr id="I0AO">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNJedi Drone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNJedi Drone.blp" />
+<a href="#I0AO"><img src="ReplaceableTextures\\CommandButtons\\BTNJedi Drone.blp" width="64" height="64" title="Jedi Drone" alt="ReplaceableTextures\\CommandButtons\\BTNJedi Drone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6066,7 +6066,7 @@ Automatically attacks nearby enemies.
 	call Preload( "
 <tr id="I0FO">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNsatchel.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNsatchel.blp" />
+<a href="#I0FO"><img src="ReplaceableTextures\\CommandButtons\\BTNsatchel.blp" width="64" height="64" title="C4" alt="ReplaceableTextures\\CommandButtons\\BTNsatchel.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6111,7 +6111,7 @@ Places a hidden C4 explosive at a target point. It will explode automatically af
 	call Preload( "
 <tr id="I0FM">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRadar.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRadar.blp" />
+<a href="#I0FM"><img src="ReplaceableTextures\\CommandButtons\\BTNRadar.blp" width="64" height="64" title="Mobile Radar" alt="ReplaceableTextures\\CommandButtons\\BTNRadar.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6156,7 +6156,7 @@ Drops a Mobile Radar to spy upon an area for 180 seconds. It detects only enemy 
 	call Preload( "
 <tr id="I007">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp" />
+<a href="#I007"><img src="ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp" width="64" height="64" title="Unique - Book of the 4 Elements" alt="ReplaceableTextures\\CommandButtons\\BTNNecromancerMaster.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6200,7 +6200,7 @@ Unique - Book of the 4 Elements
 	call Preload( "
 <tr id="I00C">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp" />
+<a href="#I00C"><img src="ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp" width="64" height="64" title="Unique - Dragonspawn Necklace" alt="ReplaceableTextures\\CommandButtons\\BTNPriestMaster.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6245,7 +6245,7 @@ Unique - Dragonspawn Necklace
 	call Preload( "
 <tr id="I00A">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
+<a href="#I00A"><img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" width="64" height="64" title="Unique - Helm of the Void" alt="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6289,7 +6289,7 @@ Unique - Helm of the Void
 	call Preload( "
 <tr id="I00B">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" />
+<a href="#I00B"><img src="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" width="64" height="64" title="Unique - Hydra Queen Scales" alt="ReplaceableTextures\\CommandButtons\\BTNGreenHydra.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6333,7 +6333,7 @@ Unique - Hydra Queen Scales
 	call Preload( "
 <tr id="I006">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" />
+<a href="#I006"><img src="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" width="64" height="64" title="Unique - Legion´s Hate" alt="ReplaceableTextures\\CommandButtons\\BTNCleavingAttack.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6377,7 +6377,7 @@ Unique - Legion´s Hate
 	call Preload( "
 <tr id="I008">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp" />
+<a href="#I008"><img src="ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp" width="64" height="64" title="Unique - Shield of the Void" alt="ReplaceableTextures\\CommandButtons\\BTNLightningShield.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6421,7 +6421,7 @@ Unique - Shield of the Void
 	call Preload( "
 <tr id="I02R">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNGuldanSkull.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNGuldanSkull.blp" />
+<a href="#I02R"><img src="ReplaceableTextures\\CommandButtons\\BTNGuldanSkull.blp" width="64" height="64" title="Unique - Skull of Gul'dan" alt="ReplaceableTextures\\CommandButtons\\BTNGuldanSkull.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6465,7 +6465,7 @@ Unique - Skull of Gul'dan
 	call Preload( "
 <tr id="I005">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" />
+<a href="#I005"><img src="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" width="64" height="64" title="Unique - Stormbringer´s Horn" alt="ReplaceableTextures\\CommandButtons\\BTNThunderLizard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6509,7 +6509,7 @@ Unique - Stormbringer´s Horn
 	call Preload( "
 <tr id="I009">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" />
+<a href="#I009"><img src="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" width="64" height="64" title="Unique - Varimathras´ Wings" alt="ReplaceableTextures\\CommandButtons\\BTNStoneForm.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6553,7 +6553,7 @@ Unique - Varimathras´ Wings
 	call Preload( "
 <tr id="I03H">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp" />
+<a href="#I03H"><img src="ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp" width="64" height="64" title="Unique - Mask of Death" alt="ReplaceableTextures\\CommandButtons\\BTNMaskOfDeath.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6598,7 +6598,7 @@ Unique - Mask of Death
 	call Preload( "
 <tr id="I027">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp" />
+<a href="#I027"><img src="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp" width="64" height="64" title="Unique - Medivh's Spell Book" alt="ReplaceableTextures\\CommandButtons\\BTNBookOfSummoning.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6643,7 +6643,7 @@ Unique - Medivh's Spell Book
 	call Preload( "
 <tr id="I03R">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" />
+<a href="#I03R"><img src="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" width="64" height="64" title="Unique - Scepter of the Sea Giant" alt="ReplaceableTextures\\CommandButtons\\BTNWitchDoctorAdept.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6687,7 +6687,7 @@ Unique - Scepter of the Sea Giant
 	call Preload( "
 <tr id="I03T">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" />
+<a href="#I03T"><img src="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" width="64" height="64" title="Unique - Ancient Turtle Shell" alt="ReplaceableTextures\\CommandButtons\\BTNSeaTurtleRed.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6732,7 +6732,7 @@ Unique - Ancient Turtle Shell
 	call Preload( "
 <tr id="I03S">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAshbringer.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAshbringer.blp" />
+<a href="#I03S"><img src="ReplaceableTextures\\CommandButtons\\BTNAshbringer.blp" width="64" height="64" title="Unique - The Ashbringer" alt="ReplaceableTextures\\CommandButtons\\BTNAshbringer.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6777,7 +6777,7 @@ Unique - The Ashbringer
 	call Preload( "
 <tr id="I028">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNLesserRejuvScroll.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNLesserRejuvScroll.blp" />
+<a href="#I028"><img src="ReplaceableTextures\\CommandButtons\\BTNLesserRejuvScroll.blp" width="64" height="64" title="Unique - Murloc Scroll" alt="ReplaceableTextures\\CommandButtons\\BTNLesserRejuvScroll.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6821,7 +6821,7 @@ Unique - Murloc Scroll
 	call Preload( "
 <tr id="I03X">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" />
+<a href="#I03X"><img src="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" width="64" height="64" title="Unique - The Eye of Sargeras" alt="ReplaceableTextures\\CommandButtons\\BTNInfernalStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6865,7 +6865,7 @@ Unique - The Eye of Sargeras
 	call Preload( "
 <tr id="I03Z">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" />
+<a href="#I03Z"><img src="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" width="64" height="64" title="Unique - Enchanted Spider Crab Claw" alt="ReplaceableTextures\\CommandButtons\\BTNSpiderCrab.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6910,7 +6910,7 @@ Unique - Enchanted Spider Crab Claw
 	call Preload( "
 <tr id="I040">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCagedIllidan.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNCagedIllidan.blp" />
+<a href="#I040"><img src="ReplaceableTextures\\CommandButtons\\BTNCagedIllidan.blp" width="64" height="64" title="Unique - Mathog's Cage" alt="ReplaceableTextures\\CommandButtons\\BTNCagedIllidan.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6955,7 +6955,7 @@ Unique - Mathog's Cage
 	call Preload( "
 <tr id="I041">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" />
+<a href="#I041"><img src="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" width="64" height="64" title="Unique - Gul'dan's Mana Shield" alt="ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -6999,7 +6999,7 @@ Unique - Gul'dan's Mana Shield
 	call Preload( "
 <tr id="I045">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" />
+<a href="#I045"><img src="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" width="64" height="64" title="Unique - Sea Witch Tail" alt="ReplaceableTextures\\CommandButtons\\BTNNagaSeaWitch.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7044,8 +7044,7 @@ Unique - Sea Witch Tail
 	call Preload( "
 <tr id="I046">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" />
-</td>" )
+<a href="#I046"><img src="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" width="64" height="64" title="Unique - Jeweled Scepter of Sargeras" alt="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp" )
 	call Preload( "
 <td>
 Unique - Jeweled Scepter of Sargeras
@@ -7088,7 +7087,7 @@ Unique - Jeweled Scepter of Sargeras
 	call Preload( "
 <tr id="I04A">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" />
+<a href="#I04A"><img src="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" width="64" height="64" title="Unique - Portable Goblin Laboratory" alt="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7132,7 +7131,7 @@ Unique - Portable Goblin Laboratory
 	call Preload( "
 <tr id="I04W">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" />
+<a href="#I04W"><img src="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" width="64" height="64" title="Unique - Portable Tinker Factory" alt="ReplaceableTextures\\CommandButtons\\BTNPocketFactory.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7177,7 +7176,7 @@ Unique - Portable Tinker Factory
 	call Preload( "
 <tr id="I052">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" />
+<a href="#I052"><img src="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" width="64" height="64" title="Unique - Doomhammer" alt="ReplaceableTextures\\CommandButtons\\BTNHammer.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7221,7 +7220,7 @@ Unique - Doomhammer
 	call Preload( "
 <tr id="I071">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" />
+<a href="#I071"><img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" width="64" height="64" title="Unique - Heart of Aszhara" alt="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7265,7 +7264,7 @@ Unique - Heart of Aszhara
 	call Preload( "
 <tr id="I072">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTN_CR_Heart_of_Gold.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTN_CR_Heart_of_Gold.blp" />
+<a href="#I072"><img src="ReplaceableTextures\\CommandButtons\\BTN_CR_Heart_of_Gold.blp" width="64" height="64" title="Unique - Heart of Y'Shaarj" alt="ReplaceableTextures\\CommandButtons\\BTN_CR_Heart_of_Gold.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7310,7 +7309,7 @@ Unique - Heart of Y'Shaarj
 	call Preload( "
 <tr id="I08Z">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBlastHammer.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBlastHammer.blp" />
+<a href="#I08Z"><img src="ReplaceableTextures\\CommandButtons\\BTNBlastHammer.blp" width="64" height="64" title="Unique - Sulfuras" alt="ReplaceableTextures\\CommandButtons\\BTNBlastHammer.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7355,7 +7354,7 @@ Unique - Sulfuras
 	call Preload( "
 <tr id="I09V">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEyeOfDalaran.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNEyeOfDalaran.blp" />
+<a href="#I09V"><img src="ReplaceableTextures\\CommandButtons\\BTNEyeOfDalaran.blp" width="64" height="64" title="Unique - Eye of Dalaran" alt="ReplaceableTextures\\CommandButtons\\BTNEyeOfDalaran.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7400,7 +7399,7 @@ Unique - Eye of Dalaran
 	call Preload( "
 <tr id="I0A1">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNP_AngelWings.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNP_AngelWings.blp" />
+<a href="#I0A1"><img src="ReplaceableTextures\\CommandButtons\\BTNP_AngelWings.blp" width="64" height="64" title="Unique - Angel Wings" alt="ReplaceableTextures\\CommandButtons\\BTNP_AngelWings.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7445,7 +7444,7 @@ Unique - Angel Wings
 	call Preload( "
 <tr id="I0BM">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" />
+<a href="#I0BM"><img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" width="64" height="64" title="Unique - Elune's Moonstone" alt="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7490,7 +7489,7 @@ Unique - Elune's Moonstone
 	call Preload( "
 <tr id="ram4">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" />
+<a href="#ram4"><img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" width="64" height="64" title="Ring of the Archmagi" alt="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7535,7 +7534,7 @@ A powerful artifact with a wondrous gem inset. Increases the Strength, Agility a
 	call Preload( "
 <tr id="blba">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" />
+<a href="#blba"><img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" width="64" height="64" title="Bladebane Armor" alt="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7580,7 +7579,7 @@ Grants nearby units 1 bonus defense. Enhances the Hero's armor by 7.
 	call Preload( "
 <tr id="I01B">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" />
+<a href="#I01B"><img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="Muradin´s Axe" alt="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7596,7 +7595,7 @@ Muradin´s Axe
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by 10 when carried. Also adds a 15% probability to bash an opponent (25 bonus damage and 2 second stun). <br/><div style="color: #ffcc00">History</div><br/><div style" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by 10 when carried. Also adds a 15% probability to bash an opponent (25 bonus damage and 2 second stun). <br/><div style="color: #ffcc00">History</div><br/><div sty" )
 	call Preload( "
 <td>
 0
@@ -7624,7 +7623,7 @@ Muradin´s Axe
 	call Preload( "
 <tr id="I01C">
 <td>
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" width="64" height="64" title="ReplaceableTextures\\PassiveButtons\\PASBTNStormHammer.blp" />
+<a href="#I01C"><img src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" width="64" height="64" title="Royal Paladin Hammer" alt="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7640,7 +7639,7 @@ Royal Paladin Hammer
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by 15 when carried. Also grants Devotion Aura and casts Holy Light (200 Life healed).<br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadAfte" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by 15 when carried. Also grants Devotion Aura and casts Holy Light (200 Life healed).<br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadAf" )
 	call Preload( "
 <td>
 0
@@ -7668,7 +7667,7 @@ Royal Paladin Hammer
 	call Preload( "
 <tr id="sneg">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" />
+<a href="#sneg"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" width="64" height="64" title="Staff of Negation" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7713,7 +7712,7 @@ Dispels all magical effects in a target area. <br/><div style="color: #ffcc00">D
 	call Preload( "
 <tr id="schl">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" />
+<a href="#schl"><img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" width="64" height="64" title="Scepter of Healing" alt="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7758,7 +7757,7 @@ Grants the ability to heal a friendly unit. Also grants the Hero and friendly ne
 	call Preload( "
 <tr id="I01I">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" />
+<a href="#I01I"><img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" width="64" height="64" title="Tyrande´s Moonstone" alt="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7774,7 +7773,7 @@ Tyrande´s Moonstone
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the defense of the Hero by 8. Also grants the ability to make a sun eclipse for a short period of time<br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadAfter the inciden" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the defense of the Hero by 8. Also grants the ability to make a sun eclipse for a short period of time<br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadAfter the incid" )
 	call Preload( "
 <td>
 0
@@ -7802,7 +7801,7 @@ Tyrande´s Moonstone
 	call Preload( "
 <tr id="azhr">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" />
+<a href="#azhr"><img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" width="64" height="64" title="Heart of Aszune" alt="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7847,7 +7846,7 @@ Legends say that the imprisoned spirit of Aszune seeks out her heart to this ver
 	call Preload( "
 <tr id="stel">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" />
+<a href="#stel"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" width="64" height="64" title="Staff of Teleportation" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7892,7 +7891,7 @@ Teleports the Hero to the targeted allied land unit or structure.
 	call Preload( "
 <tr id="I01L">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" />
+<a href="#I01L"><img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" width="64" height="64" title="Harpy Hunter´s Net" alt="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7908,7 +7907,7 @@ Harpy Hunter´s Net
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by 15 when carried. Also grants Endurance Aura and can ensnare enemies. <br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadWhen the evil Har" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by 15 when carried. Also grants Endurance Aura and can ensnare enemies. <br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadWhen the evil H" )
 	call Preload( "
 <td>
 0
@@ -7936,7 +7935,7 @@ Harpy Hunter´s Net
 	call Preload( "
 <tr id="I01M">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBelt.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNBelt.blp" />
+<a href="#I01M"><img src="ReplaceableTextures\\CommandButtons\\BTNBelt.blp" width="64" height="64" title="Gauntlet Grand Champion´s Belt" alt="ReplaceableTextures\\CommandButtons\\BTNBelt.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7952,7 +7951,7 @@ Gauntlet Grand Champion´s Belt
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases all stats of the bearer by +5. Also allows reincarnation every 180 seconds if the Hero dies. <br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadAfter the Stonemaul Ogres " )
+<div style="color: #ff8c00">Artifact</div><br/>Increases all stats of the bearer by +5. Also allows reincarnation every 180 seconds if the Hero dies. <br/><div style="color: #ffcc00">History</div><br/><div style="color: #ffdeadAfter the Stonemaul Ogre" )
 	call Preload( "
 <td>
 0
@@ -7980,7 +7979,7 @@ Gauntlet Grand Champion´s Belt
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -7996,7 +7995,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8024,7 +8023,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8040,7 +8039,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8068,7 +8067,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8084,7 +8083,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8112,7 +8111,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8128,7 +8127,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8156,7 +8155,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8172,7 +8171,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8200,7 +8199,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8216,7 +8215,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8244,7 +8243,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8260,7 +8259,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8288,7 +8287,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8304,7 +8303,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8332,7 +8331,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8348,7 +8347,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8376,7 +8375,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8392,7 +8391,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8420,7 +8419,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8436,7 +8435,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8464,7 +8463,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8480,7 +8479,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8508,7 +8507,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8524,7 +8523,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8552,7 +8551,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8568,7 +8567,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8596,7 +8595,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8612,7 +8611,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8640,7 +8639,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8656,7 +8655,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8684,7 +8683,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8700,7 +8699,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8728,7 +8727,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8744,7 +8743,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8772,7 +8771,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8788,7 +8787,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8816,7 +8815,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8832,7 +8831,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8860,7 +8859,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8876,7 +8875,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8904,7 +8903,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8920,7 +8919,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8948,7 +8947,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -8964,7 +8963,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -8992,7 +8991,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9008,7 +9007,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -9036,7 +9035,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="I01N">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" />
+<a href="#I01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9052,7 +9051,7 @@ Totem of Thunder Buff
 </td>" )
 	call Preload( "
 <td>
-<div style="color: #ff8c00Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><br/" )
+<div style="color: #ff8c00">Artifact</div><br/>Increases the attack damage of the Hero by +10 and life points by 300. Also casts War Stomp every 60 seconds that deals 100 damage and stuns for 5 seconds. <br/><div style="color: #ffcc00">History</div><b" )
 	call Preload( "
 <td>
 0
@@ -9080,52 +9079,7 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
-</td>" )
-	call Preload( "
-<td>
-
-</td>" )
-	call Preload( "
-<td>
--
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
--
-</td>" )
-	call Preload( "
-<td>
-<ul>
-</ul>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="h09D">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9170,7 +9124,52 @@ Totem of Thunder Buff
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="h09D">
+<td>
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9215,7 +9214,7 @@ Human
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9260,7 +9259,7 @@ Human
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9305,7 +9304,7 @@ Orc
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9350,7 +9349,7 @@ Orc
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9395,7 +9394,7 @@ Undead
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9440,7 +9439,7 @@ Undead
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9485,7 +9484,7 @@ Night Elf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9530,7 +9529,7 @@ Night Elf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9575,7 +9574,7 @@ Blood Elf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9620,7 +9619,7 @@ Blood Elf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9665,7 +9664,7 @@ Naga
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9710,7 +9709,7 @@ Naga
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9755,7 +9754,7 @@ Demon
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9800,7 +9799,7 @@ Demon
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9845,7 +9844,7 @@ Draenei
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9890,7 +9889,7 @@ Draenei
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9935,7 +9934,7 @@ Furbolg
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -9980,7 +9979,7 @@ Furbolg
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10025,7 +10024,7 @@ Goblin
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10070,7 +10069,7 @@ Goblin
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10115,7 +10114,7 @@ Dwarf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10160,7 +10159,7 @@ Dwarf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10205,7 +10204,7 @@ High Elf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10250,7 +10249,7 @@ High Elf
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10295,7 +10294,7 @@ Dalaran
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10340,7 +10339,7 @@ Dalaran
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10385,7 +10384,7 @@ Kul Tiras
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10430,7 +10429,7 @@ Kul Tiras
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10475,7 +10474,7 @@ Pandaren
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10520,7 +10519,7 @@ Pandaren
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10565,7 +10564,7 @@ Trolls
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10610,7 +10609,7 @@ Trolls
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10655,7 +10654,7 @@ Tauren
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10700,7 +10699,7 @@ Tauren
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10745,7 +10744,7 @@ Galactic Republic
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10790,7 +10789,7 @@ Galactic Republic
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10835,7 +10834,7 @@ CIS
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10880,7 +10879,7 @@ CIS
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10925,7 +10924,7 @@ Roman Empire
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -10970,7 +10969,7 @@ Roman Empire
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11015,7 +11014,7 @@ Medieval
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11060,7 +11059,7 @@ Medieval
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11105,7 +11104,7 @@ Free People of Middle Earth
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11150,7 +11149,7 @@ Free People of Middle Earth
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11195,7 +11194,7 @@ Sauron's Forces
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11240,7 +11239,7 @@ Sauron's Forces
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11285,7 +11284,7 @@ Modern Warfare
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11330,7 +11329,7 @@ Modern Warfare
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11375,7 +11374,7 @@ Germans WWII
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11420,7 +11419,7 @@ Germans WWII
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11465,7 +11464,7 @@ Vrykul
 	call Preload( "
 <tr id="h09D">
 <td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" />
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -11507,7 +11506,97 @@ Vrykul
 	call Preload( "
 </tr>
 " )
-	call PreloadEnd( 6.0 )
+	call Preload( "
+<tr id="h09D">
+<td>
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+Worgen
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call Preload( "
+<tr id="h09D">
+<td>
+<a href="#h09D"><img src="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" width="64" height="64" title="Arcane Shipyard" alt="ReplaceableTextures\\CommandButtons\\BTNArcaneShipyard.blp" /></a>
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+Worgen
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+0
+</td>" )
+	call Preload( "
+<td>
+-
+</td>" )
+	call Preload( "
+<td>
+<ul>
+</ul>
+</td>" )
+	call Preload( "
+</tr>
+" )
+	call PreloadEnd( 3.2 )
 
 endfunction
 
