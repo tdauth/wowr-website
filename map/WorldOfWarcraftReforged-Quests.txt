@@ -20,7 +20,7 @@ Landazar
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlram4"><img src="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" width="64" height="64" title="Ring of the Archmagi" alt="ReplaceableTextures\\CommandButtons\\BTNRingJadeFalcon.blp" /></a>
+<a href="items.html#ram4"><img src="ReplaceableTextures/CommandButtons/BTNRingJadeFalcon.blp" width="64" height="64" title="Ring of the Archmagi" alt="ReplaceableTextures/CommandButtons/BTNRingJadeFalcon.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -47,7 +47,7 @@ Magni Bronzebeard
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlblba"><img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" width="64" height="64" title="Bladebane Armor" alt="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /></a>
+<a href="items.html#blba"><img src="ReplaceableTextures/CommandButtons/BTNArmorGolem.blp" width="64" height="64" title="Bladebane Armor" alt="ReplaceableTextures/CommandButtons/BTNArmorGolem.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -74,7 +74,7 @@ Magni Bronzebeard
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01B"><img src="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="Muradin´s Axe" alt="ReplaceableTextures\\CommandButtons\\BTNSpiritWalkerAdeptTraining.blp" /></a>
+<a href="items.html#I01B"><img src="ReplaceableTextures/CommandButtons/BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="Muradin´s Axe" alt="ReplaceableTextures/CommandButtons/BTNSpiritWalkerAdeptTraining.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -101,7 +101,7 @@ Anduin Wrynn
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01C"><img src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" width="64" height="64" title="Royal Paladin Hammer" alt="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" /></a>
+<a href="items.html#I01C"><img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64" title="Royal Paladin Hammer" alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -128,7 +128,7 @@ Tyrande
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlsneg"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" width="64" height="64" title="Staff of Negation" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfNegation.blp" /></a>
+<a href="items.html#sneg"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" width="64" height="64" title="Staff of Negation" alt="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -156,7 +156,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlschl"><img src="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" width="64" height="64" title="Scepter of Healing" alt="ReplaceableTextures\\CommandButtons\\BTNPriestAdept.blp" /></a>
+<a href="items.html#schl"><img src="ReplaceableTextures/CommandButtons/BTNPriestAdept.blp" width="64" height="64" title="Scepter of Healing" alt="ReplaceableTextures/CommandButtons/BTNPriestAdept.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -183,7 +183,7 @@ Tyrande
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01I"><img src="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" width="64" height="64" title="Tyrande´s Moonstone" alt="ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp" /></a>
+<a href="items.html#I01I"><img src="ReplaceableTextures/CommandButtons/BTNMoonStone.blp" width="64" height="64" title="Tyrande´s Moonstone" alt="ReplaceableTextures/CommandButtons/BTNMoonStone.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -210,7 +210,7 @@ Malfurion
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlazhr"><img src="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" width="64" height="64" title="Heart of Aszune" alt="ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp" /></a>
+<a href="items.html#azhr"><img src="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp" width="64" height="64" title="Heart of Aszune" alt="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -237,7 +237,7 @@ Thrall
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlstel"><img src="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" width="64" height="64" title="Staff of Teleportation" alt="ReplaceableTextures\\CommandButtons\\BTNStaffOfTeleportation.blp" /></a>
+<a href="items.html#stel"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfTeleportation.blp" width="64" height="64" title="Staff of Teleportation" alt="ReplaceableTextures/CommandButtons/BTNStaffOfTeleportation.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -264,7 +264,7 @@ Cairne Bloodhoof
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01L"><img src="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" width="64" height="64" title="Harpy Hunter´s Net" alt="ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp" /></a>
+<a href="items.html#I01L"><img src="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" width="64" height="64" title="Harpy Hunter´s Net" alt="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -291,7 +291,7 @@ Rexxar
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01M"><img src="ReplaceableTextures\\CommandButtons\\BTNBelt.blp" width="64" height="64" title="Gauntlet Grand Champion´s Belt" alt="ReplaceableTextures\\CommandButtons\\BTNBelt.blp" /></a>
+<a href="items.html#I01M"><img src="ReplaceableTextures/CommandButtons/BTNBelt.blp" width="64" height="64" title="Gauntlet Grand Champion´s Belt" alt="ReplaceableTextures/CommandButtons/BTNBelt.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -318,7 +318,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -345,7 +345,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -372,7 +372,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -399,7 +399,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -426,7 +426,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -453,7 +453,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -480,7 +480,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -507,7 +507,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -534,7 +534,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -561,7 +561,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -588,7 +588,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -615,7 +615,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -642,7 +642,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -670,7 +670,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -698,7 +698,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -725,7 +725,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -753,7 +753,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -780,7 +780,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -808,7 +808,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -836,7 +836,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -864,7 +864,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -892,7 +892,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -920,7 +920,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -948,7 +948,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
@@ -975,7 +975,7 @@ Chen Stormstout
 </td>" )
 	call Preload( "
 <td>
-<a href="items.htmlI01N"><img src="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures\\CommandButtons\\BTNOrcCaptureFlag.blp" /></a>
+<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
 </td>" )
 	call Preload( "
 <td>
