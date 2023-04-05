@@ -1,306 +1,307 @@
 function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
-	call Preload( "
-<!-- Professions generated with chat command "-website". -->
-<tr id="I00G">
-<td>
-<a href="#I06N"><img src="ReplaceableTextures/CommandButtons/BTNPotionGreen.blp" width="64" height="64" title="Herbalist" alt="ReplaceableTextures/CommandButtons/BTNPotionGr" )
-	call Preload( "
-<td>
-Herbalist
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which heal your hero and increase the life.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I00G"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Herbalism" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I00D">
-<td>
-<a href="#I06O"><img src="ReplaceableTextures/CommandButtons/BTNPotionBlueBig.blp" width="64" height="64" title="Alchemist" alt="ReplaceableTextures/CommandButtons/BTNPotionBlueBig.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Alchemist
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which restore mana of your hero and increase the maximum mana.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I00D"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Alchemy" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I00J">
-<td>
-<a href="#I06M"><img src="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp" width="64" height="64" title="Weapon Smith" alt="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Weapon Smith
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which increase the damage of your hero.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I00J"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Weaponsmithing" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I00E">
-<td>
-<a href="#I05T"><img src="ReplaceableTextures/CommandButtons/BTNLeatherUpgradeOne.blp" width="64" height="64" title="Armorer" alt="ReplaceableTextures/CommandButtons/BTNLeatherUpgradeOne.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Armorer
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which increase the armor of your hero.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I00E"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Armoring" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I00F">
-<td>
-<a href="#I06P"><img src="ReplaceableTextures/CommandButtons/BTNAdvancedFlameTower.blp" width="64" height="64" title="Engineer" alt="ReplaceableTextures/CommandButtons/BTNAdvancedFlameTower.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Engineer
-</td>" )
-	call Preload( "
-<td>
-Allows crafting tiny towers to protect your base.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I00F"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Engineering" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I00I">
-<td>
-<a href="#I06Q"><img src="ReplaceableTextures/CommandButtons/BTNScroll.blp" width="64" height="64" title="Lore Master" alt="ReplaceableTextures/CommandButtons/BTNScroll.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Lore Master
-</td>" )
-	call Preload( "
-<td>
-Allows crafting scrolls.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I00I"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Lores" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I02X">
-<td>
-<a href="#I06R"><img src="ReplaceableTextures/CommandButtons/BTNWandOfNeutralization.blp" width="64" height="64" title="Sorcerer" alt="ReplaceableTextures/CommandButtons/BTNWandOfNeutralization.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Sorcerer
-</td>" )
-	call Preload( "
-<td>
-Allows crafting wands.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02X"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Sorcery" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I02Y">
-<td>
-<a href="#I06S"><img src="ReplaceableTextures/CommandButtons/BTNRune.blp" width="64" height="64" title="Runeforger" alt="ReplaceableTextures/CommandButtons/BTNRune.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Runeforger
-</td>" )
-	call Preload( "
-<td>
-Allows crafting runes.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02Y"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Runeforging" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I033">
-<td>
-<a href="#I06T"><img src="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" width="64" height="64" title="Dragon Breeder" alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Dragon Breeder
-</td>" )
-	call Preload( "
-<td>
-Allows crafting dragon eggs.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I033"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Dragon Breeder" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I076">
-<td>
-<a href="#I075"><img src="ReplaceableTextures/CommandButtons/BTNGoldRing.blp" width="64" height="64" title="Jewelcrafter" alt="ReplaceableTextures/CommandButtons/BTNGoldRing.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Jewelcrafter
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which increase your hero attributes.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I076"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Jewelcrafting" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I07G">
-<td>
-<a href="#I07E"><img src="ReplaceableTextures/CommandButtons/BTNTome.blp" width="64" height="64" title="Enchanter" alt="ReplaceableTextures/CommandButtons/BTNTome.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Enchanter
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which increase the bonuses of carried items. Recommended as secondary profession since it helps to improve other items. Use "-enchanter" to list all item types which can be enchanted.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I07G"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Enchanting" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I081">
-<td>
-<a href="#I080"><img src="ReplaceableTextures/CommandButtons/BTNPirateFlag256.dds" width="64" height="64" title="Pirate" alt="ReplaceableTextures/CommandButtons/BTNPirateFlag256.dds" /></a>
-</td>" )
-	call Preload( "
-<td>
-Pirate
-</td>" )
-	call Preload( "
-<td>
-Allows crafting items which allow you to live as a pirate. Arrr!
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I081"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Piracy" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I09E">
-<td>
-<a href="#I09D"><img src="ReplaceableTextures/CommandButtons/BTNDigArtifact.blp" width="64" height="64" title="Archaeologist" alt="ReplaceableTextures/CommandButtons/BTNDigArtifact.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Archaeologist
-</td>" )
-	call Preload( "
-<td>
-Allows digging for random items.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I09E"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Archeology" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I09L">
-<td>
-<a href="#I09J"><img src="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp" width="64" height="64" title="Witch Doctor" alt="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Witch Doctor
-</td>" )
-	call Preload( "
-<td>
-Allows crafting wards.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I09L"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Witch Doctor" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0D2">
-<td>
-<a href="#I0D1"><img src="ReplaceableTextures/CommandButtons/BTNMerchant.blp" width="64" height="64" title="Merchant" alt="ReplaceableTextures/CommandButtons/BTNMerchant.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Merchant
-</td>" )
-	call Preload( "
-<td>
-Allows crafting bills to increase charges of other items.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0D2"><img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64" title="Book of Merchant" alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
+	call Preload( "<!-- Professions generated with chat command "-website". -->" )
+	call Preload( "<tr id="I00G">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPotionGreen.blp" width="64" height="64"" )
+	call Preload( "title="Herbalist"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPotionGreen.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Herbalist" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which heal your hero and increase the life." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I00G">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Herbalism"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I00D">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06O">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPotionBlueBig.blp" width="64" height="64"" )
+	call Preload( "title="Alchemist"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPotionBlueBig.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Alchemist" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which restore mana of your hero and increase the maximum mana." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I00D">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Alchemy"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I00J">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06M">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp" width="64" height="64"" )
+	call Preload( "title="Weapon Smith"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Weapon Smith" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which increase the damage of your hero." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I00J">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Weaponsmithing"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I00E">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I05T">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLeatherUpgradeOne.blp" width="64" height="64"" )
+	call Preload( "title="Armorer"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLeatherUpgradeOne.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Armorer" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which increase the armor of your hero." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I00E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Armoring"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I00F">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06P">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNAdvancedFlameTower.blp" width="64" height="64"" )
+	call Preload( "title="Engineer"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNAdvancedFlameTower.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Engineer" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting tiny towers to protect your base." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I00F">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Engineering"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I00I">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06Q">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNScroll.blp" width="64" height="64"" )
+	call Preload( "title="Lore Master"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNScroll.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Lore Master" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting scrolls." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I00I">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Lores"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I02X">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06R">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWandOfNeutralization.blp" width="64" height="64"" )
+	call Preload( "title="Sorcerer"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWandOfNeutralization.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Sorcerer" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting wands." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02X">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Sorcery"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I02Y">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06S">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRune.blp" width="64" height="64"" )
+	call Preload( "title="Runeforger"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRune.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Runeforger" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting runes." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02Y">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Runeforging"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I033">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06T">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" width="64" height="64"" )
+	call Preload( "title="Dragon Breeder"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dragon Breeder" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting dragon eggs." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I033">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Dragon Breeder"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I076">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I075">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGoldRing.blp" width="64" height="64"" )
+	call Preload( "title="Jewelcrafter"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGoldRing.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Jewelcrafter" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which increase your hero attributes." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I076">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Jewelcrafting"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I07G">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I07E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTome.blp" width="64" height="64"" )
+	call Preload( "title="Enchanter"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTome.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Enchanter" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which increase the bonuses of carried items. Recommended as secondary profession since it helps to improve other items. Use "-enchanter" to list all item types which can be enchanted." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I07G">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Enchanting"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I081">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I080">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPirateFlag256.dds" width="64" height="64"" )
+	call Preload( "title="Pirate"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPirateFlag256.dds" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Pirate" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting items which allow you to live as a pirate. Arrr!" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I081">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Piracy"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I09E">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I09D">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDigArtifact.blp" width="64" height="64"" )
+	call Preload( "title="Archaeologist"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDigArtifact.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Archaeologist" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows digging for random items." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I09E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Archeology"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I09L">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I09J">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp" width="64" height="64"" )
+	call Preload( "title="Witch Doctor"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Witch Doctor" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting wards." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I09L">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Witch Doctor"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0D2">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0D1">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMerchant.blp" width="64" height="64"" )
+	call Preload( "title="Merchant"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNMerchant.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Merchant" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Allows crafting bills to increase charges of other items." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0D2">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" width="64" height="64"" )
+	call Preload( "title="Book of Merchant"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
 	call PreloadEnd( 0.1 )
 
 endfunction

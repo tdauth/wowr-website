@@ -1,989 +1,836 @@
 function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
-	call Preload( "
-<!-- Quests generated with chat command "-website". -->
-<tr id="HumanQuest1">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" />
-</td>" )
-	call Preload( "
-<td>
-Dragon Slayer
-</td>" )
-	call Preload( "
-<td>
-Lately there has been some harassment by an evil Red Dragon that recently appeared in the Region. The Creature has caused serious damage to the defenses of Nethergarde Citadel and now the Wizards there have had enough ! There is a substantional reward" )
-	call Preload( "
-<td>
-Landazar
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#ram4"><img src="ReplaceableTextures/CommandButtons/BTNRingJadeFalcon.blp" width="64" height="64" title="Ring of the Archmagi" alt="ReplaceableTextures/CommandButtons/BTNRingJadeFalcon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
--
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="HumanQuest2">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" />
-</td>" )
-	call Preload( "
-<td>
-Golem Factory
-</td>" )
-	call Preload( "
-<td>
-The Engineers of Ironforge have discovered some very interesting blueprints in the city´s library: apparently there seems to be a long abandoned and forgotten Golem Factory somewhere under the city. This subject has drawn the Dwarf King´s attention " )
-	call Preload( "
-<td>
-Magni Bronzebeard
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#blba"><img src="ReplaceableTextures/CommandButtons/BTNArmorGolem.blp" width="64" height="64" title="Bladebane Armor" alt="ReplaceableTextures/CommandButtons/BTNArmorGolem.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="#HumanQuest2">Golem Factory</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="HumanQuest3">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" title="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" />
-</td>" )
-	call Preload( "
-<td>
-Search for Mauradin
-</td>" )
-	call Preload( "
-<td>
-Although it may be a suicide mission, the High King of the Dwarves requests that you travel to Icecrown and find out what happened to Mauradin Bronzebeard, the High King´s brother. Find the Dwarf and, should he still live, escort safely him back to I" )
-	call Preload( "
-<td>
-Magni Bronzebeard
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01B"><img src="ReplaceableTextures/CommandButtons/BTNSpiritWalkerAdeptTraining.blp" width="64" height="64" title="Muradin´s Axe" alt="ReplaceableTextures/CommandButtons/BTNSpiritWalkerAdeptTraining.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" title="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" /><a href="#HumanQuest3">Search for Mauradin</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="HumanQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />
-</td>" )
-	call Preload( "
-<td>
-Crusade
-</td>" )
-	call Preload( "
-<td>
-The time has come to take countermeasures against the increasing threat caused by the Scourge ! To prevent another cataclysm like in Lordaeron, King Anduin Wrynn and the Order of the Silver Hand have called out a Crusade against the Undead. Heros thro" )
-	call Preload( "
-<td>
-Anduin Wrynn
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01C"><img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64" title="Royal Paladin Hammer" alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" /><a href="#HumanQuest4">Crusade</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="NightElfQuest1">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBearDen.blp" title="ReplaceableTextures\\CommandButtons\\BTNBearDen.blp" />
-</td>" )
-	call Preload( "
-<td>
-Druid Spell
-</td>" )
-	call Preload( "
-<td>
-The City of Darnassus is flourishing as hoped. However, there seems to be a problem with the Night Elf housings around the new World Tree. They are somehow falling apart. Apparently this seems to be a side-effect of the World Tree´s growing. Tyrande " )
-	call Preload( "
-<td>
-Tyrande
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#sneg"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" width="64" height="64" title="Staff of Negation" alt="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
--
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="NightElfQuest2">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" title="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" />
-</td>" )
-	call Preload( "
-<td>
-The World Tree
-</td>" )
-	call Preload( "
-<td>
-Ever since the destruction of the Demon Archimonde near the World Tree, its regeneration has somehow been strange. The Arch-Druid Furion suspects some kind of corruption of the magical waters the World Tree is feeding from...
-Since the dispelling of " )
-	call Preload( "
-<td>
-Malfurion
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#schl"><img src="ReplaceableTextures/CommandButtons/BTNPriestAdept.blp" width="64" height="64" title="Scepter of Healing" alt="ReplaceableTextures/CommandButtons/BTNPriestAdept.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" title="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" /><a href="#NightElfQuest2">The World Tree</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="NightElfQuest3">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" title="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" />
-</td>" )
-	call Preload( "
-<td>
-Moon Stones
-</td>" )
-	call Preload( "
-<td>
-During an experiment with the newly discovered Moon Stones, there has been an accident. The effect of the Moon Stone somehow prolongued the Eclipse to an incredible length. Tyrande has tried many spells to cancel the eclipse but with no success. She b" )
-	call Preload( "
-<td>
-Tyrande
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01I"><img src="ReplaceableTextures/CommandButtons/BTNMoonStone.blp" width="64" height="64" title="Tyrande´s Moonstone" alt="ReplaceableTextures/CommandButtons/BTNMoonStone.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" title="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" /><a href="#NightElfQuest3">Moon Stones</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="NightElfQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" />
-</td>" )
-	call Preload( "
-<td>
-Demon Blood
-</td>" )
-	call Preload( "
-<td>
-After the Legion´s defeat on Kalimdor, the Night Elves seem to have  overlooked something. There is still a defiled Fountain somewhere in Fellwood, probably the source of the Warsong Clan´s former corruption. To prevent other creatures to drink from" )
-	call Preload( "
-<td>
-Malfurion
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#azhr"><img src="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp" width="64" height="64" title="Heart of Aszune" alt="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" /><a href="#NightElfQuest4">Demon Blood</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest1">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNThrall.blp" title="ReplaceableTextures\\CommandButtons\\BTNThrall.blp" />
-</td>" )
-	call Preload( "
-<td>
-Durotar Law Code
-</td>" )
-	call Preload( "
-<td>
-The Orcish nation of Durotar is prospering well. Under the guidance of Warchief Thrall, they have established a council of elders that is responsible for establishing order and laws among the hot-headed Orcs. Although the Night Elves and Humans alread" )
-	call Preload( "
-<td>
-Thrall
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#stel"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfTeleportation.blp" width="64" height="64" title="Staff of Teleportation" alt="ReplaceableTextures/CommandButtons/BTNStaffOfTeleportation.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
--
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest2">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" />
-</td>" )
-	call Preload( "
-<td>
-Harpy Menace
-</td>" )
-	call Preload( "
-<td>
-The Tauren have constantly been harassed by Harpies and Centaurs since they moved to Mulgore. Now a scout has discovered one of the Harpies´ Queens. Cairne believes that if she was destroyed, the Harpies would at last be silenced. He needs a strong H" )
-	call Preload( "
-<td>
-Cairne Bloodhoof
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01L"><img src="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" width="64" height="64" title="Harpy Hunter´s Net" alt="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest3">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" />
-</td>" )
-	call Preload( "
-<td>
-Arena Contest
-</td>" )
-	call Preload( "
-<td>
-Rexxar and the Stonemaul Ogres declare their Arena officially as open ! For the first warrior to beat Level 9 of the Gauntlet Arena, Rexxar has announced a special prize, apart from the items that may be dropped in the Arena fights. Beat Level 9 of th" )
-	call Preload( "
-<td>
-Rexxar
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01M"><img src="ReplaceableTextures/CommandButtons/BTNBelt.blp" width="64" height="64" title="Gauntlet Grand Champion´s Belt" alt="ReplaceableTextures/CommandButtons/BTNBelt.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" /><a href="#OrcQuest3">Arena Contest</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" />
-</td>" )
-	call Preload( "
-<td>
-Centaur Khans
-</td>" )
-	call Preload( "
-<td>
-The Pandaren Brewmaster, Chem Stormstout, has recently arrived in Mulgore with interesting news from his travel in the south. There seems to be an increased movement of the centaurs. They apparently seem to have their seasonal fights for who is to be " )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp" title="ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp" />
-</td>" )
-	call Preload( "
-<td>
-Demigod´s Remnants
-</td>" )
-	call Preload( "
-<td>
-The Faceless Ones of Azjul-Nerub have drawn the Lich King´ interest in them. He wants them as part of the scourge, but he needs more magic power in order to control them. Anub´Arak has received word from Kel´Thuzad that the Lich King´s power could" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNHornOfCenarius.blp" title="ReplaceableTextures\\CommandButtons\\BTNHornOfCenarius.blp" />
-</td>" )
-	call Preload( "
-<td>
-Demigod´s Horn
-</td>" )
-	call Preload( "
-<td>
-The next step to unravel Kel´Thzad´s spell requires the ancient Artifact known as the Horn of Cenarius. Fortunately as it is, the Horn seems to be guarded only by a few creatures and is vulnerable to theft. But in order to remove it from the pedesta" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" title="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />
-</td>" )
-	call Preload( "
-<td>
-Lich King´s Order
-</td>" )
-	call Preload( "
-<td>
-After having enabled the Lich King to control the the mysterious Faceless Ones, the time has come to unravel the Scourge´s Wrath. The Quest is as hard as easy it is to describe it: you are to destroy one Nation´s Capital (Tier 1, 2 or 3 Town Hall or" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
-</td>" )
-	call Preload( "
-<td>
-The Burning Legion
-</td>" )
-	call Preload( "
-<td>
-The Lich King will now have his revenge on his original creator Kil'jaeden who is still active in the Outland area. The Lich King already betrayed his former master and creator but now it is time to act and to fight the Burning Legion. Use the help of" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />
-</td>" )
-	call Preload( "
-<td>
-Dark Portal
-</td>" )
-	call Preload( "
-<td>
-The Orcish warriors are the fiercest warriors known and they would be a valuable addition to the Forsaken Army. The Dark Lady Sylvanas has devised a plan to enslave the unsuspecting Orcs and turn them into the undead. To realize this idea, it will tak" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp" title="ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp" />
-</td>" )
-	call Preload( "
-<td>
-Stormreaver Hermit
-</td>" )
-	call Preload( "
-<td>
-After having captured the Nether Drake, the next step is to get a corpse probe of a dead orc. In Durotar, there is a Stormreaver Hermit who makes forbidden experiments with Orcish corpses. Sylvanas wants your Hero tage the bag of Gold, travel to Durot" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" title="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" />
-</td>" )
-	call Preload( "
-<td>
-The Silver Hand
-</td>" )
-	call Preload( "
-<td>
-After having added the Orcs as part of the Forsaken, Sylvanas wants revenge on the Paladins of the Silver Hand who constantly hunt the Undead and cause the most dangerous threat for the Forsaken at the moment. There will be a bounty for the Hero who f" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" />
-</td>" )
-	call Preload( "
-<td>
-Legendary Items
-</td>" )
-	call Preload( "
-<td>
-Now it is time to craft some powerful items to protect the base of the Forsaken in Azeroth. Slyvanas knows how to craft items but needs some references to create really powerful items. You must kill at least two Bosses and bring their legendary artifa" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />
-</td>" )
-	call Preload( "
-<td>
-Tomb of Sargeras
-</td>" )
-	call Preload( "
-<td>
-After having returned from Outland, Illidan, Kael and Vashj have devised a new plan to strike at the Lich King. However, Lord Illidan needs a special Artifact which he can only get from his Master, Kil´Jaeden himself. He is currently somewhere in the" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNWarden2.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarden2.blp" />
-</td>" )
-	call Preload( "
-<td>
-Fight Fire with Fire
-</td>" )
-	call Preload( "
-<td>
-Lord Illidan is getting tired of being chased by the Night Elf Warden Maiev Shadowsong. Before the next step to strike at the Lich King, Illidan wants the Warden matter solved first. According to spy reports, Maiev and her group of Huntresses have cur" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />
-</td>" )
-	call Preload( "
-<td>
-Sapphiron
-</td>" )
-	call Preload( "
-<td>
-The time to strike at the Lich King is coming near. But before, a final step is needed. There is a mighty Frost Wyrm called Sapphiron who watches every movement in and out of Icecrown. Lord Illidan requires you to destroy it in order to get to the Ice" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp" title="ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp" />
-</td>" )
-	call Preload( "
-<td>
-Stormrage
-</td>" )
-	call Preload( "
-<td>
-It is time to strike at the Lich King himself ! Illidan has a score to settle with Arthas. However, the subject of this campaign is not to destroy the Lich King himself since his powers are still far too great at the moment. Even after striking down h" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" />
-</td>" )
-	call Preload( "
-<td>
-Akama's Message
-</td>" )
-	call Preload( "
-<td>
-Akama wants to send a message to Illidan and ask him for help in the fight against Maghteridon's Demons. Bring the message to Illidan.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" />
-</td>" )
-	call Preload( "
-<td>
-An unlikely Alliance
-</td>" )
-	call Preload( "
-<td>
-There is still some of the Orcs in the Outland regions. They suffer the same as the Draenei from the Demon invasion. Visit their leader and ask them for help. Return their answer back to Illidan.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
-</td>" )
-	call Preload( "
-<td>
-Magtheridon's Defeat
-</td>" )
-	call Preload( "
-<td>
-Illidan needs to defeat Magtheridon in a final strike. He constructed a powerful orb which will help you to fight the powerful demon and to defeat him once and for all. Take the orb and defeat Magtheridon with it. Take his heart and bring it to Illida" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" title="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />
-</td>" )
-	call Preload( "
-<td>
-Archimonde's Return
-</td>" )
-	call Preload( "
-<td>
-Demons are trying to revive Archimonde through a powerful Demon Portal in Outland. This has to be prevented. Travel to the Demon Portal and destroy it. Return to Illidan to get your reward.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />
-</td>" )
-	call Preload( "
-<td>
-The New Citadel
-</td>" )
-	call Preload( "
-<td>
-Socrethar wants you to get information about the progress of the new Demon citadel in Outland as fast as possible. He gave you some instructions for the Commander of the Citadel. Visit the citadel and talk to the Commander of the Citadel who is in cha" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" />
-</td>" )
-	call Preload( "
-<td>
-Draenei Deserters
-</td>" )
-	call Preload( "
-<td>
-The upcoming Queen of the new Citadel needs information about planned attacks from the Draenei. Hence, she gives you spell to convert Draeneis which will give her the information she needs. Convert 5 Draenei and bring them to her.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />
-</td>" )
-	call Preload( "
-<td>
-Akama
-</td>" )
-	call Preload( "
-<td>
-The upcoming Queen of the new Citadel needs the Akama leader to be gone before the attack starts, so the Draenei forces will be weaker and the defense will be successful. Find the Akama, kill him and bring her his heart as proof.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />
-</td>" )
-	call Preload( "
-<td>
-Citadel Defense
-</td>" )
-	call Preload( "
-<td>
-A Draenei force is ready to attack The New Citadel. We must defend it at any cost to increase the presence of Demons in Outland and strengthen their position. Travel the The New Citadel and help defending it against Draenei forces.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" />
-</td>" )
-	call Preload( "
-<td>
-A New Recipe
-</td>" )
-	call Preload( "
-<td>
-Chen wants to try out a new recipe for his beer. He needs some ingredients from all over the World Tree next to Malfurion. Get the ingredients and return them to him to get your reward.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" title="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" />
-</td>" )
-	call Preload( "
-<td>
-Goblin Invention
-</td>" )
-	call Preload( "
-<td>
-Chen needs a special invention from the Goblins for constructing his big brewery. Travel to the Goblin Bank Island, buy a Goblin Blaster and return it to Chen.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" />
-</td>" )
-	call Preload( "
-<td>
-Mur'gul Revenge
-</td>" )
-	call Preload( "
-<td>
-The Mur'gul are back sending a herald with some conditions for the Pandaren to retreat from this land. Although peaceful we have to fight them back to protect our land. Kill the herald and bring the conditions to Chen to get your reward.
-</td>" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="OrcQuest4">
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" />
-</td>" )
-	call Preload( "
-<td>
-The Old Gods
-</td>" )
-	call Preload( "
-<td>
-Jaina got the information that the titan Sargeras imprisioned the old gods of Azeroth in a prison and killed the most powerful one. She needs the heart the most powerful old god to defeat the titan Sargeras. You must travel to Outland and fight all of" )
-	call Preload( "
-<td>
-Chen Stormstout
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I01N"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Totem of Thunder Buff" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>
-</td>" )
-	call Preload( "
-</tr>
-" )
+	call Preload( "<!-- Quests generated with chat command "-website". -->" )
+	call Preload( "<tr id="HumanQuest1">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" title="ReplaceableTextures\\CommandButtons\\BTNRedDragon.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dragon Slayer" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Lately there has been some harassment by an evil Red Dragon that recently appeared in the Region. The Creature has caused serious damage to the defenses of Nethergarde Citadel and now the Wizards there have had enough ! There is a substantional reward to the " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Landazar" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#ram4">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRingJadeFalcon.blp" width="64" height="64"" )
+	call Preload( "title="Ring of the Archmagi"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRingJadeFalcon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "-" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="HumanQuest2">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Golem Factory" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Engineers of Ironforge have discovered some very interesting blueprints in the city´s library: apparently there seems to be a long abandoned and forgotten Golem Factory somewhere under the city. This subject has drawn the Dwarf King´s attention since Go" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Magni Bronzebeard" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#blba">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNArmorGolem.blp" width="64" height="64"" )
+	call Preload( "title="Bladebane Armor"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNArmorGolem.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmorGolem.blp" /><a href="#HumanQuest2">Golem Factory</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="HumanQuest3">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" title="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Search for Mauradin" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Although it may be a suicide mission, the High King of the Dwarves requests that you travel to Icecrown and find out what happened to Mauradin Bronzebeard, the High King´s brother. Find the Dwarf and, should he still live, escort safely him back to Ironforge" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Magni Bronzebeard" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01B">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSpiritWalkerAdeptTraining.blp" width="64" height="64"" )
+	call Preload( "title="Muradin´s Axe"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSpiritWalkerAdeptTraining.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" title="ReplaceableTextures\\CommandButtons\\BTNAvatar.blp" /><a href="#HumanQuest3">Search for Mauradin</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="HumanQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Crusade" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The time has come to take countermeasures against the increasing threat caused by the Scourge ! To prevent another cataclysm like in Lordaeron, King Anduin Wrynn and the Order of the Silver Hand have called out a Crusade against the Undead. Heros throughout t" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Anduin Wrynn" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01C">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64"" )
+	call Preload( "title="Royal Paladin Hammer"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroPaladin.blp" /><a href="#HumanQuest4">Crusade</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="NightElfQuest1">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNBearDen.blp" title="ReplaceableTextures\\CommandButtons\\BTNBearDen.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Druid Spell" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The City of Darnassus is flourishing as hoped. However, there seems to be a problem with the Night Elf housings around the new World Tree. They are somehow falling apart. Apparently this seems to be a side-effect of the World Tree´s growing. Tyrande needs a " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Tyrande" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#sneg">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" width="64" height="64"" )
+	call Preload( "title="Staff of Negation"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "-" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="NightElfQuest2">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" title="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The World Tree" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Ever since the destruction of the Demon Archimonde near the World Tree, its regeneration has somehow been strange. The Arch-Druid Furion suspects some kind of corruption of the magical waters the World Tree is feeding from...
+Since the dispelling of demonic " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Malfurion" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#schl">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPriestAdept.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Healing"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPriestAdept.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" title="ReplaceableTextures\\CommandButtons\\BTNFurion.blp" /><a href="#NightElfQuest2">The World Tree</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="NightElfQuest3">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" title="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Moon Stones" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "During an experiment with the newly discovered Moon Stones, there has been an accident. The effect of the Moon Stone somehow prolongued the Eclipse to an incredible length. Tyrande has tried many spells to cancel the eclipse but with no success. She believes " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Tyrande" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01I">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMoonStone.blp" width="64" height="64"" )
+	call Preload( "title="Tyrande´s Moonstone"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNMoonStone.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" title="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" /><a href="#NightElfQuest3">Moon Stones</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="NightElfQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Demon Blood" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "After the Legion´s defeat on Kalimdor, the Night Elves seem to have  overlooked something. There is still a defiled Fountain somewhere in Fellwood, probably the source of the Warsong Clan´s former corruption. To prevent other creatures to drink from it, Fur" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Malfurion" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#azhr">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp" width="64" height="64"" )
+	call Preload( "title="Heart of Aszune"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" /><a href="#NightElfQuest4">Demon Blood</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest1">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNThrall.blp" title="ReplaceableTextures\\CommandButtons\\BTNThrall.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Durotar Law Code" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Orcish nation of Durotar is prospering well. Under the guidance of Warchief Thrall, they have established a council of elders that is responsible for establishing order and laws among the hot-headed Orcs. Although the Night Elves and Humans already have w" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Thrall" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#stel">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfTeleportation.blp" width="64" height="64"" )
+	call Preload( "title="Staff of Teleportation"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfTeleportation.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "-" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest2">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Harpy Menace" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Tauren have constantly been harassed by Harpies and Centaurs since they moved to Mulgore. Now a scout has discovered one of the Harpies´ Queens. Cairne believes that if she was destroyed, the Harpies would at last be silenced. He needs a strong Hero to t" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Cairne Bloodhoof" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01L">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" width="64" height="64"" )
+	call Preload( "title="Harpy Hunter´s Net"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" title="ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp" /><a href="#OrcQuest2">Harpy Menace</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest3">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Arena Contest" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Rexxar and the Stonemaul Ogres declare their Arena officially as open ! For the first warrior to beat Level 9 of the Gauntlet Arena, Rexxar has announced a special prize, apart from the items that may be dropped in the Arena fights. Beat Level 9 of the Gauntl" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Rexxar" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01M">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBelt.blp" width="64" height="64"" )
+	call Preload( "title="Gauntlet Grand Champion´s Belt"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBelt.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp" /><a href="#OrcQuest3">Arena Contest</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Centaur Khans" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Pandaren Brewmaster, Chem Stormstout, has recently arrived in Mulgore with interesting news from his travel in the south. There seems to be an increased movement of the centaurs. They apparently seem to have their seasonal fights for who is to be the new " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp" title="ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Demigod´s Remnants" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Faceless Ones of Azjul-Nerub have drawn the Lich King´ interest in them. He wants them as part of the scourge, but he needs more magic power in order to control them. Anub´Arak has received word from Kel´Thuzad that the Lich King´s power could be incr" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNHornOfCenarius.blp" title="ReplaceableTextures\\CommandButtons\\BTNHornOfCenarius.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Demigod´s Horn" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The next step to unravel Kel´Thzad´s spell requires the ancient Artifact known as the Horn of Cenarius. Fortunately as it is, the Horn seems to be guarded only by a few creatures and is vulnerable to theft. But in order to remove it from the pedestal that m" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" title="ReplaceableTextures\\CommandButtons\\BTNRevenant.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Lich King´s Order" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "After having enabled the Lich King to control the the mysterious Faceless Ones, the time has come to unravel the Scourge´s Wrath. The Quest is as hard as easy it is to describe it: you are to destroy one Nation´s Capital (Tier 1, 2 or 3 Town Hall or a or a " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Burning Legion" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Lich King will now have his revenge on his original creator Kil'jaeden who is still active in the Outland area. The Lich King already betrayed his former master and creator but now it is time to act and to fight the Burning Legion. Use the help of the Dra" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dark Portal" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Orcish warriors are the fiercest warriors known and they would be a valuable addition to the Forsaken Army. The Dark Lady Sylvanas has devised a plan to enslave the unsuspecting Orcs and turn them into the undead. To realize this idea, it will take severa" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp" title="ReplaceableTextures\\CommandButtons\\BTNSkeletalOrcGrunt.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Stormreaver Hermit" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "After having captured the Nether Drake, the next step is to get a corpse probe of a dead orc. In Durotar, there is a Stormreaver Hermit who makes forbidden experiments with Orcish corpses. Sylvanas wants your Hero tage the bag of Gold, travel to Durotar, find" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" title="ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Silver Hand" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "After having added the Orcs as part of the Forsaken, Sylvanas wants revenge on the Paladins of the Silver Hand who constantly hunt the Undead and cause the most dangerous threat for the Forsaken at the moment. There will be a bounty for the Hero who first kil" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Legendary Items" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Now it is time to craft some powerful items to protect the base of the Forsaken in Azeroth. Slyvanas knows how to craft items but needs some references to create really powerful items. You must kill at least two Bosses and bring their legendary artifacts to S" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" title="ReplaceableTextures\\CommandButtons\\BTNKiljaedin.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Tomb of Sargeras" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "After having returned from Outland, Illidan, Kael and Vashj have devised a new plan to strike at the Lich King. However, Lord Illidan needs a special Artifact which he can only get from his Master, Kil´Jaeden himself. He is currently somewhere in the Tomb of" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNWarden2.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarden2.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fight Fire with Fire" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Lord Illidan is getting tired of being chased by the Night Elf Warden Maiev Shadowsong. Before the next step to strike at the Lich King, Illidan wants the Warden matter solved first. According to spy reports, Maiev and her group of Huntresses have currently s" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" title="ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Sapphiron" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The time to strike at the Lich King is coming near. But before, a final step is needed. There is a mighty Frost Wyrm called Sapphiron who watches every movement in and out of Icecrown. Lord Illidan requires you to destroy it in order to get to the Icecrown Gl" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp" title="ReplaceableTextures\\CommandButtons\\BTNEvilIllidan.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Stormrage" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "It is time to strike at the Lich King himself ! Illidan has a score to settle with Arthas. However, the subject of this campaign is not to destroy the Lich King himself since his powers are still far too great at the moment. Even after striking down his morta" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" title="ReplaceableTextures\\CommandButtons\\BTNSpy.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Akama's Message" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Akama wants to send a message to Illidan and ask him for help in the fight against Maghteridon's Demons. Bring the message to Illidan." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "An unlikely Alliance" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "There is still some of the Orcs in the Outland regions. They suffer the same as the Draenei from the Demon invasion. Visit their leader and ask them for help. Return their answer back to Illidan." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Magtheridon's Defeat" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Illidan needs to defeat Magtheridon in a final strike. He constructed a powerful orb which will help you to fight the powerful demon and to defeat him once and for all. Take the orb and defeat Magtheridon with it. Take his heart and bring it to Illidan." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" title="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Archimonde's Return" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Demons are trying to revive Archimonde through a powerful Demon Portal in Outland. This has to be prevented. Travel to the Demon Portal and destroy it. Return to Illidan to get your reward." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" title="ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The New Citadel" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Socrethar wants you to get information about the progress of the new Demon citadel in Outland as fast as possible. He gave you some instructions for the Commander of the Citadel. Visit the citadel and talk to the Commander of the Citadel who is in charge and " )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" title="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Draenei Deserters" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The upcoming Queen of the new Citadel needs information about planned attacks from the Draenei. Hence, she gives you spell to convert Draeneis which will give her the information she needs. Convert 5 Draenei and bring them to her." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" title="ReplaceableTextures\\CommandButtons\\BTNDranaiAkama.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Akama" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The upcoming Queen of the new Citadel needs the Akama leader to be gone before the attack starts, so the Draenei forces will be weaker and the defense will be successful. Find the Akama, kill him and bring her his heart as proof." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNDarkPortal.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Citadel Defense" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "A Draenei force is ready to attack The New Citadel. We must defend it at any cost to increase the presence of Demons in Outland and strengthen their position. Travel the The New Citadel and help defending it against Draenei forces." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" title="ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "A New Recipe" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen wants to try out a new recipe for his beer. He needs some ingredients from all over the World Tree next to Malfurion. Get the ingredients and return them to him to get your reward." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" title="ReplaceableTextures\\CommandButtons\\BTNTelescope.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Goblin Invention" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen needs a special invention from the Goblins for constructing his big brewery. Travel to the Goblin Bank Island, buy a Goblin Blaster and return it to Chen." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" title="ReplaceableTextures\\CommandButtons\\BTNMurlocNightCrawler.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Mur'gul Revenge" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Mur'gul are back sending a herald with some conditions for the Pandaren to retreat from this land. Although peaceful we have to fight them back to protect our land. Kill the herald and bring the conditions to Chen to get your reward." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="OrcQuest4">" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" title="ReplaceableTextures\\CommandButtons\\BTNCthunIcon.blp" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Old Gods" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Jaina got the information that the titan Sargeras imprisioned the old gods of Azeroth in a prison and killed the most powerful one. She needs the heart the most powerful old god to defeat the titan Sargeras. You must travel to Outland and fight all of the old" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chen Stormstout" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I01N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Totem of Thunder Buff"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp" /><a href="#OrcQuest4">Centaur Khans</a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
 	call PreloadEnd( 0.0 )
 
 endfunction

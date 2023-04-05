@@ -1,19 +1,15 @@
 function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
-	call Preload( "
-<!-- Players generated with chat command "-website". -->
-<tr id="Barade#2569">
-<td>
-Barade#2569
-</td>" )
-	call Preload( "
-<td>
-!,(!(-(S:(C35g(S!+g(S!+g(D>(S:(S:(S:(S:(U/(-(!6Z(-(!6Z(E,(C35g(C35g(S:(S:(!()(SG(
-</td>" )
-	call Preload( "
-</tr>
-" )
+	call Preload( "<!-- Players generated with chat command "-website". -->" )
+	call Preload( "<tr id="Barade#2569">" )
+	call Preload( "<td>" )
+	call Preload( "Barade#2569" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "!,(!(-(S:(C35g(S!+g(S!+g(D>(S:(S:(S:(S:(U/(-(!6Z(-(!6Z(E,(C35g(C35g(S:(S:(!()(SG(" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
 	call PreloadEnd( 0.0 )
 
 endfunction

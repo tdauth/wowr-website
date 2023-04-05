@@ -1,0 +1,25 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- Clans generated with chat command "-website". -->" )
+	call Preload( "<tr id="TheElvenClan">" )
+	call Preload( "<td>" )
+	call Preload( "TheElvenClan" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "n#n5#"#n#+X@#+X@#`#`#xH#"#n}#"#xH#"#x/#n#e#n#xI#n#"#"#n#P#" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="TheElvenClan">" )
+	call Preload( "<td>" )
+	call Preload( "TheElvenClan" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( ""#n5#"#n#+X@#+X@#`#`#xH#"#n}#"#xH#"#x/#n#e#n#xI#n#"#"#n#xU#" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

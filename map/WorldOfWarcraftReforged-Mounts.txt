@@ -1,1249 +1,1332 @@
 function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
-	call Preload( "
-<!-- Mounts generated with chat command "-website". -->" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h004"><img src="ReplaceableTextures/CommandButtons/BTNGryphonRider.blp" width="64" height="64" title="Gryphon Mount" alt="ReplaceableTextures/CommandButtons/BTNGryphonRider.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Gryphon Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#A020"><img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64" title="Storm Hammer Lightning" alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#o003"><img src="ReplaceableTextures/CommandButtons/BTNSpiritWyvern.blp" width="64" height="64" title="Wyvern Mount" alt="ReplaceableTextures/CommandButtons/BTNSpiritWyvern.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Wyvern Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-320
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACbl"><img src="ReplaceableTextures/CommandButtons/BTNBloodLustOn.blp" width="64" height="64" title="Bloodlust" alt="ReplaceableTextures/CommandButtons/BTNBloodLustOn.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#u004"><img src="ReplaceableTextures/CommandButtons/BTNFrostWyrm.blp" width="64" height="64" title="Frost Wyrm Mount" alt="ReplaceableTextures/CommandButtons/BTNFrostWyrm.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Frost Wyrm Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACfn"><img src="ReplaceableTextures/CommandButtons/BTNGlacier.blp" width="64" height="64" title="Frost Nova" alt="ReplaceableTextures/CommandButtons/BTNGlacier.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#e005"><img src="ReplaceableTextures/CommandButtons/BTNChimaera.blp" width="64" height="64" title="Chimaera Mount" alt="ReplaceableTextures/CommandButtons/BTNChimaera.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Chimaera Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACcl"><img src="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" width="64" height="64" title="Chain Lightning" alt="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#n007"><img src="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp" width="64" height="64" title="Nether Drake Mount" alt="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Nether Drake Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Acrs"><img src="ReplaceableTextures/CommandButtons/BTNCurseOn.blp" width="64" height="64" title="Curse" alt="ReplaceableTextures/CommandButtons/BTNCurseOn.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#n0BH"><img src="ReplaceableTextures/CommandButtons/BTNWindSerpent.blp" width="64" height="64" title="Couatl Mount" alt="ReplaceableTextures/CommandButtons/BTNWindSerpent.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Couatl Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Small" />
-</td>" )
-	call Preload( "
-<td>
-3
-</td>" )
-	call Preload( "
-<td>
-700
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACdm"><img src="ReplaceableTextures/CommandButtons/BTNDryadDispelMagicOn.blp" width="64" height="64" title="Abolish Magic" alt="ReplaceableTextures/CommandButtons/BTNDryadDispelMagicOn.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h04L"><img src="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp" width="64" height="64" title="Dragonhawk Mount" alt="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Dragonhawk Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#A0FW"><img src="ReplaceableTextures/CommandButtons/BTNMagicLariet.blp" width="64" height="64" title="Aerial Shackles" alt="ReplaceableTextures/CommandButtons/BTNMagicLariet.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h0IR"><img src="ReplaceableTextures/CommandButtons/BTNVrykulProtoDrake.blp" width="64" height="64" title="Proto Drake Mount" alt="ReplaceableTextures/CommandButtons/BTNVrykulProtoDrake.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Proto Drake Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACbc"><img src="ReplaceableTextures/CommandButtons/BTNFireForTheCannon.blp" width="64" height="64" title="Breath of Fire" alt="ReplaceableTextures/CommandButtons/BTNFireForTheCannon.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="	">
-<td>
-<a href="#h0HA"><img src="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" width="64" height="64" title="Zeppelin Mount" alt="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Zeppelin Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Andt"><img src="ReplaceableTextures/CommandButtons/BTNReveal.blp" width="64" height="64" title="Reveal" alt="ReplaceableTextures/CommandButtons/BTNReveal.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="
-">
-<td>
-<a href="#n0C4"><img src="ReplaceableTextures/CommandButtons/BTNGrizzlyBear.blp" width="64" height="64" title="Bear Mount" alt="ReplaceableTextures/CommandButtons/BTNGrizzlyBear.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Bear Mount
-</td>" )
-	call Preload( "
-<td>
-Foot
-</td>" )
-	call Preload( "
-<td>
-300
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-100
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-550
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#ACsp"><img src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64" title="Sleep" alt="ReplaceableTextures/CommandButtons/BTNSleep.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACct"><img src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64" title="Critical Strike" alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#n0C1"><img src="ReplaceableTextures/CommandButtons/BTNFrostBear.blp" width="64" height="64" title="Polar Bear Mount" alt="ReplaceableTextures/CommandButtons/BTNFrostBear.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Polar Bear Mount
-</td>" )
-	call Preload( "
-<td>
-Foot
-</td>" )
-	call Preload( "
-<td>
-300
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-100
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-550
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#ACsp"><img src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64" title="Sleep" alt="ReplaceableTextures/CommandButtons/BTNSleep.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACct"><img src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64" title="Critical Strike" alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h06C"><img src="ReplaceableTextures/CommandButtons/BTNSeaTurtleGreen.blp" width="64" height="64" title="Giant Sea Turtle Mount" alt="ReplaceableTextures/CommandButtons/BTNSeaTurtleGreen.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Giant Sea Turtle Mount
-</td>" )
-	call Preload( "
-<td>
-Amphibious
-</td>" )
-	call Preload( "
-<td>
-320
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#ANth"><img src="ReplaceableTextures/PassiveButtons/PASBTNThornShield.blp" width="64" height="64" title="Spiked Shell" alt="ReplaceableTextures/PassiveButtons/PASBTNThornShield.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#BUtt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Default string" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h06E"><img src="ReplaceableTextures/CommandButtons/BTNRiderlessHorse.blp" width="64" height="64" title="Horse Mount" alt="ReplaceableTextures/CommandButtons/BTNRiderlessHorse.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Horse Mount
-</td>" )
-	call Preload( "
-<td>
-On Horse
-</td>" )
-	call Preload( "
-<td>
-320
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-large.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-550
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#ACev"><img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64" title="Evasion" alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Achd"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Cargo Hold Death" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h0FC"><img src="ReplaceableTextures/CommandButtons/BTNPriestessOfTheMoon.blp" width="64" height="64" title="White Tiger Mount" alt="ReplaceableTextures/CommandButtons/BTNPriestessOfTheMoon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-White Tiger Mount
-</td>" )
-	call Preload( "
-<td>
-On Horse
-</td>" )
-	call Preload( "
-<td>
-320
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-large.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-550
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#ACev"><img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64" title="Evasion" alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Achd"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Cargo Hold Death" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#o01X"><img src="ReplaceableTextures/CommandButtons/BTNRiderlessKodo.blp" width="64" height="64" title="Kodo Beast Mount" alt="ReplaceableTextures/CommandButtons/BTNRiderlessKodo.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Kodo Beast Mount
-</td>" )
-	call Preload( "
-<td>
-Foot
-</td>" )
-	call Preload( "
-<td>
-280
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-0
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-1400
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Aakb"><img src="ReplaceableTextures/PassiveButtons/PASBTNDrum.blp" width="64" height="64" title="War Drums" alt="ReplaceableTextures/PassiveButtons/PASBTNDrum.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Bakb"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Default string" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h0JL"><img src="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" width="64" height="64" title="Cloud Serpent Mount" alt="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Cloud Serpent Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#A12D"><img src="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" width="64" height="64" title="Cloud" alt="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h0BF"><img src="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" width="64" height="64" title="Dragon Mount" alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Dragon Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#A020"><img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64" title="Storm Hammer Lightning" alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h0FJ"><img src="ReplaceableTextures/CommandButtons/BTNApache.blp" width="64" height="64" title="Apache Mount" alt="ReplaceableTextures/CommandButtons/BTNApache.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Apache Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#ACev"><img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64" title="Evasion" alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h078"><img src="ReplaceableTextures/CommandButtons/BTNShuttle.blp" width="64" height="64" title="Imperial Shuttle" alt="ReplaceableTextures/CommandButtons/BTNShuttle.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Imperial Shuttle
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#A0LK"><img src="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" width="64" height="64" title="Hyperspace" alt="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h07E"><img src="ReplaceableTextures/CommandButtons/BTNJediInterceptor.blp" width="64" height="64" title="Jedi Interceptor" alt="ReplaceableTextures/CommandButtons/BTNJediInterceptor.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Jedi Interceptor
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#A0LK"><img src="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" width="64" height="64" title="Hyperspace" alt="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="">
-<td>
-<a href="#h0HA"><img src="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" width="64" height="64" title="Zeppelin Mount" alt="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Zeppelin Mount
-</td>" )
-	call Preload( "
-<td>
-Fly
-</td>" )
-	call Preload( "
-<td>
-350
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-2.00
-</td>" )
-	call Preload( "
-<td>
-450
-</td>" )
-	call Preload( "
-<td>
-<img src="images\\Infocard-neutral-armor-medium.webp" title="Hero" />
-</td>" )
-	call Preload( "
-<td>
-8
-</td>" )
-	call Preload( "
-<td>
-950
-</td>" )
-	call Preload( "
-<td>
-<div class="spells">
-<a href="spells.html#A02Z"><img src="" width="64" height="64" title="Defend" alt="" /></a>" )
-	call Preload( "
-<a href="spells.html#Abdt"><img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64" title="Burrow Detection" alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Andt"><img src="ReplaceableTextures/CommandButtons/BTNReveal.blp" width="64" height="64" title="Reveal" alt="ReplaceableTextures/CommandButtons/BTNReveal.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Adro"><img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64" title="Unload" alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
-	call Preload( "
-<a href="spells.html#Aloa"><img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64" title="Load" alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
-	call Preload( "
-</div>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call PreloadEnd( 0.3 )
+	call Preload( "<!-- Mounts generated with chat command "-website". -->" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h004">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGryphonRider.blp" width="64" height="64"" )
+	call Preload( "title="Gryphon Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGryphonRider.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Gryphon Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#A020">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64"" )
+	call Preload( "title="Storm Hammer Lightning"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#o003">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSpiritWyvern.blp" width="64" height="64"" )
+	call Preload( "title="Wyvern Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSpiritWyvern.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Wyvern Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "320" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACbl">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBloodLustOn.blp" width="64" height="64"" )
+	call Preload( "title="Bloodlust"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBloodLustOn.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#u004">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFrostWyrm.blp" width="64" height="64"" )
+	call Preload( "title="Frost Wyrm Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNFrostWyrm.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Frost Wyrm Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACfn">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGlacier.blp" width="64" height="64"" )
+	call Preload( "title="Frost Nova"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGlacier.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#e005">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNChimaera.blp" width="64" height="64"" )
+	call Preload( "title="Chimaera Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNChimaera.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Chimaera Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACcl">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" width="64" height="64"" )
+	call Preload( "title="Chain Lightning"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#n007">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp" width="64" height="64"" )
+	call Preload( "title="Nether Drake Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Nether Drake Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#Acrs">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCurseOn.blp" width="64" height="64"" )
+	call Preload( "title="Curse"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNCurseOn.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#n0BH">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWindSerpent.blp" width="64" height="64"" )
+	call Preload( "title="Couatl Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWindSerpent.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Couatl Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-neutral-armor-small.webp" )
+	call Preload( "" title="" )
+	call Preload( "Small" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "3" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "700" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACdm">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDryadDispelMagicOn.blp" width="64" height="64"" )
+	call Preload( "title="Abolish Magic"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDryadDispelMagicOn.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h04L">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp" width="64" height="64"" )
+	call Preload( "title="Dragonhawk Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dragonhawk Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#A0FW">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMagicLariet.blp" width="64" height="64"" )
+	call Preload( "title="Aerial Shackles"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNMagicLariet.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0IR">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNVrykulProtoDrake.blp" width="64" height="64"" )
+	call Preload( "title="Proto Drake Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNVrykulProtoDrake.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Proto Drake Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACbc">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFireForTheCannon.blp" width="64" height="64"" )
+	call Preload( "title="Breath of Fire"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNFireForTheCannon.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="	">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0HA">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" width="64" height="64"" )
+	call Preload( "title="Zeppelin Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Zeppelin Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#Andt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNReveal.blp" width="64" height="64"" )
+	call Preload( "title="Reveal"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNReveal.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="
+">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#n0C4">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGrizzlyBear.blp" width="64" height="64"" )
+	call Preload( "title="Bear Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGrizzlyBear.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Bear Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Foot" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "300" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "100" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "550" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#ACsp">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64"" )
+	call Preload( "title="Sleep"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSleep.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACct">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"" )
+	call Preload( "title="Critical Strike"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#n0C1">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFrostBear.blp" width="64" height="64"" )
+	call Preload( "title="Polar Bear Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNFrostBear.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Polar Bear Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Foot" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "300" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "100" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "550" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#ACsp">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64"" )
+	call Preload( "title="Sleep"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSleep.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACct">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"" )
+	call Preload( "title="Critical Strike"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h06C">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSeaTurtleGreen.blp" width="64" height="64"" )
+	call Preload( "title="Giant Sea Turtle Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSeaTurtleGreen.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Giant Sea Turtle Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Amphibious" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "320" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#ANth">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNThornShield.blp" width="64" height="64"" )
+	call Preload( "title="Spiked Shell"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNThornShield.blp" /></a>" )
+	call Preload( "<a href="spells.html#BUtt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Default string"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h06E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRiderlessHorse.blp" width="64" height="64"" )
+	call Preload( "title="Horse Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRiderlessHorse.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Horse Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "On Horse" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "320" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "0" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "550" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#ACev">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64"" )
+	call Preload( "title="Evasion"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Achd">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Cargo Hold Death"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0FC">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPriestessOfTheMoon.blp" width="64" height="64"" )
+	call Preload( "title="White Tiger Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPriestessOfTheMoon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "White Tiger Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "On Horse" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "320" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "0" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "550" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#ACev">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64"" )
+	call Preload( "title="Evasion"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Achd">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Cargo Hold Death"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#o01X">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRiderlessKodo.blp" width="64" height="64"" )
+	call Preload( "title="Kodo Beast Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRiderlessKodo.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Kodo Beast Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Foot" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "280" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "0" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "1400" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Aakb">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNDrum.blp" width="64" height="64"" )
+	call Preload( "title="War Drums"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNDrum.blp" /></a>" )
+	call Preload( "<a href="spells.html#Bakb">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Default string"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0JL">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" width="64" height="64"" )
+	call Preload( "title="Cloud Serpent Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Cloud Serpent Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#A12D">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" width="64" height="64"" )
+	call Preload( "title="Cloud"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNCloudOfFog.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0BF">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" width="64" height="64"" )
+	call Preload( "title="Dragon Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dragon Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#A020">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" width="64" height="64"" )
+	call Preload( "title="Storm Hammer Lightning"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStormHammer.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0FJ">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNApache.blp" width="64" height="64"" )
+	call Preload( "title="Apache Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNApache.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Apache Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#ACev">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64"" )
+	call Preload( "title="Evasion"" )
+	call Preload( " alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h078">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNShuttle.blp" width="64" height="64"" )
+	call Preload( "title="Imperial Shuttle"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNShuttle.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Imperial Shuttle" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#A0LK">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" width="64" height="64"" )
+	call Preload( "title="Hyperspace"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h07E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNJediInterceptor.blp" width="64" height="64"" )
+	call Preload( "title="Jedi Interceptor"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNJediInterceptor.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Jedi Interceptor" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#A0LK">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" width="64" height="64"" )
+	call Preload( "title="Hyperspace"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#h0HA">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" width="64" height="64"" )
+	call Preload( "title="Zeppelin Mount"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGermanZeppelin.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Zeppelin Mount" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Fly" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "350" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="images\\Infocard-neutral-attack-hero.webp" title="Hero" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "2.00" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "450" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<img src="" )
+	call Preload( "images\\Infocard-armor-hero.webp" )
+	call Preload( "" title="" )
+	call Preload( "Hero" )
+	call Preload( "" />" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "8" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "950" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<div class="spells">" )
+	call Preload( "<a href="spells.html#A02Z">" )
+	call Preload( "<img src="" width="64" height="64"" )
+	call Preload( "title="Defend"" )
+	call Preload( " alt="" /></a>" )
+	call Preload( "<a href="spells.html#Abdt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "title="Burrow Detection"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTemp.blp" /></a>" )
+	call Preload( "<a href="spells.html#Andt">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNReveal.blp" width="64" height="64"" )
+	call Preload( "title="Reveal"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNReveal.blp" /></a>" )
+	call Preload( "<a href="spells.html#Adro">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
+	call Preload( "title="Unload"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" /></a>" )
+	call Preload( "<a href="spells.html#Aloa">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLoad.blp" width="64" height="64"" )
+	call Preload( "title="Load"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLoad.blp" /></a>" )
+	call Preload( "</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call PreloadEnd( 0.1 )
 
 endfunction
 

@@ -1,656 +1,710 @@
 function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
-	call Preload( "
-<!-- Races generated with chat command "-website". -->
-<tr id="I000">
-<td>
-<a href="#I05U"><img src="ReplaceableTextures/CommandButtons/BTNPeasant.blp" width="64" height="64" title="Human" alt="ReplaceableTextures/CommandButtons/BTNPeasant.blp" /></a>
-<" )
-	call Preload( "
-<td>
-Human
-</td>" )
-	call Preload( "
-<td>
-Human race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I000"><img src="ReplaceableTextures/CommandButtons/BTNBrilliance.blp" width="64" height="64" title="Scepter of Humans" alt="ReplaceableTextures/CommandButtons/BTNBrilliance.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02P"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny Town Hall" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I002">
-<td>
-<a href="#I06B"><img src="ReplaceableTextures/CommandButtons/BTNPeon.blp" width="64" height="64" title="Orc" alt="ReplaceableTextures/CommandButtons/BTNPeon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Orc
-</td>" )
-	call Preload( "
-<td>
-Orc race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I002"><img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorMaster.blp" width="64" height="64" title="Scepter of Orcs" alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorMaster.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#tgrh"><img src="ReplaceableTextures/CommandButtons/BTNGreathall.blp" width="64" height="64" title="Tiny Great Hall" alt="ReplaceableTextures/CommandButtons/BTNGreathall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I003">
-<td>
-<a href="#I06C"><img src="ReplaceableTextures/CommandButtons/BTNAcolyte.blp" width="64" height="64" title="Undead" alt="ReplaceableTextures/CommandButtons/BTNAcolyte.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Undead
-</td>" )
-	call Preload( "
-<td>
-Undead race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I003"><img src="ReplaceableTextures/CommandButtons/BTNRodOfNecromancy.blp" width="64" height="64" title="Scepter of Undead" alt="ReplaceableTextures/CommandButtons/BTNRodOfNecromancy.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02K"><img src="ReplaceableTextures/CommandButtons/BTNNecropolis.blp" width="64" height="64" title="Tiny Necropolis" alt="ReplaceableTextures/CommandButtons/BTNNecropolis.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I004">
-<td>
-<a href="#I06D"><img src="ReplaceableTextures/CommandButtons/BTNWisp.blp" width="64" height="64" title="Night Elf" alt="ReplaceableTextures/CommandButtons/BTNWisp.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Night Elf
-</td>" )
-	call Preload( "
-<td>
-Night Elf race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I004"><img src="ReplaceableTextures/CommandButtons/BTNAdvancedStrengthOfTheMoon.blp" width="64" height="64" title="Scepter of Night Elves" alt="ReplaceableTextures/CommandButtons/BTNAdvancedStrengthOfTheMoon.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02J"><img src="ReplaceableTextures/CommandButtons/BTNTreeOfLife.blp" width="64" height="64" title="Tiny Tree of Life" alt="ReplaceableTextures/CommandButtons/BTNTreeOfLife.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I026">
-<td>
-<a href="#I06E"><img src="ReplaceableTextures/CommandButtons/BTNBloodElfPeasant.blp" width="64" height="64" title="Blood Elf" alt="ReplaceableTextures/CommandButtons/BTNBloodElfPeasant.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Blood Elf
-</td>" )
-	call Preload( "
-<td>
-Blood Elf race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I026"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" width="64" height="64" title="Scepter of Blood Elves" alt="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02L"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny Blood Elf Town Hall" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I001">
-<td>
-<a href="#I06F"><img src="ReplaceableTextures/CommandButtons/BTNMurgalSlave.blp" width="64" height="64" title="Naga" alt="ReplaceableTextures/CommandButtons/BTNMurgalSlave.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Naga
-</td>" )
-	call Preload( "
-<td>
-Naga race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I001"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" width="64" height="64" title="Scepter of Naga" alt="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02M"><img src="ReplaceableTextures/CommandButtons/BTNTempleOfTides.blp" width="64" height="64" title="Tiny Temple of Tides" alt="ReplaceableTextures/CommandButtons/BTNTempleOfTides.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I02A">
-<td>
-<a href="#I06G"><img src="ReplaceableTextures/CommandButtons/BTNGanarg.blp" width="64" height="64" title="Demon" alt="ReplaceableTextures/CommandButtons/BTNGanarg.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Demon
-</td>" )
-	call Preload( "
-<td>
-Demon race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02A"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfSilence.blp" width="64" height="64" title="Scepter of Demons" alt="ReplaceableTextures/CommandButtons/BTNStaffOfSilence.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02N"><img src="ReplaceableTextures/CommandButtons/BTNDemonGate.blp" width="64" height="64" title="Tiny Demon Gate" alt="ReplaceableTextures/CommandButtons/BTNDemonGate.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I02G">
-<td>
-<a href="#I06H"><img src="ReplaceableTextures/CommandButtons/BTNDranai.blp" width="64" height="64" title="Draenei" alt="ReplaceableTextures/CommandButtons/BTNDranai.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Draenei
-</td>" )
-	call Preload( "
-<td>
-Draenei race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02G"><img src="ReplaceableTextures/CommandButtons/BTNWand.blp" width="64" height="64" title="Scepter of Draenei" alt="ReplaceableTextures/CommandButtons/BTNWand.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I02O"><img src="ReplaceableTextures/CommandButtons/BTNDranaiChiefHut.blp" width="64" height="64" title="Tiny Draenei Haven" alt="ReplaceableTextures/CommandButtons/BTNDranaiChiefHut.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I03B">
-<td>
-<a href="#I06I"><img src="ReplaceableTextures/CommandButtons/BTNFurbolg.blp" width="64" height="64" title="Furbolg" alt="ReplaceableTextures/CommandButtons/BTNFurbolg.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Furbolg
-</td>" )
-	call Preload( "
-<td>
-Furbolg race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I03B"><img src="ReplaceableTextures/CommandButtons/BTNStone.blp" width="64" height="64" title="Scepter of Furbolg" alt="ReplaceableTextures/CommandButtons/BTNStone.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I03A"><img src="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp" width="64" height="64" title="Tiny Furbolg Tribal Center" alt="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I047">
-<td>
-<a href="#I06J"><img src="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp" width="64" height="64" title="Goblin" alt="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Goblin
-</td>" )
-	call Preload( "
-<td>
-Goblin race. Specialized on mechanical units, higher income and engineering.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I047"><img src="ReplaceableTextures/CommandButtons/BTNTransmute.blp" width="64" height="64" title="Scepter of Goblins" alt="ReplaceableTextures/CommandButtons/BTNTransmute.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I048"><img src="ReplaceableTextures/CommandButtons/BTNGoblinHallTier1.blp" width="64" height="64" title="Tiny Goblin Town Hall" alt="ReplaceableTextures/CommandButtons/BTNGoblinHallTier1.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I053">
-<td>
-<a href="#I06K"><img src="ReplaceableTextures/CommandButtons/BTNDwarfMiner.blp" width="64" height="64" title="Dwarf" alt="ReplaceableTextures/CommandButtons/BTNDwarfMiner.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Dwarf
-</td>" )
-	call Preload( "
-<td>
-Dwarf race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I053"><img src="ReplaceableTextures/CommandButtons/BTNHammer.blp" width="64" height="64" title="Scepter of Dwarves" alt="ReplaceableTextures/CommandButtons/BTNHammer.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I054"><img src="ReplaceableTextures/CommandButtons/BTNDwarvenHall.blp" width="64" height="64" title="Tiny Dwarf Town Hall" alt="ReplaceableTextures/CommandButtons/BTNDwarvenHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I05G">
-<td>
-<a href="#I06L"><img src="ReplaceableTextures/CommandButtons/BTNElfVillager.blp" width="64" height="64" title="High Elf" alt="ReplaceableTextures/CommandButtons/BTNElfVillager.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-High Elf
-</td>" )
-	call Preload( "
-<td>
-High Elf race.
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I05G"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfPreservation.blp" width="64" height="64" title="Scepter of High Elves" alt="ReplaceableTextures/CommandButtons/BTNStaffOfPreservation.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I05F"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny High Elf Town Hall" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I08R">
-<td>
-<a href="#I06U"><img src="ReplaceableTextures/CommandButtons/BTNLightingElemental.blp" width="64" height="64" title="Dalaran" alt="ReplaceableTextures/CommandButtons/BTNLightingElemental.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Dalaran
-</td>" )
-	call Preload( "
-<td>
-Dalaran/Kirin Tor race. A human end elven faction which is specialized on magic and summoned creatures. Buildings can be teleported or moved around.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I08R"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfPurification.blp" width="64" height="64" title="Scepter of Dalaran" alt="ReplaceableTextures/CommandButtons/BTNStaffOfPurification.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I07Y"><img src="ReplaceableTextures/CommandButtons/BTNArcaneTownHall.blp" width="64" height="64" title="Tiny Dalaran Town Hall" alt="ReplaceableTextures/CommandButtons/BTNArcaneTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I06W">
-<td>
-<a href="#I06X"><img src="ReplaceableTextures/CommandButtons/BTNSailor.blp" width="64" height="64" title="Kul Tiras" alt="ReplaceableTextures/CommandButtons/BTNSailor.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Kul Tiras
-</td>" )
-	call Preload( "
-<td>
-Kul Tiras race. A human faction which is specialized on a strong navy and water magic.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I06W"><img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64" title="Scepter of Kul Tiras" alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I06V"><img src="ReplaceableTextures/CommandButtons/BTNKultirasTownHall.blp" width="64" height="64" title="Tiny Kul Tiras Town Hall" alt="ReplaceableTextures/CommandButtons/BTNKultirasTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I07T">
-<td>
-<a href="#I07U"><img src="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp" width="64" height="64" title="Pandaren" alt="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Pandaren
-</td>" )
-	call Preload( "
-<td>
-Pandaren race. Specialized on healing, peace, cooking and alcohol.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I07T"><img src="ReplaceableTextures/CommandButtons/BTNWandOfCyclone.blp" width="64" height="64" title="Scepter of Pandaren" alt="ReplaceableTextures/CommandButtons/BTNWandOfCyclone.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I07S"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny Pandaren Temple" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I09P">
-<td>
-<a href="#I09Q"><img src="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp" width="64" height="64" title="Trolls" alt="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Trolls
-</td>" )
-	call Preload( "
-<td>
-Trolls race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I09P"><img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64" title="Scepter of Trolls" alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I09O"><img src="ReplaceableTextures/CommandButtons/BTNGreathall.blp" width="64" height="64" title="Tiny Great Hall of Trolls" alt="ReplaceableTextures/CommandButtons/BTNGreathall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I09S">
-<td>
-<a href="#I09T"><img src="ReplaceableTextures/CommandButtons/BTNTauren.blp" width="64" height="64" title="Tauren" alt="ReplaceableTextures/CommandButtons/BTNTauren.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Tauren
-</td>" )
-	call Preload( "
-<td>
-Tauren race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I09S"><img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64" title="Scepter of Tauren" alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I09R"><img src="ReplaceableTextures/CommandButtons/BTNchieftainsgreathall.blp" width="64" height="64" title="Tiny Great Hall of Tauren" alt="ReplaceableTextures/CommandButtons/BTNchieftainsgreathall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I08Q">
-<td>
-<a href="#I08P"><img src="ReplaceableTextures/CommandButtons/BTNGungan.blp" width="64" height="64" title="Galactic Republic" alt="ReplaceableTextures/CommandButtons/BTNGungan.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Galactic Republic
-</td>" )
-	call Preload( "
-<td>
-Galactic Republic from Star Wars.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I08Q"><img src="ReplaceableTextures/CommandButtons/BTNGungan.blp" width="64" height="64" title="Scepter of Galactic Republic" alt="ReplaceableTextures/CommandButtons/BTNGungan.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I08O"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny Acclamator" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I08F">
-<td>
-<a href="#I08D"><img src="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" width="64" height="64" title="CIS" alt="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-CIS
-</td>" )
-	call Preload( "
-<td>
-Confederacy of Independent Systems from Star Wars.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I08F"><img src="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" width="64" height="64" title="Scepter of CIS" alt="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I08E"><img src="ReplaceableTextures/CommandButtons/BTNFlyingMachine.blp" width="64" height="64" title="Tiny Droid Control Ship" alt="ReplaceableTextures/CommandButtons/BTNFlyingMachine.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I04D">
-<td>
-<a href="#I04C"><img src="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" width="64" height="64" title="Roman Empire" alt="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Roman Empire
-</td>" )
-	call Preload( "
-<td>
-The Roman Empire from another universe.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I04D"><img src="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" width="64" height="64" title="Scepter of the Roman Empire" alt="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I06Y"><img src="ReplaceableTextures/CommandButtons/BTNTent.blp" width="64" height="64" title="Tiny Command Tent" alt="ReplaceableTextures/CommandButtons/BTNTent.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0AR">
-<td>
-<a href="#I0AQ"><img src="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" width="64" height="64" title="Medieval" alt="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Medieval
-</td>" )
-	call Preload( "
-<td>
-European christian medieval race inspired by games like Age of Empires II.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0AR"><img src="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" width="64" height="64" title="Scepter of Medieval" alt="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0BB"><img src="ReplaceableTextures/CommandButtons/BTNCastle1.blp" width="64" height="64" title="Tiny Medieval Town Hall" alt="ReplaceableTextures/CommandButtons/BTNCastle1.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0DD">
-<td>
-<a href="#I0DE"><img src="ReplaceableTextures/CommandButtons/BTNBTNHobbitMan.blp" width="64" height="64" title="Free People of Middle Earth" alt="ReplaceableTextures/CommandButtons/BTNBTNHobbitMan.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Free People of Middle Earth
-</td>" )
-	call Preload( "
-<td>
-Free People of Middle Earth: Hobbits, Rohan, Gondor, Elven, Dwarves etc.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0DD"><img src="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" width="64" height="64" title="Scepter of Free People of Middle Earth" alt="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0DC"><img src="ReplaceableTextures/CommandButtons/BTNHobbitHole.blp" width="64" height="64" title="Tiny Hobbit Hole" alt="ReplaceableTextures/CommandButtons/BTNHobbitHole.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0G2">
-<td>
-<a href="#I0G3"><img src="ReplaceableTextures/CommandButtons/BTNOrcWarrior1.blp" width="64" height="64" title="Sauron's Forces" alt="ReplaceableTextures/CommandButtons/BTNOrcWarrior1.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Sauron's Forces
-</td>" )
-	call Preload( "
-<td>
-Sauron's Forces: Mordor, Isengard, Rhûn, Haradrim, evil creatures etc.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0G2"><img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64" title="Scepter of Sauron's Forces" alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0G1"><img src="ReplaceableTextures/CommandButtons/BTNBTNMordorStronghold1.blp" width="64" height="64" title="Tiny Great Hall" alt="ReplaceableTextures/CommandButtons/BTNBTNMordorStronghold1.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0E0">
-<td>
-<a href="#I0E1"><img src="ReplaceableTextures/CommandButtons/BTNhelmet.blp" width="64" height="64" title="Modern Warfare" alt="ReplaceableTextures/CommandButtons/BTNhelmet.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Modern Warfare
-</td>" )
-	call Preload( "
-<td>
-Modern Warfare era after WWII until today.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0E0"><img src="ReplaceableTextures/CommandButtons/BTNhelmet.blp" width="64" height="64" title="Scepter of Modern Warfare" alt="ReplaceableTextures/CommandButtons/BTNhelmet.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0DZ"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny Command Center" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0HF">
-<td>
-<a href="#I0HD"><img src="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" width="64" height="64" title="Germans WWII" alt="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Germans WWII
-</td>" )
-	call Preload( "
-<td>
-Germans during WWII. Sad story.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0HF"><img src="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" width="64" height="64" title="Scepter of Germans WWII" alt="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0HE"><img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64" title="Tiny Headquarters" alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0HL">
-<td>
-<a href="#I0HK"><img src="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" width="64" height="64" title="Vrykul" alt="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Vrykul
-</td>" )
-	call Preload( "
-<td>
-Vrykul race. Nordic giants, powerful warriors with strong ships and Proto-Drakes.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0HL"><img src="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" width="64" height="64" title="Scepter of Vrykul" alt="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0HM"><img src="ReplaceableTextures/CommandButtons/BTNVrykulMain1.blp" width="64" height="64" title="Tiny Dragon's Reach" alt="ReplaceableTextures/CommandButtons/BTNVrykulMain1.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call Preload( "
-<tr id="I0HR">
-<td>
-<a href="#I0HQ"><img src="ReplaceableTextures/CommandButtons/BTNworgen.blp" width="64" height="64" title="Worgen" alt="ReplaceableTextures/CommandButtons/BTNworgen.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-Worgen
-</td>" )
-	call Preload( "
-<td>
-Worgen race. A human faction which is cursed and can transform into wolf like creatures.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0HR"><img src="ReplaceableTextures/CommandButtons/BTNworgen.blp" width="64" height="64" title="Scepter of Worgen" alt="ReplaceableTextures/CommandButtons/BTNworgen.blp" /></a>
-</td>" )
-	call Preload( "
-<td>
-<a href="items.html#I0HS"><img src="ReplaceableTextures/CommandButtons/BTNGilneasTownHall.blp" width="64" height="64" title="Tiny Town Hall" alt="ReplaceableTextures/CommandButtons/BTNGilneasTownHall.blp" /></a>
-</td>" )
-	call Preload( "
-</tr>
-" )
-	call PreloadEnd( 0.5 )
+	call Preload( "<!-- Races generated with chat command "-website". -->" )
+	call Preload( "<tr id="I000">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I05U">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPeasant.blp" width="64" height="64"" )
+	call Preload( "title="Human"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPeasant.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Human" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Human race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I000">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBrilliance.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Humans"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBrilliance.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02P">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I002">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06B">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPeon.blp" width="64" height="64"" )
+	call Preload( "title="Orc"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPeon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Orc" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Orc race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I002">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorMaster.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Orcs"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorMaster.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#tgrh">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGreathall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Great Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGreathall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I003">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06C">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNAcolyte.blp" width="64" height="64"" )
+	call Preload( "title="Undead"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNAcolyte.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Undead" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Undead race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I003">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRodOfNecromancy.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Undead"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRodOfNecromancy.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02K">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNNecropolis.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Necropolis"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNNecropolis.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I004">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06D">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWisp.blp" width="64" height="64"" )
+	call Preload( "title="Night Elf"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWisp.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Night Elf" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Night Elf race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I004">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNAdvancedStrengthOfTheMoon.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Night Elves"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNAdvancedStrengthOfTheMoon.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02J">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTreeOfLife.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Tree of Life"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTreeOfLife.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I026">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBloodElfPeasant.blp" width="64" height="64"" )
+	call Preload( "title="Blood Elf"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBloodElfPeasant.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Blood Elf" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Blood Elf race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I026">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Blood Elves"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02L">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Blood Elf Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I001">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06F">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMurgalSlave.blp" width="64" height="64"" )
+	call Preload( "title="Naga"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNMurgalSlave.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Naga" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Naga race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I001">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Naga"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfNegation.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02M">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTempleOfTides.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Temple of Tides"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTempleOfTides.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I02A">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06G">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGanarg.blp" width="64" height="64"" )
+	call Preload( "title="Demon"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGanarg.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Demon" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Demon race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02A">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfSilence.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Demons"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfSilence.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02N">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDemonGate.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Demon Gate"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDemonGate.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I02G">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06H">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDranai.blp" width="64" height="64"" )
+	call Preload( "title="Draenei"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDranai.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Draenei" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Draenei race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02G">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWand.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Draenei"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWand.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I02O">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDranaiChiefHut.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Draenei Haven"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDranaiChiefHut.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I03B">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06I">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFurbolg.blp" width="64" height="64"" )
+	call Preload( "title="Furbolg"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNFurbolg.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Furbolg" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Furbolg race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I03B">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStone.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Furbolg"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStone.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I03A">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Furbolg Tribal Center"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I047">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06J">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp" width="64" height="64"" )
+	call Preload( "title="Goblin"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Goblin" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Goblin race. Specialized on mechanical units, higher income and engineering." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I047">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTransmute.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Goblins"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTransmute.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I048">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGoblinHallTier1.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Goblin Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGoblinHallTier1.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I053">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06K">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDwarfMiner.blp" width="64" height="64"" )
+	call Preload( "title="Dwarf"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDwarfMiner.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dwarf" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dwarf race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I053">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHammer.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Dwarves"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNHammer.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I054">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDwarvenHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Dwarf Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNDwarvenHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I05G">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06L">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNElfVillager.blp" width="64" height="64"" )
+	call Preload( "title="High Elf"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNElfVillager.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "High Elf" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "High Elf race." )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I05G">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfPreservation.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of High Elves"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfPreservation.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I05F">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny High Elf Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I08R">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06U">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNLightingElemental.blp" width="64" height="64"" )
+	call Preload( "title="Dalaran"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNLightingElemental.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dalaran" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Dalaran/Kirin Tor race. A human end elven faction which is specialized on magic and summoned creatures. Buildings can be teleported or moved around.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I08R">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfPurification.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Dalaran"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfPurification.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I07Y">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNArcaneTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Dalaran Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNArcaneTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I06W">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I06X">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSailor.blp" width="64" height="64"" )
+	call Preload( "title="Kul Tiras"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNSailor.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Kul Tiras" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Kul Tiras race. A human faction which is specialized on a strong navy and water magic.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I06W">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Kul Tiras"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I06V">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNKultirasTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Kul Tiras Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNKultirasTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I07T">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I07U">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp" width="64" height="64"" )
+	call Preload( "title="Pandaren"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Pandaren" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Pandaren race. Specialized on healing, peace, cooking and alcohol.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I07T">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWandOfCyclone.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Pandaren"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWandOfCyclone.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I07S">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Pandaren Temple"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I09P">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I09Q">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp" width="64" height="64"" )
+	call Preload( "title="Trolls"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Trolls" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Trolls race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I09P">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Trolls"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I09O">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGreathall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Great Hall of Trolls"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGreathall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I09S">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I09T">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTauren.blp" width="64" height="64"" )
+	call Preload( "title="Tauren"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTauren.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Tauren" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Tauren race. Allies of the Horde.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I09S">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Tauren"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I09R">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNchieftainsgreathall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Great Hall of Tauren"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNchieftainsgreathall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I08Q">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I08P">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGungan.blp" width="64" height="64"" )
+	call Preload( "title="Galactic Republic"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGungan.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Galactic Republic" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Galactic Republic from Star Wars.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I08Q">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGungan.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Galactic Republic"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGungan.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I08O">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Acclamator"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I08F">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I08D">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" width="64" height="64"" )
+	call Preload( "title="CIS"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "CIS" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Confederacy of Independent Systems from Star Wars.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I08F">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of CIS"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGeonosian.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I08E">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFlyingMachine.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Droid Control Ship"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNFlyingMachine.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I04D">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I04C">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" width="64" height="64"" )
+	call Preload( "title="Roman Empire"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Roman Empire" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "The Roman Empire from another universe.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I04D">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of the Roman Empire"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNRomanHelmet.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I06Y">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTent.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Command Tent"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTent.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0AR">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0AQ">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" width="64" height="64"" )
+	call Preload( "title="Medieval"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Medieval" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "European christian medieval race inspired by games like Age of Empires II.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0AR">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Medieval"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNMedievalHelmet.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0BB">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCastle1.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Medieval Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNCastle1.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0DD">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0DE">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBTNHobbitMan.blp" width="64" height="64"" )
+	call Preload( "title="Free People of Middle Earth"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBTNHobbitMan.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Free People of Middle Earth" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Free People of Middle Earth: Hobbits, Rohan, Gondor, Elven, Dwarves etc.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0DD">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Free People of Middle Earth"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNStaffOfSanctuary.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0DC">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHobbitHole.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Hobbit Hole"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNHobbitHole.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0G2">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0G3">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcWarrior1.blp" width="64" height="64"" )
+	call Preload( "title="Sauron's Forces"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcWarrior1.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Sauron's Forces" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Sauron's Forces: Mordor, Isengard, Rhûn, Haradrim, evil creatures etc.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0G2">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Sauron's Forces"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNOrcCaptureFlag.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0G1">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBTNMordorStronghold1.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Great Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNBTNMordorStronghold1.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0E0">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0E1">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNhelmet.blp" width="64" height="64"" )
+	call Preload( "title="Modern Warfare"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNhelmet.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Modern Warfare" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Modern Warfare era after WWII until today.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0E0">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNhelmet.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Modern Warfare"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNhelmet.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0DZ">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Command Center"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0HF">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0HD">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" width="64" height="64"" )
+	call Preload( "title="Germans WWII"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Germans WWII" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Germans during WWII. Sad story.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0HF">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Germans WWII"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNReichSapper.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0HE">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Headquarters"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0HL">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0HK">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" width="64" height="64"" )
+	call Preload( "title="Vrykul"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Vrykul" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Vrykul race. Nordic giants, powerful warriors with strong ships and Proto-Drakes.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0HL">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Vrykul"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0HM">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNVrykulMain1.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Dragon's Reach"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNVrykulMain1.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call Preload( "<tr id="I0HR">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#I0HQ">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNworgen.blp" width="64" height="64"" )
+	call Preload( "title="Worgen"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNworgen.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Worgen" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Worgen race. A human faction which is cursed and can transform into wolf like creatures.<br/><br/><div style="color: #ffcc00">Requires hero level 60 or to be a VIP.</div>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0HR">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNworgen.blp" width="64" height="64"" )
+	call Preload( "title="Scepter of Worgen"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNworgen.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "<a href="items.html#I0HS">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGilneasTownHall.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Town Hall"" )
+	call Preload( " alt="ReplaceableTextures/CommandButtons/BTNGilneasTownHall.blp" /></a>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
+	call PreloadEnd( 0.2 )
 
 endfunction
 
