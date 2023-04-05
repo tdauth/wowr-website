@@ -1,0 +1,15 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- Chat Commands generated with chat command "-website". -->" )
+	call Preload( "<ul>" )
+	call Preload( "<li></li>" )
+	call Preload( "<li></li>" )
+	call Preload( "<li></li>" )
+	call Preload( "<li></li>" )
+	call Preload( "</ul>" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
