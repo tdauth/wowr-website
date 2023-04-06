@@ -1,0 +1,19 @@
+#!/bin/bash
+
+MPQ="$1"
+LISTFILE="$2"
+echo "MPQ: $MPQ"
+echo "(listfile): $LISTFILE"
+LISTFILE_OUT="$1.out"
+LISTFILE_OUT2="$1.out2"
+cat "$LISTFILE" | tr -d '\r' > "$LISTFILE_OUT"
+grep "ReplaceableTextures\\\\CommandButtons\\\\" "$LISTFILE_OUT" > "$LISTFILE_OUT2"
+grep "ReplaceableTextures\\\\PassiveButtons\\\\" "$LISTFILE_OUT" >> "$LISTFILE_OUT2"
+sort "$LISTFILE_OUT2" -o "$LISTFILE_OUT2"
+
+while read -r p
+do
+    #echo "$p"
+    echo "$p"
+    ./mpq -x --overwrite -f "$p" "$MPQ"
+done < "$LISTFILE_OUT2"
