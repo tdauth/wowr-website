@@ -1984,6 +1984,19 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "Summons a Telescope which helps all nearby friendly range units to increase their damage, increases the sight range and reveals enemy invisible units." )
+	call Preload( "<tr id="A12P">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#A12P">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSpellShieldAmulet.blp" width="64" height="64"" )
+	call Preload( "title="Spell Shield"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSpellShieldAmulet.blp"" )
+	call Preload( "/></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Spell Shield" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Blocks a negative spell that an enemy casts on the Hero once every x seconds." )
 	call Preload( "<tr id="AHav">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#AHav">" )
@@ -2897,7 +2910,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 25.1 )
+	call PreloadEnd( 25.9 )
 
 endfunction
 
