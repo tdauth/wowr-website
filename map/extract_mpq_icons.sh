@@ -17,6 +17,6 @@ do
     echo "$p"
     ./mpq -x --overwrite -f "$p" "$MPQ"
     INPUT="./${MPQ%.*}/${p//\\//}"
-    OUTPUT="./out/${p//\\//}"
+    OUTPUT="../${p//\\//}"
     ./wc3converter --oformat png "$OUTPUT" "$INPUT"
 done < "$LISTFILE_OUT2"
