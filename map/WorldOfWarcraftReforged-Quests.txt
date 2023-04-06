@@ -2166,7 +2166,7 @@ Since the dispelling of demonic " )
 	call Preload( "</a>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.0 )
 
 endfunction
 
