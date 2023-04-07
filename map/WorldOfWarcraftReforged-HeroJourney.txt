@@ -1,0 +1,30 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- Hero journey generated with chat command "-website". -->" )
+	call Preload( "<ul>" )
+	call Preload( "<li>5: Abilities available on Theramore.</li>" )
+	call Preload( "<li>10: Random Events.</li>" )
+	call Preload( "<li>15: Equipment Bags on Goblin Bank Island.</li>" )
+	call Preload( "<li>20: Mount.</li>" )
+	call Preload( "<li>25: Second profession.</li>" )
+	call Preload( "<li>30: Second race.</li>" )
+	call Preload( "<li>35: Hand of God and Hidden Bases.</li>" )
+	call Preload( "<li>40: Bonus heroes.</li>" )
+	call Preload( "<li>45: Second hero.</li>" )
+	call Preload( "<li>50: Boss heroes.</li>" )
+	call Preload( "<li>55: Boss Fight Island.</li>" )
+	call Preload( "<li>60: Bonus races.</li>" )
+	call Preload( "<li>65: Third hero.</li>" )
+	call Preload( "<li>70: AI for yourself.</li>" )
+	call Preload( "<li>75: Void Lord can be chosen as hero who can learn different spells.</li>" )
+	call Preload( "<li>75: Advanced chat commands from "-helpvisual" can be used.</li>" )
+	call Preload( "<li>75 (all 3 heroes): All races and professions are available and chat command "-maxbosslevels".</li>" )
+	call Preload( "<li>Reporting bugs/issues: VIP.</li>" )
+	call Preload( "<li>Fastest speedrun: Hall of Fame.</li>" )
+	call Preload( "</ul>" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
