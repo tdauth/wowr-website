@@ -1066,6 +1066,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "Allows the Obsidian Statue to transform into a Destroyer, a large flying unit that must devour magic to sustain its mana. The Destroyer has Spell Immunity, Devour Magic, Absorb Mana, and Orb of Annihilation. " )
+	call Preload( "<br/>" )
+	call Preload( "<br/>" )
+	call Preload( "<div style="color: #ffcc00">Attacks land and air units.</div>" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
 	call Preload( "<tr id="Ruex">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#Ruex">" )
@@ -3865,7 +3870,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 1.6 )
+	call PreloadEnd( 0.7 )
 
 endfunction
 
