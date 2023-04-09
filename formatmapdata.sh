@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Given a txt file name from the map folder.
+
 # Replace the following sections from the txt file:
 
 ```

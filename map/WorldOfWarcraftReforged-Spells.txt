@@ -7105,7 +7105,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 1.5 )
+	call PreloadEnd( 2.1 )
 
 endfunction
 

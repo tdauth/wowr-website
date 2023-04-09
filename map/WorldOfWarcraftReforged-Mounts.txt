@@ -1455,7 +1455,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "950" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.3 )
 
 endfunction
 
