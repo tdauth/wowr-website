@@ -990,11 +990,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="War Drums"" )
 	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNDrum.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "<a href="spells.html#Bakb">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
-	call Preload( "title="Default string"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTemp.blp"" )
-	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Adro">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
 	call Preload( "title="Unload"" )
@@ -1460,7 +1455,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "950" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.3 )
+	call PreloadEnd( 0.1 )
 
 endfunction
 

@@ -1711,11 +1711,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Unholy Aura"" )
 	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "<a href="spells.html#BUau">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
-	call Preload( "title="Default string"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTemp.blp"" )
-	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A0DM">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWhirlwind.blp" width="64" height="64"" )
 	call Preload( "title="Bladestorm"" )
@@ -1836,11 +1831,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp" width="64" height="64"" )
 	call Preload( "title="Unholy Aura"" )
 	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp"" )
-	call Preload( "/></a>" )
-	call Preload( "<a href="spells.html#BUau">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
-	call Preload( "title="Default string"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTemp.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A0DM">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWhirlwind.blp" width="64" height="64"" )
@@ -14271,7 +14261,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "550" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 2.9 )
+	call PreloadEnd( 0.8 )
 
 endfunction
 
