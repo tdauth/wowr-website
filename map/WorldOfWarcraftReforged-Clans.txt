@@ -132,6 +132,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( ""#n5#"#n#+X@#+X@#`#`#xH#"#n}#"#xH#"#x/#n#e#n#xI#n#"#"#n#xU#" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
+	call Preload( "<!-- Clans generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
 endfunction

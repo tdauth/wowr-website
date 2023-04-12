@@ -70,6 +70,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Phc>c>cj2c[dqcNkWcPWecMcMcMcMcMc>PcUcRicPcPUcmcMcMcMcMcMcMcP3c" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
+	call Preload( "<!-- Players generated with chat command "-website". -->" )
 	call PreloadEnd( 0.1 )
 
 endfunction

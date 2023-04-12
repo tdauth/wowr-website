@@ -420,8 +420,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<img" )
-	call Preload( "src="images/Infocard-neutral-armor-small.webp"" )
-	call Preload( "title="Small"" )
+	call Preload( "src="images/Infocard-armor-hero.webp"" )
+	call Preload( "title="Hero"" )
 	call Preload( "/>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -1445,6 +1445,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "950" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
+	call Preload( "<!-- Mounts generated with chat command "-website". -->" )
 	call PreloadEnd( 0.3 )
 
 endfunction

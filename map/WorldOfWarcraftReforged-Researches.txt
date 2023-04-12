@@ -3762,9 +3762,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<tr id="R02Q">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#R02Q">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTN#GoblinFuelSpill.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGoblinFuelSpill.blp" width="64" height="64"" )
 	call Preload( "title="Fuel"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTN#GoblinFuelSpill.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGoblinFuelSpill.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -5138,7 +5138,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 0.8 )
+	call PreloadEnd( 0.9 )
 
 endfunction
 

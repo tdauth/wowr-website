@@ -1686,9 +1686,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="items.html#I03X">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDragonEye.blp" width="64" height="64"" )
 	call Preload( "title="Unique - The Eye of Sargeras"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNDragonEye.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -3455,6 +3455,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "550" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
+	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
 	call PreloadEnd( 0.5 )
 
 endfunction

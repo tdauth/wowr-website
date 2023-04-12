@@ -59,7 +59,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "Keeper of the Grove" )
+	call Preload( "Malfurion" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="Othr">" )

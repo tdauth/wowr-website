@@ -11,6 +11,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-p1/-p2": Allows you to (re)pick your professions.</li>" )
 	call Preload( "<li>"-r1/-r2": Allows you to (re)pick your races.</li>" )
 	call Preload( "</ul>" )
+	call Preload( "<!-- Chat Commands generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
 endfunction
