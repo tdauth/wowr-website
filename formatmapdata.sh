@@ -2,26 +2,20 @@
 
 # Given a txt file name from the map folder.
 
+FILE="$1"
+OUTPUT_FILE="$2"
+
 # Replace the following sections from the txt file:
 
-```
-" )
-	call Preload( "
-```
+sed -i 's/function PreloadFiles takes nothing returns nothing//' "$FILE"
+sed -i 's/\tcall PreloadStart()//' "$FILE"
+sed -i 's/\tcall Preload( \"//' "$FILE"
+sed -i 's/endfunction//' "$FILE"
+sed -i 's/endfunction//' "$FILE"
+sed -i '/^$/d' "$FILE"
 
-```
-	" )
-	call PreloadEnd( 10.2 )
+# Replace the content between two tbody elements in the given file.
 
-endfunction
-```
+HTML=$(cat $FILE)
 
-```
-function PreloadFiles takes nothing returns nothing
-
-	call PreloadStart()
-```
-
-# Remove the content between two tbody elements in the given file.
-
-# Insert the content after tbody in the given file.
+echo $HTML
