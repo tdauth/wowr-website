@@ -25,3 +25,7 @@ h1, h2 {
     display: inline-block;
     white-space: nowrap;
 }
+
+input, select, textarea{
+    color: #ffffff;
+}
