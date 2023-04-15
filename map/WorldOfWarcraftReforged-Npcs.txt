@@ -11,7 +11,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "Archmage" )
+	call Preload( "Landazar" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="H006">" )
@@ -254,7 +254,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Jaina" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 

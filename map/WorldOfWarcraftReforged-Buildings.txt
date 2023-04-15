@@ -4481,9 +4481,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNReturnGoods.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Agyd">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNExhumeCorpses.blp" width="64" height="64"" )
 	call Preload( "title="Create Corpse"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTemp.blp"" )
+	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNExhumeCorpses.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Abgs">" )
 	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNRegenerationAura.blp" width="64" height="64"" )
@@ -4569,9 +4569,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNReturnGoods.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Agyd">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTemp.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNExhumeCorpses.blp" width="64" height="64"" )
 	call Preload( "title="Create Corpse"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTemp.blp"" )
+	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNExhumeCorpses.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Abgs">" )
 	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNRegenerationAura.blp" width="64" height="64"" )
@@ -15648,7 +15648,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "900" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 14.1 )
+	call PreloadEnd( 15.1 )
 
 endfunction
 
