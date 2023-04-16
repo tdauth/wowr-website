@@ -1,0 +1,425 @@
+- Add Modern Warfare AI support.
+- AI builds housings and lumber mills before other stuff to get more resources in the beginning.
+- Add chat command "-helpai".
+- Add chat command "-helpally".
+- Add chat command "-aiexpansions".
+- Use custom icon for Modern Warfare workers.
+- Add column Expansions to AI Player Settings GUI.
+- Preselect "Random Warlord" as standard race in the AI Player Settings GUI.
+- Add IdleWorkersSystem and hide idle workers button of custom UIs if there are no idle workers.
+- Add hero Master of Time with custom spells.
+- Add neutral building Turnstile.
+- Add item Hourglass.
+- Add item Wand of Future.
+- Add item Winged Clock.
+- Add item Wand of Time Clone.
+- Add chat command "-aiinfo".
+- Add chat command "-aitargeton/off".
+- Add chat command "-aitarget".
+- Add race Sauron's Forces.
+- Add hero Samwise Gamgee.
+- Add hero Peregrin Took.
+- Add hero Meriadoc Brandybuck.
+- Check if game mode, hero, race and profession have been picked before accepting the player selection.
+- Use system New Bonus by chopinski for custom spells.
+- Reduce the mana costs for the hero ability Control Magic.
+- Add a cooldown per slot for learnable hero spells which is not checked in the hero selection to prevent mass castings of spells.
+- Remove standard hero ability Resistant Skin which made no sense for heroes.
+- Rename tavern "Bonus Heroes Reskill" into "Bonus Heroes Void Lords".
+- Add heroes Void Lord Commander X.
+- Dwarf AI builds towers now.
+- Simplified Dwarf AI script.
+- Goblin AI builds Rocket Towers now.
+- Remove effects from ability Force Jump.
+- Fix target players for AI chat commands.
+- Fix attached Light Saber models for Sith units.
+- Fix sound effects of summoning Star Wars mounts.
+- Fix initial spell pages for the towers in the player selection.
+- Add hero Sauron.
+- Add building Record Player.
+- Add Roman Empire AI support.
+- Add Ballista to Roman Empire race.
+- Add ships to Roman Empire race.
+- Add neutral building Real Estate Agent.
+- Add Roman Shipyard to Roman Empire race.
+- Add Chariot to Roman Empire race.
+- Use custom model for Roman Workshop.
+- Add Marketplace to Roman Empire race.
+- Add Siege Tower to Roman Empire race.
+- Add Roman Military Engineer to Roman Empire race.
+- Roman Tents can train Roman Legionaries.
+- Fix dependencies of Guard Towers of Roman Empire race.
+- Add Palisade Gate to Roman Empire race.
+- Fix icon for Roman Race in stats multiboard.
+- Add spell Telekinesis.
+- Add spell Full Regeneration.
+- Add reskillable spell Demolish.
+- Add reskillable spell Disease Cloud.
+- Add reskillable spell Monsoon.
+- Add reskillable spell Summon Mercenary Camp.
+- Add reskillable spell Vengeance.
+- Add spell Cripple Player.
+- Add item Camera.
+- Fix chat commands "-clanwgold" and "-clanwlumber" and use SimError for error messages.
+- Queen of the new Citadel has life and mana regeneration aura.
+- Fix XP rate shown in player info.
+- Increase boss hero respawn time to 10 minutes.
+- Lock boss hero AI guard positions to prevent bosses from attacking player bases.
+- Try to fix speed bonus of research Improved Navy.
+- Increase auto save interval from 5 minutes to 15 minutes.
+- Decrease the cooldown of ability Spell further per level.
+- Add reskillable spell Town Portal.
+- Add reskillable spell Find Artifacts.
+- Add Blood Elf building Altar of Magic.
+- Add Blood Elf building Elven Farm.
+- Add Pandaren AI support.
+- Improve the performance of CopyGroup.
+- Select Turrets ability does not interrupt the vehicle's actions anymore.
+- Change icon of Select Turrets ability.
+- Improve turret system.
+- Fix stats of bonus hero Maiev.
+- Add missing minimap ping for Demon Quest 1 when meeting the Commander.
+- Add Pandaren quest 1.
+- Add chat command "-pingoldgods".
+- Add all quest ping chat commands to the help text and quest log.
+- Improve spell Slide.
+- Use alternate form for hero Shado Pan.
+- Move portal to Pandaria to the Outland portal room.
+- Scale down neutral Waygates.
+- Add bonus hero Jesus Christ.
+- Add item Flamethrower.
+- Add spell Flamethrower.
+- Fix spell Escape Portal.
+- Decrease minimum movement speed for units to 0.
+- Increases maximum movement speed for units to 1024.
+- Add neutral building Goblin Vehicle Shop.
+- Add unit Taxi with Taxi missions inspired by GTA.
+- Add missing scepters to Bonus Scepters shop.
+- Fix effect of vote "-notomes".
+- Add hero Gnomish Submarine.
+- Add hero Goblin Submarine.
+- Add hero Ironclad Submarine.
+- Add hero Submarine Pilot.
+- Add start location Water Base.
+- Replace building Goblin Hut with Goblin Sheep Processor.
+- Droid Control Ship revives dead heroes.
+- Add CIS AI.
+- Decrease duration of spell Slide.
+- Add spell Burning Oil.
+- Add spell Flamethrower Turret.
+- Add hero Flame Shredder.
+- Add level effects to many spell tooltips.
+- Add spell slot to tooltips of learnable spells.
+- Add spell tooltips to learnable spells.
+- Add learnable spell Dark Ritual.
+- Add learnable spell Summon Meat Wagon.
+- Add learnable spell Summon Bladestorm.
+- Add learnable spell Summon Cripple.
+- Increase the maximum creep level for hero spell Control Magic up to 75.
+- Increase the maximum creep level for hero spell Devour up to 75.
+- Increase the maximum creep level for hero spell Charm up to 75.
+- Increase the maximum creep level for hero spell Transmute up to 75.
+- Increase the maximum creep level for hero spell Doom up to 75.
+- Add level to learn tooltip of hero spell Dark Summoning.
+- Fix casting duration per level for hero spell Dark Summoning.
+- Add a maximum creep level to the hero ability The Ring of Power.
+- Add learnable spell Death And Decay.
+- Add learnable spell Locust Swarm.
+- Add learnable spell Carrion Beetles.
+- Add learnable spell Kaboom!.
+- Add learnable spell Crushing Wave.
+- Add learnable spell Heal.
+- Add item Advanced Goblin Night Scope.
+- Add Pandaren quest 2 with reward item Advanced Goblin Night Scope.
+- Add hero spell Frost Bolt.
+- Add hero Naga Royal Guard.
+- Add mount Couatl.
+- Add boss War Queen.
+- Add legendary item Ancient Bow.
+- Fix stopping Scroll of Town Portal and other teleport spells to units leading to endless casting.
+- Fix Cargo Hold of mounts after level 15.
+- Do not sell AI citizens in Thieves Guilds.
+- Fix memory leak on adding units to Thieves Guilds.
+- Improve the performance of retrieving race information about object IDs by using two hashtables.
+- Reduce the duration of Impale.
+- Add Galactic Republic AI.
+- Increase area of effect for Flame Strike.
+- Fix making boss heroes available at hero level 50.
+- Increase slowdown by ability Frost Arrows.
+- Revive 1 more unit per level for Resurrection.
+- Fix tooltip of spell Anti-magic Shell.
+- Add spell Scream of Terror to hero Banshee.
+- Increase percentage by Thorns Aura.
+- Increase percentage by Evasion.
+- Reduce percentage by Vampiric Aura.
+- Change chances of Drunken Brawler.
+- Fix hotkeys for spell Howl of Terror.
+- Fix hotkeys for spell Incinerate.
+- Add learnable spell Incinerate.
+- Fix hotkeys for spell Soul Burn.
+- Add spells to tooltip of Gul'dan.
+- Fix hotkeys for spell Council of Six.
+- Fix hotkeys for spell Time Portal.
+- Fix learn tooltip for spell Time Portal.
+- Fix hotkeys for spell Raven Form.
+- Fix learn tooltip for spell Raven Form.
+- Fix help text for chat command "-raceui".
+- Add bonus hero Tyrannosaurus Rex.
+- Prevent Dark Summoning from player selection.
+- Add hero Saruman.
+- Add Sauron's Forces AI.
+- Add spell Horn of Gondor.
+- Add craftable item Iron Bars.
+- Add CIS research Blasters.
+- Add CIS research Iron Plating.
+- Rename Jedi Starfighter mount into Jedi Interceptor.
+- Add unit Jedi Starfighter to Galactic Republic.
+- Add unit Jedi Interceptor to Galactic Republic.
+- Add research Jedi Interceptor to Galactic Republic.
+- Add research Jedi Adept Training to Galactic Republic.
+- Move neutral buildings in start location Outland Black Citadel.
+- Give neutral building Waygate pathing texture to avoid AI crashes in Outland Black Citadel.
+- Use SimError on changing the hero selection mode.
+- Use GetHighestHeroLevel to determine the hero selection mode.
+- Give hero Boromir the spell Defend.
+- Add learnable hero spell Defend.
+- Give Male Citizens of Galactic Repbulic missing abilities.
+- Add JASS functions GetHeroXP1, GetHeroXP2 and GetHeroXP3.
+- Limit special building Coruscant to 1 and remove Take Off ability and fix scaling.
+- Add altar building to Galactic Republic.
+- Add altar building to CIS.
+- Add female citizens to races Kul Tiras, Sauron's Forces, CIS, Galactic Republic and Tauren.
+- Add housings to races CIS and Galactic Republic.
+- Add JASS function IsCitizen.
+- Replace text "not your race" with green and red text color for save code infos.
+- Reimplement caching for unit type data like levels, defense etc.
+- Weaken Siege Golem summoned by Dwarf Mage.
+- Reduce the cooldown of spell Mithrandir to 0.
+- Add spell Elven Cloak.
+- Add learnable spell Jetpack.
+- Add custom icon to spell Jetpack.
+- Create stats multiboard after voting for all settings to make sure to remove special players if necessary.
+- Remove The Alliance.
+- Fixed the Evolution bug which did not apply changes immediately.
+- Rename The Alliance island to Magic Island.
+- Add creeps to Magic Island.
+- Add spell Summon Dinosaur Nest.
+- Allow deactivating multiple abilities.
+- Add spell Mass Devour.
+- Add hotkey to item Lock Pick.
+- Give Sith units of race CIS red light sabers.
+- Add research Shield to race CIS.
+- Add research Battle Formation to race CIS.
+- Add research Backpack to race CIS.
+- Add ability Enable Wandering to male citizens of race CIS.
+- Building Techno Union Ship attacks units now.
+- Scaled down building Techno Union Ship.
+- Scale down MTT unit.
+- Add hero Paul Bäumer.
+- Add mount Zeppelin WWI.
+- Add bonus race Germans WWII.
+- Move professions and races prestored icons triggers to their folders.
+- Add hero German Kaiser.
+- Add item Unlimited Tree.
+- Add race Vrykul.
+- Dragon Roost for all races has a team color now.
+- Add start game area to player selection.
+- Change model and icon of Altar of Magic.
+- Remove highlighted hotkeys from profession abilities.
+- Remove wrong item requirements from profession ability tooltips.
+- Create race start items on repicking races.
+- Add mount Polar Bear.
+- Add hero Thane.
+- Add spell Rain of Arrows.
+- Add race Worgen.
+- Add more possible item abilities to item Random Artifact.
+- Add spell Life Aura.
+- Add ability Running Wild.
+- Add hero Worgen Death Knight.
+- Add hero Deathclaw.
+- Mount and spell shops use PagedButtonsSystem now.
+- Remove Bonus Mounts shop building.
+- Change models of neutral buildings which sell hero spells, hero abilities and mounts.
+- Mention Credits in quest log on loading screen.
+- Add neutral building Crafting Stash.
+- Add mount Bear.
+- Add chat commands "-bossicons" and "-nobossicons" to enable/disable boss icons on the minimap.
+- Heroes Kael and Anasterian Sunstrider have a Dragonhawk mount by default now.
+- Add chat command "-aishared".
+- Add chat command "-ainotshared".
+- Add column "Shared Control" in AI settings GUI.
+- Add Pandaren quest 3.
+- Add hero Herald of the Deep Mother.
+- Add passive icon for Aura of Darkness.
+- Reduce cooldown of Dark Conversion with every level.
+- Remove special effects from Freelancer Summon Mercenaries spells.
+- Apply summon unit bonus for converted Zombies by Dark Conversion.
+- Limit time of summoned Zombies and villagers.
+- Add missing Attribute Bonus, Invisibility and Summon Frost Wyrm Mount abilities to hero Mal'Ganis.
+- Shroud of Protection cast by Hideouts should work now.
+- Use SimError for Hideout messages.
+- Remove message on constructing and losing a hideout.
+- Fix duplicated hotkeys in Player Interactions.
+- Fix tooltip of ability Give Units to Another Allied Player.
+- Add learnable spell Dark Conversion.
+- Add item Firework.
+- Add spell Flare.
+- Add spell Fragmentation Shards.
+- Add spell Summon Telescope.
+- Add spell Split.
+- Add hero Mortar Team.
+- Fix hotkey of Storm, Earth, Fire spell.
+- Add default race entry "Random Warcraft" to AI player settings GUI.
+- Include Scroll of Healing into randomly dropped items.
+- Include Scroll of Mana into randomly dropped items.
+- Use custom models for several item types.
+- Use custom model for Dwarf Citizens (female).
+- Add hero Balrog.
+- Fix tooltip of Pit Lord hero.
+- Add hero Doom Guard.
+- Add dummies to player selection area.
+- Make summoned units in player selection area invulnerable.
+- Add chat command "-helpvisual".
+- Add chat command "-teamcolor X".
+- Mention advanced chat commands at hero level 75.
+- Revise player selection validation.
+- Show messages on dropping race and profession items.
+- Add Cloud Serpent mount.
+- Give Pandaren heroes the Cloud Serpent mount.
+- Reduce shadow of Pandaria Tree Wall.
+- Add neutral building Alchemist Lab.
+- Add spell Flame Whip.
+- Add spell Flame Storm.
+- Fix hotkey of spell Poison Arrows.
+- Give Inquisitor a custom icon.
+- Add reserach Soul Theft to Demon race.
+- Give Inquisitor ability Soul Theft.
+- Fix tooltip of Inquisitor.
+- Massively increase cooldown of Dark Conversion for Demon race.
+- Darl Conversion for Demon race costs mana now and Sacrifical Pits have mana and mana regeneration.
+- Fix tooltip of Demon Gate.
+- Fix tooltip of Sacrificial Pit.
+- Remove Dalaran research from Kul Tiras AI script.
+- Change order for sending AI Dalaran workers to Housings and the Gold Mine to Harvest.
+- Change Demon race icon to Gan'arg.
+- Fix hotkey of Demon Sacrificial Pit.
+- Fix tooltip of Demon unit Overlord.
+- Mention ability True Sight in tooltip of Demon Greater Voidwalker.
+- Fix coloring of Demon Jailer.
+- Give Floating Eye and Eye of Sargeras a custom icon.
+- Add cheat "-website".
+- Simplify adding new heroes for AI and random selection with JASS function AddHeroWoWReforged.
+- Translate hero name of Magni Bronzebeard back into English.
+- Translate hero name of Anduin Wrynn back into English.
+- Use custom icon for Divine armor type.
+- Add chat command -qr/questrewards.
+- Change icon for Night Elf quest 3 from passive to normal.
+- Change icon for item Royal Paladin Hammer from passive to normal.
+- Fix icon path of mount Wyvern Mount back to BLP.
+- Add ulti spell Spell Immunity.
+- Add vJass library FileUtils.
+- Add vJass library QuestUtils.
+- Fix items from VIP room being moved to Theramore.
+- JASS function StringTokenEx supports a separator longer than 1 character now.
+- Add spell Spell Shield.
+- Fix Enchanter crafting tooltips.
+- Remove Wander ability from CIS Citizen (male).
+- Remove duplicated Healing Wards item from save code objects.
+- Sylvanas Windrunner boss causes Chaos damage now.
+- Sylvanas Windrunner boss has Holy Light instead of Scout now.
+- Sylvanas Windrunner boss has True Sight now.
+- Sylvanas Windrunner boss has no Invisibility anymore.
+- Sylvanas Windrunner boss has no Sumon Dragonhawk Mount anymore.
+- Ragnaros boss has True Sight now.
+- Simplify adding legendary items with new JASS function AddLegendaryItem.
+- Add spell Discharge.
+- Add spell Revive.
+- Add hero Spirit Walker.
+- Rename old spell Revive to Revive Heroes.
+- Fix condition for spell Revive Heroes.
+- Fix Dwarf Mine Shafts giving 0 gold when being constructed in upgraded version.
+- Add missing purchase tooltip to item Unlimited Bag of Gold.
+- Add missing gold cost for item Winged Clock.
+- Add more effects to item Dwarven Celestial Orb of Souls.
+- Reduce the number of revived units by item Dwarven Celestial Orb of Souls.
+- Reduce gold cost of item Dwarven Celestial Orb of Souls.
+- Fix level of item Dwarven Celestial Orb of Souls.
+- Add race unit category for Spellbreakers.
+- Add item Clockwork Penguin to be dropped.
+- Change ulti of Dwarf Mage from Mass Teleport into Transmute.
+- Shorten save code file names with "WoWR-" prefix.
+- Add hero Elite Rifleman.
+- Add custom icon to Dwarf research Mithril Armor.
+- Increase damage of Dwarf unit Steam Fortress.
+- Add spell Bayonet Charge.
+- Dwarf unit Steam Fortress can transport units now.
+- Fix level requirement for spell Mass Devour.
+- Add hero spell Spirit Link.
+- Add spell Mass Cripple.
+- Remove leaking dummies for mass spells.
+- Fix hotkey of spell Doom.
+- Add spell Mass Faerie Fire.
+- Replace Faerie Fire for heroes Furbolg Ursa Warrior, Druid of the Claw and Druid of the Talon with Mass Faerie Fire.
+- Add spell Phoenix Fire.
+- Add banner to player selection.
+- Add neutral units to save objects.
+- Add many items to save objects.
+- Add Thieves Guild to Theramore.
+- Make all quest reward items invulnerable.
+- Move all floating revived heroes automatically back into water on Theramore.
+- Fix the game mode shown in the floating text during the player selection.
+- Allow item Black Powder to be sold to merchants.
+- Allow item Rocks to be sold to merchants.
+- Fix a bug which reset the Freelancer and Warlord researches when a hero gains a level.
+- Replace Wander with Enabled Wander for Save Master units.
+- Fix a bug which disabled hero transformation when dropping a legendary item with the new hero transformation system.
+- Set the maximum number of illusions for spell Mirror Image to 9 to avoid the hero disappearing.
+- Increase the percentage of dealt damage with every level of spell Mirror Image.
+- Deathwing's AOE damage should only damage neutral and enemy units now.
+- Change damage type of Tinker boss from Hero to Chaos.
+- Categorize bosses as campaign heroes to show the proper hero name.
+- Disable cooldown for buying spells because it is annoying for Equipment Bags.
+- Do not remove backpacks on using "-repick".
+- Remove model of building Statue of Azshara after death.
+- Revise tooltip of Thieves Guild.
+- Try to fix Thieves Guild selling.
+- Fix ability ID for learnable spell Storm Bolt.
+- Add learnable spell Summon Vicaresses of Elune.
+- Add learnable spell Replenish Mana and Life.
+- Fix tooltip of building Blue Dragon Nexus.
+- Use custom icon for ability Ride Down.
+- Scale down building Techno Union Ship.
+- Remove ground texture from building Techno Union Ship.
+- Scale down building Guard Tower of Roman Empire.
+- Add building Dummy constructed by Engineer.
+- Replace custom Dwarf UI with standard Human UI since it is broken.
+- Add spell Target Divine Shield.
+- Fix hotkeys of Goblin heroes.
+- Support restoring hero skills when transforming back from a reskillable hero into the original form.
+- Unskill hero completely before restoring skills to make sure all skill points are back.
+- Set landing delay time to 1 second for all higher levels than level 1 for hero spell Crow Form to fix removing bonus when landing.
+- Do not require a hero level or VIP or unlocked stuff for reskilling heroes but only the hero type except for equipment bags.
+- Add neutral citizens and pet to be trained by Hideout buildings.
+- Thieves Guilds sell enemy units who changed their owner for example by Charm.
+- Add Dummy Pig to player selection.
+- Change hotkey of Fortified Hideout.
+- Change hotkey of Neutral Citizen (female).
+- Consume requirements for recipes which summon units.
+- Check food limit on summoned units from recipes.
+- Add callback support for summoned units from recipes.
+- Fix Crafting Stashes.
+- Non-charged items crafted by recipes are created separately instead of charged.
+- Add hotkey to Dwarf War Golem.
+- Change training tooltip of Dwarf War Golem.
+- Fix gold set to 0 when Dwarf mines are being destroyed or upgraded or research or cast.
+- Play sleep animation when Dwarf War Golem casts Sleep Form.
+- Add hotkey to item Stone Token.
+- Add hotkey to race shops item Magical Seed.
+- Add Breed ability to breeding Dwarf Gryphons to summon Gryphon chicks.
+- Fix unavailability of Diamong Mine Shafts for research Ore Mine Shaft.
+- Add building Pandaren Housing.
+- Add research Backpack for Pandaren race.
+- Add research Improved Bows for Pandaren race.
+- Add many new IDs to the Pandaren AI script.
+- Add ability and research Drunk Panda to Pandaren race.
+- Add unit Shaman to Pandaren race.
