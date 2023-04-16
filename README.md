@@ -4,7 +4,7 @@ Official website of [World of Warcraft Reforged](https://github.com/tdauth/wowr)
 
 Inspired by Websites like [MojoStormStout's Warcraft III Strategy Guide](http://classic.battle.net/war3/).
 
-Located [here](https://tdauth.cdauth.eu/).
+Located [here](https://tdauth.cdauth.eu/wowr-website).
 
 
 The website will pull the changes from this repository automatically every 15 minutes.
