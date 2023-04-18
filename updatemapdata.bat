@@ -14,4 +14,5 @@ copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforg
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Mounts.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-ChatCommands.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-HeroJourney.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
+copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Locations.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 pause
