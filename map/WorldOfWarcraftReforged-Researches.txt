@@ -18,7 +18,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
-	call Preload( "Increases the maximum hit points, mana, the level by 1 every 10 upgrade levels and attack damage of units." )
+	call Preload( "Increases the maximum hit points, mana and damage of all player units. Increases the armor and level by 1 every 10 levels of this research of all player units." )
+	call Preload( "<br/>" )
+	call Preload( "<br/>" )
+	call Preload( "Is increased automatically for creeps and bosses to the lowest hero level of playing users." )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
@@ -38,7 +41,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
-	call Preload( "Increases the maximum hit points, mana, the level by 1 every 10 upgrade levels and attack damage of units." )
+	call Preload( "Increases the maximum hit points, mana and damage of all player units. Increases the armor and level by 1 every 10 levels of this research of all player units." )
+	call Preload( "<br/>" )
+	call Preload( "<br/>" )
+	call Preload( "Is increased automatically for creeps and bosses to the lowest hero level of playing users." )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
@@ -5486,7 +5492,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 1.2 )
+	call PreloadEnd( 1.0 )
 
 endfunction
 
