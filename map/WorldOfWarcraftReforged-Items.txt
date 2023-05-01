@@ -6180,7 +6180,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<a href="races.html#I09Q">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp" width="64" height="64"" )
-	call Preload( "title="Trolls"" )
+	call Preload( "title="Troll"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
@@ -6222,7 +6222,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<a href="races.html#I09Q">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp" width="64" height="64"" )
-	call Preload( "title="Trolls"" )
+	call Preload( "title="Troll"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTrollGathererPurple.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
@@ -9555,7 +9555,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "0" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 6.5 )
+	call PreloadEnd( 6.7 )
 
 endfunction
 
