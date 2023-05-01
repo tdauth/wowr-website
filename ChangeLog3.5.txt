@@ -1,0 +1,108 @@
+- Register more hero abilities.
+- Register more heroes.
+- Fix registered zones.
+- Add icon and description to zones.
+- Generate locations page for website.
+- Fix function SetQuestRequirementToLast.
+- Use custom model for Young Furbolg units.
+- Add creep Berserk Fire Elemental.
+- Add creep Enraged Fire Elemental.
+- Add creep Lava Spawn.
+- Remove gold cost of standard hero ability Bloodlust.
+- Fix tooltip of hero spell Unholy Frenzy.
+- Add learnable hero spell Teleportation.
+- Fix revival tooltip of Medivh.
+- Add hero Velen.
+- Add learnable hero spell Mass Holy Light.
+- Improve tooltips of Evolution and Cheap Evolution.
+- Remove column for maximum charges for items on website.
+- Fix tooltip of Admiral Proudmoore.
+- Initial Gnome race.
+- Add creep Val'kyr.
+- Change level of items Unique - Portable Tinker Factory and Unique - Elune's Moonstone to 7.
+- Add learnable hero spell Chemical Attack.
+- Add learnable hero spell Pillage Aura.
+- Fix effect of Life Aura.
+- Ability Ghosts of the Sea only affects non-summoned units.
+- Ability Ghosts of the Sea only works now if it has been researched.
+- Add learnable hero spell Mana Aura.
+- Add learnable hero spell Mass Death Coil.
+- Add learnable hero spell Mass Doom.
+- Add learnable hero spell Mass Sleep.
+- Add learnable hero spell Mass Hex.
+- Remove wrong abilities from Equipment Backpacks.
+- Disable item crafting for Equipment Backpacks.
+- Add Raptor mount.
+- Fix spell The Ring of Power (Sauron).
+- Add learnable hero spell Mass Charm.
+- Add learnable hero spell Mass Control Magic.
+- Hero ability VIP Spell Book is only allowed for VIPs now.
+- Add hero standard ability Randomize.
+- Add learnable hero spell Phoenix Fire for slot 5.
+- Add learnable hero spell Sentinel.
+- Add Pandaren unit Cloud Serpent.
+- Add Pandaren unit Druid.
+- Add hero Spellbreaker.
+- Fix hotkeys of High and Blood Elf heroes.
+- Add learnable hero spell Spell Steal.
+- Add learnable hero spell Reduce Food.
+- Add Demon unit Legion Ship.
+- Add Demon research Space Travel.
+- Fix hotkeys of Void Lord Commander heroes.
+- Fix changing spell pages for Void Lord Commander heroes.
+- Add special hero standard ability for Void Lord Commander heroes.
+- Fix learn hotkey of hero spell Replenish Mana and Life.
+- Make Demon Dark Conversion much faster.
+- Disable Sleeps flag for mounts.
+- Add creep Legion Ship.
+- Add learnable hero spell Feedback Aura.
+- Add chat command "-damageon/off".
+- Fix hotkey for item Firework.
+- Fix hotkey for item Lock Pick.
+- Initial Worgen AI support.
+- Rename race Trolls into Troll.
+- Fix icon of Troll unit Bat.
+- Fix tooltip of Troll unit Bat.
+- Fix icon position of Troll unit Batrider.
+- Troll Gatherer constructs Troll Spirit Lodge now instead of the Orc one.
+- Fix model and missile model of Troll unit Manhunter.
+- Change hotkey of Troll unit Manhunter.
+- Fix training tooltip of Troll unit Forest Troll.
+- Limit Troll Housings.
+- Limit Tauren Housings.
+- Add mount Bat.
+- Shadow Hunter and Rokhan use mount Bat now.
+- Add Troll unit Darkspear Troll Rider.
+- Add Troll building Ice Troll Hut.
+- Add Troll unit Zandalari Throne of War.
+- Add Troll unit Troll Golem.
+- Add Troll research Troll Tribes.
+- Remove Troll unit Forest Troll Warlord.
+- Scale down model of building Altar of Blood.
+- Add Troll research and ability Berserk.
+- Add Troll research and ability Troll Regeneration.
+- Fix Berserk ability of Orc Headhunters.
+- More items use custom models. now.
+- Add item Orb of Blood sold by Trolls shop.
+- Add item Orb of Light.
+- Initial Troll AI support.
+- Shadow Hunter is a Troll hero now.
+- Reduce the number of player entries in the Computer Players GUI to allow seeing the whole combo box.
+- Add learnable hero spell Stasis Trap.
+- Add hero Witch Doctor.
+- Add learnable hero spells Mass Mana Burn.
+- Remove leak for Mass spells.
+- Place dummies for Mass spells at the casters position.
+- Revise maximum damage values of many hero spells.
+- Give creep Centaur Khan anti air attack.
+- Change icon of Goblin Sorceress.
+- Fix tooltip of Arcane Sanctum for race Kul Tiras.
+- Add learnable hero spell Summon Doom Guard.
+- Replace spell Unholy Frenzy with Summon Doom Guard for hero Warlock.
+- Fix tooltip of hero spell Horn of Gondor.
+- Fix Eagle mount from Lord of the Rings.
+- Add hero Human Battleship.
+- Show unit movement type for cheat "-unitinfo".
+- Hero spell Cripple Player enables bounty for enemy players.
+- Fix moving floating revived heroes into the sea.
+- Remove gold costs from standard hero abilities.
