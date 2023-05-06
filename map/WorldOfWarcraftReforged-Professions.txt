@@ -843,7 +843,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 0.3 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 
