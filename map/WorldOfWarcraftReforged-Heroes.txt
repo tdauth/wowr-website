@@ -9535,7 +9535,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Heroes generated with chat command "-website". -->" )
-	call PreloadEnd( 9.2 )
+	call PreloadEnd( 9.1 )
 
 endfunction
 

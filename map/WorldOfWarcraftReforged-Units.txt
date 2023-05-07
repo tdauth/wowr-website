@@ -25059,6 +25059,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Harvest"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGatherGold.blp"" )
 	call Preload( "/></a>" )
+	call Preload( "<a href="spells.html#A16I">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNManaDrain.blp" width="64" height="64"" )
+	call Preload( "title="Siphon Mana"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNManaDrain.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#AHbu">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHumanBuild.blp" width="64" height="64"" )
 	call Preload( "title="Build (Human)"" )
@@ -25135,7 +25140,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "0" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "0.00" )
+	call Preload( "2.00" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "550" )
@@ -36310,7 +36315,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Units generated with chat command "-website". -->" )
-	call PreloadEnd( 6.6 )
+	call PreloadEnd( 6.7 )
 
 endfunction
 
