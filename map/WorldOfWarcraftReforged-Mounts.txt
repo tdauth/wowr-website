@@ -975,10 +975,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="spells">" )
-	call Preload( "<a href="spells.html#ACev">" )
-	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64"" )
-	call Preload( "title="Evasion"" )
-	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp"" )
+	call Preload( "<a href="spells.html#ACct">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"" )
+	call Preload( "title="Critical Strike"" )
+	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Adro">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUnLoad.blp" width="64" height="64"" )
@@ -1791,7 +1791,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Mounts generated with chat command "-website". -->" )
-	call PreloadEnd( 0.4 )
+	call PreloadEnd( 0.1 )
 
 endfunction
 
