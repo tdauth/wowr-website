@@ -198,7 +198,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "24" )
+	call Preload( "27" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "550" )
@@ -3658,7 +3658,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 0.6 )
+	call PreloadEnd( 0.5 )
 
 endfunction
 
