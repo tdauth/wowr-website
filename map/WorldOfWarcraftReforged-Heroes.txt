@@ -9969,10 +9969,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="War Stomp"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNWarStomp.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "<a href="spells.html#AOae">" )
-	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNCommand.blp" width="64" height="64"" )
-	call Preload( "title="Endurance Aura"" )
-	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNCommand.blp"" )
+	call Preload( "<a href="spells.html#A06Z">" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASBTNGnollCommandAura.blp" width="64" height="64"" )
+	call Preload( "title="Command Aura"" )
+	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNGnollCommandAura.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A12C">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDoomGuard.blp" width="64" height="64"" )
@@ -9986,7 +9986,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "<div class="description">" )
-	call Preload( "Powerful hero, exceptional at absorbing damage and melee combat. Can learn Flame Whip, War Stomp, Endurance Aura and Flying Form. " )
+	call Preload( "Powerful hero, exceptional at absorbing damage and melee combat. Can learn Flame Whip, War Stomp, Command Aura and Flying Form. " )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Attacks land units.</div>" )
@@ -10597,7 +10597,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Heroes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 9.6 )
 
 endfunction
 

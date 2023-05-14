@@ -353,6 +353,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Shreeder units for harvesting more lumber." )
 	call Preload( "<br/>" )
 	call Preload( "- Strong buildings." )
+	call Preload( "<br/>" )
+	call Preload( "- Transmute their buildings if necessary." )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
