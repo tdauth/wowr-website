@@ -12,13 +12,13 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "yes" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "314" )
+	call Preload( "75" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "314" )
+	call Preload( "75" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "314" )
+	call Preload( "75" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "800000" )
@@ -71,7 +71,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Players generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 
