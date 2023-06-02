@@ -36616,7 +36616,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Units generated with chat command "-website". -->" )
-	call PreloadEnd( 6.5 )
+	call PreloadEnd( 2.9 )
 
 endfunction
 
