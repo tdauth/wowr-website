@@ -120,7 +120,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 0.9 )
+	call PreloadEnd( 0.8 )
 
 endfunction
 

@@ -34,6 +34,13 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />" )
 	call Preload( "205" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
+	call Preload( "Trains:" )
+	call Preload( "<br/>" )
+	call Preload( "<a href="units.html#h0ID">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp" width="64" height="64"" )
+	call Preload( "title="Vrykul Worker"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNVrykulWorker.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="buildings.html#h0IE">" )
@@ -134,7 +141,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 4.0 )
+	call PreloadEnd( 3.5 )
 
 endfunction
 

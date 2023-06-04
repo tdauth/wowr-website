@@ -34,6 +34,18 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />" )
 	call Preload( "205" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
+	call Preload( "Trains:" )
+	call Preload( "<br/>" )
+	call Preload( "<a href="units.html#h067">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp" width="64" height="64"" )
+	call Preload( "title="Pandarian Woodcutter"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp"" )
+	call Preload( "/></a>" )
+	call Preload( "<a href="units.html#n08M">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPandaVillager.blp" width="64" height="64"" )
+	call Preload( "title="Pandaren Citizen (male)"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPandaVillager.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="buildings.html#h06R">" )
@@ -174,7 +186,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 1.9 )
+	call PreloadEnd( 1.7 )
 
 endfunction
 
