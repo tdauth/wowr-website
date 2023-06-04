@@ -65,6 +65,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Undead Citizen (female)"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGhost.blp"" )
 	call Preload( "/></a>" )
+	call Preload( "<a href="units.html#n00R">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNDuneWorm.blp" width="64" height="64"" )
+	call Preload( "title="Pet Worm"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNDuneWorm.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="buildings.html#uzig">" )
@@ -273,7 +278,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.7 )
+	call PreloadEnd( 3.3 )
 
 endfunction
 
