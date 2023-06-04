@@ -161,6 +161,19 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "50" )
 	call Preload( "<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />" )
+	call Preload( "<br/>" )
+	call Preload( "Trains:" )
+	call Preload( "<br/>" )
+	call Preload( "<a href="units.html#n03H">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTransport.blp" width="64" height="64"" )
+	call Preload( "title="Engineer Ship"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTransport.blp"" )
+	call Preload( "/></a>" )
+	call Preload( "<a href="units.html#h029">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGnomeEngineer.blp" width="64" height="64"" )
+	call Preload( "title="Gnomish Submarine"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGnomeEngineer.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "</table>" )
@@ -275,7 +288,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 4.2 )
+	call PreloadEnd( 4.3 )
 
 endfunction
 
