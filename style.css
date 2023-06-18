@@ -26,6 +26,34 @@ h1, h2 {
     white-space: nowrap;
 }
 
-input, select, textarea{
+input, select, textarea {
     color: #ffffff;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.wowr-popover-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.wowr-popover-wrapper .wowr-popover {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    color: black;
+    width: 300px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.wowr-popover-wrapper:focus-within .wowr-popover, .wowr-popover-wrapper .wowr-popover:hover {
+    display: block;
 }

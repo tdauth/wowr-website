@@ -2,20 +2,16 @@
 
 # Given a txt file name from the map folder.
 
-FILE="$1"
-OUTPUT_FILE="$2"
+TXT_FILE="$1"
+HTML_FILE="$2"
 
-# Replace the following sections from the txt file:
-
-sed -i 's/function PreloadFiles takes nothing returns nothing//' "$FILE"
-sed -i 's/\tcall PreloadStart()//' "$FILE"
-sed -i 's/\tcall Preload( \"//' "$FILE"
-sed -i 's/endfunction//' "$FILE"
-sed -i 's/endfunction//' "$FILE"
-sed -i '/^$/d' "$FILE"
-
-# Replace the content between two tbody elements in the given file.
-
-HTML=$(cat $FILE)
-
-echo $HTML
+# Use my C++ program since the AWK command does not work:
+cat "$TXT_FILE" \
+| sed 's/function PreloadFiles takes nothing returns nothing//' \
+| sed 's/\tcall PreloadStart()//' \
+| sed 's/\tcall Preload( \"//' \
+| sed 's/\" )//' \
+| sed 's/endfunction//' \
+| sed 's/\tcall PreloadEnd( .* )//' \
+| sed '/^$/d' \
+| ./formatmapdata "$HTML_FILE"
