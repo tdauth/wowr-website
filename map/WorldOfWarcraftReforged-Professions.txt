@@ -861,9 +861,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFarm.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="items.html#I0JW">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNNagaBurrow.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNINV_WaterBucket.BLP" width="64" height="64"" )
 	call Preload( "title="Tiny Water Supply"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNNagaBurrow.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNINV_WaterBucket.BLP"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="items.html#I0D5">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNINV_Letter_03.blp" width="64" height="64"" )
@@ -899,7 +899,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 0.4 )
+	call PreloadEnd( 0.3 )
 
 endfunction
 

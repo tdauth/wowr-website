@@ -5187,9 +5187,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<tr id="R03N">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#R03N">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHeadHunterBerserker.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNAdvancedUnholyStrength.blp" width="64" height="64"" )
 	call Preload( "title="Berserker Upgrade"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNHeadHunterBerserker.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNAdvancedUnholyStrength.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -5204,7 +5204,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
-	call Preload( "Transforms Headhunters into Berserkers, giving them increased hit points and the Berserk ability." )
+	call Preload( "Gives Troll Slayers the Berserk ability." )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -7970,7 +7970,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 2.4 )
+	call PreloadEnd( 1.7 )
 
 endfunction
 
