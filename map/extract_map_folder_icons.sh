@@ -11,7 +11,6 @@ fi
 for p in "$FOLDER/ReplaceableTextures/CommandButtons/"*
 do
     echo "$p"
-    INPUT="./${MPQ%.*}/${p//\\//}"
-    OUTPUT="../${p//\\//}"
-    ./wc3converter --oformat png "$OUTPUT" "$INPUT"
+    OUTPUT="../$(realpath --relative-to="$FOLDER" "$p")"
+    ./wc3converter --oformat png "$OUTPUT" "$p"
 done
