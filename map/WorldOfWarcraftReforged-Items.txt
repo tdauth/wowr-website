@@ -5,9 +5,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<tr id="I03F">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#I03F">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNINV_Misc_Bag_10.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPickPocket.blp" width="64" height="64"" )
 	call Preload( "title="Pickpocketing"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNINV_Misc_Bag_10.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPickPocket.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -10516,7 +10516,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 8.4 )
+	call PreloadEnd( 8.6 )
 
 endfunction
 
