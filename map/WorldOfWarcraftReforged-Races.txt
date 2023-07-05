@@ -766,6 +766,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
+	call Preload( "The kingdom of Gilneas:" )
+	call Preload( "<br/>" )
 	call Preload( "- Curse transforms human units into strong Worgen." )
 	call Preload( "<br/>" )
 	call Preload( "- Bonus stats at night." )
