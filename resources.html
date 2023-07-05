@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>World of Warcraft Reforged - Gnome</title>
+    <title>World of Warcraft Reforged - Resources</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="description" content="World of Warcraft Reforged official website.">
     <meta name="keywords" content="warcraft3 RPG Reforged custommap">
@@ -11,16 +11,13 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
-
-    <style>
-        td {
-            vertical-align: top;
-        }
-    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
-<h1>World of Warcraft Reforged - Gnome</h1>
+<h1>World of Warcraft Reforged - Resources</h1>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark border">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -36,7 +33,7 @@
             <li class="nav-item"><a class="nav-link" href="researches.html">Researches</a></li>
             <li class="nav-item"><a class="nav-link" href="items.html">Items</a></li>
             <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
-            <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">Resources</a></li>
             <li class="nav-item"><a class="nav-link" href="bosses.html">Bosses</a></li>
             <li class="nav-item"><a class="nav-link" href="units.html">Units</a></li>
             <li class="nav-item"><a class="nav-link" href="buildings.html">Buildings</a></li>
@@ -57,153 +54,146 @@
     </div>
 </nav>
 
-<!-- Races generated with chat command "-website". -->
-<table>
-<thead>
-<tr>
-<th>
-Tiers
-</th>
-<th>
-Buildings
-</th>
-</tr>
-</thead>
-<tbody>
-<tr id="tier1">
+Resources can be gathered and exchanged into gold. The resulting gold depends on their gold exchange rate:
+
+<table id="resources">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>Gold Exchange Rate</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+
+<!-- Resources generated with chat command "-website". -->
+<tr id="Oil">
 <td>
-Tier 1
+<img src="ReplaceableTextures\\CommandButtons\\BTNOilStation.blp" width="64" height="64"
+title="Oil"
+alt="ReplaceableTextures\\CommandButtons\\BTNOilStation.blp"
+/></a>
+</a>
 </td>
 <td>
-<table>
-<tr>
-<td>
-<a href="buildings.html#h0JX">
-<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"
-title="Town Hall"
-alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp"
-/></a>
-<br/>
-Town Hall
-<br/>
-385
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-205
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
+Oil
 </td>
 <td>
-<a href="buildings.html#h0KL">
-<img src="ReplaceableTextures/CommandButtons/BTNGear.blp" width="64" height="64"
-title="Gear"
-alt="ReplaceableTextures/CommandButtons/BTNGear.blp"
-/></a>
-<br/>
-Gear
-<br/>
-80
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-20
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
+2.0
 </td>
 <td>
-<a href="buildings.html#e01G">
-<img src="ReplaceableTextures/CommandButtons/BTNHumanBarracks.blp" width="64" height="64"
-title="Gnome Brassman"
-alt="ReplaceableTextures/CommandButtons/BTNHumanBarracks.blp"
-/></a>
-<br/>
-Gnome Brassman
-<br/>
-150
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-60
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
-</td>
-<td>
-<a href="buildings.html#h0KK">
-<img src="ReplaceableTextures/CommandButtons/BTNBlacksmith.blp" width="64" height="64"
-title="Gnome Factory"
-alt="ReplaceableTextures/CommandButtons/BTNBlacksmith.blp"
-/></a>
-<br/>
-Gnome Factory
-<br/>
-140
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-40
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
+Oil can be gathered from Oil Fields on land or water.
+It is burned as fuel for mechanical vehicles.
 </td>
 </tr>
+<tr id="Copper">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCopperCoins.blp" width="64" height="64"
+title="Copper"
+alt="ReplaceableTextures\\CommandButtons\\BTNCopperCoins.blp"
+/></a>
+</a>
+</td>
+<td>
+Copper
+</td>
+<td>
+0.25
+</td>
+<td>
+Copper is the cheapest currency of Azeroth.
+2 Copper is worth 1 silver.
+4 Copper is worth 1 gold.
+2 Silver are worth 1 gold.
+</td>
+</tr>
+<tr id="Silver">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSilverCoin.blp" width="64" height="64"
+title="Silver"
+alt="ReplaceableTextures\\CommandButtons\\BTNSilverCoin.blp"
+/></a>
+</a>
+</td>
+<td>
+Silver
+</td>
+<td>
+0.50
+</td>
+<td>
+Silver is the second cheapest currency of Azeroth. It is worth more than Copper but less than Gold.
+2 Copper is worth 1 silver.
+4 Copper is worth 1 gold.
+2 Silver are worth 1 gold.
+</td>
+</tr>
+<tr id="Gemstones">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" width="64" height="64"
+title="Gemstones"
+alt="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp"
+/></a>
+</a>
+</td>
+<td>
+Gemstones
+</td>
+<td>
+2.50
+</td>
+<td>
+Gemstones is the most valuable resource in Azeroth which can be harvested.
+</td>
+</tr>
+<tr id="Food">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsterLure.blp" width="64" height="64"
+title="Food"
+alt="ReplaceableTextures\\CommandButtons\\BTNMonsterLure.blp"
+/></a>
+</a>
+</td>
+<td>
+Food
+</td>
+<td>
+0.40
+</td>
+<td>
+Food is used to feed your units and animals. It includes all different sorts of food like grain, meat, fruits etc.
+</td>
+</tr>
+<tr id="Rocks">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Rock_01.blp" width="64" height="64"
+title="Rocks"
+alt="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Rock_01.blp"
+/></a>
+</a>
+</td>
+<td>
+Rocks
+</td>
+<td>
+0.40
+</td>
+<td>
+Rocks can be used to construct stone buildings and be used as ammunition for catapults.
+</td>
+</tr>
+<!-- Resources generated with chat command "-website". -->
+
+
+    </tbody>
 </table>
-</td>
-</tr>
-<tr id="tier2">
-<td>
-Tier 2
-</td>
-<td>
-<table>
-<tr>
-<td>
-<a href="buildings.html#h0KB">
-<img src="ReplaceableTextures/CommandButtons/BTNKeep.blp" width="64" height="64"
-title="Keep"
-alt="ReplaceableTextures/CommandButtons/BTNKeep.blp"
-/></a>
-<br/>
-Keep
-<br/>
-705
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-415
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
-</td>
-<td>
-<a href="buildings.html#h0KN">
-<img src="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp" width="64" height="64"
-title="Gnome Aviary"
-alt="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp"
-/></a>
-<br/>
-Gnome Aviary
-<br/>
-140
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-150
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<tr id="tier3">
-<td>
-Tier 3
-</td>
-<td>
-<table>
-<tr>
-<td>
-<a href="buildings.html#h0KE">
-<img src="ReplaceableTextures/CommandButtons/BTNCastle.blp" width="64" height="64"
-title="Castle"
-alt="ReplaceableTextures/CommandButtons/BTNCastle.blp"
-/></a>
-<br/>
-Castle
-<br/>
-1025
-<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
-625
-<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- Races generated with chat command "-website". -->
+
+<script>
+    $('#resources').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
 </body>
 </html>
