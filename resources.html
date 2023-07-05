@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>World of Warcraft Reforged - Resources</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="World of Warcraft Reforged official website.">
+    <meta name="keywords" content="warcraft3 RPG Reforged custommap">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+
+<h1>World of Warcraft Reforged - Resources</h1>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark border">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto flex-wrap">
+            <li class="nav-item"><a class="nav-link" href="index.html">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="herojourney.html">Hero Journey</a></li>
+            <li class="nav-item"><a class="nav-link" href="gamemodes.html">Game Modes</a></li>
+            <li class="nav-item"><a class="nav-link" href="heroes.html">Heroes</a></li>
+            <li class="nav-item"><a class="nav-link" href="spells.html">Spells</a></li>
+            <li class="nav-item"><a class="nav-link" href="professions.html">Professions</a></li>
+            <li class="nav-item"><a class="nav-link" href="races.html">Races</a></li>
+            <li class="nav-item"><a class="nav-link" href="researches.html">Researches</a></li>
+            <li class="nav-item"><a class="nav-link" href="items.html">Items</a></li>
+            <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="bosses.html">Bosses</a></li>
+            <li class="nav-item"><a class="nav-link" href="units.html">Units</a></li>
+            <li class="nav-item"><a class="nav-link" href="buildings.html">Buildings</a></li>
+            <li class="nav-item"><a class="nav-link" href="mounts.html">Mounts</a></li>
+            <li class="nav-item"><a class="nav-link" href="npcs.html">NPCs</a></li>
+            <li class="nav-item"><a class="nav-link" href="quests.html">Quests</a></li>
+            <li class="nav-item"><a class="nav-link" href="chatcommands.html">Chat Commands</a></li>
+            <li class="nav-item"><a class="nav-link" href="locations.html">Locations</a></li>
+            <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
+            <li class="nav-item"><a class="nav-link" href="clans.html">Clans</a></li>
+            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://discord.gg/eM34z36">Discord</a></li>
+            <li class="nav-item"><a class="nav-link" href="download.html">Download</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCzGcsuPfRVqdaE87JYCK5zw">YouTube</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/tdauth/wowr">Development</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=ZAAKMQLSNGDK8">Donate</a></li>
+        </ul>
+    </div>
+</nav>
+
+Resources can be gathered and exchanged into gold. The resulting gold depends on their gold exchange rate:
+
+<table id="resources">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>Gold Exchange Rate</th>
+            <th>Tax Levels</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+
+<!-- Resources generated with chat command "-website". -->
+<tr id="Gold">
+<td>
+<img src="ReplaceableTextures/CommandButtons/BTNChestOfGold.blp" width="64" height="64"
+title="Gold"
+alt="ReplaceableTextures/CommandButtons/BTNChestOfGold.blp"
+/></a>
+</a>
+</td>
+<td>
+Gold
+</td>
+<td>
+1.0
+</td>
+<td>
+<ul>
+<!-- TODO Adapt to the map -->
+<li>0-50 Food: 100% income</li>
+<li>51-80 Food: 70% income</li>
+<li>81-100 Food: 40% income</li>
+</ul>
+</td>
+<td>
+Gold is the main resource of Azeroth.
+It can be gathered from Gold Mines.
+It is used to buy items, train units, research upgrades and construct buildings.
+</td>
+</tr>
+<tr id="Lumber">
+<td>
+<img src="ReplaceableTextures/CommandButtons/BTNBundleOfLumber.blp" width="64" height="64"
+title="Lumber"
+alt="ReplaceableTextures/CommandButtons/BTNBundleOfLumber.blp"
+/></a>
+</a>
+</td>
+<td>
+Lumber
+</td>
+<td>
+2.0
+</td>
+<td>
+-
+</td>
+<td>
+Lumber is the second most important resource of Azeroth.
+It can be gathered from trees.
+It is used for more expensive stuff since it might take longer to gather lumber than gold.
+</td>
+</tr>
+<tr id="Food">
+<td>
+<img src="images/WC3food.webp" width="64" height="64"
+title="Food"
+alt="images/WC3food.webp"
+/></a>
+</a>
+</td>
+<td>
+Food
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+Food is used by player units. Stronger units use more food.
+</td>
+</tr>
+<tr id="Food Maximum">
+<td>
+<img src="images/WC3food.webp" width="64" height="64"
+title="Food Maximum"
+alt="images/WC3food.webp"
+/></a>
+</a>
+</td>
+<td>
+Food Maximum
+</td>
+<td>
+-
+</td>
+<td>
+-
+</td>
+<td>
+The food maximum is determined by the farms/burrows etc. you have constructed and limited by 600.
+</td>
+</tr>
+<tr id="Oil">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNOilStation.blp" width="64" height="64"
+title="Oil"
+alt="ReplaceableTextures\\CommandButtons\\BTNOilStation.blp"
+/></a>
+</a>
+</td>
+<td>
+Oil
+</td>
+<td>
+2.0
+</td>
+<td>
+-
+</td>
+<td>
+Oil can be gathered from Oil Fields on land or water.
+It is burned as fuel for mechanical vehicles.
+</td>
+</tr>
+<tr id="Copper">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCopperCoins.blp" width="64" height="64"
+title="Copper"
+alt="ReplaceableTextures\\CommandButtons\\BTNCopperCoins.blp"
+/></a>
+</a>
+</td>
+<td>
+Copper
+</td>
+<td>
+0.25
+</td>
+<td>
+-
+</td>
+<td>
+Copper is the cheapest currency of Azeroth.
+2 Copper is worth 1 silver.
+4 Copper is worth 1 gold.
+2 Silver are worth 1 gold.
+</td>
+</tr>
+<tr id="Silver">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNSilverCoin.blp" width="64" height="64"
+title="Silver"
+alt="ReplaceableTextures\\CommandButtons\\BTNSilverCoin.blp"
+/></a>
+</a>
+</td>
+<td>
+Silver
+</td>
+<td>
+0.50
+</td>
+<td>
+-
+</td>
+<td>
+Silver is the second cheapest currency of Azeroth. It is worth more than Copper but less than Gold.
+2 Copper is worth 1 silver.
+4 Copper is worth 1 gold.
+2 Silver are worth 1 gold.
+</td>
+</tr>
+<tr id="Gemstones">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" width="64" height="64"
+title="Gemstones"
+alt="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp"
+/></a>
+</a>
+</td>
+<td>
+Gemstones
+</td>
+<td>
+2.50
+</td>
+<td>
+-
+</td>
+<td>
+Gemstones is the most valuable resource in Azeroth which can be harvested.
+</td>
+</tr>
+<tr id="Food">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMonsterLure.blp" width="64" height="64"
+title="Food"
+alt="ReplaceableTextures\\CommandButtons\\BTNMonsterLure.blp"
+/></a>
+</a>
+</td>
+<td>
+Food
+</td>
+<td>
+0.40
+</td>
+<td>
+-
+</td>
+<td>
+Food is used to feed your units and animals. It includes all different sorts of food like grain, meat, fruits etc.
+</td>
+</tr>
+<tr id="Rocks">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Rock_01.blp" width="64" height="64"
+title="Rocks"
+alt="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Rock_01.blp"
+/></a>
+</a>
+</td>
+<td>
+Rocks
+</td>
+<td>
+0.40
+</td>
+<td>
+-
+</td>
+<td>
+Rocks can be used to construct stone buildings and be used as ammunition for catapults.
+</td>
+</tr>
+<tr id="Iron">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNMetalPlatingLevel1.blp" width="64" height="64"
+title="Iron"
+alt="ReplaceableTextures\\CommandButtons\\BTNMetalPlatingLevel1.blp"
+/></a>
+</a>
+</td>
+<td>
+Iron
+</td>
+<td>
+0.50
+</td>
+<td>
+-
+</td>
+<td>
+Iron is used for weapons and armor.
+</td>
+</tr>
+<tr id="Black Powder">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpOne.blp" width="64" height="64"
+title="Black Powder"
+alt="ReplaceableTextures\\CommandButtons\\BTNHumanMissileUpOne.blp"
+/></a>
+</a>
+</td>
+<td>
+Black Powder
+</td>
+<td>
+0.80
+</td>
+<td>
+-
+</td>
+<td>
+Black Powder is used to fire guns and cannons.
+</td>
+</tr>
+</tr>
+<tr id="Leather">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp" width="64" height="64"
+title="Leather"
+alt="ReplaceableTextures\\CommandButtons\\BTNLeatherUpgradeOne.blp"
+/></a>
+</a>
+</td>
+<td>
+Leather
+</td>
+<td>
+0.60
+</td>
+<td>
+-
+</td>
+<td>
+Leather is used for clothing and armor.
+</td>
+</tr>
+<tr id="Water">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNINV_WaterBucket.BLP" width="64" height="64"
+title="Water"
+alt="ReplaceableTextures\\CommandButtons\\BTNINV_WaterBucket.BLP"
+/></a>
+</a>
+</td>
+<td>
+Water
+</td>
+<td>
+0.60
+</td>
+<td>
+-
+</td>
+<td>
+Water is gained from rivers, seas and wells. It is used to make food grow, extinguish fire and to supply your units.
+</td>
+</tr>
+<tr id="Mana">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp" width="64" height="64"
+title="Mana"
+alt="ReplaceableTextures\\CommandButtons\\BTNPotionBlueBig.blp"
+/></a>
+</a>
+</td>
+<td>
+Mana
+</td>
+<td>
+0.30
+</td>
+<td>
+-
+</td>
+<td>
+Mana is used to cast spells.
+</td>
+</tr>
+<tr id="Electricity">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNCharge.blp" width="64" height="64"
+title="Electricity"
+alt="ReplaceableTextures\\CommandButtons\\BTNCharge.blp"
+/></a>
+</a>
+</td>
+<td>
+Electricity
+</td>
+<td>
+1.30
+</td>
+<td>
+-
+</td>
+<td>
+Electricity is unknown in Azeroth but known on earth.
+</td>
+</tr>
+<tr id="Favor">
+<td>
+<img src="ReplaceableTextures\\CommandButtons\\BTNPossession.blp" width="64" height="64"
+title="Favor"
+alt="ReplaceableTextures\\CommandButtons\\BTNPossession.blp"
+/></a>
+</a>
+</td>
+<td>
+Favor
+</td>
+<td>
+1.20
+</td>
+<td>
+-
+</td>
+<td>
+Favor is given by the gods and titans. It is gained by sacrifing animals, fighting wars, praying and building monuments.
+</td>
+</tr>
+<tr id="Beer">
+<td>
+<img src="ReplaceableTextures/CommandButtons/BTNStrongDrink.blp" width="64" height="64"
+title="Beer"
+alt="ReplaceableTextures/CommandButtons/BTNStrongDrink.blp"
+/></a>
+</a>
+</td>
+<td>
+Beer
+</td>
+<td>
+0.80
+</td>
+<td>
+-
+</td>
+<td>
+The essential drink for the Pandaren race and many more to endure this cruel world.
+</td>
+</tr>
+<!-- Resources generated with chat command "-website". -->
+
+
+    </tbody>
+</table>
+
+<script>
+    $('#resources').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
+
+</body>
+</html>
