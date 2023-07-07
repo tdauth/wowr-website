@@ -1,0 +1,166 @@
+- Reorder races.
+- Improve race tooltips.
+- Improve generated data for the website.
+- Add hero Gnomish Engineer.
+- Add mount Mechanostrider.
+- Add mount Flying Machine.
+- Give Troll tier 1 - 3 buildings custom icons.
+- Give Troll Barracks building a custom icon.
+- Give Troll Barracks building a custom model.
+- Add missing Troll researches.
+- Add missing Troll abilities.
+- Fix tooltip of building Trading Post.
+- Add system ObjectDataFields which allows storing additional object data fields required for the website.
+- Add creep Aqir.
+- Add learnable hero spell Mechanical Repair.
+- Change icon of start location Khaz Modan.
+- Blood Elf Castle requires Altar of Magic now instead of Altar of Kings.
+- Rename Blood Elf Altar of Magic into Altar of Mana because of a name conflict with the Dalaran altar.
+- Rename High Elven Guard Tower into Blood Elf Guard Tower.
+- Use custom icons and buildings made by SinisterX for the Blood Elf race.
+- Use a custom model for Blood Elf Ballista.
+- Add research and ability Siphon Mana to Blood Elf race.
+- Give Blood Elf workers mana.
+- Give Blood Elf Phoenix mana.
+- Improve the description of the Blood Elf race.
+- Dragonhawk Rider from Blood Elf race are affected by the correct Cloud research now.
+- Use a custom model for Blood Elf Archer.
+- Add unit Blood Elf Decimator.
+- Support more buildings available for all races for savecodes.
+- Rename Blood Elf unit Archer into Blood Elf Archer.
+- Fix icon positons and hotkeys for Blood Elf units and researches.
+- Fix tooltips of Blood Elf researches.
+- Blood Elf researches affect siege units now.
+- Add custom icon for unit Blood Elf Citizen (female).
+- Add unit Child to different races.
+- Show message to player how to disable custom race UIs which are enabled by default.
+- Fix laser missile model for AAT.
+- Fix laser missile model for Death Star.
+- Fix light saber texture path for Twilek Jedi model.
+- Add chat command "-aireset".
+- Fix index of hero Gandalf.
+- Mounts Cage for all races is not invulnerable anymore.
+- Fix icon of item Tiny High Elf Town Hall.
+- Change icon of ability Torpedoes for Naboo Star Fighters.
+- All Submarine units are affected by Evolution and Improved Navy now.
+- udg_MaxRaces starts with 1 to consider udg_RaceNone and fix generating races for the website.
+- Replace ability Evasion for White Tiger Mount with Critical Strike.
+- Add research Inventions to Gnome race.
+- Add research Backpack to Gnome race.
+- Add building Gear for to Gnome race.
+- Initial Gnome AI support.
+- Give bonus hero Murloc Sorcerer hero glow.
+- Fix hero revival tooltip for bonus hero Murloc Sorcerer.
+- Give bonus hero Murloc Sorcerer Couatl mount.
+- Remove requirements for hero Master of Time.
+- Change soundset for hero Balrog to DoomGuard.
+- Give hero Balrog the spell Command Aura.
+- Reduce cooldown for Flying Form spell of hero Balrog.
+- Give bonus hero Rexxar the correct Storm Bolt spell for slot 3.
+- Fix tooltip of bonus hero Rexxar.
+- Give bonus hero Illidan the Berserk spell.
+- Give bonus hero Illidan a mount spell.
+- Give spell Metamorphosis for bonus hero Illidan 15 levels.
+- Fix soundset for bonus hero Banshee.
+- Add digits to foot switches in the Gul'dan dungeon.
+- Fix abilities of building Demon Shipyard.
+- Add learnable spell Throw Light Saber.
+- Add learnable spell Light Saber Combat.
+- Change item Tiny Temple of Tides into Tiny Temple of Water.
+- Add hero Sand Worm.
+- Revise quest log with game information.
+- Try to fix AI GUI configuring Warlords when no Freelancer option has been chosen.
+- Item Orb of Corruption gets a custom model.
+- Do not allow chat command "-suicide" in player selection.
+- Improve tooltip of spell Egg Multiplier.
+- Add learnable hero spell Egg Multiplier.
+- Add learnable hero spell Egg Endurance Aura.
+- Use custom icon for hero Legolas.
+- Add a small creep area to Outland.
+- Add building Alchemist Lab to all races.
+- Add item Water.
+- Research Dragon Roost requires any Tier 3 hall now.
+- Add Gnome unit Mortar Team.
+- Add Gnome unit Hover Copter.
+- Add Gnome unit Citizen (male).
+- Add Gnome building Workshop.
+- Add hero Nazgûl.
+- Add hero Warlock (Gnome).
+- Add recipe Craft Ring of Protection +5.
+- Add recipe Craft Inferno Stone.
+- Add recipe Craft Ice Shards.
+- Change icon of ability Link Crafting Stash.
+- Add item Ice.
+- Add learnable hero spell The Last Supper.
+- Fix tooltip of building Antimagic Ward.
+- Add spell Stupidity.
+- Add hero Peasant.
+- Add profession Farmer.
+- Add NPC Carsten.
+- Add spell Mass Bloodlust.
+- Add hero Ogre Lord.
+- Add hero Centaur Khan.
+- Fix tooltip of Dalaran building Arcane Sanctum.
+- Fix tooltip of Dalaran building Arcane Blacksmith.
+- Buildings Temple of Light and Temple of Darkness are tier 4 now.
+- Rename building Neutral Mercenary Camp into Freelancer Mercenary Camp.
+- Rename building Neutral Goblin Laboratory into Freelancer Goblin Laboratory.
+- Rename building Neutral Shop into Freelancer Shop.
+- Revise building Mercenary Camp of Middle Earth.
+- Fix closing the East Undercity gate with the corresponding lever.
+- Give boss Antonidas the hero spells Mass Slow, Mass Polymorph and Mirror Image.
+- Fix order ID of spell Mass Polymorph.
+- Add hero spell Mass Finger of Death.
+- Add race Galactic Empire.
+- Rename TIE Fighter Mount into TIE Interceptor Mount.
+- Add hero Jar Jar Binks.
+- Add hero spell Pickpocketing.
+- Add race Ancient Greece.
+- Reduce selection scale of building Lever.
+- Add spell Drain Resources.
+- Make coloring of Air Wall buildings darker.
+- Add hero Archimedes.
+- Fix tooltip of unit Dwarf Miner.
+- Translate legendary item rect names into English.
+- Prevent Harvest spell in player selection.
+- Fix icon and tooltip of research Berserker Upgrade.
+- Fix icon of the ability Berserk for Troll Slayers.
+- Fix tooltip of Troll Slayers.
+- Fix tooltips of Siege Tower units.
+- Change icon and model of unit Roman Citizen (male).
+- Fix Reincarnation for Bayonet Charge.
+- Ultimate spell Spell Immunity requires level 6 now.
+- Change model of Roman Citizen (male).
+- Change model icon for building Marketplace for race Roman Empire.
+- Add mount Pegasus.
+- Add hero Leonidas I.
+- Add warning to Goblin War Zeppelin's tooltip.
+- Add cheat "-read".
+- Add spell Multiply.
+- Add race Lordaeron.
+- Keep hero attributes and hero attributes per level on transforming your hero with items like Angel Wings.
+- Add mount Undead Horse.
+- Fix learn tooltip of spell Rain of Chaos (Destroyer).
+- Change tooltip of race Worgen.
+- Fix and improve tooltip of research Improved Mount.
+- Change icon of research Improved Mount.
+- Change icon of item and spell Pickpocketing.
+- Mention the limit of 4 in Housing tooltips.
+- Add system WoWReforgedObjectDataFields  based on the output of the tool wc3objectdataextractor to get object data.
+- Add system Resources and initial custom resources.
+- Move PvP wins to the bottom of player info.
+- Add neutral building Random Mine.
+- Add spell Unsummon Building.
+- Add neutral building Flotsam.
+- Add item Random Resources.
+- Add item Spike.
+- Add recipe Spiked Collar.
+- Add building Spiked Trap.
+- Add building Archery Target.
+- Add neutral building Beehive.
+- Add creep Bee.
+- Add item Net.
+- Add item Honeycomb.
+- Add neutral building Fish School.
+- Add item Fish.
+- Add unit Night Elf Fishing Boat.
