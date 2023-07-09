@@ -1,0 +1,41 @@
+- Custom icon for research Astrology.
+- Add Ancient Greece research Bronze Swords.
+- Add Ancient Greece research Bronze Armor.
+- Add Ancient Greece research Ranged Weapons.
+- Only allow Priests to harvest favor from temples.
+- Remove some custom resources.
+- Add recipe Craft Silver Bars.
+- Fix chat command "-resinfo" for mines.
+- Change race of hero Emperor Palpatine to Galactic Empire.
+- Fix the number of rows of the resources multiboard GUI.
+- Change icon of resource Iron.
+- Add neutral building Random Water Mine.
+- Add neutral building Water Oil Platform.
+- Remove mana from submerged Gnomish Submarine unit.
+- Flotsams do not drop items on being killed anymore.
+- Flotsams have selection circles on water now.
+- Shorten resource info for mines.
+- Save resources in a savecode when using chat command "-save".
+- Add chat command "-loadres".
+- Add vote "-savecodes".
+- Add vote "-nosavecodes".
+- Hero Succubus has melee attack now.
+- Hero Succubus has HP regeneration during day as well now.
+- Hero Doom Guard has HP regeneration during day as well now.
+- Add cheat "-maxresources".
+- Change icon extension of Naga Housing from .tga to .blp.
+- Change clan savecode file prefix to "WoWR".
+- Passive mode prevents taking and causing damage expect from your own units now.
+- StartAllUnitRespawnsNotRunning does not start duplicated respawns for creep buildings anymore.
+- Flotsams do only drop custom resources now.
+- Flotsams do never give you 0 resources when giving you any.
+- Added Flotsam tooltip for the website.
+- Increase stock maximum of Shredder unit to 3 from 1.
+- Reduce stock replenish interval of Shredder unit to 180 from 210.
+- Fix keys of UnitTypeUtils which should fix the Evolution effect.
+- Add building Fire Pit.
+- Spell DrainResources works with custom resources now.
+- Increase the costs for all special buildings.
+- Add German citizens, housings and Berghof special building.
+- Add Leibstandarte unit to race Germans WWII.
+- Improve AI script of race Germans WWII.
