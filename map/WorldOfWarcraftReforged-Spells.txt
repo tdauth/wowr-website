@@ -2278,7 +2278,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
-	call Preload( "Transfers gold and lumber from a gold mine, housing or tree to the player." )
+	call Preload( "Transfers resources from a mine, housing or tree to the player over time." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Increases the drained resources per second with every level.</div>" )
@@ -9927,7 +9927,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 2.5 )
+	call PreloadEnd( 2.6 )
 
 endfunction
 
