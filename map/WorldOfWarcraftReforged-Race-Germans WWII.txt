@@ -290,9 +290,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="buildings.html#h0HM">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRadar.blp" width="64" height="64"" )
 	call Preload( "title="Airbase"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRadar.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Airbase" )
 	call Preload( "<br/>" )
@@ -306,9 +306,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Contains the upgrade Flares." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRadar.blp" width="64" height="64"" )
 	call Preload( "title="Airbase - Click to see details."" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRadar.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -991,7 +991,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.1 )
+	call PreloadEnd( 3.3 )
 
 endfunction
 
