@@ -19,6 +19,7 @@ The website will pull the changes from this repository automatically every 15 mi
 
 ## Updating Icons (Linux)
 
+* Use the following command before executing any Bash script to specify the library path in the current directory where all the shared object files exist: `LD_LIBRARY_PATH=".:$LD_LIBRARY_PATH"`.
 * Enter the file path in and run the script [download.sh](./map/download.sh) in the [map](./map) folder to download the latest version of the map into the map folder.
 * Enter the file path of the map file in [extract_map_icons.sh](./map/extract_map_icons.sh) and run the script.
 * Add, commit and push all files with git.
