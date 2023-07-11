@@ -14,9 +14,11 @@ sort "$LISTFILE_OUT2" -o "$LISTFILE_OUT2"
 while read -r p
 do
     #echo "$p"
-    echo "$p"
-    ./mpq -x --overwrite -f "$p" "$MPQ"
-    INPUT="./${MPQ%.*}/${p//\\//}"
     OUTPUT="../${p//\\//}"
-    ./wc3converter --oformat png "$OUTPUT" "$INPUT"
+    if [ ! -f "$OUTPUT" ] ; then
+        echo "$p"
+        ./mpq -x --overwrite -f "$p" "$MPQ"
+        INPUT="./${MPQ%.*}/${p//\\//}"
+        ./wc3converter --oformat png "$OUTPUT" "$INPUT"
+    fi
 done < "$LISTFILE_OUT2"

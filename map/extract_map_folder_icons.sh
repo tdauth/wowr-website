@@ -10,7 +10,10 @@ fi
 
 for p in "$FOLDER/ReplaceableTextures/CommandButtons/"*
 do
-    echo "$p"
     OUTPUT="../$(realpath --relative-to="$FOLDER" "$p")"
-    ./wc3converter --oformat png "$OUTPUT" "$p"
+
+    if [ ! -f "$OUTPUT" ] ; then
+        echo "$p"
+        ./wc3converter --oformat png "$OUTPUT" "$p"
+    fi
 done
