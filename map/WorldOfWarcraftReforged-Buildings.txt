@@ -23116,9 +23116,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "<div class="description">" )
-	call Preload( "Produces Siege Engines, Flying Machines, and Mortar Teams. " )
-	call Preload( "<br/>" )
-	call Preload( "Also contains the Flare, Fragmentation Shards, Barrage, Flying Machine Bombs, and Flak Cannons upgrades." )
+	call Preload( "Produces Riflemen, Banner Carriers, and Alliance Siege Towers." )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -32817,7 +32815,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 35.3 )
+	call PreloadEnd( 37.6 )
 
 endfunction
 
