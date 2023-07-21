@@ -16,6 +16,14 @@ h1, h2 {
     color: #ffcc00;
 }
 
+a:link {
+    color: #ffcc00;
+}
+
+a:visited {
+    color: #ffaa00;
+}
+
 
 .nav-item {
     font-size: 0.8em;
