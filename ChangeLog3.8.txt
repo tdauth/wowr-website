@@ -1,7 +1,7 @@
 - Add more website data.
 - Change icon of Torpedoes research from race Galactic Republic.
 - Fix resources description.
-- Add building Radio Tower  to race Germans WWII.
+- Add building Radio Tower to race Germans WWII.
 - Add building Guard Tower to race Germans WWII.
 - Change icon of Airbase buildings.
 - Add unit Farmhand trained Farms from profession Farmer.
