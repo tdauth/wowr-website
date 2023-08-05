@@ -1,0 +1,127 @@
+- Add more website data.
+- Change icon of Torpedoes research from race Galactic Republic.
+- Fix resources description.
+- Add building Radio Tower  to race Germans WWII.
+- Add building Guard Tower to race Germans WWII.
+- Change icon of Airbase buildings.
+- Add unit Farmhand trained Farms from profession Farmer.
+- Add building Wheat Field for profession Farmer.
+- Add item Tiny Wheat Field for profession Farmer.
+- Add item Bundle of Wheat.
+- Fix tooltip of item Fish.
+- Add unit Cow.
+- Farm trains units Cow and Pig now for profession Farmer.
+- Fix Worgen AI male citizen ID.
+- Improve Vrykul AI script.
+- Add initial Ancient Greece AI script.
+- Change race of hero Archmage from Human to Dalaran.
+- Rename aviation building for all Star Wars races into Spaceport.
+- Change model, icon and tooltip for Spaceport buildings.
+- Change model and tooltip for Vehicle Factory buildings.
+- Add researches Blasters and Iron Plating to race Galactic Empire.
+- Change icon for resource food in the multiboard.
+- Change ownership of Dummy Pigs back to Neutral Hostile when Charm is being used on them.
+- Add special building Scarlet Monastery for race Lordaeron.
+- Add cheat "-fields".
+- Switch Hero Journey second race with bonus races.
+- Add item Wand of Drain Resources.
+- Add Galactic Empire AI.
+- Scale down Vespene Geysers.
+- Make all trees selectable ingame.
+- Fix function GetExchangedResource of custom resources system and hence fix selling resources.
+- Fix text of chat command "-resinfo".
+- Add chat command "-helpresources".
+- Fix sending trained workers harvesting the mines targeted by rally points.
+- Add item Liber Ignium.
+- Change icon of start location New Stormwind.
+- Sell Orb of Light in building Trade House of race Lordaeron.
+- Fix Mass Holy Light of Lordaeron race.
+- Add research Scarlet Crusade to race Lordaeron.
+- Fix researches Spearmen and Crossbowmen of race Lordaeron.
+- Fix dependencies and citizens of race Lordaeron.
+- Change icon and model of Footman unit for race Lordaeron.
+- Add unit Rifleman to race Lordaeron.
+- Add unit Battle Mage to race Lordaeron.
+- Add spell Holy Aura.
+- Add spell Spy.
+- Add neutral building Power Crystal Mine.
+- Place many more Random Mines.
+- Improve and fix crafted buildings for profession Farmer.
+- Add JASS functions SetMineExplodesOnDeath and GetMineExplodesOnDeath to Resources system.
+- Fix description of resource Food.
+- Fix Lordaeron tower buildings.
+- Building Berghof allows casting V-2.
+- Add Train Station building to race Germans WWII.
+- Scale up the model of unit Red Baron.
+- Fix requirement of ability Ensnare of race Germans WWII.
+- Add unit Prison Builder to race Germans WWII.
+- Fix attack area of unit Wespe of race Germans WWII.
+- Change ability of SS Officer.
+- Give Zeppelin unit the ability Crew.
+- Fix icon position of research Autobahn.
+- Fix displayed info of resource savecodes.
+- Fix building Gnome Brassman.
+- Fix shown info of resources savecodes.
+- Fix model height of Repair Aura buff.
+- Fix JASS functions AddPlayerResource and RemovePlayerResource of Resources system for standard resources like gold and lumber.
+- Trading Posts allow selling and buying new custom resources.
+- Fix icon position of "Deposit 10 000 Lumber" in Goblin Bank.
+- Adapt costs of Bundle of Lumber and Exchange item in Goblin Merchant.
+- Add researches for race Lordaeron.
+- Add unit Alliance Siege Tower to race Lordaeron.
+- Add neutral building Fish Market.
+- Add spell Master of Moria for hero Balrog.
+- Add item Lordaeron Banner.
+- Add vote "-stats/-nostats".
+- Add item Moving Boxes.
+- Remove chat command "-wrapup".
+- Register tiny castle race items as tier 1 items for converting buildings into items.
+- Add neutral buildings to the website.
+- Fix soundset of Tauren Citizen (male).
+- Add profession Tamer.
+- Hero Spirit Walker has range attack now.
+- Fix mapping race unit types into items to fix wrapping buildings up.
+- Only wrap up completely constructed buildings.
+- Add resulting wrapped up items to the caster's inventory.
+- Group wrapped up items by type.
+- Item Treasure Map won't be dropped by creeps anymore.
+- Item Compass won't be dropped by creeps anymore.
+- Navigation Wheel won't be dropped by creeps anymore.
+- Tiny Pirate Ship won't be dropped by creeps anymore.
+- Add learn hotkey to hero spell Ethereal Form.
+- Add more tiny items for wrapping up buildings.
+- Stop constructing tiny buildings when the limit has already been reached.
+- Give neutral building Hero Abilities a different icon and model.
+- Add race Nerubian.
+- Add missing scepters to scepters shops.
+- Add Vrykul altar building.
+- Show the number of item charges in the tooltip of the backpack UI.
+- Add hero Peon.
+- Generate item savecodes for all heroes, the backpack and all equipment bags to allow saving more items.
+- Exclude researches Improved Clan and Improved Clan Hall from research savecodes.
+- Add building Safe for Engineers.
+- Add building Door for Engineers.
+- Fix maximum hit points and defense of Couatl Mount.
+- Fix tooltip of race Free People of Middle Earth.
+- Revise multiple profession tooltips.
+- Add building Witch Hut for all races.
+- Add building Alchemist Lab to Dalaran and Undead Citizens (female).
+- Replace hero abilities for boss Kil'jaeden to make him stronger: Doom, Scream and Finger of Death instead of Banish, Immolation and Demon Storm.
+- Add unit Human Fire Ship.
+- Replace Pandaren quest 3 reward item with Scepter of the Mur'gul.
+- Add Pandaren quest 4.
+- Make enemy creeps vulnerable for Pandaren quest 3.
+- Alchemist Lab can convert items now.
+- Child units have the ability Enable Wandering now.
+- Add Lordaeron AI.
+- Add race Terran.
+- Do not enable custom race UI by default anymore since some are broken.
+- Replace Void Lord Commander heroes with Void Lord Melee heroes.
+- Rename Void Lord heroes into Void Lord Range heroes.
+- Add building Hero Abilities for all races.
+- Add icon ability Life Regeneration to male citizens.
+- Add passive Health and Mana Stone icons.
+- Change hotkeys of learnable standard hero abilities.
+- Add small new creep area to Outland next to the Orc camp.
+- Rename research Unholy Armor from Demon race into Fel Armor.
+- Change icon of research Fel Armor for race Demon.
