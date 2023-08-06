@@ -494,7 +494,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "3" )
+	call Preload( "8" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "1600" )
