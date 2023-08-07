@@ -17,3 +17,13 @@ do
         ./wc3converter --oformat png "$OUTPUT" "$p"
     fi
 done
+
+for p in "$FOLDER/ReplaceableTextures/PassiveButtons/"*
+do
+    OUTPUT="../$(realpath --relative-to="$FOLDER" "$p")"
+
+    if [ ! -f "$OUTPUT" ] ; then
+        echo "$p"
+        ./wc3converter --oformat png "$OUTPUT" "$p"
+    fi
+done
