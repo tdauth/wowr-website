@@ -16,4 +16,4 @@ cat "$TXT_FILE" \
 | sed 's/endfunction//' \
 | sed 's/\tcall PreloadEnd( .* )//' \
 | sed '/^$/d' \
-| ./formatmapdata "$HTML_FILE"
+| ./formatmapdata "$HTML_FILE" "$HTML_FILE"

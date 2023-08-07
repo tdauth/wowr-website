@@ -3,8 +3,8 @@
 #include <sstream>
 
 int main(int argc, char *argv[]) {
-    if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <HTML file> | <formatted HTML>" << std::endl;
+    if (argc < 3) {
+        std::cerr << "Usage: " << argv[0] << " <HTML file> <Output file> | <formatted HTML>" << std::endl;
         std::cerr << "Replaces all the content between the <tbody>...</tbody> tags in the given HTML file with the given formatted HTML." << std::endl;
         
         return 1;
@@ -35,12 +35,16 @@ int main(int argc, char *argv[]) {
                     
                     std::cout << "Found " << startTag << " at line " << l << std::endl;
                     //std::cout << "Inserting HTML: " << argv[1] << std::endl;
+                    int count = 0;
                     
                     std::string lineInput;
 
                     while (std::getline(std::cin, lineInput)) {
                         sstream << lineInput << '\n';
+                        ++count;
                     }
+                    
+                    std::cout << "Added " << count << " lines to the file." << std::endl;
             }
         }
         
@@ -61,6 +65,8 @@ int main(int argc, char *argv[]) {
     
     in.close();
     
+    
+    std::cout << "Writing output file " << argv[2] << std::endl;
     
     std::ofstream out(argv[2]);
     out << sstream.str();
