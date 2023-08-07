@@ -60,6 +60,8 @@ button {
     width: 300px;
     padding: 5px;
     z-index: 1;
+    color: white;
+    background-color: #5c6873;
 }
 
 .wowr-popover-wrapper:focus-within .wowr-popover, .wowr-popover-wrapper .wowr-popover:hover {
