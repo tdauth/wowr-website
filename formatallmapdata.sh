@@ -25,7 +25,6 @@ for f in ./map/WorldOfWarcraftReforged-Race-*
 do
     o=${f##*-}
     o=${o%.txt}
-    echo "Input: $f, Output: $o"
     ./formatmapdata.sh "$f" "./$o.html"
 done
 
