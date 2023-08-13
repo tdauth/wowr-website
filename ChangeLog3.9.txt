@@ -1,0 +1,74 @@
+- Improve website data.
+- Fix name Muradin in the third Human quest.
+- Formula items crafted from Enchanter won't be dropped by creeps anymore.
+- Make workers stop harvesting a mine if the mine is empty for them.
+- Do workers not let harvest a mine but show an error message if the mine is empty for them.
+- Let mines of custom resources explode on death by default.
+- Item Ring of the Archmagi cannot be dropped by creeps anymore since it is a quest reward item.
+- Do not let expired votes vote for the first choice by default which prevents votes being successful although not the majority of players has voted for it.
+- Add ability Convert Item to building Alchemist Lab.
+- Change message for chat command "-savec".
+- Add short chat command "-s" for chat command "-savec".
+- Add short chat command "-l" for chat command "-l".
+- Add more researches to Blacksmith for race Lordaeron.
+- Change tooltip of race Lordaeron.
+- Do not generate savecode text files for empty items, units, buildings and researches.
+- Remove debugging text output when choosing the AI heroes.
+- Add all credits to the quest log.
+- Change hotkey of building Spell Book.
+- Improve race Lordaeron.
+- Give ability Selfdestruct the animation Death.
+- Replace Food Farm building with Wheat Field.
+- Update all wall pieces around when one piece is destroyed.
+- Count more housing types in AI scripts.
+- Improve ship support for AI scripts.
+- Drop the item for Pandaren Quest 3.
+- Add Star Wars and Lord of the Rings housing limits.
+- Fix costs and building and repair times of all tier building for race Naga.
+- Add hero spell Decay.
+- Add item Wand of Decay.
+- Fix dependency of Tauren Watch Tower building.
+- Add limit to Tauren Watch Tower buildings.
+- Add theme and bonus hero requirements to hero Jar Jar Binks.
+- Make item Dragon Heart for Human quest 1 invulnerable.
+- Move gold mines produced by Random Mines to the old position.
+- Add learnable hero spell Mana Shield for slot 2.
+- Add learnable hero spell Finish Construction.
+- Add learnable hero spell Repair Aura.
+- Add learnable hero spell Rainbow.
+- Add learnable hero spell Rainbow Bridge.
+- Add hero Tychus Findlay.
+- Fix hotkeys of hero spell Grenade.
+- Add hero Naaru.
+- Add unit Undead Dummy Pig to player selection.
+- Use tool wc3objectdataextractor for registered hero abilities instead of registering them manually.
+- Fix requirements maximum for recipe Craft Orb of Orbs.
+- Spell Drain Resources should work with trees now.
+- Spell Drain Resources heals and regenerates life and mana of the caster now.
+- Chat command "-rename" works on units now.
+- Fix model scaling, selection scaling and soundset of building Power Crystal Mine.
+- Add tiny items for Freelancer buildings.
+- Rename building Freelancer Goblin Laboratory into Freelancer Laboratory,
+- Remove cooldown for item savecodes.
+- Each savecode can be loaded only once per game to prevent mass loading.
+- Add building Anvil.
+- Increase cooldown of spells Torpedoes, Place Water Mine and Drop Water Bomb.
+- Change mount of hero Gnomish Submarine to Flying Machine.
+- Add missing submerged version of hero Gnomish Submarine.
+- Improve race Nerubian.
+- Add item Orb of Web.
+- Add item Spider Egg.
+- Add hero spell Mass Web.
+- Add hero spell Summon Spider Egg.
+- Add hero Nerubian Queen.
+- Add unit Flying Dummy Sheep to player selection.
+- Add unit Amphibious Dummy Sheep to player selection.
+- Undead units have regeneration type Only while on Blight now instead Only during night.
+- Add tunnel system for race Nerubian.
+- Replace Mozart music with Storm, Earth, Fire.
+- Give special building Lich King a pathing texture.
+- Fix pathing check for item Water.
+- Create Ubersplat for item Water.
+- Add profession Inscriptor.
+- Replace Random Mines during the start of the map.
+- Add learnable hero spell Place Goblin Land Mine.
