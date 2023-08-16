@@ -29088,6 +29088,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Gold Mine ability"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGoldMine.blp"" )
 	call Preload( "/></a>" )
+	call Preload( "<a href="spells.html#A1DL">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp" width="64" height="64"" )
+	call Preload( "title="Burrow"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "<div class="description">" )
 	call Preload( "Provides an additional source of gold income." )
@@ -36433,7 +36438,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 39.8 )
+	call PreloadEnd( 43.3 )
 
 endfunction
 

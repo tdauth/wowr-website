@@ -36074,6 +36074,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Unsummon Building"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNUnsummonBuilding.blp"" )
 	call Preload( "/></a>" )
+	call Preload( "<a href="spells.html#A1DC">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp" width="64" height="64"" )
+	call Preload( "title="Burrow"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#AUbu">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNScourgeBuild.blp" width="64" height="64"" )
 	call Preload( "title="Build (Undead)"" )
@@ -39637,7 +39642,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Units generated with chat command "-website". -->" )
-	call PreloadEnd( 8.5 )
+	call PreloadEnd( 8.9 )
 
 endfunction
 

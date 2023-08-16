@@ -159,7 +159,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
-	call Preload( "Allows unit abilities to target units with a level above their initial level: Polymorph (Human, Goblin), Transmute (Goblin), Possession (Undead), Charm Ccreeps) etc. This does not improve hero abilities!" )
+	call Preload( "Allows unit abilities to target units with a level above their initial level: Polymorph (Human, Goblin), Transmute (Goblin), Possession (Undead), Charm Creeps) etc. This does not improve hero abilities!" )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -9642,7 +9642,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 2.4 )
+	call PreloadEnd( 2.1 )
 
 endfunction
 

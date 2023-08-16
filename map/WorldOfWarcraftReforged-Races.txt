@@ -852,7 +852,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="wc3-tooltip">" )
-	call Preload( "- Allows digging in units and buildings." )
+	call Preload( "- Burrow units and buildings." )
 	call Preload( "<br/>" )
 	call Preload( "- Blight which allows hit points regeneration." )
 	call Preload( "<br/>" )
