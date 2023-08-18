@@ -1,0 +1,40 @@
+- Add missing credits.
+- Add link to quest for reward items.
+- Spell Mass Web does not target dead units anymore.
+- Improve race Nerubian.
+- Translate building Azjol Nerubian Obelisk back into English.
+- Fix icon of Pandaren quest 4.
+- Add levers for gates only where no bridges exist.
+- Support Orb of Blood in savecodes.
+- Fix tooltip of item Demon Slayer Axe.
+- Fix tooltip of research Improved Creep Hunter.
+- Chat command "-sellall" does not trigger chat command "-sell" anymore.
+- Update system CustomConsoleUI so HP and mana values are shown with custom race UIs.
+- Increase hero ability mana costs with every level.
+- Fix animation of summoned Minigun Tower.
+- Reduce charges of item Honeycomb.
+- Item Shadow Orb Fragment can be dropped by creeps and carried around by heroes now.
+- Add recipes Craft Shadow Orb +X.
+- Fix tooltips of Formula items.
+- Support more items for save codes.
+- Add mine Monument.
+- Remove requirement of Evolution Stone icon.
+- Fix Moving Boxes for buildings Slaughterhouse and Sacrifical Pit.
+- Fix pick mode for chat commands "-h2", "-h3", "-p1" and "-p2".
+- Change owner of mines to harvesting player.
+- Show resources of mines in tooltip of icon ability.
+- Add hero Acolyte.
+- Fix starting correct race repick timers.
+- Add profession 3 and race 3.
+- Add checks for profession and race selection modes.
+- Update backpack UI on dropping all and picking up items.
+- Fix tooltip of building Gnome Factory.
+- Fix dependencies of Gnome units.
+- Add Random Mine to West Northrend start location.
+- Add background, gold and item icon frames to the backpack UI.
+- Add Disassemble ability to building Crafting Stash.
+- Item Horn of the Clouds can be dropped now.
+- Add recipe Craft Shield of Honor.
+- Fix allowing crafting items with only one of the requirements.
+- Add info about Orb of Web to item Orb of Orbs.
+- Hide dummy of item Orb of Royality.
