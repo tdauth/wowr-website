@@ -339,7 +339,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Favor" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "0.00" )
+	call Preload( "1.10" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "-" )

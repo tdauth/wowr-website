@@ -18468,7 +18468,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "<div class="description">" )
-	call Preload( "Contains upgrades for improved armor, weaponry and gunpowder." )
+	call Preload( "Serves as a drop-off point for harvested lumber. " )
+	call Preload( "<br/>" )
+	call Preload( "Also contains the upgrades." )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -36438,7 +36440,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 43.3 )
+	call PreloadEnd( 38.8 )
 
 endfunction
 
