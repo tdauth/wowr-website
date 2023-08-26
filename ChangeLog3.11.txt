@@ -1,0 +1,41 @@
+- Improve website data.
+- Add arrow buttons for race in AI players GUI.
+- Add Previous Page button to AI players GUI.
+- Increase default food maximum for AI to 600.
+- Replace spell Attribute Bonus for boss Ragnaros with Permanet Immolation.
+- Add Nerubian AI support.
+- Fix creating the AI hero of the correct race.
+- Increase gold exchange rate for resource Favor.
+- Add Orb of Blood effect to tooltip of item Orb of Orbs.
+- Add lernable hero spell Ride Down for slot 5.
+- Do not pick bonus heroes for AI.
+- Add recipe Enchanted Shield.
+- Add recipe Frostguard.
+- Add recipe Searing Blade.
+- Item Flare Gun can be dropped by creeps now.
+- Bosses Archimonde and Avatar of Sargeras carry the item Orb of Orbs now.
+- Allow HD and SD by default again.
+- Add votes "-legion" and "-nolegion".
+- Move gate and bridge at Sunstrider Isle.
+- Hydromancer is no bonus hero anymore.
+- Add many missing bonus hero requirements.
+- Inscriptor Glyph items improve certain hero spells now.
+- Make Inscriptor chat commands work.
+- Medieval Catapult icon does not overwrite Draenei Demolisher icon anymore.
+- Spend all unused skill points for boss heroes.
+- Register Worgen tier 1-3 and altar in gameplay constants.
+- Automatically remove Random Mines around AI start locations.
+- Cheat "-share" shares full control with all AI players now.
+- Add Vrykul building Val'kyr Temple.
+- Add Vrykul unit Dark Val'kyr.
+- Add Vrykul unit Golden Val'kyr.
+- Improve Vrykul race AI.
+- Support more races for random race entries in AI players GUI.
+- More AIs will build special buildings.
+- Fix AI tier counting.
+- Fix Troll research requirements.
+- Add Troll ability Sacrifice to building Temple of Sacrifice.
+- Remove ability Pillage from unit Troll Gatherer.
+- Fix Troll Berserkers.
+- Fix soundset of Troll Voodoo Cannoneers.
+- Fix Troll tooltips, icon positions and hotkeys.
