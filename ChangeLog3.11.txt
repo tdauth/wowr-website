@@ -7,7 +7,7 @@
 - Fix creating the AI hero of the correct race.
 - Increase gold exchange rate for resource Favor.
 - Add Orb of Blood effect to tooltip of item Orb of Orbs.
-- Add lernable hero spell Ride Down for slot 5.
+- Add learnable hero spell Ride Down for slot 5.
 - Do not pick bonus heroes for AI.
 - Add recipe Enchanted Shield.
 - Add recipe Frostguard.
