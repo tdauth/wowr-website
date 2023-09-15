@@ -1,0 +1,120 @@
+- Function HeroCountItemsOfItemType counts item charges now.
+- Add chat command "-pingo".
+- Add recipe Dig Holy Grail.
+- Remove chat command "-grail".
+- Remove chat command "-dig".
+- Give feedback to player on disassembling items.
+- Remove recipe Craft Ring of Protection +5 since the item is a quest reward.
+- Fix hiding Library when Tomes are disabled.
+- Replace Random Water mines with actual mines in the beginning of the game.
+- Revise requirements for new recipes.
+- Make Crafting Stashes have their start delay for items every 20 seconds to prevent crafting items without the necessary requirements.
+- Add crafted and disassembled items and units to Crafting Stashes instead of buying units to avoid confusion.
+- Give feedback if there are no items to disassemble.
+- Update stocks for Crafting Stashes after linking/unlinking.
+- Reduce maximum stacks of item Goblin Land Mines to 100.
+- Add game information Alchemist Labs.
+- Add game information Witch Huts.
+- Add game information Hero Abilities.
+- Remove ground texture from many buildings for all races.
+- Fix several empty page names for Crafting Stashes.
+- Fix the number of charges for requirements when disassembling items when items in inventory are stacked.
+- Fix effect of Holy Grail.
+- Race Demon summons buildings without requiring a constructing worker.
+- Rename Altar of Hell into Altar of Twisting Nether.
+- Change standard ability of hero Banshee Invisibility.
+- Fix tooltip of research Improved Clan.
+- Fix tooltip of research Improved Clan Hall.
+- Allow AI to build ships on certain start locations by default.
+- Use custom icon for Save/Load System in quest log and Save GUI button in backpack.
+- Fix loading and displaying item save codes by stopping when no more item information is stored.
+- Show if savecode for items is generated in tooltip.
+- Add chat command "-generated" to list all generated savecodes.
+- Revise aura system to fix custom auras.
+- Give Freelancers a Tiny Hideout item in the beginning.
+- Give Freelancer items to the hero on repicks.
+- Add Goblin Merchant to player selection.
+- Add learnable hero spell Critical Aura.
+- Add learnable hero spell Evasion Aura.
+- Fix model of Elemental Servant thanks to General Frank.
+- Fix model of Goblin tiers thanks to General Frank.
+- Fix tooltip of race Demon.
+- Add Gem items.
+- Fix hotkey of hero Acolyte.
+- Stop hero before casting Harvest in player selection.
+- Add learnable hero spell Summon Wall.
+- Add learnable hero spell Summon Explosive Barrel.
+- Add hero Sapper.
+- Add recipe Summon of the Old Gods.
+- Allow Disassemble to be used on units.
+- Item Mana Herb can be sold to merchants now.
+- Add mount Lynx.
+- Remove Energy Field area from player selection.
+- Change icon of quest Credits.
+- Change weapon type for hero Succubus to Normal.
+- Improve race Vrykul.
+- Add arrow buttons for hero entry in player AI GUI.
+- Allow all worker units to harvest Favor.
+- Support item Scepter of Mastery for save codes.
+- Item Ring of Superiority cannot be dropped by creeps anymore.
+- Fix item Bundle of Wheat.
+- Fix item Fish.
+- Add ability Repair to unit Neutral Citizen (male).
+- Refund purchased units and items which are not of a player's race.
+- Mention in tooltip that unit Neutral Citizen (male) can only be hired by Freelancers.
+- Do not transfer ownership of researches anymore.
+- Item Moonstone can be dropped by creeps now.
+- Item Moonstone is sold by Worgen shops now.
+- Ability Nocturnal adds bonuses at night.
+- Add item Sunstone.
+- Add item Orb of Blood to VIP room.
+- Add item Orb of Light to VIP room.
+- Add item Orb of Web to VIP room.
+- Add item Orb of Royality to VIP room.
+- Add item Orb of Wind to VIP room.
+- Add item Moonstone to VIP room.
+- Add item Sunstone to VIP room.
+- Add Running Wild ability for hero Deathclaw.
+- Automatically add ability Devour Cargo to heroes who learn Devour.
+- Increase damage per second for Devour Cargo for hero spell Devour Cargo.
+- Fix tooltip of hero spell Shrink.
+- Disallow many hero spells for Equipment Bags.
+- Move Close button further down in Savecodes GUI.
+- Improve race Worgen.
+- Recommend SD graphics on the loading screen.
+- Add item Orb of Ancestors for race Vrykul.
+- Add item Orb of Magic for race Dalaran.
+- Add item Orb of Moon for race Worgen.
+- Add item Banner of Gilneas for race Worgen.
+- Add item Cages for race Worgen.
+- Disable debugging output for spell Rewind Time.
+- Revise unit Battle Mage of race Lordaeron.
+- Add item Dices.
+- Add bonus hero Genn Greymane.
+- Add race unit type for Flying Machine units.
+- Add race building type for secondary special building buildings.
+- Add learnable hero spell Orb of Annihilation.
+- Use custom unit sound set for unit Swordsman.
+- Use custom unit sound set for unit Swordsman (High Elf).
+- Use custom unit sound set for unit Captain.
+- Use custom unit sound set for unit Captain (High Elf).
+- Use custom unit sound set for unit Cenarius (Bonus Hero).
+- Use custom unit sound set for unit Cenarius (Boss).
+- Use custom unit sound set for unit Funny Bunny.
+- Add creep Arakkoa.
+- Add creep Shadow Lord.
+- Add creep Sun Lord.
+- Add pickable hero Cenarius (Boss).
+- Add bonus hero Kil'jaeden.
+- Revise spells of hero Sand Worm.
+- Add learnable hero spell Pulverize.
+- Add hero Wisp.
+- Update unit group respawn system.
+- Add learnable hero spell Absorb.
+- Make hero Fel Beast a non-bonus hero.
+- Add vote "-soundsets".
+- Add vote "-nosoundsets".
+- Add hero Obsidian Statue.
+- Add learnable hero spell Mass Firebolt.
+- Add learnable hero spell Replenish.
+- Add more Fountains of Power to the player selection and move them.
