@@ -45,7 +45,7 @@
 - Add learnable hero spell Summon Wall.
 - Add learnable hero spell Summon Explosive Barrel.
 - Add hero Sapper.
-- Add recipe Summon of the Old Gods.
+- Add recipe Summon Guard of the Old Gods.
 - Allow Disassemble to be used on units.
 - Item Mana Herb can be sold to merchants now.
 - Add mount Lynx.
