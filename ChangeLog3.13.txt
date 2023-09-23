@@ -1,0 +1,64 @@
+- Add hero Tuskarr Chieftain.
+- Add race Tuskarr.
+- Change stock maximum from 1 to 3 for Zeppelins.
+- Lock AI guard positions for bosses to prevent them attacking your base.
+- Add achievements.
+- Add chat command "-achievements".
+- Fix owner of Legion Ship creeps.
+- Make hero spell Ensnare learnable.
+- Fix learn tooltip of hero spell Ensnare.
+- Increase duration for hero spell Ensnare with every level.
+- Readd Scepter of Galactic Republic to the shop on Goblin Bank Island.
+- Add Scepter of Worgen to the shop on Goblin Bank Island.
+- Add Book of Taming to shop on Goblin Island.
+- Add Book of Inscription to shop on Goblin Island.
+- Increase bonus stats by 1 for all items from profession Jewelcrafter.
+- Remove duplicated item Orb of Venom from VIP room.
+- Fix tooltip and description of item Orb of Magic.
+- Fix adding bosses and Gaia units to respawn groups.
+- Add bonus hero Priestess of the Moon on Owl.
+- Add learnable hero spell Druid Forms.
+- Add bonus hero Archdruid.
+- Add learnable hero spell Mass Rejuvenation.
+- Add learnable hero spell Mass Cyclone.
+- Replace Rejuvenation with Mass Rejuvenation for Druid of the Claw.
+- Replace Cyclone with Mass Cyclone for Druid of the Talon.
+- Add learnable hero spell Meteor.
+- Replace Flame Strike with Meteor for hero Flamebinder.
+- Move neutral buildings in the player selection.
+- Update selection scale for Dummy buildings.
+- Recolor Undead Dummy Pigs.
+- Add learnable hero spell Life Aura for slot 5.
+- Add learnable hero spell Mana Aura for slot 5.
+- Fix research icon position for hero spell Phoenix Fire.
+- Automatically hide icons of slot 5 hero spells.
+- Restore unit selection on hero transformations.
+- Fix restoring hero skills on hero transformations for non-reskillable heroes.
+- Cache unit type data per player to fix resetting unit researches after researching Evolution.
+- Change missile model for item Orb of Moon.
+- Improve the performance for Evolution by only adding the difference when possible.
+- No more message for Evolution for creeps.
+- Increase Evolution for creeps for each hero level.
+- Add item Goblin Tool Box.
+- Change model and icon of NPC Magni Bronzebeard.
+- Add learnable hero spell Mass Ensnare.
+- Add custom race UI for race Tuskarr.
+- Add item Crossbow Turrets.
+- Add race Murloc.
+- Add Orc AI navy support.
+- Make hero Murloc Sorcerer a regular hero.
+- Change movement type of hero Murloc Sorcerer to Amphibious.
+- Change movement type of boss Murloc Sorcerer to Amphibious.
+- Naga and Night Elf Shipyard buildings do not sell any Night Elf Transport ship anymore.
+- Add hotkeys to building Event House.
+- Reduce training objects in player selection.
+- Change unit sound set of hero Human Battleship.
+- Reduce size of selection circle of hero Human Battleship.
+- Remove unit shadow from dummy caster of spell Launch Missiles.
+- Add NPC Captain James Cook to water start location to heal water based heroes.
+- Add NPC Admiral Proudmoore to Theramore to heal water based heroes.
+- Connect water start location with magic island/naga water base for the portal.
+- Add gate to water start location.
+- Item Book of Mercenaries summons amphibious creeps on deep water now.
+- Reduce memory leaks for the effect of item Book of Mercenaries.
+- Change icon of item Book of Mercenaries.
