@@ -20,6 +20,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-HeroJourney.txt ./herojourney.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Locations.txt ./locations.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Recipes.txt ./recipes.html
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-Achievements.txt ./achievements.html
 
 for f in ./map/WorldOfWarcraftReforged-Race-*
 do
