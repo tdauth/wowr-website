@@ -1,0 +1,195 @@
+- Add Skins shop.
+- Add reskillable heroes from start.
+- Fix tooltip of melee Void Lords.
+- Add custom model for Tome of Retraining items.
+- Add neutral Graveyard to player selection to generate corpses.
+- Add learnable hero spell Mass Transmute.
+- Add learnable hero spell Mass Illusion.
+- FIx icon path for unit Neutral Citizen (female).
+- Fix Tuskarr description.
+- Remove Obelisk on selling an item.
+- Add achievement Destroyer.
+- Add achievement Tank.
+- Add achievement Overpopulation.
+- Add achievement Demon Hunter.
+- Add achievement Master Locksmith.
+- Add achievement Master Thief.
+- Add achievement Survivor.
+- Chat command "-sellall" does not sell lumber anymore.
+- Add chat command "-sellwood" to sell all lumber.
+- Allow resource names for resource chat commands.
+- Improve description of race Worgen.
+- Mention required weapon type in hero spell Orb of Annihilation.
+- Add hero Giant Skeleton.
+- Fix resource exchange calculation to avoid gaining endless resources via selling/buying.
+- Farmhands can harvest resource Water now.
+- Add learnable hero spell Permanent Invisibility.
+- Change names and icons of High Elf researches.
+- Add spell Artifical Day to special building Sunwell.
+- Add item Sunstone to race High Elf.
+- Add research and ability Diurnal to race High Elf.
+- Fix upgrades and abilities for units of race High Elf.
+- Add item Book of Fast Travel for Freelancers only.
+- Enable ability Magical Creep Summoner for item Book of Mercenaries.
+- Reset coloring of unit High Elf Citizen (female).
+- Do not display Enchanter and Inscriptor info on picking up/dropping items or learning spells anymore.
+- Add cheat "-day".
+- Add cheat "-night".
+- High Elf ability Sun Key does not target allies anymore.
+- Add learnable hero spell Reincarnation Aura.
+- Custom auras allow maximum number of targets and prioritizes heroes.
+- Add custom UI for race Draenei.
+- Spell Meteor knockbacks target units.
+- Add race Ogre.
+- Improve race Tauren.
+- Fix tooltips of Research upgrades.
+- Add hero Revenant.
+- Add missing hero hotkeys.
+- Fix coloring of boss Elune.
+- Reduce cooldown of Blink for Old Gods.
+- Add hero Sea Giant.
+- Add missing hotkey to hero spell Pulverize.
+- Increase the number of crafted ward items for profession Witch Doctor.
+- Fix icon position of hero spell Spell Steal turning off.
+- Disable endless Spell animation for hero spell Mace Strike.
+- Disable endless Death animation for ability Selfdestruct.
+- Reduce cooldown for hero spell Telekinesis.
+- Telekinesis buff should only affect the target now.
+- Fix icon of learnable hero spell Pulverize.
+- Change order ID of hero spell Charge to avoid summoning Freelancer creeps on casting it.
+- Add learnable hero spell Fire Attack.
+- Improve race Gnome.
+- Update logo.
+- Show current page number in unit name of backpack and no message.
+- Add camera settings to backpack.
+- Add chat command "-camrpgon/off" to quest log.
+- Add chat command "-helpcamera" to quest log.
+- Add JASS function ShowAllTextTagsForPlayer.
+- Hide all text tags when enabling RPG camera.
+- Allow automatically loading your character in the beginning of the game.
+- Increase the number of crafted items for profession Sorcerer.
+- Change hotkey for ability Invisibility for heroes for IJKL movement keys.
+- Add information quest Camera.
+- Rename titles in quest log.
+- Achievements reward you with the same amount of gold as XP now.
+- Change model of purchasable Engineer unit.
+- Fix slot of spell Mass Cripple Slot 3.
+- Fix icon position of spell Open Portals.
+- Hide dummy for spell Revive.
+- Fix updating auras when removing the final aura caster.
+- Item Black Powder give the resource Black Powder.
+- Item Rocks give the resource Rocks.
+- Add neutral Rocks Mine.
+- Add Random Mine to Pandaria.
+- Add Random Mine to Malfurion's start location.
+- Change icon of building Medieval Housing.
+- Fix tooltip of building Medieval Market.
+- Change hotkey of building Water Mill.
+- Fix tooltip of building Church.
+- Fix icon position of building Plantation.
+- Hide Replenish effect for building Medieval Well.
+- Add item Orb of Nature to race Tauren.
+- Fix chat commands "-oldgodson/off".
+- Rename old god quests into Jaina quests.
+- Add Jaina quest 2.
+- Fix owner of Old God wards.
+- Fix making Legendary Artifact vulnerable on killing all three old gods.
+- Allow saving and loading multiple savecodes for units, buildings and researches.
+- Switch Next Page and Previous Page in shops.
+- Fix JASS function CopyGroup.
+- Include worker units in save codes.
+- Improve race Pandaren.
+- Add custom UI for race Pandaren.
+- Add learnable hero spell Miss Aura.
+- Add dependencies for NewBonus system option EXTENDED to support bonuses for misses.
+- Disable vJass libraries AIDS, AbilityPreload and Libram.
+- Add navy support to AI scripts for races Night Elf, Undead and Pandaren.
+- Fix selection circle scale of hero Iron Fist.
+- Fix selection circle scale of hero Shado Pan.
+- Do not mention Mountain Giant in tooltips of hero spell Hardened Skin.
+- Add Tauren AI support.
+- Improve unit sound sets system for custom unit sound sets.
+- Remove neutral building Zoo.
+- Fixed bonus hero Samuro.
+- Add bonus hero Garona.
+- Change mode and icon of boss and bonus hero Gul'dan.
+- Replace creeps in Gul'dan's dungeon with the new powerful creep type Gul'dan's Guard.
+- Add Blight area to player selection
+- Mention chat command "-r" on hero death.
+- Prevent hero spell Teleportation in player selection.
+- Prevent teleport spells from inside the player selection into the rest of the map.
+- Check food for unit recipes when showing the number of stocks.
+- Do not allow rescuing Gaia units when your food limit has been reached.
+- Add info for chat commands "-asave" and "-aload".
+- Fix chat commands "-asave" and "-aload".
+- Remove character " from save code alphabet which might invalidate all old save codes.
+- Change icon of Cloud Serpent mount.
+- Item Potion of Omniscience cannot be dropped by creeps anymore.
+- Add life and mana regeneration aura to NPC Lord Nicholas Buzan.
+- Telekinesis buff does not slow down targets.
+- Add cooldown to hero spell Fountain of Power Ward.
+- Add learnable hero spell Spell Aura.
+- Summoned hero illusions keep your hero's proper name now.
+- Remove effect abilities of auras as well.
+- Change missile of Cloud Serpent Mount.
+- Support navy units for race conversion and savecodes.
+- Move loaded navy units automatically to Theramore to keep them in water.
+- Add recipe Craft Ring of Protection +8.
+- Fix memory leak for hero spell Revive.
+- Allow hero spell Revive to target neutral units.
+- Change model and icon of Night Elf Citizen (male).
+- Change icon of Night Elf Citizen (female).
+- Add custom attribute Attributes Points.
+- Add building Attributes.
+- Add standard hero ability Skill.
+- Reive standard hero abilities system.
+- Remove Summon Mount and Invisibility abilities from hero Alchemist in morphed form.
+- Fix icon position of standard hero ability Magic Sentry.
+- Fix hotkey of standard hero ability Ensnare.
+- Fix hotkey of standard hero ability Repair.
+- Fix hotkey of standard hero ability Blink.
+- Fix hotkey of standard hero ability Bloodlust.
+- Fix hotkey of standard hero ability Dark Summoning.
+- Fix icon position for ability Disarmament for Child units.
+- Fix icon and hotkey of hero spell Spell Shield.
+- Use more custom models for items.
+- Add hero spell Damage Bonus.
+- Add hero spell Armor Bonus.
+- Add hero spell Life Regeneration.
+- Add hero spell Mana Regeneration.
+- Add hero spell Move Speed Bonus.
+- Add hero spell Attack Speed Bonus.
+- Fix level of Disease Cloud ward ability for hero spell Summon Meat Wagon.
+- Fix tooltip of Disease Cloud ability for hero spell Summon Meat Wagon.
+- Increase cargo hold capacity for hero spell Summon Meat Wagon.
+- Fix tooltip of Exhume Corpses of hero spell Summon Meat Wagon.
+- Add note to tooltips of recipes on how to craft the recipe.
+- Fix tooltip of hero spell Attribute Bonus.
+- Show resources icon and value for selected custom mines.
+- Make workers return the custom resources from a mine as soon as they have reached their maximum to avoid gathering 0 resources with one hit.
+- Move page buttons to the left side.
+- Fix learn hotkey of hero spell Spiked Carapace.
+- Fix learn hotkey of hero spell Spy.
+- Give Neutral Citizens (male) attack 1 to harvest custom mines.
+- Support buying workers for custom resources like Shredders.
+- Fix learn tooltip of hero spell Vengeance.
+- Increase number of crafted Runes for profession Runeforger.
+- Fix hotkey for hero spell Drunken Haze.
+- Fix hotkey for hero spell Drunken Brawler.
+- Scale down building Night Elf Housing.
+- Store types of save codes for better detection.
+- Do not duplicate Empty Chest anymore on using Lock Picks.
+- Add hotkey to ability VIP Spell Book.
+- Fix removing custom auras when unskilling hero spells by using Randomize ability.
+- Fix hotkey for hero spell Send to the Future.
+- Fix hotkey for hero spell Frost Arrows.
+- Fix hotkey for hero spell Transmute.
+- Fix tooltip for hero spell Pickpocketing.
+- Fix hotkey for hero spell Dark Portal.
+- Fix hotkey for hero spell Mana Flare.
+- Fix tooltip for hero spell Feral Spirit.
+- Fix hotkey of hero spell Winged Clock.
+- Fix hotkey of hero spell Summon Telescope.
+- Add cheat "-bonus".
+- Add learnable hero spell Sight Aura.
+- Add learnable hero spell Magic Resistance Aura.
