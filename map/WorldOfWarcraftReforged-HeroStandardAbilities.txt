@@ -1,7 +1,7 @@
 function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
-	call Preload( "<!-- Resources generated with chat command "-website". -->" )
+	call Preload( "<!-- Hero standard abilities generated with chat command "-website". -->" )
 	call Preload( "<tr id="Absk">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#Absk">" )
@@ -182,8 +182,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Allows randomizing hero spells and skilling hero attributes." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call Preload( "<!-- Resources generated with chat command "-website". -->" )
-	call PreloadEnd( 0.2 )
+	call Preload( "<!-- Hero standard abilities generated with chat command "-website". -->" )
+	call PreloadEnd( 0.1 )
 
 endfunction
 
