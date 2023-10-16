@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 
     <style>
         td {
@@ -61,7 +64,7 @@
 
 Every hero can have one single standard ability from start which might have only one level or will be skilled automatically without spending any skill points:
 
-<table>
+<table id="herostandardabilities">
     <thead>
         <tr>
             <th>Icon</th>
@@ -254,6 +257,12 @@ Allows randomizing hero spells and skilling hero attributes.
 <!-- Hero standard abilities generated with chat command "-website". -->
     </tbody>
 </table>
+
+<script>
+    $('#herostandardabilities').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
 </body>
 </html>
