@@ -5,7 +5,7 @@
 - Add neutral Graveyard to player selection to generate corpses.
 - Add learnable hero spell Mass Transmute.
 - Add learnable hero spell Mass Illusion.
-- FIx icon path for unit Neutral Citizen (female).
+- Fix icon path for unit Neutral Citizen (female).
 - Fix Tuskarr description.
 - Remove Obelisk on selling an item.
 - Add achievement Destroyer.
@@ -142,7 +142,7 @@
 - Add custom attribute Attributes Points.
 - Add building Attributes.
 - Add standard hero ability Skill.
-- Reive standard hero abilities system.
+- Revise standard hero abilities system.
 - Remove Summon Mount and Invisibility abilities from hero Alchemist in morphed form.
 - Fix icon position of standard hero ability Magic Sentry.
 - Fix hotkey of standard hero ability Ensnare.
