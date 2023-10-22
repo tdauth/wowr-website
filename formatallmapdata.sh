@@ -21,6 +21,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Locations.txt ./locations.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Recipes.txt ./recipes.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Achievements.txt ./achievements.html
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-HeroStandardAbilities.txt ./herostandardabilities.html
 
 for f in ./map/WorldOfWarcraftReforged-Race-*
 do
