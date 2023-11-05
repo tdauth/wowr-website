@@ -64,7 +64,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "n#n5#"#n#+X@#+X@#`#`#xH#"#n}#"#xH#"#x/#n#e#n#xI#n#"#"#n#P#" )
+	call Preload( "Squq[q/quq(*+q(*+qzqzq7?q/q7-q/q7?q/qHquqKququ8quq/q/quq7iq" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Clans generated with chat command "-website". -->" )
