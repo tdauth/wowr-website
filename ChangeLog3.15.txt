@@ -178,7 +178,7 @@
 - Craft profession items for all AI heroes.
 - Support crafting items for all 3 professions for AI.
 - AI heroes cannot discover or complete quests anymore.
-- Effect of legendary items is kep after hero transformations.
+- Effect of legendary items is kept after hero transformations.
 - Fix memory leaks for item of Tinker boss.
 - Fix memory leak for item Heart of Old God.
 - Allow boss deaths by heroes who are not owned by Bosses player.
