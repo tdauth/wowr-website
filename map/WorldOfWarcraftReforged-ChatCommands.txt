@@ -50,6 +50,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-pingkeys": Pings all keys for dungeons which are visible to the player.</li>" )
 	call Preload( "<li>"-pingaistarts": Pings all taken AI start locations.</li>" )
 	call Preload( "<li>"-pingo": Pings all Obelisks.</li>" )
+	call Preload( "<li>"-pingbosses/pingb/bosses": Pings all bosses.</li>" )
 	call Preload( "<li>"-pinghuman": Pings the current Human quest locations on the minimap.</li>" )
 	call Preload( "<li>"-pingnightelf": Pings the current Night Elf quest locations on the minimap.</li>" )
 	call Preload( "<li>"-pingorc": Pings the current Orc quest locations on the minimap.</li>" )
