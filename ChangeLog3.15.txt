@@ -1,0 +1,226 @@
+- Increase hero spell Cleaving Attack bonus per level.
+- Fix healing and mana regeneration aura of NPC Lord Nicholas Buzan.
+- Fix attribute skill points on repicking the hero.
+- Chat commands "-str", "-agi" and "-int" allow skilling the attributes to the maximum.
+- Add chat command "-reseta" to reset skilled attributes.
+- Add chat command "-equala" to skill attributes equally.
+- Format descriptions of hero standard abilities on the website.
+- Rename research Dragon Roost into Dragon Lore.
+- Fix JASS function ColoredSaveCode for character |.
+- Fix several unlearn spells events.
+- Add chat command "-areset".
+- Automatic loading is enabled per player now and not for all players at once.
+- Custom auras do not target invulnerable units anymore.
+- Restore hero skills on replacing equipment bags.
+- Link custom aura bonuses to the buff instead of the time to avoid constant changing of bonuses.
+- Unit Elite Siege Tank is affected by researches now.
+- Do not allow giving invulnerable units to other players.
+- Fix memory leak on giving units to other players.
+- Improve tooltip of ability VIP Spell Book.
+- Fix tooltip of hero spell Mass Entangling Roots.
+- Customizable heroes get only 5 attribute points instead of 7 per level.
+- Fix resetting bonuses for item Ancient Bow on dropping it.
+- Fix the owner of boss Murloc Sorcerer.
+- Add learnable hero spell Magic Defense.
+- Prevent tomes items from being used if disabled.
+- Support more items for savecodes.
+- Add longer cooldown to hero spell Mirror Image.
+- Mirror images take only 100 % of damage now.
+- Add item Wand of Corpse.
+- Add profession Necromancer.
+- Fix learn hotkey of hero spell Spell Steal.
+- Fix resources icon positions in building Trading Post.
+- Add resource Fruits.
+- Add item Banana.
+- Add neutral mine Fruit Stand.
+- Remove Hall of Fame.
+- Improve Jaina Quest 2.
+- Fix icon position of hero spell Town Portal.
+- Add race Corrupted Ancients.
+- Add hero Satyr Hellcaller.
+- Fix setting the number of charges for crafted profession items on stacking.
+- Auto assign profession 3 to AI now.
+- Revise profession system to simplify adding new professions.
+- Add profession Golem Sculptor.
+- Add neutral unit Harvest Cart to return gold and lumber from anywhere.
+- Add Berry Bushes as mines for resource Fruits.
+- Fix hotkey of Furbolg building Green Dragon Roost.
+- Change sound set of Furbolg building Resurrection Stone.
+- Increase the percentage of hero spell Howl of Terror.
+- Remove buffs from target units before applying evolution to avoid massive armor bonuses.
+- Boss Kil'jaeden drops legendary item Orb of Kil'jaeden now.
+- Boss Gul'dan drops legendary item Skull of Gul'dan now.
+- Give boss Cenarius the legendary item Horn of Cenarius.
+- Preplace boss Cenarius on the map.
+- Give boss Deathwing the legendary item Wings of Deathwing.
+- Preplace boss Deathwing on the map.
+- Make hero spell Town Portal a slot 3 hero spell.
+- Replace hero spell Town Portal for hero Medivh with hero spell Corruption.
+- Add hero standard ability Master and Student to the shop.
+- Fix hotkey of hero standard ability Master and Student.
+- Hide Dark Portal after dying for hero spell Dark Portal.
+- Fix buffs for hero spell Dark Portal.
+- Fix unit sound set for summoned Dark Portal.
+- Add custom unit sound set for hero Medivh.
+- Update custom unit sound set system.
+- Improve the stats of special building Corrupted Ancient Protector.
+- Add ability Root to special building Corrupted Ancient Protector.
+- Change the effect of spell Divine Shield.
+- Add research Backpack for race Blood Elf.
+- Add unit type Sorceress for race Blood Elf.
+- Research Backpack requires shop building for all races now.
+- Do not use generated object data fields anymore.
+- Improve race Roman Empire.
+- Improve race Goblin.
+- Improve race Gnome.
+- Limit number of equipment bags over different hero levels.
+- Rename unit Equipment Backpack into Equipment Bag.
+- Remove item Orb of Nature effect on dropping it.
+- Furbolg AI constructs special building now.
+- Improve race Furbolg.
+- Replace the ability of item Eye of Dalaran with Mana Shield.
+- Change icon of building Event House.
+- Add race Centaur.
+- Add level changer to level Felwood.
+- Add hero Gnoll Alpha.
+- Add race Gnoll.
+- Add level changes for singleplayer mode with initial different levels.
+- Add vote "-levels/-nolevels" to enable/disable level changes.
+- Revise vote system and simplify adding new votes.
+- Add hero Geomancer.
+- Add race Kobold.
+- Add race Quillboar.
+- Add custom unit sound set for bonus hero and boss Mal'Ganis.
+- Add custom unit sound set for bonus hero and boss Gul'dan.
+- Remove hero level 6 requirement of hero spell Mass Firebolt.
+- Do not refund water units from different races.
+- Fix slot 2 of hero spell Finish Construction.
+- Equipment bags won't get hero spells Fire Attack, Jetpack, Teleporation, Defend, Split, Druid Forms, Hardened Skin, Barrage, Magic Defense, Black Arrow, Spiked Carapace, Permanent Invisibility, Damage Bonus, Armor Bonus, Life Regeneration, Mana Regeneration, Move Speed Bonus and Attack Speed Bonus anymore.
+- Maiev stays invulnerable for Naga quest 2 since reviving neutral hostile heroes does not work.
+- Unpause Maiev and her guards when fighting them.
+- Fix ping for Draenei quest 3.
+- Add neutral building World Portal.
+- Add hero Harpy Queen.
+- Hide icon of hero spell Sight Aura for slot 5.
+- Hide icon of hero spell Magic Resistance Aura for slot 5.
+- Fix restoring learned hero spell levels when randomizing hero spells.
+- Apply bonus and limited time to summoned units from hero spell Nerubian Army.
+- Fix prestored savecodes for The Elven Clan.
+- Do not allow targetting invulnerable units with spell Telekinesis.
+- Fix ability ID for reskillable hero spell Finger of Death.
+- Remove quest reward item Cloak of Flames from save code objects.
+- Remove quest reward item Ring of Protection +5 from save code objects.
+- Remove quest reward item Ring of Gloves of Haste from save code objects.
+- Do not show boss icons for hidden bosses.
+- Use quest marker on Sapphiron for Naga quest 3 now.
+- Add helper JASS function DropQuestItemFromDyingUnit for dropping quest items on hero deaths.
+- Check for quest reward items with cheat "-savecodeduplicates" now.
+- Show quest messages for controlling Illidan in Naga quest 4 now.
+- Check if crystal is still alive when allowing Illidan control in Naga quest 4 now.
+- Chat commands "-h1", "-h2" and "-h3" do not work anymore if you are controlling Illidan.
+- Remove Save Master from creep list.
+- Fix initializing global variable udg_IllidanStormrage which fixes releasing the control of Illidan in Naga quest 4.
+- Save and load clan save codes from auto load file.
+- Add hero Berserk Wildkin.
+- Add neutral building High Elf Shipyard.
+- Fix tooltip of hero spell Teleportation.
+- Apply bonus and timed life to summoned Goblins of hero spell Master of Moria.
+- Refactor triggers for game and maps.
+- Fix Ogre Slave model thanks to General Frank.
+- Adjust text of resources of custom mines.
+- Improve race Ogre.
+- Rescale model of hero Ogre Lord.
+- Rescale model of hero Centaur Khan.
+- Add missing AI chat commands to the game information in quest log.
+- Remove carried items of Pack Horses on death when they explode.
+- Fix icon position of Buy 100 Black Powder.
+- Remove game information Enable HD Graphics.
+- Add chat command "-pingbosses".
+- Add hero Infernal.
+- Add hero spell Burning Sky.
+- Add hero spell Spell Shield for slot 2.
+- Add JASS function MoveTmpLocationToUnit.
+- Add hero Magnataur Destroyer.
+- Automatically update all Crafting Stashes when food changes.
+- Rename Books shop into Profession Books Shop.
+- Make Profession Books Shop and Scepters Shop using pages.
+- Add learnable hero spell Holy Nova.
+- Add achievement Holy Warrior.
+- Add achievement Unholy Warrior.
+- Add ability Summon Corpse.
+- Support more than one hero for AI.
+- Replace The Burning Legion AI script with Demon AI script.
+- Reset coloring of building Blood Elf Housing.
+- Fix shared AI option in GUI.
+- Fix icon position of building Blood Elf Guard Tower.
+- Fix icon position of building High Elven Guard Tower.
+- Disable movement of burrowed Nerubian units.
+- Hide all resource multiboards in the beginning of the game.
+- Fix reskillable spell Mana Aura for slot 5.
+- Fix icon position of High Elf research Antimagic Shield.
+- Change lever animation on closing gates.
+- Add ability Magic Sentry to building Freelancer Tower and Advanced Freelancer Tower.
+- Remove shop abilities from Freelancer buildings Freelancer Mercenary Camp and Freelancer Laboratory.
+- Building  Freelancer Laboratory produces 30 food.
+- Add unit Sea Giant Behemoth to trained units of building Freelancer Mercenary Camp.
+- Add research Dragon Lore to building Freelancer Laboratory.
+- Add research Eredar Warlock to building Freelancer Laboratory.
+- Stop building Alchemist Lab conversion errors.
+- Do not allow building Alchemist Lab to convert into tier buildings, tier items or scepter items of races which are not unlocked by the player.
+- Fix showing Library building after voting "-tomes".
+- Add Tuskarr race to random AI races.
+- Add Ogre race AI.
+- Increase cooldown of hero spell Sleep with every level.
+- Change the effect of Divine Shield spells to armor bonus.
+- Add hero Siege Golem.
+- Add building Elevator constructed by Engineer units.
+- Add talk system for talks with NPCs.
+- Craft profession items for all AI heroes.
+- Support crafting items for all 3 professions for AI.
+- AI heroes cannot discover or complete quests anymore.
+- Effect of legendary items is kep after hero transformations.
+- Fix memory leaks for item of Tinker boss.
+- Fix memory leak for item Heart of Old God.
+- Allow boss deaths by heroes who are not owned by Bosses player.
+- Fix opening gate with lever at Thunder Bluff.
+- Change icon of boss Sea Witch.
+- Fix AI scripts training navy and building expansions.
+- Remove Goblin Shipyard from Elven Clan island.
+- Add item Book of Fast Travel to Goblin Laboratory.
+- Remove target effect for Pack Horse abilities.
+- Add profession Combiner.
+- Add hero Galadriel.
+- Add hero Arwen.
+- Add mount Camel.
+- Add portal to Clan Island.
+- Fix target show player of item Goblin Tool Box.
+- Revise the texts and icons of item Goblin Tool Box.
+- Add item Goblin Tool Box to shop Goblin Laboratory.
+- Improve race Sauron's Forces.
+- Add neutral building Heroes Tavern.
+- Add neutral building Races Tavern.
+- Add neutral building Professions Tavern.
+- Add hero Siege Engine.
+- Use custom model and icon for NPC Anduin Wrynn.
+- Add hero Anduin Lothar.
+- Add hero Durotan.
+- Add race Stormwind.
+- Automatically set race icons.
+- Add learnable hero spell Mass Holy Light for slot 1.
+- Add learnable hero spell Holy Nova for slot 2.
+- Add hero Orgrim Doomhammer.
+- Add hero Ogre Magi.
+- Hero spell Demolish targets also mechanical units now.
+- Initial manual navy support for Computer players with a navy start location.
+- Add unit Human Oil Tanker.
+- Add unit Orc Oil Tanker.
+- Show gathered custom resource for workers.
+- Use custom icon for unit Neutral Citizen (male).
+- Fix buff of hero spell Holy Aura.
+- Add hero Varian Wrynn.
+- Add creep Gronn.
+- Add area with Gronn creeps to Outland.
+- Add creep Wild Elekk.
+- Improve race Roman Empire.
+- Reduce interval for Pack Horses.
+- Add skin Priest.
