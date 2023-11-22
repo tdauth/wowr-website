@@ -1,0 +1,16 @@
+- Change chat command "-pingoldgods" into "-pingjaina".
+- Fix Jaina quest 2.
+- Fix pinging the heroes tavern during the hero journey.
+- Remove Evolution Stone.
+- Give quest reward item Jaina's Crystal Ball a cooldown.
+- Do not stop the music for any other races which have no specific set of music.
+- Add chat command "-helpsound".
+- Add chat command "-music X".
+- Add chat command "-resetmusic".
+- Support more races for music.
+- Add race Old Horde.
+- Add race Alliance of Lordaeron.
+- Add neutral building Oil Patch.
+- Add vote "-enablevips".
+- Add vote "-disablevips".
+- Fix disallowing races for non-VIPs due to Corrupted Ancients.
