@@ -128,9 +128,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
 	call Preload( "A tent for important researches." )
-	call Preload( "<br/>" )
-	call Preload( "<br/>" )
-	call Preload( "<div style="color: #ffcc00">Limited to 1.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTent.blp" width="64" height="64"" )
@@ -590,7 +587,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 2.0 )
+	call PreloadEnd( 1.7 )
 
 endfunction
 

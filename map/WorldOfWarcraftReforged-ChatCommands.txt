@@ -169,6 +169,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-agi X": Skills X agility. Skills max agility if empty.</li>" )
 	call Preload( "<li>"-int X": Skills X intelligence. Skills max intelligence if empty.</li>" )
 	call Preload( "<li>"-rename X": Renames selected heroes into X.</li>" )
+	call Preload( "<li>"-builder": Creates a builder for player 1 red.</li>" )
+	call Preload( "<li>"-nobuilder": Removes the builder from player 1 red.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Chat Commands generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
