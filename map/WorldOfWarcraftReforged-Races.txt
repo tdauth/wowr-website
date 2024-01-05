@@ -681,9 +681,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<tr id="I07U">" )
 	call Preload( "<td>" )
 	call Preload( "<a href="#I07U">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPandaVillager.blp" width="64" height="64"" )
 	call Preload( "title="Pandaren"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPandarianWoodcutter.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPandaVillager.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -1801,7 +1801,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 0.5 )
+	call PreloadEnd( 0.7 )
 
 endfunction
 

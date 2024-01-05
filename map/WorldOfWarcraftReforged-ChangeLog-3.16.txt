@@ -1,0 +1,26 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Change chat command "-pingoldgods" into "-pingjaina"." )
+	call Preload( "- Fix Jaina quest 2." )
+	call Preload( "- Fix pinging the heroes tavern during the hero journey." )
+	call Preload( "- Remove Evolution Stone." )
+	call Preload( "- Give quest reward item Jaina's Crystal Ball a cooldown." )
+	call Preload( "- Do not stop the music for any other races which have no specific set of music." )
+	call Preload( "- Add chat command "-helpsound"." )
+	call Preload( "- Add chat command "-music X"." )
+	call Preload( "- Add chat command "-resetmusic"." )
+	call Preload( "- Support more races for music." )
+	call Preload( "- Add race Old Horde." )
+	call Preload( "- Add race Alliance of Lordaeron." )
+	call Preload( "- Add neutral building Oil Patch." )
+	call Preload( "- Add vote "-enablevips"." )
+	call Preload( "- Add vote "-disablevips"." )
+	call Preload( "- Fix disallowing races for non-VIPs due to Corrupted Ancients." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
