@@ -13,6 +13,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Npcs.txt ./npcs.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Quests.txt ./quests.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Researches.txt ./researches.html
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-Resources.txt ./resources.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Bosses.txt ./bosses.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Professions.txt ./professions.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Mounts.txt ./mounts.html
