@@ -1,0 +1,186 @@
+- Add more Random Water Mines.
+- Add quest marker for shop in Pandaren Quest 2.
+- Fix GetHighestHeroLevel when hero levels 1 and 2 were equal.
+- Profession Golem Sculptor crafts Golems with more charges.
+- Improve race Old Horde.
+- Improve race Alliance of Lordaeron.
+- Add hero Gryphon Rider.
+- Add creep Earth Elemental.
+- Add creep Air Elemental.
+- Change icon of unit Air Elemental of race Dalaran.
+- Add boss Neptulon.
+- Add boss Therazane.
+- Add boss Thunderaan.
+- Add Jaina quest 3 Elemental Lords.
+- Add learnable hero spell Summon Earth Elemental.
+- Add learnable hero spell Summon Air Elemental.
+- Add learnable hero spell Summon Fire Elemental.
+- Generate skins table with cheat "-website".
+- Add Gnome unit Drill Engine.
+- Research Inventions increases defense and movement speed of Gnome units.
+- Add boss Yu'lon.
+- Add Jaina quest 4 Wild Gods.
+- Disable custom auras for paused casters.
+- Rename boss Ancient Turtle into Tortolla.
+- Add boss Ohn'ahra.
+- Divine Golem uses new Divine Shield ability.
+- Add hero standard ability Cyclone.
+- Do not apply any music after player selection anymore due to Warcraft III bugs.
+- Add race Eredar.
+- Item Heart of Azeroth cannot be used anymore.
+- Revise becoming a Demigod avoiding memory leaks and recreating equipment bags.
+- Improve race Gnome.
+- Add unit sound set to Gnomish Submarine unit types.
+- Add chat command "-aiignoreall".
+- Add chat command "-aiignore".
+- Add chat command "-aiuse".
+- Add railway to Azeroth.
+- Add vote "-train".
+- Add vote "-notrain".
+- Add unit classification Mechanical to unit Flying Machine Mount.
+- Fix hotkey of spell Summon Fire Elemental.
+- Add more gates and water entries to start locations.
+- Remove creeps from portal area in Outland.
+- Rename quest The Old Gods into Old Gods.
+- Make creep Gronn stronger.
+- Add vote "-builder".
+- Add vote "-nobuilder".
+- Use custom model with team color support for tent buildings.
+- Add race Union.
+- Add hero Ulysses S. Grant.
+- Refactor race system to simplify adding races.
+- Add hero Evoker.
+- Add learnable hero spell Tail Swipe.
+- Add learnable hero spell Jump Attack.
+- Add ChangeLog to quest log.
+- Allow changing player color in AI GUI.
+- Fix hero tavern pages names.
+- Add talk system.
+- Add talk to NPC Carsten.
+- Add custom model for item Staff of Silence.
+- Add custom model for item Staff of Negation.
+- Add custom model for item Mindstaff.
+- Add custom model for item Scepter of Humans.
+- Add custom model for item Scepter of Lordaeron.
+- Add custom model for item Scepter of Stormwind.
+- Add unit Undead Child.
+- Add hero Mace Windu.
+- Add learnable hero spell Reflection.
+- Fix allowing unit targets for ability Disassemble.
+- Improve tooltip for ability Disassemble.
+- Missing "or missing ingredients" in message "Out of stock".
+- Mention food costs in unit recipe tooltips.
+- Add item Lemon.
+- Add item Orange.
+- Add item Sleeping Bag.
+- Allow loading savecodes with the current amount of XP for your primary hero.
+- Update attribute points in UI on changing attribute skilling.
+- Add unit Child for Freelancer.
+- Fix return buildings for custom resources.
+- Add quest info Key Movement.
+- Support more keys in key movement.
+- Support moving right, left and down in key movement.
+- Fix buff of ability Disarmament.
+- Add custom model for buff Disarmament.
+- Fix buff of ability Scream.
+- Add custom model for buff Scream.
+- Add Brutosaur mount.
+- Fix hiding/showing all floating text tags on enabling/disabling the third person camera.
+- Third person camera works with transporters now.
+- Add item Quiver.
+- Fix tooltip of spell Preservation.
+- Give profession book items a custom model.
+- Add skin Customizable Hero.
+- Fix keeping custom attributes when replacing heroes.
+- Fix workers for custom resources when loaded by savecodes.
+- Add achievement War Criminal.
+- Add quest marker to Chen for Pandaren Quest 4.
+- Allow discovering Jaina's quest by completing Pandaren, Lich King, Forsaken and Naga quests.
+- Allow discovering quests by any hero.
+- Increase cooldown of hero spell Sentinel.
+- Do not allow marking item abilities which do not exist for profession Combiner.
+- Add item Smoke Signal Grenades.
+- Add item Arrows.
+- Cheat "-items" creates all known items now.
+- Fix checking for race none in race selection.
+- Add profession Hunter.
+- Add JASS function GetProfessionByTavernItemTypeId which simplifies adding new professions.
+- Add respawning critters to the map.
+- Add achievement Achievement Master.
+- Change icon of hero spell Master of Moria.
+- Hero spell Master of Moria uses timed life.
+- Remove limitation note from tooltip of building Research Tent.
+- Add custom icon for ability Fire Attack.
+- Fix ability Hardened Skin of unit Kor'gall.
+- Give unit Clefthoof mana.
+- Fix Fire Attack hero spell icons.
+- Add war club attachment to Gronn with War Club.
+- Change proper names of hero Flamebinder.
+- Change proper names of hero Wolf Rider.
+- Add custom icon to unit Ogre Drummer.
+- Add custom icon to unit Ogre Stone Thrower.
+- Fix icon positions of Ogre researches.
+- Add unit Ogre Child to race Ogre.
+- Replace Orb of Lightning with Orb of Fire for race Ogre.
+- Add research Reinforced Walls for rall races.
+- Wall buildings are affected by more researches now.
+- Remove food cost from heroes.
+- Add hero Kodo Beast.
+- Fix showing icon for slot 5 hero spells when spending all skill points.
+- Add achievement Oil Tycoon.
+- Use working alternative to I2S in AI scripts.
+- Fix order of hero spell Shrink.
+- Add cheat "-quests".
+- Fix tooltip of hero spell Strength Bonus.
+- Fix tooltip of hero spell Intelligence Bonus.
+- Fix detecting slot 4 on skilling hero spells.
+- Fix detecting a single selected unit for resources and skill points UIs.
+- Change order ID of ability Skill to avoid the same order ID as Druid Forms.
+- Support registering icon abilities for hero spells.
+- Update texts on Theramore.
+- Use new custom models for Pandaren buildings.
+- Building Great Pandaren Temple can be upgraded to Temple of Light and Temple of Darkness now.
+- Add hero Malorne.
+- Add learnable hero spell Forest Word.
+- Add chat command "-playername".
+- Chat command "-playercolor" works for AI players now.
+- Add missing chat commands to quest log.
+- Add item Saddle.
+- Fix hotkeys of hero spell Tornado.
+- Fix removing buffs on unlearning Aura hero spells.
+- Replace order ID "roar" with "spies" for ability Return Resources.
+- Remove gold and lumber cost from bonus hero Durotan.
+- Change color of damage floating text.
+- Add missing profession 3 and race 3 to player selection floating text.
+- Add learnable hero spell Mechanical Critter.
+- Add standard hero ability Rejuvenation.
+- Fix icon position of hero spell Spy.
+- Chat command "-resinfo" shows now which resources can be returned to the selected unit.
+- Make item Rocks perishable.
+- Fix hotkeys of hero spell Healing Spray.
+- Remove Moon Well effect of hero spell Replenish.
+- Add learnable hero spell Life Bonus.
+- Add learnable hero spell Mana Bonus.
+- Add hero Samurai.
+- Add missing research Spiked Shell to Pandaren building Storm Spire.
+- Fix hotkey of Pandaren ability Chain Lightning.
+- Fix dependency of Pandaren ability Chain Lightning.
+- Fix icon of buff for ability Disarmament.
+- Swap models of units Pandaren Citizen and Pandaren Woodcutter.
+- Add building Cannon Tower to race Pandaren.
+- Add building Guard Tower to race Pandaren.
+- Rename Pandaren building Lantern into Scout Tower.
+- Rename Pandaren building Arcane Lantern into Magic Tower.
+- Add missing research Hardned Skin to race Pandaren.
+- Ability Equal Attributes skills the primary and secondary attribute with remaining attribute points now.
+- Random mines will be placed after setting the theme of the game and consider the theme now.
+- Automatically skill to maximum levels when using ability Randomize with maximum hero level.
+- Add Pandaren research Bamboo Sticks.
+- Allow more unit targets as targets for gathering and returning custom resources.
+- Fix icon position of hero spell Elven Cloak.
+- Add custom functions for hero unskilling events to HeroUtils and fix corresponding triggers.
+- Fix race of Dummy Pig units to prevent summoning them as Mechanical Critter.
+- Remove stock delays for item Tome of Retraining.
+- Fix learn ability for hero spell Cyclone in slot 1.
+- Add ability Enable/Disable Gold Exchange to building Trading Post.
+- Add unit Spanish Conquistador to race Medieval.
