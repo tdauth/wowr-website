@@ -7,6 +7,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Fix GetHighestHeroLevel when hero levels 1 and 2 were equal." )
 	call Preload( "- Profession Golem Sculptor crafts Golems with more charges." )
 	call Preload( "- Improve race Old Horde." )
+	call Preload( "- Improve race Alliance of Lordaeron." )
 	call Preload( "- Add hero Gryphon Rider." )
 	call Preload( "- Add creep Earth Elemental." )
 	call Preload( "- Add creep Air Elemental." )
@@ -185,6 +186,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Fix race of Dummy Pig units to prevent summoning them as Mechanical Critter." )
 	call Preload( "- Remove stock delays for item Tome of Retraining." )
 	call Preload( "- Fix learn ability for hero spell Cyclone in slot 1." )
+	call Preload( "- Add ability Enable/Disable Gold Exchange to building Trading Post." )
+	call Preload( "- Add unit Spanish Conquistador to race Medieval." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
