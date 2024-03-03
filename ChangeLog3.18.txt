@@ -1,0 +1,100 @@
+- Fix Jaina quest 4.
+- Fix chat commands for enabling/disabling leaderboards in all 4 Jaina quests.
+- Improve website data.
+- Fix mount of hero Samurai.
+- Fix several boss tooltips.
+- Fix attribute points for customizable heroes on hero transformation.
+- Auto skill heroes when reaching maximum hero level.
+- Fix Ogre death animations on training after researching Ogre Strength.
+- Fix tooltip of research Resistant Skin for race Ogre.
+- Fix Ogre ability Fire Attack is only enabled after researching it.
+- Make Ogre ability Hurl Boulder weaker.
+- Useless item Clockwork Penguin is not randomly dropped anymore.
+- Fix tooltip of Ogre research Pulverize.
+- Hide idle worker button for custom race UIs when there are no idle workers.
+- Use custom model for Ogre unit Clefthoof.
+- Ogre citizens and children have ability Ogre.
+- Reduce hit points bonus from Ogre Strength.
+- Fix icon position of hero spell Attribute Bonus.
+- Fix icon position of hero spell Strength Bonus.
+- Fix icon position of hero spell Agility Bonus.
+- Fix icon position of hero spell Intelligence Bonus.
+- Add zone Argus.
+- Automatically disable crafting on unit deaths.
+- Add profession Cook.
+- Add creep Vigilant.
+- Add boss Imonar the Soulhunter.
+- Add equipment Throwing Axe.
+- Add attribute Stamina.
+- Add attribute Luck.
+- Add attribute Mystic.
+- Add attribute Charisma.
+- New system for registering start locations which shows paged start locations in tavern.
+- Add item Tiny Fruit Stand to shop Goblin Laboratory.
+- Add item Garlic.
+- Add item Meat.
+- Add profession Fisherman.
+- Add learnable hero spell D&D Duel.
+- Spell Mechanical Critter summons only 1 critter now but increases the stats and decreases the cooldown with every level.
+- Add creep Shark.
+- Flying Dummy Sheep is targeted as air now.
+- Add missing weapon sound to bonus hero Malorne.
+- Change model of building Fish School to make it selectable.
+- Change movement type of Fish Trap to Float.
+- Make Fish Trap no building anymore to make it it die at some point in time.
+- Building Fortified Ogre Mound requires Altar of War now.
+- Fix the effect of ability Enable/Disable Gold Exchange.
+- Add toggle button for multiboards to the top right of the screen.
+- Add idle summoned units button to the bottem left of the screen.
+- Fix crash on clicking on the building Ogre Arena by fixing the Gronn icon.
+- Add animation tag "upgrade" to unit Gronn with War Club.
+- Increase movement speed of unit Clefthoof.
+- Increase transport size of unit Gronn to 4.
+- Add Mercenary Camp (Sea) to Theramore.
+- Change races of Magical Frog and Magical Albatross to Other to not summon them with spell Mechanical Critter.
+- Improve race Eredar.
+- Add creep Wrathguard.
+- Add hero Mo'arg Overlord.
+- Add critter Talbuk.
+- Add mount Talbuk.
+- Add race Dragonkin.
+- Add more races for AI.
+- Add respawning item Flowers.
+- Add Eredar quests.
+- Fix index of backpack UI item tooltip.
+- Preview item model in backpack UI.
+- Fix spell Tail Swipe.
+- Add custom knock back type for spell Meteor.
+- Add creep Inquisitor.
+- Add creep Jailer.
+- Add profession Lumberjack.
+- Add resource Argunite.
+- Add random mine Argunite Mine.
+- Add ability Inferno to unit Legion Ship.
+- Add research Inferno to race Demon.
+- Add hero Jailer.
+- Add hero Gronn.
+- Replace model of building Sunwell.
+- Add achievement Conqueror.
+- Support AI for race Stormwind.
+- Improve race Murloc.
+- Support AI for race Murloc.
+- Add requirements to Naga researches.
+- Tuskarr race uses correct AI script now.
+- Rename building Vrykul Longhouse into Longhouse.
+- Spell Jump Attack causes damage now.
+- Fix resetting start locations for AI on using chat command "-aireset".
+- Add hero Lion Rider.
+- Add hero Eredar Annihilator.
+- Do not cut off strings for the website anymore.
+- Add hero Dragonspawn.
+- Add learnable hero spell Frost Bolt for slot 1.
+- Add learnable hero spell Frost Bolt for slot 2.
+- AI attacks with dragons from Dragon Roost building with the final waves now.
+- Support AI for race Medieval.
+- Support AI for race Union.
+- Simplify recreating AI town halls by using registered town hall unit types.
+- Simplify reviving AI heroes by using registered altar unit types.
+- Do not create boss icons by default.
+- Hero spell Magic Defense requires level 6 now.
+- Fix Murloc River Bank and Swarming buff effects.
