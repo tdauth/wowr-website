@@ -99,6 +99,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Support AI for race Union." )
 	call Preload( "- Simplify recreating AI town halls by using registered town hall unit types." )
 	call Preload( "- Simplify reviving AI heroes by using registered altar unit types." )
+	call Preload( "- Do not create boss icons by default." )
+	call Preload( "- Hero spell Magic Defense requires level 6 now." )
+	call Preload( "- Fix Murloc River Bank and Swarming buff effects." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

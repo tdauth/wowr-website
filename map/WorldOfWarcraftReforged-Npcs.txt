@@ -266,7 +266,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Jaina" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.3 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 

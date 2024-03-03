@@ -1282,7 +1282,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>BLazeKraze: BTNPandarenBambooStick</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Credits generated with chat command "-website". -->" )
-	call PreloadEnd( 0.0 )
+	call PreloadEnd( 0.1 )
 
 endfunction
 

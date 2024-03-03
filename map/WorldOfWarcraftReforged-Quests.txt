@@ -1414,7 +1414,7 @@ Since the dispelling of demonic " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Quests generated with chat command "-website". -->" )
-	call PreloadEnd( 0.4 )
+	call PreloadEnd( 0.1 )
 
 endfunction
 
