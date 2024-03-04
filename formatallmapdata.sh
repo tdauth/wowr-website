@@ -24,6 +24,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Achievements.txt ./achievements.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-HeroStandardAbilities.txt ./herostandardabilities.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Equipment.txt ./equipment.html
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-Attributes.txt ./attributes.html
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Skins.txt ./skins.html
 
 for f in ./map/WorldOfWarcraftReforged-Race-*
