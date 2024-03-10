@@ -24,6 +24,10 @@ a:visited {
     color: #ffaa00;
 }
 
+img {
+    color: #ffcc00;
+}
+
 
 .nav-item {
     font-size: 0.8em;
