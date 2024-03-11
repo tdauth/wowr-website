@@ -14502,9 +14502,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="items.html#I0TL">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp" width="64" height="64"" )
 	call Preload( "title="Tiny Town Hall"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Tiny Town Hall" )
 	call Preload( "<br/>" )
@@ -14512,9 +14512,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Creates a Town Hall at a target location." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp" width="64" height="64"" )
 	call Preload( "title="Tiny Town Hall - Click to see details."" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -24608,7 +24608,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 18.4 )
+	call PreloadEnd( 21.2 )
 
 endfunction
 

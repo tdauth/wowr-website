@@ -1,0 +1,22 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix Eredar quest 1." )
+	call Preload( "- Fix legendary item of Argus boss." )
+	call Preload( "- Item Scepter of Alliance of Lordaeron summons the correct workers now." )
+	call Preload( "- Item Tiny Town Hall of race Alliance of Lordaeron summons the correct building now." )
+	call Preload( "- Improve generated data from cheat "-website"." )
+	call Preload( "- Move dragons next to Orgrimmar to the north." )
+	call Preload( "- Unit Ogre-Mage of race Old Horde has mana now." )
+	call Preload( "- Ability Unholy Armor of race Old Horde gives an armor bonus now." )
+	call Preload( "- Troll Berserkers of race Old Horde have increased hit points, sight range and attack range now." )
+	call Preload( "- Old Horde Peons can build a Foundry now." )
+	call Preload( "- Add Grunt soundset from Warcraft II." )
+	call Preload( "- Remove unused function DestroyBackpackUI." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

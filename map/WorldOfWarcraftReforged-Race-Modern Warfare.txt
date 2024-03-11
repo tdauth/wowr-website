@@ -117,9 +117,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
 	call Preload( "</td>" )
-	call Preload( "<br/>" )
-	call Preload( "Summons:" )
-	call Preload( "<br/>" )
 	call Preload( "<td>" )
 	call Preload( "<table>" )
 	call Preload( "<tbody>" )
@@ -877,7 +874,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.9 )
+	call PreloadEnd( 4.2 )
 
 endfunction
 

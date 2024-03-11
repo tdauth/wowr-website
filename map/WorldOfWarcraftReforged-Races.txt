@@ -100,9 +100,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="items.html#I0TL">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp" width="64" height="64"" )
 	call Preload( "title="Tiny Town Hall"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -140,9 +140,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="items.html#I0TL">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp" width="64" height="64"" )
 	call Preload( "title="Tiny Town Hall"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHallWC2.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -1904,7 +1904,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 0.8 )
+	call PreloadEnd( 0.9 )
 
 endfunction
 
