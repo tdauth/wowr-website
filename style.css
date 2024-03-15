@@ -68,6 +68,6 @@ button {
     background-color: #5c6873;
 }
 
-.wowr-popover-wrapper:focus-within .wowr-popover, .wowr-popover-wrapper .wowr-popover:hover {
+.wowr-popover-wrapper:hover .wowr-popover, .wowr-popover-wrapper .wowr-popover:hover {
     display: block;
 }
