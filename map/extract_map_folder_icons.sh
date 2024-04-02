@@ -14,7 +14,7 @@ do
 
     if [ ! -f "$OUTPUT" ] ; then
         echo "$p"
-        ./wc3converter --oformat png "$OUTPUT" "$p"
+        ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
     fi
 done
 
@@ -24,6 +24,8 @@ do
 
     if [ ! -f "$OUTPUT" ] ; then
         echo "$p"
-        ./wc3converter --oformat png "$OUTPUT" "$p"
+        ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
     fi
 done
+
+wait
