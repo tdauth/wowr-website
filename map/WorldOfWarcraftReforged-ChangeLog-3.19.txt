@@ -74,6 +74,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add hero Fel Peon." )
 	call Preload( "- Add Fel skins for customizable heroes." )
 	call Preload( "- Fix hiding slot 5 spell icons before reaching hero level 75." )
+	call Preload( "- Add profession Warlock." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
