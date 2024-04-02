@@ -55,30 +55,36 @@ There is a number of chat commands in the map which should help you to do stuff:
 
 <!-- Chat Commands generated with chat command "-website". -->
 <ul>
-<li>"-help/-h": Lists chat commands.</li>
+<li>"-h/-help": Lists chat commands.</li>
 <li>"-helpping": Lists ping chat commands.</li>
 <li>"-helpclan": Lists clan chat commands.</li>
 <li>"-helpai": Lists AI chat commands.</li>
 <li>"-helpally": Lists alliance chat commands.</li>
+<li>"-helpcamera": Lists camera chat commands.</li>
 <li>"-helpvisual": Lists visual chat commands.</li>
+<li>"-helpsound": Lists sound chat commands.</li>
 <li>"-helpresources": Lists resources chat commands.</li>
-<li>"-clear/-c": Clears all screen messages.</li>
+<li>"-helpattributes": Lists attributes chat commands.</li>
+<li>"-c/-clear": Clears all screen messages.</li>
 <li>"-i/-info/-stats X": Shows info about player X (number, color, name).</li>
 <li>"-r/-revive": Selects your altar to revive your hero.</li>
-<li>"-discord": Shows the Discord server URL.</li>
+<li>"-d/-discord": Shows the Discord server URL.</li>
+<li>"-w/-website": Shows the website URL.</li>
 <li>"-h1/-h2/-h3": Allows you to (re)pick your heroes keeping their XP.</li>
-<li>"-p1/-p2": Allows you to (re)pick your professions only.</li>
-<li>"-r1/-r2": Allows you to (re)pick your races only.</li>
+<li>"-p1/-p2/-p3": Allows you to (re)pick your professions only.</li>
+<li>"-r1/-r2/-r3": Allows you to (re)pick your races only.</li>
 <li>"-repick": Allows you to choose a new hero but removes all of your units from the map!</li>
 <li>"-fullrepick": Lose 3/4 of your XP and Evolution but repick the game mode.</li>
 <li>"-unlock/-lock": Allows you to unlock everything in the map.</li>
 <li>"-nobossicons/-bossicons": Disables/enables Boss icons on the minimap.</li>
+<li>"-nostats/-stats": Disables/enables stats GUI.</li>
 <li>"-auto": Auto skills all heroes in selection.</li>
 <li>"-enchanter": Lists all items which can be enchanted.</li>
-<li>"-it"/"-items": Shows all backpack items.</li>
-<li>"-pi"/"-pickup": Picks up all items around the first hero.</li>
-<li>"-o"/"-order": Orders your backpack.</li>
+<li>"-it/-items": Shows all backpack items.</li>
+<li>"-pi/-pickup": Picks up all items around the first hero.</li>
+<li>"-o/-order": Orders your backpack.</li>
 <li>"-camlockon/off": Locks/unlocks the camera to the selected hero.</li>
+<li>"-camrpgon/off": Enables/disables the RPG camera for the selected hero.</li>
 <li>"-suicide": Kills your selected units.</li>
 <li>"-anim X": Plays animation X for all selected units.</li>
 <li>"-give <player number>": Allows you to give chosen units to an allied player.</li>
@@ -97,6 +103,8 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-pingl": Pings all legendary items which are on the ground.</li>
 <li>"-pingkeys": Pings all keys for dungeons which are visible to the player.</li>
 <li>"-pingaistarts": Pings all taken AI start locations.</li>
+<li>"-pingo": Pings all Obelisks.</li>
+<li>"-pingbosses/pingb/bosses": Pings all bosses.</li>
 <li>"-pinghuman": Pings the current Human quest locations on the minimap.</li>
 <li>"-pingnightelf": Pings the current Night Elf quest locations on the minimap.</li>
 <li>"-pingorc": Pings the current Orc quest locations on the minimap.</li>
@@ -106,15 +114,26 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-pingdraenei": Pings the current Draenei quest locations on the minimap.</li>
 <li>"-pingdemon": Pings the current Demon quest locations on the minimap.</li>
 <li>"-pingpanda": Pings the current Pandaren quest locations on the minimap.</li>
-<li>"-pingoldgods": Pings the current Old God quest locations on the minimap.</li>
+<li>"-pingjaina": Pings the current Jaina quest locations on the minimap.</li>
 <li>"-crusadeon/-crusadeoff": Enable/disable leaderboard.</li>
 <li>"-centaurson/-centaursoff": Enable/disable leaderboard.</li>
 <li>"-paladinson/-paladinsoff": Enable/disable leaderboard.</li>
 <li>"-draeneion/-draeneioff": Enable/disable leaderboard.</li>
+<li>"-oldgodson/off": Enables/disables leaderboard.</li>
+<li>"-invasionon/off": Enables/disables leaderboard.</li>
+<li>"-elementalon/off": Enables/disables leaderboard.</li>
+<li>"-wildon/off": Enables/disables leaderboard.</li>
 <li>"-aion/off X": Turn AI on/off for player X.</li>
+<li>"-aiignoreall X": Disable AI unit control for player X.</li>
+<li>"-aiignore": Disable AI unit control for all selected units.</li>
+<li>"-aiuse": Enable AI unit control for all selected units.</li>
 <li>"-aiattackson/off X": Turn AI player attacks on/off for player X.</li>
 <li>"-aishipsson/off X": Turn AI ships on/off for player X.</li>
 <li>"-aigold/wood X": Ask AI player X for gold/wood.</li>
+<li>"-aiexpansions X Y": Sets Y expansions for player X.</li>
+<li>"-aiinfo X": Shows information about player X.</li>
+<li>"-aitargeton/off X": Enables/disables AI attacking target for player X.</li>
+<li>"-aitarget X": Sets the AI target for player X to your hero 1 location.</li>
 <li>"-ffa": Free For All. Every player has his/her own team.</li>
 <li>"-lobby": Use lobby teams.</li>
 <li>"-friends": Ally all players.</li>
@@ -136,13 +155,16 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-loadp X": Loads the prestored savecode X.</li>
 <li>"-loadclanp X": Loads the prestored clan savecode X.</li>
 <li>"-save": Saves your hero and prints the savecode.</li>
-<li>"-savec": Saves your hero without info.</li>
+<li>"-savec"/"-s": Saves your hero without info.</li>
 <li>"-saveautoon/off": Enables/disables auto saving of your hero.</li>
 <li>"-savegui": Shows the GUI for savecodes.</li>
-<li>"-load XXX": Loads your hero from savecode XXX.</li>
+<li>"-asave": Saves all savecodes in the auto load file.</li>
+<li>"-aload": Loads all save codes from the auto load file.</li>
+<li>"-areset": Allows saving and loading automatic save codes.</li>
+<li>"-load X"/"-l X": Loads your hero from savecode X.</li>
 <li>"-savecheck XXX": Checks savecode XXX.</li>
 <li>"-loadres X": Loads your resources from savecode X.</li>
-<li>"-wrapup": Wraps all buildings into tiny items.</li>
+<li>"-generated": Lists all generated savecodes from the current game.</li>
 <li>"-passive": Passive mode against enemy players.</li>
 <li>"-bounty X Y Z": Sets a bounty of X gold and Y lumber on player Z.</li>
 <li>"-bounties": Shows all bounties on players.</li>
@@ -161,25 +183,52 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-goblindeposit": Shows your gold and lumber in the Goblin Bank.</li>
 <li>"-maxbosslevels": Increases the hero level of all bosses.</li>
 <li>"-e/-enchanter": Lists enchanting bonuses and items.</li>
+<li>"-n/-inscriptor": Lists inscription bonuses and spells.</li>
 <li>"-letter <to> <message>": Leaves a letter for a player or clan.</li>
 <li>"-mailbox": Lists all letters in your mailbox.</li>
 <li>"-dice X": Throws a dice with X numbers.</li>
 <li>"-host": Shows the host player of the game.</li>
 <li>"-vips": Lists all VIPs.</li>
+<li>"-enablevips": Enables VIPs.</li>
+<li>"-disablevips": Disables VIPs.</li>
 <li>"-gold X Y": Gives Y of your gold to player X.</li>
 <li>"-lumber X Y": Gives Y of your lumber to player X.</li>
+<li>"-raceui X": Changes the UI to race X.</li>
+<li>"-music X": Changes the UI to race X.</li>
+<li>"-musicreset": Resets the music to the lobby music.</li>
 <li>"-damageon/off": Enables/disable visual text for caused damage of your units.</li>
 <li>"-nobossicons/bossicons": Disables/enableds minimap boss icons.</li>
 <li>"-notomes/tomes": Disables/enableds tomes.</li>
 <li>"-resources X": Shows the resources of player X or your resources.</li>
 <li>"-resguion/-resgui": Shows the resource GUI.</li>
 <li>"-resguioff": Hides the resources GUI.</li>
-<li>"-sell X Y": Sells the amount Y of resource X for gold.</li>
-<li>"-sellall": Sells all resources for gold.</li>
-<li>"-buy X Y": Buys the amount Y of resource X for gold.</li>
+<li>"-give X Y Z": Gives the amount X of resource Y to player Z.</li>
+<li>"-ask X Y Z": Asks for the amount X of resource Y from allied Computer player Z.</li>
+<li>"-sell X Y": Sells the amount X of resource Y for gold.</li>
+<li>"-sellall/-sa": Sells all resources except gold and lumber for gold.</li>
+<li>"-sellwood/-sw": Sells all lumber for gold.</li>
+<li>"-buy X Y": Buys the amount X of resource Y for gold.</li>
 <li>"-resinfo/-resourcesinfo": Shows the resource information about the first selected unit.</li>
 <li>"-savecodes": Enables savecodes for all players.</li>
 <li>"-nosavecodes": Disables savecodes for all players.</li>
+<li>"-stats": Enables stats.</li>
+<li>"-nostats": Disables stats.</li>
+<li>"-legion": Enables The Burning Legion.</li>
+<li>"-nolegion": Disables The Burning Legion.</li>
+<li>"-soundsets": Enables custom unit sound sets.</li>
+<li>"-nosoundsets": Disables custom unit sound sets.</li>
+<li>"-achievements": Lists all available achievements with your score.</li>
+<li>"-str X": Skills X strength. Skills max strength if empty.</li>
+<li>"-agi X": Skills X agility. Skills max agility if empty.</li>
+<li>"-int X": Skills X intelligence. Skills max intelligence if empty.</li>
+<li>"-rename X": Renames selected heroes into X.</li>
+<li>"-builder": Creates a builder for player 1 red.</li>
+<li>"-nobuilder": Removes the builder from player 1 red.</li>
+<li>"-rename X": Renames selected heroes into X.</li>
+<li>"-scale X": Scales selected units to X.</li>
+<li>"-teamcolor X": Changes the team color of selected units to X.</li>
+<li>"-playercolor  X Y": Changes the color of player X into Y.</li>
+<li>"-playername X Y": Changes the name of player X into Y.</li>
 </ul>
 <!-- Chat Commands generated with chat command "-website". -->
 
