@@ -286,7 +286,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Locations generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.0 )
 
 endfunction
 
