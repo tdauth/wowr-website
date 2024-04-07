@@ -1,0 +1,111 @@
+- Fix Eredar quest 1.
+- Fix legendary item of Argus boss.
+- Item Scepter of Alliance of Lordaeron summons the correct workers now.
+- Item Tiny Town Hall of race Alliance of Lordaeron summons the correct building now.
+- Improve generated data from cheat "-website".
+- Move dragons next to Orgrimmar to the north.
+- Unit Ogre-Mage of race Old Horde has mana now.
+- Ability Unholy Armor of race Old Horde gives an armor bonus now.
+- Troll Berserkers of race Old Horde have increased hit points, sight range and attack range now.
+- Old Horde Peons can build a Foundry now.
+- Add Grunt soundset from Warcraft II.
+- Remove unused function DestroyBackpackUI.
+- Use custom UI for paged buttons to show more at once.
+- Reduce maximum hit points of boss Elune.
+- Fix function IsRaceBuilding for special buildings.
+- Automatically skill leveling AI heroes.
+- Register more hero spells.
+- Register more race data.
+- Add race Fel Orc.
+- Add hero Icecrown Overlord.
+- Add learnable hero spell Frost Bolt Rain.
+- Add item Wand of Telekinesis.
+- Add hero Tidesage.
+- Add race Faceless One.
+- Add hero Unbroken.
+- Naga buildings are not affected anymore by Improved Masonry from Blood Elf race.
+- Nage buildings are affected by Glyph of Fortification now.
+- Show item owner in tooltip of custom backpack UI.
+- Change order of teleport spell Pandaria for Freelancers from frostnova to spies.
+- Building Armory requires ground pathable now.
+- Rename building War Mill into Blacksmith for race Sauron's Forces.
+- Change model and icon of building Blacksmith for race Sauron's Forces.
+- Fix check for AI tier 3 for race Sauron's Forces.
+- Add tier 2 and 3 buildings to race Free People of Middle Earth.
+- Add research Backpack to race Free People of Middle Earth.
+- Fix memory leaks on creating AI units.
+- Item Spell Book is not dropped by creeps anymore.
+- Fish Schools have much more Meat now.
+- Add critter Raven.
+- Add critter Parrot.
+- Add hero General Vezax.
+- Spell Mass Transmute requires level 6.
+- Add intro cinematic.
+- Item Felling Axe causes more damage per hit to a tree and allows carrying more lumber.
+- Alchemist Lab does not include race None anymore.
+- Fix item Tiny Town Hall for race Human.
+- Add item Random Save Code.
+- Add hero Fel Warlock.
+- Add hero Fel Warlord.
+- Add hero Fel Crossbowman.
+- Add hero Kargath Bladefist.
+- Add learnable hero spell Mass Fel.
+- Add learnable hero spell Fel.
+- Add learnable hero spell Inner Fire.
+- Add learnable hero spell Mass Inner Fire.
+- Replace spell Healing Wave for hero Priest with spell Inner Fire.
+- Add mount Black Dragon.
+- Orc AI trains Child and Pet units now.
+- Add hero Ancient Hydra.
+- Add script which checks all AI scripts for syntax errors for future releases.
+- Fix AI scripts for races Freelancer, Gnome, Medieval, Stormwind, Eredar, Centaur and Tauren.
+- Add chat command "-w"/"-website".
+- Fix race Lordaeron for race selection.
+- Equipment items cannot be dropped by creeps anymore.
+- Play click sound for up and down buttons in AI players UI.
+- Add hero Raider.
+- Add hero Fel Raider.
+- Fix system UnitEventEx by replacing BlzGroupAddGroupFast with GroupAddGroup.
+- Improve performance in loaded mines system for custom resources.
+- Add hero Fel Peon.
+- Add Fel skins for customizable heroes.
+- Fix hiding slot 5 spell icons before reaching hero level 75.
+- Add profession Warlock.
+- Reduce cooldowns for profession craftings with higher hero levels.
+- Add custom icons for German WWII buildings.
+- Show info about chat command "-pingeredar".
+- Research Improved Masonry for Freelancers is available for Warlords should affect more buildings.
+- Move research Improved Masonry from building Freelancer Laboratory to Research Tent.
+- Glyph of Fortification affects more buildings.
+- Show special building 2 for races on the website.
+- Revise description of Draenei quest 4.
+- Add item Boots of Teleportation.
+- Add recipe Boots of Teleportation.
+- Remove Magic Sentry abilities from Dwarf towers.
+- Fix tooltips of Dwarf towers.
+- Fix abilities of creep Inquisitor.
+- Fix creating a Tauren Great Hall for Tauren AI.
+- Fix icon of item Tiny Great Hall of Trolls.
+- Fix Tiny Great Hall item sold by Tauren shop.
+- Add more researches to Troll AI.
+- Add AI script for race Ancient Greece.
+- Fix Tauren icon which caused a crash when clicking on building Spirit Lodge.
+- Fix AI mining for race Corrupted Ancients.
+- Fix memory leaks for AI automatic periodic triggers.
+- Add custom command buttons to have more space for other icons in the unit control UI.
+- Add custom command button for auto skilling a hero.
+- Improve the performance of JASS function AutoSkillHero.
+- Improve race Corrupted Ancients.
+- Add hero Ancient of Lore.
+- Add chat command "-ainone".
+- Add chat command "-aineutral".
+- Add chat command "-aicreep".
+- Add chat command "-aicomputer".
+- Add standard hero ability Root.
+- Rename race Corrupted Ancients into Satyr.
+- Fix JASS function IsUnitTypeNavyHero.
+- Fix hero level 30 requirement for many races.
+- Make less races require hero level 30.
+- Add creeps Phoenixes to Outland.
+- Add hero Satyr Trickster.
+- Add mount Phoenix.
