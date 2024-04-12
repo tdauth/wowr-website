@@ -24,7 +24,7 @@
 - Add race Faceless One.
 - Add hero Unbroken.
 - Naga buildings are not affected anymore by Improved Masonry from Blood Elf race.
-- Nage buildings are affected by Glyph of Fortification now.
+- Naga buildings are affected by Glyph of Fortification now.
 - Show item owner in tooltip of custom backpack UI.
 - Change order of teleport spell Pandaria for Freelancers from frostnova to spies.
 - Building Armory requires ground pathable now.
