@@ -28,7 +28,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add race Faceless One." )
 	call Preload( "- Add hero Unbroken." )
 	call Preload( "- Naga buildings are not affected anymore by Improved Masonry from Blood Elf race." )
-	call Preload( "- Nage buildings are affected by Glyph of Fortification now." )
+	call Preload( "- Naga buildings are affected by Glyph of Fortification now." )
 	call Preload( "- Show item owner in tooltip of custom backpack UI." )
 	call Preload( "- Change order of teleport spell Pandaria for Freelancers from frostnova to spies." )
 	call Preload( "- Building Armory requires ground pathable now." )
