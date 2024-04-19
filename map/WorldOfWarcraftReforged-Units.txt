@@ -52233,7 +52233,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Units generated with chat command "-website". -->" )
-	call PreloadEnd( 12.6 )
+	call PreloadEnd( 10.8 )
 
 endfunction
 

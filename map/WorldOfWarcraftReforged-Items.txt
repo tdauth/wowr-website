@@ -22551,7 +22551,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 19.6 )
+	call PreloadEnd( 17.9 )
 
 endfunction
 

@@ -3750,7 +3750,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 3.4 )
+	call PreloadEnd( 3.1 )
 
 endfunction
 

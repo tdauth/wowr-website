@@ -215,10 +215,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "Casts a ray which pulls target items to the hero." )
-	call Preload( "<br/>" )
-	call Preload( "<br/>" )
-	call Preload( "<div style="color: #ffcc00">Increases the pull speed " )
-	call Preload( "with every level.</div>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="A1MA">" )
@@ -313,7 +309,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Hero standard abilities generated with chat command "-website". -->" )
-	call PreloadEnd( 0.3 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 
