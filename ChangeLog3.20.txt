@@ -1,0 +1,82 @@
+- Generate Sacrificial Pit buildings on the website.
+- Fix generating unit bounty on the website.
+- Fix scepter item for race Galactic Empire.
+- Add cinematic Old Gods.
+- Add Eredar quest 2.
+- Add Eredar quest 3.
+- Add Eredar quest 4.
+- Add learnable hero spell Summon Ancient Hydra.
+- Add unit Revenant of the Tides to race Naga.
+- Fix tooltips of Naga tiers.
+- Add custom icon for Naga unit Coral Golem.
+- Fix dependencies of Naga researches.
+- Change icon of Naga Housing.
+- Replace item Orb of Fire with Orb of Wind for race Naga.
+- Change model and icon of hero Naga Royal Guard.
+- Increase damage of ulti spell Monsoon.
+- Increase mana cost of ulti spell Monsoon.
+- Add custom Ray system.
+- Add learnable hero spell Fire and Frost Ray.
+- Add learnable hero spell Loot Ray.
+- Add learnable hero spell Harvest Ray.
+- Add Skin Villager Female
+- Add standard hero ability Randomize Skin.
+- Add learnable hero spell Chain Ray.
+- Item Shimmerglaze Roast can be dropped by creeps now.
+- Add respawnable item Shimmerglaze Roast.
+- Add start location Azuremyst Isles.
+- Disabling AI changes flag which prevents AI loops.
+- Increase damage of spell Mass Death Coil.
+- Add learnable hero spell Resurrection Ray.
+- Add learnable hero spell Wind Ray.
+- Add learnable hero spell Water Ray.
+- Decrease delay between rocks for spell Summon Wall.
+- Add hero Arch Sorceress.
+- Add standard hero ability Loot Ray.
+- Fix tooltip of ability Fire Attack Icon.
+- Add learnable hero spell Black Arrow Attack.
+- Add learnable hero spell Frost Attack.
+- Fix mass spells by not using BlzGroupAddGroupFast anymore.
+- Fix spell Mass Illusion by including units of the caster.
+- Change the effect of Target Divine Shield to the new Divine Shield effect.
+- Remove learnable hero spell Spell Immunity since it is too powerful.
+- Move intro cinematic after autoloading character.
+- Do not store non-permanent text tags forever.
+- Add cinematic Invasion.
+- Add more Dimensional Gates to quest Invasion.
+- Fix memory leak in quest Invasion when summoning an Infernal.
+- Portals can have units and destructibles as destinations now.
+- Add color names to AI player settings.
+- Add hero Brood Mother.
+- Add cinematic Lich King.
+- Add cinematic Outro.
+- Heroes can be restricted to account names now.
+- Mounts can be restricted to account names now.
+- Add VIP hero Barade.
+- Add VIP mount Snowy Owl.
+- Replace Naga building Murloc Hut with Royal Vault.
+- Fix female Draenei texture.
+- Add hero Dark Val'kyr.
+- Add bonus hero Rokhan.
+- Add bonus hero Cairne.
+- Add bonus hero Rexxar.
+- Move hero Beastmaster to race Ogre.
+- Increase creep levels for hero spell Polymorph.
+- Add hero spell Polymorph as learnable hero spell.
+- Add learnable hero spell Inscription.
+- Refactor system TreeUtils.
+- Add missing tree types.
+- Fix summon unit effect for critters.
+- Rename Next/Previous Page in AI UI to Next/Previous Player.
+- Add learnable hero spell Envenomed Weapons.
+- Add learnable hero spell Summon Creep.
+- Add learnable hero spell Hex Ray.
+- Register AI script per race.
+- Add learnable hero spell Summon Succubus.
+- Add learnable hero spell Poison Ray.
+- Add learnable hero spell Charm Ray.
+- Add learnable hero spell Powerful Staff.
+- Add learnable hero spell Summon Uruk-Hai.
+- Add learnable hero spell Lightning Attack.
+- Rename Doom Guard of Sargeras into Doom Lord of Sargeras.
+- Add bonus hero Doom Lord.
