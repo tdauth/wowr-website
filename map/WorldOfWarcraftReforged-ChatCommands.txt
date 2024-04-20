@@ -68,6 +68,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-centaurson/-centaursoff": Enable/disable leaderboard.</li>" )
 	call Preload( "<li>"-paladinson/-paladinsoff": Enable/disable leaderboard.</li>" )
 	call Preload( "<li>"-draeneion/-draeneioff": Enable/disable leaderboard.</li>" )
+	call Preload( "<li>"-demonson/-demonsoff": Enable/disable leaderboard.</li>" )
 	call Preload( "<li>"-oldgodson/off": Enables/disables leaderboard.</li>" )
 	call Preload( "<li>"-invasionon/off": Enables/disables leaderboard.</li>" )
 	call Preload( "<li>"-elementalon/off": Enables/disables leaderboard.</li>" )
