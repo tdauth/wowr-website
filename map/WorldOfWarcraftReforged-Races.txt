@@ -2332,9 +2332,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="items.html#I0DC">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNHobbitHole.blp" width="64" height="64"" )
-	call Preload( "title="Tiny Hobbit Hole"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNHobbitHole.blp"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRohanTownHall1.blp" width="64" height="64"" )
+	call Preload( "title="Tiny Hall of Rohan"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRohanTownHall1.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -2431,9 +2431,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="items.html#I08O">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTownHall.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRepublicAssaultShip.blp" width="64" height="64"" )
 	call Preload( "title="Tiny Acclamator"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTownHall.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRepublicAssaultShip.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -2537,7 +2537,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 0.9 )
+	call PreloadEnd( 1.1 )
 
 endfunction
 

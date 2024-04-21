@@ -138,6 +138,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-maxbosslevels": Increases the hero level of all bosses.</li>" )
 	call Preload( "<li>"-e/-enchanter": Lists enchanting bonuses and items.</li>" )
 	call Preload( "<li>"-n/-inscriptor": Lists inscription bonuses and spells.</li>" )
+	call Preload( "<li>"-t/-trophies": Lists hunting trophies.</li>" )
 	call Preload( "<li>"-letter <to> <message>": Leaves a letter for a player or clan.</li>" )
 	call Preload( "<li>"-mailbox": Lists all letters in your mailbox.</li>" )
 	call Preload( "<li>"-dice X": Throws a dice with X numbers.</li>" )

@@ -45542,7 +45542,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 52.1 )
+	call PreloadEnd( 55.4 )
 
 endfunction
 
