@@ -43,6 +43,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add creep Green Dragon." )
 	call Preload( "- Add creep Red Drake." )
 	call Preload( "- Add creep Furbolg Tracker." )
+	call Preload( "- Add creep Black Dragon." )
+	call Preload( "- Add creep Satyr." )
+	call Preload( "- Add creep Satyr Trickster." )
+	call Preload( "- Add creep Enraged Wildkin." )
+	call Preload( "- Add creep Berserk Wildkin." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
