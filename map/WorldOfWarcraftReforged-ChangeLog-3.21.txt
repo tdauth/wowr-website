@@ -48,6 +48,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add creep Satyr Trickster." )
 	call Preload( "- Add creep Enraged Wildkin." )
 	call Preload( "- Add creep Berserk Wildkin." )
+	call Preload( "- Fix slot and hotkey for hero spell Breath of Fire for hero Anasterian Sunstrider." )
+	call Preload( "- Add custom icon for building Ice Troll Hut." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

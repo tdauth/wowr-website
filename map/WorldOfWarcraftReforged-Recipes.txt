@@ -77,9 +77,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "location if it has been discovered." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "<div style="color: #ffcc00">Requirements:" )
-	call Preload( "<br/>" )
-	call Preload( "- 6 Legendary Items</div>" )
+	call Preload( "<div style="color: #ffcc00">Requires 6 Legendary Items.</div>" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #808080">Drop the required items " )
@@ -2300,7 +2298,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.2 )
 
 endfunction
 
