@@ -27,7 +27,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-nobossicons/-bossicons": Disables/enables Boss icons on the minimap.</li>" )
 	call Preload( "<li>"-nostats/-stats": Disables/enables stats GUI.</li>" )
 	call Preload( "<li>"-auto": Auto skills all heroes in selection.</li>" )
-	call Preload( "<li>"-enchanter": Lists all items which can be enchanted.</li>" )
 	call Preload( "<li>"-it/-items": Shows all backpack items.</li>" )
 	call Preload( "<li>"-pi/-pickup": Picks up all items around the first hero.</li>" )
 	call Preload( "<li>"-o/-order": Orders your backpack.</li>" )

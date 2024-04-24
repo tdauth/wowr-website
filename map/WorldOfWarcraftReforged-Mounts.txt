@@ -2560,7 +2560,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Mounts generated with chat command "-website". -->" )
-	call PreloadEnd( 0.8 )
+	call PreloadEnd( 0.6 )
 
 endfunction
 
