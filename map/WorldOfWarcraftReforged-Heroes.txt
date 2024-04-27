@@ -12819,7 +12819,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "Cunning Hero, adept at maneuvering through battles. " )
-	call Preload( "Can learn Chain Lightning, Feral Spirit, Shadow Strike " )
+	call Preload( "Can learn Chain Lightning, Shadow Strike, Feral Spirit " )
 	call Preload( "and Reincarnation. " )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
@@ -24509,7 +24509,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Heroes generated with chat command "-website". -->" )
-	call PreloadEnd( 20.9 )
+	call PreloadEnd( 21.5 )
 
 endfunction
 

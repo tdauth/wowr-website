@@ -59,6 +59,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Register missing buildings for save codes." )
 	call Preload( "- Add ability Brilliance Aura to Witch Hut." )
 	call Preload( "- Add ability Black Arrow to Witch Hut." )
+	call Preload( "- Replace broken SD soundset FemaleSatyr with Satyr." )
+	call Preload( "- Add cheat "-heroskills"." )
+	call Preload( "- Add standard hero ability Ultravision." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
