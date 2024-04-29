@@ -62,6 +62,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Replace broken SD soundset FemaleSatyr with Satyr." )
 	call Preload( "- Add cheat "-heroskills"." )
 	call Preload( "- Add standard hero ability Ultravision." )
+	call Preload( "- Add custom icon for hero spell Mechanical Repair." )
+	call Preload( "- Change hero spells for hero Archimedes." )
+	call Preload( "- Add learnable hero spell Spade." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
