@@ -13,7 +13,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>40: Bonus heroes and 2 equipment bags.</li>" )
 	call Preload( "<li>45: Second hero and third profession.</li>" )
 	call Preload( "<li>50: Boss heroes.</li>" )
-	call Preload( "<li>55: Boss Fight Island.</li>" )
+	call Preload( "<li>55: Bonus mounts and Boss Fight Island.</li>" )
 	call Preload( "<li>60: Second race and 3 equipment bags.</li>" )
 	call Preload( "<li>65: Third hero and third race.</li>" )
 	call Preload( "<li>70: AI for yourself.</li>" )
