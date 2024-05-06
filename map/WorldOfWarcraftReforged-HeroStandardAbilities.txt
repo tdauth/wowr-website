@@ -214,6 +214,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Ultravision" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
+	call Preload( "The ability to see as far at night as they do during " )
+	call Preload( "the day." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="A1ZX">" )
