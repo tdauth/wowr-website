@@ -110,6 +110,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add bonus mount Demon Car Mount." )
 	call Preload( "- Add standard hero ability Speed Boost." )
 	call Preload( "- Allow registering maximum levels for standard hero abilities." )
+	call Preload( "- Change icon of hero spell Minigun Rage." )
+	call Preload( "- Change icons of Old Horde towers." )
+	call Preload( "- Fix models of Old Horde towers." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
