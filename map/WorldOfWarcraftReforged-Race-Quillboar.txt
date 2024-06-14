@@ -674,7 +674,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 1.8 )
+	call PreloadEnd( 1.7 )
 
 endfunction
 

@@ -89,6 +89,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add boss Gruul the Dragonkiller." )
 	call Preload( "- Add back bonus hero Sylvanas for race High Elf." )
 	call Preload( "- Add back bonus hero Thalorien Dawnseeker for race High Elf." )
+	call Preload( "- Add back bonus hero Jango Fett for race CIS." )
 	call Preload( "- Add skin Ranger." )
 	call Preload( "- Add skin Ancient of Lore." )
 	call Preload( "- Give hero spell Send to the Future 15 levels instead of 3." )
@@ -113,6 +114,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Change icon of hero spell Minigun Rage." )
 	call Preload( "- Change icons of Old Horde towers." )
 	call Preload( "- Fix models of Old Horde towers." )
+	call Preload( "- Add special building for race Gnome." )
+	call Preload( "- Add hero Boba Fett." )
+	call Preload( "- Add race Rebel Alliance." )
+	call Preload( "- Add hero Millennium Falcon." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
