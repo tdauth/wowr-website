@@ -118,6 +118,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add hero Boba Fett." )
 	call Preload( "- Add race Rebel Alliance." )
 	call Preload( "- Add hero Millennium Falcon." )
+	call Preload( "- Fix Gronn model." )
+	call Preload( "- Fix cleaning up effects for Sith light sabers on unit decay and removal." )
+	call Preload( "- Replace Jedi unit models with team colored models and attach light sabers as effects." )
+	call Preload( "- Automatically add limits for registered race unit types." )
+	call Preload( "- Register all Worgen researches." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
