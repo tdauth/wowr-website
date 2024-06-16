@@ -123,6 +123,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Replace Jedi unit models with team colored models and attach light sabers as effects." )
 	call Preload( "- Automatically add limits for registered race unit types." )
 	call Preload( "- Register all Worgen researches." )
+	call Preload( "- Add music Cantina Band to Record Player." )
+	call Preload( "- Fix AI autopicking professions and races at higher hero levels." )
+	call Preload( "- Show technology percentage in player info." )
+	call Preload( "- Add standard hero ability Select Turrets." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

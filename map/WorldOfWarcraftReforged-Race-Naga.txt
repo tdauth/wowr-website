@@ -54,9 +54,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="buildings.html#h00Q">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMurlocHut1.blp" width="64" height="64"" )
 	call Preload( "title="Naga Housing"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNMurlocHut1.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Naga Housing" )
 	call Preload( "<br/>" )
@@ -71,8 +71,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div style="color: #ffcc00">Limited to 4.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGenericCreepBuilding.blp"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMurlocHut1.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNMurlocHut1.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -1236,7 +1236,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.2 )
+	call PreloadEnd( 3.6 )
 
 endfunction
 
