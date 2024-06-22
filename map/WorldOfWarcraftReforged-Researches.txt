@@ -16046,9 +16046,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="researches.html#R0BV">" )
-	call Preload( "<img src="ReplaceableTexturesCommandButtons/BTNSlowPoison.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSlowPoison.blp" width="64" height="64"" )
 	call Preload( "title="Slow Poison"" )
-	call Preload( "alt="ReplaceableTexturesCommandButtons/BTNSlowPoison.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSlowPoison.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Slow Poison" )
 	call Preload( "<br/>" )
@@ -16058,8 +16058,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "over time." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTexturesCommandButtons/BTNSlowPoison.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTexturesCommandButtons/BTNSlowPoison.blp"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSlowPoison.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSlowPoison.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -17988,7 +17988,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 5.1 )
+	call PreloadEnd( 4.8 )
 
 endfunction
 
