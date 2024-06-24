@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#set -x #echo on
+
 FOLDER="./wowr.w3x"
 echo "Folder: $FOLDER"
 
@@ -13,8 +15,14 @@ do
     OUTPUT="../$(realpath --relative-to="$FOLDER" "$p")"
 
     if [ ! -f "$OUTPUT" ] ; then
-        echo "$p"
-        ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
+        extension="${p##*.}"
+        echo "$p with extension $extension into $OUTPUT"
+        if [ "$extension" = "dds" ]; then
+            # DDS is not yet supported by wc3lib.
+            convert "$p" "png:$OUTPUT" &
+        else
+            ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
+        fi
     fi
 done
 
@@ -23,8 +31,14 @@ do
     OUTPUT="../$(realpath --relative-to="$FOLDER" "$p")"
 
     if [ ! -f "$OUTPUT" ] ; then
-        echo "$p"
-        ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
+        extension="${p##*.}"
+        echo "$p with extension $extension into $OUTPUT"
+        if [ "$extension" = "dds" ]; then
+            # DDS is not yet supported by wc3lib.
+            convert "$p" "png:$OUTPUT" &
+        else
+            ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
+        fi
     fi
 done
 
