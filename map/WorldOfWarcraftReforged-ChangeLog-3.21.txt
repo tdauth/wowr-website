@@ -136,6 +136,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add equipment Knight Shield." )
 	call Preload( "- Improve race Terran." )
 	call Preload( "- Improve race Sauron's Forces." )
+	call Preload( "- Improve race Alliance of Lordaeron." )
+	call Preload( "- Add chat command "-cinrace X"." )
+	call Preload( "- Building Demon Shipyard has no Blight growth anymore." )
+	call Preload( "- Fix texture path of unit Elekk Knight." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
