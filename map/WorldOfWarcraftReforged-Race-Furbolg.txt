@@ -345,7 +345,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "50" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Building to train Green Drakes." )
+	call Preload( "Trains Green Drakes." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGreenDragonRoost.blp" width="64" height="64"" )
@@ -1083,7 +1083,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.1 )
+	call PreloadEnd( 2.7 )
 
 endfunction
 
