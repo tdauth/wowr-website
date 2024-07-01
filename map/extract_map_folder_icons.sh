@@ -21,7 +21,7 @@ do
             # DDS is not yet supported by wc3lib.
             convert "$p" "png:$OUTPUT" &
         else
-            ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
+            ./wc3converter --oformat png --outputo "\"$OUTPUT\"" -i "$p" &
         fi
     fi
 done
@@ -37,7 +37,7 @@ do
             # DDS is not yet supported by wc3lib.
             convert "$p" "png:$OUTPUT" &
         else
-            ./wc3converter --oformat png "\"$OUTPUT\"" "$p" &
+            ./wc3converter --oformat png --outputo "\"$OUTPUT\"" -i "$p" &
         fi
     fi
 done
