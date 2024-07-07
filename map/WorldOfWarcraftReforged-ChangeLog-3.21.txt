@@ -170,6 +170,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Register creep Gnoll Warden" )
 	call Preload( "- Register creep Gnoll Overseer." )
 	call Preload( "- Register creep Gnoll Assassin." )
+	call Preload( "- Add building Shipyard to Freelancer." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
