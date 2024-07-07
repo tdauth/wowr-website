@@ -18,6 +18,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-r/-revive": Selects your altar to revive your hero.</li>" )
 	call Preload( "<li>"-d/-discord": Shows the Discord server URL.</li>" )
 	call Preload( "<li>"-w/-website": Shows the website URL.</li>" )
+	call Preload( "<li>"-o/-download": Shows the download URL.</li>" )
 	call Preload( "<li>"-h1/-h2/-h3": Allows you to (re)pick your heroes keeping their XP.</li>" )
 	call Preload( "<li>"-p1/-p2/-p3": Allows you to (re)pick your professions only.</li>" )
 	call Preload( "<li>"-r1/-r2/-r3": Allows you to (re)pick your races only.</li>" )
