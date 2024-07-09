@@ -331,7 +331,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
-	call Preload( "<a href="buildings.html#u00K">" )
+	call Preload( "<a href="buildings.html#ushp">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNUndeadShipyard.blp" width="64" height="64"" )
 	call Preload( "title="Undead Shipyard"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNUndeadShipyard.blp"" )
@@ -1238,7 +1238,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.0 )
+	call PreloadEnd( 2.7 )
 
 endfunction
 

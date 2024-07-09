@@ -28,10 +28,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "205" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Primary structure, used to train Peasants and receive " )
-	call Preload( "gathered resources. Can be upgraded to Keep and then " )
-	call Preload( "Castle to enable the production of additional types " )
-	call Preload( "of structures and units." )
+	call Preload( "Primary structure, used to train Saboteurs and receive " )
+	call Preload( "gathered resources. Can be upgraded to Advanced Fort " )
+	call Preload( "and then Central Fort to enable the production of additional " )
+	call Preload( "types of structures and units." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNCastle1.blp" width="64" height="64"" )
@@ -813,7 +813,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 2.8 )
+	call PreloadEnd( 3.1 )
 
 endfunction
 
