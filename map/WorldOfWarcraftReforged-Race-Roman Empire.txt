@@ -261,12 +261,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
-	call Preload( "<a href="buildings.html#h0LZ">" )
+	call Preload( "<a href="buildings.html#h0G6">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNAncientShipyard.blp" width="64" height="64"" )
-	call Preload( "title="Dock"" )
+	call Preload( "title="Roman Shipyard"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNAncientShipyard.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "Dock" )
+	call Preload( "Roman Shipyard" )
 	call Preload( "<br/>" )
 	call Preload( "160" )
 	call Preload( "<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />" )
@@ -283,7 +283,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</button>" )
 	call Preload( "</div>" )
 	call Preload( "<br/>" )
-	call Preload( "Dock" )
+	call Preload( "Roman Shipyard" )
 	call Preload( "<br/>" )
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
@@ -1091,7 +1091,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 4.5 )
+	call PreloadEnd( 5.0 )
 
 endfunction
 

@@ -24,6 +24,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-r1/-r2/-r3": Allows you to (re)pick your races only.</li>" )
 	call Preload( "<li>"-repick": Allows you to choose a new hero but removes all of your units from the map!</li>" )
 	call Preload( "<li>"-fullrepick": Lose 3/4 of your XP and Evolution but repick the game mode.</li>" )
+	call Preload( "<li>"-g/-get": Recreates hero profession and race items.</li>" )
 	call Preload( "<li>"-unlock/-lock": Allows you to unlock everything in the map.</li>" )
 	call Preload( "<li>"-nobossicons/-bossicons": Disables/enables Boss icons on the minimap.</li>" )
 	call Preload( "<li>"-nostats/-stats": Disables/enables stats GUI.</li>" )

@@ -455,9 +455,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "150" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Trains Gryphon Riders, and Dragonhawk Riders. " )
-	call Preload( "<br/>" )
-	call Preload( "Also contains the Storm Hammers and Cloud upgrades." )
+	call Preload( "Trains Gryphon Riders." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGryphonAviary.blp" width="64" height="64"" )
@@ -1199,7 +1197,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.2 )
+	call PreloadEnd( 3.8 )
 
 endfunction
 
