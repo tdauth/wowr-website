@@ -48,6 +48,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-pingm": Pings all of your mounts.</li>" )
 	call Preload( "<li>"-pingportals": Pings all of your and allied portals.</li>" )
 	call Preload( "<li>"-pinggoldmines": Pings all goldmines.</li>" )
+	call Preload( "<li>"-pingpropertes": Pings all properties.</li>" )
 	call Preload( "<li>"-pingdragons": Pings all Dragon Roosts.</li>" )
 	call Preload( "<li>"-pingl": Pings all legendary items which are on the ground.</li>" )
 	call Preload( "<li>"-pingkeys": Pings all keys for dungeons which are visible to the player.</li>" )

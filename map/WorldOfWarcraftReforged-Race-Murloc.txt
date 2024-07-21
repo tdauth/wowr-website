@@ -164,8 +164,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "70" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Trains Naga Sirens and Couatl. Also contains spell " )
-	call Preload( "upgrades for Naga Sirens and Couatl." )
+	call Preload( "Trains Murloc Tiderunners, Murloc Huntsmen and Murloc " )
+	call Preload( "Flesheaters." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMurlocBarrack.blp" width="64" height="64"" )
@@ -414,8 +414,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "60" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Trains Naga Myrmidons, Snap Dragons, and Dragon Turtles. " )
-	call Preload( "Also contains the Ensnare upgrade." )
+	call Preload( "Trains Snap Dragons, Dragon Turtles, and Sea Giants. " )
+	call Preload( "Also contains the Murloc Eggs upgrade." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNMurlocHatchlingGround.blp" width="64" height="64"" )
@@ -1120,7 +1120,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.2 )
+	call PreloadEnd( 3.8 )
 
 endfunction
 
