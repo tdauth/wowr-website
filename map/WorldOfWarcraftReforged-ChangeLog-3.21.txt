@@ -217,6 +217,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add item Glowing Mushrooms." )
 	call Preload( "- Add item Kobold Candle." )
 	call Preload( "- Fix icon of item Tiny Gathering Hall." )
+	call Preload( "- Add chat command "-aieasy X"." )
+	call Preload( "- Add chat command "-ainormal X"." )
+	call Preload( "- Add chat command "-aihard X"." )
+	call Preload( "- Add chat command "-aiinsane X"." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

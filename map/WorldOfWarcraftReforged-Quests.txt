@@ -966,7 +966,7 @@ Since the dispelling of demonic " )
 	call Preload( "<tr id="DraeneiQuest4">" )
 	call Preload( "<td data-order="28">" )
 	call Preload( "<a href="#DraeneiQuest4">" )
-	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" title="ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp" />" )
+	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" title="ReplaceableTextures\\CommandButtons\\BTNDemonGate.blp" />" )
 	call Preload( "</a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -1552,7 +1552,7 @@ Since the dispelling of demonic " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Quests generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 
