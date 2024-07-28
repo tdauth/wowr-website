@@ -297,15 +297,17 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
-	call Preload( "<a href="buildings.html#oshy">" )
+	call Preload( "<a href="buildings.html#o009">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGoblinShipyard.blp" width="64" height="64"" )
 	call Preload( "title="Orc Shipyard"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGoblinShipyard.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Orc Shipyard" )
 	call Preload( "<br/>" )
-	call Preload( "50" )
+	call Preload( "160" )
 	call Preload( "<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />" )
+	call Preload( "60" )
+	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
 	call Preload( "Boat construction facility. Produces Orc Transport " )
 	call Preload( "Ships, Orc Frigates, and Orc Battleships." )
@@ -1158,7 +1160,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 4.1 )
+	call PreloadEnd( 6.8 )
 
 endfunction
 

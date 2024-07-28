@@ -266,6 +266,18 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Velen (Argus)" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
+	call Preload( "<tr id="N0CZ">" )
+	call Preload( "<td>" )
+	call Preload( "<a href="#N0CZ">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTuskaarBlack.blp" width="64" height="64"" )
+	call Preload( "title="Tuskarr Chieftain"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTuskaarBlack.blp"" )
+	call Preload( "/></a>" )
+	call Preload( "</td>" )
+	call Preload( "<td>" )
+	call Preload( "Elder Ko'nani" )
+	call Preload( "</td>" )
+	call Preload( "</tr>" )
 	call PreloadEnd( 0.2 )
 
 endfunction
