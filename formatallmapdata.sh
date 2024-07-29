@@ -36,6 +36,14 @@ do
     ./formatmapdata.sh "$f" "./$o.html" &
 done
 
+for f in ./map/WorldOfWarcraftReforged-ChangeLog-*
+do
+    o=${f##*-}
+    o=${o%.txt}
+    ././formatmapdatachangelog.sh "$f" "./ChangeLog$o.txt" &
+done
+
+
 # tidy \
 #    -indent \
 #    --indent-spaces 2 \
