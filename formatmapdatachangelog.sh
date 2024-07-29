@@ -15,7 +15,7 @@ cat "$TXT_FILE" \
 | sed 's/endfunction//' \
 | sed 's/\tcall PreloadEnd( .* )//' \
 | sed 's/<!--.*-->//' \
-| sed 's/\\/\/' \
 | sed -r '/^\s*$/d' \
 | sed '/^$/d' \
+| strings \
 > "$OUTPUT_FILE"
