@@ -1,0 +1,241 @@
+- Add creep Explosive Barrel.
+- Add learnable hero spell Summon Djinn.
+- Fix reacting to changing player color popup menu in AI UI.
+- Fix effect of item Demon Slayer.
+- Add custom icon for Explosive Barrel.
+- Add custom icon for spell Inscription.
+- Add learnable hero spell Demoralize.
+- Add learnable hero spell Parry.
+- Fix hero spell Water Ray for slot 1.
+- Prevent Charm for all Neutral Hostile units in player selection.
+- Fix tooltip of hero spell Fire and Frost Ray.
+- Add Random Mine to Azuremyst Isle.
+- Add Lever Gate and Bridge to Azuremyst Isle.
+- Add NPC Velen to Azuremyst Isle.
+- Open gate at Azuremyst Isle.
+- Eredar tier 1 - 3 buildings train Male Citizens now.
+- Add hero Ancient Sasquatch.
+- Add hero Ancient Wendigo.
+- Add cheat "-creeps".
+- Fix position of Fountain of Power in player selection.
+- Increase scaling of hero Brood Mother.
+- Start at page 0 in player selection taverns.
+- Fix standard hero ability Loot Ray.
+- Fix aiming with mouse for Fire and Frost Ray by using AngleBetweenCoordinatesDeg.
+- Change icon of building Acclamator.
+- Support all items from Goblin Merchant in savecodes.
+- Support all trophy items in savecodes.
+- Change owners of Dalaran Mutants creeps to Neutral Hostile.
+- Improve race Free People of Middle Earth.
+- Remove duplicated unit Raccoon from save codes.
+- Add Raccoons to the map which can be hunted.
+- Add chat command "-t/-trophies".
+- Bear Traps lead to hunting trophies.
+- Hunting Dogs can cast Track now.
+- Fix Crab Shell trophies dropping from Crabs.
+- Fix model of hero Golden Val'kyr.
+- Add creep Harpy Windwitch.
+- Add creep Centaur Archer.
+- Add creep Green Dragon.
+- Add creep Red Drake.
+- Add creep Furbolg Tracker.
+- Add creep Black Dragon.
+- Add creep Satyr.
+- Add creep Satyr Trickster.
+- Add creep Enraged Wildkin.
+- Add creep Berserk Wildkin.
+- Fix slot and hotkey for hero spell Breath of Fire for hero Anasterian Sunstrider.
+- Add custom icon for building Ice Troll Hut.
+- Remove food cost from bonus hero Gul'dan.
+- Add hero Captain.
+- Replace hero spell Sentry Ward with Mana Ward for hero Witch Doctor.
+- Remove old hero spells from World of Warcraft Reborn.
+- Move Mannoroth's Reincarnation hero spell to slot 3.
+- Fix requirements of cook recipes.
+- Register missing buildings for save codes.
+- Add ability Brilliance Aura to Witch Hut.
+- Add ability Black Arrow to Witch Hut.
+- Replace broken SD soundset FemaleSatyr with Satyr.
+- Add cheat "-heroskills".
+- Add standard hero ability Ultravision.
+- Add custom icon for hero spell Mechanical Repair.
+- Change hero spells for hero Archimedes.
+- Add learnable hero spell Spade.
+- Fix picking up items into the hero's backpack when the inventory is full.
+- Redirect some orders issued to the backpack to the hero.
+- Do not add command buttons to backpacks.
+- Add special building for race Satyr.
+- Satyr research Nature's Blessing affects tier 1-3 now.
+- Add equipment Wolf Spirit Hood.
+- Add equipment Infernal Destroyer.
+- Use new op limit when adding all heroes to the tavern to avoid issues.
+- Update system PagedButtons to version 1.5
+- Add random buttons to the taverns of the player selection.
+- Remove Random Tavern from player selection.
+- Remove unused Tavern buildings from object data.
+- JASS function PlayerCanBuyHero checks for bonus heroes now.
+- Add skin Furbolg Ursa Warrior.
+- Add skin Sorceress.
+- Add skin Captain.
+- Use custom icon for hero U. S. General.
+- Use custom hero spell Divine Shield for hero U. S. General.
+- Add learnable hero spell Sting.
+- Add learnable hero spell Oathbreakers.
+- Add learnable hero spell Horn of Gondor.
+- Add boss Gruul the Dragonkiller.
+- Add back bonus hero Sylvanas for race High Elf.
+- Add back bonus hero Thalorien Dawnseeker for race High Elf.
+- Add back bonus hero Jango Fett for race CIS.
+- Add skin Ranger.
+- Add skin Ancient of Lore.
+- Give hero spell Send to the Future 15 levels instead of 3.
+- Function IsRaceUnit uses ship, Tauren and Dragonhawk types.
+- Add learnable hero spell Christmas Creatures.
+- Add boss Al'ar to Outland.
+- Add neutral passive building Phoenix Roost to Outland.
+- Add custom Phoenix Egg abilities for Ancient Phoenix and creep Phoenix.
+- Add learnable hero spell Phoenix Egg.
+- Add missing tooltip to creep Phoenix.
+- Add creep Lesser Thunder Phoenix.
+- Add creep Thunder Phoenix.
+- Add creep Greater Thunder Phoenix.
+- Add hero Monk.
+- Bonus mounts require hero level 55.
+- Add bonus mount Dwarf Car Mount.
+- Add bonus mount Orc Car Mount.
+- Add bonus mount Undead Car Mount.
+- Add bonus mount Demon Car Mount.
+- Add standard hero ability Speed Boost.
+- Allow registering maximum levels for standard hero abilities.
+- Change icon of hero spell Minigun Rage.
+- Change icons of Old Horde towers.
+- Fix models of Old Horde towers.
+- Add special building for race Gnome.
+- Add hero Boba Fett.
+- Add race Rebel Alliance.
+- Add hero Millennium Falcon.
+- Fix Gronn model.
+- Fix cleaning up effects for Sith light sabers on unit decay and removal.
+- Replace Jedi unit models with team colored models and attach light sabers as effects.
+- Automatically add limits for registered race unit types.
+- Register all Worgen researches.
+- Add music Cantina Band to Record Player.
+- Fix AI autopicking professions and races at higher hero levels.
+- Show technology percentage in player info.
+- Add standard hero ability Select Turrets.
+- Add bonus hero Qui-Gon Jinn.
+- Add Star Wars skins.
+- Add attribute Thief.
+- Mention light saber chat commands in quest log.
+- Add equipment Extra Light Saber.
+- Add equipment Metal Boots.
+- Add equipment Knight Shield.
+- Improve race Terran.
+- Improve race Sauron's Forces.
+- Improve race Alliance of Lordaeron.
+- Add chat command "-cinrace X".
+- Building Demon Shipyard has no Blight growth anymore.
+- Fix texture path of unit Elekk Knight.
+- Add custom icons for many models based on screenshots.
+- Vrykul race can train Human ships now.
+- Fix number of maximum races by starting with 0 and not 1.
+- Devour Cargo ability stays now with hero even after transformations.
+- Use custom icons for Blood Elf researches.
+- Add Child unit to many races.
+- Make Goblin Tunnels Waygates to simplify the whole concept.
+- Disable Dwarf railroad system.
+- Add building Fel Orc Shipyard.
+- Add building Nerubian Shipyard.
+- Add profession Thief.
+- Remove Thief items from Goblin Merchant.
+- Change effect of item and spell Pickpocketing.
+- Add hero Razomane Chieftain.
+- Add hero Vampire.
+- Prevent double fade after skipping a cinematic.
+- Decrease shadow size of Harvest Carts.
+- Fix bounty for Gnome research Inventions.
+- Fix profession bonuses for extra crafted items and units.
+- Register creep Blood Wizard.
+- Register creep Defender Golem.
+- Register creep Guardian Golem.
+- Register creep Moss Covered Granite Golem.
+- Register creep Flesh Golem.
+- Register creep Gnoll Poacher.
+- Register creep Gnoll.
+- Register creep Gnoll Brute.
+- Register creep Gnoll Warden
+- Register creep Gnoll Overseer.
+- Register creep Gnoll Assassin.
+- Add building Shipyard to Freelancer.
+- Add cheat "-savecodemissing".
+- Place more chests on the map.
+- Professions allow crafting more than 1 item or unit per rank.
+- Add purchasable properties.
+- Scale down some neutral buildings.
+- Add missing Goblin Laboratory to start location Argus.
+- Add missing Goblin Merchant to start location Thunder Bluff.
+- Add profession Chronomancer.
+- Remove some neutral buildings from Goblin Bank Island.
+- Remove Taxi system.
+- Move neutral buildings from Goblin Bank Island to Theramore.
+- Add chat command "-g/-get".
+- Recipe Craft Potion of Healing does not require any tier anymore.
+- Recipe Craft Potion of Mana does not require any tier anymore.
+- Add recipe Craft Potion of Greater Healing.
+- Add recipe Craft Potion of Greater Mana.
+- Add recipe Craft Potion of Invisibility.
+- Add recipe Craft Potion of Greater Invisibility.
+- Add start location Icecrown Citadel.
+- Add start location Silvermoon.
+- Add start location Sunstrider Isle.
+- Add start location Thunder Buff.
+- Add start location Outland Black Citadel.
+- Add start location Outland Illidan's Camp.
+- Add hero Sludge Monstrosity.
+- Add custom icons for Demon race researches.
+- Add hero Salamander Lord.
+- Add quest "Defeat Archimonde".
+- Fix Tuskarr AI script.
+- Add chat command "-pingproperties".
+- Improve crafting system.
+- Fix model of item Potion of Invulnerability.
+- Add skin Ogre Warrior.
+- Add skin Ogre Magi.
+- Add skin Ogre Lord.
+- Add skin Gronn.
+- Add skin Thane.
+- Add skin Flamebinder.
+- Add skin Wolf Rider.
+- Add skin Nerubian Queen.
+- Add skin Giant Skeleton.
+- Add skin Skin Sludge Monstrosity.
+- Add skin Salamander Lord.
+- Add item Potion of Lesser Invulnerability to the VIP room.
+- Add item Glowing Mushrooms.
+- Add item Kobold Candle.
+- Fix icon of item Tiny Gathering Hall.
+- Add chat command "-aieasy X".
+- Add chat command "-ainormal X".
+- Add chat command "-aihard X".
+- Add chat command "-aiinsane X".
+- Add NPC Elder Ko'nani.
+- Add resource Fel.
+- Add chat command "-helpsave".
+- Add chat command "-b/-bans".
+- Add start location Kezan.
+- Add NPC Monte Gazlowe.
+- Rename Clan Meeting Point into Clan Shop.
+- Revise Clan Shop system.
+- Add item Clan Pandaren Banner.
+- Add item Clan Dwarf Banner.
+- Add item Clan Gnome Banner.
+- Make primary attribute of hero Ogre Magi intelligence.
+- Make primary attribute of hero Monk intelligence.
+- Add achievement Landowner.
+- Add learnable hero spell Summon Ship.
+- Add standard hero ability Summon Ship.
+- Add standard hero ability Summon Submarine.
+- Add mount Ship.
+- Add mount Submarine.
+- Add learnable hero spell Summon Red Dragon.
+- Add item Mushroom.
