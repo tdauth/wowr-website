@@ -9,7 +9,6 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Units.txt ./units.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Spells.txt ./spells.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Items.txt ./items.html &
-./formatmapdata.sh ./map/WorldOfWarcraftReforged-Buildings.txt ./buildings.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Npcs.txt ./npcs.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Quests.txt ./quests.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Researches.txt ./researches.html &
