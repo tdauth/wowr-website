@@ -30,6 +30,7 @@ img {
 
 .highlighted {
     color: #ffcc00;
+    font-weight: bold;
 }
 
 .nav-item {
