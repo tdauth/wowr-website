@@ -28,6 +28,9 @@ img {
     color: #ffcc00;
 }
 
+.highlighted {
+    color: #ffcc00;
+}
 
 .nav-item {
     font-size: 0.8em;
