@@ -1,0 +1,236 @@
+- Fix number of Adventurers in the map description.
+- Add cheat "-savegui".
+- Add more unit, building, item and research  types for savecodes.
+- Fix defense type for Turtle Shell item.
+- Increase death time of creep/boss heroes to avoid their permanent removal from the game.
+- Disease Cloud of Corrupted Ancient Protector does not require a research anymore.
+- Recreate Furbolg Tribal Center on AI destruction.
+- Do not remove Sargeras for non-Boss players on death.
+- Set mana cost for all levels of Mirror Image to 80 which was 125 from level 4.
+- Fix effect of item Amulet of Martial Arts and remove Unique from its tooltip.
+- Add new boss Spider Crab Behemoth.
+- Rename Sea Giant boss to King Deepbeard.
+- Reveal certain neutral buildings to Freelancers.
+- Show hero journey messages with colors, sound and in correct order when leveling up.
+- Increase Archimonde's hero level to 150 and the level of his Dreadlords to level 60.
+- Disable hero level up for Mirror Image of bosses because of Evolution.
+- Move town halls of The Alliance next to the goldmines.
+- Add line break to the defeat message.
+- Translate victory message into English.
+- Add chat command "-wrapup" which converts all buildings into tiny items.
+- More general approach nor not picking up items which do not belong to your races.
+- Add portal to and from Alliance island.
+- Change color of portal to Archimonde to the The Burning Legion player color.
+- Add portal to and from Boss Fight Island.
+- Add chat command "-passive" for a passive mode against enemy players.
+- Engineer Ships can build Haunted Water Gold Mines.
+- Engineer Ships can place Goblin Water Mines.
+- Increase stock number and decrease stock delay for Engineer Ships.
+- Haunted Water Gold Mines can train ships and Sky Barges.
+- Add research Improved Air Transport to the Power Generator.
+- Add Mercenary Camp from the Future to the Boss Fight Island.
+- Increase hitpoints and mana bonus from 50 625473446754631251040 60  3038375642219086486078533635037507546239164094730181165556091786292570720206655214639820798923376777359735400418329813753440851866726687549919569200496434683409386445369292655427584.000000o
+- Increase hero ability levels to 100.
+- Show the percentage in the tooltip of Brilliance Aura.
+- Increase hero level of Archimonde to 500 which is the maximum hero level skill points can be spent.
+- Remove irritating boss marker at mages creep spot in Lordaeron.
+- Add new boss Mathog.
+- Allow deactivating Divine Shield.
+- Reduce cooldown and duration of Divine Shield.
+- Add new boss Gul'dan.
+- Simplify triggers to drop legendary artifacts on hero deaths.
+- Add JASS function AssignAllUnitsToCurrentGroup to assign all units at once to a creep respawn group.
+- Add global unit group variable udg_CurrentRespawnGroup to add all respawning creeps to it.
+- Replace useless Embassy of Theramore with an Arcane Academy of Theramore selling mana-related items.
+- Remove useless Tavern of Theramore.
+- Add new island next to Maelstrom with new boss Sea Witch.
+- Play Naga or Blood Elf Theme if you choose the corresponding races.
+- Reduce the number of air units and increase the number of ground units for Demon/TBL AIs.
+- Add new boss Avatar of Sargeras with legendary item which can convert units to different races.
+- Fix worker counter in stats when using Charm.
+- Add more unit and building types for savecodes.
+- New race Goblins.
+- Add save code for researches and chat command "-loadr XXX" to load it.
+- Allow voting for Only Freelancers for AI in the beginning.
+- Generate dragon units and good items savecodes with cheats.
+- Replace Tier 1-3 equivalent texts with "Tier 1", "Tier 2" and "Tier 3" instead of listing all town halls.
+- New island Kezan with boss Rumblefitz.
+- Allow disabling AI The Burning Legion and The Alliance via votes in the beginning.
+- Add chat command "-racerepick" to repick your first race as Warlord.
+- Add Hall of Fame floating text to hero selection.
+- Add building type Research Tent for all races with important researches to save icon space in tier 3 buildings.
+- Fix hotkeys for bonus hero Medivh.
+- Add chat command "-savec" to generate savecodes into files without printing information for a long time.
+- Remove weather effect from hidden island.
+- Add learn hotkey to ability Summon Sea Elemental of bonus hero Admiral Proudmoore.
+- Remove message "Upgraded Evolution.".
+- Reduce Demon Housing model scale to make build area visible.
+- Let Naga AI build special building.
+- Add more Hidden Bases.
+- Add chat command "-saveautoon/off" and auto save the hero every 10 minutes.
+- Adapt Warlord and Freelancer descriptions.
+- Add portals to different boss islands on the sea.
+- Always summon Sunken Ruin mercenaries for Freelancers when the regions are unknown.
+- Fix respawning The Alliance AI at the correct start location.
+- Add chat command "-help/-h" to list all chat commands.
+- Becoming a demigod requires a Nether Dragon.
+- Add chat command "-pingdragons" to ping all Dragon Roosts.
+- Power Generator causes damage in area of boss Gul'dan.
+- Add secret combination to enter Gul'dan's dungeon.
+- Add treasure with trap to Gul'dan's dungeon.
+- Fix hero revival for Furbolg AI.
+- Support more heroes for Freelancer AI.
+- Add leaderboards quest log entry from the original Reborn map.
+- Invisibility and Berserk have 100 levels now and are set to the hero's level up to level 100.
+- Both Pit Lords in Outland carry an Orb of Fire now to attack air units.
+- Initial Towers of the Arcane Academy of Theramore allow changing hero abilities.
+- Add fixed Computer player Gaia who provides some units on the map which can be rescued.
+- Add research Improved Navy for all races.
+- Human, Night Elf and Undead ships are affected by Evolution now.
+- Added shipyards to The Alliance for initial navy AI support.
+- Fix soundset of Nether Dragon boss.
+- Use the hero proper name of bosses in the message for all players when defeating them.
+- Add build blockers to the Outland portals area.
+- The Alliance and Blood Elf AI build special building Magic Vault.
+- Reset hero level researchs on full repick.
+- Try to fix alliance change reaction by AI players by swapping player parameters.
+- Add Water Waygates.
+- Allow Engineer Ships to build Portals on water.
+- Do not allow to load save objects which do not belong to your race.
+- Decrease the save code IDs by splitting them up into units, buildings, items and researches.
+- Increase maximum level of research Evolution from 100 to 1000.
+- Do not increase the area of effect for War Stomp with each level to avoid lags.
+- Disable AI special players by default to avoid crashes.
+- Move creep dragons further away from the Orgrimmar start location.
+- Add chat command "-pingkeys" to ping all keys which are not in black mask for a player.
+- Replace Spell Immunity of bonus hero Archimonde with Invisibility.
+- Add research Improved Creep Hunter which increases the maximum creep level of certain unit abilities.
+- Fill savecodes with fixed number with remaining zeroes to always have a fixed length since we do not store the number.
+- Fix cooldown for savecode researches.
+- The chat commands "-save" and "-savegui" open a custom GUI in singleplayer only which allows managing savecodes.
+- Do not load research levels from savecodes if your current ones are higher.
+- Do not load savecodes if they are empty.
+- Store Improved Navy level in the hero savecode.
+- Fix an issue of loading not existing hero level 2 from the savecode.
+- The savecode stores if your hero has become a Demigod or not.
+- Add two more creep unit types (one healing) to the Neutral Mercenary Camp of Freelancers.
+- Translate abilities of Tinker back into English.
+- Allow saving fragment items required to become a Demigod.
+- Reorder columns in the stats multiboard.
+- Give Kil'Jaeden boss Banish ability.
+- AutoSkillHero and simplify Boss Island boss creation.
+- One single cheat "-levelX".
+- New cheat "-cheats" to list all cheats.
+- Ping Water Goldmines with "-pinggoldmines" chat command.
+- Make Sargeras boss much stronger by giving him some powerful unit abilities.
+- Do not allow to pick Sargeras boss as second hero.
+- Add item Feed made by the Research Tent which increases the hero level of all bosses.
+- Add third hero at hero level 100 with chat command "-thirdrepick".
+- Add cheats "-orderon/off" to debug orders by all players to find crashes.
+- Attribute Bonus has 1000 levels now.
+- Sorcerer and Runeforger craft items with 4 charges instead of 3 now.
+- Allow enabling AI for yourself at hero level 200.
+- Clans.
+- Reset abilities of mercenary and creep Dark Wizard to default.
+- Give Maiev a Shadow Orb to attack air units.
+- Add Demon Quests 3 and 4.
+- Lower the priorities for Research Tent and Power Generator to avoid AI crashes.
+- Bounties.
+- Store item names, descriptions, tooltips and extended tooltips in backpacks to avoid losing dungeon key information.
+- Add Goblin Bank.
+- Enable Warcraft's Item Stacking.
+- Give boss Ancient Dragon Turtle and Spider Crab Behemoth an orb item to attack air units.
+- AI cannot buy Random Events or Alliance with the Burning Legion anymore.
+- New bonus hero Antonidas.
+- Add random bonus hero support.
+- Do not allow to load savecodes which have been generated during the same game to avoid duplicating stuff.
+- Enable visibility for bonus heroes from start for VIP players.
+- New bonus hero Fel Beast.
+- Add Shivarra creeps.
+- Add quest entry Lore.
+- Allow filling auto savecode file with the custom save GUI.
+- Fix the icon positions for the abilities of bonus hero Wizard.
+- Allow defeating AI and show defeat in stats.
+- New boss Akama in Outland.
+- Allow Paladin bosses to be included as counters for Forsaken quest 3.
+- Allow Paladins to complete Forsaken quest 3.
+- Make sure players are enemies on killing for Forsaken quest 3.
+- Allow saving all 3 tier buildings for Freelancers.
+- Add cheat "-foldername".
+- Mention that Legendary items and quest rewards are not saved.
+- No hero equivalents anymore in gameplay constants which treats all hero types the same way.
+- Add cheat "-foldername".
+- Use a folder for all generated savecodes.
+- Consider hero XP from heroes in repick when increasing creep Evolution.
+- Only load gold and lumber from savecode if it is higher than your current gold and lumber.
+- Fix changing creep Evolution level when loading heroes with levels not having modulo 10 = 0.
+- Disable AI special players by default.
+- Remove AI special players from stats if disabled.
+- Remove Neutral Hostile and Neutral Passive from stats.
+- Sell expensive Glyph items in Arcane Academy of Theramore.
+- Show bonus heroes for VIPs on repick.
+- Neutral Laboratories for Freelancers can be used to return gold and lumber.
+- New bonus hero: Dwarf Mage.
+- Refactor trigger names and move them into folders.
+- Add building Event House.
+- Freelancer Towers.
+- All tier town halls use a spell book for the player interactions.
+- Fix quest markers over Illidan for Draenei quests.
+- Fix quest markers over Queen for Demon quests.
+- Give Medivh's Spell Book a shared cooldown to prevent mass casting.
+- Fix Magma Giant tooltip and costs.
+- New hero: Khadgar.
+- More preplaced creeps with random dropped item types instead of fixed ones.
+- Add Scroll of Town Portal to the list of dropped item types by creeps.
+- Make Maiev's guards vulnerable during the quest, so the player can kill them.
+- Fix removing quest marker from Kael after Naga Quest 1.
+- Refresh backpack before getting and after releasing control of Illidan to fix its hero icon position.
+- Power Generators do not sell Crystal Balls anymore since they are a reward for a Naga quest.
+- Limit Goblin Artist colors to 10 in total per player.
+- Random events spawn 20 units at maximum to prevent massive lags.
+- New bonus hero: Carsten.
+- Decrease the rate for Transmute.
+- Massively decrease the damage multiplier for Drunken Brawler.
+- Add item Feed AI to increase the hero level of AI heroes.
+- Neutral Shop sells Magical Cuter and Magical Seed.
+- Add Discord to loading screen.
+- Do not share vision during hero selection and repick to prevent black mask areas from allies.
+- Fix unwanted level up effect on Mirror Image caused by Evolution.
+- Fixed area for Thunder Clap to avoid lags.
+- Increase cooldown for Boss Fight Island.
+- Divide the boss level in Boss Fight Island by 2.
+- Give Impale a fixed stun duration.
+- Decrease the life drain percentage of Death and Decay.and Dalaran Shield and give them a fixed cooldown.
+- Reduce the percentage of Cleaving Attack.
+- New hero: Ranger.
+- New race: High Elf.
+- Remove level values from Cold Arrows tooltip.
+- Replace ulti of Sylvanas Windrunner with Banshee Form.
+- Increase number of levels for hero ability Battle Roar.
+- Add missing learn hotkey to hero ability Cripple.
+- Black Arrow abilities support units with levels greater than 5.
+- Reset full repick flag on normal repick to prevent game mode dialog showing up.
+- Add Dragonhawk mounts for High Elf and Blood Elf heroes.
+- Human can train Spellbreakers and Dragonhawk Riders again.
+- Add Phoenixes and Phoenix Egg building to Blood Elf race.
+- New hero: Funny Bunny.
+- Add chat command "-discord".
+- Add cooldown for hero savecodes.
+- Give Bosses on Boss Fight Island orbs.
+- Remove splash damage from Guards of Sargeras to prevent them from killing Sargeras.
+- Disable many quest items and rewards to be sold by the Theramore Marketplace.
+- Immediately check for enough votekick votes after starting which fixes votekicks in singleplayer.
+- Use summoned level 4 unit types from World of Warcraft Reborn again.
+- Many summon hero abilities have stronger but less summoned units now.
+- Do not allow alliance chat commands with player The Alliance.
+- Hide The Burning Legion and The Alliance from score screen if disabled.
+- Recreate stats multiboard on alliance changes to hide Warcraft's multiboard for full shared control.
+- Remove votekick timer window and reset votes on timer expiring.
+- Do not allow votekicks against The Alliance.
+- Rain of Chaos and Call of Drakes summons always 4 units now.
+- Add missing learn hotkeys of Crushing Wave and Watery Minion hero abilities.
+- Change Multiplayer detection to work with only 1 player left.
+- Do not reset gold and lumber on repicking and picking Warlord.
+- Made AntiDenseMan#1202 a VIP.
+- Add all alliance chat commands to the separate quest log entry Alliances.
+- Fix AI alliance responses.
