@@ -387,7 +387,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "-" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "Mineral from Argus with magical properties." )
+	call Preload( "A demonic, destructive form of magic which leads to corruption of the target." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="Argunite">" )

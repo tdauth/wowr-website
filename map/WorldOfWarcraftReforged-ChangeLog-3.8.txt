@@ -125,7 +125,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add building Hero Abilities for all races." )
 	call Preload( "- Add icon ability Life Regeneration to male citizens." )
 	call Preload( "- Add passive Health and Mana Stone icons." )
-	call Preload( "- Change hotkeys of learnable standard hero abilities." )
+	call Preload( "- Change hotkeys of learnable hero standard abilities." )
 	call Preload( "- Add small new creep area to Outland next to the Orc camp." )
 	call Preload( "- Rename research Unholy Armor from Demon race into Fel Armor." )
 	call Preload( "- Change icon of research Fel Armor for race Demon." )

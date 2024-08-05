@@ -105,7 +105,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add chat command "-aineutral"." )
 	call Preload( "- Add chat command "-aicreep"." )
 	call Preload( "- Add chat command "-aicomputer"." )
-	call Preload( "- Add standard hero ability Root." )
+	call Preload( "- Add hero standard ability Root." )
 	call Preload( "- Rename race Corrupted Ancients into Satyr." )
 	call Preload( "- Fix JASS function IsUnitTypeNavyHero." )
 	call Preload( "- Fix hero level 30 requirement for many races." )

@@ -28,7 +28,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Use system New Bonus by chopinski for custom spells." )
 	call Preload( "- Reduce the mana costs for the hero ability Control Magic." )
 	call Preload( "- Add a cooldown per slot for learnable hero spells which is not checked in the hero selection to prevent mass castings of spells." )
-	call Preload( "- Remove standard hero ability Resistant Skin which made no sense for heroes." )
+	call Preload( "- Remove hero standard ability Resistant Skin which made no sense for heroes." )
 	call Preload( "- Rename tavern "Bonus Heroes Reskill" into "Bonus Heroes Void Lords"." )
 	call Preload( "- Add heroes Void Lord Commander X." )
 	call Preload( "- Dwarf AI builds towers now." )

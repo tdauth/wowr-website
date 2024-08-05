@@ -49,7 +49,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add learnable hero spell Summon Wall." )
 	call Preload( "- Add learnable hero spell Summon Explosive Barrel." )
 	call Preload( "- Add hero Sapper." )
-	call Preload( "- Add recipe Summon Guard of the Old God." )
+	call Preload( "- Add recipe Summon Guard of the Old Gods." )
 	call Preload( "- Allow Disassemble to be used on units." )
 	call Preload( "- Item Mana Herb can be sold to merchants now." )
 	call Preload( "- Add mount Lynx." )

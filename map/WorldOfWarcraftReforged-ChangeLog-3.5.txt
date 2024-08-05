@@ -60,7 +60,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Show unit movement type for cheat "-unitinfo"." )
 	call Preload( "- Hero spell Cripple Player enables bounty for enemy players." )
 	call Preload( "- Fix moving floating revived heroes into the sea." )
-	call Preload( "- Remove gold costs from standard hero abilities." )
+	call Preload( "- Remove gold costs from hero standard abilities." )
 	call Preload( "- Races Troll, Tauren and Pandaren are no bonus races anymore." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )

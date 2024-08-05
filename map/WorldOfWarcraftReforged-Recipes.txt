@@ -77,7 +77,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "location if it has been discovered." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "<div style="color: #ffcc00">Requires 6 Legendary Items.</div>" )
+	call Preload( "<div style="color: #ffcc00">Requires 6 legendary items " )
+	call Preload( "which are not consumed on crafting.</div>" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #808080">Drop the required items " )
@@ -1976,10 +1977,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRingGreen.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (2)" )
-	call Preload( "<a href="items.html#I0FR">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGoldBar.blp" width="64" height="64"" )
-	call Preload( "title="Gold Bars"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGoldBar.blp"" )
+	call Preload( "<a href="items.html#rde3">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNRingGreen.blp" width="64" height="64"" )
+	call Preload( "title="Ring of Protection +4"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRingGreen.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (4)" )
 	call Preload( "</td>" )
@@ -2716,7 +2717,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.6 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 

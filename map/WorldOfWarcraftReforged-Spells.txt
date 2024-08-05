@@ -9913,7 +9913,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Find Artifacts" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "Ner'Zhul finds random artifacts." )
+	call Preload( "Finds random artifacts." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Increases the level of " )
@@ -18721,7 +18721,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 3.5 )
+	call PreloadEnd( 4.9 )
 
 endfunction
 
