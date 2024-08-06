@@ -37415,9 +37415,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="units.html#n0M6">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNShark.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFish.blp" width="64" height="64"" )
 	call Preload( "title="Whale"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNShark.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFish.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Whale" )
 	call Preload( "<br/>" )
@@ -37434,8 +37434,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div style="color: #ffcc00">Attacks land and air units.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNShark.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNShark.blp"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFish.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFish.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -104362,7 +104362,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Units generated with chat command "-website". -->" )
-	call PreloadEnd( 28.1 )
+	call PreloadEnd( 26.3 )
 
 endfunction
 
