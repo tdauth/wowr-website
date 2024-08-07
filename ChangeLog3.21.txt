@@ -287,8 +287,8 @@
 - Simplify code for toggle multiboard checkbox.
 - Add missing texture for building Sawmill.
 - Fix learnable hero spell Summon Green Dragon.
-- Add Boss Ysera.
-- Add Boss Xavius.
+- Add boss Ysera.
+- Add boss Xavius.
 - Add music A Call to Arms to Record Player.
 - Add creep Dryad Faun.
 - Add JASS function IsUnitNeutralBuilding.
