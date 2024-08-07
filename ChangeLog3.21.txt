@@ -13,14 +13,14 @@
 - Add Lever Gate and Bridge to Azuremyst Isle.
 - Add NPC Velen to Azuremyst Isle.
 - Open gate at Azuremyst Isle.
-- Eredar tier 1 - 3 buildings train Male Citizens now.
+- Eredar tier 1-3 buildings train Male Citizens now.
 - Add hero Ancient Sasquatch.
 - Add hero Ancient Wendigo.
 - Add cheat "-creeps".
 - Fix position of Fountain of Power in player selection.
 - Increase scaling of hero Brood Mother.
 - Start at page 0 in player selection taverns.
-- Fix standard hero ability Loot Ray.
+- Fix hero standard ability Loot Ray.
 - Fix aiming with mouse for Fire and Frost Ray by using AngleBetweenCoordinatesDeg.
 - Change icon of building Acclamator.
 - Support all items from Goblin Merchant in savecodes.
@@ -57,7 +57,7 @@
 - Add ability Black Arrow to Witch Hut.
 - Replace broken SD soundset FemaleSatyr with Satyr.
 - Add cheat "-heroskills".
-- Add standard hero ability Ultravision.
+- Add hero standard ability Ultravision.
 - Add custom icon for hero spell Mechanical Repair.
 - Change hero spells for hero Archimedes.
 - Add learnable hero spell Spade.
@@ -105,8 +105,8 @@
 - Add bonus mount Orc Car Mount.
 - Add bonus mount Undead Car Mount.
 - Add bonus mount Demon Car Mount.
-- Add standard hero ability Speed Boost.
-- Allow registering maximum levels for standard hero abilities.
+- Add hero standard ability Speed Boost.
+- Allow registering maximum levels for hero standard abilities.
 - Change icon of hero spell Minigun Rage.
 - Change icons of Old Horde towers.
 - Fix models of Old Horde towers.
@@ -122,7 +122,7 @@
 - Add music Cantina Band to Record Player.
 - Fix AI autopicking professions and races at higher hero levels.
 - Show technology percentage in player info.
-- Add standard hero ability Select Turrets.
+- Add hero standard ability Select Turrets.
 - Add bonus hero Qui-Gon Jinn.
 - Add Star Wars skins.
 - Add attribute Thief.
@@ -233,9 +233,71 @@
 - Make primary attribute of hero Monk intelligence.
 - Add achievement Landowner.
 - Add learnable hero spell Summon Ship.
-- Add standard hero ability Summon Ship.
-- Add standard hero ability Summon Submarine.
+- Add hero standard ability Summon Ship.
+- Add hero standard ability Summon Submarine.
 - Add mount Ship.
 - Add mount Submarine.
 - Add learnable hero spell Summon Red Dragon.
 - Add item Mushroom.
+- Add neutral unit Drillbot.
+- Add item Magical Coin.
+- Add profession Prospector.
+- Add Tuskarr quests.
+- Add chat command "-whaleson".
+- Add chat command "-whalesoff".
+- Replace Massive Ruined Gate in Northrend dungeon.
+- Move all portals from Portal Room to Outland.
+- Give all portals the Way Gate model and soundset.
+- Zones have player colors now.
+- Automatically give all portals the name of their destination zone.
+- Add hero Thief.
+- Register summoned units for website.
+- Add custom icon for Accept.
+- Add command buttons to preplaced units in the beginning of the game.
+- Fix dependency of Pandaren Blacksmith.
+- Rename NPC Quenn of the new Citadel into Lady Hederine.
+- Add cheat "-professions".
+- Add cheat "-boots".
+- Add more tiny items for buildings.
+- Reset all heroes to the neutral zone when a player leaves the game.
+- Share vision or even control with users when a player leaves the game.
+- Add custom icon for item Sleeping Bag.
+- Register more zones.
+- Remove duplicated item type Gold Bars.
+- Incrase maximum stacks for item Gold Bars to 100.
+- Add zone Emerald Dream.
+- Add actions bar UI.
+- Do not add command buttons to rootet ancients which cannot move by default.
+- Change costs of item Gold Coins to 125 lumber.
+- Replace Black Dragon Roost with Blue Dragon Roost on Elven Clan Island.
+- Place Infernal Juggernaugts in Tomb of Sargeras.
+- Add mount Elk.
+- Add learnable hero spell Abolish Magic.
+- Add hero Dryad.
+- Fix learnable hero spell Barrage.
+- Fix directory path in savecodes UI.
+- Add ambient sound votes.
+- Add sky votes.
+- Reselect hero after casting spell Burning Sky.
+- Fix Water Portal destination to the sea at Northrend.
+- Disable AUTO_UPDATE_STOCKS for performance.
+- Improve performance of JASS function IsInSinglePlayer.
+- Change mount of hero Centaur Khan from Wyvern to Eagle.
+- Add tooltip to toggle multiboard checkbox.
+- Simplify code for toggle multiboard checkbox.
+- Add missing texture for building Sawmill.
+- Fix learnable hero spell Summon Green Dragon.
+- Add Boss Ysera.
+- Add Boss Xavius.
+- Add music A Call to Arms to Record Player.
+- Add creep Dryad Faun.
+- Add JASS function IsUnitNeutralBuilding.
+- Register all mercenary camps as neutral buildings.
+- Add achievement Explorer.
+- Add achievement Master Explorer.
+- Add skin Druid of the Claw.
+- Add skin Druid of the Talon.
+- Add skin Dryad.
+- Add skin Darth Vader.
+- Add skin Darth Maul.
+- Add back hero Gunner.
