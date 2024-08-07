@@ -302,6 +302,18 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPhoenixEgg.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (1)" )
+	call Preload( "<a href="items.html#I12C">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" width="64" height="64"" )
+	call Preload( "title="Unique - Ysera's Heart"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp"" )
+	call Preload( "/></a>" )
+	call Preload( " (1)" )
+	call Preload( "<a href="items.html#I12B">" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNSatyr.blp" width="64" height="64"" )
+	call Preload( "title="Unique - Horns of Xavius"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSatyr.blp"" )
+	call Preload( "/></a>" )
+	call Preload( " (1)" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="I09A">" )
@@ -2717,7 +2729,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.8 )
+	call PreloadEnd( 1.5 )
 
 endfunction
 

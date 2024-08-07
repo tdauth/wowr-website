@@ -28,7 +28,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "205" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Primary structure, used to train Peasants and receive " )
+	call Preload( "Primary structure, used to train Engineers and receive " )
 	call Preload( "gathered resources. Can be upgraded to Keep and then " )
 	call Preload( "Castle to enable the production of additional types " )
 	call Preload( "of structures and units." )
@@ -1160,7 +1160,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 7.0 )
+	call PreloadEnd( 7.2 )
 
 endfunction
 
