@@ -42,6 +42,14 @@ img {
     white-space: nowrap;
 }
 
+.changelog ul {
+    overflow:hidden;
+    overflow-y:scroll;
+    height:200px;
+    width:18%
+
+}
+
 input, select, textarea {
     color: #ffffff;
 }
