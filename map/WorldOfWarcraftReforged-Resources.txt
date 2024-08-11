@@ -93,7 +93,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "-" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "The food maximum is determined by the farms/burrows etc. you have constructed and limited by 100." )
+	call Preload( "The food maximum is determined by the farms/burrows etc. you have constructed and limited by 600." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="Oil">" )

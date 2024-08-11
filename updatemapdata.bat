@@ -7,6 +7,7 @@ copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforg
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Races.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Npcs.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Quests.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
+copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-InfoQuests.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Researches.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Bosses.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Spells.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"

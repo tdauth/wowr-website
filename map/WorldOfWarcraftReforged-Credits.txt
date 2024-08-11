@@ -1500,9 +1500,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>NFWar: BTNHorseShoe</li>" )
 	call Preload( "<li>NFWar: BTNHorseShoe2</li>" )
 	call Preload( "<li>NFWar: BTNHorseShoe3</li>" )
+	call Preload( "<li>Legal_Ease: BTNJudgmentOff</li>" )
+	call Preload( "<li>The_Silent: BTNMindControlWBrain</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Credits generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.0 )
 
 endfunction
 
