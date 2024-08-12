@@ -1,0 +1,114 @@
+- Do not remove talk to me effect after completing Tuskarr quest 1.
+- Add Goblin quest 1.
+- Add learnable hero spell Mass Forestation.
+- Add "Matching Start Location" race entry to AI players UI.
+- Add start location Mount Hyjal.
+- Register missing Tiny Building limits for towers.
+- Do not craft placeholder items anymore for professions.
+- Add throne Doodad to Gruul's location.
+- Add more missing zones.
+- Move buildings on Hidden Island.
+- Scale down many shipyard buildings.
+- Scale down building Trading Post.
+- Fix tooltip of item Restoration Stone.
+- Fix spell Mass Rejuvenation.
+- Fix icon position of Power Generator.
+- Fix icon position of special buildings.
+- Thieves Guilds do not sell units of any other race anymore.
+- Refactor Thieves Guilds code.
+- Disable Dark Conversion from race Demon for AI.
+- Give Sleeping Bag item abilities cooldowns.
+- Move Night Elf 2 quest area.
+- Fix target of Portal to Emerald Dream.
+- Change effect of legendary item Ysera's Heart to spell damage reduction.
+- Do not remove properties on repick.
+- Add action Drop All Items to action bar.
+- Add unit classification Town Hall to properties.
+- Add Elven Gate to Teldrassil.
+- Add checkbox to backpack UI to hide bag numbers.
+- Add JASS function CreateFullScreenCloseButton.
+- Add JASS constants for UI layout.
+- Simplify code for URL UI.
+- Simplify code for Save UI.
+- Simplify code for Backpack UI.
+- Simplify code for AI Players UI.
+- Remove cheats "-bagui" and "-nobagui".
+- Replace unfinished summoned units UI with WoWReforgedSummonedUnits.
+- Add JASS function GetNextUnitToSelect.
+- Add action Summoned Units to action bar.
+- Remove Outland gate description triggers.
+- Fix description of resource maximum food.
+- Fix crash after loading save games caused by GetMainSelectedUnitForPlayer.
+- Fix crash after loading save games caused by WoWReforgedRacesUI.
+- Add level Orgrimmar Tunnels based on the Orc Bonus Campaign.
+- Fix Old Gods death animation.
+- Add hero Shaman.
+- Add learnable hero spell Purge.
+- Add learnable hero spell Lightning Shield.
+- Rename World Portal into Level Portal.
+- Remove unused stats triggers.
+- Add neutral building Auction House.
+- Add item Unit Gavel.
+- Add item Item Gavel.
+- Add JASS function TriggerRegisterAnyPlayerSyncEvent.
+- Refactor code for stats to improve the performance.
+- Fix icon of spell Frost Attack.
+- Fix icon positions of slot 5 spells.
+- Fix updating skill UI when any hero is leveling.
+- Enable skill UI in multiplayer.
+- Simplify code of PagedButtonsUI.
+- Hide frames of PagedButtonsUI before saving a game.
+- Fix stats multiboard color after loading a save game.
+- Fix summoned units bonus for spell Raise Dead slot 2.
+- Allow stacking item Pickpocketing.
+- Item Crossbow Turret has custom buff now.
+- Fix tooltip of legendary item Sea Witch Tail.
+- Add action Altars to action bar.
+- Picking up all items is not allowed if hero is dead.
+- Picking up all items is not allowed if hero is in transport.
+- Use SD version of Violet Citadel in Dalaran.
+- Allow chat commands "-aiattackson/off" for The Burning Legion.
+- Fix effects for Pandaren quest 3.
+- Fix tooltip of Pet Fel Beast.
+- Polar Bear mount is amphibious now.
+- Bear mount is amphibious now.
+- Make target area around shipyard bigger for Tuskarr quest 1.
+- Goblin Bank Director uses all skill points now.
+- Change ownership of Goblin Flamethrower for Pandaren quest 4.
+- Shorten tooltip of item Advanced Goblin Night Scope.
+- Item Crystal Ball is no longer perishable.
+- Item Scepter of Disarmament has 0 charges now.
+- Item Scepter of the Mur'gul has 0 charges now.
+- Item Unlimited Goblin Land Mines has 0 charges now.
+- Add chat commands "-mountnameX".
+- Jaina and Paladin on Theramore affect any hero now.
+- Set movement type of Witch Hut to None.
+- Add feedback messages to Witch Huts.
+- Add ability Roar to Witch Hut.
+- Add ability Cyclone to Witch Hut.
+- Add ability Blood Lust to Witch Hut.
+- Add ability Slam to Witch Hut.
+- Add mount Ancient of War.
+- Play Gate open sound when using item Lock Pick.
+- General Grievous does not get a standard mount ability in 4 Light Sabers form.
+- Fix lever for top Demonic Gate in Illidan's Camp in Outland.
+- Generate all info quests for the website.
+- Enable item drop triggers for Jaina quests only during quests.
+- Add learnable hero spell Mind Control.
+- Add AI support for profession Tamer.
+- Add AI support for profession Necromancer.
+- Add AI support for profession Golem Sculptor.
+- Add AI support for profession Warlock.
+- Add item Meteor Stone.
+- Add item Navigation Scroll.
+- Add profession Astromancer.
+- Equipment bags won't get hero spell Phoenix Egg anymore.
+- Equipment bags won't get hero spell Reflection anymore.
+- Equipment bags won't get hero spell Envenomed Weapons anymore.
+- Fix learnable hero spell Rain of Chaos slot 4.
+- Use regular summoned unit bonus for spell Council of Six.
+- PagedButtons UI does not show tooltips anymore on newly selected shops.
+- Abilities Ping Destination and Select Location do not have the same ID anymore.
+- Include Portal buildings for all races when changing the names to the destination.
+- Fix owner of Fountain of Power in Emerald Dream.
+- Fix tooltip of spell Scream.
