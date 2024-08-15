@@ -15152,9 +15152,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="spells.html#A1GT">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBearForm.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStagForm.dds" width="64" height="64"" )
 	call Preload( "title="Druid Forms"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBearForm.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNStagForm.dds"" )
 	call Preload( "/></a>" )
 	call Preload( "Druid Forms" )
 	call Preload( "<br/>" )
@@ -15166,8 +15166,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "the bonus stats with every level.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNBearForm.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBearForm.blp"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNStagForm.dds" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNStagForm.dds"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -19017,7 +19017,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 3.5 )
+	call PreloadEnd( 4.0 )
 
 endfunction
 
