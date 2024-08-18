@@ -5,7 +5,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<ul>" )
 	call Preload( "<li>5: Abilities available on Theramore.</li>" )
 	call Preload( "<li>10: Random Events.</li>" )
-	call Preload( "<li>15: 1 Equipment Bag on Goblin Bank Island.</li>" )
+	call Preload( "<li>15: 1 Equipment Bag.</li>" )
 	call Preload( "<li>20: Mount.</li>" )
 	call Preload( "<li>25: Second profession.</li>" )
 	call Preload( "<li>30: Bonus races.</li>" )

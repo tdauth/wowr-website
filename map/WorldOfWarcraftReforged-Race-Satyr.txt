@@ -238,7 +238,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
 	call Preload( "Defensive Ancient. When rooted in the ground, can hurl " )
-	call Preload( "enormous rocks at nearby enemy units. " )
+	call Preload( "enormous rocks at nearby enemy units. Contains the " )
+	call Preload( "Improved Corrupted Ancient Protectors upgrade. " )
 	call Preload( "<br/>" )
 	call Preload( "Attacks land and air units." )
 	call Preload( "</div>" )
@@ -1174,7 +1175,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 3.2 )
+	call PreloadEnd( 3.1 )
 
 endfunction
 

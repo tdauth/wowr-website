@@ -154,7 +154,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( " (1)" )
 	call Preload( "<a href="items.html#I03R">" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp" width="64" height="64"" )
-	call Preload( "title="Unique - Scepter of the Sea Giant"" )
+	call Preload( "title="Unique - Scepter of King Deepbeard"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (1)" )
@@ -2729,7 +2729,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.9 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 

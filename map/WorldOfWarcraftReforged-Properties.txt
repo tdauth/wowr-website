@@ -2147,7 +2147,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Properties generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.3 )
 
 endfunction
 
