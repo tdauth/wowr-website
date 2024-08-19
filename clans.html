@@ -9,6 +9,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -57,7 +62,7 @@ Their achievements can be saved and loaded with savecodes.
 Players can have different ranks in clans allowing them to use more powers.
 Certain buildings, items, units etc. in the map can only be accessed with clans.
 
-<table>
+<table id="clans">
     <thead>
         <tr>
             <th>Banner</th>
@@ -91,42 +96,42 @@ TheElvenClan
 <a href="https://us.forums.blizzard.com/en/warcraft3/u/Barade#2569">
 Barade#2569
 </a>
- - 
+ -
 Leader
 </li>
 <li>
 <a href="https://us.forums.blizzard.com/en/warcraft3/u/WorldEdit">
 WorldEdit
 </a>
- - 
+ -
 Leader
 </li>
 <li>
 <a href="https://us.forums.blizzard.com/en/warcraft3/u/Barade">
 Barade
 </a>
- - 
+ -
 Leader
 </li>
 <li>
 <a href="https://us.forums.blizzard.com/en/warcraft3/u/Runeblade14#2451">
 Runeblade14#2451
 </a>
- - 
+ -
 Captain
 </li>
 <li>
 <a href="https://us.forums.blizzard.com/en/warcraft3/u/AntiDenseMan#1202">
 AntiDenseMan#1202
 </a>
- - 
+ -
 Captain
 </li>
 <li>
 <a href="https://us.forums.blizzard.com/en/warcraft3/u/Chaoskrieger#21738">
 Chaoskrieger#21738
 </a>
- - 
+ -
 Captain
 </li>
 </ul>
@@ -138,6 +143,12 @@ Squq[q/quq(*+q(*+qzqzq7?q/q7-q/q7?q/qHquqKququ8quq/q/quq7iq
 <!-- Clans generated with chat command "-website". -->
     </tbody>
 </table>
+
+<script>
+    $('#clans').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
 </body>
 </html>
