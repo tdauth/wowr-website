@@ -156,6 +156,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Doodads and destructibles change animations because of day and night cycle now." )
 	call Preload( "- Improve terrain of player selection." )
 	call Preload( "- Add Fireflies doodad." )
+	call Preload( "- Add  vote "-nowater"." )
+	call Preload( "- Add  vote "-water"." )
+	call Preload( "- Add  vote "-waterred"." )
+	call Preload( "- Add  vote "-nofog"." )
+	call Preload( "- Add  vote "-nowater"." )
+	call Preload( "- Add  vote "-fog"." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
