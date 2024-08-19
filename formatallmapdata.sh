@@ -27,6 +27,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Skins.txt ./skins.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Credits.txt ./credits.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Properties.txt ./properties.html &
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-InfoQuests.txt ./infoquests.html &
 
 for f in ./map/WorldOfWarcraftReforged-Race-*
 do

@@ -152,3 +152,9 @@
 - Doodads and destructibles change animations because of day and night cycle now.
 - Improve terrain of player selection.
 - Add Fireflies doodad.
+- Add  vote "-nowater".
+- Add  vote "-water".
+- Add  vote "-waterred".
+- Add  vote "-nofog".
+- Add  vote "-nowater".
+- Add  vote "-fog".
