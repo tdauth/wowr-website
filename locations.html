@@ -9,6 +9,11 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mdx-m3-viewer@5.12.0/dist/umd/viewer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
@@ -55,7 +60,7 @@
 The map consists of several named locations many of them are inspired by World of Warcraft or Warcraft III:
 
 <!-- Autogenerate from imported savecodes and generated file: -->
-<table>
+<table id="locations">
     <thead>
         <tr>
             <th>Icon</th>
@@ -80,8 +85,8 @@ Player Selection
 90304
 </td>
 <td>
-All players start here in the beginning of the game 
-to pick their hero etc. and to start the game. 
+All players start here in the beginning of the game
+to pick their hero etc. and to start the game.
 </td>
 </tr>
 <tr id="viproom">
@@ -98,7 +103,7 @@ VIP Room
 23552
 </td>
 <td>
-A secret room for VIP players only which contains lots 
+A secret room for VIP players only which contains lots
 of useful items.
 </td>
 </tr>
@@ -218,7 +223,7 @@ Demigod Temple
 87552
 </td>
 <td>
-A temple on the sea north of the Maelstrom where you 
+A temple on the sea north of the Maelstrom where you
 can become a Demigod.
 </td>
 </tr>
@@ -236,7 +241,7 @@ Theramore
 46920
 </td>
 <td>
-<div style="color: #0000ff">Geographic Location:</div> 
+<div style="color: #0000ff">Geographic Location:</div>
 South West.
 </td>
 </tr>
@@ -288,7 +293,7 @@ Pandaria
 286056
 </td>
 <td>
-<div style="color: #0000ff">Geographic Location:</div> 
+<div style="color: #0000ff">Geographic Location:</div>
 South.
 </td>
 </tr>
@@ -357,7 +362,7 @@ Azuremyst Isles
 137280
 </td>
 <td>
-An island in the north west of Kalimndor. Starting 
+An island in the north west of Kalimndor. Starting
 zone of the Draenei.
 </td>
 </tr>
@@ -375,7 +380,7 @@ Kezan
 38624
 </td>
 <td>
-An island in the south of the Maelstrom. Home and starting 
+An island in the south of the Maelstrom. Home and starting
 zone of the Goblin.
 </td>
 </tr>
@@ -410,7 +415,7 @@ Murloc Sorcerer Island
 107440
 </td>
 <td>
-An island in the North West sea ruled by the Murloc 
+An island in the North West sea ruled by the Murloc
 Sorcerer.
 </td>
 </tr>
@@ -428,7 +433,7 @@ Spider Crab Behemoth Island
 73160
 </td>
 <td>
-An island in the North East sea ruled by the Spider 
+An island in the North East sea ruled by the Spider
 Crab Behemoth.
 </td>
 </tr>
@@ -480,7 +485,7 @@ Sylvanas Castle
 100224
 </td>
 <td>
-Sylvana Windrunner's new castle from an alternate time 
+Sylvana Windrunner's new castle from an alternate time
 line.
 </td>
 </tr>
@@ -549,7 +554,7 @@ North Sea
 34224
 </td>
 <td>
-The sea between the northern east of Northrend and 
+The sea between the northern east of Northrend and
 the Eastern Kingdoms.
 </td>
 </tr>
@@ -669,7 +674,7 @@ New Stormwind
 94920
 </td>
 <td>
-The capital city of the kingdom of Stormwind and the 
+The capital city of the kingdom of Stormwind and the
 largest human city on Azeroth.
 </td>
 </tr>
@@ -721,7 +726,7 @@ Dark Portal
 43776
 </td>
 <td>
-The Dark Portal to Outland in the Eastern Kingdoms 
+The Dark Portal to Outland in the Eastern Kingdoms
 which the Orcs used to enter Azeroth.
 </td>
 </tr>
@@ -892,7 +897,7 @@ Teldrassil
 322864
 </td>
 <td>
-A World Tree situated on the eponymous island off Kalimdor's 
+A World Tree situated on the eponymous island off Kalimdor's
 northwestern coast.
 </td>
 </tr>
@@ -910,7 +915,7 @@ Moonglade
 27864
 </td>
 <td>
-A vale in Northern Kalimdor that serves as a haven 
+A vale in Northern Kalimdor that serves as a haven
 for druids.
 </td>
 </tr>
@@ -928,7 +933,7 @@ Winterspring
 34000
 </td>
 <td>
-A snowy valley located in Northern Kalimdor, east of 
+A snowy valley located in Northern Kalimdor, east of
 Felwood, northeast of Mount Hyjal, and north of Azshara.
 </td>
 </tr>
@@ -946,7 +951,7 @@ Hyjal
 78880
 </td>
 <td>
-A mountain located in Northern Kalimdor with the World 
+A mountain located in Northern Kalimdor with the World
 Tree.
 </td>
 </tr>
@@ -964,7 +969,7 @@ Emerald Dream
 63888
 </td>
 <td>
-A vast, ever-changing spirit world that exists outside 
+A vast, ever-changing spirit world that exists outside
 the boundaries of the physical world.
 </td>
 </tr>
@@ -1101,7 +1106,7 @@ Stonetalon Mountains
 76736
 </td>
 <td>
-A range of peaks that lie west of the Northern Barrens, 
+A range of peaks that lie west of the Northern Barrens,
 south of Ashenvale, and north of Desolace.
 </td>
 </tr>
@@ -1204,7 +1209,7 @@ Dragonblight
 6664
 </td>
 <td>
-A great dragon graveyard valley, located in southern 
+A great dragon graveyard valley, located in southern
 Northrend.
 </td>
 </tr>
@@ -1222,7 +1227,7 @@ Archimonde's Realm
 90792
 </td>
 <td>
-Archimonde has returned in his own realm to conquer 
+Archimonde has returned in his own realm to conquer
 Azeroth.
 </td>
 </tr>
@@ -1240,7 +1245,7 @@ Outland Portals
 91632
 </td>
 <td>
-This area connects all different locations with each 
+This area connects all different locations with each
 other.
 </td>
 </tr>
@@ -1258,7 +1263,7 @@ The New Citadel
 226176
 </td>
 <td>
-A newly constructed citadel by the Demons which should 
+A newly constructed citadel by the Demons which should
 replace the Black Citadel.
 </td>
 </tr>
@@ -1378,7 +1383,7 @@ Blade's Edge Mountains
 9760
 </td>
 <td>
-Mountains in Outland with a large population of ogres 
+Mountains in Outland with a large population of ogres
 dominated by gronn.
 </td>
 </tr>
@@ -1453,6 +1458,12 @@ A part of Argus.
 <!-- Locations generated with chat command "-website". -->
     </tbody>
 </table>
+
+<script>
+    $('#locations').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
 
 </body>
 </html>
