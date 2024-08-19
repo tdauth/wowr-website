@@ -101,7 +101,7 @@
 - Add Pirate Battleships as creeps.
 - Crafted items for Runeforger profession do stack now.
 - Change hero ability hotkeys to QWER and A for Attribute Bonus.
-- Arcane Academy of Theramore allows changing standard hero ability.
+- Arcane Academy of Theramore allows changing hero standard ability.
 - Do not highlight hotkeys in the tooltips of Summon Mount abilities anymore.
 - Add chat command "-info X" to show info about a player.
 - Add bonus hero Ner'Zhul.
@@ -448,9 +448,9 @@
 - Add chat command "-vips".
 - Show a player's clan and VIP status in "-players" chat command's output.
 - Move code from "src/Systems.j" into different triggers and vJass libraries.
-- Use hidden icon ReplaceableTextures\CommandButtons\BTNeredarRed.blp for many Eredar units.
-- Use hidden icon ReplaceableTextures\CommandButtons\BTNPickUpItem.blp for Pick up all Items.
-- Use hidden icon ReplaceableTextures\CommandButtons\BTNStaffOfPurification.blp as Scepter of Dalaran.
+- Use hidden icon ReplaceableTextures\\CommandButtons\\BTNeredarRed.blp for many Eredar units.
+- Use hidden icon ReplaceableTextures\\CommandButtons\\BTNPickUpItem.blp for Pick up all Items.
+- Use hidden icon ReplaceableTextures\\CommandButtons\\BTNStaffOfPurification.blp as Scepter of Dalaran.
 - Add option STACKING_NEXT_ITEM_FROM_START to the custom ItemUnstackSystem which changes item unstacking behavior and release version 1.7 on Hive.
 - Change icon of item Dungeon Key.
 - Rescuable units from player Gaia respawn now.
@@ -548,8 +548,8 @@
 - Draenei quest 1 reward is a Ring of Protection +5 now instead of a Ring of Protection +2.
 - Draenei quest 2 reward is a Claws of Attack +15 now instead of a Claws of Attack +12.
 - Remove food costs of several spell dummies.
-- Add standard hero ability Repair.
-- Add standard hero ability Dark Summoning.
+- Add hero standard ability Repair.
+- Add hero standard ability Dark Summoning.
 - Add ability Enable Wandering to summoned Scouts.
 - Disable automatic camera distance updates and chat commands "-far", "-close" and "-camdistance X" due to camera distance settings in Warcraft Reforged.
 - Add more creeps in an area at the Burning Legion realm.
@@ -647,4 +647,3 @@
 - Enable cheats for player red with name Barade#2569.
 - Do mention links in quest log entries "Reforged Version" and "Credits" instead of listing everything.
 - Add Repair to some citizen units since AI uses them to construct structures.
-- Release 3.0.

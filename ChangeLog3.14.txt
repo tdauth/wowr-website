@@ -141,15 +141,15 @@
 - Change icon of Night Elf Citizen (female).
 - Add custom attribute Attributes Points.
 - Add building Attributes.
-- Add standard hero ability Skill.
-- Revise standard hero abilities system.
+- Add hero standard ability Skill.
+- Revise hero standard abilities system.
 - Remove Summon Mount and Invisibility abilities from hero Alchemist in morphed form.
-- Fix icon position of standard hero ability Magic Sentry.
-- Fix hotkey of standard hero ability Ensnare.
-- Fix hotkey of standard hero ability Repair.
-- Fix hotkey of standard hero ability Blink.
-- Fix hotkey of standard hero ability Bloodlust.
-- Fix hotkey of standard hero ability Dark Summoning.
+- Fix icon position of hero standard ability Magic Sentry.
+- Fix hotkey of hero standard ability Ensnare.
+- Fix hotkey of hero standard ability Repair.
+- Fix hotkey of hero standard ability Blink.
+- Fix hotkey of hero standard ability Bloodlust.
+- Fix hotkey of hero standard ability Dark Summoning.
 - Fix icon position for ability Disarmament for Child units.
 - Fix icon and hotkey of hero spell Spell Shield.
 - Use more custom models for items.

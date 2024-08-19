@@ -101,7 +101,7 @@
 - Add chat command "-aineutral".
 - Add chat command "-aicreep".
 - Add chat command "-aicomputer".
-- Add standard hero ability Root.
+- Add hero standard ability Root.
 - Rename race Corrupted Ancients into Satyr.
 - Fix JASS function IsUnitTypeNavyHero.
 - Fix hero level 30 requirement for many races.

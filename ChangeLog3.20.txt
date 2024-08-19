@@ -20,7 +20,7 @@
 - Add learnable hero spell Loot Ray.
 - Add learnable hero spell Harvest Ray.
 - Add Skin Villager Female
-- Add standard hero ability Randomize Skin.
+- Add hero standard ability Randomize Skin.
 - Add learnable hero spell Chain Ray.
 - Item Shimmerglaze Roast can be dropped by creeps now.
 - Add respawnable item Shimmerglaze Roast.
@@ -32,7 +32,7 @@
 - Add learnable hero spell Water Ray.
 - Decrease delay between rocks for spell Summon Wall.
 - Add hero Arch Sorceress.
-- Add standard hero ability Loot Ray.
+- Add hero standard ability Loot Ray.
 - Fix tooltip of ability Fire Attack Icon.
 - Add learnable hero spell Black Arrow Attack.
 - Add learnable hero spell Frost Attack.

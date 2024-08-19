@@ -1,0 +1,154 @@
+- Add building Kobold Tunnel.
+- Add unit Kobold Child.
+- Fix AI auto crafting for profession Astromancer.
+- Do not show item owner in backpack UI if it is Neutral Passive.
+- Shorten width of tooltips in backpack UI.
+- Fix matching hero for race in AI settings.
+- Improve Freelancer AI settings.
+- Add chat command "-pingf".
+- Add taunts.
+- Automatically replace standard hero ability with Submerge on water for Naga heroes.
+- Mention the actual effect of hero standard abilities in tooltips when changing.
+- List hero standard abilities on the website per hero.
+- Fix icon of hero standard ability Cyclone in shop.
+- Give hero standard ability Rejuvenation 15 levels.
+- Replace Revenant of the Tides with Naga Sorceror for race Naga.
+- Give Naga Sorceror missing abilities.
+- Add Naga research Naga Sorceror Adept Training.
+- Fix registered Naga researches.
+- Naga units are affected by research Backpack now.
+- Add ability Submerge to unit Naga Whaler.
+- All Naga Submerge abilities require research now.
+- Add Naga building Sunken Portal.
+- Add portrait model for Naga building Statue of Azshara.
+- Custom icon for unit Naga Whaler.
+- Change model for building Naga Housing.
+- Add chat command "-skymoon".
+- Add mount Direhorn.
+- Use updated PagedButtons system with model previews.
+- Fix a crash on loading savegames due to UnitSoundSetsFakeBars not hiding frames.
+- Fix JASS function GetStandardHeroAbility.
+- Add mount Goblin Car.
+- Use custom model for Chests.
+- Add Engineer building Chest.
+- Fix JASS function IsWaterUnit for all unit types.
+- Configure neutral water zone per map.
+- Add item Molotov Cocktails.
+- Add item Grenades.
+- Add equipment AK-47.
+- Add equipment Sniper.
+- Add item level, gold cost and lumber cost for equipment to website.
+- Add Goblin quest 2.
+- Goblin quests use a simplified way to ping the next target.
+- Add ability Horn to car mounts.
+- Add votes "-foodX".
+- Add chat commands "-helpfood".
+- Add creep Direhorn.
+- Add custom log UI which helps reading messages in multiplayer.
+- Add skin General Grievous.
+- Add skin C-3PO.
+- Add skin R2-D2.
+- Buildings Murloc Blademaking Hut and Murloc Lumberkeep have different hotkeys and icon positions now.
+- Add item Tome of Damage.
+- Add item Tome of Armor.
+- Add item Manual of Mana.
+- Add equipment M249.
+- Add equipment Stormwind Armor.
+- Hero Eredar Warlock is classified as Undead now.
+- Hero Succubus is classified as Undead now.
+- Hero and boss Archimonde is classified as Undead now.
+- Hero and boss Kil'jaeden is classified as Undead now.
+- The hero has to return the Charm spell item in Demon quest 2 now.
+- Fix the name of Lady Hederine in demon quest descriptions.
+- Add Dimensional Gate to Outland and connect it to the one in Azeroth.
+- No more talk to me effect on Lich King from the start of the game.
+- Refactor Forsaken quests.
+- Stop Firework Team by player Gaia to attack creeps in the beginning.
+- Checkbox in backpack UI enables bag numbers now instead of disabling them.
+- Use functionality from PagedButtonsConfig in backpack UI.
+- Add hero standard ability Nocturnal.
+- Add hero standard ability Diurnal.
+- Fix icon of ability Diurnal.
+- Scale down mines Power Plant and Nuclear Power Plant.
+- One lever in Sunwell.
+- Add tiny building items for race High Elf.
+- Register missing tiny tower items for race Human.
+- Add vote "-limits".
+- Add vote "-nolimits".
+- Register Dragownhawk Aviary for race High Elf.
+- Use different icon for hero spell Druid Forms.
+- Replace tile Square Tiles Outland with Snow.
+- Use Snow tiles in Northrend.
+- Add trees to player selection.
+- Add vote "-summer".
+- Add vote "-spring".
+- Add vote "-fall".
+- Add vote "-winter".
+- Add vote "-seasons".
+- Add vote "-noseasons".
+- Less Sunken Ruins terrain in Outland.
+- Add chat command "-time".
+- Add season and weather systems enabled for certain zones.
+- Remove default Snow weather effects from Northrend.
+- Fix icon of Advanced Farming.
+- Animals of profession Farmer have resource Meat now.
+- Critters have all tilesets now.
+- Fix custom sound sets for Cow units.
+- Demon Gate at Black Citadel.
+- Add item Pumpkin.
+- Add item Seed Pumpkin.
+- Fix fly height of hero Gryphon Rider.
+- Make Waygate ability area smaller to fix Outland portals.
+- Fix JASS function PlayerCanBuyHeroEx checking for unlock all.
+- Add JASS function GetPlayerNameColoredSimple.
+- Add JASS constants for hero journey hero levels.
+- Improve message for first equipment bag in hero journey.
+- Add hero standard ability Burrow to Nerubian and Kobold heroes.
+- Lich King drops item Frostmourne.
+- Add taunt system.
+- Add chat command "-taunts".
+- Add chat command "-tauntson".
+- Add chat command "-tauntsoff".
+- Replace tile Bricks Outland with Sand.
+- Add zone Tanaris.
+- Add critter Camel.
+- Change missile of Sand Elemental for race Dalaran.
+- Add creep Enraged Sand Elemental.
+- Add creep Berserk Sand Elemental.
+- Add creep Sand Worm.
+- Add creep Sand Troll.
+- Add vote "-timecycle".
+- Add vote "-notimecycle".
+- Add vote "-morning".
+- Add vote "-noon".
+- Add vote "-evening".
+- Add vote "-midnight".
+- Add vote "-weather".
+- Add vote "-noweather".
+- Increase duration of item Cage.
+- Add cheat "-terrain".
+- Add ability Inspect Ground to item Goblin Tool Box.
+- Fix player selection text tag visibility.
+- Custom icon for unit Zandalari Throne of War.
+- Fix sound SargerasLaugh in cinematic Old Gods.
+- Register Night Elf Child for race Night Elf.
+- Register Harpy Windwitch for race Centaur.
+- Item Orb of Kil'jaeden can be used now.
+- Tome items are not used automatically anymore.
+- Scale down unit Naboo Star Fighter.
+- Scale down unit AAT.
+- Add missing texture CorruptedNightElfBase.
+- Add research Improved Corrupted Ancient Protectors to race Satyr.
+- Add creep Egg Sack.
+- Move multiboard toggle button into actions bar.
+- Fix Eredar AI starting units.
+- Fix worker type for Satyr AI when loading workers into mines.
+- Fix IDs in Satyr AI script.
+- Pet Sludge unit for Satyr race.
+- Satyr Child unit for Satyr race.
+- Add item Weather Balloon.
+- Fix "Drop all items." action in action bar.
+- Improve registered zones.
+- Doodads and destructibles change animations because of day and night cycle now.
+- Improve terrain of player selection.
+- Add Fireflies doodad.

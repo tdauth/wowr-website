@@ -153,7 +153,7 @@
 - Change color of damage floating text.
 - Add missing profession 3 and race 3 to player selection floating text.
 - Add learnable hero spell Mechanical Critter.
-- Add standard hero ability Rejuvenation.
+- Add hero standard ability Rejuvenation.
 - Fix icon position of hero spell Spy.
 - Chat command "-resinfo" shows now which resources can be returned to the selected unit.
 - Make item Rocks perishable.

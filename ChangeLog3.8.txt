@@ -121,7 +121,7 @@
 - Add building Hero Abilities for all races.
 - Add icon ability Life Regeneration to male citizens.
 - Add passive Health and Mana Stone icons.
-- Change hotkeys of learnable standard hero abilities.
+- Change hotkeys of learnable hero standard abilities.
 - Add small new creep area to Outland next to the Orc camp.
 - Rename research Unholy Armor from Demon race into Fel Armor.
 - Change icon of research Fel Armor for race Demon.

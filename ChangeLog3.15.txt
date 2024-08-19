@@ -95,7 +95,24 @@
 - Remove hero level 6 requirement of hero spell Mass Firebolt.
 - Do not refund water units from different races.
 - Fix slot 2 of hero spell Finish Construction.
-- Equipment bags won't get hero spells Fire Attack, Jetpack, Teleporation, Defend, Split, Druid Forms, Hardened Skin, Barrage, Magic Defense, Black Arrow, Spiked Carapace, Permanent Invisibility, Damage Bonus, Armor Bonus, Life Regeneration, Mana Regeneration, Move Speed Bonus and Attack Speed Bonus anymore.
+- Equipment bags won't get hero spell Fire Attack anymore.
+- Equipment bags won't get hero spell Jetpack anymore.
+- Equipment bags won't get hero spell Teleporation anymore.
+- Equipment bags won't get hero spell Defend anymore.
+- Equipment bags won't get hero spell Split anymore.
+- Equipment bags won't get hero spell Druid Forms anymore.
+- Equipment bags won't get hero spell Hardened Skin anymore.
+- Equipment bags won't get hero spell Barrage anymore.
+- Equipment bags won't get hero spell Magic Defense anymore.
+- Equipment bags won't get hero spell Black Arrow anymore.
+- Equipment bags won't get hero spell Spiked Carapace anymore.
+- Equipment bags won't get hero spell Permanent Invisibility anymore.
+- Equipment bags won't get hero spell Damage Bonus anymore.
+- Equipment bags won't get hero spell Armor Bonus anymore.
+- Equipment bags won't get hero spell Life Regeneration anymore.
+- Equipment bags won't get hero spell Mana Regeneration anymore.
+- Equipment bags won't get hero spell Move Speed Bonus anymore.
+- Equipment bags won't get hero spell Attack Speed Bonus anymore.
 - Maiev stays invulnerable for Naga quest 2 since reviving neutral hostile heroes does not work.
 - Unpause Maiev and her guards when fighting them.
 - Fix ping for Draenei quest 3.

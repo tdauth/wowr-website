@@ -29,7 +29,7 @@
 - Haunted Water Gold Mines can train ships and Sky Barges.
 - Add research Improved Air Transport to the Power Generator.
 - Add Mercenary Camp from the Future to the Boss Fight Island.
-- Increase hitpoints and mana bonus from 50 625473446754631251040 60  3038375642219086486078533635037507546239164094730181165556091786292570720206655214639820798923376777359735400418329813753440851866726687549919569200496434683409386445369292655427584.000000o
+- Increase hitpoints and mana bonus from 50 % to 60 % for Evolution.
 - Increase hero ability levels to 100.
 - Show the percentage in the tooltip of Brilliance Aura.
 - Increase hero level of Archimonde to 500 which is the maximum hero level skill points can be spent.

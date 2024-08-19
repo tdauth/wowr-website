@@ -4,7 +4,7 @@
 - Add hero Gnomish Engineer.
 - Add mount Mechanostrider.
 - Add mount Flying Machine.
-- Give Troll tier 1 - 3 buildings custom icons.
+- Give Troll tier 1-3 buildings custom icons.
 - Give Troll Barracks building a custom icon.
 - Give Troll Barracks building a custom model.
 - Add missing Troll researches.
@@ -84,7 +84,7 @@
 - Add Gnome unit Hover Copter.
 - Add Gnome unit Citizen (male).
 - Add Gnome building Workshop.
-- Add hero Nazgûl.
+- Add hero Nazg
 - Add hero Warlock (Gnome).
 - Add recipe Craft Ring of Protection +5.
 - Add recipe Craft Inferno Stone.

@@ -24,7 +24,7 @@
 - Use system New Bonus by chopinski for custom spells.
 - Reduce the mana costs for the hero ability Control Magic.
 - Add a cooldown per slot for learnable hero spells which is not checked in the hero selection to prevent mass castings of spells.
-- Remove standard hero ability Resistant Skin which made no sense for heroes.
+- Remove hero standard ability Resistant Skin which made no sense for heroes.
 - Rename tavern "Bonus Heroes Reskill" into "Bonus Heroes Void Lords".
 - Add heroes Void Lord Commander X.
 - Dwarf AI builds towers now.
@@ -215,7 +215,8 @@
 - Building Techno Union Ship attacks units now.
 - Scaled down building Techno Union Ship.
 - Scale down MTT unit.
-- Add hero Paul Bäumer.
+- Add hero Paul B
+umer.
 - Add mount Zeppelin WWI.
 - Add bonus race Germans WWII.
 - Move professions and races prestored icons triggers to their folders.

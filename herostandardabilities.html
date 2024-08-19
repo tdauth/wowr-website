@@ -91,8 +91,7 @@ Berserk
 15
 </td>
 <td>
-Causes this unit to attack 50% faster, but take 40% 
-more damage.
+Causes the hero to attack faster, but take more damage.
 </td>
 </tr>
 <tr id="Aivs">
@@ -111,9 +110,7 @@ Invisibility
 </td>
 <td>
 Makes a unit invisible. If the unit attacks, uses an 
-ability or casts a spell, it will become visible. 
-<br/>
-Lasts 120 seconds.
+ability or casts a spell, it will become visible.
 </td>
 </tr>
 <tr id="A0HN">
@@ -149,10 +146,8 @@ Bloodlust
 15
 </td>
 <td>
-Increases a friendly unit's attack rate by 30% and 
-movement speed by 25%. 
-<br/>
-Lasts 60 seconds.
+Increases a friendly unit's attack rate and movement 
+speed.
 </td>
 </tr>
 <tr id="A0JU">
@@ -171,7 +166,7 @@ Ensnare
 </td>
 <td>
 Causes a target enemy unit to be bound to the ground 
-so that it cannot move for 8 seconds. Air units that 
+so that it cannot move for some time. Air units that 
 are ensnared can be attacked as though they were land 
 units.
 </td>
@@ -191,7 +186,7 @@ True Sight
 1
 </td>
 <td>
-Reveals nearby invisible units.
+Changes the ability to True Sight.
 </td>
 </tr>
 <tr id="A0OY">
@@ -209,9 +204,12 @@ VIP Spell Book
 1
 </td>
 <td>
-Only VIPs can use this spell book. Contains the spells 
-Blink, Repair, Dark Summoning, Ensnare, Bloodlust, 
-Bash, Berserk, Invisibility, and True Sight.
+Contains the spells Blink, Repair, Dark Summoning, 
+Ensnare, Bloodlust, Bash, Berserk, Invisibility, and 
+True Sight.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for VIPs.</div>
 </td>
 </tr>
 <tr id="A0OZ">
@@ -229,8 +227,7 @@ Blink
 1
 </td>
 <td>
-Teleports the caster a short distance, allowing it 
-to move in and out of combat.
+Changes the ability to Blink.
 </td>
 </tr>
 <tr id="A0PP">
@@ -249,7 +246,11 @@ Repair
 </td>
 <td>
 Repairs mechanical units and structures at the cost 
-of resources.
+of resources. 
+<br/>
+<br/>
+<div style="color: #ffcc00">Increases the ratio of 
+repaired hit points with every level.</div>
 </td>
 </tr>
 <tr id="A0PQ">
@@ -305,11 +306,11 @@ alt="ReplaceableTextures/CommandButtons/BTNRejuvenation.blp"
 Rejuvenation
 </td>
 <td>
-1
+15
 </td>
 <td>
-Heals a target friendly unit for 400 hit points over 
-12 seconds.
+Heals a target friendly unit for  hit points over some 
+time.
 </td>
 </tr>
 <tr id="A098">
@@ -331,8 +332,44 @@ The ability to see as far at night as they do during
 the day.
 </td>
 </tr>
-<tr id="A1ZX">
+<tr id="A120">
 <td data-order="13">
+<a href="#A120">
+<img src="ReplaceableTextures/PassiveButtons/PASSavannahNight.blp" width="64" height="64"
+title="Nocturnal"
+alt="ReplaceableTextures/PassiveButtons/PASSavannahNight.blp"
+/></a>
+</td>
+<td>
+Nocturnal
+</td>
+<td>
+1
+</td>
+<td>
+Increases stats during the night.
+</td>
+</tr>
+<tr id="A1IP">
+<td data-order="14">
+<a href="#A1IP">
+<img src="ReplaceableTextures/PassiveButtons/PASOrbOfTheSun.blp" width="64" height="64"
+title="Diurnal"
+alt="ReplaceableTextures/PassiveButtons/PASOrbOfTheSun.blp"
+/></a>
+</td>
+<td>
+Diurnal
+</td>
+<td>
+1
+</td>
+<td>
+Increases stats during the day.
+</td>
+</tr>
+<tr id="A1ZX">
+<td data-order="15">
 <a href="#A1ZX">
 <img src="ReplaceableTextures/CommandButtons/BTNPotionRed.blp" width="64" height="64"
 title="Speed Boost"
@@ -346,11 +383,11 @@ Speed Boost
 15
 </td>
 <td>
-Increases the movement speed by 60 % for 20 seconds.
+Increases the movement speed for some time.
 </td>
 </tr>
 <tr id="A219">
-<td data-order="14">
+<td data-order="16">
 <a href="#A219">
 <img src="ReplaceableTextures/CommandButtons/BTNShip.blp" width="64" height="64"
 title="Summon Ship"
@@ -364,11 +401,15 @@ Summon Ship
 1
 </td>
 <td>
-Summons a ship.
+Summons a ship. 
+<br/>
+<br/>
+<div style="color: #ffcc00">Increases the stats of 
+the summoned ship with every level.</div>
 </td>
 </tr>
 <tr id="A21C">
-<td data-order="15">
+<td data-order="17">
 <a href="#A21C">
 <img src="ReplaceableTextures/CommandButtons/BTNGnomeEngineer.blp" width="64" height="64"
 title="Summon Submarine"
@@ -386,7 +427,7 @@ Summons a submarine.
 </td>
 </tr>
 <tr id="A1Y0">
-<td data-order="16">
+<td data-order="18">
 <a href="#A1Y0">
 <img src="ReplaceableTextures/CommandButtons/BTNPickUpItem.blp" width="64" height="64"
 title="Loot Ray"
@@ -404,7 +445,7 @@ Casts a ray which pulls target items to the hero.
 </td>
 </tr>
 <tr id="A1MA">
-<td data-order="17">
+<td data-order="19">
 <a href="#A1MA">
 <img src="ReplaceableTextures/CommandButtons/BTNRoot.blp" width="64" height="64"
 title="Root"
@@ -423,10 +464,62 @@ it immobile, but allowing it to build units. For the
 Ancient Protector, this allows it to hurl enormous 
 rocks through the air to damage enemy units. Also gives 
 the Ancient Fortified armor.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Ancient 
+structure heroes.</div>
+</td>
+</tr>
+<tr id="A247">
+<td data-order="20">
+<a href="#A247">
+<img src="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp" width="64" height="64"
+title="Burrow"
+alt="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp"
+/></a>
+</td>
+<td>
+Burrow
+</td>
+<td>
+1
+</td>
+<td>
+Digs into the ground, becomes invisible, and gains 
+an increased regeneration rate. 
+<br/>
+The hero cannot attack while burrowed. 
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Nerubian 
+and Kobold heroes.</div>
+</td>
+</tr>
+<tr id="A238">
+<td data-order="21">
+<a href="#A238">
+<img src="ReplaceableTextures/CommandButtons/BTNNagaBurrow.blp" width="64" height="64"
+title="Submerge"
+alt="ReplaceableTextures/CommandButtons/BTNNagaBurrow.blp"
+/></a>
+</td>
+<td>
+Submerge
+</td>
+<td>
+1
+</td>
+<td>
+Allows to dive beneath water, hiding it from view. 
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Submarine 
+and Naga heroes. It is added automatically when the 
+hero is on water.</div>
 </td>
 </tr>
 <tr id="A14U">
-<td data-order="18">
+<td data-order="22">
 <a href="#A14U">
 <img src="ReplaceableTextures/CommandButtons/BTNRandomBasicIcon.blp" width="64" height="64"
 title="Randomize Spells"
@@ -449,7 +542,7 @@ to have no cooldown.</div>
 </td>
 </tr>
 <tr id="A1XO">
-<td data-order="19">
+<td data-order="23">
 <a href="#A1XO">
 <img src="ReplaceableTextures/CommandButtons/BTNRandomBasicIcon.blp" width="64" height="64"
 title="Randomize Skin"
@@ -471,7 +564,7 @@ who can change their skin.</div>
 </td>
 </tr>
 <tr id="A1IY">
-<td data-order="20">
+<td data-order="24">
 <a href="#A1IY">
 <img src="ReplaceableTextures/CommandButtons/BTNStatUp.blp" width="64" height="64"
 title="Skill"
@@ -486,11 +579,11 @@ Skill
 </td>
 <td>
 Allows skilling hero attributes and randomizing hero 
-spells and skins.
+spells.
 </td>
 </tr>
 <tr id="A0FA">
-<td data-order="21">
+<td data-order="25">
 <a href="#A0FA">
 <img src="ReplaceableTextures/CommandButtons/BTNMedivh.blp" width="64" height="64"
 title="Master and Student"
@@ -504,13 +597,11 @@ Master and Student
 15
 </td>
 <td>
-Increases the damage and attack speed of Medivh when 
-being cast by Khadgar or of Khadgar when being cast 
-by Medivh.
+Changes the ability to Master and Student.
 </td>
 </tr>
 <tr id="A0J1">
-<td data-order="22">
+<td data-order="26">
 <a href="#A0J1">
 <img src="ReplaceableTextures/CommandButtons/BTNFlakCannons.blp" width="64" height="64"
 title="Select Turrets"
@@ -524,11 +615,7 @@ Select Turrets
 1
 </td>
 <td>
-Selects all the turrets of the vehicle. Turrets will 
-attack nearby enemies automatically or attack the focused 
-target while the vehicle can continue its current order. 
-This allows you moving the vehicle while it is attacking. 
-Some turrets can be destroyed without losing the vehicle.
+Changes the ability to Select Turrets.
 </td>
 </tr>
 <!-- Hero standard abilities generated with chat command "-website". -->

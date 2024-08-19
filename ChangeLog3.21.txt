@@ -255,7 +255,7 @@
 - Add custom icon for Accept.
 - Add command buttons to preplaced units in the beginning of the game.
 - Fix dependency of Pandaren Blacksmith.
-- Rename NPC Queen of the new Citadel into Lady Hederine.
+- Rename NPC Quenn of the new Citadel into Lady Hederine.
 - Add cheat "-professions".
 - Add cheat "-boots".
 - Add more tiny items for buildings.
@@ -264,7 +264,7 @@
 - Add custom icon for item Sleeping Bag.
 - Register more zones.
 - Remove duplicated item type Gold Bars.
-- Increase maximum stacks for item Gold Bars to 100.
+- Incrase maximum stacks for item Gold Bars to 100.
 - Add zone Emerald Dream.
 - Add actions bar UI.
 - Do not add command buttons to rootet ancients which cannot move by default.
@@ -282,6 +282,7 @@
 - Fix Water Portal destination to the sea at Northrend.
 - Disable AUTO_UPDATE_STOCKS for performance.
 - Improve performance of JASS function IsInSinglePlayer.
+- Improve race Centaur.
 - Change mount of hero Centaur Khan from Wyvern to Eagle.
 - Add tooltip to toggle multiboard checkbox.
 - Simplify code for toggle multiboard checkbox.

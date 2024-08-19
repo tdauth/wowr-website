@@ -97,4 +97,3 @@
 - Reduce duration of ability Tranquility to 8 seconds.
 - Place a Thieves Guild on Theramore.
 - Revise quest log info.
-- Release 3.1 
