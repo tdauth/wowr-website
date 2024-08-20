@@ -47,7 +47,13 @@ img {
     overflow-y:scroll;
     height:200px;
     width:18%
+}
 
+.questitems {
+    overflow:hidden;
+    overflow-y:scroll;
+    height:150px;
+    width:100%
 }
 
 input, select, textarea {
