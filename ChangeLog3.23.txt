@@ -121,8 +121,10 @@
 - Add vote "-notimecycle".
 - Add vote "-morning".
 - Add vote "-noon".
+- Add vote "-day".
 - Add vote "-evening".
 - Add vote "-midnight".
+- Add vote "-night".
 - Add vote "-weather".
 - Add vote "-noweather".
 - Increase duration of item Cage.
@@ -152,9 +154,27 @@
 - Doodads and destructibles change animations because of day and night cycle now.
 - Improve terrain of player selection.
 - Add Fireflies doodad.
-- Add  vote "-nowater".
-- Add  vote "-water".
-- Add  vote "-waterred".
-- Add  vote "-nofog".
-- Add  vote "-nowater".
-- Add  vote "-fog".
+- Add vote "-nowater".
+- Add vote "-water".
+- Add vote "-waterred".
+- Add vote "-nofog".
+- Add vote "-nowater".
+- Add vote "-fog".
+- Add missing hero standard ability Berserk to hero Ancient Hydra.
+- Add missing hero standard ability Berserk to hero Sauron.
+- Give hero Wisp the hero standard ability Repair.
+- Add creep Living Statue.
+- Add ability Selfdestruct to Command Buttons.
+- Replace Pet Worm with Pet Dog for race Furbolg.
+- Furbolg AI trains Pet Dog now.
+- Use custom icon for hero spell Explosive Barrel.
+- Use custom icon for Goblin ability and research Explosive Barrel.
+- Do not allow Selfdestruct in player selection.
+- Remove Happy Easter from Event House since it is supported by calendar.
+- Fix choosing a start location when not a member in Elven Clan.
+- Change model of Druid Tree Form.
+- Add mount Night Elf Car.
+- Add more paths from Northrend's coast into the land.
+- Fix learn icon of hero spell Phoenix Egg.
+- Add hero Phoenix.
+- Add learnable hero spell Phoenix Egg for slot 4.
