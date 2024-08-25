@@ -1,0 +1,64 @@
+- Recommend SD graphics in map description.
+- Show map version in stats title.
+- Revise hero Phoenix.
+- Add chat command "-pingaltars".
+- Add chat command "-pingres".
+- Add custom icon for building Alchemist Lab.
+- Add Deactivate Resurrection Stone to Resurrection Stones.
+- Include activated Resurrection Stones in action "Altars" action.
+- Fix item Weather Balloon.
+- Fix item Tome of Armor.
+- Fix item Manual of Mana.
+- Fix Thieves Guilds.
+- Fix displayed calendar month.
+- Change summer harvest bonus to fall.
+- Fix calendar harvest bonus.
+- Make unit Skinning Rack invulnerable.
+- Fix effect of Skinning Racks.
+- Improve tooltip of item Skinning Racks.
+- Custom icon for profession Hunter and item Hunting Bow.
+- Add Resurrection Stones.
+- Add bonus hero Shandris Feathermoon.
+- Fix adding Meat mines for dying critters.
+- Add zone Silverpine Forest.
+- Replace hero spell Envenomed Weapons with Poison Arrows for hero Drayd.
+- Change icon of day time for calendar multiboard.
+- Custom icon for hero spell Poison Arrows.
+- Improve tooltip for hero spell Poison Arrows.
+- Automatically change Barrage missile art to the hero's missile art.
+- Add hero Naga Siren.
+- High Elf units have hit points regeneration only during the day now.
+- Add level changer to level Ashenvale.
+- Add building Water Tower to Engineer Ship.
+- Add building Advanced Water Tower to Engineer Ship.
+- Add building Wall to Engineer Ship.
+- Give Phoenix Egg spell passive icon.
+- Mention bonus hero requirements in tooltips.
+- Make more heroes bonus heroes.
+- Add learnable hero spell Corrosive Breath.
+- Add bonus hero Chimaera.
+- Add mount Hippogryph.
+- Add Goblin Tool Box ability Dig Up.
+- Add Goblin Tool Box ability Dig Down.
+- List mounts on heroes page on website.
+- Add vote "-nohardcore/-hardcore".
+- Add learnable hero spell Summon Sea Elementals for slot 3.
+- Add bonus hero Deeplord Revenant.
+- Fix missiline launch coordinates for creep and unit Legion Ship.
+- Fix coloring of unit Kobold Tunneler.
+- Tunnel system creates copies only in tunnels with the same owner now.
+- Tunnel system does not check if unit is still loaded on removing copies.
+- Vote system uses ForceUtils now.
+- ForceUtils provides GetAllPlayingUsers now which is used for better performance.
+- Improve terrain in player selection.
+- Use custom model for unit AT-AT.
+- Remove unused object data.
+- Increase sight range of Resurrection Stones.
+- Add tome effect when activating Resurrection Stones.
+- Increase selection scale of heroes Kodo Beast.
+- Add property Tomb of Sargeras.
+- Add property Theramore Isle.
+- Add property Boralus.
+- Add property Dalaran.
+- Add start location and zone Kul Tiras.
+- Rename resource "Electricity" into "Power".
