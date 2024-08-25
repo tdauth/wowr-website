@@ -7269,9 +7269,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="researches.html#R02W">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFragmentationBombs.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTNTBarrel.BLP" width="64" height="64"" )
 	call Preload( "title="Explosive Barrel"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFragmentationBombs.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTNTBarrel.BLP"" )
 	call Preload( "/></a>" )
 	call Preload( "Explosive Barrel" )
 	call Preload( "<br/>" )
@@ -7280,8 +7280,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "more damage than Goblin Land Mines." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNFragmentationBombs.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFragmentationBombs.blp"" )
+	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNTNTBarrel.BLP" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTNTBarrel.BLP"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -23252,7 +23252,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 7.4 )
+	call PreloadEnd( 8.6 )
 
 endfunction
 

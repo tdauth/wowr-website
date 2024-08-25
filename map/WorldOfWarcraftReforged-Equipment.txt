@@ -1081,7 +1081,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "Increases the attack damage of the Hero by 30 when " )
-	call Preload( "worn. Gives a chance of 7500 % to multiply the damage " )
+	call Preload( "worn. Gives a chance of 75 % to multiply the damage " )
 	call Preload( "by 3." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
@@ -1772,7 +1772,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Equipment generated with chat command "-website". -->" )
-	call PreloadEnd( 0.5 )
+	call PreloadEnd( 0.6 )
 
 endfunction
 

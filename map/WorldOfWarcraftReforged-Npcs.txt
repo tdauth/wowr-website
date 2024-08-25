@@ -261,11 +261,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Sylvanas" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "<a href="locations.html#trisfalglades">" )
-	call Preload( "<img src="ReplaceableTextures\\CommandButtons\\BTNRegenerationAura.blp" width="64" height="64"" )
-	call Preload( "title="Trisfal Glades"" )
-	call Preload( "alt="ReplaceableTextures\\CommandButtons\\BTNRegenerationAura.blp"" )
-	call Preload( "/></a>" )
+	call Preload( "-" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="Eevi">" )
@@ -458,7 +454,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.2 )
+	call PreloadEnd( 0.3 )
 
 endfunction
 

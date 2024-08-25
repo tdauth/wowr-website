@@ -299,9 +299,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFlameStorm.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A1ZP">" )
-	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNPhoenixEgg.blp" width="64" height="64"" )
+	call Preload( "<img src="ReplaceableTextures/PassiveButtons/PASPhoenixEgg.blp" width="64" height="64"" )
 	call Preload( "title="Phoenix Egg"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNPhoenixEgg.blp"" )
+	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASPhoenixEgg.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
@@ -5435,7 +5435,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.0 )
+	call PreloadEnd( 1.4 )
 
 endfunction
 
