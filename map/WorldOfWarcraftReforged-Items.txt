@@ -27588,9 +27588,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #8b00ff">Unique</div>" )
 	call Preload( "<br/>" )
-	call Preload( "A powerful artifact from Dalaran. Gives your hero Divine " )
-	call Preload( "armor and +15 Intelligence and 1500 Mana. Allows your " )
-	call Preload( "hero to cast Mana Shield." )
+	call Preload( "A powerful artifact from Dalaran. Gives your hero +15 " )
+	call Preload( "Intelligence and 1500 Mana. Allows your hero to cast " )
+	call Preload( "Mana Shield." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img src="ReplaceableTextures/CommandButtons/BTNEyeOfDalaran.blp" width="64" height="64"" )
@@ -30598,7 +30598,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 33.1 )
+	call PreloadEnd( 27.5 )
 
 endfunction
 

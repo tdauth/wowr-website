@@ -1371,7 +1371,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "-" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "900" )
+	call Preload( "1200" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="nbsw">" )
@@ -1465,7 +1465,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "-" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "900" )
+	call Preload( "1200" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="nfoh">" )
@@ -81545,7 +81545,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 117.1 )
+	call PreloadEnd( 112.5 )
 
 endfunction
 
