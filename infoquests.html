@@ -71,6 +71,7 @@ These quests log entries (F9) give players information about the game:
     </thead>
     <tbody>
 
+
 <!-- Info quests generated with chat command "-website". -->
 <tr id="MapInformation">
 <td data-order="0">
@@ -271,7 +272,7 @@ If you voted for it in the beginning, every player can win the game by killing t
 Chat Commands
 </td>
 <td>
-Enter the chat commands without the double quotes. The leaderboards will appear during certain quests. Note: Even when the quest has been activated, and you turn off the leaderboard, the counts will continue until the quest requirement is accomplished. Also,
+Enter the chat commands without the double quotes. The leaderboards will appear during certain quests. Note: Even when the quest has been activated, and you turn off the leaderboard, the counts will continue until the quest requirement is accomplished. Also, 
 </td>
 <td>
 <ul class="questitems">
@@ -326,6 +327,8 @@ Enter the chat commands without the double quotes. The leaderboards will appear 
 <li>"-pingf": Pings all allied Freelancer heroes.</li>
 <li>"-pingm": Pings all of your mounts.</li>
 <li>"-pingportals": Pings all of your and allied portals.</li>
+<li>"-pingaltars": Pings all of your altars.</li>
+<li>"-pingres/resurrectionstones": Pings all resurrection stones.</li>
 <li>"-pinggoldmines": Pings all goldmines.</li>
 <li>"-pingproperties": Pings all properties.</li>
 <li>"-pingdragons": Pings all Dragon Roosts.</li>
@@ -508,11 +511,12 @@ Enter the chat commands without the double quotes. The leaderboards will appear 
 <li>"-noon": Changes time of day to 12.</li>
 <li>"-evening": Changes time of day to 18.</li>
 <li>"-midnight": Changes time of day to 24.</li>
-<li>"-timecycle": Enables time cycle.</li>
-<li>"-notimecycle": Disables time cycle.</li>
+<li>"-dnc": Enables day and night cycle.</li>
+<li>"-nodnc": Disables day and night cycle.</li>
 <li>"-nowater"/"-water": Disables/enables visibility of water.</li>
 <li>"-waterred": Changes the color of water to red.</li>
 <li>"-nofog"/"-fog": Disables/enables visibility of fog.</li>
+<li>"-nohardcore"/"-hardcore": Disables/enables hardcore mode.</li>
 </ul>
 </td>
 </tr>
@@ -570,7 +574,7 @@ You can select your hero again by using the chat command "-repick". He keeps the
 Full Repick
 </td>
 <td>
-You can select your hero again including the game mode by using the chat command "-fullrepick". He keeps only a part of the gained experience and you lose all units on the map! All of your carried items will be dropped on the island Theramore, so quest items
+You can select your hero again including the game mode by using the chat command "-fullrepick". He keeps only a part of the gained experience and you lose all units on the map! All of your carried items will be dropped on the island Theramore, so quest items 
 </td>
 <td>
 <ul class="questitems">
@@ -597,17 +601,23 @@ Alliances can be changed via the default Warcraft menu. You can also send resour
 <tr id="HeroDeath">
 <td data-order="15">
 <a href="#HeroDeath">
-<img src="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" title="ReplaceableTextures\\CommandButtons\\BTNHelmutPurple.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNResStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNResStone.blp" />
 </a>
 </td>
 <td>
 Hero Death
 </td>
 <td>
-If your hero dies you can either revive him/her in your own built altar if you are a warlord or revive him/her in the alter on Theramore or in your hideout. You can leave the island by buying a boat. If you have no gold, just sell crafted items. Note that res
+If your hero dies you can either revive him/her in your own built altar if you are a warlord or revive him/her in the altar on Theramore or in your hideout. You can leave the island by buying a boat. If you have no gold, just sell crafted items. Note that res
 </td>
 <td>
 <ul class="questitems">
+<li>"-revive": Selects your altar to revive your hero.</li>
+<li>"-suicide": Kills your selected units.</li>
+<li>"-noresurrect": Disables all activated Resurrection Stones.</li>
+<li>"-noresurrectX": Disables the activated Resurrection Stone for hero X.</li>
+<li>"-pingaltars": Pings all of your altars.</li>
+<li>"-pingres/resurrectionstones": Pings all resurrection stones.</li>
 </ul>
 </td>
 </tr>
@@ -702,7 +712,7 @@ Resources allow training, buying and upgrading units, constructing buildings, re
 Computer AI
 </td>
 <td>
-Computer players are warlords by default. They start with a main building, five workers and their hero. The AI will collect gold and lumber and build additional gold mines. It should attack creeps and hostile players from time to time. If you are allied to a
+Computer players are warlords by default. They start with a main building, five workers and their hero. The AI will collect gold and lumber and build additional gold mines. It should attack creeps and hostile players from time to time. If you are allied to a 
 </td>
 <td>
 <ul class="questitems">
@@ -726,7 +736,7 @@ Computer players are warlords by default. They start with a main building, five 
 Creeps
 </td>
 <td>
-You can kill creeps to increase the level of your hero. There is different creeps everywhere in the world. When you kill a group of computer-controlled creeps, it will be respawned after 100 seconds, so the number of opponents in the game is not finite. Some
+You can kill creeps to increase the level of your hero. There is different creeps everywhere in the world. When you kill a group of computer-controlled creeps, it will be respawned after 100 seconds, so the number of opponents in the game is not finite. Some 
 </td>
 <td>
 <ul class="questitems">
@@ -834,8 +844,7 @@ Some epic quests will create leaderboards. In order to hide or show them again, 
 - turn on leaderboard: "-crusadeon"
 - turn off leaderboard: "-crusadeoff"
 
-2. THE SILVER HAND:
-
+2. THE SILVER HAND:
 </td>
 <td>
 <ul class="questitems">
@@ -862,7 +871,7 @@ Some epic quests will create leaderboards. In order to hide or show them again, 
 Demigod
 </td>
 <td>
-If you are bored with the standard heroes and you want to become more powerful, you can become a demigod. You can do this by buying either a 'Order Stone Fragment' (light side) or a 'Chaos Stone Fragment' (dark side) and by placing your hero in the center of
+If you are bored with the standard heroes and you want to become more powerful, you can become a demigod. You can do this by buying either a 'Order Stone Fragment' (light side) or a 'Chaos Stone Fragment' (dark side) and by placing your hero in the center of 
 </td>
 <td>
 <ul class="questitems">
@@ -914,7 +923,7 @@ When your hero gets to level 35 you can use the Hand of God somewhere on the map
 Evolution
 </td>
 <td>
-You can research Evolution to increase the the maximum life, damage, armour and level of all of your units, so they will give enemy players more XP. The upgrade is also used for all creeps and units from bosses on the map as soon as the hero of playing users
+You can research Evolution to increase the the maximum life, damage, armour and level of all of your units, so they will give enemy players more XP. The upgrade is also used for all creeps and units from bosses on the map as soon as the hero of playing users 
 </td>
 <td>
 <ul class="questitems">
@@ -948,7 +957,7 @@ Bonus heroes are additional heroes available at a higher hero level. Some of the
 Goblin Bank
 </td>
 <td>
-The Goblin Bank is a neutral building placed on some island on the sea. You can use it to increase your gold and lumber by depositing it for some time and getting interests. You can also play the Wheel of Fortune there.
+The Goblin Bank is a neutral building located Theramore. You can use it to increase your gold and lumber by depositing it for some time and getting interests. You can also play the Wheel of Fortune there.
 </td>
 <td>
 <ul class="questitems">
@@ -1018,7 +1027,7 @@ Accounts can be banned from the map. Players with banned accounts will be kicked
 Hall of Fame
 </td>
 <td>
-You will get to the Hall of Fame with a high hero level when you send your savecode on Discord (Multiplayer only) or when you complete the fastest Speed Run of the map: Killing Archimonde without cheats, using an official release version of the map, starting
+You will get to the Hall of Fame with a high hero level when you send your savecode on Discord (Multiplayer only) or when you complete the fastest Speed Run of the map: Killing Archimonde without cheats, using an official release version of the map, starting 
 </td>
 <td>
 <ul class="questitems">
@@ -1245,7 +1254,7 @@ You can save/load your hero settings and XP. However, it is restricted to the co
 <tr id="Portals">
 <td data-order="50">
 <a href="#Portals">
-<img src="ReplaceableTextures\\CommandButtons\\BTNPortal.blp" title="ReplaceableTextures\\CommandButtons\\BTNPortal.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNWaygate.blp" title="ReplaceableTextures\\CommandButtons\\BTNWaygate.blp" />
 </a>
 </td>
 <td>
@@ -1499,7 +1508,7 @@ The lore in this map is based on everything in the original map World of Warcraf
 Stats Tomes
 </td>
 <td>
-I have not included any form of Hero stat increasing tomes in the map for a specific reason. They would greatly imbalance the game and ruin the game concept. Heroes in this map are designed to stay MORTAL. This means no god-like heroes for the small kids who
+I have not included any form of Hero stat increasing tomes in the map for a specific reason. They would greatly imbalance the game and ruin the game concept. Heroes in this map are designed to stay MORTAL. This means no god-like heroes for the small kids who 
 </td>
 <td>
 <ul class="questitems">
@@ -1595,11 +1604,11 @@ The environment defines the visuals of the world like the sky, ambient sounds, t
 <li>"-weather": Starts weather immediately.</li>
 <li>"-noweather": Stops weather immediately.</li>
 <li>"-morning": Changes time of day to 6.</li>
-<li>"-noon": Changes time of day to 12.</li>
+<li>"-noon/-day": Changes time of day to 12.</li>
 <li>"-evening": Changes time of day to 18.</li>
-<li>"-midnight": Changes time of day to 24.</li>
-<li>"-timecycle": Enables time cycle.</li>
-<li>"-notimecycle": Disables time cycle.</li>
+<li>"-midnight/-night": Changes time of day to 24.</li>
+<li>"-dnc": Enables day and night cycle.</li>
+<li>"-nodnc": Disables day and night cycle.</li>
 </ul>
 </td>
 </tr>
@@ -1640,7 +1649,7 @@ This version by Baradé provides lots of new features compared to the original m
 <tr id="RebornVersion">
 <td data-order="71">
 <a href="#RebornVersion">
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" title="ReplaceableTextures\\CommandButtons\\BTNElunesBlessing.blp" />
 </a>
 </td>
 <td>
@@ -1648,7 +1657,7 @@ Reborn Version
 </td>
 <td>
 This version is merely an update of Pitlords WoW TFT 1.2
-Updates include:
+Updates include: 
 
 - Horn of Cenarious item would not appear
 - No more respawning of bosses (I felt this was a bug whether it was or not)
@@ -1663,7 +1672,7 @@ Updates include:
 <tr id="SpecialThanksgoesto..">
 <td data-order="72">
 <a href="#SpecialThanksgoesto..">
-<img src="ReplaceableTextures\\PassiveButtons\\PASBTNScatterRockets.blp" title="ReplaceableTextures\\PassiveButtons\\PASBTNScatterRockets.blp" />
+<img src="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" title="ReplaceableTextures\\CommandButtons\\BTNScatterRockets.blp" />
 </a>
 </td>
 <td>
@@ -1690,7 +1699,7 @@ Special Thanks goes to..
 Credits
 </td>
 <td>
-TRIGSTR_666
+All the people who contributed to this map.
 </td>
 <td>
 <ul class="questitems">
@@ -3193,11 +3202,144 @@ TRIGSTR_666
 <li>NFWar: BTNHorseShoe3</li>
 <li>Legal_Ease: BTNJudgmentOff</li>
 <li>The_Silent: BTNMindControlWBrain</li>
+<li>Mouseketeer: BTN_NagaSorceror</li>
+<li>Misha: Naga Sorceror</li>
+<li>AndrewOverload519: Naga Nazjatar Gate</li>
+<li>AndrewOverload519: BTNNagaGate</li>
+<li>epsilon: Azshara statue portrait</li>
+<li>Chucky: Naga (Generic) Hatchery Animated</li>
+<li>ikillforeyou: Night sky with moon skybox</li>
+<li>Fingolfin: Fingolfins Planet Pack</li>
+<li>Explobomb: Direhorn</li>
+<li>PrinceYaser: BTNNagaWhaler</li>
+<li>PROXY: Goblin Demolisher (Goblin Car)</li>
+<li>Chriz: Fill-Me-Up Treasure Chest</li>
+<li>The_Silent: BTNMolotovCocktail</li>
+<li>Red: Ak-47</li>
+<li>Zombie: BTNAk47</li>
+<li>Talon the Mage: Konstrukt_SniperAttachment</li>
+<li>Deathbringer: BTNSniperRifle</li>
+<li>Talon the Mage: Konstrukt_SniperMissile01</li>
+<li>epsilon: m249_ByEpsilon</li>
+<li>Zombie: Btnm249</li>
+<li>paladinjst: Guard_Armor_Stormwind</li>
+<li>Kitabatake: Farm</li>
+<li>Archangel_Tidusx: BTNFarmKita</li>
+<li>NFWar: BTNPumkin</li>
+<li>R2D2: Pumpkin</li>
+<li>Sunchips: RedApple</li>
+<li>Aldeia: Red Apple</li>
+<li>Kenathorn: Some Custom Items Pack</li>
+<li>Blizzard, UgoUgo, Kam: HeroCryptLord</li>
+<li>Traxamillion: Sand Troll Shaman</li>
+<li>-Dieser-: BTNSnowFlake</li>
+<li>Praytic: BTNRainyWeather</li>
+<li>GolluM_KoMe: DesertTile.blp</li>
+<li>Null: BTNZandalari Throne of War</li>
+<li>Darkfang: Improved Ancient Protector</li>
+<li>Jacky The turtle: Balloons</li>
+<li>Em!: Fireflies</li>
+<li>Null: BTNDay Time</li>
+<li>Hexus: Fountain statue</li>
+<li>WhiteDeath: Living Statue</li>
+<li>WILL THE ALMIGHTY: BTNPumpkinMonster</li>
+<li>Hantoo: CandyItem</li>
+<li>NFWar: Blood Oak Tree</li>
+<li>StonemaulMidget: Ashen Autumn Tree Wall</li>
+<li>WILL THE ALMIGHTY: Sun</li>
+<li>Thrikodius: Moon</li>
+<li>Horn: Ancient Malfurion</li>
+<li>Mc !: NightElfCar</li>
+<li>8512590215848: BTNHunter01</li>
+<li>DeathKnight: BTNPoisonArrowsOn</li>
+<li>DeathKnight: BTNPoisonArrows</li>
+<li>Jaccouille: Star Wars: Empire Vehicle AT-AT</li>
+</ul>
+</td>
+</tr>
+<tr id="3.24">
+<td data-order="74">
+<a href="#3.24">
+<img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
+</a>
+</td>
+<td>
+3.24
+</td>
+<td>
+All changes of 3.24.
+</td>
+<td>
+<ul class="questitems">
+<li>Recommend SD graphics in map description.</li>
+<li>Show map version in stats title.</li>
+<li>Revise hero Phoenix.</li>
+<li>Add chat command "-pingaltars".</li>
+<li>Add chat command "-pingres".</li>
+<li>Add custom icon for building Alchemist Lab.</li>
+<li>Add Deactivate Resurrection Stone to Resurrection Stones.</li>
+<li>Include activated Resurrection Stones in action "Altars" action.</li>
+<li>Fix item Weather Balloon.</li>
+<li>Fix item Tome of Armor.</li>
+<li>Fix item Manual of Mana.</li>
+<li>Fix Thieves Guilds.</li>
+<li>Fix displayed calendar month.</li>
+<li>Change summer harvest bonus to fall.</li>
+<li>Fix calendar harvest bonus.</li>
+<li>Make unit Skinning Rack invulnerable.</li>
+<li>Fix effect of Skinning Racks.</li>
+<li>Improve tooltip of item Skinning Racks.</li>
+<li>Custom icon for profession Hunter and item Hunting Bow.</li>
+<li>Add Resurrection Stones.</li>
+<li>Add bonus hero Shandris Feathermoon.</li>
+<li>Fix adding Meat mines for dying critters.</li>
+<li>Add zone Silverpine Forest.</li>
+<li>Replace hero spell Envenomed Weapons with Poison Arrows for hero Drayd.</li>
+<li>Change icon of day time for calendar multiboard.</li>
+<li>Custom icon for hero spell Poison Arrows.</li>
+<li>Improve tooltip for hero spell Poison Arrows.</li>
+<li>Automatically change Barrage missile art to the hero's missile art.</li>
+<li>Add hero Naga Siren.</li>
+<li>High Elf units have hit points regeneration only during the day now.</li>
+<li>Add level changer to level Ashenvale.</li>
+<li>Add building Water Tower to Engineer Ship.</li>
+<li>Add building Advanced Water Tower to Engineer Ship.</li>
+<li>Add building Wall to Engineer Ship.</li>
+<li>Give Phoenix Egg spell passive icon.</li>
+<li>Mention bonus hero requirements in tooltips.</li>
+<li>Make more heroes bonus heroes.</li>
+<li>Add learnable hero spell Corrosive Breath.</li>
+<li>Add bonus hero Chimaera.</li>
+<li>Add mount Hippogryph.</li>
+<li>Add Goblin Tool Box ability Dig Up.</li>
+<li>Add Goblin Tool Box ability Dig Down.</li>
+<li>List mounts on heroes page on website.</li>
+<li>Add vote "-nohardcore/-hardcore".</li>
+<li>Add learnable hero spell Summon Sea Elementals for slot 3.</li>
+<li>Add bonus hero Deeplord Revenant.</li>
+<li>Fix missiline launch coordinates for creep and unit Legion Ship.</li>
+<li>Fix coloring of unit Kobold Tunneler.</li>
+<li>Tunnel system creates copies only in tunnels with the same owner now.</li>
+<li>Tunnel system does not check if unit is still loaded on removing copies.</li>
+<li>Vote system uses ForceUtils now.</li>
+<li>ForceUtils provides GetAllPlayingUsers now which is used for better performance.</li>
+<li>Improve terrain in player selection.</li>
+<li>Use custom model for unit AT-AT.</li>
+<li>Remove unused object data.</li>
+<li>Increase sight range of Resurrection Stones.</li>
+<li>Add tome effect when activating Resurrection Stones.</li>
+<li>Increase selection scale of heroes Kodo Beast.</li>
+<li>Add property Tomb of Sargeras.</li>
+<li>Add property Theramore Isle.</li>
+<li>Add property Boralus.</li>
+<li>Add property Dalaran.</li>
+<li>Add start location and zone Kul Tiras.</li>
+<li>Rename resource "Electricity" into "Power".</li>
 </ul>
 </td>
 </tr>
 <tr id="3.23">
-<td data-order="74">
+<td data-order="75">
 <a href="#3.23">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3333,8 +3475,10 @@ All changes of 3.23.
 <li>Add vote "-notimecycle".</li>
 <li>Add vote "-morning".</li>
 <li>Add vote "-noon".</li>
+<li>Add vote "-day".</li>
 <li>Add vote "-evening".</li>
 <li>Add vote "-midnight".</li>
+<li>Add vote "-night".</li>
 <li>Add vote "-weather".</li>
 <li>Add vote "-noweather".</li>
 <li>Increase duration of item Cage.</li>
@@ -3364,17 +3508,35 @@ All changes of 3.23.
 <li>Doodads and destructibles change animations because of day and night cycle now.</li>
 <li>Improve terrain of player selection.</li>
 <li>Add Fireflies doodad.</li>
-<li>Add  vote "-nowater".</li>
-<li>Add  vote "-water".</li>
-<li>Add  vote "-waterred".</li>
-<li>Add  vote "-nofog".</li>
-<li>Add  vote "-nowater".</li>
-<li>Add  vote "-fog".</li>
+<li>Add vote "-nowater".</li>
+<li>Add vote "-water".</li>
+<li>Add vote "-waterred".</li>
+<li>Add vote "-nofog".</li>
+<li>Add vote "-nowater".</li>
+<li>Add vote "-fog".</li>
+<li>Add missing hero standard ability Berserk to hero Ancient Hydra.</li>
+<li>Add missing hero standard ability Berserk to hero Sauron.</li>
+<li>Give hero Wisp the hero standard ability Repair.</li>
+<li>Add creep Living Statue.</li>
+<li>Add ability Selfdestruct to Command Buttons.</li>
+<li>Replace Pet Worm with Pet Dog for race Furbolg.</li>
+<li>Furbolg AI trains Pet Dog now.</li>
+<li>Use custom icon for hero spell Explosive Barrel.</li>
+<li>Use custom icon for Goblin ability and research Explosive Barrel.</li>
+<li>Do not allow Selfdestruct in player selection.</li>
+<li>Remove Happy Easter from Event House since it is supported by calendar.</li>
+<li>Fix choosing a start location when not a member in Elven Clan.</li>
+<li>Change model of Druid Tree Form.</li>
+<li>Add mount Night Elf Car.</li>
+<li>Add more paths from Northrend's coast into the land.</li>
+<li>Fix learn icon of hero spell Phoenix Egg.</li>
+<li>Add hero Phoenix.</li>
+<li>Add learnable hero spell Phoenix Egg for slot 4.</li>
 </ul>
 </td>
 </tr>
 <tr id="3.22">
-<td data-order="75">
+<td data-order="76">
 <a href="#3.22">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3505,7 +3667,7 @@ All changes of 3.22.
 </td>
 </tr>
 <tr id="3.21">
-<td data-order="76">
+<td data-order="77">
 <a href="#3.21">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3826,7 +3988,7 @@ All changes of 3.21.
 </td>
 </tr>
 <tr id="3.20">
-<td data-order="77">
+<td data-order="78">
 <a href="#3.20">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3925,7 +4087,7 @@ All changes of 3.20.
 </td>
 </tr>
 <tr id="3.19">
-<td data-order="78">
+<td data-order="79">
 <a href="#3.19">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4053,7 +4215,7 @@ All changes of 3.19.
 </td>
 </tr>
 <tr id="3.18">
-<td data-order="79">
+<td data-order="80">
 <a href="#3.18">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4170,7 +4332,7 @@ All changes of 3.18.
 </td>
 </tr>
 <tr id="3.17">
-<td data-order="80">
+<td data-order="81">
 <a href="#3.17">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4373,7 +4535,7 @@ All changes of 3.17.
 </td>
 </tr>
 <tr id="3.16">
-<td data-order="81">
+<td data-order="82">
 <a href="#3.16">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4406,7 +4568,7 @@ All changes of 3.16.
 </td>
 </tr>
 <tr id="3.15">
-<td data-order="82">
+<td data-order="83">
 <a href="#3.15">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4666,7 +4828,7 @@ All changes of 3.15.
 </td>
 </tr>
 <tr id="3.14">
-<td data-order="83">
+<td data-order="84">
 <a href="#3.14">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4878,7 +5040,7 @@ All changes of 3.14.
 </td>
 </tr>
 <tr id="3.13">
-<td data-order="84">
+<td data-order="85">
 <a href="#3.13">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4959,7 +5121,7 @@ All changes of 3.13.
 </td>
 </tr>
 <tr id="3.12">
-<td data-order="85">
+<td data-order="86">
 <a href="#3.12">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5096,7 +5258,7 @@ All changes of 3.12.
 </td>
 </tr>
 <tr id="3.11">
-<td data-order="86">
+<td data-order="87">
 <a href="#3.11">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5154,7 +5316,7 @@ All changes of 3.11.
 </td>
 </tr>
 <tr id="3.10">
-<td data-order="87">
+<td data-order="88">
 <a href="#3.10">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5211,7 +5373,7 @@ All changes of 3.10.
 </td>
 </tr>
 <tr id="3.9">
-<td data-order="88">
+<td data-order="89">
 <a href="#3.9">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5302,7 +5464,7 @@ All changes of 3.9.
 </td>
 </tr>
 <tr id="3.8">
-<td data-order="89">
+<td data-order="90">
 <a href="#3.8">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5446,7 +5608,7 @@ All changes of 3.8.
 </td>
 </tr>
 <tr id="3.7">
-<td data-order="90">
+<td data-order="91">
 <a href="#3.7">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5504,7 +5666,7 @@ All changes of 3.7.
 </td>
 </tr>
 <tr id="3.6">
-<td data-order="91">
+<td data-order="92">
 <a href="#3.6">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5687,7 +5849,7 @@ All changes of 3.6.
 </td>
 </tr>
 <tr id="3.5">
-<td data-order="92">
+<td data-order="93">
 <a href="#3.5">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5764,7 +5926,7 @@ All changes of 3.5.
 </td>
 </tr>
 <tr id="3.4">
-<td data-order="93">
+<td data-order="94">
 <a href="#3.4">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6206,7 +6368,7 @@ All changes of 3.4.
 </td>
 </tr>
 <tr id="3.3">
-<td data-order="94">
+<td data-order="95">
 <a href="#3.3">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6271,7 +6433,7 @@ All changes of 3.3.
 </td>
 </tr>
 <tr id="3.2">
-<td data-order="95">
+<td data-order="96">
 <a href="#3.2">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6323,7 +6485,7 @@ All changes of 3.2.
 </td>
 </tr>
 <tr id="3.1">
-<td data-order="96">
+<td data-order="97">
 <a href="#3.1">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6439,7 +6601,7 @@ All changes of 3.1.
 </td>
 </tr>
 <tr id="3.0">
-<td data-order="97">
+<td data-order="98">
 <a href="#3.0">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7105,7 +7267,7 @@ All changes of 3.0.
 </td>
 </tr>
 <tr id="2.0">
-<td data-order="98">
+<td data-order="99">
 <a href="#2.0">
 <img src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
