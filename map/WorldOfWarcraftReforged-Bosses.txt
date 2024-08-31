@@ -5435,7 +5435,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.0 )
 
 endfunction
 
