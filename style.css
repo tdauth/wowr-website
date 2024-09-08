@@ -89,3 +89,8 @@ button {
 .wowr-popover-wrapper:hover .wowr-popover, .wowr-popover-wrapper .wowr-popover:hover {
     display: block;
 }
+
+.wowr-icon {
+    width:  64px;
+    height: 64px;
+}
