@@ -1,0 +1,61 @@
+- Add profession Bard.
+- Add chat command "-v/-version".
+- Register zones.
+- Add learnable hero spell Summon Black Dragon.
+- Add learnable hero spell Summon Blue Dragon.
+- Add learnable hero spell Summon Bronze Dragon.
+- Add learnable hero spell Summon Nether Dragon.
+- Add learnable hero spell Damage Aura.
+- Add hero Ranger for race Night Elf.
+- Give hero Ranger proper names.
+- Add learnable hero spell Generate Gold and Lumber.
+- Add system HandleCounters.
+- Add multiboards for handle counters and timers in debug mode.
+- Change icon and model of NPC Monte Gazlowe.
+- Add Goblin quest 3.
+- Add Goblin quest 4.
+- Custom icon for unit Steam Fortress.
+- Add hero Bard.
+- Chat command "-letter" shows the savecode in UI.
+- Equipment bags won't get several hero spells anymore.
+- Fix targets of spell Mass Inner Fire.
+- Enable ships for property New Stormwind.
+- Do not activate all resurrection stones when activating one.
+- Add neutral building Goblin Racing Organisation to Kezan.
+- Add multiple racing tracks to the map.
+- Car mounts have ranged machine gun attacks now.
+- Add system OnStartGame.
+- Add summoned units bonus for hero spell Summon Spider Egg.
+- Add achievement Racer.
+- Scale down unit Goblin Submarine.
+- Remove shadow from unit Goblin Submarine.
+- Scale down neutral mines.
+- Add chat command "-pingrace".
+- Add info quest "Railway".
+- Always do cheat "-website" at 12.
+- Fix cut off quest descriptions for website.
+- Fix selecting next altar.
+- Add item Tome of Skill Points.
+- Prevent using tome items when tomes are disabled.
+- Add system StopWatch for performance analysis.
+- Disable frame focus when clicking on any actions bar button.
+- Do not auto revive for player Bosses.
+- Add random corpse creeps.
+- Add custom icon for neutral building Bronze Dragon Roost.
+- Fix owner of Attributes building in player selection.
+- Fix playable map dimensions.
+- Move Admiral Proudmoore to Kul Tiras.
+- Improve race Tuskarr.
+- Fix tooltips and hotkeys for building Research Tent and the researches.
+- Move portal and scale down portal area on Kul Tiras.
+- Research Improved Mount increases maximum mana points instead of sight range now.
+- Increase limits for zones to fix the zones in Argus.
+- Fix showing/hiding resources multiboard for clicking players only.
+- Fix desyncs caused by actions bar UI.
+- Fix desyncs caused by skill UI.
+- Add unit TIE Fighter to race Galactic Empire.
+- Fix icon of unit AT-AP.
+- Add mount Wolf.
+- Shorten names of customizable heroes.
+- Improve race Dragonkin.
+- Improve race Quillboar.
