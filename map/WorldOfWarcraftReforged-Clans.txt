@@ -4,7 +4,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<!-- Clans generated with chat command "-website". -->" )
 	call Preload( "<tr id="TheElvenClan">" )
 	call Preload( "<td>" )
-	call Preload( "<img src="" />" )
+	call Preload( "<img class="wowr-icon" src="" />" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "TheElvenClan" )
