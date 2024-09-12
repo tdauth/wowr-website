@@ -59,3 +59,10 @@
 - Shorten names of customizable heroes.
 - Improve race Dragonkin.
 - Improve race Quillboar.
+- Add more races to Random Warcraft III race for AI.
+- Fix hotkey of spell Feral Spirit.
+- Remove hero Master of Time.
+- Remove profession Chronomancer.
+- Remove neutral Turnstile buildings.
+- Remove time related items.
+- Remove rewind time systems.
