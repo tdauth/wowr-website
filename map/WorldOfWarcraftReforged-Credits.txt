@@ -590,7 +590,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>Sellenisko: NozdormuTheTimelessOne</li>" )
 	call Preload( "<li>Sin'dorei300: BTNNozdormu</li>" )
 	call Preload( "<li>Golden-Drake: BTNWingedClock</li>" )
-	call Preload( "<li>www.textures4photoshop.com: Turnstile texture</li>" )
 	call Preload( "<li>Kino: RuneClock</li>" )
 	call Preload( "<li>HerrDave: O'Connor</li>" )
 	call Preload( "<li>HerrDave: Mordor Great Hall</li>" )

@@ -63,6 +63,13 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Shorten names of customizable heroes." )
 	call Preload( "- Improve race Dragonkin." )
 	call Preload( "- Improve race Quillboar." )
+	call Preload( "- Add more races to Random Warcraft III race for AI." )
+	call Preload( "- Fix hotkey of spell Feral Spirit." )
+	call Preload( "- Remove hero Master of Time." )
+	call Preload( "- Remove profession Chronomancer." )
+	call Preload( "- Remove neutral Turnstile buildings." )
+	call Preload( "- Remove time related items." )
+	call Preload( "- Remove rewind time systems." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
