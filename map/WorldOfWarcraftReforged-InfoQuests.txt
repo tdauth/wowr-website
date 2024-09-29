@@ -3703,11 +3703,12 @@ Updates include:
 	call Preload( "<li>Add mass spell system to reduce code per mass spell.</li>" )
 	call Preload( "<li>Remove chat command "-vipdesc" and item VIP Name.</li>" )
 	call Preload( "<li>Remove item VIP Car.</li>" )
+	call Preload( "<li>Improve error message on not being able to pick a hero.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.3 )
+	call PreloadEnd( 2.2 )
 
 endfunction
 

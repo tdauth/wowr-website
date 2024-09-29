@@ -96,6 +96,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add mass spell system to reduce code per mass spell." )
 	call Preload( "- Remove chat command "-vipdesc" and item VIP Name." )
 	call Preload( "- Remove item VIP Car." )
+	call Preload( "- Improve error message on not being able to pick a hero." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
