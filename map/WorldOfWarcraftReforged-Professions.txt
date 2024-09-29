@@ -4554,9 +4554,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="items.html#I14Q">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHolyNote.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRecordPlayer.blp" width="64" height="64"" )
 	call Preload( "title="Tiny Record Player"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNHolyNote.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRecordPlayer.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Tiny Record Player" )
 	call Preload( "<br/>" )
@@ -4564,8 +4564,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Creates a Record Player at a target location." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHolyNote.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNHolyNote.blp"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRecordPlayer.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRecordPlayer.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -4594,7 +4594,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 4.1 )
+	call PreloadEnd( 4.8 )
 
 endfunction
 
