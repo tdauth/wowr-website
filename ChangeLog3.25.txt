@@ -59,6 +59,7 @@
 - Shorten names of customizable heroes.
 - Improve race Dragonkin.
 - Improve race Quillboar.
+- Improve race Kobold.
 - Add more races to Random Warcraft III race for AI.
 - Fix hotkey of spell Feral Spirit.
 - Remove hero Master of Time.
@@ -66,3 +67,29 @@
 - Remove neutral Turnstile buildings.
 - Remove time related items.
 - Remove rewind time systems.
+- Remove talk systems.
+- Remove code from object fields data system.
+- Fix increasing attribute points on transforming back into customizable hero.
+- Fix giving a customizable hero attribute points only once.
+- Keep hero standard ability for transforming heroes.
+- Register hero spells for transformed hero forms.
+- Add custom icon for building Record Player.
+- Remove unit classification Undead from hero Acolyte.
+- Add hero glow to hero Naga Siren.
+- Change Ogre mounts into Black Dragon Mounts.
+- Change Fel Crossbowman mount into Black Dragon Mount.
+- Change Tuskarr Chieftain mount into Snowy Owl Mount.
+- Change Unbroken mount into Nether Drake Mount.
+- Register correct Fel Orc Child for race Fel Orc.
+- Give Troll race Pet Direhorn.
+- Add custom icon for unit Troll Golem.
+- Add custom model for building Troll Beastiary.
+- Remove all non-Warcraft theme stuff.
+- Fix many boss hero tooltips.
+- Mention required hero level in boss hero tooltips.
+- Place hero General Vezax at Old God's prison.
+- Add Centaur Child to the AI script and register it.
+- Add mass spell system to reduce code per mass spell.
+- Remove chat command "-vipdesc" and item VIP Name.
+- Remove item VIP Car.
+- Improve error message on not being able to pick a hero.
