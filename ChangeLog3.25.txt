@@ -93,3 +93,19 @@
 - Remove chat command "-vipdesc" and item VIP Name.
 - Remove item VIP Car.
 - Improve error message on not being able to pick a hero.
+- Add bonus hero Furion.
+- Add skin Furion.
+- Add skin Malfurion.
+- Add vote "-portals/-noportals".
+- Scale down Paladin units.
+- Fix Centaur special building in AI script.
+- Fix shipyards and navy units in AI scripts.
+- Sacrificial Pit race buildings are recognized as buildings now.
+- Mention chat command "-unlock" in tooltips now.
+- Mention required hero level in Void Lord hero tooltips now.
+- Fix listed taunt chat commands in quest log.
+- Remove mention of Hall of Fame from the quest log.
+- Computer AI trains frigates at sea locations now.
+- Log chat messages in custom chat log.
+- Fix crash on saving the game by not using CreateRegion in globals.
+- Fix title color of calendar multiboard on loading savegames.
