@@ -244,6 +244,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-waterred": Changes the color of water to red.</li>" )
 	call Preload( "<li>"-nofog"/"-fog": Disables/enables visibility of fog.</li>" )
 	call Preload( "<li>"-nohardcore"/"-hardcore": Disables/enables hardcore mode.</li>" )
+	call Preload( "<li>"-noportals"/"-portals": Disables/enables neutral portals.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Chat Commands generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )

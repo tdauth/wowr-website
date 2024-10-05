@@ -1989,12 +1989,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRingGreen.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (2)" )
-	call Preload( "<a href="items.html#rde3">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRingGreen.blp" width="64" height="64"" )
-	call Preload( "title="Ring of Protection +4"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRingGreen.blp"" )
-	call Preload( "/></a>" )
-	call Preload( " (4)" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="I0O7">" )
@@ -2729,7 +2723,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 2.5 )
+	call PreloadEnd( 1.9 )
 
 endfunction
 

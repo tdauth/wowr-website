@@ -1,0 +1,16 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix AI script of race Kul Tiras." )
+	call Preload( "- Fix tooltips of race Kul Tiras." )
+	call Preload( "- Use unused skill points of hero General Vezax." )
+	call Preload( "- Add AI shipyard to start location Teldrassil." )
+	call Preload( "- Add AI shipyard to start location Thunder Bluff." )
+	call Preload( "- Remove remaining non-Warcraft themed stuff." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
