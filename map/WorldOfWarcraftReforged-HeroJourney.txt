@@ -21,7 +21,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>75: Advanced chat commands from "-helpvisual" can be used.</li>" )
 	call Preload( "<li>75 (all 3 heroes): All races and professions are available and chat command "-maxbosslevels".</li>" )
 	call Preload( "<li>Reporting bugs/issues: VIP.</li>" )
-	call Preload( "<li>Fastest speedrun: Hall of Fame.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Hero journey generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
