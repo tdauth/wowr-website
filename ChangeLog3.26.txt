@@ -26,5 +26,5 @@
 - Readd Harvest Custom Resources ability to replaced workers.
 - Remove broken AI Harvest Lumber Bonus research to fix lumber harvesting for AI.
 - Increase the size of the Evolution Dummy area.
-- Fixed bonus hero Genn Greymane.
-- Fixed hero proper name in text message on picking campaign heroes.
+- Fix bonus hero Genn Greymane.
+- Fix hero proper name in text message on picking campaign heroes.
