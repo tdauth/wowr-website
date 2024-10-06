@@ -1,0 +1,30 @@
+- Fix AI script of race Kul Tiras.
+- Fix tooltips of race Kul Tiras.
+- Use unused skill points of hero General Vezax.
+- Add AI shipyard to start location Teldrassil.
+- Add AI shipyard to start location Thunder Bluff.
+- Remove remaining non-Warcraft themed stuff.
+- Enable map changer system again.
+- Fix applying race UI after loading savegames.
+- Fix restoring multiboards and action bar after loading savegames.
+- Add chat command "-aizeppelins".
+- Add chat command "-traceon/off".
+- Show owned mines and gold for chat command "-aiinfo".
+- Refactor AI scripts.
+- Fix chat command "-aitargeton/off".
+- Fix chat command "-aitarget".
+- Reduced quest log entries.
+- Fix hero journey levels.
+- Increase hero level of NPC Xe'ra to 60.
+- Fix tooltip of Sand Worm Burrow ability.
+- Fix icon of creep Sand Troll.
+- Add bonus hero Red Dragon.
+- Fix tooltip of hero Harpy Queen.
+- Remove Game Settings option Both for AI special players.
+- Add cheat "-aiharveston/off".
+- AI gold harvest bonus only for certain races.
+- Readd Harvest Custom Resources ability to replaced workers.
+- Remove broken AI Harvest Lumber Bonus research to fix lumber harvesting for AI.
+- Increase the size of the Evolution Dummy area.
+- Fixed bonus hero Genn Greymane.
+- Fixed hero proper name in text message on picking campaign heroes.
