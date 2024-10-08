@@ -543,7 +543,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "150" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Trains Peregrin Falcons, and Water Dragons. " )
+	call Preload( "Trains Peregrin Falcons, and Albatross Riders. " )
 	call Preload( "<br/>" )
 	call Preload( "Also contains the True Sight and Devour upgrades." )
 	call Preload( "</div>" )
@@ -1289,7 +1289,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 10.2 )
+	call PreloadEnd( 11.7 )
 
 endfunction
 
