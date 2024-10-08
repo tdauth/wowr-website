@@ -1,0 +1,19 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix syntax error in file "war3mapimported\\CustomCOnsoleUI.fdf"." )
+	call Preload( "- Chat command "-aitraceon/off" works per sending player now." )
+	call Preload( "- Improve AI tracing." )
+	call Preload( "- Fix AutoSkillHero when not being able to learn a skill which has some level skip requirement." )
+	call Preload( "- Remove confusing output of AutoSkillHero when not being able to learn a skill." )
+	call Preload( "- Add custom icon for Locomotive and Railway info quest." )
+	call Preload( "- List "-ping" chat command in info quest "Quests"." )
+	call Preload( "- Shorten tooltips of Demigod and Void Lord heroes." )
+	call Preload( "- Reduce AOE of Furbolg building Corrupted Ancient Protector." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
