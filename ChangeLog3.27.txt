@@ -1,0 +1,23 @@
+- Fix syntax error in file "war3mapimported\\CustomCOnsoleUI.fdf".
+- Chat command "-aitraceon/off" works per sending player now.
+- Improve AI tracing.
+- Fix AutoSkillHero when not being able to learn a skill which has some level skip requirement.
+- Remove confusing output of AutoSkillHero when not being able to learn a skill.
+- Add custom icon for Locomotive and Railway info quest.
+- List "-ping" chat command in info quest "Quests".
+- Shorten tooltips of Demigod and Void Lord heroes.
+- Reduce AOE of Furbolg building Corrupted Ancient Protector.
+- Remove some creeps from Kul Tiras.
+- Move creeps on Kul Tiras further away from the start location.
+- Remove invalid building IDs from non-Warcraft races from gameplay constants.
+- Fix registered Kobold pet.
+- Replace Kul Tiras Water Dragon with Albatross Rider.
+- Generate calendar events for website.
+- Reselect hero Goblin Shredder after casting Kaboom!.
+- Fix memory leak from hero spell Burning Sky.
+- Increase scale of hero Ogre Magi.
+- Fix disallowing Selfdestruct in player selection area.
+- Fix food and gold costs of Pet Dog.
+- Fix food and gold costs of Pet Rat.
+- Fix food and gold costs of Pet Rabbit.
+- Register custom UI for race Vrykul.

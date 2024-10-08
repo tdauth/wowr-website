@@ -1,5 +1,5 @@
-- Fix AI script of race Kul Tiras.
-- Fix tooltips of race Kul Tiras.
+- Fix AI script for race Kul Tiras.
+- Fix tooltips for race Kul Tiras.
 - Use unused skill points of hero General Vezax.
 - Add AI shipyard to start location Teldrassil.
 - Add AI shipyard to start location Thunder Bluff.
@@ -8,7 +8,7 @@
 - Fix applying race UI after loading savegames.
 - Fix restoring multiboards and action bar after loading savegames.
 - Add chat command "-aizeppelins".
-- Add chat command "-traceon/off".
+- Add chat command "-aitraceon/aitraceoff".
 - Show owned mines and gold for chat command "-aiinfo".
 - Refactor AI scripts.
 - Fix chat command "-aitargeton/off".
@@ -28,3 +28,4 @@
 - Increase the size of the Evolution Dummy area.
 - Fix bonus hero Genn Greymane.
 - Fix hero proper name in text message on picking campaign heroes.
+- Remove code from the removed hero spell Dinosaur Nest which led to spawning Dinosauriers.
