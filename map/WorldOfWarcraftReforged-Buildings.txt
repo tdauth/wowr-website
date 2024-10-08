@@ -47920,7 +47920,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "150" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Trains Peregrin Falcons, and Water Dragons. " )
+	call Preload( "Trains Peregrin Falcons, and Albatross Riders. " )
 	call Preload( "<br/>" )
 	call Preload( "Also contains the True Sight and Devour upgrades." )
 	call Preload( "</div>" )
@@ -71752,7 +71752,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 104.9 )
+	call PreloadEnd( 96.9 )
 
 endfunction
 
