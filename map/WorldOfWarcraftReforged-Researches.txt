@@ -19642,7 +19642,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Backpack" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "Gives specific Orc ground units the ability to carry " )
+	call Preload( "Gives specific Gnoll ground units the ability to carry " )
 	call Preload( "items." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
@@ -20176,7 +20176,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 7.7 )
+	call PreloadEnd( 7.5 )
 
 endfunction
 
