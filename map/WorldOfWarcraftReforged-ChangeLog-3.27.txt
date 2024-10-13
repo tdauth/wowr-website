@@ -57,6 +57,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Improve race Gnoll." )
 	call Preload( "- Add creep Silithid Wasp." )
 	call Preload( "- Add creep Quiraj Prophet." )
+	call Preload( "- Fix JASS functions GetPlayerRaceX which fixes many other bugs." )
+	call Preload( "- Add chat command "-aishredders"." )
+	call Preload( "- Every AI starts with 3 Shredders now." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
