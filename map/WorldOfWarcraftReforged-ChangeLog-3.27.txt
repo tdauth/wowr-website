@@ -55,6 +55,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Change race for many heroes from Creep to Other to hide unit level in UI." )
 	call Preload( "- Generate mine race buildings on the race pages of the website." )
 	call Preload( "- Improve race Gnoll." )
+	call Preload( "- Add creep Silithid Wasp." )
+	call Preload( "- Add creep Quiraj Prophet." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

@@ -3597,6 +3597,8 @@ Note: Even " )
 	call Preload( "<li>Change race for many heroes from Creep to Other to hide unit level in UI.</li>" )
 	call Preload( "<li>Generate mine race buildings on the race pages of the website.</li>" )
 	call Preload( "<li>Improve race Gnoll.</li>" )
+	call Preload( "<li>Add creep Silithid Wasp.</li>" )
+	call Preload( "<li>Add creep Quiraj Prophet.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
@@ -8039,7 +8041,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 1.8 )
+	call PreloadEnd( 2.4 )
 
 endfunction
 
