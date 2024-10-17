@@ -21,3 +21,46 @@
 - Fix food and gold costs of Pet Rat.
 - Fix food and gold costs of Pet Rabbit.
 - Register custom UI for race Vrykul.
+- Remove unused ability object data fields.
+- Change the order of mounts.
+- Revise game information.
+- Change race of many Goblin, Draenei, Furbolg and Eredar units to Other.
+- Item Gem of True Seeing can be dropped by creeps and saved now.
+- Item Scroll of Animate Dead can be dropped by creeps and saved now.
+- Item Red Drake Egg can be dropped by creeps and saved now.
+- Refactor arena code into vJass.
+- All arena items can be saved now.
+- Init recipes before save codes for items to register the crafted items properly.
+- Custom models for High Elf ships.
+- Custom models for Blood Elf ships.
+- AI units only cast Divine Shield if they actually have the ability.
+- Fix maximum hero and skill level constants.
+- Change tooltip of Drop All Items button in actions bar UI.
+- Display number of dropped items for actions bar UI button.
+- Do not hide actions bar on unchecking the checkbox.
+- Increase cooldown of hero spell Parry.
+- Fix icon positions of Sell and Buy 100 Argunite.
+- Revise displayed text for chat command "-time".
+- Fix ID of Kobold worker unit for AI.
+- Fix ID of Gnoll Citizen Male unit for AI.
+- Scale down Dimensional Ship buildings of race Eredar.
+- Add AI shipyard location at start location Sunwell Grove.
+- Register Corrupted Entangled Gold Mine for race Satyr.
+- Refactor auto loading mines for AI.
+- Register more mine types to kill them on repick and replacing AI units.
+- Change race for many heroes from Creep to Other to hide unit level in UI.
+- Generate mine race buildings on the race pages of the website.
+- Improve race Gnoll.
+- Add creep Silithid Wasp.
+- Add creep Quiraj Prophet.
+- Fix JASS functions GetPlayerRaceX which fixes many other bugs.
+- Add chat command "-aishredders".
+- Every AI starts with 3 Shredders now.
+- Fix soundset of Stormwind unit Ranger.
+- Increase attack range of Stormwind unit Cannon.
+- Purchasing properties automatically sets all corresponding race researches to the maximum level.
+- Rename hero spell Demon Master into Nether Dragon Master for boss Veraku.
+- Fix hotkey and icon position of ability Spell Book of the Old Gods.
+- Add hero standard ability Spell Book of the Old Gods.
+- Change research Hero Level 100 into Hero Level 65.
+- Change hero spells of boss Tortolla.

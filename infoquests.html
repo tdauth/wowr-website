@@ -71,14 +71,14 @@ These quests log entries (F9) give players information about the game:
     </thead>
     <tbody>
 <!-- Info quests generated with chat command "-website". -->
-<tr id="MapInformation">
+<tr id="Map">
 <td data-order="0">
-<a href="#MapInformation">
+<a href="#Map">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNTranquility.blp" title="ReplaceableTextures\\CommandButtons\\BTNTranquility.blp" />
 </a>
 </td>
 <td>
-Map Information
+Map
 </td>
 <td>
 Welcome to World of Warcraft Reforged. This map is 
@@ -414,6 +414,7 @@ player who writes the chat message.
 <li>"-aishipsson/off X": Turn AI ships on/off for player X.</li>
 <li>"-aigold/wood X": Ask AI player X for gold/wood.</li>
 <li>"-aiexpansions X Y": Sets Y expansions for player X.</li>
+<li>"-aishredders X Y": Sets Y shredders for player X.</li>
 <li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
 <li>"-aiinfo X": Shows information about player X.</li>
 <li>"-aitargeton/off X": Enables/disables AI attacking target for player X.</li>
@@ -814,6 +815,8 @@ the beginning by the host player.
 <ul class="questitems">
 <li>"-aireset": Resets the AI players and allows customizing them from the host.</li>
 <li>"-aiexpansions X Y": Sets Y expansions for player X.</li>
+<li>"-aishredders X Y": Sets Y shredders for player X.</li>
+<li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
 <li>"-aiinfo X": Shows information about player X.</li>
 <li>"-aitargeton/off X": Enables/disables AI attacking target for player X.</li>
 <li>"-aitarget X": Sets the AI target for player X to your hero 1 location.</li>
@@ -1292,14 +1295,14 @@ to the Stonemaul Ogres. Aaahahahaharrr!
 </ul>
 </td>
 </tr>
-<tr id="Races">
+<tr id="CarRaces">
 <td data-order="40">
-<a href="#Races">
+<a href="#CarRaces">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" />
 </a>
 </td>
 <td>
-Races
+Car Races
 </td>
 <td>
 The Goblins on Kezan provide races which let the winners 
@@ -3630,6 +3633,49 @@ All changes of 3.27.
 <li>Fix food and gold costs of Pet Rat.</li>
 <li>Fix food and gold costs of Pet Rabbit.</li>
 <li>Register custom UI for race Vrykul.</li>
+<li>Remove unused ability object data fields.</li>
+<li>Change the order of mounts.</li>
+<li>Revise game information.</li>
+<li>Change race of many Goblin, Draenei, Furbolg and Eredar units to Other.</li>
+<li>Item Gem of True Seeing can be dropped by creeps and saved now.</li>
+<li>Item Scroll of Animate Dead can be dropped by creeps and saved now.</li>
+<li>Item Red Drake Egg can be dropped by creeps and saved now.</li>
+<li>Refactor arena code into vJass.</li>
+<li>All arena items can be saved now.</li>
+<li>Init recipes before save codes for items to register the crafted items properly.</li>
+<li>Custom models for High Elf ships.</li>
+<li>Custom models for Blood Elf ships.</li>
+<li>AI units only cast Divine Shield if they actually have the ability.</li>
+<li>Fix maximum hero and skill level constants.</li>
+<li>Change tooltip of Drop All Items button in actions bar UI.</li>
+<li>Display number of dropped items for actions bar UI button.</li>
+<li>Do not hide actions bar on unchecking the checkbox.</li>
+<li>Increase cooldown of hero spell Parry.</li>
+<li>Fix icon positions of Sell and Buy 100 Argunite.</li>
+<li>Revise displayed text for chat command "-time".</li>
+<li>Fix ID of Kobold worker unit for AI.</li>
+<li>Fix ID of Gnoll Citizen Male unit for AI.</li>
+<li>Scale down Dimensional Ship buildings of race Eredar.</li>
+<li>Add AI shipyard location at start location Sunwell Grove.</li>
+<li>Register Corrupted Entangled Gold Mine for race Satyr.</li>
+<li>Refactor auto loading mines for AI.</li>
+<li>Register more mine types to kill them on repick and replacing AI units.</li>
+<li>Change race for many heroes from Creep to Other to hide unit level in UI.</li>
+<li>Generate mine race buildings on the race pages of the website.</li>
+<li>Improve race Gnoll.</li>
+<li>Add creep Silithid Wasp.</li>
+<li>Add creep Quiraj Prophet.</li>
+<li>Fix JASS functions GetPlayerRaceX which fixes many other bugs.</li>
+<li>Add chat command "-aishredders".</li>
+<li>Every AI starts with 3 Shredders now.</li>
+<li>Fix soundset of Stormwind unit Ranger.</li>
+<li>Increase attack range of Stormwind unit Cannon.</li>
+<li>Purchasing properties automatically sets all corresponding race researches to the maximum level.</li>
+<li>Rename hero spell Demon Master into Nether Dragon Master for boss Veraku.</li>
+<li>Fix hotkey and icon position of ability Spell Book of the Old Gods.</li>
+<li>Add hero standard ability Spell Book of the Old Gods.</li>
+<li>Change research Hero Level 100 into Hero Level 65.</li>
+<li>Change hero spells of boss Tortolla.</li>
 </ul>
 </td>
 </tr>
