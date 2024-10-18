@@ -64,3 +64,9 @@
 - Add hero standard ability Spell Book of the Old Gods.
 - Change research Hero Level 100 into Hero Level 65.
 - Change hero spells of boss Tortolla.
+- Add race Bandits.
+- Add hero Dark Wizard.
+- Add hero Bandit Lord.
+- Add hero Assassin.
+- Change race of hero Thief to Bandit.
+- Add mount Crow.
