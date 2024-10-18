@@ -74,6 +74,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add hero Assassin." )
 	call Preload( "- Change race of hero Thief to Bandit." )
 	call Preload( "- Add mount Crow." )
+	call Preload( "- Add short chat command "-z"." )
+	call Preload( "- Revise short map description." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

@@ -38,7 +38,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-pi/-pickup": Picks up all items around the first hero.</li>" )
 	call Preload( "<li>"-o/-order": Orders your backpack.</li>" )
 	call Preload( "<li>"-zoneson/off": Enables/disables zone info.</li>" )
-	call Preload( "<li>"-zone": Shows the zone info of your hero.</li>" )
+	call Preload( "<li>"-z/-zone": Shows the zone info of your hero.</li>" )
 	call Preload( "<li>"-camlockon/off": Locks/unlocks the camera to the selected hero.</li>" )
 	call Preload( "<li>"-camrpgon/off": Enables/disables the RPG camera for the selected hero.</li>" )
 	call Preload( "<li>"-suicide": Kills your selected units.</li>" )
