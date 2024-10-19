@@ -24654,9 +24654,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="heroes.html#H0Y0">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBanditSpearThrower.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBandit.blp" width="64" height="64"" )
 	call Preload( "title="Thief"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBanditSpearThrower.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBandit.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Thief" )
 	call Preload( "<br/>" )
@@ -24673,8 +24673,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div style="color: #ffcc00">Standard Ability: Berserk.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBanditSpearThrower.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBanditSpearThrower.blp"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBandit.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBandit.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -29688,7 +29688,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Heroes generated with chat command "-website". -->" )
-	call PreloadEnd( 18.1 )
+	call PreloadEnd( 16.1 )
 
 endfunction
 
