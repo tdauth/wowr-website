@@ -1,4 +1,4 @@
-- Fix syntax error in file "war3mapimported\\CustomCOnsoleUI.fdf".
+- Fix syntax error in file "war3mapimported\CustomConsoleUI.fdf".
 - Chat command "-aitraceon/off" works per sending player now.
 - Improve AI tracing.
 - Fix AutoSkillHero when not being able to learn a skill which has some level skip requirement.
@@ -70,3 +70,8 @@
 - Add hero Assassin.
 - Change race of hero Thief to Bandit.
 - Add mount Crow.
+- Add short chat command "-z".
+- Revise short map description.
+- Add NPC Falric to start location Icecrown Citadel.
+- Move Random Mine at start location Icecrown Citadel.
+- Replace model of boss Queen Azshara to reduce file size.
