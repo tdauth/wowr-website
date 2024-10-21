@@ -1,0 +1,15 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Improve race Bandit." )
+	call Preload( "- Custom icon and buff for Enslavement." )
+	call Preload( "- Switch abilities for hero spell Phoenix Fire slot 3." )
+	call Preload( "- Add manual learn skill events for preplaced heroes on the map." )
+	call Preload( "- Remove constants for non-Warcraft themed Mercenary Camps." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

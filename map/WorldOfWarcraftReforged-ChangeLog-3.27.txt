@@ -2,7 +2,7 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
-	call Preload( "- Fix syntax error in file "war3mapimported\\CustomCOnsoleUI.fdf"." )
+	call Preload( "- Fix syntax error in file "war3mapimported\\CustomConsoleUI.fdf"." )
 	call Preload( "- Chat command "-aitraceon/off" works per sending player now." )
 	call Preload( "- Improve AI tracing." )
 	call Preload( "- Fix AutoSkillHero when not being able to learn a skill which has some level skip requirement." )
@@ -78,6 +78,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Revise short map description." )
 	call Preload( "- Add NPC Falric to start location Icecrown Citadel." )
 	call Preload( "- Move Random Mine at start location Icecrown Citadel." )
+	call Preload( "- Replace model of boss Queen Azshara to reduce file size." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

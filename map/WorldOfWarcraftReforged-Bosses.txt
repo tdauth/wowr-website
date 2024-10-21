@@ -2178,9 +2178,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="bosses.html#N068">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaWitch.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp" width="64" height="64"" )
 	call Preload( "title="Naga Queen"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSeaWitch.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Queen Azshara" )
 	call Preload( "<br/>" )
@@ -2197,8 +2197,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "50. Use -unlock to disable this restriction.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaWitch.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSeaWitch.blp"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -5783,7 +5783,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.5 )
+	call PreloadEnd( 1.2 )
 
 endfunction
 

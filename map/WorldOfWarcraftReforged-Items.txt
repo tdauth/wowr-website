@@ -29417,9 +29417,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td data-order="-1" data-search="Default string">" )
 	call Preload( "<a href="bosses.html#N068">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaWitch.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp" width="64" height="64"" )
 	call Preload( "title="Queen Azshara"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSeaWitch.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -32549,7 +32549,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 37.0 )
+	call PreloadEnd( 30.0 )
 
 endfunction
 
