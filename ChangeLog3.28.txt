@@ -1,0 +1,6 @@
+- Improve race Bandit.
+- Custom icon and buff for Enslavement.
+- Switch abilities for hero spell Phoenix Fire slot 3.
+- Add icon ability for hero spell Phoenix Fire slot 5.
+- Add manual learn skill events for preplaced heroes on the map.
+- Remove constants for non-Warcraft themed Mercenary Camps.
