@@ -1,6 +1,52 @@
 - Improve race Bandit.
 - Custom icon and buff for Enslavement.
+- Slaves can Repair now.
 - Switch abilities for hero spell Phoenix Fire slot 3.
 - Add icon ability for hero spell Phoenix Fire slot 5.
 - Add manual learn skill events for preplaced heroes on the map.
 - Remove constants for non-Warcraft themed Mercenary Camps.
+- Disable XP gain for builders.
+- Vote "-nobuilder" works with save codes disabled.
+- Add property Deadmines.
+- Change owner of Egg Sack to Neutral Hostile.
+- Fix unmounting effect for race Stormwind.
+- Count unmounted knights for race Stormwind as Knights.
+- Chat command "-save" is disabled when save codes are disabled.
+- Chat command "-savec" is disabled when save codes are disabled.
+- Fix indices on showing/hiding AI players UI.
+- Support hero Lion Rider for AI.
+- Add hero standard ability Enslavement.
+- Show difficulty for chat command "-aiinfo".
+- Show Shredders for chat command "-aiinfo".
+- Show Zeppelins for chat command "-aiinfo".
+- Register more hero types for AI scripts.
+- Support more hero types in AI player settings UI.
+- Fix location of AI shipyard at Kezan.
+- Fix Stonemaul Arena.
+- Add cheat "-arena".
+- Fix memory leak for chat command "-suicide".
+- Fix memory leak for chat command "-teamcolor".
+- Fix memory leak for cheat "-kill".
+- Chat command "-zone" works for any selected unit now.
+- Add JASS function CountItemsOfTypeIdAll.
+- Generate number of units, buildings and items in the map for website.
+- Remove invalid deleted abilities from Ride Down effect.
+- Add learnable spell Mass Spell.
+- Fix tooltip of spell Mass Ensnare.
+- Fix missile of hero Assassin.
+- Cheat "-share" shares control with player Neutral Passive now.
+- Remove Talk and Skip unit types from removed Talk system.
+- Fix owner of Doom Guards on Argus.
+- Bandit and Gnoll Slaves attack now for AI if available.
+- Register unit type Orc Warlock as creep.
+- Register unit type Gul'dan's Guard as creep.
+- Fix syntax errors in Gnoll AI script.
+- Refactor Thieves Guilds system reducing lags on killing units.
+- Scale up model of neutral mine Well.
+- Move Random Mines closeer to Gold Mines to save space.
+- Add Random Mine to Kul Tiras.
+- Add Random Mines to Hidden Bonus Island.
+- Explosive Barrels are not sold by Thieves Guilds anymore.
+- Add Tiny Beehive item to Water Supply building for profession Farmer.
+- Rain refills all mines with resource Water.
+- Add logo icon.
