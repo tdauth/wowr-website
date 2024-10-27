@@ -314,10 +314,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Fire Attack"" )
 	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASReinforcedFireAttack.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "<a href="spells.html#A13D">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNMarkOfFire.blp" width="64" height="64"" )
+	call Preload( "<a href="spells.html#A13E">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMarkOfFire.blp" width="64" height="64"" )
 	call Preload( "title="Phoenix Fire"" )
-	call Preload( "alt="ReplaceableTextures/PassiveButtons/PASBTNMarkOfFire.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNMarkOfFire.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A12I">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFlameStorm.blp" width="64" height="64"" )
@@ -5783,7 +5783,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.2 )
+	call PreloadEnd( 1.3 )
 
 endfunction
 
