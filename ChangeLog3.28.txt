@@ -14,7 +14,6 @@
 - Chat command "-save" is disabled when save codes are disabled.
 - Chat command "-savec" is disabled when save codes are disabled.
 - Fix indices on showing/hiding AI players UI.
-- Support hero Lion Rider for AI.
 - Add hero standard ability Enslavement.
 - Show difficulty for chat command "-aiinfo".
 - Show Shredders for chat command "-aiinfo".
@@ -48,5 +47,6 @@
 - Add Random Mines to Hidden Bonus Island.
 - Explosive Barrels are not sold by Thieves Guilds anymore.
 - Add Tiny Beehive item to Water Supply building for profession Farmer.
+- Add Tiny Apple Seed item to Water Supply building for profession Farmer.
 - Rain refills all mines with resource Water.
 - Add logo icon.

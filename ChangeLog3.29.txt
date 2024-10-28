@@ -1,0 +1,34 @@
+- Remove hero spells from NPCs.
+- Remove inventory from NPCs.
+- Add Life Regeneration Aura to NPC Chem Stormstout (Pandaria).
+- Store registered NPCs.
+- Add chat command "-pingnpcs".
+- Register NPC Lord Nicholas Buzan.
+- Register NPC Commander of the Citadel.
+- Register NPC Keeper of the Grave.
+- Register NPC Halahk the Lifebringer.
+- Give hero in Elder Sage in Archimonde's Realm an Orb of Corruption.
+- Add more rects to zone Archimonde's Realm.
+- Improve race Satyr.
+- Dalaran Housings train unit Dalaran Child now.
+- Move creep Whale further away from Sunstrider Isle.
+- Shorten chat message for chat command "-aiinfo".
+- Only load workers into the mines for the current starting player.
+- Add chat command "-ailoadmines X".
+- Fix Gnome AI housing ID.
+- Gnome AI trains Child unit now.
+- Gnome AI trains Pet unit now.
+- Rename Gryphon Aviary into Aviary for race Lordaeron.
+- Add Murloc Child to race Murloc.
+- Fix cheat "-arena".
+- Fix research Studded Leather Armor for race Lordaeron.
+- Fix Phoenix Fire hero spell for hero Phoenix.
+- Fix Phoenix Fire hero spell for boss Al'ar.
+- Fix worker order for auto loading AI mines.
+- Generate seasons for website.
+- Add item Strawberry.
+- Add item Cherry.
+- Add item Plum.
+- Add resource Milk.
+- Add resource Wool.
+- Improve profession Farmer.
