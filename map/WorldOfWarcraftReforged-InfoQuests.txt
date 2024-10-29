@@ -1873,6 +1873,8 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<ul class="questitems">" )
+	call Preload( "<li>Rain automatically refills all mines with resource Water.</li>" )
+	call Preload( "<li>Fall increases harvesting grain.</li>" )
 	call Preload( "<li>"-helptime": Lists time chat commands.</li>" )
 	call Preload( "<li>"-ambientsound": Resets ambient sound to Sunken Ruins.</li>" )
 	call Preload( "<li>"-ambientsoundashenvale": Changes ambient sound to Ashenvale.</li>" )
@@ -8227,7 +8229,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 1.9 )
+	call PreloadEnd( 2.7 )
 
 endfunction
 
