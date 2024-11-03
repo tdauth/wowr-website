@@ -17940,9 +17940,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td data-order="12" data-search="Goblin">" )
 	call Preload( "<a href="races.html#I06J">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGoblinWorker.blp" width="64" height="64"" )
 	call Preload( "title="Goblin"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGoblinWorker.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -18251,7 +18251,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 3.8 )
+	call PreloadEnd( 5.0 )
 
 endfunction
 

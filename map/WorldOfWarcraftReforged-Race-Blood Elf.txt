@@ -421,8 +421,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "60" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Boat construction facility. Produces Human Transport " )
-	call Preload( "Ships, Human Frigates, and Human Battleships." )
+	call Preload( "Boat construction facility. Produces Blood Elf Transport " )
+	call Preload( "Ships, Blood Elf Frigates, and Blood Elf Battleships." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNElvenShipyardA.blp" width="64" height="64"" )
@@ -1274,7 +1274,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 8.1 )
+	call PreloadEnd( 30.5 )
 
 endfunction
 
