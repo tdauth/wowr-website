@@ -2,7 +2,7 @@ function PreloadFiles takes nothing returns nothing
 
 	call PreloadStart()
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
-	call Preload( "- Fix syntax error in file "war3mapimported\\CustomConsoleUI.fdf"." )
+	call Preload( "- Fix syntax error in file "CustomConsoleUI.fdf"." )
 	call Preload( "- Chat command "-aitraceon/off" works per sending player now." )
 	call Preload( "- Improve AI tracing." )
 	call Preload( "- Fix AutoSkillHero when not being able to learn a skill which has some level skip requirement." )
