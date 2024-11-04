@@ -537,8 +537,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "700" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Big prison which can capture units from anywhere on " )
-	call Preload( "the map! Can also Ensnare units anywhere on the map! " )
+	call Preload( "Mighty throne of the Dungeon which trains Dungeon Lords " )
+	call Preload( "and can cast Rain of Fire. " )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Limited to 1.</div>" )
@@ -1165,7 +1165,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 32.1 )
+	call PreloadEnd( 13.7 )
 
 endfunction
 
