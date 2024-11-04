@@ -7,6 +7,10 @@
 - Register NPC Commander of the Citadel.
 - Register NPC Keeper of the Grave.
 - Register NPC Halahk the Lifebringer.
+- Register NPC Admiral Proudmoore's Spirit.
+- Register NPC Captain James Hook.
+- Register NPC Carsten.
+- Register NPC Barade.
 - Give hero in Elder Sage in Archimonde's Realm an Orb of Corruption.
 - Add more rects to zone Archimonde's Realm.
 - Improve race Satyr.
@@ -31,4 +35,67 @@
 - Add item Plum.
 - Add resource Milk.
 - Add resource Wool.
+- Add item Milk.
+- Add item Wool.
 - Improve profession Farmer.
+- Do not register Ironclad Submarine for race High Elf.
+- Fix registration of Male Citizen for race Demon.
+- Improve zones.
+- Add cheat "-fill".
+- Add cheat "-evolution".
+- Evolution does not remove positive buffs from summoned units anymore which killed them.
+- Add chat command "-zf/-zonefull".
+- Fix tooltip of building Cathedral of Light.
+- Add chat command "-helpcheats".
+- Add vote "-nocheats/cheats".
+- Add info quest Cheats.
+- Add zone Dungeon.
+- Add race Dungeon.
+- Add start location Dungeon.
+- Add zone Caverns of Stonetalon Peak.
+- Revise start location icons.
+- Fix hero duration of hero spell Corrosive Breath.
+- Add tileset name to names of Mercenary Camps.
+- Decrease Evolution bonus to avoid instant deaths for new units.
+- Fix dead hunted animals immediately respawning.
+- Add library to support dependency equivalents.
+- Place more critters.
+- Remove custom icon BTNCage which overwrites a standard icon.
+- Add system GameStatus.
+- Use system GameStatus to disable custom race UI during replays.
+- Add Hippogryph Riders to the Night Elf attack waves.
+- Register unit type equivalents for Hippogryph and Hippogryph Riders.
+- Add Dragownhawks to High Elf attack waves.
+- Add Dragownhawk Archers to High Elf attack waves.
+- Add War Eagle Riders to High Elf attack waves.
+- Register AI conversions into Dragownhawk Archers.
+- Register AI conversions into War Eagle Riders.
+- Register AI equivalents for submerged Naga units.
+- Register AI equivalents for Siege Tanks and Siege Tanks with Barrage.
+- Auto skilling heroes checks for dependency equivalents now.
+- Fix tooltip of hero spell Mass Death Coil.
+- Make hero spell Summon Skeletons learnable.
+- Apply summoned units bonus for hero spell Summon Skeletons.
+- Apply timed life for hero spell Summon Skeletons.
+- Increase Occlusion Height of Line of Sight Blockers to block vision for all ground units.
+- Give Burrowed Sand Worm creeps the movement type Foot to fix Unborrowing.
+- Add zone Underground.
+- Add start location Underground.
+- Move Kobold property into zone Underground.
+- Add lever system.
+- Add creep Cage.
+- Chat command "-raceui" changes icons of actions bar UI now.
+- Decrease range of creep Infernal Juggernaut of Avatar of Sargeras.
+- Add item Orb of Fire 2 to VIP room.
+- Add item Orb of Nature to VIP room.
+- Replace hero spell Time Portal with Mass Slow for hero Khadgar.
+- Remove hero spell Time Portal.
+- Add custom icon for unit Goblin Worker.
+- Change mount of hero Furbolg Ursa Warrior to Green Dragon Mount.
+- Sell more race unit types from properties.
+- Fix ID of Kobold research Burrow.
+- Fix instant death bug due to Evolution by applying the health bonus via code.
+- Add chat command "-helpreset".
+- Add chat command "-resetevolution".
+- Add chat command "-resetnavy".
+- Add chat command "-resetpower".

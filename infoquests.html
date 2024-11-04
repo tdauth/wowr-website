@@ -325,6 +325,8 @@ player who writes the chat message.
 <li>"-helpsave": Lists savecode chat commands.</li>
 <li>"-helpfood": Lists food chat commands.</li>
 <li>"-helptime": Lists time chat commands.</li>
+<li>"-helpreset": Lists reset chat commands.</li>
+<li>"-helpcheats": Lists cheat chat commands.</li>
 <li>"-c/-clear": Clears all screen messages.</li>
 <li>"-i/-info/-stats X": Shows info about player X (number, color, name).</li>
 <li>"-r/-revive": Selects your altar to revive your hero.</li>
@@ -347,7 +349,8 @@ player who writes the chat message.
 <li>"-pi/-pickup": Picks up all items around the first hero.</li>
 <li>"-o/-order": Orders your backpack.</li>
 <li>"-zoneson/off": Enables/disables zone info.</li>
-<li>"-z/-zone": Shows the zone info of your hero.</li>
+<li>"-z/-zone": Shows the zone info of your selected unit.</li>
+<li>"-zf/-zonefull": Shows the full zone info of your selected unit.</li>
 <li>"-camlockon/off": Locks/unlocks the camera to the selected hero.</li>
 <li>"-camrpgon/off": Enables/disables the RPG camera for the selected hero.</li>
 <li>"-suicide": Kills your selected units.</li>
@@ -559,6 +562,10 @@ player who writes the chat message.
 <li>"-nofog"/"-fog": Disables/enables visibility of fog.</li>
 <li>"-nohardcore"/"-hardcore": Disables/enables hardcore mode.</li>
 <li>"-noportals"/"-portals": Disables/enables neutral portals.</li>
+<li>"-nocheats/-cheats": Disables/enables cheat chat commands.</li>
+<li>"-resetevolution X": Resets level of research Evolution back to X.</li>
+<li>"-resetnavy X": Resets level of research Improved Navy back to X.</li>
+<li>"-resetpower X": Resets level of research Improved Power Generator back to X.</li>
 </ul>
 </td>
 </tr>
@@ -591,8 +598,44 @@ Reforged and in Battle.net.
 </ul>
 </td>
 </tr>
-<tr id="Repick">
+<tr id="Cheats">
 <td data-order="12">
+<a href="#Cheats">
+<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNGreaterRejuvScroll.blp" title="ReplaceableTextures\\CommandButtons\\BTNGreaterRejuvScroll.blp" />
+</a>
+</td>
+<td>
+Cheats
+</td>
+<td>
+Cheats are enabled automatically for player WorldEdit 
+in single player and help testing the map.
+</td>
+<td>
+<ul class="questitems">
+<li>"-helpcheats": Lists cheat chat commands.</li>
+<li>"-nocheats/-cheats": Disables/enables cheat chat commands.</li>
+<li>"-creeps": Lists missing creeps.</li>
+<li>"-cinoutro": Shows the outro cinematic.</li>
+<li>"-cinlichking": Shows the Lich King cinematic.</li>
+<li>"-cinoldgods": Shows the Old Gods cinematic.</li>
+<li>"-cininvasion": Shows the Invasion cinematic.</li>
+<li>"-boots": Creates the Boots of Teleportation.</li>
+<li>"-terrain": Shows the current terrain type.</li>
+<li>"-heroskills": Shows all wrongfully registered hero skills.</li>
+<li>"-bonus": Shows the bonus system config.</li>
+<li>"-quests": Enables Jaina quests and some more.</li>
+<li>"-fields": Checks registered object data fields.</li>
+<li>"-read": Checks file reading.</li>
+<li>"-write": Checks file writing.</li>
+<li>"-maxresources": Gives you maximum resources of all resources.</li>
+<li>"-respawngroupcounter": Shows the maximum number of respawn unit groups.</li>
+<li>"-respawnall": Respawns all dead creep unit groups.</li>
+</ul>
+</td>
+</tr>
+<tr id="Repick">
+<td data-order="13">
 <a href="#Repick">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEvasion.blp" title="ReplaceableTextures\\CommandButtons\\BTNEvasion.blp" />
 </a>
@@ -615,7 +658,7 @@ selected game mode.
 </td>
 </tr>
 <tr id="FullRepick">
-<td data-order="13">
+<td data-order="14">
 <a href="#FullRepick">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBanshee.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanshee.blp" />
 </a>
@@ -638,7 +681,7 @@ You can reselect your initial game mode.
 </td>
 </tr>
 <tr id="Alliances">
-<td data-order="14">
+<td data-order="15">
 <a href="#Alliances">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" title="ReplaceableTextures\\CommandButtons\\BTNStaffOfPreservation.blp" />
 </a>
@@ -661,7 +704,7 @@ are not included.
 </td>
 </tr>
 <tr id="HeroDeath">
-<td data-order="15">
+<td data-order="16">
 <a href="#HeroDeath">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNResStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNResStone.blp" />
 </a>
@@ -691,7 +734,7 @@ your hero automatically.
 </td>
 </tr>
 <tr id="CitiesandHideouts">
-<td data-order="16">
+<td data-order="17">
 <a href="#CitiesandHideouts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp" title="ReplaceableTextures\\CommandButtons\\BTNArcaneObservatory.blp" />
 </a>
@@ -721,7 +764,7 @@ warlord player to lower destruction probability.
 </td>
 </tr>
 <tr id="Camera">
-<td data-order="17">
+<td data-order="18">
 <a href="#Camera">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNCamera.blp" title="ReplaceableTextures\\CommandButtons\\BTNCamera.blp" />
 </a>
@@ -742,7 +785,7 @@ gameplay experience.
 </td>
 </tr>
 <tr id="KeyMovement">
-<td data-order="18">
+<td data-order="19">
 <a href="#KeyMovement">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp" title="ReplaceableTextures\\CommandButtons\\BTNBootsOfSpeed.blp" />
 </a>
@@ -761,7 +804,7 @@ have enabled the RPG camera.
 </td>
 </tr>
 <tr id="Resources">
-<td data-order="19">
+<td data-order="20">
 <a href="#Resources">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" title="ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp" />
 </a>
@@ -791,7 +834,7 @@ More valuable resources are usually harder to harvest.
 </td>
 </tr>
 <tr id="ComputerAI">
-<td data-order="20">
+<td data-order="21">
 <a href="#ComputerAI">
 <img class="wowr-icon" src="ReplaceableTextures\\WorldEditUI\\Editor-MultipleUnits.blp" title="ReplaceableTextures\\WorldEditUI\\Editor-MultipleUnits.blp" />
 </a>
@@ -829,7 +872,7 @@ the beginning by the host player.
 </td>
 </tr>
 <tr id="Creeps">
-<td data-order="21">
+<td data-order="22">
 <a href="#Creeps">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNPitLord.blp" />
 </a>
@@ -854,7 +897,7 @@ is destroyed, the creeps will respawn again.
 </td>
 </tr>
 <tr id="Bosses">
-<td data-order="22">
+<td data-order="23">
 <a href="#Bosses">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" title="ReplaceableTextures\\CommandButtons\\BTNMannoroth.blp" />
 </a>
@@ -878,7 +921,7 @@ equipment bag.
 </td>
 </tr>
 <tr id="LegendaryArtifacts">
-<td data-order="23">
+<td data-order="24">
 <a href="#LegendaryArtifacts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" title="ReplaceableTextures\\CommandButtons\\BTNFarSight.blp" />
 </a>
@@ -906,7 +949,7 @@ originally found.
 </td>
 </tr>
 <tr id="Quests">
-<td data-order="24">
+<td data-order="25">
 <a href="#Quests">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" title="ReplaceableTextures\\CommandButtons\\BTNSnazzyScroll.blp" />
 </a>
@@ -943,7 +986,7 @@ minimap.
 </td>
 </tr>
 <tr id="Backpack">
-<td data-order="25">
+<td data-order="26">
 <a href="#Backpack">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" title="ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp" />
 </a>
@@ -963,7 +1006,7 @@ the backpack to change the current bag.
 </td>
 </tr>
 <tr id="EquipmentBags">
-<td data-order="26">
+<td data-order="27">
 <a href="#EquipmentBags">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_09.blp" title="ReplaceableTextures\\CommandButtons\\BTNINV_Misc_Bag_09.blp" />
 </a>
@@ -981,7 +1024,7 @@ items and to skill additional spells.
 </td>
 </tr>
 <tr id="Leaderboards">
-<td data-order="27">
+<td data-order="28">
 <a href="#Leaderboards">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" title="ReplaceableTextures\\CommandButtons\\BTNStormHammer.blp" />
 </a>
@@ -1030,7 +1073,7 @@ the chat message.
 </td>
 </tr>
 <tr id="Demigod">
-<td data-order="28">
+<td data-order="29">
 <a href="#Demigod">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPurge.blp" title="ReplaceableTextures\\CommandButtons\\BTNPurge.blp" />
 </a>
@@ -1056,7 +1099,7 @@ keeps the gained experience.
 </td>
 </tr>
 <tr id="Mounts">
-<td data-order="29">
+<td data-order="30">
 <a href="#Mounts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" title="ReplaceableTextures\\CommandButtons\\BTNGryphonRider.blp" />
 </a>
@@ -1079,7 +1122,7 @@ of your hero.
 </td>
 </tr>
 <tr id="HandofGod">
-<td data-order="30">
+<td data-order="31">
 <a href="#HandofGod">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNDivineGolem.blp" title="ReplaceableTextures\\CommandButtons\\BTNDivineGolem.blp" />
 </a>
@@ -1098,7 +1141,7 @@ and damage hostile units.
 </td>
 </tr>
 <tr id="Evolution">
-<td data-order="31">
+<td data-order="32">
 <a href="#Evolution">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNHealthStone.blp" />
 </a>
@@ -1123,7 +1166,7 @@ into units more than leveling.
 </td>
 </tr>
 <tr id="BonusHeroes">
-<td data-order="32">
+<td data-order="33">
 <a href="#BonusHeroes">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNNerubianZiggurat.blp" title="ReplaceableTextures\\CommandButtons\\BTNNerubianZiggurat.blp" />
 </a>
@@ -1142,7 +1185,7 @@ lore and have quite interesting hero abilities.
 </td>
 </tr>
 <tr id="GoblinBank">
-<td data-order="33">
+<td data-order="34">
 <a href="#GoblinBank">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp" title="ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp" />
 </a>
@@ -1162,7 +1205,7 @@ You can also play the Wheel of Fortune there.
 </td>
 </tr>
 <tr id="Clans">
-<td data-order="34">
+<td data-order="35">
 <a href="#Clans">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp" />
 </a>
@@ -1185,7 +1228,7 @@ are playing.
 </td>
 </tr>
 <tr id="VIPs">
-<td data-order="35">
+<td data-order="36">
 <a href="#VIPs">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPolarFurbolgShaman.blp" title="ReplaceableTextures\\CommandButtons\\BTNPolarFurbolgShaman.blp" />
 </a>
@@ -1208,7 +1251,7 @@ to improve the map over time.
 </td>
 </tr>
 <tr id="Bans">
-<td data-order="36">
+<td data-order="37">
 <a href="#Bans">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" title="ReplaceableTextures\\CommandButtons\\BTNSilence.blp" />
 </a>
@@ -1228,7 +1271,7 @@ in the beginning. Contact the map creator to get unbanned.
 </td>
 </tr>
 <tr id="RewardFreelancers">
-<td data-order="37">
+<td data-order="38">
 <a href="#RewardFreelancers">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp" title="ReplaceableTextures\\CommandButtons\\BTNChestOfGold.blp" />
 </a>
@@ -1248,7 +1291,7 @@ every 180 seconds and helps to push freelancers.
 </td>
 </tr>
 <tr id="TransferUnits">
-<td data-order="38">
+<td data-order="39">
 <a href="#TransferUnits">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSacrifice.blp" title="ReplaceableTextures\\CommandButtons\\BTNSacrifice.blp" />
 </a>
@@ -1270,7 +1313,7 @@ cast the ability again.
 </td>
 </tr>
 <tr id="StonemaulGauntlet">
-<td data-order="39">
+<td data-order="40">
 <a href="#StonemaulGauntlet">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNArmoredOge.blp" title="ReplaceableTextures\\CommandButtons\\BTNArmoredOge.blp" />
 </a>
@@ -1299,7 +1342,7 @@ to the Stonemaul Ogres. Aaahahahaharrr!
 </td>
 </tr>
 <tr id="CarRaces">
-<td data-order="40">
+<td data-order="41">
 <a href="#CarRaces">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" title="ReplaceableTextures\\CommandButtons\\BTNDwarfCar.blp" />
 </a>
@@ -1324,7 +1367,7 @@ correct order in the given time to win it.
 </td>
 </tr>
 <tr id="Railway">
-<td data-order="41">
+<td data-order="42">
 <a href="#Railway">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNWarWagon.blp" title="ReplaceableTextures\\CommandButtons\\BTNWarWagon.blp" />
 </a>
@@ -1345,7 +1388,7 @@ in both directions.
 </td>
 </tr>
 <tr id="Marketplaces">
-<td data-order="42">
+<td data-order="43">
 <a href="#Marketplaces">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlackMarket.blp" />
 </a>
@@ -1362,7 +1405,7 @@ Marketplaces sell items dropped by creeps.
 </td>
 </tr>
 <tr id="ThieveGuilds">
-<td data-order="43">
+<td data-order="44">
 <a href="#ThieveGuilds">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNThievesGuildX.blp" title="ReplaceableTextures\\CommandButtons\\BTNThievesGuildX.blp" />
 </a>
@@ -1382,7 +1425,7 @@ it balanced.
 </td>
 </tr>
 <tr id="TradingPosts">
-<td data-order="44">
+<td data-order="45">
 <a href="#TradingPosts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNMarketStone.blp" title="ReplaceableTextures\\CommandButtons\\BTNMarketStone.blp" />
 </a>
@@ -1406,7 +1449,7 @@ taxes.
 </td>
 </tr>
 <tr id="Properties">
-<td data-order="45">
+<td data-order="46">
 <a href="#Properties">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNStormwindCastle.blp" title="ReplaceableTextures\\CommandButtons\\BTNStormwindCastle.blp" />
 </a>
@@ -1431,7 +1474,7 @@ and gathering resources by loading workers.
 </td>
 </tr>
 <tr id="RandomEvents">
-<td data-order="46">
+<td data-order="47">
 <a href="#RandomEvents">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNAbomination.blp" title="ReplaceableTextures\\CommandButtons\\BTNAbomination.blp" />
 </a>
@@ -1453,7 +1496,7 @@ on the map.
 </td>
 </tr>
 <tr id="HiddenBases">
-<td data-order="47">
+<td data-order="48">
 <a href="#HiddenBases">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNShade.blp" title="ReplaceableTextures\\CommandButtons\\BTNShade.blp" />
 </a>
@@ -1473,7 +1516,7 @@ already go there before but not construct any buildings.
 </td>
 </tr>
 <tr id="PlayerStats">
-<td data-order="48">
+<td data-order="49">
 <a href="#PlayerStats">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNShaman.blp" title="ReplaceableTextures\\CommandButtons\\BTNShaman.blp" />
 </a>
@@ -1499,7 +1542,7 @@ of a certain player.
 </td>
 </tr>
 <tr id="SpecialRaceBuildings">
-<td data-order="49">
+<td data-order="50">
 <a href="#SpecialRaceBuildings">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" title="ReplaceableTextures\\CommandButtons\\BTNFountainOfLifeBlood.blp" />
 </a>
@@ -1520,7 +1563,7 @@ Warcraft III.
 </td>
 </tr>
 <tr id="SaveCodes">
-<td data-order="50">
+<td data-order="51">
 <a href="#SaveCodes">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNIconSave.blp" title="ReplaceableTextures\\CommandButtons\\BTNIconSave.blp" />
 </a>
@@ -1549,7 +1592,7 @@ on your disk.
 </td>
 </tr>
 <tr id="Portals">
-<td data-order="51">
+<td data-order="52">
 <a href="#Portals">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNWaygate.blp" title="ReplaceableTextures\\CommandButtons\\BTNWaygate.blp" />
 </a>
@@ -1577,7 +1620,7 @@ Ward.
 </td>
 </tr>
 <tr id="CraftingStashes">
-<td data-order="52">
+<td data-order="53">
 <a href="#CraftingStashes">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNsteelcage.blp" title="ReplaceableTextures\\CommandButtons\\BTNsteelcage.blp" />
 </a>
@@ -1599,7 +1642,7 @@ use multiple inventories for required items.
 </td>
 </tr>
 <tr id="MountsCages">
-<td data-order="53">
+<td data-order="54">
 <a href="#MountsCages">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNCage.blp" title="ReplaceableTextures\\CommandButtons\\BTNCage.blp" />
 </a>
@@ -1618,7 +1661,7 @@ speeds and types.
 </td>
 </tr>
 <tr id="DragonRoosts">
-<td data-order="54">
+<td data-order="55">
 <a href="#DragonRoosts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBlackDragonRoost.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlackDragonRoost.blp" />
 </a>
@@ -1636,7 +1679,7 @@ of dragons.
 </td>
 </tr>
 <tr id="AntimagicWards">
-<td data-order="55">
+<td data-order="56">
 <a href="#AntimagicWards">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNWebWard.blp" title="ReplaceableTextures\\CommandButtons\\BTNWebWard.blp" />
 </a>
@@ -1656,7 +1699,7 @@ and allow silencing enemy units.
 </td>
 </tr>
 <tr id="SpellBooks">
-<td data-order="56">
+<td data-order="57">
 <a href="#SpellBooks">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" title="ReplaceableTextures\\CommandButtons\\BTNSorceressMaster.blp" />
 </a>
@@ -1675,7 +1718,7 @@ can learn them.
 </td>
 </tr>
 <tr id="AlchemistLabs">
-<td data-order="57">
+<td data-order="58">
 <a href="#AlchemistLabs">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" title="ReplaceableTextures\\CommandButtons\\BTNAmmoDump.blp" />
 </a>
@@ -1693,7 +1736,7 @@ allow converting units into different races.
 </td>
 </tr>
 <tr id="HeroAbilities">
-<td data-order="58">
+<td data-order="59">
 <a href="#HeroAbilities">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" title="ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp" />
 </a>
@@ -1711,7 +1754,7 @@ your heroes to change their standard abilities.
 </td>
 </tr>
 <tr id="WitchHuts">
-<td data-order="59">
+<td data-order="60">
 <a href="#WitchHuts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" title="ReplaceableTextures\\CommandButtons\\BTNGenericCreepBuilding.blp" />
 </a>
@@ -1729,7 +1772,7 @@ giving units different abilities.
 </td>
 </tr>
 <tr id="Armory">
-<td data-order="60">
+<td data-order="61">
 <a href="#Armory">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBlacksmith.blp" title="ReplaceableTextures\\CommandButtons\\BTNBlacksmith.blp" />
 </a>
@@ -1747,7 +1790,7 @@ heroes.
 </td>
 </tr>
 <tr id="VoidLords">
-<td data-order="61">
+<td data-order="62">
 <a href="#VoidLords">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNVoidWalker.blp" title="ReplaceableTextures\\CommandButtons\\BTNVoidWalker.blp" />
 </a>
@@ -1772,7 +1815,7 @@ on water.
 </td>
 </tr>
 <tr id="CustomizableHeroes">
-<td data-order="62">
+<td data-order="63">
 <a href="#CustomizableHeroes">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" title="ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp" />
 </a>
@@ -1799,7 +1842,7 @@ spells and skins.
 </td>
 </tr>
 <tr id="PvPArena">
-<td data-order="63">
+<td data-order="64">
 <a href="#PvPArena">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBanditLord.blp" title="ReplaceableTextures\\CommandButtons\\BTNBanditLord.blp" />
 </a>
@@ -1821,7 +1864,7 @@ the surviving members of the winning team will be winners.
 </td>
 </tr>
 <tr id="Lore">
-<td data-order="64">
+<td data-order="65">
 <a href="#Lore">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSnazzyScrollPurple.blp" title="ReplaceableTextures\\CommandButtons\\BTNSnazzyScrollPurple.blp" />
 </a>
@@ -1851,7 +1894,7 @@ Baradé
 </td>
 </tr>
 <tr id="StatsTomes">
-<td data-order="65">
+<td data-order="66">
 <a href="#StatsTomes">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" title="ReplaceableTextures\\CommandButtons\\BTNManual3.blp" />
 </a>
@@ -1880,7 +1923,7 @@ about map copies with tomes included.
 </td>
 </tr>
 <tr id="HolyGrail">
-<td data-order="66">
+<td data-order="67">
 <a href="#HolyGrail">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNHL_Holy_Grail.blp" title="ReplaceableTextures\\CommandButtons\\BTNHL_Holy_Grail.blp" />
 </a>
@@ -1901,7 +1944,7 @@ map to craft it.
 </td>
 </tr>
 <tr id="Achievements">
-<td data-order="67">
+<td data-order="68">
 <a href="#Achievements">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" title="ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp" />
 </a>
@@ -1921,7 +1964,7 @@ to do stuff in the map.
 </td>
 </tr>
 <tr id="Environment">
-<td data-order="68">
+<td data-order="69">
 <a href="#Environment">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNRainyWeather.blp" title="ReplaceableTextures\\CommandButtons\\BTNRainyWeather.blp" />
 </a>
@@ -1971,7 +2014,7 @@ weather.
 </td>
 </tr>
 <tr id="Taunts">
-<td data-order="69">
+<td data-order="70">
 <a href="#Taunts">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPandaTaunt.blp" title="ReplaceableTextures\\CommandButtons\\BTNPandaTaunt.blp" />
 </a>
@@ -1989,7 +2032,7 @@ to other players.
 </td>
 </tr>
 <tr id="Credits">
-<td data-order="70">
+<td data-order="71">
 <a href="#Credits">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
 </a>
@@ -3636,11 +3679,23 @@ All the people who contributed to this map.
 <li>HuanJuan: Bandit Elite Barrack</li>
 <li>Ujimasa Hojo: Hut (Gnoll) and Derivatives</li>
 <li>loktar: Knight, Bandit Lord & Riderless Horse (WC1 & WC2)</li>
+<li>MassiveMaster: FlyingSpearThrower</li>
+<li>Hermit: CorruptedGoldmine</li>
+<li>Hermit: BTNCorruptedMine</li>
+<li>Brombie: BTNStrawberry</li>
+<li>Steel0RaZoR: BTNCherry</li>
+<li>DEE-BOO: BTNBagOfPlums</li>
+<li>Blizzard Entertainment: BTNINV_Misc_Milk_04</li>
+<li>Cavman: Skeletal Peasant</li>
+<li>Villagerino: Skeleton Warriors (pack I)</li>
+<li>Achille: Skeleton Berserker</li>
+<li>The_Silent: Dungeon Walls [Mine] + Bookshelfs, Porticulus and Columns</li>
+<li>Mike: Rack (torture)</li>
 </ul>
 </td>
 </tr>
 <tr id="3.29">
-<td data-order="71">
+<td data-order="72">
 <a href="#3.29">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3662,6 +3717,10 @@ All changes of 3.29.
 <li>Register NPC Commander of the Citadel.</li>
 <li>Register NPC Keeper of the Grave.</li>
 <li>Register NPC Halahk the Lifebringer.</li>
+<li>Register NPC Admiral Proudmoore's Spirit.</li>
+<li>Register NPC Captain James Hook.</li>
+<li>Register NPC Carsten.</li>
+<li>Register NPC Barade.</li>
 <li>Give hero in Elder Sage in Archimonde's Realm an Orb of Corruption.</li>
 <li>Add more rects to zone Archimonde's Realm.</li>
 <li>Improve race Satyr.</li>
@@ -3686,12 +3745,75 @@ All changes of 3.29.
 <li>Add item Plum.</li>
 <li>Add resource Milk.</li>
 <li>Add resource Wool.</li>
+<li>Add item Milk.</li>
+<li>Add item Wool.</li>
 <li>Improve profession Farmer.</li>
+<li>Do not register Ironclad Submarine for race High Elf.</li>
+<li>Fix registration of Male Citizen for race Demon.</li>
+<li>Improve zones.</li>
+<li>Add cheat "-fill".</li>
+<li>Add cheat "-evolution".</li>
+<li>Evolution does not remove positive buffs from summoned units anymore which killed them.</li>
+<li>Add chat command "-zf/-zonefull".</li>
+<li>Fix tooltip of building Cathedral of Light.</li>
+<li>Add chat command "-helpcheats".</li>
+<li>Add vote "-nocheats/cheats".</li>
+<li>Add info quest Cheats.</li>
+<li>Add zone Dungeon.</li>
+<li>Add race Dungeon.</li>
+<li>Add start location Dungeon.</li>
+<li>Add zone Caverns of Stonetalon Peak.</li>
+<li>Revise start location icons.</li>
+<li>Fix hero duration of hero spell Corrosive Breath.</li>
+<li>Add tileset name to names of Mercenary Camps.</li>
+<li>Decrease Evolution bonus to avoid instant deaths for new units.</li>
+<li>Fix dead hunted animals immediately respawning.</li>
+<li>Add library to support dependency equivalents.</li>
+<li>Place more critters.</li>
+<li>Remove custom icon BTNCage which overwrites a standard icon.</li>
+<li>Add system GameStatus.</li>
+<li>Use system GameStatus to disable custom race UI during replays.</li>
+<li>Add Hippogryph Riders to the Night Elf attack waves.</li>
+<li>Register unit type equivalents for Hippogryph and Hippogryph Riders.</li>
+<li>Add Dragownhawks to High Elf attack waves.</li>
+<li>Add Dragownhawk Archers to High Elf attack waves.</li>
+<li>Add War Eagle Riders to High Elf attack waves.</li>
+<li>Register AI conversions into Dragownhawk Archers.</li>
+<li>Register AI conversions into War Eagle Riders.</li>
+<li>Register AI equivalents for submerged Naga units.</li>
+<li>Register AI equivalents for Siege Tanks and Siege Tanks with Barrage.</li>
+<li>Auto skilling heroes checks for dependency equivalents now.</li>
+<li>Fix tooltip of hero spell Mass Death Coil.</li>
+<li>Make hero spell Summon Skeletons learnable.</li>
+<li>Apply summoned units bonus for hero spell Summon Skeletons.</li>
+<li>Apply timed life for hero spell Summon Skeletons.</li>
+<li>Increase Occlusion Height of Line of Sight Blockers to block vision for all ground units.</li>
+<li>Give Burrowed Sand Worm creeps the movement type Foot to fix Unborrowing.</li>
+<li>Add zone Underground.</li>
+<li>Add start location Underground.</li>
+<li>Move Kobold property into zone Underground.</li>
+<li>Add lever system.</li>
+<li>Add creep Cage.</li>
+<li>Chat command "-raceui" changes icons of actions bar UI now.</li>
+<li>Decrease range of creep Infernal Juggernaut of Avatar of Sargeras.</li>
+<li>Add item Orb of Fire 2 to VIP room.</li>
+<li>Add item Orb of Nature to VIP room.</li>
+<li>Replace hero spell Time Portal with Mass Slow for hero Khadgar.</li>
+<li>Remove hero spell Time Portal.</li>
+<li>Add custom icon for unit Goblin Worker.</li>
+<li>Change mount of hero Furbolg Ursa Warrior to Green Dragon Mount.</li>
+<li>Sell more race unit types from properties.</li>
+<li>Fix ID of Kobold research Burrow.</li>
+<li>Fix instant death bug due to Evolution by applying the health bonus via code.</li>
+<li>Add chat command "-helpreset".</li>
+<li>Add chat command "-resetevolution".</li>
+<li>Add chat command "-resetnavy".</li>
+<li>Add chat command "-resetpower".</li>
 </ul>
 </td>
 </tr>
 <tr id="3.28">
-<td data-order="72">
+<td data-order="73">
 <a href="#3.28">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3760,7 +3882,7 @@ All changes of 3.28.
 </td>
 </tr>
 <tr id="3.27">
-<td data-order="73">
+<td data-order="74">
 <a href="#3.27">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3773,7 +3895,7 @@ All changes of 3.27.
 </td>
 <td>
 <ul class="questitems">
-<li>Fix syntax error in file "war3mapimported\\CustomConsoleUI.fdf".</li>
+<li>Fix syntax error in file "CustomConsoleUI.fdf".</li>
 <li>Chat command "-aitraceon/off" works per sending player now.</li>
 <li>Improve AI tracing.</li>
 <li>Fix AutoSkillHero when not being able to learn a skill which has some level skip requirement.</li>
@@ -3854,7 +3976,7 @@ All changes of 3.27.
 </td>
 </tr>
 <tr id="3.26">
-<td data-order="74">
+<td data-order="75">
 <a href="#3.26">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3902,7 +4024,7 @@ All changes of 3.26.
 </td>
 </tr>
 <tr id="3.25">
-<td data-order="75">
+<td data-order="76">
 <a href="#3.25">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4030,7 +4152,7 @@ All changes of 3.25.
 </td>
 </tr>
 <tr id="3.24">
-<td data-order="76">
+<td data-order="77">
 <a href="#3.24">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4111,7 +4233,7 @@ All changes of 3.24.
 </td>
 </tr>
 <tr id="3.23">
-<td data-order="77">
+<td data-order="78">
 <a href="#3.23">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4308,7 +4430,7 @@ All changes of 3.23.
 </td>
 </tr>
 <tr id="3.22">
-<td data-order="78">
+<td data-order="79">
 <a href="#3.22">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4439,7 +4561,7 @@ All changes of 3.22.
 </td>
 </tr>
 <tr id="3.21">
-<td data-order="79">
+<td data-order="80">
 <a href="#3.21">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4760,7 +4882,7 @@ All changes of 3.21.
 </td>
 </tr>
 <tr id="3.20">
-<td data-order="80">
+<td data-order="81">
 <a href="#3.20">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4859,7 +4981,7 @@ All changes of 3.20.
 </td>
 </tr>
 <tr id="3.19">
-<td data-order="81">
+<td data-order="82">
 <a href="#3.19">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4987,7 +5109,7 @@ All changes of 3.19.
 </td>
 </tr>
 <tr id="3.18">
-<td data-order="82">
+<td data-order="83">
 <a href="#3.18">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5104,7 +5226,7 @@ All changes of 3.18.
 </td>
 </tr>
 <tr id="3.17">
-<td data-order="83">
+<td data-order="84">
 <a href="#3.17">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5307,7 +5429,7 @@ All changes of 3.17.
 </td>
 </tr>
 <tr id="3.16">
-<td data-order="84">
+<td data-order="85">
 <a href="#3.16">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5340,7 +5462,7 @@ All changes of 3.16.
 </td>
 </tr>
 <tr id="3.15">
-<td data-order="85">
+<td data-order="86">
 <a href="#3.15">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5600,7 +5722,7 @@ All changes of 3.15.
 </td>
 </tr>
 <tr id="3.14">
-<td data-order="86">
+<td data-order="87">
 <a href="#3.14">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5812,7 +5934,7 @@ All changes of 3.14.
 </td>
 </tr>
 <tr id="3.13">
-<td data-order="87">
+<td data-order="88">
 <a href="#3.13">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5893,7 +6015,7 @@ All changes of 3.13.
 </td>
 </tr>
 <tr id="3.12">
-<td data-order="88">
+<td data-order="89">
 <a href="#3.12">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6030,7 +6152,7 @@ All changes of 3.12.
 </td>
 </tr>
 <tr id="3.11">
-<td data-order="89">
+<td data-order="90">
 <a href="#3.11">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6088,7 +6210,7 @@ All changes of 3.11.
 </td>
 </tr>
 <tr id="3.10">
-<td data-order="90">
+<td data-order="91">
 <a href="#3.10">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6145,7 +6267,7 @@ All changes of 3.10.
 </td>
 </tr>
 <tr id="3.9">
-<td data-order="91">
+<td data-order="92">
 <a href="#3.9">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6236,7 +6358,7 @@ All changes of 3.9.
 </td>
 </tr>
 <tr id="3.8">
-<td data-order="92">
+<td data-order="93">
 <a href="#3.8">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6380,7 +6502,7 @@ All changes of 3.8.
 </td>
 </tr>
 <tr id="3.7">
-<td data-order="93">
+<td data-order="94">
 <a href="#3.7">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6438,7 +6560,7 @@ All changes of 3.7.
 </td>
 </tr>
 <tr id="3.6">
-<td data-order="94">
+<td data-order="95">
 <a href="#3.6">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6621,7 +6743,7 @@ All changes of 3.6.
 </td>
 </tr>
 <tr id="3.5">
-<td data-order="95">
+<td data-order="96">
 <a href="#3.5">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6698,7 +6820,7 @@ All changes of 3.5.
 </td>
 </tr>
 <tr id="3.4">
-<td data-order="96">
+<td data-order="97">
 <a href="#3.4">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7140,7 +7262,7 @@ All changes of 3.4.
 </td>
 </tr>
 <tr id="3.3">
-<td data-order="97">
+<td data-order="98">
 <a href="#3.3">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7205,7 +7327,7 @@ All changes of 3.3.
 </td>
 </tr>
 <tr id="3.2">
-<td data-order="98">
+<td data-order="99">
 <a href="#3.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7257,7 +7379,7 @@ All changes of 3.2.
 </td>
 </tr>
 <tr id="3.1">
-<td data-order="99">
+<td data-order="100">
 <a href="#3.1">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7373,7 +7495,7 @@ All changes of 3.1.
 </td>
 </tr>
 <tr id="3.0">
-<td data-order="100">
+<td data-order="101">
 <a href="#3.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8039,7 +8161,7 @@ All changes of 3.0.
 </td>
 </tr>
 <tr id="2.0">
-<td data-order="101">
+<td data-order="102">
 <a href="#2.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
