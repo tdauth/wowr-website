@@ -99,3 +99,5 @@
 - Add chat command "-resetevolution".
 - Add chat command "-resetnavy".
 - Add chat command "-resetpower".
+- AI does research Orc Spikes only up to level 2.
+- Reduce GUI global variable array sizes.
