@@ -105,6 +105,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add chat command "-resetpower"." )
 	call Preload( "- AI does research Orc Spikes only up to level 2." )
 	call Preload( "- Reduce GUI global variable array sizes." )
+	call Preload( "- Fix global variable udg_ProfessionCook." )
+	call Preload( "- Fix global variable udg_ProfessionBard." )
+	call Preload( "- Fix auto crafted item for profession Sorcerer rank Master." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 

@@ -3770,6 +3770,9 @@ Note: Even " )
 	call Preload( "<li>Add chat command "-resetpower".</li>" )
 	call Preload( "<li>AI does research Orc Spikes only up to level 2.</li>" )
 	call Preload( "<li>Reduce GUI global variable array sizes.</li>" )
+	call Preload( "<li>Fix global variable udg_ProfessionCook.</li>" )
+	call Preload( "<li>Fix global variable udg_ProfessionBard.</li>" )
+	call Preload( "<li>Fix auto crafted item for profession Sorcerer rank Master.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
@@ -8375,7 +8378,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.2 )
+	call PreloadEnd( 2.1 )
 
 endfunction
 
