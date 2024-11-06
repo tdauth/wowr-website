@@ -101,3 +101,6 @@
 - Add chat command "-resetpower".
 - AI does research Orc Spikes only up to level 2.
 - Reduce GUI global variable array sizes.
+- Fix global variable udg_ProfessionCook.
+- Fix global variable udg_ProfessionBard.
+- Fix auto crafted item for profession Sorcerer rank Master.
