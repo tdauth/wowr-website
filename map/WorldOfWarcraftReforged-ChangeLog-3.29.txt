@@ -16,7 +16,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Register NPC Carsten." )
 	call Preload( "- Register NPC Barade." )
 	call Preload( "- Give hero in Elder Sage in Archimonde's Realm an Orb of Corruption." )
-	call Preload( "- Add more rects to zone Archimonde's Realm." )
 	call Preload( "- Improve race Satyr." )
 	call Preload( "- Dalaran Housings train unit Dalaran Child now." )
 	call Preload( "- Move creep Whale further away from Sunstrider Isle." )
@@ -108,6 +107,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Fix global variable udg_ProfessionCook." )
 	call Preload( "- Fix global variable udg_ProfessionBard." )
 	call Preload( "- Fix auto crafted item for profession Sorcerer rank Master." )
+	call Preload( "- Add snow to Ironforge." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
