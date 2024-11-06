@@ -12,7 +12,6 @@
 - Register NPC Carsten.
 - Register NPC Barade.
 - Give hero in Elder Sage in Archimonde's Realm an Orb of Corruption.
-- Add more rects to zone Archimonde's Realm.
 - Improve race Satyr.
 - Dalaran Housings train unit Dalaran Child now.
 - Move creep Whale further away from Sunstrider Isle.
@@ -104,3 +103,4 @@
 - Fix global variable udg_ProfessionCook.
 - Fix global variable udg_ProfessionBard.
 - Fix auto crafted item for profession Sorcerer rank Master.
+- Add snow to Ironforge.
