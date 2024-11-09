@@ -2380,9 +2380,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<tr id="h0UF">" )
 	call Preload( "<td data-order="33">" )
 	call Preload( "<a href="#h0UF">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStag.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTalbuk.blp" width="64" height="64"" )
 	call Preload( "title="Talbuk Mount"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNStag.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTalbuk.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
@@ -3321,7 +3321,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Mounts generated with chat command "-website". -->" )
-	call PreloadEnd( 0.8 )
+	call PreloadEnd( 0.7 )
 
 endfunction
 
