@@ -1,0 +1,38 @@
+- Add world zones.
+- Add continent zones.
+- Add more zones.
+- Add info quest Gaia.
+- Add custom hero type to detect item values.
+- Use Reincarnation icon for ability Halls of Valor.
+- Remove unit Goblin Vehicle Shop.
+- Improve race Dungeon.
+- Fix syntax errors in Dungeon AI script.
+- Fix research icon and position of hero spell Phoenix Fire.
+- Fix skilled hero spell Phoenix Fire for boss Al'ar.
+- Set hero level to 75 for all NPCs.
+- Add missing initial mount to hero Tyrande.
+- Add missing initial mount to hero Maiev.
+- Add missing initial mount to hero Keeper of the Grove (Ghost).
+- Enable all lever portals in the beginning of the game.
+- Remove one Spike item from Dungeon.
+- Improve race Dungeon.
+- Rename NPC Captain James Hook into Fleet Admiral Tethys.
+- Add more dependency equivalents.
+- Use primary dependency equivalents in unit and building save codes.
+- No more usage of CopyGroup on generating save codes.
+- Automatically restore player unit selections after cinematics.
+- Add profession Scribe.
+- Fix required hero level for profession 3.
+- Add Hunter trophies for more critters.
+- Fix hotkeys in levers.
+- Reduce the number of summoned units for hero spell Summon Skeletons.
+- Add Resurrection Stone to zone Underground.
+- Add Resurrection Stone to zone Dungeon.
+- Add Resurrection Stone to zone Kul Tiras.
+- Scale down Resurrection Stones.
+- Add custom icon for item Tome of Agility.
+- Add custom icon for item Tome of Strength.
+- Use UnitGroupRespawnSystem 1.2.
+- Add all critters as single unit respawns.
+- Add custom icon for unit Talbuk.
+- Add custom icon for unit Parrot.
