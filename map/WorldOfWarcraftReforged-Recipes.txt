@@ -1608,9 +1608,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<a href="items.html#I0KK">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNImpale.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpikes.blp" width="64" height="64"" )
 	call Preload( "title="Spike"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNImpale.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSpikes.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (3)" )
 	call Preload( "</td>" )
@@ -2723,7 +2723,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.6 )
+	call PreloadEnd( 2.2 )
 
 endfunction
 

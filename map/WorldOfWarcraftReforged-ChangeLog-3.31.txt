@@ -1,0 +1,15 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix indices for units on website." )
+	call Preload( "- Add items for Dungeon buildings." )
+	call Preload( "- Improve race Dungeon." )
+	call Preload( "- Rename property Draktharon Keep into Azjol-Nerub." )
+	call Preload( "- Register NPC Xe'ra." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
