@@ -1,0 +1,5 @@
+- Fix indices for units on website.
+- Add items for Dungeon buildings.
+- Improve race Dungeon.
+- Rename property Draktharon Keep into Azjol-Nerub.
+- Register NPC Xe'ra.
