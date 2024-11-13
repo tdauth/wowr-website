@@ -1,0 +1,22 @@
+- Fix indices for units on website.
+- Add items for Dungeon buildings.
+- Improve race Dungeon.
+- Rename property Draktharon Keep into Azjol-Nerub.
+- Register NPC Xe'ra.
+- Add depencency equivalents for Goblin Mobile Turrets.
+- GetObjectRace considers dependency equivalents now.
+- Support AI for race Old Horde.
+- Support AI for race Alliance of Lordaeron.
+- Improve zones.
+- Improve website data.
+- Add calendar event Carnival.
+- Allow player colors for alliance chat commands.
+- Allow player colors for votekick chat command.
+- Support ships for property Sunstrider Isle.
+- Support ships for property Darkspear Isle.
+- Add info quest Players.
+- Add library FrameHierarchy.
+- Disable library CustomConsoleUI due to crashes Warcraft Reforged 2.0.
+- Disable library GetMainSelectedUnit due to crashes Warcraft Reforged 2.0.
+- Disable library UnitSoundSets due to crashes Warcraft Reforged 2.0.
+- Disable library UnitSoundSetsFakeBars due to crashes Warcraft Reforged 2.0.
