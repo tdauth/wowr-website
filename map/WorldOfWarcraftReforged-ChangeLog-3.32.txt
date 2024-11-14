@@ -1,0 +1,17 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix Old Horde AI script." )
+	call Preload( "- Fix Alliance of Lordaeron AI script." )
+	call Preload( "- Allow bonus heroes for AI." )
+	call Preload( "- Profession scribe cannot be used with "-unlock" anymore." )
+	call Preload( "- Add building Water Tower to save codes." )
+	call Preload( "- Add building Advanced Water Tower to save codes." )
+	call Preload( "- Fix icon position of profession Scribe." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

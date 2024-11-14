@@ -4912,7 +4912,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Requires tomes to be enabled. " )
-	call Preload( "Use -unlock to disable this restriction.</div>" )
+	call Preload( "Use -tomes to disable this restriction.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTomeRed.blp" width="64" height="64"" )
@@ -5081,7 +5081,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 5.1 )
+	call PreloadEnd( 4.1 )
 
 endfunction
 

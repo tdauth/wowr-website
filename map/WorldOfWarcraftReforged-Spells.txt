@@ -17540,7 +17540,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Spell Immunity" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "Renders this unit immune to all spells." )
+	call Preload( "Renders this unit immune to magic and most spells." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNGenericSpellImmunity.blp" width="64" height="64"" )
@@ -18250,7 +18250,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 5.0 )
+	call PreloadEnd( 4.8 )
 
 endfunction
 
