@@ -52,7 +52,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
-	call Preload( "<a href="buildings.html#h00R">" )
+	call Preload( "<a href="buildings.html#h04X">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGranary.blp" width="64" height="64"" )
 	call Preload( "title="Human Housing"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGranary.blp"" )
@@ -1276,7 +1276,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 7.2 )
+	call PreloadEnd( 6.7 )
 
 endfunction
 
