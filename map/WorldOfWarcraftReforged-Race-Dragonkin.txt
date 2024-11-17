@@ -168,8 +168,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "50" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Primary troop production building. Trains Grunts, Headhunters " )
-	call Preload( "and Demolishers. " )
+	call Preload( "Primary troop production building. Trains Dragonspawn " )
+	call Preload( "Meddlers, Drakonid Spearthrowers, and Dragonspawn Overseers. " )
 	call Preload( "<br/>" )
 	call Preload( "Also contains the Brute Strength, Berserker, Troll " )
 	call Preload( "Regeneration, and Burning Oil upgrades." )
@@ -1129,7 +1129,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 6.2 )
+	call PreloadEnd( 6.4 )
 
 endfunction
 
