@@ -1,0 +1,13 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Move AI start location Kul Tiras to fix the instant crash." )
+	call Preload( "- Move AI start location Azuremyst Isles to fix the instant crash." )
+	call Preload( "- Improve race Dragonkin." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

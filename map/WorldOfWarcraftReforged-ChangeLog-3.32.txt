@@ -46,6 +46,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add passive icon for hero spell Mana Bonus." )
 	call Preload( "- Add passive icon for hero spell Mana Regeneration Bonus." )
 	call Preload( "- Add passive icon for hero spell Sight Aura." )
+	call Preload( "- Scale down critter Talbuk." )
+	call Preload( "- Add critters Talbuks to Argus." )
+	call Preload( "- Add critters Parrots." )
+	call Preload( "- Improve AI players UI." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
