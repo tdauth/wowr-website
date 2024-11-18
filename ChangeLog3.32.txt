@@ -1,0 +1,48 @@
+- Fix Old Horde AI script.
+- Fix Alliance of Lordaeron AI script.
+- Allow bonus heroes for AI.
+- Profession scribe cannot be used with "-unlock" anymore.
+- Add building Water Tower to save codes.
+- Add building Advanced Water Tower to save codes.
+- Fix icon position of profession Scribe.
+- Fix zone sizes on the website.
+- Fix icon of hero and NPC Malfurion due to a bug in Warcraft Reforged 2.0.
+- Always map loaded units, items and buildings to player's first race.
+- Fix hotkeys in Clan Hall.
+- Enchanter formulas affect all tomes and manuals now.
+- Freelancer Laboratory can trains Neutral Child now.
+- Revise game information.
+- Add building Freelancer Housing.
+- Make sure perishable loaded items have at least 1 charge.
+- Fix researching for Freelancer AI.
+- Improve Freelancer AI.
+- Add custom models for race Dragonkin.
+- Improve race Dragonkin.
+- Any unit order stops Drain Resources now.
+- Disable option SHOW_PREVIEW_MODELS for Paged Buttons.
+- Add initial system MaxHpResearch to fix maximum HP overflows.
+- Fix maximum HP overflow for research Ogre Strength.
+- Fix maximum HP overflow for research Improved Clan.
+- Fix maximum HP overflow for research Improved Clan Hall.
+- Fix maximum HP overflow for research Improved Masonry (Freelancer Hideout).
+- Fix showing gathered resources only for the selecting player.
+- Add critter Fox with hunting trophy.
+- Add creep Bear.
+- Add creep Giant Bear.
+- Add chat command "-uion/off".
+- Revise system ResourcesGui to reduce sync selection calls and fix selection issues.
+- Revise system PagedButtonsUI to fix selection issues.
+- Fix crash in AI players UI heroes popup menu.
+- Fix Lich King model which was broken due to issues in Warcraft Reforged 2.0.
+- Fix model of unit Rakkar Ship.
+- Add skin Grunt.
+- Fix soundset and classification of Shade Form for hero Acolyte.
+- Hero spell Elune's Grace is not learnable by Equipment Bags.
+- Add passive icon for hero spell Move Speed Bonus.
+- Add passive icon for hero spell Mana Bonus.
+- Add passive icon for hero spell Mana Regeneration Bonus.
+- Add passive icon for hero spell Sight Aura.
+- Scale down critter Talbuk.
+- Add critters Talbuks to Argus.
+- Add critters Parrots.
+- Improve AI players UI.
