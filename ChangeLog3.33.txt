@@ -1,0 +1,3 @@
+- Move AI start location Kul Tiras to fix the instant crash.
+- Move AI start location Azuremyst Isles to fix the instant crash.
+- Improve race Dragonkin.

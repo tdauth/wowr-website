@@ -16,7 +16,7 @@
 - Support ships for property Darkspear Isle.
 - Add info quest Players.
 - Add library FrameHierarchy.
-- Disable library CustomConsoleUI due to crashes Warcraft Reforged 2.0.
-- Disable library GetMainSelectedUnit due to crashes Warcraft Reforged 2.0.
-- Disable library UnitSoundSets due to crashes Warcraft Reforged 2.0.
-- Disable library UnitSoundSetsFakeBars due to crashes Warcraft Reforged 2.0.
+- Disable library CustomConsoleUI due to issues in Warcraft Reforged 2.0.
+- Disable library GetMainSelectedUnit due to crashes in Warcraft Reforged 2.0.
+- Disable library UnitSoundSets due to issues in Warcraft Reforged 2.0.
+- Disable library UnitSoundSetsFakeBars due to issues in Warcraft Reforged 2.0.
