@@ -1,3 +1,29 @@
 - Move AI start location Kul Tiras to fix the instant crash.
 - Move AI start location Azuremyst Isles to fix the instant crash.
 - Improve race Dragonkin.
+- Add bridge to Outland's portal area.
+- Add creep Jailer to Outland.
+- Add creep Inquisitor to Outland.
+- Add Chest to Outland.
+- Register critter Fox for save codes.
+- Fix parent zones of continent zones.
+- Fix maximum HP bonus for research Improved Mount.
+- Fix maximum HP bonus for research Improved Hand of God.
+- Reduce maximum percentage HP bonus from researches.
+- Fix many building and unit portraits by specifiny the new field "upor" from Warcraft 2.0.
+- Add chat command "-resetmount".
+- Add chat command "-resetmasonry".
+- Add chat command "-resethandofgod".
+- All critters have 1 food cost now.
+- Fix some synchronization issues with paged buttons UI.
+- Add creep Clefthoof Rider to Outland.
+- Add creep Rylak Rider to Outland.
+- Increase hero level of NPC Barade.
+- Increase hero level of NPC Carsten.
+- Add Mercenary Camp (Sea) to water base.
+- Move neutral buildings at water base.
+- Add critter Hedgehog.
+- Remove inventory ability and hero spells from NPC Fleet Admiral.
+- Add more creeps sold by Mercenary Camp Sea.
+- Add mount Zeppelin.
+- Give Goblin heroes the standard mount Zeppelin.
