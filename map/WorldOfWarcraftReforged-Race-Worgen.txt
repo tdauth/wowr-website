@@ -1178,7 +1178,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "Allows buying mounts for your heroes. Mounts are available " )
 	call Preload( "at hero level 20. Use the Change Page abilities to " )
-	call Preload( "change the listed ones." )
+	call Preload( "change the listed ones. Construct a Witch Hut to modify " )
+	call Preload( "the abilities of your mount." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCage.blp" width="64" height="64"" )
@@ -1351,7 +1352,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 10.3 )
+	call PreloadEnd( 5.0 )
 
 endfunction
 
