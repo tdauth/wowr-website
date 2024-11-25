@@ -156,6 +156,7 @@ solution to fix it, please report it on Discord.
 <li>Line of Sight Blockers do not work for flying units (occlusion height).</li>
 <li>Researches increasing unit maximum life can lead to negative maximum life and instant unit deaths.</li>
 <li>Release 2.0 of Warcraft III broke older version before 3.31 with a new frame hierarchy.</li>
+<li>AI might crash in start locations which have too little ground area space.</li>
 </ul>
 </td>
 </tr>
@@ -398,6 +399,8 @@ player who writes the chat message.
 <li>"-helpcheats": Lists cheat chat commands.</li>
 <li>"-c/-clear": Clears all screen messages.</li>
 <li>"-uion/off": Enables/disables custom UI when clicking on shops.</li>
+<li>"-uiqueueon/off": Enables/disables UI training queue.</li>
+<li>"-uiqueueclear": Clears the UI training queue.</li>
 <li>"-i/-info/-stats X": Shows info about player X (number, color, name).</li>
 <li>"-r/-revive": Selects your altar to revive your hero.</li>
 <li>"-d/-discord": Shows the Discord server URL.</li>
@@ -667,7 +670,7 @@ Reforged and in Battle.net.
 <li>"/ignore X": Ignores all future messages from Battle.net user X.</li>
 <li>"/unignore X": Unignores all future messages from Battle.net user X.</li>
 <li>"/users": Shows number of users currently on Battle.net.</li>
-<li>"/time": Shows Battle.net time.</li>
+<li>"/time": Shows passed game time.</li>
 </ul>
 </td>
 </tr>
@@ -1892,7 +1895,8 @@ Witch Huts
 </td>
 <td>
 Witch Huts can be built by female citizens. They allow 
-giving units different abilities.
+giving units different abilities. The units are permanently 
+stored for mounts.
 </td>
 <td>
 <ul class="questitems">
@@ -1900,6 +1904,7 @@ giving units different abilities.
 <li>Give units different abilities.</li>
 <li>Require hero level 75.</li>
 <li>Require tier 3.</li>
+<li>Abilities are stored for mounts.</li>
 </ul>
 </td>
 </tr>
@@ -3954,6 +3959,59 @@ All changes of 3.33.
 <li>Add more creeps sold by Mercenary Camp Sea.</li>
 <li>Add mount Zeppelin.</li>
 <li>Give Goblin heroes the standard mount Zeppelin.</li>
+<li>Permanently store Witch Hut abilities for mounts.</li>
+<li>Add custom icon for Troll Citzen (male).</li>
+<li>Register unit Cow for save codes.</li>
+<li>Increase map dimensions.</li>
+<li>Add creep Djinn.</li>
+<li>Add creep Lightning Elemental.</li>
+<li>Add creep Frost Giant.</li>
+<li>Add creep Molten Giant.</li>
+<li>Add creep Kraken.</li>
+<li>Fix coloring of creep Earth Elemental.</li>
+<li>Add creep Enraged Earth Elemental.</li>
+<li>Add queue UI system to show queued trainings, researches and upgrades.</li>
+<li>Add chat command "-uiqueueon/off".</li>
+<li>Add chat command "-uiqueueclear".</li>
+<li>Improved Paged Buttons UI.</li>
+<li>Make effect of spell Divine Shield temporarily.</li>
+<li>Increase cooldown of hero spell Charge.</li>
+<li>Add zone Uldum.</li>
+<li>Add creep Tol'vir.</li>
+<li>Add creep Ramkahen Guard.</li>
+<li>Add hero Ramkahen Huntress.</li>
+<li>Add creep Dark Phoenix.</li>
+<li>Add skin Thief.</li>
+<li>Add creep Air Revenant.</li>
+<li>Add creep Fire Hawk.</li>
+<li>Show zones for bosses on the website.</li>
+<li>Add profession rank Grand Master.</li>
+<li>Add profession rank Doctor.</li>
+<li>Show profession rank in title of charges on the website.</li>
+<li>Add skin Thrall.</li>
+<li>Add skin Grommash Hellscream.</li>
+<li>Add skin Uther.</li>
+<li>Add skin Jaina.</li>
+<li>Add skin Medivh.</li>
+<li>Add NPC Medivh.</li>
+<li>Add skin Lord Garithos.</li>
+<li>Add skin Spellbreaker.</li>
+<li>Add skin Knight.</li>
+<li>Do not allow heroes to pick up multiple race scepters for the same race.</li>
+<li>Do not allow heroes to pick up multiple profession books for the same profession.</li>
+<li>Increase selection scale of hero Infernal.</li>
+<li>Fix coloring of Neutral Citizen (female).</li>
+<li>Fix portal from Underground to Mount Hyjal and back.</li>
+<li>Hero spell Spell Shield is not learnable by Equipment Bags.</li>
+<li>Add missing summon effect to hero spell Summon Doom Guard.</li>
+<li>Fix NPC Chen Stormstout in Pandaria.</li>
+<li>Revise terrain tiles.</li>
+<li>Increase area for start location Kul Tiras to prevent AI crashing.</li>
+<li>Increase area for start location Sunstrider Isle to prevent AI crashing.</li>
+<li>Increase area for start location Azymerest Isle to prevent AI crashing.</li>
+<li>Do not allow to pick up tome items if tomes are disabled.</li>
+<li>Do not auto replenish stocks in Crafting Stashes.</li>
+<li>Fix tooltip of hero spell Divine Shield.</li>
 </ul>
 </td>
 </tr>
