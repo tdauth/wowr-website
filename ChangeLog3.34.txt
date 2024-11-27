@@ -1,0 +1,13 @@
+- Do not use non-existing Orc research UPG_ORC_ARTILLERY.
+- Fix calculating total area for worlds without continents.
+- Change model and icon for NPC Fleet Admiral Tethys.
+- Fix registering Freelancer units for save codes.
+- Improve Murloc tier buildings.
+- Revise creep Frost Giant.
+- Revise creep Molten Giant.
+- Improve Elemental Plane areas and Mercenary Camps.
+- Add creep Crystal Golem.
+- Add zone Shadowlands.
+- Add boss Smolderon.
+- Move Elemental Lords into Elemental Plane and make them available from start.
+- Add more ranks to profession Necrmancer.
