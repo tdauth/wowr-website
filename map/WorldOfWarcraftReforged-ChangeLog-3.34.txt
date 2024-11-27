@@ -1,0 +1,23 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Do not use non-existing Orc research UPG_ORC_ARTILLERY." )
+	call Preload( "- Fix calculating total area for worlds without continents." )
+	call Preload( "- Change model and icon for NPC Fleet Admiral Tethys." )
+	call Preload( "- Fix registering Freelancer units for save codes." )
+	call Preload( "- Improve Murloc tier buildings." )
+	call Preload( "- Revise creep Frost Giant." )
+	call Preload( "- Revise creep Molten Giant." )
+	call Preload( "- Improve Elemental Plane areas and Mercenary Camps." )
+	call Preload( "- Add creep Crystal Golem." )
+	call Preload( "- Add zone Shadowlands." )
+	call Preload( "- Add boss Smolderon." )
+	call Preload( "- Move Elemental Lords into Elemental Plane and make them available from start." )
+	call Preload( "- Add more ranks to profession Necrmancer." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
