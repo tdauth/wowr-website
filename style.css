@@ -42,7 +42,7 @@ img {
     white-space: nowrap;
 }
 
-.items div {
+.items div:not([class])  {
     display: inline-block;
     white-space: nowrap;
 }
