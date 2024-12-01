@@ -314,6 +314,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSatyr.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (5)" )
+	call Preload( "<a href="items.html#I12H">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNArcaniteMelee.blp" width="64" height="64"" )
+	call Preload( "title="Unique - Remornia"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNArcaniteMelee.blp"" )
+	call Preload( "/></a>" )
+	call Preload( " (5)" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="I09A">" )
@@ -2723,7 +2729,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 2.2 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 
