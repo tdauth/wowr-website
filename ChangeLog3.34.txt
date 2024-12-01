@@ -1,0 +1,63 @@
+- Do not use non-existing Orc research UPG_ORC_ARTILLERY.
+- Fix calculating total area for worlds without continents.
+- Change model and icon for NPC Fleet Admiral Tethys.
+- Fix registering Freelancer units for save codes.
+- Improve Murloc tier buildings.
+- Revise creep Frost Giant.
+- Revise creep Molten Giant.
+- Improve Elemental Plane areas and Mercenary Camps.
+- Add creep Crystal Golem.
+- Add zone Shadowlands.
+- Add boss Smolderon.
+- Move Elemental Lords into Elemental Plane and make them available from start.
+- Add more ranks to profession Necrmancer.
+- Add creep Nathrezim.
+- Add creep Venthyr.
+- Replace Sunken Ruins cliff type and bridges in Outland.
+- Replace Sunken Ruins cliff type and bridges in Argus.
+- Add border around Argus.
+- Fix model of property Icecrown Citadel.
+- Add property Seat of the Primus.
+- Add Computer start location Maldraxxus.
+- Add NPC Primus.
+- Add start location Shadowlands.
+- Add more zones.
+- Add custom icon for hero Dwarf Mage.
+- Add neutral building Banner Shop.
+- Add building Banner Shop for all races.
+- Add lots of Banner items and buildings.
+- Restore old loading screen from Frozen Throne.
+- Do not show queue UI tooltip after cinematics end.
+- Add command button Rotate.
+- Improve terrain of Clan Island.
+- Add start location Dalaran.
+- Add Computer start location Dalaran.
+- Add NPC Khadgar to Dalaran.
+- Add shops to Dalaran.
+- Move portal to Dalaran to Outland.
+- Rename profession Pirate into Captain.
+- Add diplomacy UI.
+- Fix increasing maximum HP by researches for corpses.
+- Remove inventory and hero spells from NPC Malfurion.
+- Fix portal from Mount Hyjal to Underground.
+- Add higher ranks to several professions.
+- Increase maximum hero level of NPCs on Theramore.
+- Fix Resurrection Stone revival areas.
+- Register missing Dalaran units.
+- Add Resurrection Stone to Dalaran.
+- Add cheat "-loadmines".
+- Fix auto loading AI mines.
+- Fix recreating AI town halls.
+- Add missing Ingot model textures.
+- Add Banner Doodads to the map.
+- Fix chat command "-playercolor".
+- Fix chat command "-playername".
+- Add zone Ny'alotha.
+- Add creep Cultist.
+- Add creep Faceless Rider.
+- Add creep Eagle.
+- Support profession book items for save codes.
+- Fix removing killed or cancelled constructions from the queue UI.
+- Add custom icon for unit Fire Mage of race Dalaran.
+- Add custom Sorceress research to race Dalaran.
+- Add missing hotkeys for trained units to race Dalaran.
