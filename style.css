@@ -42,6 +42,11 @@ img {
     white-space: nowrap;
 }
 
+.items div:not([class])  {
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .changelog ul {
     overflow:hidden;
     overflow-y:scroll;
