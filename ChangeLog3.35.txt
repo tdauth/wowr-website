@@ -1,0 +1,33 @@
+- Add more ranks for several professions.
+- Fix enchanting for Jewelcrafter items.
+- Fix several Mercenary Camps.
+- Add Dalaran quests.
+- Add cinematic Dalaran.
+- Revise Dalaran terrain.
+- Give AI start location Dalaran a shipyard.
+- Improve race Dalaran.
+- Replace item Book of Reanimation with Scroll of Animate Dead.
+- Fix attack and defense type of unit Carrion Beetle (Level 3).
+- Fix ID of Quillboar Hunter.
+- Fix tooltip of item Purchase Doctor Glyph.
+- Fix IDs for race Old Horde.
+- Add skin Necromancer.
+- Add skin Fel Grommash Hellscream.
+- Add skin Lich King.
+- Add skin Kil'jaeden.
+- Add skin Admiral Proudmoore.
+- Fix skin Grommash Hellscream.
+- Item Arcane Scroll can be dropped by creeps now.
+- Add recipe Craft Firehand Gauntlets.
+- Add library WoWReforgedObjectMappings.
+- MaxHpResearch works with hooks now which fixes creep Evolution effects on changing your hero level.
+- Add custom icon for hero Blackhand.
+- Add learnable hero spell Fire Magic.
+- Add unit ability Meteor.
+- Add zone and start location Village.
+- Improve system PeriodicWatcher.
+- Add creep Crates.
+- Add village quest 1.
+- Add initial Housing system.
+- Add skin Wizard.
+- Add skin Peasant.
