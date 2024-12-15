@@ -1,0 +1,50 @@
+- Add learnable hero spell Holy Magic.
+- Add learnable hero spell Arcane Magic.
+- Add learnable hero spell Dark Magic.
+- Add learnable hero spell Fel Magic.
+- Add learnable hero spell Water Magic.
+- Add learnable hero spell Nature Magic.
+- Add bonus hero Aegwynn.
+- Add shipyard and water portal to Maldraxxus.
+- Disable level changers.
+- Improve player housings.
+- Fix tooltip for profession Jewelcrafter.
+- Add ranks for profession Witch Doctor.
+- Fix icon of profession Witch Doctor.
+- Add ranks for profession Lore Master.
+- Add ranks for profession Sorcerer.
+- Add village quest 2.
+- Add village quest 3.
+- Add village quest 4.
+- Add race Village.
+- Add shipyard to AI start location Village.
+- Improve website data.
+- Add account name restrictions.
+- Add zone and start location Jadefire.
+- Fix portrait model of NPC Falric.
+- Fix researches in Blacksmith for race Stormwind.
+- Fix tooltip of Lumber Mill for race Stormwind.
+- Fix tooltip of research Improved Masonry for race Stormwind.
+- Fix ability Magic Sentry for Scout Tower for race Stormwind.
+- Fix hotkeys for Mage for race Stormwind.
+- Fix hotkeys for Mage Adept Training for race Stormwind.
+- Fix research and ability Unmount for race Stormwind.
+- Register dependency equivalent for Knight and Unmounted Knight for race Stormwind.
+- Fix unit Gryphon Knight for race Stormwind.
+- Fix unit Eagle Knight for race Stormwind.
+- Change hotkey of ability Firebolt for race Stormwind.
+- Make Railway Stations a bit more transparent.
+- Fix tooltip of building Workshop for race Stormwind.
+- Add custom icon for unit Alliance Airship.
+- Add all tiny items for race Stoirmwind.
+- Reduce collision size of Banner Shop.
+- Change race of Human Housing buildings to Human.
+- Add hero Bishop for race Stormwind.
+- Add special building to race Dragonkin.
+- Add property Strahnbrad.
+- Only unpause units after cinematic which have not been paused before.
+- Restore previous camera position after cinematic.
+- Fix many building and unit portraits by specifiny the new field "upor" from Warcraft 2.0.
+- Add custom model for Orb of Light missile.
+- Fix hero spell Phoenix Fire for hero Flamebinder.
+- Add Kul Tiras quest 1.
