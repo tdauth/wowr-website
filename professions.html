@@ -61,9 +61,19 @@
     </div>
 </nav>
 
-Professions allow you to craft items.
+Professions allow your hero to craft items.
 The first profession has to be picked in the beginning of the game.
 The other two professions can be picked later with a higher hero level.
+There are the following profession ranks which simply require more mana to craft better items:
+<ul>
+    <li>Novice</li>
+    <li>Advanced</li>
+    <li>Adept</li>
+    <li>Master</li>
+    <li>Grand Master</li>
+    <li>Doctor</li>
+</ul>
+Hover the number per item or unit type to see the corresponding rank.
 
 <!-- Autogenerate from imported savecodes and generated file: -->
 <table id="professions">
@@ -612,7 +622,7 @@ alt="ReplaceableTextures/CommandButtons/BTNEnvenomedSpear.blp"
 /></a>
 Mythical Poison Blade
 <br/>
-384
+456
 <img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
 <br/>
 Magically poisonous weapon. Grants 20 damage, Poison
@@ -1044,6 +1054,10 @@ Craft items with temporary effects:
 - Scroll of Resurrection
 <br/>
 - Ankh of Reincarnation
+<br/>
+- Scroll of the Beast
+<br/>
+- Arcane Scroll
 </div>
 <button>
 <img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNScroll.blp" width="64" height="64"
@@ -1144,6 +1158,50 @@ alt="ReplaceableTextures/CommandButtons/BTNAnkh.blp"
 </button>
 </div>
 <div title="Master">(1)</div>
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="items.html#sror">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSnazzyScrollGreen.blp" width="64" height="64"
+title="Scroll of the Beast"
+alt="ReplaceableTextures/CommandButtons/BTNSnazzyScrollGreen.blp"
+/></a>
+Scroll of the Beast
+<br/>
+96
+<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
+<br/>
+Gives friendly nearby units a 25% bonus to damage for
+45 seconds.
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSnazzyScrollGreen.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNSnazzyScrollGreen.blp"
+/>
+</button>
+</div>
+<div title="Grand Master">(1)</div>
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="items.html#arsc">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBansheeAdept.blp" width="64" height="64"
+title="Arcane Scroll"
+alt="ReplaceableTextures/CommandButtons/BTNBansheeAdept.blp"
+/></a>
+Arcane Scroll
+<br/>
+240
+<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
+<br/>
+A powerful scroll that restores 150 hit points, 100
+mana, and grants 2 bonus armor to nearby friendly units.
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBansheeAdept.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNBansheeAdept.blp"
+/>
+</button>
+</div>
+<div title="Doctor">(1)</div>
 </div>
 </td>
 <td>
@@ -1189,6 +1247,10 @@ Craft wands with temporary effects and multiple charges:
 - Wand of Reanimation
 <br/>
 - Wand of Sorcerer Illusion
+<br/>
+- Wand of Shadowsight
+<br/>
+- Wand of Telekinesis
 </div>
 <button>
 <img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWandOfNeutralization.blp" width="64" height="64"
@@ -1301,6 +1363,53 @@ alt="ReplaceableTextures/CommandButtons/BTNWand.blp"
 </button>
 </div>
 <div title="Master">(4)</div>
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="items.html#wshs">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWandOfShadowSight.blp" width="64" height="64"
+title="Wand of Shadowsight"
+alt="ReplaceableTextures/CommandButtons/BTNWandOfShadowSight.blp"
+/></a>
+Wand of Shadowsight
+<br/>
+36
+<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
+<br/>
+Gives the player vision of a target unit until that
+unit is dispelled.
+<br/>
+Contains 2 charges.
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWandOfShadowSight.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNWandOfShadowSight.blp"
+/>
+</button>
+</div>
+<div title="Grand Master">(4)</div>
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="items.html#I0XW">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTeleport.blp" width="64" height="64"
+title="Wand of Telekinesis"
+alt="ReplaceableTextures/CommandButtons/BTNTeleport.blp"
+/></a>
+Wand of Telekinesis
+<br/>
+108
+<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
+<br/>
+Marks a target unit, item or destructable for moving
+it. Moves the marked target to the given location when
+cast on the ground.
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTeleport.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNTeleport.blp"
+/>
+</button>
+</div>
+<div title="Doctor">(4)</div>
 </div>
 </td>
 <td>
@@ -1736,6 +1845,10 @@ Craft items which increase your hero attributes:
 - Green Gemstone
 <br/>
 - Jewel Amulet
+<br/>
+- Bracelet
+<br/>
+- Golden Crown
 </div>
 <button>
 <img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGoldRing.blp" width="64" height="64"
@@ -2457,9 +2570,9 @@ alt="ReplaceableTextures/CommandButtons/BTNSorceressMaster.blp"
 <div class="wowr-popover-wrapper">
 <div class="wowr-popover">
 <a href="professions.html#I09J">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp" width="64" height="64"
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSentryWard.blp" width="64" height="64"
 title="Witch Doctor"
-alt="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp"
+alt="ReplaceableTextures/CommandButtons/BTNSentryWard.blp"
 /></a>
 Witch Doctor
 <br/>
@@ -2473,10 +2586,14 @@ Craft wards:
 - Mana Wards
 <br/>
 - Healing Wards
+<br/>
+- Fountain of Power Ward
+<br/>
+- Peace Wards
 </div>
 <button>
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp" width="64" height="64"
-alt="ReplaceableTextures/CommandButtons/BTNWitchDoctor.blp"
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSentryWard.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNSentryWard.blp"
 />
 </button>
 </div>
@@ -2589,6 +2706,59 @@ alt="ReplaceableTextures/CommandButtons/BTNHealingWard.blp"
 </button>
 </div>
 <div title="Master">(3)</div>
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="items.html#I0FH">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFountainOfLife.blp" width="64" height="64"
+title="Fountain of Power Ward"
+alt="ReplaceableTextures/CommandButtons/BTNFountainOfLife.blp"
+/></a>
+Fountain of Power Ward
+<br/>
+<br/>
+Summons an immovable ward that regenerates a percentage
+of a nearby friendly non-mechanical unit's life and
+mana points per second.
+<br/>
+Lasts 30 seconds.
+<br/>
+<br/>
+<div style="color: #ffcc00">Increases the percentage
+of regenerated life and mana points with every level.</div>
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFountainOfLife.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNFountainOfLife.blp"
+/>
+</button>
+</div>
+<div title="Grand Master">(3)</div>
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="items.html#I0R4">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPandaAura.blp" width="64" height="64"
+title="Peace Wards"
+alt="ReplaceableTextures/CommandButtons/BTNPandaAura.blp"
+/></a>
+Peace Wards
+<br/>
+108
+<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
+<br/>
+Summons an immovable ward that gives enemy nearby units
+the chance to miss their attacks.
+<br/>
+Contains 3 charges.
+<br/>
+Lasts 30 seconds.
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPandaAura.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNPandaAura.blp"
+/>
+</button>
+</div>
+<div title="Doctor">(3)</div>
 </div>
 </td>
 <td>
@@ -3408,24 +3578,21 @@ alt="ReplaceableTextures/CommandButtons/BTNBookOfTheDead.blp"
 <div title="Master">(4)</div>
 <div class="wowr-popover-wrapper">
 <div class="wowr-popover">
-<a href="items.html#fgsk">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBookOfTheDead.blp" width="64" height="64"
-title="Book of the Dead"
-alt="ReplaceableTextures/CommandButtons/BTNBookOfTheDead.blp"
+<a href="items.html#sand">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSnazzyScrollPurple.blp" width="64" height="64"
+title="Scroll of Animate Dead"
+alt="ReplaceableTextures/CommandButtons/BTNSnazzyScrollPurple.blp"
 /></a>
-Book of the Dead
+Scroll of Animate Dead
 <br/>
-108
+168
 <img src="images/WC3gold.webp" alt="images/WC3gold.webp" />
 <br/>
-Summons 3 Skeleton Warriors and 3 Skeleton Archers
-to fight for you.
-<br/>
-Lasts 120 seconds.
+Raises 6 nearby dead units to fight for 40 seconds.
 </div>
 <button>
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBookOfTheDead.blp" width="64" height="64"
-alt="ReplaceableTextures/CommandButtons/BTNBookOfTheDead.blp"
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSnazzyScrollPurple.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNSnazzyScrollPurple.blp"
 />
 </button>
 </div>
