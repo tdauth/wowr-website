@@ -1,0 +1,38 @@
+- Move creeps at Dalaran.
+- Move creeps at Kul Tiras.
+- Block creep sight at Jadefire.
+- Fix ping location of Kul Tiras quest 1.
+- Mention chat command "-pingkultiras".
+- Fix Satyr AI script.
+- Fix registering hero Aegwyn for AI.
+- Aegwyn registers as bonus and campaign hero now.
+- Fix registering hero Ramkahen Huntress for AI.
+- Fix Kul Tiras AI.
+- Fix number of towers in many AI scripts.
+- Improve loop actions in AI scripts: Zeppelins, expansions and ships.
+- Fix hotkeys for race Kul Tiras.
+- Add race building shipyard 2.
+- Change chat commands "-enable/disablevips" into "-vipson/off".
+- Fix crash on loading a save game due to a string literal longer than 1023 characters.
+- Fix registered special building for race Dragonkin.
+- Lower the costs of property New Stormwind.
+- Add neutral mine Animal Pen for resource Wool.
+- Add icon for hero Furion to the map.
+- Remove dependencies for Anti Ship Cannons abilities for building Proudmoore Keep.
+- Fix Fragmentation Shards ability for Kul Tiras Cannon Tower.
+- Fix memory leaks in hero repicking chat commands.
+- Handle counters supports destructables.
+- Handle counters supports lightnings.
+- Add item Scroll of Mana Regeneration.
+- Item Scroll of Regeneration can be dropped by creeps now.
+- Add skin Illidan Evil.
+- Add skin Demon Hunter Morphed.
+- Add skin Tichondrius.
+- Add skin Satyr Hellcaller.
+- Add skin Satyr Trickster.
+- Add skin Bishop.
+- Register hero spells for Druid forms.
+- Add dependency equivalents for several heroes.
+- List dependency equivalents for heroes on the website.
+- Changing camera lock works for all mounts now.
+- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
