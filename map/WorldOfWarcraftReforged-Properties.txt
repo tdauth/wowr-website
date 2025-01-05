@@ -92,12 +92,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td data-order="1" data-search="New Stormwind">" )
 	call Preload( "New Stormwind" )
 	call Preload( "</td>" )
-	call Preload( "<td data-order="10000" data-search="10000">" )
-	call Preload( "10000" )
+	call Preload( "<td data-order="7000" data-search="7000">" )
+	call Preload( "7000" )
 	call Preload( "<img src="images/WC3gold.webp" alt="images/WC3gold.webp" />" )
 	call Preload( "</td>" )
-	call Preload( "<td data-order="2000" data-search="2000">" )
-	call Preload( "2000" )
+	call Preload( "<td data-order="1200" data-search="1200">" )
+	call Preload( "1200" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "</td>" )
 	call Preload( "<td data-order="20" data-search="Stormwind">" )
@@ -2595,7 +2595,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Properties generated with chat command "-website". -->" )
-	call PreloadEnd( 3.0 )
+	call PreloadEnd( 2.7 )
 
 endfunction
 

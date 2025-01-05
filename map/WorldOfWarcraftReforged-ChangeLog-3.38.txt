@@ -1,0 +1,28 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Add item Rune of Lesser Invisibility." )
+	call Preload( "- Add item Rune of Invisibility." )
+	call Preload( "- Support save codes for Rune items." )
+	call Preload( "- Support several AI chat commands for The Burning Legion." )
+	call Preload( "- Add additional ranks to profession Golem Sculptor." )
+	call Preload( "- Show player's account name in restriction error message." )
+	call Preload( "- Fix quest update message for Village quest 3." )
+	call Preload( "- Revise map description." )
+	call Preload( "- Fix Witch Doctor Power Wards item." )
+	call Preload( "- Move NPC Admiral Proudmoore." )
+	call Preload( "- Add Kul Tiras quest 2." )
+	call Preload( "- Add Mercenary Camp to Kul Tiras." )
+	call Preload( "- Fix Troll unit abilities." )
+	call Preload( "- Register Toll Shaman Adept Training research." )
+	call Preload( "- Add info quest Support." )
+	call Preload( "- Add hero standard ability Hide in Trees." )
+	call Preload( "- Add zone and start location Winter." )
+	call Preload( "- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

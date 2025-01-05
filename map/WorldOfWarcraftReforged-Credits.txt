@@ -1708,9 +1708,15 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>8512590215848: BTNFireSpellBook</li>" )
 	call Preload( "<li>LongbowMan: Gypsy Wagon</li>" )
 	call Preload( "<li>Sunchips: House Building</li>" )
+	call Preload( "<li>Stefan.K: Magna Aegwynn</li>" )
+	call Preload( "<li>8512590215848: Book with Earth\\Nature Spells</li>" )
+	call Preload( "<li>8512590215848: Book with Water Spells</li>" )
+	call Preload( "<li>Blizzard Entertainment: BTNINV_Misc_Food_11</li>" )
+	call Preload( "<li>bakr: Wyrmrest Temple</li>" )
+	call Preload( "<li>sPy: HolyMissile</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Credits generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.0 )
 
 endfunction
 
