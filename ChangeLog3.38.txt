@@ -1,0 +1,18 @@
+- Add item Rune of Lesser Invisibility.
+- Add item Rune of Invisibility.
+- Support save codes for Rune items.
+- Support several AI chat commands for The Burning Legion.
+- Add additional ranks to profession Golem Sculptor.
+- Show player's account name in restriction error message.
+- Fix quest update message for Village quest 3.
+- Revise map description.
+- Fix Witch Doctor Power Wards item.
+- Move NPC Admiral Proudmoore.
+- Add Kul Tiras quest 2.
+- Add Mercenary Camp to Kul Tiras.
+- Fix Troll unit abilities.
+- Register Toll Shaman Adept Training research.
+- Add info quest Support.
+- Add hero standard ability Hide in Trees.
+- Add zone and start location Winter.
+- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.

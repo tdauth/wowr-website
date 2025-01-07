@@ -21,7 +21,6 @@
 - Improve website data.
 - Add account name restrictions.
 - Add zone and start location Jadefire.
-- Fix portrait model of NPC Falric.
 - Fix researches in Blacksmith for race Stormwind.
 - Fix tooltip of Lumber Mill for race Stormwind.
 - Fix tooltip of research Improved Masonry for race Stormwind.
@@ -44,7 +43,7 @@
 - Add property Strahnbrad.
 - Only unpause units after cinematic which have not been paused before.
 - Restore previous camera position after cinematic.
-- Fix many building and unit portraits by specifiny the new field "upor" from Warcraft 2.0.
+- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
 - Add custom model for Orb of Light missile.
 - Fix hero spell Phoenix Fire for hero Flamebinder.
 - Add Kul Tiras quest 1.
