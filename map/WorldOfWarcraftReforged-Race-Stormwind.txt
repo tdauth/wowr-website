@@ -205,8 +205,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "Serves as a drop-off point for harvested lumber. " )
 	call Preload( "<br/>" )
-	call Preload( "Also contains the upgrades for Lumber Harvesting and " )
-	call Preload( "Masonry." )
+	call Preload( "Also contains the upgrades for Lumber Harvesting, Masonry " )
+	call Preload( "and Reinforced Defenses." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStormwindLumberMill.blp" width="64" height="64"" )
@@ -609,11 +609,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "140" )
 	call Preload( "<img src="images/WC3lumber.webp" alt="images/WC3lumber.webp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Produces Siege Engines, Flying Machines, and Mortar " )
-	call Preload( "Teams. " )
-	call Preload( "<br/>" )
-	call Preload( "Also contains the Flare, Fragmentation Shards, Barrage, " )
-	call Preload( "Flying Machine Bombs, and Flak Cannons upgrades." )
+	call Preload( "Produces Banner Carriers, Cannons, Alliance Siege Towers, " )
+	call Preload( "and Stormwind Airships." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStormwindWorkshop.blp" width="64" height="64"" )
@@ -1353,7 +1350,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 5.3 )
+	call PreloadEnd( 4.7 )
 
 endfunction
 
