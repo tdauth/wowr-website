@@ -26,6 +26,7 @@ copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforg
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Attributes.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Properties.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-CalendarEvents.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
+copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-StartLocations.txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-Race-"*".txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 copy "C:\Users\Tamino\Documents\Warcraft III\CustomMapData\WorldOfWarcraftReforged-ChangeLog-"*".txt" "C:\Users\Tamino\Documents\Projekte\wowr-website\map"
 pause

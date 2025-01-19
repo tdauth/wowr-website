@@ -41,6 +41,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Move portal to Dalaran to Outland." )
 	call Preload( "- Rename profession Pirate into Captain." )
 	call Preload( "- Add diplomacy UI." )
+	call Preload( "- Add news UI." )
 	call Preload( "- Fix increasing maximum HP by researches for corpses." )
 	call Preload( "- Remove inventory and hero spells from NPC Malfurion." )
 	call Preload( "- Fix portal from Mount Hyjal to Underground." )

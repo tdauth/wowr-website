@@ -1150,8 +1150,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Contains 3 charges." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "<div style="color: #ffcc00">Requires 3 Black Powders " )
-	call Preload( "per Goblin Land Mines.</div>" )
+	call Preload( "<div style="color: #ffcc00">Requirements:" )
+	call Preload( "<br/>" )
+	call Preload( "- 3 Black Powders" )
+	call Preload( "<br/>" )
+	call Preload( "- Profession Demolition Expert.</div>" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #808080">Drop the required items " )
@@ -2769,7 +2772,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.5 )
+	call PreloadEnd( 1.7 )
 
 endfunction
 
