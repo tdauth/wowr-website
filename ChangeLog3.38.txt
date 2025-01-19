@@ -3,16 +3,55 @@
 - Support save codes for Rune items.
 - Support several AI chat commands for The Burning Legion.
 - Add additional ranks to profession Golem Sculptor.
+- Add additional ranks to profession Merchant.
+- Add additional ranks to profession Engineer.
+- Replace item Tiny Herb Garden with Tiny Fountain of Health.
+- Replace item Tiny Cauldron with Tiny Fountain of Mana.
+- Add custom icon for building Fountain of Mana.
 - Show player's account name in restriction error message.
 - Fix quest update message for Village quest 3.
 - Revise map description.
 - Fix Witch Doctor Power Wards item.
 - Move NPC Admiral Proudmoore.
 - Add Kul Tiras quest 2.
+- Add Kul Tiras quest 3.
+- Add Kul Tiras quest 4.
 - Add Mercenary Camp to Kul Tiras.
 - Fix Troll unit abilities.
 - Register Toll Shaman Adept Training research.
 - Add info quest Support.
 - Add hero standard ability Hide in Trees.
 - Add zone and start location Winter.
+- Add zone and start location Fall.
+- Backpack UI uses a scrollable text area for tooltips now.
+- Improve profession Farmer.
+- Add item Magical Filler.
+- Add missing dependency equivalents.
+- Add property Wyrmrest Temple.
+- Add skin Sea Giant.
+- Add skin Berserk Wildkin.
+- Add skin Siege Golem.
+- Add skin Revenant.
+- Add skin Blackhand.
+- Add skin Ner'Zhul.
+- Add skin Gul'dan.
+- Add skin Durotan.
+- Add skin Garona.
+- Add skin Orgrim Doomhammer.
+- Add skin Khadgar.
+- Add skin Mortar Team.
+- Add skin Siege Engine.
+- Add skin Dwarf Mage.
+- Add skin Elite Rifleman.
+- Item Goblin Tool Box allows examining units and items now.
+- Add cheat "-tool".
+- Add Child unit to race Worgen.
+- Add Child unit to AI for race Worgen.
+- Add Pet unit to AI for race Worgen.
+- Add Child unit to race Vrykul.
+- Add Child unit to AI for race Vrykul.
+- Add Pet unit to AI for race Vrykul.
+- Improve player housings.
+- Replace unit Tauren Catapult with Log Launcher.
+- Add many missing mappings for building items.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
