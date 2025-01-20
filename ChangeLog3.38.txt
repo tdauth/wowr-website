@@ -5,6 +5,10 @@
 - Add additional ranks to profession Golem Sculptor.
 - Add additional ranks to profession Merchant.
 - Add additional ranks to profession Engineer.
+- Add additional ranks to profession Hunter.
+- Add additional ranks to profession Farmer.
+- Add additional ranks to profession Captain.
+- Add additional ranks to profession Astromancer.
 - Replace item Tiny Herb Garden with Tiny Fountain of Health.
 - Replace item Tiny Cauldron with Tiny Fountain of Mana.
 - Add custom icon for building Fountain of Mana.
@@ -23,26 +27,13 @@
 - Add hero standard ability Hide in Trees.
 - Add zone and start location Winter.
 - Add zone and start location Fall.
+- Add zone and start location Desert.
 - Backpack UI uses a scrollable text area for tooltips now.
 - Improve profession Farmer.
 - Add item Magical Filler.
 - Add missing dependency equivalents.
 - Add property Wyrmrest Temple.
-- Add skin Sea Giant.
-- Add skin Berserk Wildkin.
-- Add skin Siege Golem.
-- Add skin Revenant.
-- Add skin Blackhand.
-- Add skin Ner'Zhul.
-- Add skin Gul'dan.
-- Add skin Durotan.
-- Add skin Garona.
-- Add skin Orgrim Doomhammer.
-- Add skin Khadgar.
-- Add skin Mortar Team.
-- Add skin Siege Engine.
-- Add skin Dwarf Mage.
-- Add skin Elite Rifleman.
+- Add skins.
 - Item Goblin Tool Box allows examining units and items now.
 - Add cheat "-tool".
 - Add Child unit to race Worgen.
@@ -54,4 +45,15 @@
 - Improve player housings.
 - Replace unit Tauren Catapult with Log Launcher.
 - Add many missing mappings for building items.
+- Add profession Demolition Expert.
+- Profession Engineer can craft Tiny Boulder Tower now.
+- Remove food costs from hero forms.
+- Register hero spells for hero dependency equivalents.
+- Add hero Troll Warlord.
+- Add hero Enraged Jungle Stalker.
+- Add learnable hero spell Battle Roar for slot 2.
+- Add more account name restrictions.
+- Add neutral building Mercenary Camp Desert.
+- Fix several ulti hero spells require hero level 4 now.
+- Improve news UI.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.

@@ -37,6 +37,7 @@
 - Move portal to Dalaran to Outland.
 - Rename profession Pirate into Captain.
 - Add diplomacy UI.
+- Add news UI.
 - Fix increasing maximum HP by researches for corpses.
 - Remove inventory and hero spells from NPC Malfurion.
 - Fix portal from Mount Hyjal to Underground.

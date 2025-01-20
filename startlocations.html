@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>World of Warcraft Reforged - Start Locations</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="description" content="World of Warcraft Reforged official website.">
+    <meta name="keywords" content="warcraft3 RPG Reforged custommap">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+    <style>
+        td {
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body class="p-3 mb-2 bg-dark text-white">
+
+<h1>World of Warcraft Reforged - Start Locations</h1>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark border">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto flex-wrap">
+            <li class="nav-item"><a class="nav-link" href="index.html">News</a></li>
+            <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="herojourney.html">Hero Journey</a></li>
+            <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="gamemodes.html">Game Modes</a></li>
+            <li class="nav-item"><a class="nav-link" href="heroes.html">Heroes</a></li>
+            <li class="nav-item"><a class="nav-link" href="spells.html">Spells</a></li>
+            <li class="nav-item"><a class="nav-link" href="herostandardabilities.html">Hero Standard Abilities</a></li>
+            <li class="nav-item"><a class="nav-link" href="professions.html">Professions</a></li>
+            <li class="nav-item"><a class="nav-link" href="races.html">Races</a></li>
+            <li class="nav-item"><a class="nav-link" href="researches.html">Researches</a></li>
+            <li class="nav-item"><a class="nav-link" href="items.html">Items</a></li>
+            <li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="bosses.html">Bosses</a></li>
+            <li class="nav-item"><a class="nav-link" href="units.html">Units</a></li>
+            <li class="nav-item"><a class="nav-link" href="buildings.html">Buildings</a></li>
+            <li class="nav-item"><a class="nav-link" href="mounts.html">Mounts</a></li>
+            <li class="nav-item"><a class="nav-link" href="properties.html">Properties</a></li>
+            <li class="nav-item"><a class="nav-link" href="npcs.html">NPCs</a></li>
+            <li class="nav-item"><a class="nav-link" href="quests.html">Quests</a></li>
+            <li class="nav-item"><a class="nav-link" href="chatcommands.html">Chat Commands</a></li>
+            <li class="nav-item"><a class="nav-link" href="zones.html">Zones</a></li>
+            <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
+            <li class="nav-item"><a class="nav-link" href="clans.html">Clans</a></li>
+            <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://discord.gg/eM34z36">Discord</a></li>
+
+            <li class="nav-item"><a class="nav-link" href="https://www.youtube.com/channel/UCzGcsuPfRVqdaE87JYCK5zw">YouTube</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/tdauth/wowr">Development</a></li>
+            <li class="nav-item"><form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="hosted_button_id" value="ZAAKMQLSNGDK8" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
+        </form></li>
+        </ul>
+    </div>
+</nav>
+
+Every hero can have one single standard ability from start which might have only one level or will be skilled automatically without spending any skill points:
+
+<table id="herostandardabilities">
+    <thead>
+        <tr>
+            <th>Icon</th>
+            <th>Name</th>
+            <th>Levels</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+<!-- Hero standard abilities generated with chat command "-website". -->
+<tr id="A1IY">
+<td data-order="0">
+<a href="#A1IY">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStatUp.blp" width="64" height="64"
+title="Skill"
+alt="ReplaceableTextures/CommandButtons/BTNStatUp.blp"
+/></a>
+</td>
+<td>
+Skill
+</td>
+<td>
+1
+</td>
+<td>
+Allows skilling hero attributes and randomizing hero
+spells.
+</td>
+</tr>
+<tr id="A0OY">
+<td data-order="1">
+<a href="#A0OY">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpellBookBLS.blp" width="64" height="64"
+title="VIP Spell Book"
+alt="ReplaceableTextures/CommandButtons/BTNSpellBookBLS.blp"
+/></a>
+</td>
+<td>
+VIP Spell Book
+</td>
+<td>
+1
+</td>
+<td>
+Contains the spells Blink, Repair, Dark Summoning,
+Ensnare, Bloodlust, Bash, Berserk, Invisibility, and
+True Sight.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for VIPs.</div>
+</td>
+</tr>
+<tr id="Absk">
+<td data-order="2">
+<a href="#Absk">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAdvancedUnholyStrength.blp" width="64" height="64"
+title="Berserk"
+alt="ReplaceableTextures/CommandButtons/BTNAdvancedUnholyStrength.blp"
+/></a>
+</td>
+<td>
+Berserk
+</td>
+<td>
+15
+</td>
+<td>
+Causes the hero to attack faster, but take more damage.
+</td>
+</tr>
+<tr id="Aivs">
+<td data-order="3">
+<a href="#Aivs">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNInvisibility.blp" width="64" height="64"
+title="Invisibility"
+alt="ReplaceableTextures/CommandButtons/BTNInvisibility.blp"
+/></a>
+</td>
+<td>
+Invisibility
+</td>
+<td>
+15
+</td>
+<td>
+Makes a unit invisible. If the unit attacks, uses an
+ability or casts a spell, it will become visible.
+</td>
+</tr>
+<tr id="A0HN">
+<td data-order="4">
+<a href="#A0HN">
+<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNMagicalSentry.blp" width="64" height="64"
+title="Magic Sentry"
+alt="ReplaceableTextures/PassiveButtons/PASBTNMagicalSentry.blp"
+/></a>
+</td>
+<td>
+Magic Sentry
+</td>
+<td>
+1
+</td>
+<td>
+Reveals nearby invisible units.
+</td>
+</tr>
+<tr id="A0HO">
+<td data-order="5">
+<a href="#A0HO">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBloodLustOn.blp" width="64" height="64"
+title="Bloodlust"
+alt="ReplaceableTextures/CommandButtons/BTNBloodLustOn.blp"
+/></a>
+</td>
+<td>
+Bloodlust
+</td>
+<td>
+15
+</td>
+<td>
+Increases a friendly unit's attack rate and movement
+speed.
+</td>
+</tr>
+<tr id="A0JU">
+<td data-order="6">
+<a href="#A0JU">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" width="64" height="64"
+title="Ensnare"
+alt="ReplaceableTextures/CommandButtons/BTNEnsnare.blp"
+/></a>
+</td>
+<td>
+Ensnare
+</td>
+<td>
+1
+</td>
+<td>
+Causes a target enemy unit to be bound to the ground
+so that it cannot move for some time. Air units that
+are ensnared can be attacked as though they were land
+units.
+</td>
+</tr>
+<tr id="Adtg">
+<td data-order="7">
+<a href="#Adtg">
+<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNScout.blp" width="64" height="64"
+title="True Sight"
+alt="ReplaceableTextures/PassiveButtons/PASBTNScout.blp"
+/></a>
+</td>
+<td>
+True Sight
+</td>
+<td>
+1
+</td>
+<td>
+Changes the ability to True Sight.
+</td>
+</tr>
+<tr id="A0OZ">
+<td data-order="8">
+<a href="#A0OZ">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBearBlink.blp" width="64" height="64"
+title="Blink"
+alt="ReplaceableTextures/CommandButtons/BTNBearBlink.blp"
+/></a>
+</td>
+<td>
+Blink
+</td>
+<td>
+1
+</td>
+<td>
+Changes the ability to Blink.
+</td>
+</tr>
+<tr id="A0PP">
+<td data-order="9">
+<a href="#A0PP">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRepairOn.blp" width="64" height="64"
+title="Repair"
+alt="ReplaceableTextures/CommandButtons/BTNRepairOn.blp"
+/></a>
+</td>
+<td>
+Repair
+</td>
+<td>
+1
+</td>
+<td>
+Repairs mechanical units and structures at the cost
+of resources.
+<br/>
+<br/>
+<div style="color: #ffcc00">Increases the ratio of
+repaired hit points with every level.</div>
+</td>
+</tr>
+<tr id="A0PQ">
+<td data-order="10">
+<a href="#A0PQ">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDarkSummoning.blp" width="64" height="64"
+title="Dark Summoning"
+alt="ReplaceableTextures/CommandButtons/BTNDarkSummoning.blp"
+/></a>
+</td>
+<td>
+Dark Summoning
+</td>
+<td>
+1
+</td>
+<td>
+Summons 12 friendly units from a target area to the
+caster.
+</td>
+</tr>
+<tr id="A1PZ">
+<td data-order="11">
+<a href="#A1PZ">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCyclone.blp" width="64" height="64"
+title="Cyclone"
+alt="ReplaceableTextures/CommandButtons/BTNCyclone.blp"
+/></a>
+</td>
+<td>
+Cyclone
+</td>
+<td>
+1
+</td>
+<td>
+Tosses a target non-mechanical enemy unit into the
+air, rendering it unable to move, attack or cast spells,
+and stopping others from attacking or casting on it.
+<br/>
+Lasts 20 seconds.
+</td>
+</tr>
+<tr id="A1TD">
+<td data-order="12">
+<a href="#A1TD">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRejuvenation.blp" width="64" height="64"
+title="Rejuvenation"
+alt="ReplaceableTextures/CommandButtons/BTNRejuvenation.blp"
+/></a>
+</td>
+<td>
+Rejuvenation
+</td>
+<td>
+15
+</td>
+<td>
+Heals a target friendly unit for  hit points over some
+time.
+</td>
+</tr>
+<tr id="A098">
+<td data-order="13">
+<a href="#A098">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNUltravision.blp" width="64" height="64"
+title="Ultravision"
+alt="ReplaceableTextures/CommandButtons/BTNUltravision.blp"
+/></a>
+</td>
+<td>
+Ultravision
+</td>
+<td>
+1
+</td>
+<td>
+The ability to see as far at night as they do during
+the day.
+</td>
+</tr>
+<tr id="A120">
+<td data-order="14">
+<a href="#A120">
+<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASSavannahNight.blp" width="64" height="64"
+title="Nocturnal"
+alt="ReplaceableTextures/PassiveButtons/PASSavannahNight.blp"
+/></a>
+</td>
+<td>
+Nocturnal
+</td>
+<td>
+1
+</td>
+<td>
+Increases stats during the night.
+</td>
+</tr>
+<tr id="A1IP">
+<td data-order="15">
+<a href="#A1IP">
+<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASOrbOfTheSun.blp" width="64" height="64"
+title="Diurnal"
+alt="ReplaceableTextures/PassiveButtons/PASOrbOfTheSun.blp"
+/></a>
+</td>
+<td>
+Diurnal
+</td>
+<td>
+1
+</td>
+<td>
+Increases stats during the day.
+</td>
+</tr>
+<tr id="A1ZX">
+<td data-order="16">
+<a href="#A1ZX">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPotionRed.blp" width="64" height="64"
+title="Speed Boost"
+alt="ReplaceableTextures/CommandButtons/BTNPotionRed.blp"
+/></a>
+</td>
+<td>
+Speed Boost
+</td>
+<td>
+15
+</td>
+<td>
+Increases the movement speed for some time.
+</td>
+</tr>
+<tr id="A219">
+<td data-order="17">
+<a href="#A219">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNShip.blp" width="64" height="64"
+title="Summon Ship"
+alt="ReplaceableTextures/CommandButtons/BTNShip.blp"
+/></a>
+</td>
+<td>
+Summon Ship
+</td>
+<td>
+1
+</td>
+<td>
+Summons a ship.
+</td>
+</tr>
+<tr id="A21C">
+<td data-order="18">
+<a href="#A21C">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGnomeEngineer.blp" width="64" height="64"
+title="Summon Submarine"
+alt="ReplaceableTextures/CommandButtons/BTNGnomeEngineer.blp"
+/></a>
+</td>
+<td>
+Summon Submarine
+</td>
+<td>
+1
+</td>
+<td>
+Summons a submarine.
+</td>
+</tr>
+<tr id="A0KD">
+<td data-order="19">
+<a href="#A0KD">
+<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASCage2.blp" width="64" height="64"
+title="Enslavement"
+alt="ReplaceableTextures/PassiveButtons/PASCage2.blp"
+/></a>
+</td>
+<td>
+Enslavement
+</td>
+<td>
+1
+</td>
+<td>
+Converts a killed enemy into a Slave at your nearest
+town hall.
+</td>
+</tr>
+<tr id="A1Y0">
+<td data-order="20">
+<a href="#A1Y0">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPickUpItem.blp" width="64" height="64"
+title="Loot Ray"
+alt="ReplaceableTextures/CommandButtons/BTNPickUpItem.blp"
+/></a>
+</td>
+<td>
+Loot Ray
+</td>
+<td>
+1
+</td>
+<td>
+Casts a ray which pulls target items to the hero.
+</td>
+</tr>
+<tr id="A1QE">
+<td data-order="21">
+<a href="#A1QE">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEatTree.blp" width="64" height="64"
+title="Hide in Trees"
+alt="ReplaceableTextures/CommandButtons/BTNEatTree.blp"
+/></a>
+</td>
+<td>
+Hide in Trees
+</td>
+<td>
+1
+</td>
+<td>
+Hides the unit in the targeted tree which makes it
+invisible and unmovable and increases the life and
+mana regeneration until leaving the trees or the tree
+is cut down.
+</td>
+</tr>
+<tr id="A1MA">
+<td data-order="22">
+<a href="#A1MA">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRoot.blp" width="64" height="64"
+title="Root"
+alt="ReplaceableTextures/CommandButtons/BTNRoot.blp"
+/></a>
+</td>
+<td>
+Root
+</td>
+<td>
+1
+</td>
+<td>
+Burrows the Ancient's roots into the ground, rendering
+it immobile, but allowing it to build units. For the
+Ancient Protector, this allows it to hurl enormous
+rocks through the air to damage enemy units. Also gives
+the Ancient Fortified armor.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Ancient
+structure heroes.</div>
+</td>
+</tr>
+<tr id="A247">
+<td data-order="23">
+<a href="#A247">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp" width="64" height="64"
+title="Burrow"
+alt="ReplaceableTextures/CommandButtons/BTNCryptFiendBurrow.blp"
+/></a>
+</td>
+<td>
+Burrow
+</td>
+<td>
+1
+</td>
+<td>
+Digs into the ground, becomes invisible, and gains
+an increased regeneration rate.
+<br/>
+The hero cannot attack while burrowed.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Nerubian
+and Kobold heroes.</div>
+</td>
+</tr>
+<tr id="A238">
+<td data-order="24">
+<a href="#A238">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNagaBurrow.blp" width="64" height="64"
+title="Submerge"
+alt="ReplaceableTextures/CommandButtons/BTNNagaBurrow.blp"
+/></a>
+</td>
+<td>
+Submerge
+</td>
+<td>
+1
+</td>
+<td>
+Allows to dive beneath water, hiding it from view.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Submarine
+and Naga heroes. It is added automatically when the
+hero is on water.</div>
+</td>
+</tr>
+<tr id="A14U">
+<td data-order="25">
+<a href="#A14U">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRandomBasicIcon.blp" width="64" height="64"
+title="Randomize Spells"
+alt="ReplaceableTextures/CommandButtons/BTNRandomBasicIcon.blp"
+/></a>
+</td>
+<td>
+Randomize Spells
+</td>
+<td>
+1
+</td>
+<td>
+Randomizes the learned spells of your hero.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for heroes
+who can change their spells. Requires all hero spells
+to have no cooldown.</div>
+</td>
+</tr>
+<tr id="A1XO">
+<td data-order="26">
+<a href="#A1XO">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRandomBasicIcon.blp" width="64" height="64"
+title="Randomize Skin"
+alt="ReplaceableTextures/CommandButtons/BTNRandomBasicIcon.blp"
+/></a>
+</td>
+<td>
+Randomize Skin
+</td>
+<td>
+1
+</td>
+<td>
+Randomizes the skin of your hero.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for heroes
+who can change their skin.</div>
+</td>
+</tr>
+<tr id="A0FA">
+<td data-order="27">
+<a href="#A0FA">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMedivh.blp" width="64" height="64"
+title="Master and Student"
+alt="ReplaceableTextures/CommandButtons/BTNMedivh.blp"
+/></a>
+</td>
+<td>
+Master and Student
+</td>
+<td>
+15
+</td>
+<td>
+Changes the ability to Master and Student.
+</td>
+</tr>
+<tr id="A0J1">
+<td data-order="28">
+<a href="#A0J1">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFlakCannons.blp" width="64" height="64"
+title="Select Turrets"
+alt="ReplaceableTextures/CommandButtons/BTNFlakCannons.blp"
+/></a>
+</td>
+<td>
+Select Turrets
+</td>
+<td>
+1
+</td>
+<td>
+Changes the ability to Select Turrets.
+</td>
+</tr>
+<tr id="A0J2">
+<td data-order="29">
+<a href="#A0J2">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpellBookBLS.blp" width="64" height="64"
+title="Spell Book of the Old Gods"
+alt="ReplaceableTextures/CommandButtons/BTNSpellBookBLS.blp"
+/></a>
+</td>
+<td>
+Spell Book of the Old Gods
+</td>
+<td>
+1
+</td>
+<td>
+Contains different spells.
+<br/>
+<br/>
+<div style="color: #ffcc00">Only allowed for Old God
+bosses.</div>
+</td>
+</tr>
+<!-- Hero standard abilities generated with chat command "-website". -->
+    </tbody>
+</table>
+
+<script>
+    $('#herostandardabilities').dataTable({
+        "paging": false,//Dont want paging
+    });
+</script>
+
+</body>
+</html>

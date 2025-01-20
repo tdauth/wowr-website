@@ -29,6 +29,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Properties.txt ./properties.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-InfoQuests.txt ./infoquests.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-CalendarEvents.txt ./calendarevents.html &
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-StartLocations.txt ./startlocations.html &
 
 for f in ./map/WorldOfWarcraftReforged-Race-*
 do
