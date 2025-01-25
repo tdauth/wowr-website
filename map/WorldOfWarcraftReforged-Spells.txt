@@ -2388,9 +2388,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="spells.html#A10S">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStickGrenade.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGrenadeF1.blp" width="64" height="64"" )
 	call Preload( "title="Goblin Grenade"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNStickGrenade.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGrenadeF1.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Goblin Grenade" )
 	call Preload( "<br/>" )
@@ -2403,8 +2403,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "with every level.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStickGrenade.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNStickGrenade.blp"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGrenadeF1.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGrenadeF1.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -18628,7 +18628,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Spells generated with chat command "-website". -->" )
-	call PreloadEnd( 4.5 )
+	call PreloadEnd( 4.8 )
 
 endfunction
 

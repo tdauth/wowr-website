@@ -43331,7 +43331,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</div>" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
-	call Preload( "<a href="heroes.html#O02U">" )
+	call Preload( "<a href="heroes.html#O0BX">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNChaosGrom.blp" width="64" height="64"" )
 	call Preload( "title="Blademaster"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNChaosGrom.blp"" )
@@ -54367,7 +54367,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 43.8 )
+	call PreloadEnd( 48.0 )
 
 endfunction
 
