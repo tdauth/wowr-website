@@ -2,15 +2,10 @@
 - Add item Rune of Invisibility.
 - Support save codes for Rune items.
 - Support several AI chat commands for The Burning Legion.
-- Add additional ranks to profession Golem Sculptor.
-- Add additional ranks to profession Merchant.
-- Add additional ranks to profession Engineer.
-- Add additional ranks to profession Hunter.
-- Add additional ranks to profession Farmer.
-- Add additional ranks to profession Captain.
-- Add additional ranks to profession Astromancer.
+- Add additional ranks to several professions.
 - Replace item Tiny Herb Garden with Tiny Fountain of Health.
 - Replace item Tiny Cauldron with Tiny Fountain of Mana.
+- Fix rank Master for profession Tamer.
 - Add custom icon for building Fountain of Mana.
 - Show player's account name in restriction error message.
 - Fix quest update message for Village quest 3.
@@ -25,6 +20,9 @@
 - Register Toll Shaman Adept Training research.
 - Add info quest Support.
 - Add hero standard ability Hide in Trees.
+- Add hero standard ability Next Skin.
+- Add Next Skin to building skin shops.
+- Add info quest Skins.
 - Add zone and start location Winter.
 - Add zone and start location Fall.
 - Add zone and start location Desert.
@@ -42,6 +40,8 @@
 - Add Child unit to race Vrykul.
 - Add Child unit to AI for race Vrykul.
 - Add Pet unit to AI for race Vrykul.
+- Improve race Village.
+- Add AI support for race Village.
 - Improve player housings.
 - Replace unit Tauren Catapult with Log Launcher.
 - Add many missing mappings for building items.
@@ -56,4 +56,18 @@
 - Add neutral building Mercenary Camp Desert.
 - Fix several ulti hero spells require hero level 4 now.
 - Improve news UI.
+- Add news UI button to actions bar.
+- Add Random Game Mode to player selection game modes tavern.
+- Revise Computer AI hero revival.
+- Increase Computer AI hero revival interval.
+- Add chat command "-airevive".
+- Try fixing to remove Reincarnation for Bayonet Charge.
+- Automatically skill unit abilities from hero spell Fire Magic.
+- Crates and Cages are not affected by Evolution anymore.
+- Add creep Barrel.
+- Remove mana costs from Randomize Skin.
+- Add system UnitCost.
+- Fix ability Mass Charm working on vulnerable units.
+- Fix Monster Lure Charm effect.
+- Improve terrain.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
