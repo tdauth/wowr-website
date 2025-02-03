@@ -523,6 +523,7 @@ player who writes the chat message.
 <li>"-aishredders X Y": Sets Y shredders for player X.</li>
 <li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
 <li>"-ailoadmines X": Loads mines for player X.</li>
+<li>"-airevive X": Revives heroes for player X.</li>
 <li>"-aiinfo X": Shows information about player X.</li>
 <li>"-aitargeton/off X": Enables/disables AI attacking target for player X.</li>
 <li>"-aitarget X": Sets the AI target for player X to your hero 1 location.</li>
@@ -647,7 +648,7 @@ player who writes the chat message.
 <li>"-limits": Enables housing and tower limits.</li>
 <li>"-nolimits": Disables housing and tower limits.</li>
 <li>"-seasons": Enables seasons.</li>
-<li>"-noseasons": Enables seasons.</li>
+<li>"-noseasons": Disables seasons.</li>
 <li>"-winter": Changes season to winter.</li>
 <li>"-spring": Changes season to spring.</li>
 <li>"-summer": Changes season to summer.</li>
@@ -1042,6 +1043,7 @@ the beginning by the host player.
 <li>"-aishredders X Y": Sets Y shredders for player X.</li>
 <li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
 <li>"-ailoadmines X": Loads mines for player X.</li>
+<li>"-airevive X": Revives heroes for player X.</li>
 <li>"-aiinfo X": Shows information about player X.</li>
 <li>"-aitargeton/off X": Enables/disables AI attacking target for player X.</li>
 <li>"-aitarget X": Sets the AI target for player X to your hero 1 location.</li>
@@ -2324,8 +2326,36 @@ to other players.
 </ul>
 </td>
 </tr>
-<tr id="Credits">
+<tr id="Skins">
 <td data-order="75">
+<a href="#Skins">
+<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNGlyph.blp" title="ReplaceableTextures\\CommandButtons\\BTNGlyph.blp" />
+</a>
+</td>
+<td>
+Skins
+</td>
+<td>
+Skins determine the visuals and sounds of units and 
+buildings. They can be customized for certain units 
+and buildings. The unit or building still is the same 
+after changing its skin. Skins can be restricted to 
+certain accounts or VIPs. Skin buildings allow changing 
+skins.
+</td>
+<td>
+<ul class="questitems">
+<li>Change visuals and sounds.</li>
+<li>Works only for certain units and buildings.</li>
+<li>Certain skins are restricted to account names.</li>
+<li>Hero standard abilities allow changing skins.</li>
+<li>Skin buildings allow changing skins.</li>
+<li>Skin buildings can be constructed by citizens.</li>
+</ul>
+</td>
+</tr>
+<tr id="Credits">
+<td data-order="76">
 <a href="#Credits">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" title="ReplaceableTextures\\CommandButtons\\BTNPeasant.blp" />
 </a>
@@ -4049,11 +4079,27 @@ All the people who contributed to this map.
 <li>Blizzard Entertainment: BTNINV_Misc_Food_11</li>
 <li>bakr: Wyrmrest Temple</li>
 <li>sPy: HolyMissile</li>
+<li>8512590215848: BTNTreasureChest</li>
+<li>PrinceYaser: BTNTentacles</li>
+<li>bakr, Wargeras (Sponsor): Tauren Log Launcher</li>
+<li>Ceterai: BTNFountainOfMagic</li>
+<li>Mechanical Man: CannonNaval</li>
+<li>bakr: TNT Catapult</li>
+<li>bisnar13: Bed</li>
+<li>Blood Raven: Fireplace</li>
+<li>Blood Raven: Pendulum Clock</li>
+<li>Blood Raven: Ink Bottle</li>
+<li>Blood Raven: Basket of Potatoes</li>
+<li>Blood Raven: Wooden Bucket</li>
+<li>Blood Raven: Wine Bottle</li>
+<li>bisnar13: Candle</li>
+<li>Mike: WallTorch</li>
+<li>RodOfNOD: PapilioBlue</li>
 </ul>
 </td>
 </tr>
 <tr id="3.38">
-<td data-order="76">
+<td data-order="77">
 <a href="#3.38">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4070,15 +4116,10 @@ All changes of 3.38.
 <li>Add item Rune of Invisibility.</li>
 <li>Support save codes for Rune items.</li>
 <li>Support several AI chat commands for The Burning Legion.</li>
-<li>Add additional ranks to profession Golem Sculptor.</li>
-<li>Add additional ranks to profession Merchant.</li>
-<li>Add additional ranks to profession Engineer.</li>
-<li>Add additional ranks to profession Hunter.</li>
-<li>Add additional ranks to profession Farmer.</li>
-<li>Add additional ranks to profession Captain.</li>
-<li>Add additional ranks to profession Astromancer.</li>
+<li>Add additional ranks to several professions.</li>
 <li>Replace item Tiny Herb Garden with Tiny Fountain of Health.</li>
 <li>Replace item Tiny Cauldron with Tiny Fountain of Mana.</li>
+<li>Fix rank Master for profession Tamer.</li>
 <li>Add custom icon for building Fountain of Mana.</li>
 <li>Show player's account name in restriction error message.</li>
 <li>Fix quest update message for Village quest 3.</li>
@@ -4093,6 +4134,9 @@ All changes of 3.38.
 <li>Register Toll Shaman Adept Training research.</li>
 <li>Add info quest Support.</li>
 <li>Add hero standard ability Hide in Trees.</li>
+<li>Add hero standard ability Next Skin.</li>
+<li>Add Next Skin to building skin shops.</li>
+<li>Add info quest Skins.</li>
 <li>Add zone and start location Winter.</li>
 <li>Add zone and start location Fall.</li>
 <li>Add zone and start location Desert.</li>
@@ -4110,6 +4154,8 @@ All changes of 3.38.
 <li>Add Child unit to race Vrykul.</li>
 <li>Add Child unit to AI for race Vrykul.</li>
 <li>Add Pet unit to AI for race Vrykul.</li>
+<li>Improve race Village.</li>
+<li>Add AI support for race Village.</li>
 <li>Improve player housings.</li>
 <li>Replace unit Tauren Catapult with Log Launcher.</li>
 <li>Add many missing mappings for building items.</li>
@@ -4124,12 +4170,26 @@ All changes of 3.38.
 <li>Add neutral building Mercenary Camp Desert.</li>
 <li>Fix several ulti hero spells require hero level 4 now.</li>
 <li>Improve news UI.</li>
+<li>Add news UI button to actions bar.</li>
+<li>Add Random Game Mode to player selection game modes tavern.</li>
+<li>Revise Computer AI hero revival.</li>
+<li>Increase Computer AI hero revival interval.</li>
+<li>Add chat command "-airevive".</li>
+<li>Try fixing to remove Reincarnation for Bayonet Charge.</li>
+<li>Automatically skill unit abilities from hero spell Fire Magic.</li>
+<li>Crates and Cages are not affected by Evolution anymore.</li>
+<li>Add creep Barrel.</li>
+<li>Remove mana costs from Randomize Skin.</li>
+<li>Add system UnitCost.</li>
+<li>Fix ability Mass Charm working on vulnerable units.</li>
+<li>Fix Monster Lure Charm effect.</li>
+<li>Improve terrain.</li>
 <li>Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.</li>
 </ul>
 </td>
 </tr>
 <tr id="3.37">
-<td data-order="77">
+<td data-order="78">
 <a href="#3.37">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4184,7 +4244,7 @@ All changes of 3.37.
 </td>
 </tr>
 <tr id="3.36">
-<td data-order="78">
+<td data-order="79">
 <a href="#3.36">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4250,7 +4310,7 @@ All changes of 3.36.
 </td>
 </tr>
 <tr id="3.35">
-<td data-order="79">
+<td data-order="80">
 <a href="#3.35">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4300,7 +4360,7 @@ All changes of 3.35.
 </td>
 </tr>
 <tr id="3.34">
-<td data-order="80">
+<td data-order="81">
 <a href="#3.34">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4381,7 +4441,7 @@ All changes of 3.34.
 </td>
 </tr>
 <tr id="3.33">
-<td data-order="81">
+<td data-order="82">
 <a href="#3.33">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4480,7 +4540,7 @@ All changes of 3.33.
 </td>
 </tr>
 <tr id="3.32">
-<td data-order="82">
+<td data-order="83">
 <a href="#3.32">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4545,7 +4605,7 @@ All changes of 3.32.
 </td>
 </tr>
 <tr id="3.31">
-<td data-order="83">
+<td data-order="84">
 <a href="#3.31">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4584,7 +4644,7 @@ All changes of 3.31.
 </td>
 </tr>
 <tr id="3.30">
-<td data-order="84">
+<td data-order="85">
 <a href="#3.30">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4639,7 +4699,7 @@ All changes of 3.30.
 </td>
 </tr>
 <tr id="3.29">
-<td data-order="85">
+<td data-order="86">
 <a href="#3.29">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4762,7 +4822,7 @@ All changes of 3.29.
 </td>
 </tr>
 <tr id="3.28">
-<td data-order="86">
+<td data-order="87">
 <a href="#3.28">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4831,7 +4891,7 @@ All changes of 3.28.
 </td>
 </tr>
 <tr id="3.27">
-<td data-order="87">
+<td data-order="88">
 <a href="#3.27">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4925,7 +4985,7 @@ All changes of 3.27.
 </td>
 </tr>
 <tr id="3.26">
-<td data-order="88">
+<td data-order="89">
 <a href="#3.26">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4973,7 +5033,7 @@ All changes of 3.26.
 </td>
 </tr>
 <tr id="3.25">
-<td data-order="89">
+<td data-order="90">
 <a href="#3.25">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5101,7 +5161,7 @@ All changes of 3.25.
 </td>
 </tr>
 <tr id="3.24">
-<td data-order="90">
+<td data-order="91">
 <a href="#3.24">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5182,7 +5242,7 @@ All changes of 3.24.
 </td>
 </tr>
 <tr id="3.23">
-<td data-order="91">
+<td data-order="92">
 <a href="#3.23">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5379,7 +5439,7 @@ All changes of 3.23.
 </td>
 </tr>
 <tr id="3.22">
-<td data-order="92">
+<td data-order="93">
 <a href="#3.22">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5510,7 +5570,7 @@ All changes of 3.22.
 </td>
 </tr>
 <tr id="3.21">
-<td data-order="93">
+<td data-order="94">
 <a href="#3.21">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5831,7 +5891,7 @@ All changes of 3.21.
 </td>
 </tr>
 <tr id="3.20">
-<td data-order="94">
+<td data-order="95">
 <a href="#3.20">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5930,7 +5990,7 @@ All changes of 3.20.
 </td>
 </tr>
 <tr id="3.19">
-<td data-order="95">
+<td data-order="96">
 <a href="#3.19">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6058,7 +6118,7 @@ All changes of 3.19.
 </td>
 </tr>
 <tr id="3.18">
-<td data-order="96">
+<td data-order="97">
 <a href="#3.18">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6175,7 +6235,7 @@ All changes of 3.18.
 </td>
 </tr>
 <tr id="3.17">
-<td data-order="97">
+<td data-order="98">
 <a href="#3.17">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6378,7 +6438,7 @@ All changes of 3.17.
 </td>
 </tr>
 <tr id="3.16">
-<td data-order="98">
+<td data-order="99">
 <a href="#3.16">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6411,7 +6471,7 @@ All changes of 3.16.
 </td>
 </tr>
 <tr id="3.15">
-<td data-order="99">
+<td data-order="100">
 <a href="#3.15">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6671,7 +6731,7 @@ All changes of 3.15.
 </td>
 </tr>
 <tr id="3.14">
-<td data-order="100">
+<td data-order="101">
 <a href="#3.14">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6883,7 +6943,7 @@ All changes of 3.14.
 </td>
 </tr>
 <tr id="3.13">
-<td data-order="101">
+<td data-order="102">
 <a href="#3.13">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6964,7 +7024,7 @@ All changes of 3.13.
 </td>
 </tr>
 <tr id="3.12">
-<td data-order="102">
+<td data-order="103">
 <a href="#3.12">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7101,7 +7161,7 @@ All changes of 3.12.
 </td>
 </tr>
 <tr id="3.11">
-<td data-order="103">
+<td data-order="104">
 <a href="#3.11">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7159,7 +7219,7 @@ All changes of 3.11.
 </td>
 </tr>
 <tr id="3.10">
-<td data-order="104">
+<td data-order="105">
 <a href="#3.10">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7216,7 +7276,7 @@ All changes of 3.10.
 </td>
 </tr>
 <tr id="3.9">
-<td data-order="105">
+<td data-order="106">
 <a href="#3.9">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7307,7 +7367,7 @@ All changes of 3.9.
 </td>
 </tr>
 <tr id="3.8">
-<td data-order="106">
+<td data-order="107">
 <a href="#3.8">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7451,7 +7511,7 @@ All changes of 3.8.
 </td>
 </tr>
 <tr id="3.7">
-<td data-order="107">
+<td data-order="108">
 <a href="#3.7">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7509,7 +7569,7 @@ All changes of 3.7.
 </td>
 </tr>
 <tr id="3.6">
-<td data-order="108">
+<td data-order="109">
 <a href="#3.6">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7692,7 +7752,7 @@ All changes of 3.6.
 </td>
 </tr>
 <tr id="3.5">
-<td data-order="109">
+<td data-order="110">
 <a href="#3.5">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7769,7 +7829,7 @@ All changes of 3.5.
 </td>
 </tr>
 <tr id="3.4">
-<td data-order="110">
+<td data-order="111">
 <a href="#3.4">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8211,7 +8271,7 @@ All changes of 3.4.
 </td>
 </tr>
 <tr id="3.3">
-<td data-order="111">
+<td data-order="112">
 <a href="#3.3">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8276,7 +8336,7 @@ All changes of 3.3.
 </td>
 </tr>
 <tr id="3.2">
-<td data-order="112">
+<td data-order="113">
 <a href="#3.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8328,7 +8388,7 @@ All changes of 3.2.
 </td>
 </tr>
 <tr id="3.1">
-<td data-order="113">
+<td data-order="114">
 <a href="#3.1">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8444,7 +8504,7 @@ All changes of 3.1.
 </td>
 </tr>
 <tr id="3.0">
-<td data-order="114">
+<td data-order="115">
 <a href="#3.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9110,7 +9170,7 @@ All changes of 3.0.
 </td>
 </tr>
 <tr id="2.0">
-<td data-order="115">
+<td data-order="116">
 <a href="#2.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
