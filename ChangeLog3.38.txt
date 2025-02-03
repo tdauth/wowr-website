@@ -61,6 +61,7 @@
 - Revise Computer AI hero revival.
 - Increase Computer AI hero revival interval.
 - Add chat command "-airevive".
+- Add chat command "-aiprofession".
 - Try fixing to remove Reincarnation for Bayonet Charge.
 - Automatically skill unit abilities from hero spell Fire Magic.
 - Crates and Cages are not affected by Evolution anymore.
@@ -70,4 +71,22 @@
 - Fix ability Mass Charm working on vulnerable units.
 - Fix Monster Lure Charm effect.
 - Improve terrain.
-- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
+- Add vote "-airespawn".
+- Add vote "-noairespawn".
+- Add vote "-victory".
+- Add vote "-novictory".
+- Remove game settings dialog in the beginning of the game.
+- Remove game types.
+- Drop support for old save codes.
+- StringSplit returns null now if no token for the given index exists.
+- All units and buildings have no race automatically now if not specified.
+- Add function UpdateAllRaceUnitsForPlayer.
+- Add settings UI.
+- Objects from non-player professions cannot be loaded.
+- Tomes cannot be loaded if not enabled.
+- Add Random building to player selection.
+- Hero Wizard does not require bonus hero anymore.
+- Hero Gunner does not require bonus hero anymore.
+- Randomizing skins considers now if the hero is available for the owner.
+- Profession Scribe cannot be picked by Random Profession anymore if tomes are not enabled.
+- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0."
