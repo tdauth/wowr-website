@@ -1,0 +1,3 @@
+- Allow saving item House Key.
+- Fix detecting item values for Equipment.
+- Fix detecting item values for race items.
