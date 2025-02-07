@@ -88,6 +88,7 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-o/-download": Shows the download URL.</li>
 <li>"-v/-version": Shows the map version.</li>
 <li>"-q/-news": Shows news with links and QR codes.</li>
+<li>"-st/-settings": Shows global game settings.</li>
 <li>"-l/-log": Shows a messages log which even works in multiplayer.</li>
 <li>"-dp/-diplomacy": Allows the host changing diplomacy settings.</li>
 <li>"-h1/-h2/-h3": Allows you to (re)pick your heroes keeping their XP.</li>
@@ -97,8 +98,9 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-fullrepick": Lose 3/4 of your XP and Evolution but repick the game mode.</li>
 <li>"-g/-get": Recreates hero profession and race items.</li>
 <li>"-unlock/-lock": Allows you to unlock everything in the map.</li>
-<li>"-nobossicons/-bossicons": Disables/enables Boss icons on the minimap.</li>
-<li>"-nostats/-stats": Disables/enables stats GUI.</li>
+<li>"-victory"/"-novictory": Enables/disables victory conditions.</li>
+<li>"-nobossicons"/"-bossicons": Disables/enables Boss icons on the minimap.</li>
+<li>"-nostats"/"-stats": Disables/enables stats GUI.</li>
 <li>"-auto": Auto skills all heroes in selection.</li>
 <li>"-it/-items": Shows all backpack items.</li>
 <li>"-pi/-pickup": Picks up all items around the first hero.</li>
@@ -115,7 +117,6 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-players": Shows the numbers of all playing players.</li>
 <li>"-votekick X": Starts a votekick against player X.</li>
 <li>"-yes": Votes for a votekick.</li>
-<li>"-aireset": Resets the AI players and allows customizing them from the host.</li>
 <li>"-deathsoundson/off": Enables/disables hero death sounds.</li>
 <li>"-ping": Pings the current quest locations on the minimap.</li>
 <li>"-pingh": Pings all allied heroes.</li>
@@ -160,6 +161,8 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-invasionon/off": Enables/disables leaderboard.</li>
 <li>"-elementalon/off": Enables/disables leaderboard.</li>
 <li>"-wildon/off": Enables/disables leaderboard.</li>
+<li>"-aireset": Resets the AI players and allows customizing them from the host.</li>
+<li>"-airespawn"/"-noairespawn": Enables/disables AI respawns.</li>
 <li>"-aieasy X": Change AI difficulty to EASY for player X.</li>
 <li>"-ainormal X": Change AI difficulty to NORMAL for player X.</li>
 <li>"-aihard X": Change AI difficulty to HARD for player X.</li>
@@ -180,6 +183,7 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
 <li>"-ailoadmines X": Loads mines for player X.</li>
 <li>"-airevive X": Revives heroes for player X.</li>
+<li>"-aiprofession X Y": Changes profession of allied player X to Y.</li>
 <li>"-aiinfo X": Shows information about player X.</li>
 <li>"-aitargeton/off X": Enables/disables AI attacking target for player X.</li>
 <li>"-aitarget X": Sets the AI target for player X to your hero 1 location.</li>
@@ -249,11 +253,10 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-music X": Changes the UI to race X.</li>
 <li>"-musicreset": Resets the music to the lobby music.</li>
 <li>"-damageon/off": Enables/disable visual text for caused damage of your units.</li>
-<li>"-nobossicons/bossicons": Disables/enableds minimap boss icons.</li>
-<li>"-notomes/tomes": Disables/enableds tomes.</li>
+<li>"-bossicons"/"-nobossicons": Enables/disables minimap boss icons.</li>
+<li>"-tomes"/"-notomes": Enables/disables tomes.</li>
 <li>"-resources X": Shows the resources of player X or your resources.</li>
-<li>"-resguion/-resgui": Shows the resource GUI.</li>
-<li>"-resguioff": Hides the resources GUI.</li>
+<li>"-resguion/-resgui"/"-resguioff": Shows/hides the resource GUI.</li>
 <li>"-give X Y Z": Gives the amount X of resource Y to player Z.</li>
 <li>"-ask X Y Z": Asks for the amount X of resource Y from allied Computer player Z.</li>
 <li>"-sell X Y": Sells the amount X of resource Y for gold.</li>
@@ -261,21 +264,16 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-sellwood/-sw": Sells all lumber for gold.</li>
 <li>"-buy X Y": Buys the amount X of resource Y for gold.</li>
 <li>"-resinfo/-resourcesinfo": Shows the resource information about the first selected unit.</li>
-<li>"-savecodes": Enables savecodes for all players.</li>
-<li>"-nosavecodes": Disables savecodes for all players.</li>
-<li>"-stats": Enables stats.</li>
-<li>"-nostats": Disables stats.</li>
-<li>"-legion": Enables The Burning Legion.</li>
-<li>"-nolegion": Disables The Burning Legion.</li>
-<li>"-soundsets": Enables custom unit sound sets.</li>
-<li>"-nosoundsets": Disables custom unit sound sets.</li>
+<li>"-savecodes/-nosavecodes": Enables/disables savecodes for all players.</li>
+<li>"-stats"/"-nostats": Enables/disables stats.</li>
+<li>"-legion"/"-nolegion": Enables/disables The Burning Legion.</li>
+<li>"-soundsets"/"-nosoundsets": Enables/disables custom unit sound sets.</li>
 <li>"-achievements": Lists all available achievements with your score.</li>
 <li>"-str X": Skills X strength. Skills max strength if empty.</li>
 <li>"-agi X": Skills X agility. Skills max agility if empty.</li>
 <li>"-int X": Skills X intelligence. Skills max intelligence if empty.</li>
 <li>"-rename X": Renames selected heroes into X.</li>
-<li>"-builder": Creates a builder for player 1 red.</li>
-<li>"-nobuilder": Removes the builder from player 1 red.</li>
+<li>"-builder"/"-nobuilder": Creates/removes a builder for player 1 red.</li>
 <li>"-rename X": Renames selected heroes into X.</li>
 <li>"-scale X": Scales selected units to X.</li>
 <li>"-teamcolor X": Changes the team color of selected units to X.</li>
@@ -301,28 +299,25 @@ There is a number of chat commands in the map which should help you to do stuff:
 <li>"-skygeneric": Changes sky to Generic.</li>
 <li>"-skymoon": Changes sky to Moon.</li>
 <li>"-food50/100/200/300/600": Changes the maximum food.</li>
-<li>"-limits": Enables housing and tower limits.</li>
-<li>"-nolimits": Disables housing and tower limits.</li>
-<li>"-seasons": Enables seasons.</li>
-<li>"-noseasons": Disables seasons.</li>
+<li>"-limits"/"-nolimits": Enables/disables housing and tower limits.</li>
+<li>"-seasons"/"-noseasons": Enables/disables seasons.</li>
 <li>"-winter": Changes season to winter.</li>
 <li>"-spring": Changes season to spring.</li>
 <li>"-summer": Changes season to summer.</li>
 <li>"-fall": Changes season to fall.</li>
-<li>"-weather": Starts weather immediately.</li>
-<li>"-noweather": Stops weather immediately.</li>
+<li>"-weather/-noweather": Starts/stops weather immediately.</li>
 <li>"-morning": Changes time of day to 6.</li>
 <li>"-noon": Changes time of day to 12.</li>
 <li>"-evening": Changes time of day to 18.</li>
 <li>"-midnight": Changes time of day to 24.</li>
-<li>"-dnc": Enables day and night cycle.</li>
-<li>"-nodnc": Disables day and night cycle.</li>
-<li>"-nowater"/"-water": Disables/enables visibility of water.</li>
+<li>"-dnc"/"-nodnc": Enables/disables day and night cycle.</li>
+<li>"-water"/"-nowater": Enables/disables visibility of water.</li>
 <li>"-waterred": Changes the color of water to red.</li>
-<li>"-nofog"/"-fog": Disables/enables visibility of fog.</li>
-<li>"-nohardcore"/"-hardcore": Disables/enables hardcore mode.</li>
-<li>"-noportals"/"-portals": Disables/enables neutral portals.</li>
-<li>"-nocheats/-cheats": Disables/enables cheat chat commands.</li>
+<li>"-fog"/"-nofog": Enables/disables visibility of fog.</li>
+<li>"-hardcore"/"-nohardcore": Enables/disables hardcore mode.</li>
+<li>"-portals"/"-noportals": Enables/disables neutral portals.</li>
+<li>"-cheats"/"-nocheats": Enables/disables cheat chat commands.</li>
+<li>"-train"/"-notrain": Enables/disables the railway on the map.</li>
 <li>"-resetevolution X": Resets level of research Evolution back to X.</li>
 <li>"-resetnavy X": Resets level of research Improved Navy back to X.</li>
 <li>"-resetpower X": Resets level of research Improved Power Generator back to X.</li>
