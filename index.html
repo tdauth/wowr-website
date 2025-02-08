@@ -70,31 +70,10 @@ Move the cursor on the icons of the table entries to see advanced tooltips with 
 
 <h2>Become VIP</h2>
 
-Support the project by becoming a <a href="vips.html">VIP</a>.
+<a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-2H6673288J5283354M6TTVVY">Subscribe</a> to become a <a href="vips.html">VIP</a> and support the project.
 VIPs have many additional features and will benefit more from updates.
 You can send me your Battle.net ID on Discord and it will be unlocked as VIP.
 
-<div id="paypal-button-container-P-2H6673288J5283354M6TTVVY"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=ActPLJqUeN3nrQeyfoX9gY1UykKO7kwXOLWsjZm-AwhaZflm3GM32fdjkqfhx5nj9HpyrYnSrIzXFku5&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-2H6673288J5283354M6TTVVY'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-2H6673288J5283354M6TTVVY'); // Renders the PayPal button
-</script>
 
 Besides you can send single donations to support the project:
 <form action="https://www.paypal.com/donate" method="post" target="_top" style="display: inline-block;">
