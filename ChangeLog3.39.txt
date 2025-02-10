@@ -1,3 +1,23 @@
 - Allow saving item House Key.
 - Fix detecting item values for Equipment.
 - Fix detecting item values for race items.
+- Add JASS function GetItemGoldCost.
+- Add JASS function GetItemWoodCost.
+- Register neutral building Real Estate Agent.
+- Fix registered spells of Druid forms.
+- Disable several unused BonusSystem dependencies.
+- Change Goblin Grenade into Goblin Dynamite.
+- Add item Spade.
+- Add cheat "-spade".
+- Save research Improved Masonry for profession Engineer.
+- Add critter Turtle.
+- Give VIPs more features.
+- Add skins.
+- Add cinematic for Human quest 1.
+- Add hero Fel Kodo Beast.
+- Revise ability fields system.
+- List abilities when examining units and items.
+- News and settings UI are on top of the actions bar now.
+- Add learnable hero spell Earth Magic.
+- No more rainy region for calendar system.
+- Improve website data.
