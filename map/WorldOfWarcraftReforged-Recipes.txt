@@ -336,6 +336,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNArcaniteMelee.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (5)" )
+	call Preload( "<a href="items.html#I1AI">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDaggerOfEscape.blp" width="64" height="64"" )
+	call Preload( "title="Unique - Blade of the Black Empire"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNDaggerOfEscape.blp"" )
+	call Preload( "/></a>" )
+	call Preload( " (5)" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="I09A">" )
@@ -3188,7 +3194,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 2.5 )
+	call PreloadEnd( 3.4 )
 
 endfunction
 
