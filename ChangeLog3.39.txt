@@ -3,6 +3,8 @@
 - Fix detecting item values for race items.
 - Add JASS function GetItemGoldCost.
 - Add JASS function GetItemWoodCost.
+- Fix item gold and wood costs on refunding items.
+- Add library Refund.
 - Register neutral building Real Estate Agent.
 - Fix registered spells of Druid forms.
 - Disable several unused BonusSystem dependencies.
@@ -12,12 +14,55 @@
 - Save research Improved Masonry for profession Engineer.
 - Add critter Turtle.
 - Give VIPs more features.
+- Fix setting VIPs in the beginning of the game.
 - Add skins.
 - Add cinematic for Human quest 1.
+- Add cinematic for Orc quest 1.
 - Add hero Fel Kodo Beast.
 - Revise ability fields system.
+- Add ability skill UI.
 - List abilities when examining units and items.
 - News and settings UI are on top of the actions bar now.
 - Add learnable hero spell Earth Magic.
 - No more rainy region for calendar system.
+- Improve periodic watcher system.
+- Fix abilities of hero corrupted Furbolg Ursa Warrior.
+- Refactor library ResourcesCosts.
+- Revise terrain.
+- Add item Tome of Magic.
+- Add item Tome of Chaos.
+- Add item Tome of Divinity.
+- Add item Tome of Movement.
+- Add item Tome of Sight.
+- Add item Tome of Life Regeneration.
+- Add item Tome of Mana Regeneration.
+- Tome items stack now.
+- Fix hiding the Library in the beginning of the game.
+- Fix hotkeys of Tome items.
+- Fix icon positions of Tome items.
+- Profession Scribe crafts more different Tome items.
+- Fix Tome item error messages.
+- Fix check if item can be picked up by the Backpack.
+- Fix rank Doctor for profession Merchant.
+- Remove item Greek Helmet.
+- Creep Egg Sack is not affected by Evolution anymore.
+- Creep Explosive Barrel is not affected by Evolution anymore.
+- Add option for playing cinematics.
+- Add votes "-cinematics"/"-nocinematics".
+- Add Blood Elf quest 1.
+- Add neutral building Trainer.
+- Add custom attribute Instinct.
+- Change effects of custom attribute Mystic.
+- Add more information shown by Examine Unit.
+- Add zone Khaz Algar.
+- Add zone Dragon Isles.
+- Add mount Albatross.
+- Improve support for map internationalization with more trigger strings.
+- Add info quest Warcraft III Cheats.
+- Merge multiple researches into research Evolution.
+- Do not store player stats like kills and deaths in save codes anymore.
+- Remove unused object data.
+- Fixed registered researches for race Dungeon.
+- Change mounts of several heroes.
+- Fix updating stats periodically.
 - Improve website data.
