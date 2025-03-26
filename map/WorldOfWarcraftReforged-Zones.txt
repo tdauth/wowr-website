@@ -20,7 +20,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "All players start here in the beginning of the game " )
-	call Preload( "to pick their hero etc. and to start the game. " )
+	call Preload( "to pick their hero etc. and to start the game." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="viproom">" )
@@ -2915,7 +2915,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Zones generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.6 )
 
 endfunction
 
