@@ -4144,12 +4144,15 @@ Note: Even " )
 	call Preload( "<li>Improve race Lordaeron.</li>" )
 	call Preload( "<li>Restrict map to SD graphics.</li>" )
 	call Preload( "<li>Replace Elune's model with SD version.</li>" )
+	call Preload( "<li>Replace hero spell Spell Steal with hero standard ability.</li>" )
+	call Preload( "<li>Fix player name hashes in building and researches save codes.</li>" )
+	call Preload( "<li>Register missing Gnome researches.</li>" )
 	call Preload( "<li>Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.9 )
+	call PreloadEnd( 1.7 )
 
 endfunction
 
