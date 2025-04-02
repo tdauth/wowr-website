@@ -142,6 +142,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Replace hero spell Spell Steal with hero standard ability." )
 	call Preload( "- Fix player name hashes in building and researches save codes." )
 	call Preload( "- Register missing Gnome researches." )
+	call Preload( "- Remove RPG camera and movement systems." )
 	call Preload( "- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
