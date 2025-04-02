@@ -99,3 +99,10 @@ button {
     width:  64px;
     height: 64px;
 }
+
+.wowr-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
