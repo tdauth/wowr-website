@@ -500,10 +500,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNWindOrb.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (1)" )
-	call Preload( "<a href="items.html#I0BS">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRoyal.blp" width="64" height="64"" )
-	call Preload( "title="Orb of Royality"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRoyal.blp"" )
+	call Preload( "<a href="items.html#I09U">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWindOrb.blp" width="64" height="64"" )
+	call Preload( "title="Orb of Wind"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNWindOrb.blp"" )
 	call Preload( "/></a>" )
 	call Preload( " (1)" )
 	call Preload( "<a href="items.html#I0J9">" )
@@ -3128,7 +3128,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 3.7 )
+	call PreloadEnd( 3.8 )
 
 endfunction
 
