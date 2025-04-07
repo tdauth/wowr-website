@@ -92,7 +92,6 @@
 - Fix hotkey of building Guardian
 s Citadel.
 - Improve race Goblin.
-- Play custom music in the game lobby.
 - Fix initial unit, item and destructable handle counters.
 - Third person camera timer only runs when one camera is enabled.
 - Reduce calendar events check interval.
@@ -116,6 +115,7 @@ s Citadel.
 - Remove PvP Arena.
 - Reduce players number to 10.
 - Reduce teams to Alliance and Horde.
+- AI players will start at team locations by default now.
 - Reduce number of preplaced units on the map.
 - Remove column hero kills from stats.
 - Remove column unit kills from stats.
@@ -135,8 +135,17 @@ s Citadel.
 - Remove different clan hall skins.
 - Improve race Lordaeron.
 - Restrict map to SD graphics.
-- Replace Elune's model with SD version.
+- Replace Elune's model and icon with SD version.
 - Replace hero spell Spell Steal with hero standard ability.
 - Fix player name hashes in building and researches save codes.
 - Register missing Gnome researches.
+- Remove RPG camera and movement systems.
+- Change clan resources bonus message to text tag.
+- Stop units moved from player selection.
+- Add custom icon for hero and unit Engineer.
+- Fix coloring of boss Sylvanas Windrunner.
+- Add cheat "-nocreeps".
+- Add cheat "-nobosses".
+- Add cheat "-nopassive".
+- Remove Holy Grail.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
