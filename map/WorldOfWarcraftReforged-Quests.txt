@@ -578,7 +578,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Admiral Proudmoore's spirit has received a treasure " )
 	call Preload( "map from captured pirates. He wants you to dig up all " )
 	call Preload( "the treasures marked on the map and return them to " )
-	call Preload( "him to get your reward." )
+	call Preload( "him to get your reward. Destroy the treasures to dig " )
+	call Preload( "them up." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="KulTiras3">" )
@@ -2680,7 +2681,7 @@ Hint: no Human genocide is allowed !" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.9 )
+	call PreloadEnd( 3.0 )
 
 endfunction
 
