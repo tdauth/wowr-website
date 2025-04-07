@@ -150,6 +150,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add cheat "-nocreeps"." )
 	call Preload( "- Add cheat "-nobosses"." )
 	call Preload( "- Add cheat "-nopassive"." )
+	call Preload( "- Remove Holy Grail." )
 	call Preload( "- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
