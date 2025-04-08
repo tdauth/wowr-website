@@ -1,0 +1,24 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Revise some voting calculations and triggering in the beginning." )
+	call Preload( "- Use vote dialogs per player." )
+	call Preload( "- Add vote dialog which allows skipping all votes by using default settings." )
+	call Preload( "- Book of Summoning Pedestal and Arcane Observatory are limited to 1." )
+	call Preload( "- Paladin on Theramore heals non-Undead units." )
+	call Preload( "- Let Demon Master summon Fel Beast and Fel Stalkers only for the first two levels." )
+	call Preload( "- Add Resurrection Stone to Furbolg to revive dead heroes." )
+	call Preload( "- Fix tooltip of Unique - Skull of Gul'dan." )
+	call Preload( "- Reward Freelancer works anywhere on the map and mentions the exact rewards." )
+	call Preload( "- Retranslate tooltip of Storm, Earth, And Fire back into English." )
+	call Preload( "- All ulti hero abilities have a level skip requirement of 3 now." )
+	call Preload( "- Move Freelancer AI Hideouts to 4 different islands which can be reached via portals." )
+	call Preload( "- Fix crafting Rune of Rebirth for Runeforger which actually summons creeps now." )
+	call Preload( "- Add hero Mountain Giant." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

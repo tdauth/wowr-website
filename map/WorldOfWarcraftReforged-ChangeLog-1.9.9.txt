@@ -1,0 +1,35 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Save XP of hero 2 in savecodes." )
+	call Preload( "- Replace bugged Frost Armor ability of Crown of the Lich King by Item Attack Frost Bonus." )
+	call Preload( "- Fix soundset of bonus hero Medivh." )
+	call Preload( "- Give bonus hero Malfurion Invisibility and Summon Mount abilities." )
+	call Preload( "- Remove ability Spell Immunity from bonus hero Wizard. Otherwise, it would take too many slots." )
+	call Preload( "- Add missing learn tooltips to ability Summon Sea Elemental of bonus hero Admiral Proudmoore." )
+	call Preload( "- Try to revive Illidan immediately before changing his ownership to avoid a bug while he is being revived." )
+	call Preload( "- Make items in backpack always droppable to fix the drop bug with Illidan's Ring of the Dark Legion." )
+	call Preload( "- Increase the produced food of Hideouts and all upgraded versions from 25 to 55." )
+	call Preload( "- Add ability Invisibility to bonus hero Anasterian Sunstrider." )
+	call Preload( "- Fix ability Storm Bolt in the description of bonus hero Rexxar." )
+	call Preload( "- Turtle Shell and Frostmourne use fixed defense and attack type values now to avoid bugs." )
+	call Preload( "- Remove Neutral Citizen Female from Goblin Laboratories to get the Reveal slot back." )
+	call Preload( "- Add new boss Murloc Sorcerer on a new island with creeps." )
+	call Preload( "- Add Gnomish Submarines." )
+	call Preload( "- Replace Taunt of hero Mountain Giant with Hurl Boulder." )
+	call Preload( "- Replace War Club of hero Mountain Giant with Demolish." )
+	call Preload( "- Add note how to repick your second hero when picking him/her." )
+	call Preload( "- Add new boss The Eye of Sargeras on a new island with creeps." )
+	call Preload( "- Add Boss Fight Island." )
+	call Preload( "- Fix mount in description of Brewmaster, Tinker and Alchemist." )
+	call Preload( "- Change recommended start location of Pit Lord to Outland." )
+	call Preload( "- Crystal Ball is sold by Power Generator." )
+	call Preload( "- Add new fixed computer player The Alliance." )
+	call Preload( "- Add shorter path from Outland start base to boss Kil'jaeden." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

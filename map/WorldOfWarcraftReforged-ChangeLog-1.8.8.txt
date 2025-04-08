@@ -1,0 +1,29 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Reveal the initial town hall location to all players in the beginning." )
+	call Preload( "- Unpause Harpy Queen when starting Orc Quest 2." )
+	call Preload( "- Pan camera to hero after leaving the portal." )
+	call Preload( "- Add chat command "-pinggoldmines"." )
+	call Preload( "- Add VIP flags for Undead, Night Elf and Orc as well." )
+	call Preload( "- Move creeps fruther away from Northrend West start base." )
+	call Preload( "- Setup alliances for bosses during the map initialization instead of after 0 seconds which might prevent the creeps attacking one boss bug." )
+	call Preload( "- Add VIP marker item with the players name and some text." )
+	call Preload( "- Move VIP room portal to the left." )
+	call Preload( "- Restrict constructing buildings at hidden bases to hero level 35." )
+	call Preload( "- Add second hidden base in the Ocean." )
+	call Preload( "- Fix colors of crafted items of Dragon Breeder and Sorcerer." )
+	call Preload( "- Add Hero Glow to bonus hero Gul'dan." )
+	call Preload( "- Add custom Siphon Mana and Life Drain abilities with correct icon positions and tooltips to bonus hero Gul'dan." )
+	call Preload( "- Move VIP portal to the Outland portal area, so you can enter it more often." )
+	call Preload( "- Add Fountain of Blood to Orc Warlords." )
+	call Preload( "- Do not allow dropping regular items in the VIP room." )
+	call Preload( "- Massively reduce the damage multiplier of Critical Strike and reduce the chance with every level." )
+	call Preload( "- Make Dark Portal summoning for bonus hero Archimonde time limited." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

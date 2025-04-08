@@ -1,0 +1,35 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Heldenwahlansicht gefixt." )
+	call Preload( "- Keine Beschreibungen und kein Multiboard mehr in der Heldenwahl." )
+	call Preload( "- Medivhs Zauberbuch als einsammelbaren Gegenstand aus der Karte entfernt." )
+	call Preload( "- Sinnloses Multiboard in Heldenauswahl entfernt." )
+	call Preload( "- Texte bei Heldenauswahl korrigiert." )
+	call Preload( "- Naga-Bürger und -Bürgerinnen können über das Wasser laufen." )
+	call Preload( "- Naga können einen Laden errichten. Der Laden verkauft sogar einen winzigen Flutwächter." )
+	call Preload( "- Leben von Bäumen auf 5000.00 erhöht, damit andere Völker als die Nachtelfen länger an einer Stelle Holz sammeln können." )
+	call Preload( "- Der Völkergegenstand kann abgelegt werden. Er wird beim Repick entfernt." )
+	call Preload( "- Tempel der Gezeiten gilt als Niveau-3-Halle." )
+	call Preload( "- Spielinfos überarbeitet." )
+	call Preload( "- Irrwische sammeln 10 Holz pro Intervall, da die Bäume für andere Völker jetzt länger halten." )
+	call Preload( "- Die Essensstufen sind jetzt bei 100 und 200 weil die maximale Nahrung 300 ist." )
+	call Preload( "- Femdland-Bereich verbessert, kann jetzt jederzeit betreten werden und ermöglicht den Kauf von Dämonen." )
+	call Preload( "- Fremdland-Boss hinzugefügt." )
+	call Preload( "- Halbgötter haben auch Reittierfähigkeiten, da sonst ein Slot frei wäre." )
+	call Preload( "- Avatare der Rache beschwören wieder Rachegeister." )
+	call Preload( "- Dämonen als neues Volk hinzugefügt." )
+	call Preload( "- Ausgebildete Einheiten (mit Ausnahme der Naga) verursachen keinen Chaos-Schaden mehr." )
+	call Preload( "- "-nowin" hat "-nodefeat" ersetzt und bedeutet nun, dass das Spiel nicht gewonnen wird, wenn der neue Fremdland-Boss getötet wurde." )
+	call Preload( "- "-nowin" ist nach Ablauf des Timers nicht mehr möglich." )
+	call Preload( "- "-repick" ist nur noch alle 30 Sekunden möglich." )
+	call Preload( "- Mehr Informationen ins Quest-Log geschrieben." )
+	call Preload( "- Massen-Teleportation hat keine zunehmende Zauberverzögerung mit erhöhter Stufe." )
+	call Preload( "- Kameragrenzen verkleinert." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

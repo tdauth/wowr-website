@@ -1,0 +1,12 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Dialog für Spielmodiwahl erst wenn Held zur Startortwahl kommt." )
+	call Preload( "- Auswahlkamera" )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

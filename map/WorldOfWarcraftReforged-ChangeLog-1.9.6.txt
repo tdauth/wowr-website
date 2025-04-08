@@ -1,0 +1,35 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Increase food upkeep levels by 50." )
+	call Preload( "- Ignore buildings from The Burning Legion on respawning creeps to respawn Archimonde." )
+	call Preload( "- Add Nether Dragon to creep respawn group to fix respawning it." )
+	call Preload( "- Remove ground texture from AI Laboratory." )
+	call Preload( "- Decrease costs of Evolution." )
+	call Preload( "- Add missing boss heroes and town halls to game type Hardcore." )
+	call Preload( "- Keep Freelancer AI Hideout invulnerable after an upgrade." )
+	call Preload( "- Add missing hero icon for Mannoroth to the multiboard." )
+	call Preload( "- Drop Undead trophy for human quest 4 on hero death." )
+	call Preload( "- Enable VIPs by default." )
+	call Preload( "- Make Demon Mater non-permanent fix more general to hopefully fix more issues." )
+	call Preload( "- Ping units, show a message and use player colors with player names on giving units to another player." )
+	call Preload( "- Rename Ogrimmar to Orgrimmar in the info text for Beast Master and during Orc Quest 1." )
+	call Preload( "- Update stats on repicking and giving units." )
+	call Preload( "- Update stats number of buildings after computer AI started." )
+	call Preload( "- Improve the terrain of the new Citadel." )
+	call Preload( "- Give item Scepter of Mastery from the Queen some mana cost and cooldown." )
+	call Preload( "- Remove second Forgotten One group from Paladin bosses." )
+	call Preload( "- Furbolg Tribal Center can be upgraded to Temple of Light and Darkness." )
+	call Preload( "- Do not transfers many upgrades such as Evolution with Unit Ownership anymore." )
+	call Preload( "- Add line break before showing loaded/saved savecode for better comparison." )
+	call Preload( "- Store additional information in a save code: gold, lumber, evolution level, power generator level, hand of god level, mount level and masonry level." )
+	call Preload( "- Add level skip requirements to tech upgrades of ability Robo-Goblin." )
+	call Preload( "- Store savecodes in text files in C:\\Users\\<your user>\\Documents\\Warcraft III\\CustomMapData." )
+	call Preload( "- Add save/load system vote dialog after other settings votings." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

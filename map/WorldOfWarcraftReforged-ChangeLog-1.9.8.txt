@@ -1,0 +1,16 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Disable hidden island prevention for AI." )
+	call Preload( "- Lich King special building is a building now and requires ground-pathable placement." )
+	call Preload( "- Skill more abilities for bosses heroes." )
+	call Preload( "- Add pathing texture back to Power Generator which led to crashing the game." )
+	call Preload( "- Enable Freelancer AI by default." )
+	call Preload( "- Only allow custom UI for backpacks in singleplayer since it causes desyncs." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

@@ -1,0 +1,19 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Add Socrethar to Outland." )
+	call Preload( "- Add Demon Quest 1 and 2." )
+	call Preload( "- Magic Vault of Blood Elves requires ground-pathable placement." )
+	call Preload( "- Fix converting decimal number into save codes (stop when quotient is 0)." )
+	call Preload( "- Fix shifting and obfuscating deobfuscating a save code using a string hash." )
+	call Preload( "- Make hash numbers smaller by modulo operation to keep savecodes shorter." )
+	call Preload( "- Obfuscate savecodes with the hash of the player's name." )
+	call Preload( "- Remove space from savecode when using "-savecheck"." )
+	call Preload( "- Print different output on using "-savecheck"." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

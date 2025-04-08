@@ -1,0 +1,26 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Improve stopping harvesting and building on hidden places." )
+	call Preload( "- Fix minimum numbers for Demon Master (thanks Runeblade14) which led to a crash." )
+	call Preload( "- Fix spelling mistake Banshee for Lordearon start location." )
+	call Preload( "- Increase Freelancer XP rate bonus from 10 % to 30 %." )
+	call Preload( "- Limit Fountain of Blood to 1." )
+	call Preload( "- Fix units in Bosses group." )
+	call Preload( "- Allow leveling legendary elemental book fire ability." )
+	call Preload( "- Add World Tree to Night Elfs." )
+	call Preload( "- Add tavern for second hero with Bosses." )
+	call Preload( "- Fix preventing changing alliances with player bosses." )
+	call Preload( "- Do not allow starting votekicks against Bosses or The Burning Legion." )
+	call Preload( "- Fix buildable buildings and affecting upgrades for Fel Peon." )
+	call Preload( "- Add Sea Giant boss to Sunken Ruins area who drops an item which allows you walking on water." )
+	call Preload( "- Try clearing dialogs to avoid repick bug." )
+	call Preload( "- Mention cooldown for Random Events in tooltip." )
+	call Preload( "- Fix showing race selection dialog on repick." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

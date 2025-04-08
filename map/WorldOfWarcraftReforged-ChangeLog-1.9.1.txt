@@ -1,0 +1,29 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Drop Frostmourne upon death." )
+	call Preload( "- Fix GetUnitXXXByType functions." )
+	call Preload( "- Fix spelling mistake of Orgrimmar." )
+	call Preload( "- Fix maximum mana value of Siphon Mana from Magic Vault." )
+	call Preload( "- Disable hidden base message after having been shown once." )
+	call Preload( "- Make Archmage of Human Quest 1 invulnerable." )
+	call Preload( "- Only allow effects of Frostmourne and Scepter of the Sea Giant to heroes." )
+	call Preload( "- Give Stormbringer Neutral Hostile Lightning Shield instead of the Orc one." )
+	call Preload( "- Make Eredar Warlock available as second hero." )
+	call Preload( "- Replace Charm for Sea Giant with Monsoon." )
+	call Preload( "- Remove Goldmine and hidden base from the mountain because of the new boss." )
+	call Preload( "- Change some mounts and recommended starting locations." )
+	call Preload( "- Fix Dreadlord and Death Knight creeps respawning together with their bosses." )
+	call Preload( "- Add Fel Orcs to Orc AI." )
+	call Preload( "- Let Fel Peons build Fel Burrows, Pig Farms and Dragon Roosts." )
+	call Preload( "- Replace Dark Conversion with Reanimation for Lich King building." )
+	call Preload( "- Add special building Arcane Observatory to Humans." )
+	call Preload( "- Add auto summoned mercenaries for AI Freelancers." )
+	call Preload( "- Add special building Book of Summoning Pedestal to Demons." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

@@ -1,0 +1,23 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Power Generator can only be built next to a town hall." )
+	call Preload( "- Remove all buffs from the dummy which is used to get the base defense and level for Evolution." )
+	call Preload( "- Remove profession item of profession 2 when repicking the hero." )
+	call Preload( "- Add auto crafting for AI heroes but give AI only Herbalism and Alchemy for the start." )
+	call Preload( "- Fix fog distance." )
+	call Preload( "- Fix Evolution effect for summoned unit instead of summoning unit." )
+	call Preload( "- Fix Evolution level bug." )
+	call Preload( "- Create Evolution dummy outside of the map and add spell immunity to avoid negative armor." )
+	call Preload( "- Fix auto voting yes for the player who starts the votekick." )
+	call Preload( "- Votekick needs more than the half of votes to kick and not half only." )
+	call Preload( "- Fix DropAllItemsFromHero which did not drop the last item" )
+	call Preload( "- Add Starfall and mana to Power Generator." )
+	call Preload( "- Enable "-far" from start." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

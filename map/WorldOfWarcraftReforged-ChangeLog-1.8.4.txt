@@ -1,0 +1,18 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix skilling Rain of Fire for Pit Lord for The Burning Legion." )
+	call Preload( "- Do not instantly kill summoned units when Evolution has been researched." )
+	call Preload( "- Fix hero skills for Undead AI." )
+	call Preload( "- Use a fixed item table for item drops of creep spots." )
+	call Preload( "- Simplify entering arena message." )
+	call Preload( "- Add "-race2" chat command at hero level 30 to choose a second race for Warlords." )
+	call Preload( "- Fix conditions for "-profession2"." )
+	call Preload( "- Add chat command "-fullrepick" which removes 3/4 of your XP but allows you to change the game mode." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
