@@ -1,0 +1,24 @@
+- Only increase the unit levels from Evolution every 10 levels.
+- Increase unit defense by 1 from Evolution every 10 levels.
+- Translate tooltips of item type Full Vial back into English.
+- Death Knight has Animate Dead as ulti now.
+- Kil'jaedens Chaos Stone cannot be sold anymore.
+- Add chat commands "-deathsoundson" and "-deathsoundsoff".
+- Update and fix AI scripts thanks to Runeblade14.
+- Life and mana regeneration auras of citizens do not stack anymore.
+- Dark Ranger and Evil Sylvanas get Dark Portal replaced with Black Arrow.
+- Remove True Sight from bonus hero Lich King.
+- Use correct unit type for bonus hero Magtheridon.
+- Add timed life of 60 seconds to Demon Master and reduce the cooldown to 100 seconds.
+- Add Night Elf quests 1 and 2 to the chat command "-ping".
+- Remove global sound effect from Demon Master since it hints what is going on in hidden areas and it is annoying.
+- Add bonus hero Medivh.
+- Dark Ranger andEvil Sylvanas get Unholy Spirits replaced with Charm.
+- Charm instantly kills worker units instead of changing their owner to prevent building a base with another race.
+- Fix Auto Repair icon for Power Generator.
+- Fix creep unit level and defense from Evolution.
+- Add upgrade Improved Power Generator.
+- Add voting for AI respawn in the beginning of the game.
+- Add item Alliance with the Burning Legion to the Power Generator.
+- Add votekick chat commands.
+- Add item Pickpocketing.

@@ -1,0 +1,178 @@
+- Fix AI recreation of town halls for: Naga, Blood Elf, Demon and Draenei.
+- Add condition to avoid building multiple town halls for Blood Elf and Demon AI.
+- Allow Death Coil to target the hero himself.
+- Add Blood Elf Workshop with additional new unit types Ballista and Cage.
+- Fix the Forsaken Quest 4.
+- Add Lich King Quest 4.
+- Add talk to me special effect to the Lich King from the start.
+- Fix enabling Lich King Quest 4.
+- Decrease Blizzard damage of Runeblade.
+- Add Improved Siege Weapons upgrade to Blood Elves.
+- Add Burning Oil upgrade to Blood Elves.
+- Blood Elf Wagons and Cages can only transport organic units.
+- Increase the transport size of Blood Elf Wagons and Cages to 4.
+- Fix capturing of Blood Elf Cages.
+- Add food cost to Blood Elf Cages.
+- Improve the bonuses of Crown of the Lich King.
+- Add new unit types and upgrades and the Workshop to the Blood Elf AI.
+- Increase maximum unit level to 200.
+- Add Draenei Haven to auto revival for AI.
+- Add Portals.
+- Blood Elf Lieutenant is affected by Evolution.
+- Evolution HP bonus is not increased with every level.
+- Evolution requires Templet Blueprints.
+- It should be possible now to walk around the Fountain of Blood.
+- Summoned Doom Guard is affected by Evolution.
+- Tiny Great Hall will always build a Great Hall.
+- Fix level bonuses from Evolution of trained, summoned and respawning units.
+- Add Select Unit later to Mercenary Camp for Lich King Quest 4 to enable sold units.
+- Fix defense in tooltip of item Cloak of Flames.
+- Restrict to classic graphics again to avoid lagging players.
+- Readd increment to upgrade Evolution.
+- Allow allying and unallying computer AI.
+- Add chat commands to change alliances.
+- Only allow setting destinations to fully constructed Portals.
+- Reset summoned mount on repick.
+- Fix Lich King quest 4 Demon spawn after hiring Draenei units.
+- Reduce duration and cooldown for Divine Shield.
+- Add upgrade Temple of Demigods Blueprints to the AI.
+- Add Hand of God as ability to the Tier 3 halls.
+- Allow upgrading Evolution in Guardian
+s Citadel already.
+- Remove ground texture from Guardian's Citadel.
+- Hand of God requires Hero Level 35 upgrade.
+- Improve Demon AI: More Imps, more gold collecting Imps and lumber harvester and purchase a Zeppelin on attacks and use the mount if it exists.
+- Upgrade Spirit Walker research to level 2 and Orc backpack for Orc AI.
+- Upgrade Evolution to level 100 for AI.
+- Fix Demon citizen tooltips.
+- Add Portal abilities to Hideouts.
+- Add Sunstrider Isle with Goldmine.
+- Add Goblin Laboratory to Sunwell.
+- Add Black Market to Northrend.
+- Add Goldmines to Archimondes location.
+- Fix Night Elf AI to build Chimaera Roost and less Moon Wells.
+- AI builds one Portal.
+- Fix hotkeys of Portal abilities to avoid same hotkeys as Hideout abilities.
+- Add Hideout info to the Portal abilities tooltips.
+- Only Advanced Boulder Towers for Draenei AI.
+- Add missing upgrades to Night Elf AI.
+- Less towers and frost towers for Undead AI.
+- Less Blacksmiths and Houses for Human AI.
+- Less workers and exact numbers of gold and wood workers for Human AI.
+- Less workers, Houses and more Towers for Naga AI.
+- Fix the bridge model for Sunstrider Isle.
+- Archimonde boss causes Chaos damage.
+- Add Waygate ability to Hideout buildings.
+- Empty Vial has an English tooltip now.
+- Remove Monsoon Ulti from Alchemist.
+- Remove Elf Runner from Sunstrider Island Mercenary Camp.
+- Disable abilities for AI Portals to avoid crashes.
+- Add Eredar Warlock as selectable hero.
+- Move Dreadlord to the Demon heroes.
+- Move Dark Ranger to the Undead heroes.
+- Switch Dreadlord with Dark Ranger in the Undead AI.
+- Add Eredar Warlock to the Demon AI.
+- Fix Akama hero for Draenei AI.
+- Disable Portals for AI to prevent game crashes.
+- Add Scout Towers to Human AI to allow upgrading them to Watch Towers.
+- Reduce initial attribute for Eredar Warlock.
+- Disable Splash damage for Eredar Warlock.
+- Reduce base damage for Eredar Warlock.
+- Create loop to fix number of workers for Demon AI.
+- Add second attack for harvesting trees to Demon Imps.
+- Move Doodads at Sunstrider Island to make more space.
+- Add more descriptions for Bonus Heroes.
+- Reduce Eredar Warlock initial life, mana, life regeneration and mana regeneration.
+- Add life and mana regeneration auras to Blademaster of Blackrock Clan.
+- Make Portals unavailable for AI.
+- Remove commented lines for portals from AI scripts.
+- Add more basic towers to AI scripts which can be upgraded.
+- Drop Skull of Gul'dan on hero death.
+- Add 3 gold workers per housing to Demon and Blood Elf AI.
+- Demon Parasite uses Unholy Strength and Armor from Demon instead of Undead.
+- Translate Forked Lightning, Tornado, Robo-Goblin, Transmute and Stampede into English from German.
+- Make more space for the base at the World Tree.
+- Finger of Death of Eredar Warlock can target non-heroes.
+- Decrease the chance for Bash of Eredar Warlock by 5 for every level.
+- Try to close a gap between trees in Ashenvale.
+- Try to move creeps in the Arch Lich dungeon away from the border.
+- Fix number of Ziggurats for Undead AI.
+- Fix message when Hand of God becomes available.
+- Fix enabling/disabling the bridge at Sunstrider Isle.
+- Increase space at Sunstrider Isle.
+- Cobra Wards and Zerberus do not cause Chaos damage anymore.
+- Increase the cooldown with higher levels of Serpent Ward.
+- Increase cooldown of Hex and decrease the duration for regular units.
+- Increase cooldown of War Stomp.
+- Immediately hide Demon buildings without proper death animation.
+- Draenei buildings and Engineer towers require Ground-pathable pathing to be build.
+- Set fixed number of workers, buy Zeppelin and attack with mount for all AIs.
+- Give Slyvanas Evil bonus hero Invisibility ability.
+- Give Lich King bonus hero Berserk ability.
+- Give Tichondrius bonus hero Invisibility ability.
+- Add all hero descriptions for bonus heroes.
+- Add missing mount unit types to AI scripts.
+- Add initial Draenei unit upgrades.
+- Increase number of workers matching the housings.
+- Add game mode selection in the beginning of the game with the initial game modes: Normal, Fast and Hardcore.
+- Fix the exact level for Evolution for existing units by creating a dummy with the original level next to the unit.
+- Game mode hardcore uses handicap to increase the creep HP instead of Evolution.
+- Add player The Burning Legion with a base around Archimonde to make the game more interesting.
+- Do not allow to change alliances to every player.
+- Disable town hall recreation for AI in hardcore game type.
+- Add custom minimap preview.
+- Draenei Demolishers are affected by Draenei damage/armor upgrades.
+- Salamanders get Devour even though they have to research for it.
+- Draenei Thorium Ranged Weapons and Thorium Unit Armor have no requirements anymore.
+- Fix the trained unit types of Draenei.
+- Increase HP of Draenei shops.
+- Decrease the handicap of creeps in hardcore gametype from 500 % to 200 %.
+- Fix setting the rect for creep spawns which are based on existing units which fixes not respawning them when buildings are around.
+- AI revives all dead heroes at random altars which should help the Burning Legion to revive their heroes.
+- Try to fix alliance chat commands by setting all aspects.
+- Move the portal to Archimonde to Outland.
+- Add a portal description to the Archimonde Portal.
+- Move the lever on Sunstrider Isle.
+- Remove a Doodad on Sunstrider Isle to make more space.
+- Fix Pit Lord Rain of Fire ability code for AI.
+- Fix Tauren Chieftain War Stomp ability for AI and change the ability in object data.
+- Give Undead and Night Elf AI a gold harvesting bonus of 10.
+- Always drop the Mask of Death when Orc quest 3 is enabled and not completed.
+- Translate tooltips of Volcano back into English.
+- Finger of Death of Eredar Warlock can only target enemy and neutral but no allies anymore.
+- Fix the chance in the Bash tooltip of Eredar Warlock.
+- Translate tooltip of ability Infernal back into English.
+- Fix formula for Evolution level.
+- Increase attack dices by 1 per Evolution level.
+- Fix skilling of hero ability Shadow Word Death for Death Knight in Undead AI.
+- Give all races a lumber harvest bonus of 10 for AI.
+- Move Outland creeps away from the Naga base.
+- Fix automatic recreation of the town hall of the Burning Legion.
+- Move the creeps away from the base of the Burning Legion.
+- Translate Chemical Rage back into English.
+- Add Summon Wyvern Mount to Alchemist.
+- Add Summon Wyvern Mount, Invisibility and Attribute Bonus to Alchemist morph form.
+- Give Rexxar Storm Bolt of Mountain King.
+- Translate tooltip of Summon Bear back into English.
+- Fix the duration for the last 3 levels of Inferno.
+- Translate tooltips of Summon Hawk back into English.
+- Translate tooltips of Summon Quilbeast back into English.
+- Fix Eredar Warlock Bash tooltips.
+- Increase attack damage and not dices with Evolution.
+- Increase target levels by 1 and make the final level 100 for Transmute and Doom.
+- Improve the Infernal unit for the ability Inferno and increase AOE and stun duration.
+- Make AI upgrades for lumber and gold harvesting affect workers.
+- Increase AOE of Blizzard, Flame Strike, Frost Nova, Healing Spray and Cluster Rockets with every level.
+- Translate tooltips of Healing Spray back into English.
+- Move the Northrend portals and increase their area to avoid blocking.
+- Replace strong Demon creeps at The Burning Legion's base with Draenei creeps.
+- Goblin Laboratory sells Magical Cutter to cut down trees.
+- Increase the Evolution attack damage bonus from 1 to 2 and increase the maximum mana as well.
+- Increase Evolution for creeps only every 5 hero levels to keep the creep levels lower and the creeps a bit weaker.
+- Increase collected resources with game type fast.
+- Add game type descriptions to the dialog.
+- Show the game type in the quest title.
+- Change number of players to 23 in the map description.
+- Add delay to game type fast to finish the construction of a building.
+- Increase the hero revival speed in game type fast.
+- Fix portals.

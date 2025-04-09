@@ -1,0 +1,8 @@
+- Fix skilling Rain of Fire for Pit Lord for The Burning Legion.
+- Do not instantly kill summoned units when Evolution has been researched.
+- Fix hero skills for Undead AI.
+- Use a fixed item table for item drops of creep spots.
+- Simplify entering arena message.
+- Add "-race2" chat command at hero level 30 to choose a second race for Warlords.
+- Fix conditions for "-profession2".
+- Add chat command "-fullrepick" which removes 3/4 of your XP but allows you to change the game mode.

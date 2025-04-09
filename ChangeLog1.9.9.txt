@@ -1,0 +1,25 @@
+- Save XP of hero 2 in savecodes.
+- Replace bugged Frost Armor ability of Crown of the Lich King by Item Attack Frost Bonus.
+- Fix soundset of bonus hero Medivh.
+- Give bonus hero Malfurion Invisibility and Summon Mount abilities.
+- Remove ability Spell Immunity from bonus hero Wizard. Otherwise, it would take too many slots.
+- Add missing learn tooltips to ability Summon Sea Elemental of bonus hero Admiral Proudmoore.
+- Try to revive Illidan immediately before changing his ownership to avoid a bug while he is being revived.
+- Make items in backpack always droppable to fix the drop bug with Illidan's Ring of the Dark Legion.
+- Increase the produced food of Hideouts and all upgraded versions from 25 to 55.
+- Add ability Invisibility to bonus hero Anasterian Sunstrider.
+- Fix ability Storm Bolt in the description of bonus hero Rexxar.
+- Turtle Shell and Frostmourne use fixed defense and attack type values now to avoid bugs.
+- Remove Neutral Citizen Female from Goblin Laboratories to get the Reveal slot back.
+- Add new boss Murloc Sorcerer on a new island with creeps.
+- Add Gnomish Submarines.
+- Replace Taunt of hero Mountain Giant with Hurl Boulder.
+- Replace War Club of hero Mountain Giant with Demolish.
+- Add note how to repick your second hero when picking him/her.
+- Add new boss The Eye of Sargeras on a new island with creeps.
+- Add Boss Fight Island.
+- Fix mount in description of Brewmaster, Tinker and Alchemist.
+- Change recommended start location of Pit Lord to Outland.
+- Crystal Ball is sold by Power Generator.
+- Add new fixed computer player The Alliance.
+- Add shorter path from Outland start base to boss Kil'jaeden.

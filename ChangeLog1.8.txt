@@ -1,0 +1,127 @@
+- Replace creep Akama with hero who is not invulnerable.
+- Respawn level 22 Dreadlord in Azeroth.
+- Revive creep heroes instead of recreating them to keep their XP.
+- Add extra player Bosses for creep heroes to revive them and reduce the number of players to 22.
+- Respawn creep bosses.
+- Reduce the chance of dropping items for creeps.
+- Disable wrong Evolution available message.
+- When a player leaves make him ally with full shared control to all players and drop all of his items on Theramore, so quest items from the backpack won't ever get lost.
+- Replace mount on summoning it.
+- Show some feedback as game message when using the alliance chat commands.
+- Profession books use shared cooldown again to prevent cooldown reset.
+- Add function GetPlayerNameColored  and use it for the player name of the killing player for bosses and leaving players.
+- Do not create a start base for Bosses.
+- Fix tooltip of Shadow Word Death.
+- Add AI resources bonus to Blood Elf workers.
+- Fix gold AI bonus for Night Elf.
+- Magical Cutter has 1 charge but is 3 times in stock.
+- Increase the map size to make it equal width as height again and fill the areas with water.
+- Use custom unit type for Undead non-AI goldmines to add gold bonus to the regular ones.
+- Do not enable Demon Fire by default to fix technology requirement.
+- Add missing technologies to Blood Elf AI.
+- Blood Elf Archer, Worker and Swordsmen is affected by Evolution now.
+- Make more space on Sunstrider Isle.
+- Reduce gold bonus for Undead and Night Elf AI from 10 to 5.
+- Start with full number of lumber workers for AI.
+- Add chat commands like "-friends".
+- Change icon of the Magical Cutter.
+- Add item Magical Creep Summoner to respawn dead creeps.
+- Add new profession "Sorcerer".
+- Add second profession selection at hero level 25.
+- Decrease the cooldown of Blink with every level.
+- Fix the number of Avatars in the tooltip of Vengance.
+- Fix registering dialog button events for higher player numbers.
+- Translate tooltips of Frost Armor back into English.
+- Add new profession "Runeforger".
+- Add new profession "Dragon Breeder".
+- Sorcerer crafts now a Wand of Reanimation.
+- The Illusion summoned by the Sorcerer's Wand of Illusion causes 10 % damage.
+- Fix resources bonus upgrade for game type fast.
+- Add checks before changing the construction and upgrade progress in game type fast.
+- Disable fast hero revival in game mode fast to avoid game crashes.
+- Add new hero "Furbolg Ursa Warrior".
+- Make Akama hero in hero selection invulnerable.
+- Add custom hero glow to Eredar Warlock and Furbolg Ursa Warrior.
+- Blood Elf Castle requires Altar of Kings now insteadof of Blood Elf Lumber Mill.
+- Add Hand of God to Blood Elf Castle.
+- Green Dragon Egg summons a Green Dragon now instead of a Green Drake.
+- A leaving player is still hostile to Neutral Hostile, The Burning Legion and Bosses players.
+- Add new building "Power Generator" to protect your main base.
+- Add percentage of damage bonus to the tooltip of Command Aura.
+- Add new race "Furbolg".
+- Make Furbolg Tribal Center a tier 1-3 and altar equivalent.
+- Furbolg Huts produce 20 food now.
+- Add more heroes to the hero equivalent in the gameplay constants.
+- Reset hero ability skip level from 3 to 2.
+- Remove spiders from the Furbolg Cage to reduce the number of possible units.
+- Increase defense and hitpoints of Furbolg buildings.
+- Change classification of the Furbolg Tribal Center to town hall.
+- Add Furbolg Backpack upgrade.
+- Add Naga Backpack upgrade.
+- Swap crafted items for Advanced and Adept for profession Runeforger.
+- Increase collision and pathing of the Furbolg Tribal Center.
+- Add Battle Stations to Furbolg Huts.
+- Add warrior upgrades to Furbolg Barracks.
+- Reduce the number of Polar Furbolgs to be available for the race Furbolg.
+- Rename Furbolg Cage to Wolves Cage.
+- Replace abilities of Furbolg Ursa Warrior and remove Chaos damage.
+- Add ability Ensnare to the Furbolg Trackers against air units.
+- Remove Chaos damage from Furbolg Elder Shaman.
+- Add Devour to Giant Wolf of Furbolg.
+- Add upgrades for Furbolg Shamans.
+- Massively reduce the range of the Power Generator.
+- Reduce the defense bonus of the Power Generator to 7.
+- Reduce the damage of Draenei units.
+- Add Book of Mercenaries for Freelancers to summon units depending on the current area.
+- Add hotkeys and fix icon positions for Furbolg buildings.
+- Fix tooltips of Furbolg upgrades.
+- Increase the priority of the Power Generator.
+- Change icon of Corruption.
+- Change unit skin of Corruption.
+- Add inventory ability to more Furbolg units.
+- Add chat commands "-far", "-close" and "-camdist X".
+- Add Lumber Camp to Furbolg.
+- Add upgrades for abilities to Furbolg.
+- Remove Chaos damage from Furbolg Champion.
+- Add Corruption to Furbolg Shamans.
+- Add Shadow Meld to Furbolg buildings.
+- Add Auto Repair aura to Power Generators.
+- Add two more abilities to the Freelancer book.
+- Add neutral passive buildings to Archimonde's area.
+- Add chat command for hero suicide.
+- Add Give Units to another Player and Reward Freelancer to Furbolg Tribal Center.
+- Add tower limit to Furbolg towers.
+- Fix some icons and requirements for the Furbolg race.
+- Add housing limit to Furbolg housings.
+- Use custom target locations per Outland portal to improve path finding.
+- Fix setting 3 heroes for the Burning Legion AI.
+- Disable Carrion Beetles for Anub'arak NPC.
+- Translate tooltip of Carrion Beetles into English.
+- Kill neutral hostile units in the Maelstrom.
+- Set unit level of Boss Kil'jaeden to 60.
+- Use Archimonde boss as guard of the Burning Legion base.
+- Reset cargo hold number for Gobiln Zeppelins from 3 to 8.
+- Reset level skip requirement for ability Shadow Word Death.
+- Replace Dreadlord Inferno with Rain of Chaos.
+- Change owner of creep spot Akama to Bosses to fix hero revival.
+- Remove buff from custom hero glow ability.
+- Fix counting of Blood Elf and Demon town halls and of Draenei Boulder Towers and Fortified Infernal Juggernauts for AI to reduce the number of buildings.
+- Fix counting of Blood Elf Scout Towers.
+- Make more space at the Burning Legion base.
+- Add food cost, increase gold cost and add tooltips to the Captain available in Sunstrider Mercenary camp.
+- Allow Evolution at hero level 20 instead of 30.
+- Make Harpy Queen invulnerable from start.
+- Fix The Burning Legion AI by removing constants for farms and towers.
+- Add Goblin Laboratories to both Northrend bases.
+- Remove repick time limit.
+- Reset buff to Hero for custom hero glows.
+- Fix Undead and Night Elf AI building a Power Generator.
+- Archimonde is owned by Bosses.
+- The Burning Legion and Bosses are neutral now.
+- Add more forces to let players start allied to each other.
+- Add Death Knight and Paladin heroes to Bosses for quests.
+- Reduce cooldown and duration of Divine Shield to avoid endless waiting.
+- Reduce chances for Bash but increase damage and stun duration a bit per level to avoid endless stunning.
+- Make Evolution available and use it for creeps at hero level 10.
+- Upgrade creeps every 10 hero levels at once.
+- Evolution adds more HP, attack dices and mana to units per level.

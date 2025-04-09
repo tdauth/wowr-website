@@ -1,0 +1,123 @@
+- Change the game data set to the latest patch.
+- Add Attribute Bonus to all bonus heroes.
+- Add mount abilities to all bonus heroes.
+- Change damage and defense type of all bonus heroes to Hero.
+- Show the player leaves message to all players.
+- Fix translations and tooltips of Guardian and Destroyer hero abilities.
+- Lord Garithos' Avatar has 9 levels.
+- Lord Garithos' Shockwave has 12 levels.
+- Archimonde has his original Dark Portal ability with 12 levels.
+- Gul'Dan has Hero damage.
+- Change Finger of Death of Lich King.
+- Mannoroth's Reincarnation has 9 levels.
+- Replace Mannoroth's Earthquake with Demon Master.
+- Kill existing Mount when summoning a new one.
+- Berserk does not require any upgrade anymore.
+- Fix setting udg_Hero for computer-controlled heroes.
+- Hideout buildings work as Tier 1 - 3 now which increases the XP rate for the hero.
+- Change hero abilities of Admiral Proudmoore to the ones from the campaign.
+- Let computer players revive their hero automatically in a random Altar every 15 seconds.
+- Update information quests for new features and hero selection.
+- Use variables for races in the trigger editor.
+- Remove the Fountain of Life on Theramore for AI which is Warlord.
+- Recreate Undead town hall for AI.
+- Remove Goldmines, citizens and housings from Night Elf and Undead AI to fix progressing.
+- Rename some variables into English.
+- Undead AI starts with 3 Acolytes and 1 Ghoul.
+- Fix using variables for races.
+- Move start locations of AI closer to goldmines.
+- Fix completing Night Elf quest 4.
+- Increase cooldown of War Stomp with higher levels to avoid permanent stuns.
+- Night Elf AI creates less Trees of Life.
+- Use fixed races set in the lobby for computer player Warlords.
+- Add portal to Theramore.
+- Improve Warlord AIs: Remove spell breakers, add more upgrades and less units and buildings.
+- Remove ability Invisibility from AI heroes.
+- Add lever to enable/disable the bridge at Khaz Modan.
+- Do not use Town Hall Outland 4 position for AI.
+- Add note to item Tiny Hideout that it can only be used by Freelancers.
+- Add more notes to the quest log about repicking.
+- Do not allow repicking while having control over Illidan.
+- Translate the tooltip from German to English of the Demon building "Dungeon of Pain".
+- Fix tooltip of Murloc Hut.
+- Add Naga AI.
+- Reduce the number of units from the final waves for all AIs.
+- Add links to Discord and Hive to the quest log.
+- Fix setting summoned Mount correctly.
+- Fix disabling Illidan for the repick block when completing the quest.
+- Make Undead Head (Trophy) droppable and invulnerable.
+- Translate item Heart of the Harpy Queen into English.
+- Heart of Aszune can heal now.
+- Fix wait in final attack wave of Naga AI.
+- Add Blood Elf AI.
+- Remove Chaos damage from Naga units.
+- Add Hideouts to the requirement tooltips for tiers.
+- Fix creep respawn rect of group 141 which removes creeps from the center of the Maelstrom.
+- Move some Dragons away from the goldmine in Azeroth.
+- Remove some trees at the entry of the goldmine at the Tree of Life.
+- Dragonhawk Rider does not cause Chaos damage anymore.
+- Mention upgrade "Blood Elf Animal War Training" in the tooltip of Dragonhawk Riders.
+- All heroes have now Any Tier 2/3 Hall as requirement and no Altar which fixes the tier XP bonus.
+- Make Spell Breakers and Control Magic unavailable to Human.
+- Translate Cleaving Attack tooltip into English.
+- Translate Howl of Terror tooltip into English.
+- Massively reduce the percentage of Cleaving Attack to a maximum of 150 % instead of 300 %.
+- Add many more upgrades to the Human, Orc Blood Elf and Naga AI.
+- Let Orc AI train Spirit Walkers.
+- Reduce the number of attacking units of the final wave for Human and Orc AI.
+- Add Sorceress to Blood Elves.
+- Update game information.
+- Add Akama as selectable hero.
+- Add  initial Draenei race.
+- Fix hero skill levels of Akama.
+- Fix removing quest effect from Illidan after completing the 4th quest in Outland.
+- Fix storing Illidan's owner to prevent repicks.
+- Add upgrades to Undead and Night Elf AI.
+- Reduce the number of units of the final waves of Undead and Night Elf AI.
+- Fix upgrade levels of several AIs.
+- Replace the ability of the item Shield of the Undercity Forge with a Death Coil based ability instead of a Holy Light based ability.
+- Fix Hideout gold cost to 1000 gold (makes Fortified Hideout cheaper).
+- Fix gold repair costs of all hideout tiers.
+- Fix requirement of Sorceress Master Training to any tier 3 to make it work for Blood Elf.
+- Human and Blood Elf AI upgrades Masonry to level 3 now instead of only level 2.
+- Increase the cooldown of Demon Master.
+- Fix icon dependency of Animal War Training for Blood Elf.
+- Fix giving profession items to Warlord AI instead of creating the item at the map's center.
+- Store player profession and race as integer variable.
+- Prevent picking up a profession and race item which does not belong to the player by checking the integer variable.
+- Remove profession and race item on repick from the backpack correctly.
+- Paladin
+s Head (Trophy) can be dropped.
+- Only summon 2 permanent Sappers for Engineering - Adept instead of 2 permanent and 2 limited.
+- Disable Charm for summoned units to prevent taking over other workers and building a base.
+- Do not allow becoming a Demigod when controlling Illidan.
+- Give feedback which Dragons are missing when becoming a Demigod.
+- Add note about +10 fire damage bonus to the tooltip of Mithril Long Sword.
+- Add note about +12 lightning damage bonus to the tooltip of Blessed Dragon Lance.
+- Change the hotkey of Light of Righteousness to U to avoid collision with the hotkey of Gate.
+- Use a custom unit type for the Bonus Hero Sylvanas to avoid sold unit types.
+- Fix Akama hero type when selecting him as hero.
+- Change number of centaurs in tooltip of item Totem of Thunder Buff to 7.
+- Demigod heroes gain XP bonus from tiers.
+- Drop Maghteridon's Heart from killed heroes.
+- Reduce life regeneration from 20 % to 10 % for the quest reward item of Night Elf quest 2.
+- Turn global distribution of hero XP on.
+- Add tiny town hall items to Warlords in the beginning.
+- Translate tooltips of Death and Decay into English.
+- Reduce the percentage of Death and Decay.
+- Do not reduce the cooldown for Avatar for higher levels.
+- Cold Arrows has 12 levels now instead of 3.
+- Fix the tooltips of Unholy Spirits.
+- Increase the cooldown of Impale with each level to avoid permanent hero stuns.
+- Increase the cooldown of Hex with each level to avoid permanent hero hex.
+- Do not create profession items for AI.
+- Increase the boss unit levels to prevent AI from attacking them as creep camps.
+- Change color of Archimonde to boss colors.
+- Add Outland boss Kil'jaeden with legendary artifact Skull of Gul'dan.
+- Add name Archimonde to the victory condition text.
+- Add initial Demon AI with either Dreadlord of Pit Lord as starting heroes.
+- Remove Forgotten One building and Demon Monster unit from race Demon.
+- Add Blood Elf Lieutenant to Blood Elves.
+- Add unit Wagon to Blood Elves.
+- Fix hero selection info for Akama.
+- Add Draenei AI with Akama as hero and with a 50 % chance to by used by Orc players.

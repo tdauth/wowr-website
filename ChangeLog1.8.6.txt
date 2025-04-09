@@ -1,0 +1,30 @@
+- Disable researching creep Evolution when The Burning Legion increase their hero levels.
+- Make sure Evolution becomes available for The Burning Legion.
+- Change victory requirement voting from chat command to dialog.
+- Increase item charges to 3 for crafted items from Runeforger and Sorcerer.
+- Increase item charges to 2 for crafted items from Dragon Breeder.
+- Add VIP room for VIPs.
+- Add special VIP items for VIPs.
+- Make WorldEdit a VIP by default to allow testing it.
+- Allow secret chamber for VIPs from the beginning.
+- Disable bonus hero picking for heroes with low level (if they entered using a teleport ability).
+- Fix learn icon position of Town Portal from Medivh.
+- Add Black Markets and Goblin Laboratories to all goldmine bases in Outland since the creeps between bases are pretty strong.
+- Add Embassy of Theramore which sells race scepters.
+- Add Tavern of Theramore which sells profession books.
+- Fix flying height of Medivh in Raven Form.
+- Add timed life buff for Last Alliance summons from all Raven Forms of Medivh.
+- Fix making Legendary Artifact vulnerable after killing boss Nether Dragon.
+- Reduce healing effect of the item Stonemaul Arena Master Belt.
+- Add chat commands "-aion/off" to enable/disable AI of allied players.
+- Add random event item to Power Generator which starts random raids on the map.
+- Add Neutral Citizens for Freelancers to the Goblin Laboratory.
+- Translate tooltips of Charm, Wind Walk and Brilliance Aura from Medivh's Spell Book back into English.
+- Limit every hero type per player to 1.
+- Limit total heroes of a player to 3 (including backpack).
+- Add Tavern of Outland to hire an additional hero at level 50.
+- "-suicide" kills all selected player units.
+- Fix icon positions of Shadow Strike for Akama hero.
+- Add Furbolg AI support for Night Elf.
+- Rename quest entry Secret Chamber to Bonus Heroes.
+- Add Engineer profession to AI.

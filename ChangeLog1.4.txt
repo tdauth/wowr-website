@@ -1,0 +1,142 @@
+- Hand of God at level 35.
+- 24 Players support.
+- Outland Start Position.
+- Outland Portals.
+- Outland Creep Spots.
+- More English Translations.
+- Fixed research dependency for Backpack of Demons.
+- Maiev will be revived.
+- Fixed enabling control over Illidan.
+- Made the Lich King much stronger.
+- Made some quest items invulnerable.
+- Improved hero selection camera.
+- Repicking in the repick area does not reset the level to 1 anymore.
+- Added research to improve infernals from the Hand of God.
+- Added demigod research to the large demon gate.
+- Increase the number Demons summoned by Demon Master.
+- Added upgrade for the hideout to improve the armour and hit points.
+- Add spellbook for hideout.
+- Reset hideout flag on repicking.
+- Hideouts produce more food.
+- Fixed some icons.
+- Fixed duration of big bad voodo.
+- Added Draenei quest.
+- Fountain of Life produces more food.
+- Increased repick time limit to 60 seconds.
+- Repicking is not allowed when enemies are withing a certain range.
+- Players can give units to another allied player (except buildings, workers and heroes).
+- Changed next and previous icons.
+- Fixed Imp tooltips.
+- Fixed items sold by Obelisk (items for Demons only).
+- Added real marketplace to Theramore.
+- Drop all items on repicking and move them to Theramore.
+- Support quest chat commands for all 24 players.
+- Added random hero support.
+- Repicking is allowed on Theramore when enemies are next to your hero.
+- Fixed message of Jaina's mana restoration.
+- Demon main buildings are considered for the Lich King quest 3.
+- Simplified prevention of construction of hideouts.
+- Readded camera pan after hero selection.
+- Added all players to the undead killing leaderboard (because of possible repicks).
+- Freelancers gain more experience from killing units.
+- Repicks do not allow rechoosing the game mode.
+- Fixed dropping quest items even from backpacks on hero deaths.
+- Fixed Sylvana's quest completion with the Orcish Corpse.
+- Magtheridon does not heal anymore when he becomes hostile.
+- Disable Illidan's immolation since it damages other units.
+- Refresh backpack icon when becoming a demigod to keep the hero icon below the icon of the actual hero.
+- Set udg_Hero correctly when becoming a demigod.
+- Add some English translations.
+- Show a message how to revive your hero when he/she dies for the first time.
+- Fix bug Champion Belt reincarnation bug: https://github.com/tdauth/wowtsr/issues/88
+- Fix villager icons and soundsets.
+- Fix Fish Market English tooltip.
+- Neutral hostile buildings belong to neutral passive now.
+- Basic Computer-controlled AI.
+- Better description on the loading screen.
+- Hide mount abilities in hero selection.
+- Chat command '-players'.
+- Naga can build Murlock Hut with researches.
+- Add magic circle for Illidian's control.
+- Lich King is neutral passive in the beginning.
+- Lich King's crystal gets neutral hostile when it becomes vulnerable.
+- Do not pause Lich King in the beginning of the game.
+- After losing control over Illidan drop his item from slot 2 as well.
+- Add hint for LichKingQuest3 for non-Undead heroes.
+- Only allow completing LichKingQuest3 when destroying the town hall of an enemy.
+- Legendary artifacts are moved to the initial locations when the hero dies.
+- Add JASS function "DropQuestItemFromHeroAtRectByDyingUnit".
+- Add cheat "-revive".
+- Do not use JASS function "UnitRemoveItemFromSlot" in "DropQuestItemFromHeroAtRect" anymore which led to dropping the item.
+- Fix JASS functions "DropBackpackForPlayer" and "DropQuestItemFromHeroAtRect" for items which are visible on a page which has not been changed yet.
+- Reduce black area in Outland.
+- Restore something like the old hero selection.
+- Show supply limit message on "-give" command only once.
+- Show info message where items are dropped on repick.
+- Show player colors in chat command "-players".
+- Do not revive Maiev anymore after capturing her.
+- Show hint after choosing the hero to choose a portal.
+- Male citizens are classified as workers to fix the computer AI.
+- Improve the Human AI to build more buildings and units.
+- Support all human heroes for the Human AI.
+- Create AI main buildings etc. in the beginning.
+- Translate armoring abilities back into English.
+- Hero revival does always take only 30 seconds.
+- Improve the description on the loading screen.
+- Do not destroy the backpack trigger when a player leaves or repicks the hero.
+- Do only remove the backpack unit if it has already been created.
+- Fix the color of Orc citizens.
+- Fix highlighted hotkeys of Beast Master abilities.
+- Limit the number of towers for all races.
+- Automatically reconstruct the townhall for computer players when necessary.
+- Disable slow chopping for the AI to collect more resources.
+- Wait before launching AI attacks.
+- AI builds upgrades as well.
+- Use constants in AI script.
+- Add support for Orc AI.
+- Add support for Night Elf AI.
+- Hero selection has been moved to the Outland area.
+- Add note for Outland that it contains very strong creeps.
+- Give goldmines which human players would use a lower priority for computer players.
+- Add hero to the attack groups for computer AIs.
+- Add secret chamber at level 40 with special heroes.
+- Fix restoring XP on repick.
+- Allow all random AI races again.
+- Translate Dark Portal back into English.
+- Translate Unholy Spirits back into English.
+- Classify Undead housing as Undead.
+- Make Kel Thuzad invulnerable in secret chamber.
+- Share full control with allies when a player leaves.
+- Goblin laboratory sells lumber.
+- Add initial "-ping" command.
+- Citizens can construct harbours.
+- Ships and the Goblin Zeppelin cost food to keep the number of units lower.
+- Stock gets killed creep unit types and dropped item types.
+- Undead housings can be used as Undead goldmines.
+- Fix black mask for secret chamber.
+- Fix events for "-paladinson" and "-paladinsoff" (all 24 players).
+- Orc quest 4 requires 7 kills now not 6 (like in the quest description).
+- Fix turning off leaderboard for Orc Quest 4.
+- Add only playing users to leaderboards.
+- Fix title of leaderboard for slain Undead heroes.
+- Player "Barade" can enter secret chamber.
+- Remove tower limit.
+- Initial Human freelancer AI.
+- Creeps spawned in the arena won't sleep anymore.
+- Improve map description and loading screen text.
+- Add Undead warlord AI.
+- Add Orc, Undead and Night Elf freelancer AI.
+- Build tree of lifes and Night Elf goldmines per Night Elf housing.
+- Restrict map to classic graphics to reduce desyncs and to improve the performance.
+- Human AI builds a workshop.
+- Human AI trains more workers for the Human housings.
+- Human AI upgrades UPG_ARMOR to level 3.
+- Night Elf AI has MOON_WELL as house instead of WISP.
+- Remove invalid code from freelancer AI scripts.
+- Disable freelancer AI until it really works.
+- Undead AI builds Ghouls before other buildings to collect lumber.
+- Increased array size of udg_RespawnGroup to 210 which is the actual maximum number of groups.
+- Improve the performance of GetRespawnGroupOfUnit.
+- Do not use StringHash to avoid collisions.
+- Remove unused JASS code.
+- Add several unit groups by GUI triggers.

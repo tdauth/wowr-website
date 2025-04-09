@@ -1,0 +1,83 @@
+- Allow Undead and Night Elf citizens to directly build their goldmines instead of housings.
+- Add missing hero icon for Cenarius.
+- Fix level of Auto Repair ability when constructing a new Power Generator.
+- Fix singleplayer detection for generating savecodes.
+- Hero Mountain Giant is not affected by Improved Mount anymore.
+- Mention Single/Multiplayer in stats multiboard title.
+- Remove Cyclone from Cenarius.
+- Set the level of research Cheap Evolution from a savecode as well.
+- Replace Demon Infernals by creep Infernals for Dark Portal from Archimonde at level 3.
+- Store the hero level in the savecode file name.
+- Add missing hero icons for Admiral Proudmoore.
+- Fix counting sold workers in the stats multiboard.
+- Make walls invulnerable.
+- Use player colors for font in the stats multiboard.
+- Translate tooltips of Summon Lava Spawn into English.
+- Increase range of True Sight from Arcane Observatory.
+- Revise savecode messages and print a message during hero selection.
+- The lowest hero level of playing users will determine the Evolution level of creeps and bosses.
+- Improved Mount research increases the sight range and the cargo slots of mounts.
+- Fix tooltip of Improved Mount research.
+- Add Neutral Goblin Laboratory and Neutral Mercenary Camp to Freelancers to separate upgrades and units from the Hideout.
+- Freelancer AI builds these buildings as well as a Power Generator and uses more upgrades.
+- Give multiple melee bosses orbs, so they can attack air units.
+- Freelancer AI attacks with trained creeps.
+- Give Freelancer AI some start resources.
+- Enable Freelancer research for Freelancer AI.
+- Add missing hero icon of Anasterian Sunstrider.
+- Add hero glow to Anasterian Sunstrider.
+- Add walls and gates to be constructed by female citizens.
+- Add Neutral Citizens (female).
+- Haunted and Entrangled Goldmines train female citizens and pets now.
+- Female Citizens can place Goblin Land Mines now.
+- Add Pick up all Items to the backpack.
+- Refresh backpack on using Demigod cheats.
+- Initial savecodes for items, units and buildings.
+- Orc AI trains Red Dragons now.
+- Warlord AI final waves train more air units and less ground units.
+- Orc AI trains Batriders now.
+- Update tooltip of special building Lich King.
+- Give Power Generators a higher priority.
+- Add research Storm Protection which prevents you dying from in the Maelstrom.
+- Add Ancient Turtle Shell to counted carried Legendary Artifacts.
+- Count Storm Protection and Demigod Blueprints for Warlord technologies.
+- Fix tooltip of Fel Stalker from Demons.
+- Give special buildings some build time.
+- Fix AI respawn dialog yes button which prevented enabling AI respawn.
+- Decrease damage reduction by Divine armor a bit.
+- Add two missing legendary item types to Forsaken quest 4.
+- Replace Frost Armour of Crown of the Lich King by an ability based on another one.
+- Fix Naga quest 4 ending: backpack not getting invulnerable anymore, hero getting vulnerable again.
+- Update second hero counter at certain situations like Naga quest 4 or picking a hero.
+- Rename Demon Fire research of Demons and Draenei to Improved Demon Fire which just improves the ability.
+- Neutral Male Citizen requires you to be Freelancer.
+- Add Engineer and Engineer Ship.
+- Add Water Gold Mines.
+- Let Shipyards return gold.
+- Add Selfdestruct ability to buildings.
+- Add many heroes to the Freelancer AI script.
+- Add special building for Demons: Outland Dimensional Gate.
+- Add special building for Naga: Statue of Azshara.
+- Add special building for Furbolg: Corrupted Ancient Protector.
+- Night Elf AI might use Mountain Giant hero now.
+- Add special building Draenei prison.
+- Classify Shredders as Workers.
+- AI Laboratories produce food.
+- Power Generator requires ground-pathable placement.
+- Make Power Generator and neutral Freelancer buildings smaller.
+- Increase hitpoints of trees on Freelancer islands.
+- Preplace neutral buildings for Freelancer AI to fix AI scripts.
+- Freelancer AI attacks with trained units now.
+- Freelancer AI counts hideouts properly now with a modified common.ai script.
+- Revise loading screen text.
+- Make Freelancer AI islands much bigger and place heroes at correct rects.
+- Fix Freelancer AI crashes by creating the heroes after starting the AI scripts.
+- Add custom UI for backpacks.
+- Add Freelancer Protection Towers to the four Freelancer islands.
+- Keep backpack item types and charges up to date on picking up and dropping items.
+- Fix name of research Improved Power Generator.
+- Store if item is perishable and if it is invulnerable in a bagpack to avoid bugs.
+- Add Save Master to Goblin Laboratory who can mark units and structures for savecodes.
+- Do not hide minimap boss icons when bosses die.
+- Translate tooltips of Serpent Ward back into English.
+- Summon 2 Serpent Wards at level 4 instead of 1 Cobra Ward.

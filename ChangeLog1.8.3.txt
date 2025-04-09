@@ -1,0 +1,13 @@
+- Power Generator can only be built next to a town hall.
+- Remove all buffs from the dummy which is used to get the base defense and level for Evolution.
+- Remove profession item of profession 2 when repicking the hero.
+- Add auto crafting for AI heroes but give AI only Herbalism and Alchemy for the start.
+- Fix fog distance.
+- Fix Evolution effect for summoned unit instead of summoning unit.
+- Fix Evolution level bug.
+- Create Evolution dummy outside of the map and add spell immunity to avoid negative armor.
+- Fix auto voting yes for the player who starts the votekick.
+- Votekick needs more than the half of votes to kick and not half only.
+- Fix DropAllItemsFromHero which did not drop the last item
+- Add Starfall and mana to Power Generator.
+- Enable "-far" from start.

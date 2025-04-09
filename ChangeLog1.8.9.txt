@@ -1,0 +1,16 @@
+- Improve stopping harvesting and building on hidden places.
+- Fix minimum numbers for Demon Master (thanks Runeblade14) which led to a crash.
+- Fix spelling mistake Banshee for Lordearon start location.
+- Increase Freelancer XP rate bonus from 10 % to 30 %.
+- Limit Fountain of Blood to 1.
+- Fix units in Bosses group.
+- Allow leveling legendary elemental book fire ability.
+- Add World Tree to Night Elfs.
+- Add tavern for second hero with Bosses.
+- Fix preventing changing alliances with player bosses.
+- Do not allow starting votekicks against Bosses or The Burning Legion.
+- Fix buildable buildings and affecting upgrades for Fel Peon.
+- Add Sea Giant boss to Sunken Ruins area who drops an item which allows you walking on water.
+- Try clearing dialogs to avoid repick bug.
+- Mention cooldown for Random Events in tooltip.
+- Fix showing race selection dialog on repick.

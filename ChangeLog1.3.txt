@@ -1,0 +1,52 @@
+- Heldenwahlansicht gefixt.
+- Keine Beschreibungen und kein Multiboard mehr in der Heldenwahl.
+- Medivhs Zauberbuch als einsammelbaren Gegenstand aus der Karte entfernt.
+- Sinnloses Multiboard in Heldenauswahl entfernt.
+- Texte bei Heldenauswahl korrigiert.
+- Naga-B
+rger und -B
+rgerinnen k
+nnen 
+ber das Wasser laufen.
+- Naga k
+nnen einen Laden errichten. Der Laden verkauft sogar einen winzigen Flutw
+chter.
+- Leben von B
+umen auf 5000.00 erh
+ht, damit andere V
+lker als die Nachtelfen l
+nger an einer Stelle Holz sammeln k
+nnen.
+- Der V
+lkergegenstand kann abgelegt werden. Er wird beim Repick entfernt.
+- Tempel der Gezeiten gilt als Niveau-3-Halle.
+- Spielinfos 
+berarbeitet.
+- Irrwische sammeln 10 Holz pro Intervall, da die B
+ume f
+r andere V
+lker jetzt l
+nger halten.
+- Die Essensstufen sind jetzt bei 100 und 200 weil die maximale Nahrung 300 ist.
+- Femdland-Bereich verbessert, kann jetzt jederzeit betreten werden und erm
+glicht den Kauf von D
+monen.
+- Fremdland-Boss hinzugef
+- Halbg
+tter haben auch Reittierf
+higkeiten, da sonst ein Slot frei w
+- Avatare der Rache beschw
+ren wieder Rachegeister.
+monen als neues Volk hinzugef
+- Ausgebildete Einheiten (mit Ausnahme der Naga) verursachen keinen Chaos-Schaden mehr.
+- "-nowin" hat "-nodefeat" ersetzt und bedeutet nun, dass das Spiel nicht gewonnen wird, wenn der neue Fremdland-Boss get
+tet wurde.
+- "-nowin" ist nach Ablauf des Timers nicht mehr m
+glich.
+- "-repick" ist nur noch alle 30 Sekunden m
+glich.
+- Mehr Informationen ins Quest-Log geschrieben.
+- Massen-Teleportation hat keine zunehmende Zauberverz
+gerung mit erh
+hter Stufe.
+- Kameragrenzen verkleinert.

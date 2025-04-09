@@ -1,0 +1,37 @@
+- Fix some Battle.net ID for a VIP member.
+- Fix setting race to None in the beginning which allowed to purchase the Human race items for Freelancers.
+- Fix allowing VIPs to enter the Bonus Hero chamber even with VIPs turned off.
+- Disable permanently summoned units from Archimonde's Dark Portal.
+- Fix tooltips of profession books and race scepters.
+- Remove research Evolution from Guardian's Citadel.
+- Reduce Evasion of Drunken Brawler.
+- Reduce number of summoned Demons from Demon Master by 1 per level.
+- Reduce chances of stunning for both Bash abilities from Mountain King and Eredar Warlock.
+- Replace healing ability of Stonemaul Arena Master Belt with Roar ability.
+- Add upgrade Improved Power Generator to all AI scripts.
+- Check for a second hero in "-secondherorepick".
+- Make some Draenei units weaker.
+- Correct tooltip text of Reward Freelancer.
+- Translate tooltip of Blood Elf Arcane Sanctum back into English.
+- Fix the text in the tooltip of Blood Elf Barracks.
+- Change Unit Inventory (Undead) ability for Blood Elf Lieutenant's to Unit Inventory (Human).
+- Give  Blood Elf Swordsmen and Blood Elf Archers Unit Inventory (Human).
+- Change Spirit Wolf and Reincarnation from Akama hero to adapt the tooltips for the hero.
+- Fix tooltip of Draenei Shop.
+- Fix tooltip of Tiny Boulder Tower.
+- Fix train tooltip of Draenei Laborer (Blizzard's mistake!).
+- Remove Unit Inventory from Young Furbolg.
+- Furbolg Marketplace sells custom Talisman of the Wild now which summons a Furbolg who benefits from Furbolg upgrades.
+- Remove Hide ability from Lumber Camp.
+- Increase maximum hitpoints of Furbolg Barrack to 1200.
+- Fix Battle Stations of Furbolg.
+- Remove old Young Furbolg version from the World Editor.
+- Give Furbolg Dire Wolves Unit Inventory.
+- Make Draenei and Furbolg units not neutral hostile anymore to hide their creep level.
+- Give Outland base with Illidan much more space (required for the AI).
+- Give Sorceress custom Invisibility ability which won't affect herself and has the correct icon position
+- Do not research the Scorceress Adept Training upgrade for all players from start.
+- Invisibility for heroes does not require Sorceress Adept Training anymore.
+- Move icons of Gryphon Rider and Storm Hammer to the left.
+- Remove Spellbreaker info from the tooltip of Arcane Sanctum.
+- Add floating texts to portals in bonus hero chamber and VIP room.
