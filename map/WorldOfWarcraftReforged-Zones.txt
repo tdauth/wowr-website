@@ -678,7 +678,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "The eastern continents on the world of Azeroth which " )
 	call Preload( "lie to the east of the Great Sea and to the west of " )
-	call Preload( "the Forbidding Sea. " )
+	call Preload( "the Forbidding Sea." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="moltencore">" )
@@ -2714,7 +2714,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Zones generated with chat command "-website". -->" )
-	call PreloadEnd( 1.3 )
+	call PreloadEnd( 1.2 )
 
 endfunction
 

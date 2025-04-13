@@ -678,14 +678,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "50" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Allows training Pack Horses which can gather gold and " )
-	call Preload( "lumber from your own or allied Trading Posts. This " )
-	call Preload( "increases your gold and lumber as well as for the allied " )
-	call Preload( "player." )
-	call Preload( "<br/>" )
-	call Preload( "<br/>" )
-	call Preload( "Allows buying and selling resources other than gold " )
-	call Preload( "and lumber." )
+	call Preload( "Allows trading all resources other than gold and lumber." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMarketStone.blp" width="64" height="64"" )
@@ -1150,7 +1143,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 6.0 )
+	call PreloadEnd( 5.7 )
 
 endfunction
 
