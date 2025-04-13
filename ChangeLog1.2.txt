@@ -1,0 +1,3 @@
+- Dialog f
+r Spielmodiwahl erst wenn Held zur Startortwahl kommt.
+- Auswahlkamera

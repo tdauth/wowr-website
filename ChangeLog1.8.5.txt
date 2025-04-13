@@ -1,0 +1,52 @@
+- Power Generator auras affect ancients and regular structures.
+- Fix allowing to write "-yes" when no votekick is running.
+- Add professions Weapons Smith and Armorer to AI.
+- Fix completing Lich King quest 4 by entering the Frozen Throne area which was not possible before.
+- Fel Orcs are affected by Evolution.
+- Satyr and Salamander aren't summoned permanently anymore.
+- Kil'Jaeden's summoned demons aren't permanent anymore.
+- New Paladin in Azerorth respawns now after being killed.
+- Fix Lich King revival location after being killed by Illidan.
+- Readd quest marker to revived Lich King if necessary.
+- Add Furbolg Dragon Roost with Green Drakes.
+- Increase AI crafting interval from 30 to 120 seconds.
+- Only 0 - 2 instead of 0 - 3 dropped items for creeps.
+- Drop more different items to creeps above level 8 than only Inferno Stone.
+- Full shared control, XP etc. from AI when you ally.
+- Remove Arena Wendigos message.
+- Give another hint in Lich King quest 4 to buy all Draenei unit types.
+- Human quest 4 and Forsaken quest 3 cannot only be discovered by non-Undead or Undead heroes.
+- Add player color to becoming Demigod messages.
+- Remove level skip requirement from evil demigod ulti Finger of Death.
+- Add exact damage to the tooltip of evil demigod ulti Finger of Death.
+- Remove message for all players "Pressed Hand of God!".
+- Let all allies of the killing player of Archimonde with him/her.
+- Translate the defeat message after Archimonde has been killed into English and extend it.
+- Make Ring of the Dark Legion droppable after dropping it from Illidan.
+- Lower Evasion percentage bonus from 5 % per level to 3 % per level.
+- Lower decreasing seconds to 20 per level for Reincarnation.
+- Fix level and defense from Evolution for units whose owner has changed. This might fix issues with using Charm on high level creeps.
+- Sapphiron has no Resistant Skin to prevent Charm.
+- Do not let AI take over control over Illidan.
+- Level 9 arena boss drops Stonemaul Arena Master Belt now instead of Mask of Death.
+- Add new boss Veraku to Outland who drops unique Mask of Death.
+- Fix allowing "-suicide" during the game.
+- Night Elf quest 4 can be completed by Undead heroes now.
+- Human quest 4 can be completed by Undead heroes now.
+- Lich King quest 3 can be completed by non-Undead heroes now.
+- Readd the Nation's Battle Standard to Lich King quest 3, so not anyone can complete the quest.
+- Make the Nation's Battle Standard droppable and drop it at the location of the destroyed town hall when the hero dies.
+- Disable dropping the Lich King's reward when the hero dies.
+- Add ping for human quest 4 and fix/improve some human quest pings.
+- Add pings for all Night Elf, Orc, Naga, Forsaken and Lich King quests and fix some.
+- Add chat commands "-pinghuman", "-pingnightelf", "-pingorc", "-pingnaga", "-pingforsaken", "-pinglichking" and "-pingdraenei" for more specific quest locations.
+- Prevent Charm on workers from Medivh's spell book.
+- Change owner back when Charm is used on workers instead of killing them.
+- Do not remove Charm anymore from summoned ladies.
+- Replace Dark Ranger text with Hand of Destruction in tooltip of Touch of Darkness.
+- Add cheaper Evolution for Freelancers.
+- Reset Evolution level to 0 on full repick.
+- Fix icon of item Crown of the Lich King.
+- Increase Frost Armor bonus from 5 to 8 for Crown of the Lich King.
+- Fix backpack becoming vulnerable after completing Naga quest 4.
+- Heroes of The Burning Legion start with level 6.

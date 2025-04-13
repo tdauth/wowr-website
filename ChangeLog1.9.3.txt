@@ -1,0 +1,75 @@
+- Increase number of respawn groups to fix missing respawns of creep bosses.
+- Add The Burning Legion and Bosses to the player stats multiboard.
+- Show level of Evolution in player stats.
+- Show player stats multiboard from start but minimized.
+- Rename AI players to AI.
+- Increase gold of housings to 100 000.
+- Add lost units and technologies to player stats.
+- Fix tooltip of Improved Lumber Harvesting for Furbolgs.
+- Hide Blood Elf Cage model on death.
+- Increase number of farms and workers for Naga and Furbolg AI.
+- Add quest log entries Hidden Bases and Hero Journey.
+- Add Mountain Giant to tavern.
+- Kil'Jaeden, Tichondrius, Eredar Warlock and Keeper of Frostmourne cost food now.
+- Rename Ogrimmar to Orgrimmar for several heroes.
+- Furbolg Tribal Center, Green Dragon Roost, Pig Farm and Dragon Roost require ground-pathable to be built now.
+- Dragon Roost for Orcs costs 200 gold now.
+- Fel Peon cost as much gold as regular Peons now.
+- Keep Tier 2 XP bonus on repick and for second hero.
+- Add many missing heroes to hero equivalents in the gameplay constants.
+- Only show VIP welcome message if VIPs are enabled.
+- Remove votes for leaving players from the votings in the beginning of the game.
+- Add Goblin Laboratory and Black Market to many more start locations to make the game more fair.
+- Add entry by the Ocean to Sunstrider Isle.
+- Add black borders on the Ocean to Outland.
+- Add quest log entry for the stats multiboard.
+- Reduce quest log entries to Special Race Building.
+- Reduce costs of Improved Power Generator.
+- Add ability Drop all Items to Backpack.
+- Add research Improved Mount which increases the movement speed of your mount.
+- Add research levels to the tooltips of different researches with 100 levels.
+- Fix icon of Unique - Legion
+s Hate.
+- Rename quest log entry "New Features" to "Reforged Version" and move it down.
+- Fix icon of Engineering - Adept.
+- Reduce collision size of Souls.
+- Give Archimonde bonus hero Bash of Eredar Warlock.
+- Add Neutral Shop which can built by Neutral Citizens and sells Orbs.
+- Add names of VIPs to the VIP room.
+- Reduce stock initial delay for Neutral Citizens to 0.
+- Fix Orgrimmar name in floating text.
+- Translate tooltip of Illidan
+s Blade back into English.
+- Add "-suicide" chat command description to quest log entry Hero Death.
+- Allow Pickpocketing on The Burning Legion and Bosses.
+- Fix values of RaceUndead and RaceNightElf.
+- Increase number of levels of War Stomp from Tauren Chieftain from 3 to 12.
+- Reset Naga building HP to the original values.
+- Fix completing Lich King Quest 4.
+- Add some missing tooltips for bosses.
+- Add Nether Dragon boss to tavern in Outland.
+- Fix icon position of Rain of Chaos of Book of Summoning Pedestal.
+- Make Book of Summoning Pedestal a building, add pathing and requires ground-pathable.
+- Drop legendary and quest items on Boss and The Burning Legion hero deaths, too.
+- Ping only visible allied heroes with "-pingh".
+- Add chat command "-pingl" to ping legendary artifacts on the ground.
+- Remove Forgotten One from Paladin bosses.
+- Give Paladin bosses orbs, so they can fight air units.
+- Give Dreadlord and single Paladin bosses orbs, so they can fight air units.
+- Add missing food costs and tooltips to Boss heroes.
+- Boss heroes as second heroes require level 60 now.
+- Add missing icon and tooltip texts to Life Steal from Nether Dragon.
+- Respawn creep groups also when a creep changes the owner (not only death).
+- Increase array sizes of respawn groups, rects etc. for creep respawns which will avoid bugs.
+- Count exact number of respawn groups for certain groups to reduce the number of loop calls.
+- Try to fix respawning heroes of creep groups by adding them with the exact member index.
+- Add hero level 50 requirements to all heroes for Taverns.
+- Add Wizard to Tavern heroes.
+- Classify Fortified Hideout as Town Hall.
+- Clear hero equivalents list to make all heroes equal.
+- Add cheat "-share" for better testing.
+- Spend unused skill points of bosses on their hero abilities.
+- Change colors of Keeper of Frostmourne to boss colors.
+- Fix tooltip values of item Unique - Mask of Death.
+- Change order IDs of Freelancer Summon Mercanaries to avoid conflicts with abilities.
+- Fix Freelancer AI hero start locations.

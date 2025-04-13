@@ -1,0 +1,56 @@
+- Add and fixed caused damage in tooltip of Finger of Death.
+- Reduce effect of Holy Light.
+- Increase food cost of Couatl from 2 to 3.
+- Remove Forgotten creeps from Paladin bosses.
+- Remove 2 Paladins from boss creep group and reduce the level of two from 40 to 35.
+- Reduce the level of Nether Dragon boss from 90 to 65.
+- Research Evolution for Boss player as well.
+- Show player name of player who caused Evolution upgrade for all creeps.
+- Reduce bonuses from Evolution a bit,
+- Reduce time of research Improved Mount.
+- Add two Fountain of Powers to Archimonde's area.
+- Move some creeps in Kalimdor away from the start base.
+- Translate Storm, Earth, And Fire back into English, add the number of forms to the tooltip and mention that the number of warriors is increased.
+- Fix number of workers in the stats multiboard by considering summoned workers as well.
+- Simplify creep hero revival system to avoid future bugs.
+- Add Wizard to Bonus Heroes.
+- Add new boss Sea Turtle.
+- Skull of Gul'dan does not summon Demons permanently anymore.
+- Add chat command "-professionrepick".
+- Reset stats of Spellbreakers back to default.
+- Allow Hideouts receiving gold and lumber and Neutral Citizens collecting gold and lumber.
+- Make Paladin on Theramore invulnerable.
+- Fix value in tooltip of Improved Lumber Harvesting for Furbolg.
+- Let all AIs except Night Elf buy 1 Shredder.
+- Add Black Market, Fountain of Power, Goblin Laboratory, Mercenary Camp and trees to each Freelancer AI start island.
+- Add more Doodads to Archimonde's area.
+- Fix tooltips of Furbolg researches.
+- Do not respawn creeps from spots next to AI buildings.
+- Freelancer AI buys Shredder and hires Neutral Citizen.
+- Freelancer AI collects gold and lumber.
+- Support more heroes in Freelancer AI.
+- Let AI use random paths and defend players.
+- Add building AI laboratory to train Shredders, Sappers etc. for AI only.
+- Handle player leaving while voting for the game type.
+- Add game type Easy.
+- Add column handicap to stats multiboard.
+- Prevent starting constructing or harvesting on Freelancer AI islands for user players.
+- Remove many black border areas between the east Ocean and land area.
+- Change some unit soundsets of citizens fitting their models.
+- Increase interval of stats multiboard updates to improve the performance.
+- Update stats workers from the beginning and after AI has started.
+- Do not apply Evolution to heroes which change the owner which reset some hero levels to 1.
+- Make sure Illidan control release changes Illidan and not the triggering hero preventing the entering hero from becoming invulnerable.
+- Only show user players in stats when you are an ally of them not when you ally them.
+- Reduce summoned Nether Dragons of Nether Dragon boss.
+- Replace Evasion from Nether Dragon boss with Devotion Aura.
+- Do not increase the area of Earthquake with every level to avoid massive lags.
+- Add basic save/load system which stores XP only and is restricted to your game settings.
+- Mention in the tooltip of Demon Slayer Axe that it stacks.
+- Show elapsed time in the stats multiboard title.
+- Add chat command "-clear".
+- Remove annoying sound from Archimonde when a hero entered his realm.
+- Add number of successful save code loads as column to the stats.
+- Only one single multiboard with stats for all players to improve the performance.
+- Enable AI freelancers by default.
+- Allow Neutral Shop to train some mercenaries.

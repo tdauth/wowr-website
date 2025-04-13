@@ -1,0 +1,9 @@
+- Add Socrethar to Outland.
+- Add Demon Quest 1 and 2.
+- Magic Vault of Blood Elves requires ground-pathable placement.
+- Fix converting decimal number into save codes (stop when quotient is 0).
+- Fix shifting and obfuscating deobfuscating a save code using a string hash.
+- Make hash numbers smaller by modulo operation to keep savecodes shorter.
+- Obfuscate savecodes with the hash of the player's name.
+- Remove space from savecode when using "-savecheck".
+- Print different output on using "-savecheck".

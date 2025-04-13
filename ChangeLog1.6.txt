@@ -1,0 +1,55 @@
+- Draenei Haven can be upgraded to Demigod temples and has Reward Freelancer and Give Units to Another Allied Player now.
+- Prevent creating buildings on Theramore.
+- Increase cooldown of healing Paladin and restoring Jaina to 60 seconds.
+- Add new bonus heroes: Illidan Evil, Drek'Thar, Rexxar, Rokhan, Chen, Anasterian Sunstrider, Magtheridon and Murloc Sorcerer.
+- Kill summoned Mount below hero level 20, so other hero abilities won't summon it.
+- Replace Summon Nether Mount base ability to prevent summoning with Feral Spirit.
+- Tichondrius has a Frost Wyrm mount now instead of a Nether mount.
+- Dark Ranger has a Frost Wyrm mount now instead of a Nether mount.
+- Beastmaster, Brewmaster and Tinker have Wyvern mounts now instead of Nether mounts.
+- Add Invisibility to Akama.
+- Improve Earthquake: Reduce Area of Effect to reduce lagging, increase damage per second to buildings, slowdown percentage and duration with each level, make trees a target for each level, keep mana cost at 125.
+- Add research Evolution.
+- Give bonus heroes Berserk or Invisibility.
+- Remove two unit abilities from Admiral Proudmoore.
+- Translate Monsoon from German into English.
+- Give Admiral Proudmoore Monsoon as ulti with only 9 levels.
+- Add initial info for bonus heroes.
+- Remove Hide from Akama.
+- Add Evolution to unit types.
+- Make Evolution available at hero level 40.
+- Increase costs of Evolution, do not increase time and decrease HP bonus.
+- Add unit and item types with 1 initial charge to the marketplace on Theramore.
+- Add quest explaining the marketplace on Theramore.
+- Limit Housings to 4.
+- Limit Towers to 15.
+- Add unit type Nether Drake to Draenei to give them a flying unit type.
+- Fix number in quest update message for Orc quest 4.
+- Try to fix not summoning Mounts.
+- Add Evolution upgrade to AI.
+- Nether Drakes for Demon and Draenei require any tier 2 hall and have a Demon Fire icon now and Demon Fire requires the upgrade first.
+- Evolution requires hero level 30 not 40 now.
+- Replace Dispell Magic from Succubus with Incite Unholy Frenzy.
+- Add all spells to tooltips from Succubus and Eredar Sorcerer.
+- Add Draenei quest 1 to the "-ping" chat command.
+- Add a second Outland portal to Northrend East.
+- Add boss quest markers to all bosses.
+- Replace reward item for Draenei quest 2 (Legion Doom-Horn) with a Claws +12 since the horn is available in the Black Market.
+- Increase hero level of Magtheridon and give him Demon Master.
+- Add Forsaken quest 4 Legendary Items.
+- Tranquility restores trees.
+- Add Attribute Bonus to Magtheridon.
+- Murloc Sorcerer has Crushing Wave now.
+- Bonus hero Illidan causes splash damage in alternate form and has Attribute Bonus and unit abilities.
+- Rokhan's Voodoo Spirits has 9 levels now.
+- Increase cooldown of Monsoon.
+- Use standard hero abilities for Chen and Rexxar.
+- Automatically haunt all goldmines in range when recreating the town hall for the Undead AI.
+- Change the hotkey of Breath of Fire to G for Anasterian Sunstrider.
+- Fix the required hero level in the info quest for Evolution.
+- Remove buff of Weaponsmithing - Novice.
+- Rename map to World of Warcraft Reforged.
+- Allow HD graphics.
+- Add Guards to Kil'Jaeden and move old creeps to Orc base.
+- Add weather effect to Kil'Jaeden.
+- Rename Kil'Jaeden from Warlock to The Deceiver.

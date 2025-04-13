@@ -1,0 +1,14 @@
+- Revise some voting calculations and triggering in the beginning.
+- Use vote dialogs per player.
+- Add vote dialog which allows skipping all votes by using default settings.
+- Book of Summoning Pedestal and Arcane Observatory are limited to 1.
+- Paladin on Theramore heals non-Undead units.
+- Let Demon Master summon Fel Beast and Fel Stalkers only for the first two levels.
+- Add Resurrection Stone to Furbolg to revive dead heroes.
+- Fix tooltip of Unique - Skull of Gul'dan.
+- Reward Freelancer works anywhere on the map and mentions the exact rewards.
+- Retranslate tooltip of Storm, Earth, And Fire back into English.
+- All ulti hero abilities have a level skip requirement of 3 now.
+- Move Freelancer AI Hideouts to 4 different islands which can be reached via portals.
+- Fix crafting Rune of Rebirth for Runeforger which actually summons creeps now.
+- Add hero Mountain Giant.

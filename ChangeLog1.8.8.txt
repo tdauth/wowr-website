@@ -1,0 +1,19 @@
+- Reveal the initial town hall location to all players in the beginning.
+- Unpause Harpy Queen when starting Orc Quest 2.
+- Pan camera to hero after leaving the portal.
+- Add chat command "-pinggoldmines".
+- Add VIP flags for Undead, Night Elf and Orc as well.
+- Move creeps fruther away from Northrend West start base.
+- Setup alliances for bosses during the map initialization instead of after 0 seconds which might prevent the creeps attacking one boss bug.
+- Add VIP marker item with the players name and some text.
+- Move VIP room portal to the left.
+- Restrict constructing buildings at hidden bases to hero level 35.
+- Add second hidden base in the Ocean.
+- Fix colors of crafted items of Dragon Breeder and Sorcerer.
+- Add Hero Glow to bonus hero Gul'dan.
+- Add custom Siphon Mana and Life Drain abilities with correct icon positions and tooltips to bonus hero Gul'dan.
+- Move VIP portal to the Outland portal area, so you can enter it more often.
+- Add Fountain of Blood to Orc Warlords.
+- Do not allow dropping regular items in the VIP room.
+- Massively reduce the damage multiplier of Critical Strike and reduce the chance with every level.
+- Make Dark Portal summoning for bonus hero Archimonde time limited.

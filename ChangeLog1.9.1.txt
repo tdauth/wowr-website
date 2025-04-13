@@ -1,0 +1,19 @@
+- Drop Frostmourne upon death.
+- Fix GetUnitXXXByType functions.
+- Fix spelling mistake of Orgrimmar.
+- Fix maximum mana value of Siphon Mana from Magic Vault.
+- Disable hidden base message after having been shown once.
+- Make Archmage of Human Quest 1 invulnerable.
+- Only allow effects of Frostmourne and Scepter of the Sea Giant to heroes.
+- Give Stormbringer Neutral Hostile Lightning Shield instead of the Orc one.
+- Make Eredar Warlock available as second hero.
+- Replace Charm for Sea Giant with Monsoon.
+- Remove Goldmine and hidden base from the mountain because of the new boss.
+- Change some mounts and recommended starting locations.
+- Fix Dreadlord and Death Knight creeps respawning together with their bosses.
+- Add Fel Orcs to Orc AI.
+- Let Fel Peons build Fel Burrows, Pig Farms and Dragon Roosts.
+- Replace Dark Conversion with Reanimation for Lich King building.
+- Add special building Arcane Observatory to Humans.
+- Add auto summoned mercenaries for AI Freelancers.
+- Add special building Book of Summoning Pedestal to Demons.
