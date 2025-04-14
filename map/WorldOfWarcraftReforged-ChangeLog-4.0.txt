@@ -188,6 +188,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Ignore magic immune targets for Mass Charm." )
 	call Preload( "- Fix first talk to me effect for Lich King quest 1." )
 	call Preload( "- Disable several drop item triggers for quests in the beginning of the game." )
+	call Preload( "- Add item Clothing Bag." )
 	call Preload( "- Improve website data." )
 	call Preload( "- Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )

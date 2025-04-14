@@ -538,7 +538,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "Trains Phoenixes and Dragonhawk Riders.  " )
 	call Preload( "<br/>" )
-	call Preload( "Also contains the upgrade Cloud." )
+	call Preload( "Also contains the upgrades Phoenix Eggs and Cloud." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBloodElfHatchery.blp" width="64" height="64"" )
@@ -1305,7 +1305,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 7.6 )
+	call PreloadEnd( 6.9 )
 
 endfunction
 
