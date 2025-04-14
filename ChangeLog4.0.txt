@@ -16,8 +16,7 @@
 - Give VIPs more features.
 - Fix setting VIPs in the beginning of the game.
 - Add skins.
-- Add cinematic for Human quest 1.
-- Add cinematic for Orc quest 1.
+- Add several quest cinematics.
 - Add hero Fel Kodo Beast.
 - Revise ability fields system.
 - Add ability skill UI.
@@ -77,7 +76,6 @@
 - Rain of Chaos for special buildings has mana cost now.
 - Fix unit soundset of boss Spider Crab Behemoth.
 - Fix requirements for several boss heroes.
-- Improve website data.
 - Revise item drop functions.
 - Fix initial hero skills of bosses.
 - Make Captain invulnerable for Kul Tiras quest 4.
@@ -148,4 +146,44 @@ s Citadel.
 - Add cheat "-nobosses".
 - Add cheat "-nopassive".
 - Remove Holy Grail.
+- Fix auto skilling reskillable heroes.
+- Add learnable spell Feral Spirit for slot 2.
+- Fix learnable spell Mass Control Magic.
+- Remove aura caster when randomizing hero spells.
+- Give spell Multiply a custom icon.
+- Move spell Multiply to slot 4.
+- Enable library Tenacity to make Spell Aura work again.
+- Fix updating all auras when the last cater is removed to remove remaining buffs.
+- Fix hero spell Frost Bolt Rain.
+- Fix propert names of hero Spellbreaker.
+- Legendary item Mathog's Cage changes attack type and defense type of the summoned mount.
+- Hide queue UI and actions bar before cinematic modes.
+- Add chat command "-enemies".
+- Add sound to hero spell Summon Wall.
+- Add sound to death of summoned wall unit.
+- Fix death animations for summoned wall units.
+- Remove limitation for special building ability Fel of Fountain of Blood.
+- Remove training of Fel Orcs for Fountain of Blood.
+- Open black borders from Pandaria to the south of Azeroth.
+- Eredar Citizens (male) can build Eredar Housings now.
+- Reduce damage of hero spell and unit ability Slide.
+- System HeroAbilities requires only hashtable now.
+- Add chat command "-aihero".
+- Increase base defense of Divine Golems.
+- Fix several memory leaks.
+- Do not remove properties on repick and full repick anymore.
+- Fix proper names for multiple heroes.
+- Fix getting all researches of a race when purchasing a property.
+- Properties generate resources automatically now without any workers.
+- Fix removing orb carriers on removing units.
+- Improve performance for Orb of Orbs carrier detection.
+- Scale down building Merchant Shop.
+- Chat command "-k" works for "-suicide" now.
+- Fix detecting sold units from Trading Posts as queue UI entries.
+- Fix buildings like Trading Posts and Spell Books after loading them via save codes.
+- Fix items for profession Tamer.
+- Ignore magic immune targets for Mass Charm.
+- Fix first talk to me effect for Lich King quest 1.
+- Disable several drop item triggers for quests in the beginning of the game.
+- Improve website data.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.

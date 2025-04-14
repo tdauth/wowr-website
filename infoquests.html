@@ -443,7 +443,7 @@ player who writes the chat message.
 <li>"-zoneson/off": Enables/disables zone info.</li>
 <li>"-z/-zone": Shows the zone info of your selected unit.</li>
 <li>"-zf/-zonefull": Shows the full zone info of your selected unit.</li>
-<li>"-suicide": Kills your selected units.</li>
+<li>"-k/-suicide": Kills your selected units.</li>
 <li>"-anim X": Plays animation X for all selected units.</li>
 <li>"-give <player number>": Allows you to give chosen units to an allied player.</li>
 <li>"-nogive": Cancels the giving process.</li>
@@ -514,6 +514,7 @@ player who writes the chat message.
 <li>"-aiexpansions X Y": Sets Y expansions for player X.</li>
 <li>"-aishredders X Y": Sets Y shredders for player X.</li>
 <li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
+<li>"-aihero X Y Z": Replaces hero Y with Z for player X.</li>
 <li>"-ailoadmines X": Loads mines for player X.</li>
 <li>"-airevive X": Revives heroes for player X.</li>
 <li>"-aiprofession X Y": Changes profession of allied player X to Y.</li>
@@ -526,6 +527,7 @@ player who writes the chat message.
 <li>"-friends": Ally all players.</li>
 <li>"-friendsv": Ally all players with shared vision.</li>
 <li>"-friendsvuf": Ally all players with shared vision and fully shared units.</li>
+<li>"-enemies": Unally all players.</li>
 <li>"-aishared": Gives you shared control with all allied AI players.</li>
 <li>"-ainotshared": Removes your shared control from all allied AI players.</li>
 <li>"-ally X": Ally player X.</li>
@@ -831,6 +833,11 @@ selected game mode.
 </td>
 <td>
 <ul class="questitems">
+<li>Use "-repick".</li>
+<li>Keeps only your XP.</li>
+<li>You lose all units, buildings and resources.</li>
+<li>Items will be dropped on Theramore.</li>
+<li>You cannot change your game mode.</li>
 </ul>
 </td>
 </tr>
@@ -854,6 +861,11 @@ You can reselect your initial game mode.
 </td>
 <td>
 <ul class="questitems">
+<li>Use "-fullrepick".</li>
+<li>Keeps only 1/4 of your XP.</li>
+<li>You lose all units, buildings and resources.</li>
+<li>Items will be dropped on Theramore.</li>
+<li>You can change your game mode.</li>
 </ul>
 </td>
 </tr>
@@ -877,6 +889,21 @@ are not included.
 </td>
 <td>
 <ul class="questitems">
+<li>"-ffa": Free For All. Every player has his/her own team.</li>
+<li>"-lobby": Use lobby teams.</li>
+<li>"-friends": Ally all players.</li>
+<li>"-friendsv": Ally all players with shared vision.</li>
+<li>"-friendsvu": Ally all players with shared vision and units.</li>
+<li>"-friendsvuf": Ally all players with shared vision and fully shared units.</li>
+<li>"-enemies": Unally all players.</li>
+<li>"-ally X": Ally player X.</li>
+<li>"-allyv X": Ally player X with shared vision.</li>
+<li>"-allyvu X": Ally player X with shared vision and units.</li>
+<li>"-allyvuf X": Ally player X with fully shared vision and units.</li>
+<li>"-neutral X": Become neutral to player X.</li>
+<li>"-neutralv X": Become neutral to player X with shared vision.</li>
+<li>"-unally X": Unally player X.</li>
+<li>"-unallyv X": Unally player X with shared vision.</li>
 </ul>
 </td>
 </tr>
@@ -1032,6 +1059,7 @@ the beginning by the host player.
 <li>"-aiexpansions X Y": Sets Y expansions for player X.</li>
 <li>"-aishredders X Y": Sets Y shredders for player X.</li>
 <li>"-aizeppelins X Y": Sets Y zeppelins for player X.</li>
+<li>"-aihero X Y Z": Replaces hero Y with Z for player X.</li>
 <li>"-ailoadmines X": Loads mines for player X.</li>
 <li>"-airevive X": Revives heroes for player X.</li>
 <li>"-aiprofession X Y": Changes profession of allied player X to Y.</li>
@@ -1196,6 +1224,11 @@ items and to skill additional spells.
 </td>
 <td>
 <ul class="questitems">
+<li>Require a higher hero level of your first hero.</li>
+<li>Available on Theramore.</li>
+<li>Limited to 3.</li>
+<li>6 additional items per bag.</li>
+<li>5 additional spells per bag.</li>
 </ul>
 </td>
 </tr>
@@ -1295,6 +1328,7 @@ of your hero.
 </td>
 <td>
 <ul class="questitems">
+<li>Summon the Mount at level 20.</li>
 <li>"-mountname1/2/3 X": Changes the name of the mount to X.</li>
 </ul>
 </td>
@@ -1370,6 +1404,9 @@ You can also play the Wheel of Fortune there.
 <td>
 <ul class="questitems">
 <li>Deposit gold and lumber to get interests.</li>
+<li>5.0 % interest rate.</li>
+<li>Win gold, lumber or units with Wheel of Fortune.</li>
+<li>"-goblindeposit": Shows your gold and lumber in the Goblin Bank.</li>
 </ul>
 </td>
 </tr>
@@ -1393,6 +1430,22 @@ are playing.
 </td>
 <td>
 <ul class="questitems">
+<li>"-loadc XXX": Loads the clan savecode XXX.</li>
+<li>"-clanspresave": Lists the prestored clan savecodes.</li>
+<li>"-loadclanp X": Loads the prestored clan savecode X.</li>
+<li>"-clanrename X": Renames your clan to X.</li>
+<li>"-clangold X": Deposits X gold.</li>
+<li>"-clanlumber X": Deposits X lumber.</li>
+<li>"-clanwgold X": Withdraws X gold.</li>
+<li>"-clanwlumber X": Withdraws X lumber.</li>
+<li>"-clans": Shows a list of all playing clans.</li>
+<li>"-claninfo": Shows info about your clan.</li>
+<li>"-clanrank X Y": Sets the rank of player X to Y.</li>
+<li>"-claninvite X": Invites player X to join your clan.</li>
+<li>"-clanaccept": Accepts a clan invitation.</li>
+<li>"-clanleave": Leave your current clan.</li>
+<li>"-clanaion/off": Enables/disables resource messages from AI players.</li>
+<li>Change the clan icon at the Clan Meeting Point.</li>
 </ul>
 </td>
 </tr>
@@ -2268,14 +2321,30 @@ All the people who contributed to this map.
 <td>
 <ul class="questitems">
 <li>Baradé: Creator.</li>
-<li>EvilPitlord: Original map.</li>
-<li>DeMoNiKuS: Original map.</li>
+<li>EvilPitlord: Original map World of Warcraft Reborn.</li>
+<li>DeMoNiKuS: Original map World of Warcraft Reborn.</li>
 <li>Runeblade14: Tests.</li>
 <li>Toasty Toast UwU: Tests.</li>
 <li>Deranor: Tests.</li>
 <li>Axxa's World of Warcraft Logo Creator: Logo.</li>
-<li>Jason Hayes, Glenn Stafford: A Call to Arms.</li>
+<li>Wowpedia: Most of the lore.</li>
+<li>Jason Hayes, Glenn Stafford: A Call to Arms</li>
+<li>Vexorian: SimError</li>
+<li>Bribe: Snippet Ascii</li>
+<li>TriggerHappy: FileIO</li>
+<li>Kricz: Knockback v1.01b</li>
+<li>Maker: Jump System v. 1.0.1.6</li>
+<li>chopinski: New Bonus</li>
+<li>PurgeandFire: Libram v3.0.0.0</li>
 <li>Kam, Xaran Alamas, Dmitry Rommel, Tufy: Gnomish Submarine</li>
+<li>Dangerb0y: Easy Item Stack 'n Split v2.7.4 as reference for the unstack and pickup item systems.</li>
+<li>MeKC: GetItemValue as reference for item gold and lumber value system.</li>
+<li>Spellbound: UnitEventEx</li>
+<li>TriggerHappy: UnitDex</li>
+<li>Bannar: RegisterNativeEvent/RegisterPlayerUnitEvent</li>
+<li>Almia: World Bounds v1.3</li>
+<li>Xetanth87: I2S without natives for use in AI scripts</li>
+<li>The_Silent: Medieval Wall Trigger Map</li>
 <li>Scias: BTNGnomeEngineer</li>
 <li>PROXY, ~Nightmare: Sargeras</li>
 <li>LordGandulfo88: Sargeras</li>
@@ -2386,32 +2455,18 @@ All the people who contributed to this map.
 <li>Ujimasa Hojo: Battleship and Derivatives</li>
 <li>Tauer: Ner'Zhul</li>
 <li>Tauer: BTNNerzhul</li>
-<li>Tauer: Blackhand</li>
-<li>HerrDave, Le Shaysonio: Roman Infantry Pack</li>
-<li>Raging Ent: BTNRomanHelmet</li>
-<li>purparisien: Circus Maximus</li>
-<li>purparisien: Coliseum</li>
-<li>Miseracord: Gladiator-Miseracord</li>
 <li>Kuhneghetz: Lion Female (aka Lioness)</li>
 <li>Kuhneghetz: Lion Male</li>
 <li>Kuhneghetz: BTNLionFemale</li>
 <li>Kuhneghetz: BTNLionMale</li>
-<li>Kuhneghetz: Roman Villa</li>
-<li>GolluM_KoMe, olofmoleman, purparisien: Ancient Ships</li>
-<li>Tykkimies: Temppeli skinillalowpoly</li>
-<li>!!GORO!!: Tower1</li>
 <li>Kwaliti: Deathwing</li>
 <li>XenoStalker: BTNDeathwing</li>
 <li>Mc!: FireElementalByMc</li>
 <li>Blizzard Entertainment: Fire Elemental</li>
 <li>Explobomb: Old God Pack</li>
 <li>CRAZYRUSSIAN: BTN_CR_Heart_of_Gold</li>
-<li>ikillforeyou: Goblin War Zeppelin</li>
-<li>Shardeth: Net Launcher Turret</li>
 <li>ILH: Nuclear Silo and Missile</li>
 <li>Callahan: The Void Lord</li>
-<li>Anitarf: ArrowKeys</li>
-<li>Opossum: ThirdPersonCamera</li>
 <li>Remixer: Pandarian Harvester</li>
 <li>PROXY: PandarenTemple01</li>
 <li>PROXY: HeroGoblinGunner</li>
@@ -2432,18 +2487,13 @@ All the people who contributed to this map.
 <li>NFWar: BTNPieceOfShip</li>
 <li>raft_pl: BTNGate</li>
 <li>raft_pl: BTNGateOpened</li>
-<li>Bribe: Snippet Ascii</li>
-<li>TriggerHappy: FileIO</li>
 <li>Wildfire: Torch</li>
 <li>Explobomb: Fel Reaver</li>
 <li>Mr. Bob: Library</li>
-<li>Missing Shadowsong, YourArthas, Zorrot: Elune The Night Goddess</li>
-<li>Vensedouh: Elune's Vision</li>
+<li>Missing Shadowsong: Elune Classic (Sponsored by Missing Shadowsong)</li>
 <li>Alethos: Envoy of the Goddess / Vicaress of Elune</li>
 <li>Blizzard Entertainment: BTNINV_Misc_Bag_09</li>
 <li>Direfury: †-Revellion-†'s Goblin Engineer</li>
-<li>Dangerb0y: Easy Item Stack 'n Split v2.7.4 as reference for the unstack and pickup item systems.</li>
-<li>MeKC: GetItemValue as reference for item gold and lumber value system.</li>
 <li>Ergius: IronOre</li>
 <li>Ergius: SilverOre</li>
 <li>Ergius: GoldOre</li>
@@ -2451,72 +2501,8 @@ All the people who contributed to this map.
 <li>Blizzard Entertainment: BTNINV_Ore_Mithril_01</li>
 <li>Blizzard Entertainment: BTNINV_Ore_Copper_01</li>
 <li>KelThuzad: BTNGoldBar</li>
-<li>Kwaliti: Jedi</li>
-<li>olofmoleman: JediStarfighter</li>
-<li>HerrDave: Star Wars - Darth Vader</li>
-<li>HerrDave: Star Wars - Stormtrooper Pack</li>
-<li>Tim.: Tie</li>
-<li>olofmoleman: BTNDarthVader</li>
-<li>olofmoleman: Marine</li>
-<li>Fingolfin: Fingolfins Separatist Fleet Pack</li>
-<li>olofmoleman: Geonosian</li>
-<li>Illidan(Evil)X: Imperial Shuttle</li>
-<li>Kwaliti: Jedi</li>
-<li>olofmoleman, Yoda: Yoda</li>
-<li>Illidan(Evil)X: Jedi Starfighter</li>
 <li>GreyArchon: Bamboo Doodad 1</li>
 <li>GreyArchon: Bamboo Doodad 2</li>
-<li>Illidan(Evil)X: LightSaber3D</li>
-<li>olofmoleman: BTNLightSaberMW</li>
-<li>Mc !: Laser</li>
-<li>olofmoleman: Droideka</li>
-<li>olofmoleman: Rancor</li>
-<li>olofmoleman: TuskenRaider</li>
-<li>Fingolfin: Multi Troop Transport</li>
-<li>olofmoleman: Hail Fire Droid</li>
-<li>olofmoleman: Super Battle Droid</li>
-<li>olofmoleman: Dwarf Spider Droid</li>
-<li>olofmoleman: DroidStarFighter</li>
-<li>olofmoleman: TechnoUnionShip</li>
-<li>olofmoleman: Aat</li>
-<li>olofmoleman: DarthRevan</li>
-<li>Mechanical Man: Star wars Clone war vehicles</li>
-<li>Illidan(Evil)X: Death Star (high-res) IngameSkin</li>
-<li>Illidan(Evil)X: DBLightsaber3D</li>
-<li>Illidan(Evil)X: LightSaberHilt</li>
-<li>Illidan(Evil)X: ObiWans Lightsaber RotS</li>
-<li>Rolo: Factory</li>
-<li>Nasrudin: Jedi</li>
-<li>Wojannnn: Star Wars Sith pack</li>
-<li>Jack_Sparrow93: BTNGreenLightsaber</li>
-<li>Jack_Sparrow93: BTNRedLightsaber4</li>
-<li>olofmoleman: BTNLightsaberBlock</li>
-<li>purparisien: Ancient Shipyard</li>
-<li>Fingolfin: Acclamator Class Assault Ship</li>
-<li>olofmoleman: Gungan</li>
-<li>Illidan(Evil)X: NabooBuilding02</li>
-<li>olofmoleman: NabooStarFighter</li>
-<li>olofmoleman: Marine</li>
-<li>olofmoleman: BTNCloneTrooper</li>
-<li>Fingolfin: Republic Gunship</li>
-<li>olofmoleman: Marine</li>
-<li>olofmoleman: Turbolazer</li>
-<li>Fingolfin: All Terrain Attack Pod</li>
-<li>Fingolfin: V-Wing Fighter/Bomber</li>
-<li>Fingolfin: Consular-class Cruiser</li>
-<li>Fingolfin: Coruscant</li>
-<li>olofmoleman: Ewok</li>
-<li>olofmoleman: Kaminoan</li>
-<li>olofmoleman: BanthawithRider</li>
-<li>olofmoleman: ArcTrooper</li>
-<li>Illidan(Evil)X: Arc - 170</li>
-<li>RightField: laser</li>
-<li>olofmoleman: Gran</li>
-<li>Kricz: Knockback v1.01b</li>
-<li>Jab1z: Zeus Lord of Olympus</li>
-<li>purparisien: Ancient Barracks</li>
-<li>Fingolfin: Roman Heavy Cavalry</li>
-<li>Maker: Jump System v. 1.0.1.6</li>
 <li>bakr: Assorted Farm Buildings</li>
 <li>bakr: Kultiras Structures and Doodads</li>
 <li>RightField: Branch</li>
@@ -2568,7 +2554,6 @@ All the people who contributed to this map.
 <li>jigrael: BTNLightingElemental</li>
 <li>Darkfang: Elemental Convergence</li>
 <li>Ujimasa Hojo: Gold Mine and Derivatives</li>
-<li>Vexorian: SimError</li>
 <li>Henry_AC: BTNPowerGenerator with different colors</li>
 <li>JollyD: BTNLightingElemental</li>
 <li>BoatyMcBoatface300: Villager Kazotsky Kick Dance</li>
@@ -2600,36 +2585,23 @@ All the people who contributed to this map.
 <li>Blizzard Entertainment, Xetanth87: BTNEntangledGoldMine</li>
 <li>bakr: Assorted City Buildings</li>
 <li>Blizzard Entertainment, genin32: BTNMurlocHut1</li>
-<li>Ziadoma: Jedi Drone</li>
 <li>PrMosquito: ManaWard</li>
 <li>RightField: webward</li>
 <li>Uncle Fester: MinigunTower</li>
 <li>Eagle XI: Highelf Building Icons</li>
 <li>Eagle XI: BTNBlueDragonNexus</li>
-<li>Hantoo: Santa Claus</li>
-<li>Hantoo, HerrDave: Santa Claus 2017</li>
 <li>Vinz: Christmas Tree</li>
-<li>Jaccouille: Reindeer</li>
 <li>JollyD: BTNGiftHive</li>
 <li>Mc !: Present</li>
 <li>Thrikodius: Frosty the Snowman</li>
-<li>infrenus: Bascinet Knights</li>
-<li>Mike: All types castle</li>
 <li>Mr. Bob: Medieval Buildings: The complete collection.</li>
-<li>Vendro the Wind Mage: Naga Queen Azshara SD</li>
 <li>PrinceYaser: Queen Azshara</li>
 <li>Eagle XI: Siegemachinery Icons</li>
-<li>Mike: Siege Tower</li>
 <li>Eagle XI: Medieval Building Icons</li>
-<li>Mike: Medieval castle</li>
-<li>purparisien: BTNladder</li>
-<li>MassiveMaster: Siege Ladder</li>
-<li>Hayate and, Mike: PackedTrebuchet</li>
 <li>PROXY: Pandaren Archer</li>
 <li>PROXY: Pandaren Honorguard</li>
 <li>PROXY: Hero Shado Pan</li>
 <li>PROXY: Hero Iron Fist</li>
-<li>PrinceYaser: BTNMedievalHelmet</li>
 <li>Mike: Marketplace</li>
 <li>Mike: Marketplace</li>
 <li>Eagle XI: BTNMarket</li>
@@ -2637,34 +2609,17 @@ All the people who contributed to this map.
 <li>MiniMage: Goblin Trade Prince Mech Hero</li>
 <li>Scias: BTNGoblinPrince</li>
 <li>xyzier_24: VoidSkullAura_v5</li>
-<li>Mike: University</li>
-<li>Mike: Towers</li>
 <li>Graber: Villager 255 Animations</li>
 <li>The Panda: BTNSimpleBow</li>
 <li>Uncle Fester: CheapStandardBow</li>
-<li>Mike: Catapult</li>
-<li>Mike: Bombard</li>
-<li>Eagle XI: BTNBuildableCathedral</li>
-<li>takakenji: TCCathedral</li>
 <li>Darkfang: Bishop</li>
 <li>Tranquil: Human Bishop</li>
-<li>Mike: Organ cannon</li>
-<li>Ket: Monk</li>
-<li>Eagle XI: BTNBatteringRam</li>
-<li>Mechanical Man: Battering ram</li>
-<li>Mike: Mantlet</li>
-<li>IamMclovin: Human Wizard</li>
 <li>Hemske: BTNWizardHat</li>
-<li>Explobomb: Battle Elephant</li>
-<li>Em!: Petard</li>
-<li>Miseracord: Crusader-Miseracord</li>
 <li>Mike: Tents</li>
 <li>Mike: Pier</li>
-<li>Mike: RoyalOrb</li>
 <li>Mike: Wagon</li>
 <li>expresso, Tranquil: Angel</li>
 <li>Mike: Chalice</li>
-<li>CRAZYRUSSIAN: BTNHL_Holy_Grail</li>
 <li>Asssssvi: Footman Kul-Tiras HD</li>
 <li>Asssssvi: Royal Guard Kul-Tiras HD</li>
 <li>Hellx-Magnus: BTNSpectralHead</li>
@@ -2672,12 +2627,10 @@ All the people who contributed to this map.
 <li>Eagle XI: BTNSkyfireGunship.blp</li>
 <li>Null: BTNKul Tiras Defend</li>
 <li>supertoinkz: Gnome Ark</li>
-<li>Эльрат: AT-RT</li>
 <li>Bloody_Turds: Naga Dragon</li>
 <li>olofmoleman: PeregrinFalcon</li>
 <li>Cavman: Kul'Tiras Sailor</li>
 <li>Fingolfin: Wheat Field</li>
-<li>Alethos: Old Witch</li>
 <li>Asssssvi, Xelos: KultirasSiegeLandship</li>
 <li>Oren neu dag: Pirate_Flag, Hive Upload</li>
 <li>ikillforeyou: Horde Crossbow</li>
@@ -2690,195 +2643,43 @@ All the people who contributed to this map.
 <li>GooS: BTNImprovedLance</li>
 <li>Astaroth Zion: Astaroth Zion's Attachment Pack</li>
 <li>Kitabatake: Medieval Weapons</li>
-<li>olofmoleman: Medieval Trebuchet</li>
-<li>Cuore: Spanish Helmets</li>
-<li>Kitabatake: Samurai Helmet</li>
 <li>Kitabatake: BTNCrimsonYoroi</li>
 <li>Kitabatake: Katana</li>
-<li>Tasyen: CustomConsoleUI</li>
-<li>viiva: HumanUITile01.BLP</li>
-<li>viiva: HumanUITile02.BLP</li>
-<li>viiva: HumanUITile03.BLP</li>
-<li>viiva: HumanUITile04.BLP</li>
-<li>viiva: HumanUITile-InventoryCover.blp</li>
-<li>viiva: HumanUITile-TimeIndicatorFrame.blp</li>
-<li>Spellbound, Unwirklich: Demon UI - Widescreen</li>
-<li>I3lackDeath: Sin'dorei UI by I3lackDeath</li>
-<li>CRAZYRUSSIAN and, MiniMage: GoblinUITile2.blp</li>
-<li>Solu9: SPuiBETA_Tile_01.blp</li>
 <li>CRAZYRUSSIAN: BTNDH_Revive</li>
 <li>KelThuzad: BTNCharge</li>
 <li>Blizzard Entertainment: BTNINV_Letter_12</li>
-<li>Fingolfin: Praetorian Guard</li>
-<li>Kuzakani: Triumphal Arch</li>
 <li>Aquis: Villager Man</li>
 <li>Blizzard Entertainment: BTNINV_Letter_09</li>
 <li>Blizzard Entertainment: BTNINV_Letter_03</li>
 <li>Akolyt0r: BTNAquamarineRing</li>
-<li>olofmoleman: R2d2</li>
-<li>olofmoleman: C-3po</li>
-<li>Flowerman: General Grevious</li>
-<li>olofmoleman: BTNGeneralGrievous</li>
-<li>Mike: Ballista(Catapult)</li>
 <li>Just_Spectating: VillagerTauren2.1</li>
 <li>Blood Raven: Bronze Set</li>
-<li>HerrDave: Warcraft Crusader</li>
-<li>Mechanical Man: Hussar</li>
-<li>Spellbound: UnitEventEx</li>
-<li>TriggerHappy: UnitDex</li>
-<li>Bannar: RegisterNativeEvent/RegisterPlayerUnitEvent</li>
-<li>Almia: World Bounds v1.3</li>
-<li>Gottfrei: Leprechaun</li>
-<li>BLazeKraze: BTNLeprechaun</li>
-<li>RightField: rainbow</li>
-<li>dhguardianes: Rainbow</li>
-<li>8512590215848: BTNRainbowNegation</li>
-<li>HerrDave: Hobbit Hole</li>
-<li>HerrDave: Hobbit Pack (Lotr)</li>
-<li>HerrDave: Gondorian Pack</li>
-<li>HerrDave, Tamplier: Gondor Barracks (WotR)</li>
-<li>HerrDave: Fountain Guard</li>
-<li>HerrDave: LotR Tower Pack</li>
-<li>HerrDave: Wilderness Outpost</li>
-<li>HerrDave: Rohan Doodads</li>
-<li>HerrDave: Riders of Rohan (War of the Ring)</li>
-<li>HerrDave: Rohan Archer (War of the Ring)</li>
-<li>HerrDave: Men of the West: Heroes (War of the Ring)</li>
-<li>HerrDave: Aragorn (WotR)</li>
-<li>HerrDave: Tolkien Elf Heroes (War of the Ring)</li>
-<li>HerrDave: Gimli (War of the Ring)</li>
-<li>HerrDave: Gondor House</li>
-<li>Hantoo: Chinese Soldier</li>
 <li>San: Pick Lock</li>
 <li>Blizzard Entertainment: BTNAbility_Warrior_Disarm</li>
-<li>Fingolfin: Sindar Archer</li>
-<li>Fingolfin: Sindar Spearman</li>
-<li>Fingolfin: Sindar Swordsman</li>
-<li>Fingolfin: High Elf Cavalry</li>
-<li>olofmoleman: BTNDarthMaul</li>
-<li>Mc !: BTNTheOneRing</li>
-<li>Lordul Dracula: BTNJedi Drone</li>
-<li>Mechanical Man: Comm Center</li>
-<li>HerrDave: Industrial Era Workers</li>
-<li>Illidan(Evil)X: M1A2 Abrams</li>
-<li>The_Silent: Medieval Wall Trigger Map</li>
-<li>Mechanical Man: Factory</li>
-<li>Mr. Bob: PowerGenerators</li>
-<li>JB_McKnight: Formal Villager</li>
 <li>Kofi_Banan: Airbase</li>
-<li>Kofi_Banan: Bunker</li>
-<li>qassamzed: US Ranger</li>
-<li>Mechanical Man: Barracks</li>
-<li>Zombie: BTNreload</li>
-<li>Zombie: BTNhelmet</li>
-<li>SataX: Heliport</li>
-<li>Illidan(Evil)X: Apache</li>
-<li>purparisien: United Nation Building</li>
-<li>Dragon Elf Mogare: Marine model</li>
-<li>Kofi_Banan: M-113-Ambulance</li>
-<li>Fingolfin: Su-35 Super Flanker</li>
-<li>Illidan(Evil)X: T-90S Modernized</li>
-<li>Illidan(Evil)X: Rocket Launcher Vehicle</li>
-<li>Kofi_Banan: Humvee</li>
-<li>Kofi_Banan: CargoHeliV2</li>
-<li>Mr. Bob: Shipyard</li>
-<li>Illidan(Evil)X: Upgradeable Missile Launcher</li>
-<li>Illidan(Evil)X: Cobra Attack Helicopter</li>
-<li>Afronight_76: FlyingMachine</li>
-<li>Kofi_Banan: Sam-Rocket</li>
-<li>Illidan(Evil)X: Aircraft Carrier</li>
 <li>killst4r: Nuclear Silo2</li>
 <li>WILL THE ALMIGHTY: NuclearExplosion</li>
 <li>mikeisman2: BTNNuclearExplosion</li>
-<li>General Frank: BTNTerranBunker</li>
-<li>HerrDave: American Officer Pack</li>
-<li>HerrDave: Breeland Militia (Lord of the Rings Online)</li>
-<li>HerrDave: Forge (WotR)</li>
-<li>HerrDave: RoyalDwarf</li>
 <li>Mister_Haudrauf: Monument Of Honor / Altar of Honor</li>
 <li>The_Silent: BTNMetallurgy</li>
 <li>Kuhneghetz: BTNRun</li>
 <li>Kuhneghetz: White Tiger</li>
-<li>ILH: Satelite</li>
-<li>WILL THE ALMIGHTY: Laser Strike</li>
-<li>WILL THE ALMIGHTY: BTNLaser</li>
 <li>kola: BTNEarthFixed</li>
 <li>The_Silent: Flamethrower Turret</li>
-<li>Zombie: BTNmachinegun</li>
-<li>Burning_Dragoon5: Guardmen medic</li>
-<li>www.icrc.org: Red Cross, Red Cross</li>
-<li>Illidan(Evil)X: BTNJeep</li>
-<li>Deon: BTNHeli</li>
 <li>Blizzard Entertainment, genin32: BTNTent</li>
-<li>lieutang: BTNAirFighterPilot</li>
-<li>HerrDave: O'Connor the Spy</li>
-<li>graystuff111: BTNRadio</li>
-<li>RightField: Radar</li>
-<li>SantoRayo[iP]: BTNRadar</li>
 <li>Mike: Safe</li>
-<li>Grey Knight: C4 Item</li>
-<li>Grey Knight: C4</li>
-<li>Deon: BTNTimeSpell</li>
-<li>Praytic: ArtilleryAttack</li>
-<li>WILL THE ALMIGHTY: Artillery Strike</li>
-<li>ANdROnIQ: BTNGrenadeF1</li>
-<li>Kitabatake: Grenade (missile)</li>
-<li>Fingolfin: Flashbang</li>
-<li>ChirusHighwind: BTNTarget</li>
 <li>The_Silent: Survival Ministructure: Shelter</li>
 <li>Kitabatake: Grenade (attachment)</li>
-<li>Zombie: BTNsatchel</li>
-<li>oh_snap: Btnm24</li>
-<li>Kofi_Banan: Apache</li>
 <li>Mc !: Arcane Tome</li>
 <li>iron_warrior: Gear Aura</li>
 <li>Infinitynexus: BTNAutoRepairBots</li>
-<li>Kofi_Banan: Bulldoze</li>
-<li>The_Silent: BTNMetalPlatingLevel1</li>
-<li>The_Silent: BTNMetalPlatingLevel2</li>
-<li>The_Silent: BTNMetalPlatingLevel3</li>
-<li>The_Silent: BTNMotor</li>
-<li>purparisien: Brick Tower</li>
-<li>Kofi_Banan: Vulcan</li>
 <li>BLazeKraze: Bandit Hide</li>
 <li>WILL THE ALMIGHTY: Ultimate Explosion --- Ground-based explosion</li>
-<li>olofmoleman: AT-AT Walker</li>
-<li>JB_McKnight: Formal Villager</li>
-<li>Fleck: BTNHerrDaveIndustrialWorker</li>
-<li>Fingolfin: Fingolfins Greek Building Pack</li>
 <li>Bioautomaton: BTNShrink</li>
-<li>Matilda_Knights: Time Rune</li>
-<li>terrio: Time Passing Sound Effect</li>
-<li>OgeRfaCes: BTN.TimeUp</li>
-<li>Blizzard Entertainment: BTNSpell_Nature_TimeStop</li>
-<li>Sellenisko: NozdormuTheTimelessOne</li>
-<li>Sin'dorei300: BTNNozdormu</li>
-<li>Golden-Drake: BTNWingedClock</li>
-<li>Kino: RuneClock</li>
-<li>HerrDave: O'Connor</li>
-<li>HerrDave: Mordor Great Hall</li>
-<li>HerrDave: LotR Orc Pack</li>
-<li>chopinski: New Bonus</li>
 <li>HerrDave: Troll Den (WotR)</li>
-<li>HerrDave: Lotr Troll Pack</li>
-<li>PurgeandFire: Libram v3.0.0.0</li>
-<li>bakr, HerrDave: Haradrim Barracks (Lotr)</li>
-<li>HerrDave: Mûmak</li>
-<li>olofmoleman: Barad'dur</li>
-<li>HerrDave, Tamplier: Orc Slaughterhouse (War of the Ring)</li>
-<li>HerrDave, Tamplier: Orc Mound</li>
-<li>HerrDave: Pack - Men of Rhûn</li>
-<li>HerrDave: Warg Rider (War of the Ring)</li>
-<li>Uncle Fester: HaradrimRider</li>
-<li>olofmoleman: Sauron</li>
-<li>olofmoleman: SauronsMace</li>
 <li>The_Silent: HQ Victrola</li>
 <li>Darkfang: BTNHolyNote</li>
-<li>Shaysonio: Roman icons</li>
 <li>Mike: Ballista(Scorpion)</li>
-<li>Mister_Haudrauf: Battle Chariot</li>
-<li>purparisien: Ancient Workshop</li>
-<li>MassiveMaster: Fortification buildings</li>
 <li>67chrome: BTNTeleport</li>
 <li>Marcos DAB: BTNKingdomFlag</li>
 <li>darkdeathknight: BTNCamera</li>
@@ -2887,8 +2688,6 @@ All the people who contributed to this map.
 <li>Sellenisko: GoblinShopCentreCataclysmV</li>
 <li>Anachron: BTNANAHolyCross</li>
 <li>kola: BTNFlamethrower</li>
-<li>purparisien: Vintage Car Pack</li>
-<li>Ziadoma: GTA Checkpoint model</li>
 <li>Blizzard Entertainment: BTNINV_Misc_Bomb_01</li>
 <li>Blizzard Entertainment: BTNINV_Misc_Bomb_02</li>
 <li>4eNNightmare: BTNRocketFlare</li>
@@ -2906,49 +2705,16 @@ All the people who contributed to this map.
 <li>Tarrasque: Naga Royal Guard</li>
 <li>Tarrasque: warqueen</li>
 <li>Sun gate: Scream of terror</li>
-<li>olofmoleman: Trex</li>
-<li>olofmoleman: Orthanc</li>
-<li>I3lackDeath: BTNPalantirSauron</li>
-<li>Fingolfin: Uruk Hai Swordsman</li>
-<li>Fingolfin: Uruk Hai Crossbowman</li>
-<li>Fingolfin: Uruk Hai Pikeman</li>
-<li>Alok: BTNUruk-haiPikeman, Elven and Uruk Icons</li>
-<li>HerrDave: Saruman (War of the Ring)</li>
-<li>The Lord of the Rings movies: BTNSaruman, BTNSarumansStaff</li>
-<li>NFWar: BTNGunFire</li>
 <li>Blizzard Entertainment: BTNINV_Ingot_Iron</li>
 <li>Blood Raven: Ingot</li>
-<li>olofmoleman: BTNJediStarFighter</li>
-<li>Kinjal: Aqueduct</li>
-<li>Tranquil: Monk</li>
 <li>DOTA2, Milan The Ripper: BTNJetpack</li>
-<li>Dinosaur Nest, olofmoleman: DragonRoost</li>
-<li>Syczewski: German Buildings</li>
-<li>HerrDave: German Infantry Units</li>
-<li>HerrDave: German Rifleman</li>
-<li>HerrDave, SonsOfSami: German Tank Pack</li>
-<li>purparisien: German Zeppelin</li>
-<li>M0rbid: BTNStickGrenade</li>
-<li>HerrDave: German Officer Units</li>
-<li>HerrDave: German Support Units</li>
 <li>merai: BTNTiger</li>
-<li>Syczewski: HerrDave's WW Additional Units</li>
-<li>Syczewski: Icons for HerrDave's WWII models</li>
-<li>Illidan(Evil)X: Me 109</li>
-<li>Teaspoon: Barbed Wire</li>
-<li>SonsOfSami: Trench Wall</li>
-<li>HerrDave: Wrath of the Kaiser: Flag Pack</li>
-<li>EhrGhoul: WW2 Flags</li>
-<li>The_Silent: Bunker Wall Pieces v.1.5</li>
-<li>purparisien: Brick House</li>
-<li>RED BARON: Red Baron Airplane</li>
 <li>Sellenisko: Dragons Reach</li>
 <li>Eagle XI: BTNVrykulMain2</li>
 <li>Sellenisko: VrykulWorker</li>
 <li>Eagle XI: BTNVrykulWorker</li>
 <li>Sellenisko: VrykulFisherHouse</li>
 <li>Eagle XI: BTNVrykulFarm</li>
-<li>Syczewski: German additional units</li>
 <li>Eagle XI: Vrykul Icons</li>
 <li>olofmoleman: VikingLongHouse</li>
 <li>Eagle XI: BTNVrykulWarrior</li>
@@ -2959,7 +2725,6 @@ All the people who contributed to this map.
 <li>Ujimasa Hojo: Shipyard (Human) and Derivatives</li>
 <li>Eagle XI: BTNVrykulLongboat</li>
 <li>Ujimasa Hojo: Altar of Kings and Derivarives</li>
-<li>JollyD: Adventure Road</li>
 <li>Eagle XI: BTNVrykulThane</li>
 <li>Sin'dorei300: BTNRagnarFlamebeard</li>
 <li>Kershbob: BTNHeroRanger</li>
@@ -2990,9 +2755,7 @@ All the people who contributed to this map.
 <li>republicola: RingOfProtection</li>
 <li>Arak1da: DwarfHero Female Woodcutter</li>
 <li>Kenathorn: Pickaxe Item</li>
-<li>Sellenisko: Balrog Of Moria</li>
 <li>Grey Knight: DUMMY</li>
-<li>yanqi24@163.com: Cloud Serpent</li>
 <li>tillinghast: Alchemist lab</li>
 <li>Golden-Drake: BTNGDFlameWhip</li>
 <li>The Panda: BTNFlameStorm</li>
@@ -3050,7 +2813,6 @@ All the people who contributed to this map.
 <li>General Frank: Bloodelven Archer Maiden</li>
 <li>General Frank: Bloodelven Decimator</li>
 <li>Sin'dorei300: BTNFemaleBE</li>
-<li>th15: laser</li>
 <li>ChevronSeven: OrcChild</li>
 <li>ChevronSeven: TrollChild</li>
 <li>antiquegirl33, Cheshire: Troll child icon</li>
@@ -3063,43 +2825,20 @@ All the people who contributed to this map.
 <li>Ujimasa Hojo: Villager (Kid, Gryphon Mount) and Derivatives</li>
 <li>GiantSandWorm, Sephiroth_VII: GiantSandWorm</li>
 <li>Vinz: Orbs of Frostcraft</li>
-<li>GhostThruster: BTNlegolasHD</li>
 <li>North Star: GnomishHoverCopter</li>
-<li>olofmoleman: NazgulRider</li>
 <li>LordRazor: Gnome Teleporter</li>
 <li>Norinrad: Gnomish Warlock</li>
 <li>BLazeKraze: BTNBrainSap</li>
 <li>Mike: UniversalFarm</li>
 <li>Ergius: WoodenPool</li>
-<li>armel: StarDestroyer</li>
-<li>HerrDave: Star Wars - Stormtrooper Pack</li>
-<li>olofmoleman: AT-ST Walker</li>
-<li>Tim: Tie</li>
-<li>olofmoleman: KotoBeastNoRider</li>
-<li>olofmoleman: KotoBeastNoRider</li>
-<li>olofmoleman: RepublicAssaultShip</li>
-<li>olofmoleman: JarJarBinks</li>
-<li>biridius, snorthcall2t: Futuristic buildings</li>
-<li>Fingolfin: Greek Hoplite (Corinthian)</li>
-<li>Fingolfin: Greek Soldier (Corinthian)</li>
-<li>AbstractCreativity: BTNHopliteHelmetUPG1</li>
-<li>AbstractCreativity: BTNHopliteHelmetUPG2</li>
-<li>AbstractCreativity: BTNHopliteHelmetUPG3</li>
-<li>purparisien: Lighthouse of Alexandria</li>
-<li>Fingolfin: Companion Cavalry</li>
 <li>Wezthal: BTNReturnResources2</li>
 <li>Ujimasa Hojo: Acolyte and Derivatives</li>
-<li>Tranquil: Monk</li>
-<li>Painkiller91: Old Man</li>
 <li>eubz: Armored_VillagerMan_Archer</li>
 <li>bakr: Lordaeron Buildings</li>
-<li>z00rtaz: Human Slinger</li>
 <li>Hoth: Cage/Transport Chariot pack</li>
-<li>HerrDave: Greek Battle Helmet</li>
 <li>loktar: Corn & Wheat Pack</li>
 <li>Blizzard, MasterDragons: BTNINVWaterBucket</li>
 <li>bakr: Assorted Village Buildings</li>
-<li>Kimbo: Sparta</li>
 <li>.KC, diosilva16: Villager in robe - 40 animations</li>
 <li>purparisien: Ancient Market</li>
 <li>Asssssvi: Mystical Knight on Pegasus Lordaeron</li>
@@ -3126,13 +2865,10 @@ All the people who contributed to this map.
 <li>Retera: Fish Item Model</li>
 <li>maxor_gan: BTNWheat</li>
 <li>Illidan(Evil)X: Tiberium Crystals - Green/blue</li>
-<li>killst4r: Geyser</li>
 <li>4eNNightmare: BTNTestOfFaith</li>
-<li>Shimrra: BTNResourceCrystal</li>
-<li>Shimrra: BTNVespianGeyser</li>
 <li>67chrome: BTNAstralCalander</li>
 <li>KelThuzad: BTNSilverBar</li>
-<li>Ziadoma: Ingots</li>
+<li>Ziadoma, Blizzard Entertainment: Ingots</li>
 <li>maxor_gan: BTNFirePit</li>
 <li>Mr. Bob: Tavern</li>
 <li>TESCAO: BTNLaserBeam</li>
@@ -3142,13 +2878,11 @@ All the people who contributed to this map.
 <li>Frozen_Naga: BTN.Galaxy</li>
 <li>Blizzard Entertainment: BTNINV_Misc_Food_18</li>
 <li>HerrDave: Scarlet Monastery</li>
-<li>olofmoleman: Hoth Blaster</li>
 <li>Asssssvi: Footman Lordaeron HQ</li>
 <li>Asssssvi: Rifleman Lordaeron HD</li>
 <li>Jiok: Bannercarrier and Derivatives</li>
 <li>Kofi_Banan, purparisien: Wagons and Train</li>
 <li>unchips: Fish Vending Stand</li>
-<li>Sellenisko: MoriaGoblin</li>
 <li>bakr: Human Alliance Banners</li>
 <li>Alok: Nerubian Worker</li>
 <li>Ujimasa Hojo: Necropolis and Derivatives</li>
@@ -3160,18 +2894,6 @@ All the people who contributed to this map.
 <li>communist_orc: Witch Hut</li>
 <li>Bioautomaton: Human Airship</li>
 <li>Stefan.K: Goblin Prince</li>
-<li>killst4r: command center connected final</li>
-<li>General Frank: BTNCommandCenter</li>
-<li>killst4r: SCV Final</li>
-<li>General Frank: BTNTerranSCV</li>
-<li>General Frank: BTNTerranSupplyDepot</li>
-<li>killst4r: SupplyDepot</li>
-<li>The_Silent: BTNSyringeStimpack</li>
-<li>killst4r: Barracks Connected</li>
-<li>killst4r: Akademy</li>
-<li>General Frank: BTNTerranAcademy</li>
-<li>Max666: Battlecruiser</li>
-<li>Shimrra: BTNBattleCruiser</li>
 <li>Don Valentino: Demon Armor Upgrade</li>
 <li>Hawkwing: Naaru</li>
 <li>Chen: BTNGiftoftheNaaru</li>
@@ -3192,12 +2914,11 @@ All the people who contributed to this map.
 <li>Hellx-Magnus: BTNNerubianScepter</li>
 <li>The Panda: Pack of Nerub Icons</li>
 <li>alfredx_sotn: CryptFiend</li>
-<li>unwirklich, Wa666r: Nerubian UI</li>
 <li>Lender: Web animated</li>
 <li>Juice_F: BTNSpiderWeb</li>
 <li>Sellenisko: ArmoredWolf</li>
 <li>Sin'dorei300: BTNArmoredBlackWolf</li>
-<li>Sin'dorei300: [BTNArmoredWolf</li>
+<li>Sin'dorei300: BTNArmoredWolf</li>
 <li>Sellenisko: VrykulLamp</li>
 <li>Sellenisko: UndeadVrykul</li>
 <li>D.O.G.: BTNIconSave</li>
@@ -3224,8 +2945,6 @@ All the people who contributed to this map.
 <li>Blood Raven: Dice and Cup</li>
 <li>Stefan.K: Genn Greymane</li>
 <li>Sellenisko: GreymaneWall</li>
-<li>ShadiHD: CSW - High Elf Swordsman Soundset</li>
-<li>Loken Ironwolf: Warcraft III Cenarius Soundset</li>
 <li>Cavman, Hawkwing: Arakkoa</li>
 <li>Ujimasa Hojo: Harpy and Derivatives</li>
 <li>Mouseketeer: BTNArakkoaWarrioress</li>
@@ -3244,7 +2963,6 @@ All the people who contributed to this map.
 <li>Cavman, Kuhneghetz: Night Elf Druid Cat Form</li>
 <li>Dmitry Rommel: Archdruid</li>
 <li>Blizzard Entertainment: BTNDruidOfTheTalonBETA</li>
-<li>Xetanth87: Owl Riding Priestess of the Moon</li>
 <li>PetHer01c3, StonemaulMidget: Murloc Buildings (Completed)</li>
 <li>Retera: Dragon Turtle with Siege Mode</li>
 <li>67chrome: BTNMurlocGreenWorkerby67chrome</li>
@@ -3252,7 +2970,6 @@ All the people who contributed to this map.
 <li>frostwhisper: Multi-Tier Hydra</li>
 <li>Murlocologist, Stefan.K: Magni Bronzebeard</li>
 <li>Retera: Elite Armored Polar Bear</li>
-<li>PrincePhoenix: UI Ice CRAZYRUSSIAN Fixed By Phoenix</li>
 <li>The_Silent: Crossbow Turret</li>
 <li>Liomsi: Murlocs models and Icons</li>
 <li>WilliamBz: Murloc Hatchling Ground</li>
@@ -3262,12 +2979,10 @@ All the people who contributed to this map.
 <li>Zephyrius2412: Murloc & Mur'gul - Variations - Shadowcaster</li>
 <li>Marcos DAB: BTNWaterPearlStaff</li>
 <li>Mr.Goblin: BTNShaman</li>
-<li>HerrDave: Captain James Hook</li>
 <li>CRAZYRUSSIAN: BTNBK_Black_Book</li>
 <li>Mc !: Tome Of Retraining</li>
 <li>Blizzard Entertainment, Zephyrius2412: High Elven Upgrades</li>
 <li>CRAZYRUSSIAN: BTNHL_Holy_Book</li>
-<li>Spellbound: Lost Tribe UI</li>
 <li>Direfury: Ogre Peon\\Peasant/Worker</li>
 <li>Rubellu Sidus: Ogre Mound</li>
 <li>Stanakin: BTNOgreClubs2</li>
@@ -3288,12 +3003,6 @@ All the people who contributed to this map.
 <li>Direfury: Gnome Arcanist</li>
 <li>Sin'dorei300: Black Wizard</li>
 <li>Norinrad: Gnomish Bombardier</li>
-<li>darkdeathknight: BTNCamera</li>
-<li>darkdeathknight: BTNCameraReset</li>
-<li>darkdeathknight: BTNCameraRight</li>
-<li>darkdeathknight: BTNCameraLeft</li>
-<li>darkdeathknight: BTNCameraClose</li>
-<li>darkdeathknight: BTNCameraFar</li>
 <li>r.ace613: Tauren and Derivatives</li>
 <li>ChevronSeven: BTNOrbOfNature</li>
 <li>Sin'dorei300: Heart Amulet</li>
@@ -3309,7 +3018,6 @@ All the people who contributed to this map.
 <li>FrIkY: BTNPandaArmorUpg2</li>
 <li>FrIkY: BTNPandaArmorUpg2</li>
 <li>killst4r: Pandaren Building7</li>
-<li>Spellbound, Unwirklich: Pandaren UI - Widescreen version</li>
 <li>CRAZYRUSSIAN: BTNCRPandaP1</li>
 <li>CRAZYRUSSIAN: BTNCRPandaP2</li>
 <li>CRAZYRUSSIAN: BTNCRPandaP3</li>
@@ -3323,8 +3031,6 @@ All the people who contributed to this map.
 <li>chr2: BTNPandaAura</li>
 <li>Tauer: Gul'dan</li>
 <li>PrinceYaser: BTNGul'dan</li>
-<li>Tauer: GaronaHalforcen</li>
-<li>loktar: Garona</li>
 <li>kola: BTNQuestScroll</li>
 <li>Just_Spectating: Villager Druid 2.0</li>
 <li>kola: BTNOrange</li>
@@ -3337,7 +3043,6 @@ All the people who contributed to this map.
 <li>Ujimasa Hojo: Ancient of Lore and Derivatives</li>
 <li>Ujimasa Hojo: Ancient of Wind and Derivatives</li>
 <li>84chrome: Corrupted Night Elves</li>
-<li>Loken Ironwolf: Warcraft III Medivh Soundset</li>
 <li>Technopig: Bilgewater Building Icon Pack</li>
 <li>(zerotul), Blizzard Entertainment: Furbolg Hut</li>
 <li>(zerotul), Blizzard Entertainment: Furbolg Hut 2</li>
@@ -3350,8 +3055,6 @@ All the people who contributed to this map.
 <li>Gyrosphinx: Kobold Slave</li>
 <li>Direfury: Wildland Storehouse/Fort\\Hold</li>
 <li>Mister_Haudrauf: Quilboar Race</li>
-<li>WilliamBz: WarCraft III Guldan soundset</li>
-<li>Zenonoth: Mal'Ganis Soundset</li>
 <li>Dragunov: Maiev Caged</li>
 <li>r.ace613: Ancient of Wind and Derivatives</li>
 <li>Direfury: All-Purpose Gate/Archway\\Portal</li>
@@ -3384,13 +3087,7 @@ All the people who contributed to this map.
 <li>Stefan.K: King Anduin Wrynn</li>
 <li>Scias: BTNHeroAnduinWrynn</li>
 <li>Chen: BTNKingAnduin</li>
-<li>Tauer: Anduin Lothar</li>
-<li>BLazeKraze: Anduin Lothar</li>
-<li>Tauer: Durotan</li>
-<li>8512590215848: BTNDurotan164</li>
 <li>bakr: Stormwind Buildings</li>
-<li>Tauer: Orgrim Doomhammer</li>
-<li>loktar: Orgrim Doomhammer</li>
 <li>supertoinkz: Orc Oil Tanker</li>
 <li>Mephestrial: HumanOilTanker</li>
 <li>TheHuntress: Chaplain Icon</li>
@@ -3399,8 +3096,6 @@ All the people who contributed to this map.
 <li>bakr: Stormwind Units</li>
 <li>bakr: Gryphon Knight</li>
 <li>johnwar: Footmen and Captains (Re-Classic Pack)</li>
-<li>Moy, Stefan.K: King Varian Wrynn</li>
-<li>Scias: BTNVarianWrynn</li>
 <li>Mephestrial: Knight Unmounted</li>
 <li>Jiok: Stormwind City</li>
 <li>chr2, Sellenisko: Gronn V.4</li>
@@ -3408,57 +3103,23 @@ All the people who contributed to this map.
 <li>Hawkwing: Blue Wild Elekk</li>
 <li>Ilya Alaric: Priest Pack</li>
 <li>AndrewOverload519: Female Human Mage</li>
-<li>Zydler: WC2 Death Knight</li>
-<li>Blizzard: BTNOrcDeathKnight</li>
 <li>Blizzard: Warcraft II Oil icon.</li>
-<li>Red XIII: WCII_GreatHall</li>
-<li>loktar: Great Hall (WC2) v2</li>
-<li>Red XIII: WCIIPigFarm</li>
-<li>Red XIII: WCII Orc Barrack</li>
-<li>Red XIII: WCIITrollLumberMill</li>
-<li>Red XIII: WCIIOrcBlacksmith</li>
-<li>Red XIII: WCIIOrcWarTower</li>
-<li>Red XIII: WCIIOrcFoundry</li>
 <li>Mephestrial: OrcOilPlatform</li>
-<li>Blizzard Entertainment: BTNOrcShipyard</li>
-<li>Red XIII: WCIITempleOfDamned</li>
-<li>Red XIII: WCII Altar of Storms</li>
 <li>LordPerenoldeII: Oil Patch</li>
-<li>Blizzard: BTNOrcCatapult</li>
-<li>Blizzard: BTNUpgradeShipArmorOrc</li>
-<li>Blizzard: BTNUpgradeShipArmorOrc2</li>
-<li>Blizzard: BTNUpgradeCannonOrc</li>
-<li>Blizzard: BTNUpgradeCannonOrc2</li>
-<li>Blizzard: BTNOrcRefinery</li>
 <li>LordPerenoldeII: Warcraft 2 - Tides of Darkness - Orcs/Oil Patches/Refinery</li>
-<li>Blizzard: BTNOrcPeon</li>
-<li>Blizzard: BTNHumanPeasant</li>
 <li>Tarrasque: Tidal Lord</li>
 <li>Himperion: Great Elementals</li>
 <li>NFWar: BTNEarthElemental</li>
 <li>leetslay: BTNSummonAirElemental</li>
 <li>Shardeth: Subterrain Vehicle v1.2</li>
 <li>SuPa-: Earth Elemental</li>
-<li>Red XIII: WCIITownHall</li>
-<li>loktar: Town Hall (WC2)</li>
-<li>Red XIII: WCIIHumanFarm</li>
-<li>Blizzard: BTNHumanFarm</li>
-<li>Shardeth: Subterrain Vehicle v1.2</li>
 <li>kondoriyano: cloud serpent/Cloud Serpent</li>
 <li>PROXY: Draenei / Eredar Pack</li>
-<li>Wa666r: Draenei UI</li>
 <li>Ujimasa Hojo: Villager (Kid) and Derivatives</li>
-<li>ShadiHD: CSW - Gnomish Submarine</li>
 <li>Verdun: domer</li>
-<li>Syczewski: American Civil War Units</li>
 <li>StonemaulMidget: All Human Nations Tents_Colored</li>
-<li>Mechanical Man: Saloon</li>
-<li>Lord Zodiac: Saloon</li>
-<li>Fingolfin: Training Teepee</li>
-<li>Kitabatake: Balloon Transport</li>
 <li>Illidan(Evil)X: Replaceable Flag</li>
 <li>TheHuntress: Horse Upgrade</li>
-<li>Radagast: Apatche Mounted Archer</li>
 <li>General Frank: Azure Dragon Judicator</li>
 <li>Muoteck: BTN_AzureDragonJudicator</li>
 <li>Golden-Drake: BTNNagaTail</li>
@@ -3467,7 +3128,6 @@ All the people who contributed to this map.
 <li>Grey Knight: Staff Item</li>
 <li>Mr. Bob: Armory</li>
 <li>Kuhneghetz: Skeletal Child</li>
-<li>Mace Windu, olofmoleman: Hellscream</li>
 <li>Blood Raven: BTNLemons</li>
 <li>Cavman: Bum Bed</li>
 <li>ikillforeyou: Crusader Sword</li>
@@ -3493,14 +3153,10 @@ All the people who contributed to this map.
 <li>Praytic: BTNKatana</li>
 <li>smithyjones: Handheld Lantern</li>
 <li>sunwarrior25: Torch Attachment</li>
-<li>HappyTauren: Nightvision Attachment</li>
-<li>Muoteck: BTNNightVisionGoggles</li>
 <li>theJ89: jetpack</li>
 <li>theJ89: jetpack</li>
-<li>Talon the Mage: Konstrukt_MinigunAttachment</li>
 <li>Deathbringer: BTNMinigun</li>
 <li>Talon the Mage: Konstrukt_MinigunMissile</li>
-<li>tee.dubs: Bloody Chainsaw</li>
 <li>Talon the Mage: Konstrukt_FlameThrowerAttachment</li>
 <li>Talon the Mage: Konstrukt_FlameThrowerEffektAttachment</li>
 <li>Moy: BTNHalberd</li>
@@ -3534,38 +3190,17 @@ All the people who contributed to this map.
 <li>Moy: BTNReinforcedFireAttack</li>
 <li>stonneash: High Quallity Red Handled Spiked ClubV0.9</li>
 <li>r.ace613: Ogre MEGA Pack</li>
-<li>HuanJuan, r.ace613: Ogre Drummer Icon Variations</li>
-<li>Xetanth87: I2S without natives for use in AI scripts</li>
+<li>HuanJuan: Ogre Drummer Icon Variations</li>
 <li>bakr: Pandaren Buildings</li>
 <li>Sellenisko: Malorne, Great Stag Mount</li>
 <li>Hantoo: Saddle Item</li>
 <li>Hantoo, Heinvers: BTNSaddleItem</li>
-<li>Blood Raven: Cowboy Hat</li>
 <li>xXMephistoXx: Magic Hat</li>
 <li>Kitabatake: Samurai Dual Sword</li>
 <li>BLazeKraze: BTNPandarenBambooStick</li>
-<li>Blizzard: BTNHaste</li>
-<li>Blizzard: BTNTouchOfDarkness</li>
-<li>Blizzard: BTNDeathCoil</li>
-<li>loktar: Fortress (WC2)</li>
 <li>Wezthal: BTNIncreaseIncome2</li>
 <li>Blizzard: BTNEyeOfKilrogg</li>
-<li>Blizzard: BTNOrcStronghold</li>
-<li>Blizzard: BTNHumanKeep</li>
-<li>Blizzard: BTNHumanCastle</li>
-<li>Blizzard: WCIIHumanFarm</li>
-<li>Blizzard: ElfLumberMill</li>
-<li>Blizzard: BTNElvenLumbermill</li>
-<li>Blizzard: BTNTrollLumbermill</li>
-<li>Red XIII: WCII_Church</li>
-<li>Red XIII: WCIIMageTower</li>
-<li>Blizzard: BTNMageTower</li>
-<li>AndrewOverload519: Warcraft II Mage</li>
 <li>Ujimasa Hojo: Sapper and Derivatives</li>
-<li>BlinkBoy: Wc2ElvenArcher</li>
-<li>BlinkBoy: Spanish Conquistador</li>
-<li>Killrogg Deadeye, BlinkBoy: Warcraft 2 Elven Ranger</li>
-<li>Blizzard: BTNElvenRanger</li>
 <li>Cavman: Clefthoof</li>
 <li>Heinvers, Sellenisko: FelLord</li>
 <li>-Berz-: BTNThrowingAxe</li>
@@ -3576,14 +3211,13 @@ All the people who contributed to this map.
 <li>MeteORA: Wooden Fishing Rod</li>
 <li>darkdeathknight: BTNFishDish</li>
 <li>KelThuzad: BTNFishing1</li>
-<li>Sharks: olofmoleman</li>
+<li>olofmoleman: Sharks</li>
 <li>NFWar: BTNShark</li>
 <li>Praytic: BTNCarvingKnife</li>
 <li>kola: BTNRecipe</li>
 <li>JollyD: BTNCloverStuff</li>
 <li>Riley: BTNstamina</li>
 <li>Hantoo: AdvancedFirePit</li>
-<li>Benboncan: Cow.wav</li>
 <li>MasterHaosis: Demonic Crystal Generator</li>
 <li>Dristitia: Crystal Building</li>
 <li>CreatorD3292: Crystal Building</li>
@@ -3610,7 +3244,6 @@ All the people who contributed to this map.
 <li>Stormode: Murlocs Buildings</li>
 <li>Stefan.K: Lion Rider</li>
 <li>PROXY: Eredar Annihilator</li>
-<li>Blizzard Entertainment, PashaFenko036: WC2 - Orc</li>
 <li>Ujimasa Hojo: Great Hall and Derivatives</li>
 <li>General Frank: Fel Orc Lancer</li>
 <li>General Frank: Fel Orc Felhound Rider</li>
@@ -3633,8 +3266,6 @@ All the people who contributed to this map.
 <li>Sin'dorei300: FacelessOneKid</li>
 <li>Scias: BTNFacelessOneCultist</li>
 <li>Kuhneghetz: Raven</li>
-<li>HerrDave: Mordor Blacksmith (LOTR)</li>
-<li>HerrDave: Rohan Town Hall (LOTR)</li>
 <li>Fant0md: BTNFacelessArtillery</li>
 <li>Aldeia: HQ Classic - Faceless Ones</li>
 <li>MN Lahmar: Faceless King</li>
@@ -3645,7 +3276,6 @@ All the people who contributed to this map.
 <li>Maxwell: BTNExample2</li>
 <li>Maxwell: BTNExample3</li>
 <li>Misha: Faceless Nightmare Weaver</li>
-<li>Wa666r: Faceless Ones v1.1 - Faceless One UI</li>
 <li>Bleeq: Parrot (multiple varieties)</li>
 <li>Dentothor: General Vezax</li>
 <li>HerrDave: Horde Warmachine</li>
@@ -3689,35 +3319,8 @@ All the people who contributed to this map.
 <li>Mike: BTNSpade</li>
 <li>Sunchips: Wolf Spirit Headpiece by Sunchips</li>
 <li>Sunchips: InfernalDestroyer</li>
-<li>HerrDave, 1_Freon_1: Oathbreaker Pack (LOTR)</li>
-<li>Blizzard Entertainment: BTNOrcScoutTower</li>
-<li>Blizzard Entertainment: BTNOrcCannonTower</li>
-<li>Blizzard Entertainment: BTNOrcGuardTower</li>
-<li>olofmoleman: BobaFett</li>
-<li>olofmoleman: BTNBobaFett</li>
-<li>ynosh: Star Wars BFTF 1.12.01</li>
-<li>Jaccouille: Star Wars: Rebel Trooper</li>
-<li>olofmoleman: Ithorian</li>
-<li>Elunes-Guardian: StarBase</li>
-<li>Domokun: xwing11</li>
-<li>Illidan(Evil)X: B-Wing Starfighter</li>
-<li>Illidan(Evil)X: Y-Wing Starfighter</li>
-<li>Illidan(Evil)X: Millennium Falcon</li>
-<li>chilla_killa: Bacta Tank by chilla_killa</li>
-<li>olofmoleman: BTNJediMale1</li>
-<li>olofmoleman: Jedi Male</li>
-<li>Mike: Arabian inn</li>
-<li>Mike: Arabian market</li>
-<li>killst4r: Factory Animated</li>
-<li>General Frank: BTNTerranFactory</li>
-<li>General Frank: BTNTerranBarracs</li>
-<li>killst4r: Armory 2</li>
-<li>General Frank: BTNTerranArmory</li>
-<li>Uncle Fester: HaradrimBannerCarrier</li>
-<li>Blizzard Entertainment: BTNHumanChurch</li>
 <li>Blizzard Entertainment, Zephyrius2412: Blood Elven Upgrades</li>
 <li>Barade, Blizzard Entertainment: Doodad icons</li>
-<li>Barade, Fingolfin, HerrDave: Star Wars unit icons</li>
 <li>NhazUl: Dreadlord Child</li>
 <li>Thrikodius: Goblin Kid</li>
 <li>Em!: Creep-Spawner/Basements&Tunnels/Waygates</li>
@@ -3728,8 +3331,6 @@ All the people who contributed to this map.
 <li>Blizzard Entertainment, zerotul: Forest Troll Hut 0</li>
 <li>Blizzard Entertainment, zerotul: Forest Troll Hut 1</li>
 <li>Dionesiist: Vampire Combatant</li>
-<li>Remixer: Stone Coffin</li>
-<li>Darkfang: BTNDeathCoffin</li>
 <li>Stanakin: Kobold Race Pack</li>
 <li>Blood Raven: BTNKoboldCandles</li>
 <li>=X=EclipsE, Elf Knight-: Demon Armor Upg1</li>
@@ -3778,13 +3379,6 @@ All the people who contributed to this map.
 <li>PROXY: Goblin Demolisher (Goblin Car)</li>
 <li>Chriz: Fill-Me-Up Treasure Chest</li>
 <li>The_Silent: BTNMolotovCocktail</li>
-<li>Red: Ak-47</li>
-<li>Zombie: BTNAk47</li>
-<li>Talon the Mage: Konstrukt_SniperAttachment</li>
-<li>Deathbringer: BTNSniperRifle</li>
-<li>Talon the Mage: Konstrukt_SniperMissile01</li>
-<li>epsilon: m249_ByEpsilon</li>
-<li>Zombie: Btnm249</li>
 <li>paladinjst: Guard_Armor_Stormwind</li>
 <li>Kitabatake: Farm</li>
 <li>Archangel_Tidusx: BTNFarmKita</li>
@@ -3816,7 +3410,6 @@ All the people who contributed to this map.
 <li>8512590215848: BTNHunter01</li>
 <li>DeathKnight: BTNPoisonArrowsOn</li>
 <li>DeathKnight: BTNPoisonArrows</li>
-<li>Jaccouille: Star Wars: Empire Vehicle AT-AT</li>
 <li>supertoinkz: Crannies Summer and Fall</li>
 <li>supertoinkz: Crannies Snow/y and Winter</li>
 <li>JetFangInferno: MusicTarget</li>
@@ -3825,7 +3418,6 @@ All the people who contributed to this map.
 <li>assasin_lord: Bard Projectile</li>
 <li>General Frank: BTNSteamfortress</li>
 <li>TerranUp16: BTN_BronzeRoost</li>
-<li>Rebel-Turret: Tie</li>
 <li>General Frank: Draconian Spear thrower</li>
 <li>General Frank: BTNDraconianSpearThrower</li>
 <li>Mister_Haudrauf: Quilboar Raider</li>
@@ -3916,7 +3508,6 @@ All the people who contributed to this map.
 <li>HappyTauren: Skeleton Fire Warior Mage</li>
 <li>HappyTauren: BTNSkeletonFireWarriorMage</li>
 <li>HappyTauren: Lava</li>
-<li>TriggerHappy: GameStatus (Replay Detection)</li>
 <li>Bleeq: Female Kobold Mushroom Caster</li>
 <li>maxor_gan: BTNBlueMushroom</li>
 <li>Scias: BTNGoblinWorker</li>
@@ -3962,7 +3553,6 @@ All the people who contributed to this map.
 <li>Sin'dorei300: BTNFireMage</li>
 <li>8512590215848: BTNGoldenCrown3</li>
 <li>Kwaliti: The Lich King</li>
-<li>BLazeKraze: BTNBlackhand</li>
 <li>8512590215848: BTNHolyCrest</li>
 <li>8512590215848: BTNHolyHeavyBoots</li>
 <li>8512590215848: BTNHolyPlatedGauntlet</li>
@@ -3993,7 +3583,17 @@ All the people who contributed to this map.
 <li>Blood Raven: Wine Bottle</li>
 <li>bisnar13: Candle</li>
 <li>Mike: WallTorch</li>
-<li>RodOfNOD: PapilioBlue</li>
+<li>Blizzard Entertainment: BTNINV_Misc_Dynamite_01</li>
+<li>Deleted member 126647: Dynamite Projectile</li>
+<li>lllLSDlll: BTNTomeOWonders</li>
+<li>Ujimasa Hojo: Death Knights and Derivatives</li>
+<li>Tauer: Thrall</li>
+<li>Paladon: BTNPReflect</li>
+<li>The_Silent: BTNMotor</li>
+<li>kangyun: Hots Alexstrasza</li>
+<li>Scias: BTNAlexstrasza</li>
+<li>Elf Knight- (author), Missing Shadowsong (sponsor): Elune</li>
+<li>Blizzard Entertainment, TheKaldorei: BTNGarrisonArmy</li>
 </ul>
 </td>
 </tr>
@@ -4029,8 +3629,7 @@ All changes of 4.0.
 <li>Give VIPs more features.</li>
 <li>Fix setting VIPs in the beginning of the game.</li>
 <li>Add skins.</li>
-<li>Add cinematic for Human quest 1.</li>
-<li>Add cinematic for Orc quest 1.</li>
+<li>Add several quest cinematics.</li>
 <li>Add hero Fel Kodo Beast.</li>
 <li>Revise ability fields system.</li>
 <li>Add ability skill UI.</li>
@@ -4090,7 +3689,6 @@ All changes of 4.0.
 <li>Rain of Chaos for special buildings has mana cost now.</li>
 <li>Fix unit soundset of boss Spider Crab Behemoth.</li>
 <li>Fix requirements for several boss heroes.</li>
-<li>Improve website data.</li>
 <li>Revise item drop functions.</li>
 <li>Fix initial hero skills of bosses.</li>
 <li>Make Captain invulnerable for Kul Tiras quest 4.</li>
@@ -4160,6 +3758,46 @@ All changes of 4.0.
 <li>Add cheat "-nobosses".</li>
 <li>Add cheat "-nopassive".</li>
 <li>Remove Holy Grail.</li>
+<li>Fix auto skilling reskillable heroes.</li>
+<li>Add learnable spell Feral Spirit for slot 2.</li>
+<li>Fix learnable spell Mass Control Magic.</li>
+<li>Remove aura caster when randomizing hero spells.</li>
+<li>Give spell Multiply a custom icon.</li>
+<li>Move spell Multiply to slot 4.</li>
+<li>Enable library Tenacity to make Spell Aura work again.</li>
+<li>Fix updating all auras when the last cater is removed to remove remaining buffs.</li>
+<li>Fix hero spell Frost Bolt Rain.</li>
+<li>Fix propert names of hero Spellbreaker.</li>
+<li>Legendary item Mathog's Cage changes attack type and defense type of the summoned mount.</li>
+<li>Hide queue UI and actions bar before cinematic modes.</li>
+<li>Add chat command "-enemies".</li>
+<li>Add sound to hero spell Summon Wall.</li>
+<li>Add sound to death of summoned wall unit.</li>
+<li>Fix death animations for summoned wall units.</li>
+<li>Remove limitation for special building ability Fel of Fountain of Blood.</li>
+<li>Remove training of Fel Orcs for Fountain of Blood.</li>
+<li>Open black borders from Pandaria to the south of Azeroth.</li>
+<li>Eredar Citizens (male) can build Eredar Housings now.</li>
+<li>Reduce damage of hero spell and unit ability Slide.</li>
+<li>System HeroAbilities requires only hashtable now.</li>
+<li>Add chat command "-aihero".</li>
+<li>Increase base defense of Divine Golems.</li>
+<li>Fix several memory leaks.</li>
+<li>Do not remove properties on repick and full repick anymore.</li>
+<li>Fix proper names for multiple heroes.</li>
+<li>Fix getting all researches of a race when purchasing a property.</li>
+<li>Properties generate resources automatically now without any workers.</li>
+<li>Fix removing orb carriers on removing units.</li>
+<li>Improve performance for Orb of Orbs carrier detection.</li>
+<li>Scale down building Merchant Shop.</li>
+<li>Chat command "-k" works for "-suicide" now.</li>
+<li>Fix detecting sold units from Trading Posts as queue UI entries.</li>
+<li>Fix buildings like Trading Posts and Spell Books after loading them via save codes.</li>
+<li>Fix items for profession Tamer.</li>
+<li>Ignore magic immune targets for Mass Charm.</li>
+<li>Fix first talk to me effect for Lich King quest 1.</li>
+<li>Disable several drop item triggers for quests in the beginning of the game.</li>
+<li>Improve website data.</li>
 <li>Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.</li>
 </ul>
 </td>
@@ -4174,7 +3812,7 @@ All changes of 4.0.
 3.38
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.38.
 </td>
 <td>
 <ul class="questitems">
@@ -4283,7 +3921,7 @@ All changes of 4.0.
 3.37
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.37.
 </td>
 <td>
 <ul class="questitems">
@@ -4338,7 +3976,7 @@ All changes of 4.0.
 3.36
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.36.
 </td>
 <td>
 <ul class="questitems">
@@ -4404,7 +4042,7 @@ All changes of 4.0.
 3.35
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.35.
 </td>
 <td>
 <ul class="questitems">
@@ -4454,7 +4092,7 @@ All changes of 4.0.
 3.34
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.34.
 </td>
 <td>
 <ul class="questitems">
@@ -4535,7 +4173,7 @@ All changes of 4.0.
 3.33
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.33.
 </td>
 <td>
 <ul class="questitems">
@@ -4634,7 +4272,7 @@ All changes of 4.0.
 3.32
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.32.
 </td>
 <td>
 <ul class="questitems">
@@ -4699,7 +4337,7 @@ All changes of 4.0.
 3.31
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.31.
 </td>
 <td>
 <ul class="questitems">
@@ -4738,7 +4376,7 @@ All changes of 4.0.
 3.30
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.30.
 </td>
 <td>
 <ul class="questitems">
@@ -4793,7 +4431,7 @@ All changes of 4.0.
 3.29
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.29.
 </td>
 <td>
 <ul class="questitems">
@@ -4916,7 +4554,7 @@ All changes of 4.0.
 3.28
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.28.
 </td>
 <td>
 <ul class="questitems">
@@ -4985,7 +4623,7 @@ All changes of 4.0.
 3.27
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.27.
 </td>
 <td>
 <ul class="questitems">
@@ -5079,7 +4717,7 @@ All changes of 4.0.
 3.26
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.26.
 </td>
 <td>
 <ul class="questitems">
@@ -5127,7 +4765,7 @@ All changes of 4.0.
 3.25
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.25.
 </td>
 <td>
 <ul class="questitems">
@@ -5255,7 +4893,7 @@ All changes of 4.0.
 3.24
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.24.
 </td>
 <td>
 <ul class="questitems">
@@ -5336,7 +4974,7 @@ All changes of 4.0.
 3.23
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.23.
 </td>
 <td>
 <ul class="questitems">
@@ -5533,7 +5171,7 @@ All changes of 4.0.
 3.22
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.22.
 </td>
 <td>
 <ul class="questitems">
@@ -5664,7 +5302,7 @@ All changes of 4.0.
 3.21
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.21.
 </td>
 <td>
 <ul class="questitems">
@@ -5985,7 +5623,7 @@ All changes of 4.0.
 3.20
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.20.
 </td>
 <td>
 <ul class="questitems">
@@ -6084,7 +5722,7 @@ All changes of 4.0.
 3.19
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.19.
 </td>
 <td>
 <ul class="questitems">
@@ -6212,7 +5850,7 @@ All changes of 4.0.
 3.18
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.18.
 </td>
 <td>
 <ul class="questitems">
@@ -6329,7 +5967,7 @@ All changes of 4.0.
 3.17
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.17.
 </td>
 <td>
 <ul class="questitems">
@@ -6532,7 +6170,7 @@ All changes of 4.0.
 3.16
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.16.
 </td>
 <td>
 <ul class="questitems">
@@ -6565,7 +6203,7 @@ All changes of 4.0.
 3.15
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.15.
 </td>
 <td>
 <ul class="questitems">
@@ -6825,7 +6463,7 @@ All changes of 4.0.
 3.14
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.14.
 </td>
 <td>
 <ul class="questitems">
@@ -7037,7 +6675,7 @@ All changes of 4.0.
 3.13
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.13.
 </td>
 <td>
 <ul class="questitems">
@@ -7118,7 +6756,7 @@ All changes of 4.0.
 3.12
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.12.
 </td>
 <td>
 <ul class="questitems">
@@ -7255,7 +6893,7 @@ All changes of 4.0.
 3.11
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.11.
 </td>
 <td>
 <ul class="questitems">
@@ -7313,7 +6951,7 @@ All changes of 4.0.
 3.10
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.10.
 </td>
 <td>
 <ul class="questitems">
@@ -7370,7 +7008,7 @@ All changes of 4.0.
 3.9
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.9.
 </td>
 <td>
 <ul class="questitems">
@@ -7461,7 +7099,7 @@ All changes of 4.0.
 3.8
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.8.
 </td>
 <td>
 <ul class="questitems">
@@ -7605,7 +7243,7 @@ All changes of 4.0.
 3.7
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.7.
 </td>
 <td>
 <ul class="questitems">
@@ -7663,7 +7301,7 @@ All changes of 4.0.
 3.6
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.6.
 </td>
 <td>
 <ul class="questitems">
@@ -7846,7 +7484,7 @@ All changes of 4.0.
 3.5
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.5.
 </td>
 <td>
 <ul class="questitems">
@@ -7923,7 +7561,7 @@ All changes of 4.0.
 3.4
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.4.
 </td>
 <td>
 <ul class="questitems">
@@ -8365,7 +8003,7 @@ All changes of 4.0.
 3.3
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.3.
 </td>
 <td>
 <ul class="questitems">
@@ -8430,7 +8068,7 @@ All changes of 4.0.
 3.2
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.2.
 </td>
 <td>
 <ul class="questitems">
@@ -8482,7 +8120,7 @@ All changes of 4.0.
 3.1
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.1.
 </td>
 <td>
 <ul class="questitems">
@@ -8598,7 +8236,7 @@ All changes of 4.0.
 3.0
 </td>
 <td>
-All changes of 4.0.
+All changes of 3.0.
 </td>
 <td>
 <ul class="questitems">
@@ -9264,7 +8902,7 @@ All changes of 4.0.
 2.0
 </td>
 <td>
-All changes of 4.0.
+All changes of 2.0.
 </td>
 <td>
 <ul class="questitems">
@@ -9517,7 +9155,7 @@ All changes of 4.0.
 1.9.9
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.9.
 </td>
 <td>
 <ul class="questitems">
@@ -9559,7 +9197,7 @@ All changes of 4.0.
 1.9.8
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.8.
 </td>
 <td>
 <ul class="questitems">
@@ -9582,7 +9220,7 @@ All changes of 4.0.
 1.9.7
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.7.
 </td>
 <td>
 <ul class="questitems">
@@ -9682,7 +9320,7 @@ All changes of 4.0.
 1.9.6
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.6.
 </td>
 <td>
 <ul class="questitems">
@@ -9724,7 +9362,7 @@ All changes of 4.0.
 1.9.5
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.5.
 </td>
 <td>
 <ul class="questitems">
@@ -9750,7 +9388,7 @@ All changes of 4.0.
 1.9.4
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.4.
 </td>
 <td>
 <ul class="questitems">
@@ -9823,7 +9461,7 @@ All changes of 4.0.
 1.9.3
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.3.
 </td>
 <td>
 <ul class="questitems">
@@ -9913,7 +9551,7 @@ All changes of 4.0.
 1.9.2
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.2.
 </td>
 <td>
 <ul class="questitems">
@@ -9944,7 +9582,7 @@ All changes of 4.0.
 1.9.1
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.1.
 </td>
 <td>
 <ul class="questitems">
@@ -9980,7 +9618,7 @@ All changes of 4.0.
 1.9.0
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.9.0.
 </td>
 <td>
 <ul class="questitems">
@@ -10031,7 +9669,7 @@ All changes of 4.0.
 1.8.9
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.9.
 </td>
 <td>
 <ul class="questitems">
@@ -10064,7 +9702,7 @@ All changes of 4.0.
 1.8.8
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.8.
 </td>
 <td>
 <ul class="questitems">
@@ -10100,7 +9738,7 @@ All changes of 4.0.
 1.8.7
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.7.
 </td>
 <td>
 <ul class="questitems">
@@ -10154,7 +9792,7 @@ All changes of 4.0.
 1.8.6
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.6.
 </td>
 <td>
 <ul class="questitems">
@@ -10201,7 +9839,7 @@ All changes of 4.0.
 1.8.5
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.5.
 </td>
 <td>
 <ul class="questitems">
@@ -10270,7 +9908,7 @@ All changes of 4.0.
 1.8.4
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.4.
 </td>
 <td>
 <ul class="questitems">
@@ -10295,7 +9933,7 @@ All changes of 4.0.
 1.8.3
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.3.
 </td>
 <td>
 <ul class="questitems">
@@ -10325,7 +9963,7 @@ All changes of 4.0.
 1.8.2
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.2.
 </td>
 <td>
 <ul class="questitems">
@@ -10366,7 +10004,7 @@ All changes of 4.0.
 1.8
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.8.
 </td>
 <td>
 <ul class="questitems">
@@ -10510,7 +10148,7 @@ All changes of 4.0.
 1.7
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.7.
 </td>
 <td>
 <ul class="questitems">
@@ -10704,7 +10342,7 @@ All changes of 4.0.
 1.6
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.6.
 </td>
 <td>
 <ul class="questitems">
@@ -10776,7 +10414,7 @@ All changes of 4.0.
 1.5
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.5.
 </td>
 <td>
 <ul class="questitems">
@@ -10915,7 +10553,7 @@ All changes of 4.0.
 1.4
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.4.
 </td>
 <td>
 <ul class="questitems">
@@ -11074,7 +10712,7 @@ All changes of 4.0.
 1.3
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.3.
 </td>
 <td>
 <ul class="questitems">
@@ -11116,7 +10754,7 @@ All changes of 4.0.
 1.2
 </td>
 <td>
-All changes of 4.0.
+All changes of 1.2.
 </td>
 <td>
 <ul class="questitems">
