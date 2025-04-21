@@ -865,7 +865,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>1223344: demon sword</li>" )
 	call Preload( "<li>Hantoo: Naginata</li>" )
 	call Preload( "<li>Black flesh: Demon Hunter Blade</li>" )
-	call Preload( "<li>Molot: Animated smoke in three colors</li>" )
 	call Preload( "<li>Stanakin: BTNAntler</li>" )
 	call Preload( "<li>General Frank: It's a bear trap!</li>" )
 	call Preload( "<li>HerrDave: Leather Jerkin</li>" )

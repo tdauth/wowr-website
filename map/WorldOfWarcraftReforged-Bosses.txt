@@ -6277,7 +6277,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "59" )
+	call Preload( "64" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "51" )
@@ -6286,7 +6286,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "82" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "1.80" )
+	call Preload( "2.00" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "1.50" )
@@ -6467,7 +6467,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 

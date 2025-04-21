@@ -79,7 +79,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "World" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "8861888" )
+	call Preload( "8785056" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "The world in which the majority of the Warcraft series " )
@@ -389,7 +389,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Zone" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "99280" )
+	call Preload( "22448" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "An island in the eastern sea ruled by Tortolla." )
@@ -2714,7 +2714,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Zones generated with chat command "-website". -->" )
-	call PreloadEnd( 1.2 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 

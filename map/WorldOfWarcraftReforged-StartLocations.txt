@@ -509,9 +509,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</tr>" )
 	call Preload( "<tr id="19">" )
 	call Preload( "<td data-order="19" data-search="Outland Illidan's Camp">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTempleOfTides.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBloodElfHall3.blp" width="64" height="64"" )
 	call Preload( "title="Outland Illidan's Camp"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNTempleOfTides.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBloodElfHall3.blp"" )
 	call Preload( "/>" )
 	call Preload( "</td>" )
 	call Preload( "<td data-order="19" data-search="Outland Illidan's Camp">" )
@@ -1602,7 +1602,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.5 )
+	call PreloadEnd( 0.9 )
 
 endfunction
 
