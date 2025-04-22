@@ -87,8 +87,7 @@
 - Improve performance of Aura system.
 - Fix hotkeys in Goblin Laboratory.
 - Add feedback text tag for item Lock Pick.
-- Fix hotkey of building Guardian
-s Citadel.
+- Fix hotkey of building Guardian's Citadel.
 - Improve race Goblin.
 - Fix initial unit, item and destructable handle counters.
 - Third person camera timer only runs when one camera is enabled.
@@ -112,8 +111,9 @@ s Citadel.
 - Add hero standard ability Permanent Invisibility.
 - Remove PvP Arena.
 - Reduce players number to 10.
-- Reduce teams to Alliance and Horde.
+- Reduce teams to the two factions Alliance and Horde.
 - AI players will start at team locations by default now.
+- Add info quest Factions.
 - Reduce number of preplaced units on the map.
 - Remove column hero kills from stats.
 - Remove column unit kills from stats.
@@ -132,7 +132,6 @@ s Citadel.
 - Hero Nerubian Queen can attack air units now.
 - Remove different clan hall skins.
 - Improve race Lordaeron.
-- Restrict map to SD graphics.
 - Replace Elune's model and icon with SD version.
 - Replace hero spell Spell Steal with hero standard ability.
 - Fix player name hashes in building and researches save codes.
@@ -186,5 +185,26 @@ s Citadel.
 - Fix first talk to me effect for Lich King quest 1.
 - Disable several drop item triggers for quests in the beginning of the game.
 - Add item Clothing Bag.
+- Improve Black Arrow system.
+- Improve PagedButtons system.
+- Improve race Naga.
+- Improve performance for automatic teleportation items.
+- Pause all item respawns during a cinematic.
+- Remove random events.
+- Log UI is now on top of the action bar UI.
+- Move boss Tortolla to Pandaria.
+- Fix mass spells.
+- Fix hero spell Parasite.
+- Item Cloak of Flames cannot be dropped by creeps anymore.
+- Fix crash due to wrong dependency equivalent of Naga Whaler.
+- Fix index for function AddRaceStandardObjectIdFields.
+- Fix Eredar Forge dependency.
+- Players Bosses and Neutral Aggressive have all race researches now.
+- Add Select Hero ability to building Event House.
+- Change Sunwell animation in the beginning.
+- Add quest helper functions.
+- Add Archimonde to Orb of Orb carriers from the beginning.
+- Show mount abilities for heroes from the beginning.
+- Add mount Gargoyle.
 - Improve website data.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
