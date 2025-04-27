@@ -2966,8 +2966,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "Cunning Hero, exceptional at disrupting battles and " )
 	call Preload( "enduring damage. Can learn Pocket Factory, Cluster " )
-	call Preload( "Rockets, Critical Strike, Battle Roar, and Cleaving " )
-	call Preload( "Attack." )
+	call Preload( "Rockets, Critical Strike, Roar, and Cleaving Attack." )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Attacks land units.</div>" )
@@ -3018,7 +3017,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#ANbr">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBattleRoar.blp" width="64" height="64"" )
-	call Preload( "title="Battle Roar"" )
+	call Preload( "title="Roar"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNBattleRoar.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#ANca">" )
@@ -6467,7 +6466,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.8 )
+	call PreloadEnd( 1.6 )
 
 endfunction
 

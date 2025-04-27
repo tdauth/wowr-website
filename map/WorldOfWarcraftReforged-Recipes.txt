@@ -323,9 +323,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "- Deals 5 % extra damage against Undead units." )
 	call Preload( "<br/>" )
-	call Preload( "- Chance of 20 % to charm enemy units with a base level " )
-	call Preload( "up to 5." )
-	call Preload( "<br/>" )
 	call Preload( "- Give a chance of 30 % to web enemy units for 12 seconds." )
 	call Preload( "<br/>" )
 	call Preload( "- Restores 5 % of the caused damage as hit points." )
@@ -3063,7 +3060,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 2.7 )
+	call PreloadEnd( 3.3 )
 
 endfunction
 
