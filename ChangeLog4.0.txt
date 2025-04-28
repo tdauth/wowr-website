@@ -192,6 +192,7 @@
 - Pause all item respawns during a cinematic.
 - Remove random events.
 - Log UI is now on top of the action bar UI.
+- Improve Log system.
 - Move boss Tortolla to Pandaria.
 - Fix mass spells.
 - Fix hero spell Parasite.
@@ -201,10 +202,21 @@
 - Fix Eredar Forge dependency.
 - Players Bosses and Neutral Aggressive have all race researches now.
 - Add Select Hero ability to building Event House.
+- Add Select Hero ability to building Shipyard for profession Captain.
 - Change Sunwell animation in the beginning.
 - Add quest helper functions.
 - Add Archimonde to Orb of Orb carriers from the beginning.
 - Show mount abilities for heroes from the beginning.
 - Add mount Gargoyle.
+- Improve QuestUtils.
+- Add orb item to boss King Deepbeard.
+- Fix hero standard abilities Burrow and Submerge for matching hero types.
+- Fix hero standard ability Root.
+- Use new models and icons for Eredar buildings.
+- Rename race Draenei into Lost Ones.
+- Change Demon Citizen (male) model and icon.
+- Item Velen's Ankh of Reincarnation cannot be sold to shops anymore.
+- Add back bonus hero Muradin Bronzebeard.
+- Fix critical desync due to Log system hooks in SimError.
 - Improve website data.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.
