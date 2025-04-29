@@ -1408,10 +1408,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td data-order="49" data-search="yes">" )
 	call Preload( "yes" )
 	call Preload( "</td>" )
-	call Preload( "<td data-order="7" data-search="Eredar">" )
+	call Preload( "<td data-order="7" data-search="Draenei">" )
 	call Preload( "<a href="races.html#I0TU">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNArtificer.dds" width="64" height="64"" )
-	call Preload( "title="Eredar"" )
+	call Preload( "title="Draenei"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNArtificer.dds"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
@@ -1602,7 +1602,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 0.6 )
+	call PreloadEnd( 0.5 )
 
 endfunction
 

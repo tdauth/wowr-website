@@ -1,0 +1,22 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Rename race Eredar into Draenei." )
+	call Preload( "- Improve race Draenei." )
+	call Preload( "- Rename hero Eredar Annhiliator into Annhiliator." )
+	call Preload( "- Give hero Annhiliator a custom icon." )
+	call Preload( "- Add hero Vindicator for race Draenei." )
+	call Preload( "- Add missing learnable hero spells Barrage for slot 1 and 3." )
+	call Preload( "- Properties are restricted to the faction of the player name." )
+	call Preload( "- Fix race limitations for race Freelancer." )
+	call Preload( "- Add Blood Elf quest 2." )
+	call Preload( "- Remove hero Malorne." )
+	call Preload( "- Remove Blight effect from building Undead Shipyard." )
+	call Preload( "- Change sold creeps by Mercenary Camp Sunstrider Isle." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

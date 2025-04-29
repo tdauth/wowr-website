@@ -2075,10 +2075,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Volcano"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNVolcano.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "<a href="spells.html#ANwm">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMurgulTideWarrior.blp" width="64" height="64"" )
-	call Preload( "title="Watery Minion"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNMurgulTideWarrior.blp"" )
+	call Preload( "<a href="spells.html#A08S">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"" )
+	call Preload( "title="Summon Sea Elemental"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
@@ -6466,7 +6466,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.6 )
+	call PreloadEnd( 1.4 )
 
 endfunction
 
