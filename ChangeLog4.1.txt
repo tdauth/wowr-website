@@ -1,0 +1,12 @@
+- Rename race Eredar into Draenei.
+- Improve race Draenei.
+- Rename hero Eredar Annhiliator into Annhiliator.
+- Give hero Annhiliator a custom icon.
+- Add hero Vindicator for race Draenei.
+- Add missing learnable hero spells Barrage for slot 1 and 3.
+- Properties are restricted to the faction of the player name.
+- Fix race limitations for race Freelancer.
+- Add Blood Elf quest 2.
+- Remove hero Malorne.
+- Remove Blight effect from building Undead Shipyard.
+- Change sold creeps by Mercenary Camp Sunstrider Isle.
