@@ -27,7 +27,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "75" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "-" )
+	call Preload( "Developer,Guardian of Tirisfal,Dreadlord,Death Knight,Paladin,Death Knight,Demon Hunter,Demon Hunter,Warlock,Pit Lord,Warlock,Prophet,Phoenix Mount,Snowy Owl Mount,Phoenix,House Key,Wyrmrest Temple-playername" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "e@3M@3@5d@)kj~@)kj~@)kj~@5dkS@5dkS@:@3@<@T@" )
@@ -189,7 +189,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Players generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.2 )
 
 endfunction
 

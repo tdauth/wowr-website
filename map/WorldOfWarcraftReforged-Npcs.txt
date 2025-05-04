@@ -747,7 +747,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<a href="#H01A">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAlexstrasza.blp" width="64" height="64"" )
-	call Preload( "title="Ranger"" )
+	call Preload( "title="Dragon Queen"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNAlexstrasza.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "</td>" )

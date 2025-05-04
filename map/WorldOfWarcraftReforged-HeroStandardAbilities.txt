@@ -614,10 +614,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="heroes.html#E00I">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAncientOfLore.blp" width="64" height="64"" )
-	call Preload( "title="Ancient of Lore"" )
+	call Preload( "title="Rooted Ancient of Lore"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNAncientOfLore.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "Ancient of Lore" )
+	call Preload( "Rooted Ancient of Lore" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "Mystical Hero, adept at using nature spells. Can learn " )
@@ -1135,7 +1135,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Hero standard abilities generated with chat command "-website". -->" )
-	call PreloadEnd( 1.3 )
+	call PreloadEnd( 1.6 )
 
 endfunction
 

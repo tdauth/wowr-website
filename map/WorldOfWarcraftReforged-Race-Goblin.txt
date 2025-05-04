@@ -561,7 +561,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
-	call Preload( "<a href="buildings.html#o018">" )
+	call Preload( "<a href="buildings.html#o00P">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpawnerDoubleDoorBasement.blp" width="64" height="64"" )
 	call Preload( "title="Goblin Tunnel"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSpawnerDoubleDoorBasement.blp"" )
@@ -573,8 +573,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "10" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Allows transporting units to other tunnels. Can be " )
-	call Preload( "detonated causing massive damage." )
+	call Preload( "Transports units to other tunnels. Can explode and " )
+	call Preload( "cause massive damage." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpawnerDoubleDoorBasement.blp" width="64" height="64"" )
@@ -1306,7 +1306,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 7.7 )
+	call PreloadEnd( 7.5 )
 
 endfunction
 
