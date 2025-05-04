@@ -1,0 +1,36 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Refactor hero journey code." )
+	call Preload( "- Improve German translation." )
+	call Preload( "- Add function GetUnitsSelectedAllSafe." )
+	call Preload( "- NPC Alexstrasza heals and regenerates mana now." )
+	call Preload( "- Fix playing Orc quest 2 cinematic twice and freezing units." )
+	call Preload( "- Cheat -unfreeze unpauses all units now." )
+	call Preload( "- Players from the same team have shared vision by default now." )
+	call Preload( "- Prestored save codes do not count as generated anymore." )
+	call Preload( "- Replace orb item for Elder Sage in Demon quest." )
+	call Preload( "- Show backpack messages as floating text tags on the backpack from now on." )
+	call Preload( "- Improve race Stormwind." )
+	call Preload( "- Improve race Faceless One." )
+	call Preload( "- Make hero always vulnerable when player leaves." )
+	call Preload( "- Wait for completing other cinematics before starting a new one." )
+	call Preload( "- Prestored save codes for VIPs." )
+	call Preload( "- Goblin Tunnels work like now Kobold and Nerubian Tunnels." )
+	call Preload( "- Fix adding Agility and Intelligence from trainers." )
+	call Preload( "- Move dummies in player selection." )
+	call Preload( "- Add lever to resurrect trees in player selection." )
+	call Preload( "- Unlock VIP stuff for Baradé's account." )
+	call Preload( "- Update lever for Black Citadel." )
+	call Preload( "- Fix blockers around Tinker boss." )
+	call Preload( "- Fix icon of Hunting - Novice." )
+	call Preload( "- Remove all repick and save code cooldowns." )
+	call Preload( "- Destroy special effect in Village quest 4." )
+	call Preload( "- Add research Dragon Lore to Night Elf Housing." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+
