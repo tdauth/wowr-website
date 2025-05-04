@@ -20,7 +20,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>75: Void Lord can be chosen as hero who can learn different spells.</li>" )
 	call Preload( "<li>75: Advanced chat commands from '-helpvisual' can be used.</li>" )
 	call Preload( "<li>75: (all three heroes) All races, professions and chat command '-maxbosslevels' are available.</li>" )
-	call Preload( "<li>VIP: Donating/Reporting bugs: VIP.</li>" )
+	call Preload( "<li>Donating/Reporting bugs: VIP.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Hero journey generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
