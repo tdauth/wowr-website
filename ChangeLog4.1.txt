@@ -7,6 +7,56 @@
 - Properties are restricted to the faction of the player name.
 - Fix race limitations for race Freelancer.
 - Add Blood Elf quest 2.
+- Ad quest cinematics.
+- Revise quests and use more utility functions.
+- Add quest items.
+- NPC Tyrande has no inventory anymore.
+- NPC Thrall has no inventory anymore.
+- NPC Velen has no inventory anymore.
 - Remove hero Malorne.
 - Remove Blight effect from building Undead Shipyard.
 - Change sold creeps by Mercenary Camp Sunstrider Isle.
+- Multiple quest reward items cannot be dropped by creeps anymore.
+- More translatable strings.
+- Fix adding command buttons to certain units.
+- Do not wrongfully use bj_wantDestroyGroup for GetUnitsOfTypeIdAll for tentacles anymore.
+- Do not wrongfully use bj_wantDestroyGroup for TinyBuildingsLimits anymore.
+- Add JASS function CountLivingPlayerUnitsOfTypeIdFast.
+- Add JASS function ForceAddUsers.
+- Add JASS function GetAllUsers.
+- Smaller model for Arcane Academy of Theramore.
+- Register missing unit dependency equivalents.
+- Revise Flame Shredder hero spells.
+- Refactor portals system from GUI triggers into vJass.
+- Refactor Antimagic Wards system from GUI triggers into vJass.
+- Add library GetNextUnitToSelect and use it for Tunnel system.
+- Do not use SyncSelections in ResourcesGui anymore which caused multiplayer selection and lag issues.
+- Do not add empty player slots in ForceAddUsers.
+- Fix desync when clicking on the Log UI button.
+- Refactor hero journey code.
+- Improve German translation.
+- Add function GetUnitsSelectedAllSafe.
+- NPC Alexstrasza heals and regenerates mana now.
+- Fix playing Orc quest 2 cinematic twice and freezing units.
+- Cheat -unfreeze unpauses all units now.
+- Players from the same team have shared vision by default now.
+- Prestored save codes do not count as generated anymore.
+- Replace orb item for Elder Sage in Demon quest.
+- Show backpack messages as floating text tags on the backpack from now on.
+- Improve race Stormwind.
+- Improve race Faceless One.
+- Make hero always vulnerable when player leaves.
+- Wait for completing other cinematics before starting a new one.
+- Prestored save codes for VIPs.
+- Goblin Tunnels work like now Kobold and Nerubian Tunnels.
+- Fix adding Agility and Intelligence from trainers.
+- Move dummies in player selection.
+- Add lever to resurrect trees in player selection.
+- Unlock VIP stuff for Barad
+'s account.
+- Update lever for Black Citadel.
+- Fix blockers around Tinker boss.
+- Fix icon of Hunting - Novice.
+- Remove all repick and save code cooldowns.
+- Destroy special effect in Village quest 4.
+- Add research Dragon Lore to Night Elf Housing.

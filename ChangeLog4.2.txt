@@ -1,0 +1,27 @@
+- Refactor hero journey code.
+- Improve German translation.
+- Add function GetUnitsSelectedAllSafe.
+- NPC Alexstrasza heals and regenerates mana now.
+- Fix playing Orc quest 2 cinematic twice and freezing units.
+- Cheat -unfreeze unpauses all units now.
+- Players from the same team have shared vision by default now.
+- Prestored save codes do not count as generated anymore.
+- Replace orb item for Elder Sage in Demon quest.
+- Show backpack messages as floating text tags on the backpack from now on.
+- Improve race Stormwind.
+- Improve race Faceless One.
+- Make hero always vulnerable when player leaves.
+- Wait for completing other cinematics before starting a new one.
+- Prestored save codes for VIPs.
+- Goblin Tunnels work like now Kobold and Nerubian Tunnels.
+- Fix adding Agility and Intelligence from trainers.
+- Move dummies in player selection.
+- Add lever to resurrect trees in player selection.
+- Unlock VIP stuff for Barad
+'s account.
+- Update lever for Black Citadel.
+- Fix blockers around Tinker boss.
+- Fix icon of Hunting - Novice.
+- Remove all repick and save code cooldowns.
+- Destroy special effect in Village quest 4.
+- Add research Dragon Lore to Night Elf Housing.
