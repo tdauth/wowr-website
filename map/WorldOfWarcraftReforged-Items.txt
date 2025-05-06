@@ -49088,10 +49088,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Enchanted Vial" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
-	call Preload( "Regenerates 200 hit points and 75 mana of the Hero " )
-	call Preload( "over 30 seconds. " )
-	call Preload( "<br/>" )
-	call Preload( "Contains 0 charges." )
+	call Preload( "Regenerates 1000 hit points and 1000 mana of the Hero " )
+	call Preload( "over 30 seconds." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVialFull.blp" width="64" height="64"" )
@@ -52280,7 +52278,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 57.3 )
+	call PreloadEnd( 53.8 )
 
 endfunction
 

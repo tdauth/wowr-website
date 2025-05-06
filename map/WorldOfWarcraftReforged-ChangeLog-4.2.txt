@@ -28,6 +28,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Remove all repick and save code cooldowns." )
 	call Preload( "- Destroy special effect in Village quest 4." )
 	call Preload( "- Add research Dragon Lore to Night Elf Housing." )
+	call Preload( "- Revise several chat commands." )
+	call Preload( "- Disable all used resurrection stones when players leave the game." )
+	call Preload( "- Play Old Gods cinematic before discovering Jaina quest 1." )
+	call Preload( "- Fix quest effect position for Lich King quest 1." )
+	call Preload( "- Fix several Burrow and Submerge hero standard abilities." )
+	call Preload( "- Improve quest reward item Enchanted Vial." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
