@@ -25,3 +25,9 @@
 - Remove all repick and save code cooldowns.
 - Destroy special effect in Village quest 4.
 - Add research Dragon Lore to Night Elf Housing.
+- Revise several chat commands.
+- Disable all used resurrection stones when players leave the game.
+- Play Old Gods cinematic before discovering Jaina quest 1.
+- Fix quest effect position for Lich King quest 1.
+- Fix several Burrow and Submerge hero standard abilities.
+- Improve quest reward item Enchanted Vial.
