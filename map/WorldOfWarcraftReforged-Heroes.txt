@@ -17210,7 +17210,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="H0Y5">" )
-	call Preload( "<td data-order="125" data-search="Sea Witch">" )
+	call Preload( "<td data-order="125" data-search="Submerged Lady Vashj">" )
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="heroes.html#H0Y5">" )
@@ -17218,7 +17218,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Sea Witch"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNNagaSeaWitch.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "Sea Witch" )
+	call Preload( "Submerged Lady Vashj" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "Mystical Hero, adept at ranged combat. Can learn Forked " )
@@ -17239,7 +17239,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "Sea Witch" )
+	call Preload( "Submerged Lady Vashj" )
 	call Preload( " <div title="Depndency equivalent.">(d)</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td data-order="6" data-search="Naga">" )
@@ -34487,7 +34487,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Heroes generated with chat command "-website". -->" )
-	call PreloadEnd( 16.3 )
+	call PreloadEnd( 18.1 )
 
 endfunction
 

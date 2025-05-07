@@ -4,7 +4,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<!-- Hero journey generated with chat command "-website". -->" )
 	call Preload( "<ul>" )
 	call Preload( "<li>5: Abilities available on Theramore.</li>" )
-	call Preload( "<li>10: -</li>" )
+	call Preload( "<li>10: Properties.</li>" )
 	call Preload( "<li>15: One Equipment Bag.</li>" )
 	call Preload( "<li>20: Mount.</li>" )
 	call Preload( "<li>25: Second profession.</li>" )

@@ -162,6 +162,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-savecheck XXX": Checks savecode XXX.</li>" )
 	call Preload( "<li>"-loadres X": Loads your resources from savecode X.</li>" )
 	call Preload( "<li>"-generated": Lists all generated savecodes from the current game.</li>" )
+	call Preload( "<li>"-cleargenerated": Clears all generated savecodes from the current game.</li>" )
 	call Preload( "<li>"-passive": Passive mode against enemy players.</li>" )
 	call Preload( "<li>"-bounty X Y Z": Sets a bounty of X gold and Y lumber on player Z.</li>" )
 	call Preload( "<li>"-bounties": Shows all bounties on players.</li>" )

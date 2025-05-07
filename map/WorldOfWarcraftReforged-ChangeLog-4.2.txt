@@ -34,6 +34,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Fix quest effect position for Lich King quest 1." )
 	call Preload( "- Fix several Burrow and Submerge hero standard abilities." )
 	call Preload( "- Improve quest reward item Enchanted Vial." )
+	call Preload( "- Add VIP chat command "-cleargenerated"." )
+	call Preload( "- Change race of unit Gan'arg Engineer from Undead to fix endless constructions." )
+	call Preload( "- Change race of unit Nerubian Worker from Undead to fix endless constructions." )
+	call Preload( "- Properties requires hero level 10 or VIP." )
+	call Preload( "- Fix reading various save code segments." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
 
