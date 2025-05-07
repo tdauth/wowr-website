@@ -102,6 +102,7 @@
 - Remove chat commands "-damageon/off".
 - Remove item Flamethrower.
 - Replace custom Flamethrower system with Ray system.
+- Disable mouse aiming and MouseUtils for Ray spells.
 - Add ability Auto Skill to Equipment Bags.
 - Remove Hand of God ability from tier 3s.
 - Remove Hidden Bases.
@@ -154,7 +155,7 @@
 - Enable library Tenacity to make Spell Aura work again.
 - Fix updating all auras when the last cater is removed to remove remaining buffs.
 - Fix hero spell Frost Bolt Rain.
-- Fix propert names of hero Spellbreaker.
+- Fix property names of hero Spellbreaker.
 - Legendary item Mathog's Cage changes attack type and defense type of the summoned mount.
 - Hide queue UI and actions bar before cinematic modes.
 - Add chat command "-enemies".
@@ -218,5 +219,10 @@
 - Item Velen's Ankh of Reincarnation cannot be sold to shops anymore.
 - Add back bonus hero Muradin Bronzebeard.
 - Fix critical desync due to Log system hooks in SimError.
+- Disable AI attacks by default which cause crashes in Reforged.
+- Chat command "-aiattackson/off" enables/disables AI attacks.
+- Chat command "-aiattacksplayerson/off" enables/disables AI attacks against players.
+- Add cheat "-unfreeze".
+- Change base order ID of Harvest Custom Resources into unroot to fix Human Priest Heal.
 - Improve website data.
 - Fix many building and unit portraits by specifying the new field "upor" from Warcraft 2.0.

@@ -31,3 +31,8 @@
 - Fix quest effect position for Lich King quest 1.
 - Fix several Burrow and Submerge hero standard abilities.
 - Improve quest reward item Enchanted Vial.
+- Add VIP chat command "-cleargenerated".
+- Change race of unit Gan'arg Engineer from Undead to fix endless constructions.
+- Change race of unit Nerubian Worker from Undead to fix endless constructions.
+- Properties requires hero level 10 or VIP.
+- Fix reading various save code segments.
