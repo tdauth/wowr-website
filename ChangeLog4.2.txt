@@ -17,8 +17,7 @@
 - Fix adding Agility and Intelligence from trainers.
 - Move dummies in player selection.
 - Add lever to resurrect trees in player selection.
-- Unlock VIP stuff for Barad
-'s account.
+- Unlock VIP stuff for Baradé's account.
 - Update lever for Black Citadel.
 - Fix blockers around Tinker boss.
 - Fix icon of Hunting - Novice.
@@ -31,3 +30,45 @@
 - Fix quest effect position for Lich King quest 1.
 - Fix several Burrow and Submerge hero standard abilities.
 - Improve quest reward item Enchanted Vial.
+- Add VIP chat command "-cleargenerated".
+- Change race of unit Gan'arg Engineer from Undead to fix endless constructions.
+- Change race of unit Nerubian Worker from Undead to fix endless constructions.
+- Properties requires hero level 10 or VIP.
+- Fix reading various save code segments.
+- Fix Northrend West and Lordaeron East Resurrection Stones.
+- Allow savegames for non-VIPs.
+- Fix Murloc Dragon Turtles.
+- Add Murloc Dragon Turtle dependency equivalent.
+- Fix AI dependency equivalent for Murloc tier 3.
+- Fix Barrage slot 1 hero spell.
+- Fix Place Goblin Landmine slot 3 hero spell.
+- Safely remove units from included and excluded save master groups when removed from game.
+- Add missing ability Space Travel to Dimensional Ship for race Draenei.
+- Fix Merchant Shops selling items and units.
+- Fix double fade out when skipping a cinematic.
+- Remove cheat "-foldername".
+- Remove Imps from the New Citadel.
+- Add skin Stormreaver Warlock.
+- Add hero Stormreaver Warlock.
+- Hero spell Chemical Rage is not available as learnable spell anymore.
+- Keep the unit skin for spell Mirror Image.
+- Legendary Item Ancient Bow only works for ranged heroes now.
+- Add a small delay for removing the effect of legendary item Ancient Bow.
+- Make sure to clear legendary item carriers on unit removals.
+- Fix calculating choice index for votes.
+- Fix chat command events for votes.
+- Fix adding players to a vote.
+- Increase food costs for Eredar creeps.
+- Fix purchasing items when a player has picked all three professions.
+- Fix scaling and soundset of mount Snowy Owl.
+- Remove command buttons for Kael's Cage in Blood Elf quest 2 on completion.
+- Fix ability of item Unique - Heart of Y'Shaarj.
+- Fix bosses Deathwing and Cenarius appearing.
+- NPC Barade has no inventory anymore.
+- NPC Carsten has no inventory anymore.
+- Do not always show thief bounty from Pickpocketing.
+- Fix memory leak for Pickpocketing.
+- Add vote "-reveal/-noreveal".
+- Add prestored clan "B.O.O.M.".
+- Remove unit shadow from Flamestorm Dummy.
+- Votes "-portals/-noportals" includes all neutral portals now.
