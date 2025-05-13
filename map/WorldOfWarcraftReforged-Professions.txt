@@ -5861,7 +5861,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "Tiny Thieves Guild" )
 	call Preload( "<br/>" )
-	call Preload( "5" )
+	call Preload( "6" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
 	call Preload( "9" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />" )
@@ -6690,7 +6690,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 2.7 )
+	call PreloadEnd( 3.1 )
 
 endfunction
 
