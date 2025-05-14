@@ -17,7 +17,8 @@
 - Fix adding Agility and Intelligence from trainers.
 - Move dummies in player selection.
 - Add lever to resurrect trees in player selection.
-- Unlock VIP stuff for Baradé's account.
+- Unlock VIP stuff for Barad
+'s account.
 - Update lever for Black Citadel.
 - Fix blockers around Tinker boss.
 - Fix icon of Hunting - Novice.

@@ -493,7 +493,7 @@ player who writes the chat message.
 <li>"-pingproperties": Pings all properties.</li>
 <li>"-pingdragons": Pings all Dragon Roosts.</li>
 <li>"-pingl": Pings all legendary items which are on the ground.</li>
-<li>"-pingkeys": Pings all keys for dungeons which are visible to the player.</li>
+<li>"-pingkey": Pings the dungeon key if it is visible to the player.</li>
 <li>"-pingaistarts": Pings all taken AI start locations.</li>
 <li>"-pingo": Pings all Obelisks.</li>
 <li>"-pingbosses/pingb/bosses": Pings all bosses.</li>
@@ -635,6 +635,8 @@ player who writes the chat message.
 <li>"-agi X": Skills X agility. Skills max agility if empty.</li>
 <li>"-int X": Skills X intelligence. Skills max intelligence if empty.</li>
 <li>"-rename X": Renames selected heroes into X.</li>
+<li>"-say X": The selected unit says X.</li>
+<li>"-shout X": The selected unit shouts X.</li>
 <li>"-builder"/"-nobuilder": Creates/removes a builder for player 1 red.</li>
 <li>"-rename X": Renames selected heroes into X.</li>
 <li>"-scale X": Scales selected units to X.</li>
@@ -676,6 +678,7 @@ player who writes the chat message.
 <li>"-water"/"-nowater": Enables/disables visibility of water.</li>
 <li>"-waterred": Changes the color of water to red.</li>
 <li>"-fog"/"-nofog": Enables/disables visibility of fog.</li>
+<li>"-reveal"/"-noreveal": Enables/disables complete map visibility.</li>
 <li>"-hardcore"/"-nohardcore": Enables/disables hardcore mode.</li>
 <li>"-portals"/"-noportals": Enables/disables neutral portals.</li>
 <li>"-cheats"/"-nocheats": Enables/disables cheat chat commands.</li>
@@ -754,7 +757,6 @@ in single player and help testing the map.
 <li>"-respawnall": Respawns all dead creep unit groups.</li>
 <li>"-maxlevel": Sets all heroes to their maximum level.</li>
 <li>"-level X": Sets the hero level of the selected heroes to X.</li>
-<li>"-col": Resets all cooldown timers including save codes etc.</li>
 <li>"-reset": Resets the cooldowns of all selected units.</li>
 <li>"-medivh": Creates Medivh's Spell Book for your primary hero.</li>
 <li>"-revive": Instantly revives your primary hero.</li>
@@ -1666,6 +1668,12 @@ taxes.
 </td>
 <td>
 <ul class="questitems">
+<li>TRIGSTR_375</li>
+<li>TRIGSTR_437</li>
+<li>TRIGSTR_449</li>
+<li>TRIGSTR_451</li>
+<li>TRIGSTR_456</li>
+<li>TRIGSTR_492</li>
 </ul>
 </td>
 </tr>
@@ -1717,6 +1725,24 @@ of a certain player.
 </td>
 <td>
 <ul class="questitems">
+<li>TRIGSTR_828</li>
+<li>TRIGSTR_829</li>
+<li>TRIGSTR_830</li>
+<li>TRIGSTR_831</li>
+<li>TRIGSTR_832</li>
+<li>TRIGSTR_893</li>
+<li>TRIGSTR_894</li>
+<li>TRIGSTR_895</li>
+<li>TRIGSTR_896</li>
+<li>TRIGSTR_897</li>
+<li>TRIGSTR_898</li>
+<li>TRIGSTR_899</li>
+<li>TRIGSTR_1007</li>
+<li>TRIGSTR_1109</li>
+<li>Gold</li>
+<li>Lumber</li>
+<li>Food</li>
+<li>TRIGSTR_1344</li>
 </ul>
 </td>
 </tr>
@@ -1763,15 +1789,36 @@ on your disk.
 <td>
 <ul class="questitems">
 <li>"-savecodeconverter": Allows you converting old savecodes into new ones.</li>
+<li>TRIGSTR_797</li>
+<li>TRIGSTR_798</li>
+<li>TRIGSTR_799</li>
+<li>TRIGSTR_800</li>
+<li>TRIGSTR_801</li>
+<li>TRIGSTR_802</li>
+<li>TRIGSTR_803</li>
+<li>TRIGSTR_804</li>
+<li>TRIGSTR_805</li>
 <li>"-saveautoon/off": Enables/disables auto saving of your hero.</li>
 <li>"-savegui": Shows the GUI for savecodes.</li>
 <li>"-asave": Saves all savecodes in the auto load file.</li>
 <li>"-aload": Loads all save codes from the auto load file.</li>
 <li>"-areset": Allows saving and loading automatic save codes.</li>
+<li>TRIGSTR_806</li>
+<li>TRIGSTR_807</li>
+<li>TRIGSTR_808</li>
+<li>TRIGSTR_809</li>
+<li>TRIGSTR_810</li>
+<li>TRIGSTR_811</li>
+<li>TRIGSTR_812</li>
 <li>"-loadr X": Loads your researches from savecode X.</li>
 <li>"-loadres X": Loads your resources from savecode X.</li>
+<li>TRIGSTR_816</li>
+<li>TRIGSTR_817</li>
+<li>TRIGSTR_818</li>
 <li>"-generated": Lists all generated savecodes from the current game.</li>
 <li>"-cleargenerated": Clears all generated savecodes from the current game.</li>
+<li>TRIGSTR_819</li>
+<li>TRIGSTR_820</li>
 </ul>
 </td>
 </tr>
@@ -1956,6 +2003,8 @@ your heroes to change their standard abilities.
 </td>
 <td>
 <ul class="questitems">
+<li>TRIGSTR_57793</li>
+<li>TRIGSTR_57794</li>
 </ul>
 </td>
 </tr>
@@ -2111,6 +2160,9 @@ Baradé
 </td>
 <td>
 <ul class="questitems">
+<li>TRIGSTR_57706</li>
+<li>TRIGSTR_57707</li>
+<li>TRIGSTR_57708</li>
 </ul>
 </td>
 </tr>
@@ -2261,6 +2313,10 @@ weather.
 <li>"-midnight/-night": Changes time of day to 24.</li>
 <li>"-dnc": Enables day and night cycle.</li>
 <li>"-nodnc": Disables day and night cycle.</li>
+<li>"-water"/"-nowater": Enables/disables visibility of water.</li>
+<li>"-waterred": Changes the color of water to red.</li>
+<li>"-fog"/"-nofog": Enables/disables visibility of fog.</li>
+<li>"-reveal"/"-noreveal": Enables/disables complete map visibility.</li>
 </ul>
 </td>
 </tr>
@@ -3618,8 +3674,69 @@ All the people who contributed to this map.
 </ul>
 </td>
 </tr>
-<tr id="4.2">
+<tr id="4.3">
 <td data-order="70">
+<a href="#4.3">
+<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
+</a>
+</td>
+<td>
+4.3
+</td>
+<td>
+All changes of 4.3.
+</td>
+<td>
+<ul class="questitems">
+<li>Add zone Gilneas.</li>
+<li>Add portal lever to Kezan.</li>
+<li>Revise terrain of Kezan.</li>
+<li>Add portal from Underground to Kezan.</li>
+<li>Remove research Phoenix Egg from Fishing Port.</li>
+<li>Fix Draenei AI constructing an Argunite Mill.</li>
+<li>Replace hero spell Watery Minion with Summon Sea Elemental for Sea Witch boss.</li>
+<li>Functions GetPlayerFromString and GetPlayerColorFromString ignore empty player names now.</li>
+<li>Fix player info string.</li>
+<li>Fix destroying talk to me effect for Demon quest 2.</li>
+<li>Add more quest items to quests.</li>
+<li>Fix and improve vote system.</li>
+<li>Improve race Fel Orc.</li>
+<li>Captured Maiev and Captured Kael cannot be transported anymore.</li>
+<li>Fix owner of Deathwing.</li>
+<li>Add Avatar of Sargeras to Orb of Orbs carriers.</li>
+<li>Preplace Dungeon Key on a fixed location on the map.</li>
+<li>Improve race Gnome.</li>
+<li>Copy more unit fields for spell Multiply.</li>
+<li>Fix index of AI start location in UI.</li>
+<li>Hero Ancient Hydra is amphibious now.</li>
+<li>Fix Magic Sentry research for Freelancers.</li>
+<li>Recreate Book of Fast Travel with "-g" for Freelancers.</li>
+<li>Race scepters, profession books and Freelancer items are not invulnerable anymore.</li>
+<li>Shipyard for profession Captain can sell units to non-heroes now.</li>
+<li>Check unit limits when loading unit and building save codes.</li>
+<li>Spell Mass Forestation kills the targets.</li>
+<li>Tree birth animation for spell Mass Forestation.</li>
+<li>All nation quests will enable Jaina's quests now.</li>
+<li>Add chat command "-say".</li>
+<li>Add chat command "-shout".</li>
+<li>Add learnable hero spell Life Drain slot 2.</li>
+<li>Add learnable hero spell Life Drain slot 3.</li>
+<li>Add hero Skeletal Orc Champion.</li>
+<li>Goblin unit Flame Shredder has ability Repair now.</li>
+<li>Add missing Outland zones.</li>
+<li>Add JASS function SetUnitSkinWithHeroIcon which fixes hero icons for skins.</li>
+<li>Votes "-portals/-noportals" do not include lever portals anymore.</li>
+<li>Add ability Select User to building Demon Gate for profession Warlock.</li>
+<li>Fix Holy Nova target detection.</li>
+<li>Spell Multiply does not work with legendary items anymore.</li>
+<li>Spell Spell Aura does not reduce cooldowns to 0 anymore.</li>
+<li>Fix chat command "-aihero".</li>
+<li>Add missing tiny items for mappings to save codes.</li>
+</ul>
+</td>
+</tr>
+<tr id="4.2">
+<td data-order="71">
 <a href="#4.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3669,11 +3786,48 @@ All changes of 4.2.
 <li>Change race of unit Nerubian Worker from Undead to fix endless constructions.</li>
 <li>Properties requires hero level 10 or VIP.</li>
 <li>Fix reading various save code segments.</li>
+<li>Fix Northrend West and Lordaeron East Resurrection Stones.</li>
+<li>Allow savegames for non-VIPs.</li>
+<li>Fix Murloc Dragon Turtles.</li>
+<li>Add Murloc Dragon Turtle dependency equivalent.</li>
+<li>Fix AI dependency equivalent for Murloc tier 3.</li>
+<li>Fix Barrage slot 1 hero spell.</li>
+<li>Fix Place Goblin Landmine slot 3 hero spell.</li>
+<li>Safely remove units from included and excluded save master groups when removed from game.</li>
+<li>Add missing ability Space Travel to Dimensional Ship for race Draenei.</li>
+<li>Fix Merchant Shops selling items and units.</li>
+<li>Fix double fade out when skipping a cinematic.</li>
+<li>Remove cheat "-foldername".</li>
+<li>Remove Imps from the New Citadel.</li>
+<li>Add skin Stormreaver Warlock.</li>
+<li>Add hero Stormreaver Warlock.</li>
+<li>Hero spell Chemical Rage is not available as learnable spell anymore.</li>
+<li>Keep the unit skin for spell Mirror Image.</li>
+<li>Legendary Item Ancient Bow only works for ranged heroes now.</li>
+<li>Add a small delay for removing the effect of legendary item Ancient Bow.</li>
+<li>Make sure to clear legendary item carriers on unit removals.</li>
+<li>Fix calculating choice index for votes.</li>
+<li>Fix chat command events for votes.</li>
+<li>Fix adding players to a vote.</li>
+<li>Increase food costs for Eredar creeps.</li>
+<li>Fix purchasing items when a player has picked all three professions.</li>
+<li>Fix scaling and soundset of mount Snowy Owl.</li>
+<li>Remove command buttons for Kael's Cage in Blood Elf quest 2 on completion.</li>
+<li>Fix ability of item Unique - Heart of Y'Shaarj.</li>
+<li>Fix bosses Deathwing and Cenarius appearing.</li>
+<li>NPC Barade has no inventory anymore.</li>
+<li>NPC Carsten has no inventory anymore.</li>
+<li>Do not always show thief bounty from Pickpocketing.</li>
+<li>Fix memory leak for Pickpocketing.</li>
+<li>Add vote "-reveal/-noreveal".</li>
+<li>Add prestored clan "B.O.O.M.".</li>
+<li>Remove unit shadow from Flamestorm Dummy.</li>
+<li>Votes "-portals/-noportals" includes all neutral portals now.</li>
 </ul>
 </td>
 </tr>
 <tr id="4.1">
-<td data-order="71">
+<td data-order="72">
 <a href="#4.1">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3725,7 +3879,7 @@ All changes of 4.1.
 </td>
 </tr>
 <tr id="4.0">
-<td data-order="72">
+<td data-order="73">
 <a href="#4.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -3970,7 +4124,7 @@ All changes of 4.0.
 </td>
 </tr>
 <tr id="3.38">
-<td data-order="73">
+<td data-order="74">
 <a href="#3.38">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4079,7 +4233,7 @@ All changes of 3.38.
 </td>
 </tr>
 <tr id="3.37">
-<td data-order="74">
+<td data-order="75">
 <a href="#3.37">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4134,7 +4288,7 @@ All changes of 3.37.
 </td>
 </tr>
 <tr id="3.36">
-<td data-order="75">
+<td data-order="76">
 <a href="#3.36">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4200,7 +4354,7 @@ All changes of 3.36.
 </td>
 </tr>
 <tr id="3.35">
-<td data-order="76">
+<td data-order="77">
 <a href="#3.35">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4250,7 +4404,7 @@ All changes of 3.35.
 </td>
 </tr>
 <tr id="3.34">
-<td data-order="77">
+<td data-order="78">
 <a href="#3.34">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4331,7 +4485,7 @@ All changes of 3.34.
 </td>
 </tr>
 <tr id="3.33">
-<td data-order="78">
+<td data-order="79">
 <a href="#3.33">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4430,7 +4584,7 @@ All changes of 3.33.
 </td>
 </tr>
 <tr id="3.32">
-<td data-order="79">
+<td data-order="80">
 <a href="#3.32">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4495,7 +4649,7 @@ All changes of 3.32.
 </td>
 </tr>
 <tr id="3.31">
-<td data-order="80">
+<td data-order="81">
 <a href="#3.31">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4534,7 +4688,7 @@ All changes of 3.31.
 </td>
 </tr>
 <tr id="3.30">
-<td data-order="81">
+<td data-order="82">
 <a href="#3.30">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4589,7 +4743,7 @@ All changes of 3.30.
 </td>
 </tr>
 <tr id="3.29">
-<td data-order="82">
+<td data-order="83">
 <a href="#3.29">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4712,7 +4866,7 @@ All changes of 3.29.
 </td>
 </tr>
 <tr id="3.28">
-<td data-order="83">
+<td data-order="84">
 <a href="#3.28">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4781,7 +4935,7 @@ All changes of 3.28.
 </td>
 </tr>
 <tr id="3.27">
-<td data-order="84">
+<td data-order="85">
 <a href="#3.27">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4875,7 +5029,7 @@ All changes of 3.27.
 </td>
 </tr>
 <tr id="3.26">
-<td data-order="85">
+<td data-order="86">
 <a href="#3.26">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -4923,7 +5077,7 @@ All changes of 3.26.
 </td>
 </tr>
 <tr id="3.25">
-<td data-order="86">
+<td data-order="87">
 <a href="#3.25">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5051,7 +5205,7 @@ All changes of 3.25.
 </td>
 </tr>
 <tr id="3.24">
-<td data-order="87">
+<td data-order="88">
 <a href="#3.24">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5132,7 +5286,7 @@ All changes of 3.24.
 </td>
 </tr>
 <tr id="3.23">
-<td data-order="88">
+<td data-order="89">
 <a href="#3.23">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5329,7 +5483,7 @@ All changes of 3.23.
 </td>
 </tr>
 <tr id="3.22">
-<td data-order="89">
+<td data-order="90">
 <a href="#3.22">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5460,7 +5614,7 @@ All changes of 3.22.
 </td>
 </tr>
 <tr id="3.21">
-<td data-order="90">
+<td data-order="91">
 <a href="#3.21">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5781,7 +5935,7 @@ All changes of 3.21.
 </td>
 </tr>
 <tr id="3.20">
-<td data-order="91">
+<td data-order="92">
 <a href="#3.20">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -5880,7 +6034,7 @@ All changes of 3.20.
 </td>
 </tr>
 <tr id="3.19">
-<td data-order="92">
+<td data-order="93">
 <a href="#3.19">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6008,7 +6162,7 @@ All changes of 3.19.
 </td>
 </tr>
 <tr id="3.18">
-<td data-order="93">
+<td data-order="94">
 <a href="#3.18">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6125,7 +6279,7 @@ All changes of 3.18.
 </td>
 </tr>
 <tr id="3.17">
-<td data-order="94">
+<td data-order="95">
 <a href="#3.17">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6328,7 +6482,7 @@ All changes of 3.17.
 </td>
 </tr>
 <tr id="3.16">
-<td data-order="95">
+<td data-order="96">
 <a href="#3.16">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6361,7 +6515,7 @@ All changes of 3.16.
 </td>
 </tr>
 <tr id="3.15">
-<td data-order="96">
+<td data-order="97">
 <a href="#3.15">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6621,7 +6775,7 @@ All changes of 3.15.
 </td>
 </tr>
 <tr id="3.14">
-<td data-order="97">
+<td data-order="98">
 <a href="#3.14">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6833,7 +6987,7 @@ All changes of 3.14.
 </td>
 </tr>
 <tr id="3.13">
-<td data-order="98">
+<td data-order="99">
 <a href="#3.13">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -6914,7 +7068,7 @@ All changes of 3.13.
 </td>
 </tr>
 <tr id="3.12">
-<td data-order="99">
+<td data-order="100">
 <a href="#3.12">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7051,7 +7205,7 @@ All changes of 3.12.
 </td>
 </tr>
 <tr id="3.11">
-<td data-order="100">
+<td data-order="101">
 <a href="#3.11">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7109,7 +7263,7 @@ All changes of 3.11.
 </td>
 </tr>
 <tr id="3.10">
-<td data-order="101">
+<td data-order="102">
 <a href="#3.10">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7166,7 +7320,7 @@ All changes of 3.10.
 </td>
 </tr>
 <tr id="3.9">
-<td data-order="102">
+<td data-order="103">
 <a href="#3.9">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7257,7 +7411,7 @@ All changes of 3.9.
 </td>
 </tr>
 <tr id="3.8">
-<td data-order="103">
+<td data-order="104">
 <a href="#3.8">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7401,7 +7555,7 @@ All changes of 3.8.
 </td>
 </tr>
 <tr id="3.7">
-<td data-order="104">
+<td data-order="105">
 <a href="#3.7">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7459,7 +7613,7 @@ All changes of 3.7.
 </td>
 </tr>
 <tr id="3.6">
-<td data-order="105">
+<td data-order="106">
 <a href="#3.6">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7642,7 +7796,7 @@ All changes of 3.6.
 </td>
 </tr>
 <tr id="3.5">
-<td data-order="106">
+<td data-order="107">
 <a href="#3.5">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -7719,7 +7873,7 @@ All changes of 3.5.
 </td>
 </tr>
 <tr id="3.4">
-<td data-order="107">
+<td data-order="108">
 <a href="#3.4">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8161,7 +8315,7 @@ All changes of 3.4.
 </td>
 </tr>
 <tr id="3.3">
-<td data-order="108">
+<td data-order="109">
 <a href="#3.3">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8226,7 +8380,7 @@ All changes of 3.3.
 </td>
 </tr>
 <tr id="3.2">
-<td data-order="109">
+<td data-order="110">
 <a href="#3.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8278,7 +8432,7 @@ All changes of 3.2.
 </td>
 </tr>
 <tr id="3.1">
-<td data-order="110">
+<td data-order="111">
 <a href="#3.1">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -8394,7 +8548,7 @@ All changes of 3.1.
 </td>
 </tr>
 <tr id="3.0">
-<td data-order="111">
+<td data-order="112">
 <a href="#3.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9060,7 +9214,7 @@ All changes of 3.0.
 </td>
 </tr>
 <tr id="2.0">
-<td data-order="112">
+<td data-order="113">
 <a href="#2.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9313,7 +9467,7 @@ All changes of 2.0.
 </td>
 </tr>
 <tr id="1.9.9">
-<td data-order="113">
+<td data-order="114">
 <a href="#1.9.9">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9355,7 +9509,7 @@ All changes of 1.9.9.
 </td>
 </tr>
 <tr id="1.9.8">
-<td data-order="114">
+<td data-order="115">
 <a href="#1.9.8">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9378,7 +9532,7 @@ All changes of 1.9.8.
 </td>
 </tr>
 <tr id="1.9.7">
-<td data-order="115">
+<td data-order="116">
 <a href="#1.9.7">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9478,7 +9632,7 @@ All changes of 1.9.7.
 </td>
 </tr>
 <tr id="1.9.6">
-<td data-order="116">
+<td data-order="117">
 <a href="#1.9.6">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9520,7 +9674,7 @@ All changes of 1.9.6.
 </td>
 </tr>
 <tr id="1.9.5">
-<td data-order="117">
+<td data-order="118">
 <a href="#1.9.5">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9546,7 +9700,7 @@ All changes of 1.9.5.
 </td>
 </tr>
 <tr id="1.9.4">
-<td data-order="118">
+<td data-order="119">
 <a href="#1.9.4">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9619,7 +9773,7 @@ All changes of 1.9.4.
 </td>
 </tr>
 <tr id="1.9.3">
-<td data-order="119">
+<td data-order="120">
 <a href="#1.9.3">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9709,7 +9863,7 @@ All changes of 1.9.3.
 </td>
 </tr>
 <tr id="1.9.2">
-<td data-order="120">
+<td data-order="121">
 <a href="#1.9.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9740,7 +9894,7 @@ All changes of 1.9.2.
 </td>
 </tr>
 <tr id="1.9.1">
-<td data-order="121">
+<td data-order="122">
 <a href="#1.9.1">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9776,7 +9930,7 @@ All changes of 1.9.1.
 </td>
 </tr>
 <tr id="1.9.0">
-<td data-order="122">
+<td data-order="123">
 <a href="#1.9.0">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9827,7 +9981,7 @@ All changes of 1.9.0.
 </td>
 </tr>
 <tr id="1.8.9">
-<td data-order="123">
+<td data-order="124">
 <a href="#1.8.9">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9860,7 +10014,7 @@ All changes of 1.8.9.
 </td>
 </tr>
 <tr id="1.8.8">
-<td data-order="124">
+<td data-order="125">
 <a href="#1.8.8">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9896,7 +10050,7 @@ All changes of 1.8.8.
 </td>
 </tr>
 <tr id="1.8.7">
-<td data-order="125">
+<td data-order="126">
 <a href="#1.8.7">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9950,7 +10104,7 @@ All changes of 1.8.7.
 </td>
 </tr>
 <tr id="1.8.6">
-<td data-order="126">
+<td data-order="127">
 <a href="#1.8.6">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -9997,7 +10151,7 @@ All changes of 1.8.6.
 </td>
 </tr>
 <tr id="1.8.5">
-<td data-order="127">
+<td data-order="128">
 <a href="#1.8.5">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10066,7 +10220,7 @@ All changes of 1.8.5.
 </td>
 </tr>
 <tr id="1.8.4">
-<td data-order="128">
+<td data-order="129">
 <a href="#1.8.4">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10091,7 +10245,7 @@ All changes of 1.8.4.
 </td>
 </tr>
 <tr id="1.8.3">
-<td data-order="129">
+<td data-order="130">
 <a href="#1.8.3">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10121,7 +10275,7 @@ All changes of 1.8.3.
 </td>
 </tr>
 <tr id="1.8.2">
-<td data-order="130">
+<td data-order="131">
 <a href="#1.8.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10162,7 +10316,7 @@ All changes of 1.8.2.
 </td>
 </tr>
 <tr id="1.8">
-<td data-order="131">
+<td data-order="132">
 <a href="#1.8">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10306,7 +10460,7 @@ All changes of 1.8.
 </td>
 </tr>
 <tr id="1.7">
-<td data-order="132">
+<td data-order="133">
 <a href="#1.7">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10500,7 +10654,7 @@ All changes of 1.7.
 </td>
 </tr>
 <tr id="1.6">
-<td data-order="133">
+<td data-order="134">
 <a href="#1.6">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10572,7 +10726,7 @@ All changes of 1.6.
 </td>
 </tr>
 <tr id="1.5">
-<td data-order="134">
+<td data-order="135">
 <a href="#1.5">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10711,7 +10865,7 @@ All changes of 1.5.
 </td>
 </tr>
 <tr id="1.4">
-<td data-order="135">
+<td data-order="136">
 <a href="#1.4">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10870,7 +11024,7 @@ All changes of 1.4.
 </td>
 </tr>
 <tr id="1.3">
-<td data-order="136">
+<td data-order="137">
 <a href="#1.3">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>
@@ -10912,7 +11066,7 @@ All changes of 1.3.
 </td>
 </tr>
 <tr id="1.2">
-<td data-order="137">
+<td data-order="138">
 <a href="#1.2">
 <img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" title="ReplaceableTextures\\CommandButtons\\BTNEngineeringUpgrade.blp" />
 </a>

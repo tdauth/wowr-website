@@ -1,0 +1,44 @@
+- Add zone Gilneas.
+- Add portal lever to Kezan.
+- Revise terrain of Kezan.
+- Add portal from Underground to Kezan.
+- Remove research Phoenix Egg from Fishing Port.
+- Fix Draenei AI constructing an Argunite Mill.
+- Replace hero spell Watery Minion with Summon Sea Elemental for Sea Witch boss.
+- Functions GetPlayerFromString and GetPlayerColorFromString ignore empty player names now.
+- Fix player info string.
+- Fix destroying talk to me effect for Demon quest 2.
+- Add more quest items to quests.
+- Fix and improve vote system.
+- Improve race Fel Orc.
+- Captured Maiev and Captured Kael cannot be transported anymore.
+- Fix owner of Deathwing.
+- Add Avatar of Sargeras to Orb of Orbs carriers.
+- Preplace Dungeon Key on a fixed location on the map.
+- Improve race Gnome.
+- Copy more unit fields for spell Multiply.
+- Fix index of AI start location in UI.
+- Hero Ancient Hydra is amphibious now.
+- Fix Magic Sentry research for Freelancers.
+- Recreate Book of Fast Travel with "-g" for Freelancers.
+- Race scepters, profession books and Freelancer items are not invulnerable anymore.
+- Shipyard for profession Captain can sell units to non-heroes now.
+- Check unit limits when loading unit and building save codes.
+- Spell Mass Forestation kills the targets.
+- Tree birth animation for spell Mass Forestation.
+- All nation quests will enable Jaina's quests now.
+- Add chat command "-say".
+- Add chat command "-shout".
+- Add learnable hero spell Life Drain slot 2.
+- Add learnable hero spell Life Drain slot 3.
+- Add hero Skeletal Orc Champion.
+- Goblin unit Flame Shredder has ability Repair now.
+- Add missing Outland zones.
+- Add JASS function SetUnitSkinWithHeroIcon which fixes hero icons for skins.
+- Votes "-portals/-noportals" do not include lever portals anymore.
+- Add ability Select User to building Demon Gate for profession Warlock.
+- Fix Holy Nova target detection.
+- Spell Multiply does not work with legendary items anymore.
+- Spell Spell Aura does not reduce cooldowns to 0 anymore.
+- Fix chat command "-aihero".
+- Add missing tiny items for mappings to save codes.
