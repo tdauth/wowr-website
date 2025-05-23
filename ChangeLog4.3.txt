@@ -1,4 +1,5 @@
 - Add zone Gilneas.
+- Add zone Gnomeregan.
 - Add portal lever to Kezan.
 - Revise terrain of Kezan.
 - Add portal from Underground to Kezan.
@@ -42,3 +43,70 @@
 - Spell Spell Aura does not reduce cooldowns to 0 anymore.
 - Fix chat command "-aihero".
 - Add missing tiny items for mappings to save codes.
+- Fix mapping of item Tiny Merchant Shop to building Merchant Shop for profession Merchant.
+- Fix detecting prestored clan save codes for accounts.
+- Do not reset XP of hero 2 and 3 with "-h2" or "-h3" anymore if there is no hero.
+- Apply max HP researches when loading units from save codes.
+- Add select hero abilities to all player selection taverns.
+- Fix description of Goblin quest 2.
+- Boss Xal'atath has ranged anti air attack now.
+- Reduce the damage caused by spell Meteor.
+- Give boss Denathrius an Orb of Frost.
+- Show player selection mode in player selection.
+- Add chat command "-soul".
+- Start location Black Citadel has race Fel Orc instaed of Demon now.
+- Necromancer Sapphiron is not affected by Undead researches anymore.
+- Fix visual chat commands working at level 75.
+- Reduce the damage multiplier for spell Critical Aura.
+- Make the gate to Tomb of Sargeras invulnerable.
+- Fix multiple summon unit buffs.
+- Reset races when changing game mode in player selection.
+- Fix and simplify chat command "-pingb".
+- Fix using "X_IS_DISABLED" in crafting system.
+- Scale down floating text messages for backpacks.
+- Add profession Cook rank Grand Master.
+- Improve race Quillboar.
+- No more Evolution effects for sold hero units.
+- Never refund sold heroes.
+- Revise crafting system.
+- Fix recipe Craft Boots of Teleportation.
+- Do not remove hero wrongfully for the first time anymore when repicking the hero.
+- Item Diamond of Summoning cannot be sold to shops anymore.
+- Drop Draenei Banner of Demon quest 4 always at the same location.
+- Change race of property Antonus to Demon.
+- Fix researches for Temple of Darkness and Temple of Light.
+- Replace item Constellation for profession Astromancer with Escape Portal.
+- Remove mana from Demon building Sacrificial Pit.
+- No more spawn of Avatar of Sargeras by Eye of Sargeras.
+- Item Navigation Scroll cannot teleport into Tomb of Sargeras dungeon anymore.
+- Cannot teleport into race preview area anymore.
+- Change race of Blood Elf citizens to fix their construction process.
+- Fix tooltip of learnable hero spell Multiply.
+- Loading a Hideout with save codes will set the Hideout correctly now.
+- Allow item cost dummy to pick up more item types.
+- Load all prestored clan save codes from now on not only TheElvenClan.
+- Add Gnomish Submarine unit to properties at water.
+- Add Engineer Ship unit to properties at water.
+- Add start location Netherstorm.
+- Excavation Sites have random artifacts now and can refill them.
+- Diurnal does not give any gold harvest bonus anymore to fix High Elf lumber harvesting.
+- Increase stats of Clockwerk Goblin from Pocket Factory spell with every level.
+- Pickpocketing does not work on illusions anymore which duplicated items and led to crash.
+- Register all race tiers and tower upgrades as dependency equivalents.
+- Add system for Pocket Factory.
+- Hero spell Pocket Factory should now increase stats of Clockwerk Goblins and effect of Kaboom!.
+- Fix learnable hero spell item for Repair slot 1.
+- Add taunts.
+- Do not replace summoned units in race repicks.
+- Multiply makes clones summoned units.
+- Check ID limits when replacing units in race race repicks.
+- Fix Orc quest 2.
+- Make Skyfire Gunship of Gnome race much stronger.
+- Add learnable hero spell Jump Attack.
+- Add learnable hero spell Tail Swipe.
+- Inscription improves stats of summoned units.
+- Classify Mailbox as Neutral.
+- Add zone Howling Fjord.
+- Add arrow buttons to start location in AI Players UI.
+- Simplify the code for choosing the race in AI Players UI.
+- Add zone Jadefire Glen.
