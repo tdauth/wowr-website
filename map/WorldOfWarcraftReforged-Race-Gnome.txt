@@ -573,14 +573,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "Skyfire Gunship" )
 	call Preload( "<br/>" )
-	call Preload( "300" )
+	call Preload( "500" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
 	call Preload( "150" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Fast moving flying machine. Excellent at scouting, " )
-	call Preload( "and effective against air units. Can learn the Flying " )
-	call Preload( "Machine Bombs and Flak Cannons upgrades. " )
+	call Preload( "Powerful moving flying machine. " )
 	call Preload( "<br/>" )
 	call Preload( "Can see invisible units. " )
 	call Preload( "<br/>" )
@@ -1235,7 +1233,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 9.5 )
+	call PreloadEnd( 8.3 )
 
 endfunction
 
