@@ -17557,7 +17557,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "The High Elves revere the sun. Increases the sight " )
 	call Preload( "and other stats of High Elf units at day time. Workers " )
-	call Preload( "harvest plus 10 lumber and plus 5 gold during the day." )
+	call Preload( "harvest plus 10 lumber during the day." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNOrbOfTheSun.blp" width="64" height="64"" )
@@ -23519,7 +23519,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 11.5 )
+	call PreloadEnd( 11.8 )
 
 endfunction
 

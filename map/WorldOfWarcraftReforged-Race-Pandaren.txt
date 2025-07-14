@@ -1284,6 +1284,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "3000" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
+	call Preload( "500" )
+	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />" )
 	call Preload( "<br/>" )
 	call Preload( "The Eternal Guardian´s seat of power. Has different " )
 	call Preload( "defensive capabilities. Can learn the Magic Sentry " )
@@ -1320,6 +1322,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "3000" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
+	call Preload( "500" )
+	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />" )
 	call Preload( "<br/>" )
 	call Preload( "The Destroyer´s seat of power. Has different offensive " )
 	call Preload( "capabilities. Can learn the Magic Sentry ability. " )
@@ -1344,7 +1348,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 8.5 )
+	call PreloadEnd( 9.1 )
 
 endfunction
 

@@ -14,7 +14,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Conqueror" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "7000 XP * all completed quests every %2% completed quests by any player." )
+	call Preload( "7000 XP for constructing a town hall in every start location." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="QuestSolver">" )
@@ -408,7 +408,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Resources generated with chat command "-website". -->" )
-	call PreloadEnd( 0.1 )
+	call PreloadEnd( 0.0 )
 
 endfunction
 
