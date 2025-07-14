@@ -1,0 +1,61 @@
+- Improve race Kul Tiras.
+- Improve hero Skeletal Orc Champion.
+- Add critters to new zones.
+- Improve quests.
+- Improve terrain.
+- Prevent more different Blink abilities in blocked areas.
+- Add Select Hero to Excavation Site.
+- Improve race Bandit.
+- Move portal in Ashenvale.
+- Scale down and fix soundset for Fountain of Life for profession Herbalist.
+- Scale down and fix soundset for Fountain of Mana for profession Alchemist.
+- Fix storing hero abilities when learning them from shops.
+- No more neutral minimap icons.
+- Add neutral Demon Gate to Jadefire Glen.
+- Add start location Echo Isles.
+- Add start location Darkspear Islands.
+- Add start location Theramore for Computer players.
+- Add start location Old Lordaeron.
+- Add start location Alterac.
+- Add start location Gnoll Camp.
+- Add start location Maraudon.
+- Add start location Razofren Kraul.
+- Add start location Moa'ki Harbor.
+- Move boss Murloc Sorcerer into new zone Caverns of Darkspear Islands.
+- Remove "Inventory is full." message.
+- Improve race Troll.
+- Improve race Bandit.
+- Fix summoned unit bonus stats for spell Summon Sea Elemental.
+- Fix summoned unit bonus stats for spell Raise Dead.
+- Fix summoned unit bonus stats for inscription.
+- Increase lumber costs of Temple of Light and Temple of Darkness.
+- Fix repair costs of Temple of Light and Temple of Darkness.
+- Support item Scepter of Avarice for save codes.
+- Hide buff icon Hero for custom hero glow effects.
+- Classify custom mines as Neutral.
+- Do not highlight wrong hotkey in ability Fear anymore.
+- Remove race cinematic.
+- Crushing Wave spell does not increase distance with every level.
+- Use default Out of Stock message.
+- Creep Djinn has now gold and lumber costs.
+- Fix taunt sound effects.
+- Revise taunts.
+- Move Mercenary Camp in Tanaris to avoid stuck units.
+- Limit Crane buildings for race Kul Tiras to 4.
+- Never let Computer player be defeated twice.
+- Register all preplaced units for player The Burning Legion.
+- Mention the total numbers in quest leaderboard titles.
+- Summon a Dimensional Gate in Jaina quest 2 in every Computer town hall.
+- Fix pathing texture of building Demon Shipyard.
+- Change model and icon of unit Demon Citizen (male).
+- Reset learn tooltips of unit ability Resurrection for Arcane Observatory.
+- Stop Drain Resources spell for invalid target.
+- Fix endless loop in function RandomizeString.
+- Make legendary items invulnerable on dropping them.
+- Add Blood Elf quest 3.
+- Add Blood Elf quest 4.
+- Fix learnable hero spell Mass Ensnare for slot 4.
+- Replacing the race will not reset tier buildings anymore.
+- Add custom models for Elemental Lords.
+- Register submarine updates for submarine pilot heroes.
+- Automatic pick stuff in the beginning of the game to allow an instant start.
