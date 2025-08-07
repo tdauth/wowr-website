@@ -18,6 +18,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Fix showing team name in player info." )
 	call Preload( "- Trainers can change movement types now." )
 	call Preload( "- Trainers can change primary attributes now." )
+	call Preload( "- Fix registering race buildings for save codes in AddRaceBuildingsSaveObjects." )
+	call Preload( "- Do not register Freelancer buildings manually for save codes anymore but automatically in AddRaceBuildingsSaveObjects." )
 	call Preload( "- Improve German translation." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )

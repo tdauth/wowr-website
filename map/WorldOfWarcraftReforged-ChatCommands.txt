@@ -19,6 +19,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>"-helpcheats": Lists cheat chat commands.</li>" )
 	call Preload( "<li>"-helpcinematics": Lists cinematics chat commands.</li>" )
 	call Preload( "<li>"-c/-clear": Clears all screen messages.</li>" )
+	call Preload( "<li>"-hide/-show": Disables/enables all custom UI elements.</li>" )
 	call Preload( "<li>"-uion/off": Enables/disables custom UI when clicking on shops.</li>" )
 	call Preload( "<li>"-uiqueueon/off": Enables/disables UI training queue.</li>" )
 	call Preload( "<li>"-uiqueueclear": Clears the UI training queue.</li>" )
