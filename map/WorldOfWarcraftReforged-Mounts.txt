@@ -1040,9 +1040,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="items.html#I07Q">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRiderlessDragonhawk.blp" width="64" height="64"" )
 	call Preload( "title="Dragonhawk Mount"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRiderlessDragonhawk.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Dragonhawk Mount" )
 	call Preload( "<br/>" )
@@ -1050,8 +1050,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Changes the ability to Summon Dragonhawk Mount." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNDragonHawk.blp"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRiderlessDragonhawk.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNRiderlessDragonhawk.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -4120,7 +4120,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Mounts generated with chat command "-website". -->" )
-	call PreloadEnd( 1.3 )
+	call PreloadEnd( 1.2 )
 
 endfunction
 

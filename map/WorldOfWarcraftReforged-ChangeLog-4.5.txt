@@ -1,0 +1,27 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Fix automatic pick stuff in the beginning of the game to allow an instant start." )
+	call Preload( "- Fix portrait of hero Shandris Feathermoon." )
+	call Preload( "- Fix item type for learnable hero spell Summon Green Dragon." )
+	call Preload( "- Improve profession Archaeologist." )
+	call Preload( "- Add chat commands "-hide/-show"." )
+	call Preload( "- Add custom icon for building Excavation Site." )
+	call Preload( "- Add custom icon for building Kul Tiras Housing." )
+	call Preload( "- Add custom icon for building Human Housing (Stormwind)." )
+	call Preload( "- Add custom icon for unit Dragonhawk." )
+	call Preload( "- Add custom icon for unit Drill Engine." )
+	call Preload( "- Add custom icon for Gnome buildings." )
+	call Preload( "- Add ability Root to building Gnome Brassman." )
+	call Preload( "- Fix loading building Banner Shop." )
+	call Preload( "- Fix showing team name in player info." )
+	call Preload( "- Trainers can change movement types now." )
+	call Preload( "- Trainers can change primary attributes now." )
+	call Preload( "- Improve German translation." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

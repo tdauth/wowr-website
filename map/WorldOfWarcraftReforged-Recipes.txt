@@ -1858,7 +1858,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "- 2 Spiked Collars" )
 	call Preload( "<br/>" )
-	call Preload( "- 1 Demonic Figure</div>" )
+	call Preload( "- 1 Demonic Figurine</div>" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #808080">Drop the required items " )
@@ -3060,7 +3060,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Recipes generated with chat command "-website". -->" )
-	call PreloadEnd( 5.0 )
+	call PreloadEnd( 3.5 )
 
 endfunction
 

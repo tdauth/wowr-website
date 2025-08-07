@@ -90,10 +90,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="buildings.html#h0MF">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNLordaeronFarm.blp" width="64" height="64"" )
-	call Preload( "title="Farm"" )
+	call Preload( "title="House"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNLordaeronFarm.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "Farm" )
+	call Preload( "House" )
 	call Preload( "<br/>" )
 	call Preload( "80" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
@@ -110,7 +110,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</button>" )
 	call Preload( "</div>" )
 	call Preload( "<br/>" )
-	call Preload( "Farm" )
+	call Preload( "House" )
 	call Preload( "<br/>" )
 	call Preload( "</tbody>" )
 	call Preload( "</table>" )
@@ -1345,7 +1345,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 9.0 )
+	call PreloadEnd( 8.1 )
 
 endfunction
 

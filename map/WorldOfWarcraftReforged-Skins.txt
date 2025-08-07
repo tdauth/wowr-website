@@ -59,7 +59,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Skin Villager Child" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "Skin of a child Villager." )
+	call Preload( "Skin of a Villager Child." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="I1AF">" )
@@ -74,7 +74,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Skin Villager Child 2" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "Skin of a child 2 Villager." )
+	call Preload( "Skin of a Villager Child 2." )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="I16Q">" )
@@ -2046,7 +2046,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Skins generated with chat command "-website". -->" )
-	call PreloadEnd( 1.5 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 
