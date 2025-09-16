@@ -1291,6 +1291,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>Ujimasa Hojo: War Mill (BETA) and Derivatives</li>" )
 	call Preload( "<li>frostwhisper: Troll Arena</li>" )
 	call Preload( "<li>Explobomb: Elemental Lords Pack</li>" )
+	call Preload( "<li>loboproto: BTNLegionTeleporter</li>" )
+	call Preload( "<li>HappyCockroach: Spellbook Pack</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Credits generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )
