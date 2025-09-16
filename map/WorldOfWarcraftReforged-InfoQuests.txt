@@ -3722,6 +3722,7 @@ Note: Even " )
 	call Preload( "<li>Fix quest items of Forsaken quest 1.</li>" )
 	call Preload( "<li>Add custom icon for ability Monsoon.</li>" )
 	call Preload( "<li>Fix angle of ability Slide.</li>" )
+	call Preload( "<li>Give NPC Lady Vashj both auras since Kael can be your enemy in Illidan's Outland Camp.</li>" )
 	call Preload( "<li>Use 64 different tilesets instead of 16 due to patch 2.0.3.</li>" )
 	call Preload( "<li>Add skins.</li>" )
 	call Preload( "<li>Improve German translation.</li>" )
@@ -11285,7 +11286,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.1 )
+	call PreloadEnd( 3.0 )
 
 endfunction
 

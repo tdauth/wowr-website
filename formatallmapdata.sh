@@ -21,7 +21,6 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Zones.txt ./zones.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Recipes.txt ./recipes.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Achievements.txt ./achievements.html &
-./formatmapdata.sh ./map/WorldOfWarcraftReforged-HeroStandardAbilities.txt ./herostandardabilities.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Equipment.txt ./equipment.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Attributes.txt ./attributes.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Skins.txt ./skins.html &
