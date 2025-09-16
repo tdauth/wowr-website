@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>World of Warcraft Reforged - Attributes</title>
+    <title>World of Warcraft Reforged - Classes</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="description" content="World of Warcraft Reforged official website.">
     <meta name="keywords" content="warcraft3 RPG Reforged custommap">
@@ -10,13 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
 </head>
 <body class="p-3 mb-2 bg-dark text-white">
 
-<h1>World of Warcraft Reforged - Attributes</h1>
+<h1>World of Warcraft Reforged - Classes</h1>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark border">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
@@ -47,7 +48,7 @@
             <li class="nav-item"><a class="nav-link" href="chatcommands.html">Chat Commands</a></li>
             <li class="nav-item"><a class="nav-link" href="zones.html">Zones</a></li>
             <li class="nav-item"><a class="nav-link" href="players.html">Players</a></li>
-            <li class="nav-item"><a class="nav-link" href="clans.html">Clans</a></li>
+            <li class="nav-item"><a class="nav-link active" href="clans.html">Clans</a></li>
             <li class="nav-item"><a class="nav-link" href="credits.html">Credits</a></li>
             <li class="nav-item"><a class="nav-link" href="https://discord.gg/eM34z36">Discord</a></li>
 
@@ -58,192 +59,119 @@
     </div>
 </nav>
 
-Heroes can skill attributes:
+Hero classes determine which spells your hero can learn from the beginning.
 
-<table id="attributes">
+<table id="classes">
     <thead>
         <tr>
             <th>Icon</th>
             <th>Name</th>
-            <th>Description</th>
+            <th>Spells</th>
         </tr>
     </thead>
     <tbody>
-<!-- Attributes generated with chat command "-website". -->
-<tr id="0">
+<!-- Clans generated with chat command "-website". -->
+<tr id="TheElvenClan">
 <td>
-<a href="0">
-<img class="wowr-icon" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" width="64" height="64"
-title="Strength"
-alt="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp"
-/></a>
+<img class="wowr-icon" src="" />
 </td>
 <td>
-Strength
+TheElvenClan
 </td>
 <td>
-Increases maximum hit points and hit points regeneration.
-</td>
-</tr>
-<tr id="1">
-<td>
-<a href="1">
-<img class="wowr-icon" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" width="64" height="64"
-title="Agility"
-alt="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp"
-/></a>
+40000
+<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />
 </td>
 <td>
-Agility
+40000
+<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />
 </td>
 <td>
-Increases the armor and attack speed.
+<ul>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/Barade#2569">
+Barade#2569
+</a>
+ -
+Leader
+</li>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/WorldEdit">
+WorldEdit
+</a>
+ -
+Leader
+</li>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/Barade">
+Barade
+</a>
+ -
+Leader
+</li>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/Runeblade14#2451">
+Runeblade14#2451
+</a>
+ -
+Captain
+</li>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/AntiDenseMan#1202">
+AntiDenseMan#1202
+</a>
+ -
+Captain
+</li>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/Chaoskrieger#21738">
+Chaoskrieger#21738
+</a>
+ -
+Captain
+</li>
+</ul>
 </td>
-</tr>
-<tr id="2">
 <td>
-<a href="2">
-<img class="wowr-icon" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" width="64" height="64"
-title="Intelligence"
-alt="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp"
-/></a>
-</td>
-<td>
-Intelligence
-</td>
-<td>
-Increases the maximum mana and mana regeneration.
-</td>
-</tr>
-<tr id="3">
-<td>
-<a href="3">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNStatUp.blp" width="64" height="64"
-title="Attribute Points"
-alt="ReplaceableTextures\\CommandButtons\\BTNStatUp.blp"
-/></a>
-</td>
-<td>
-Attribute Points
-</td>
-<td>
-Allow skilling the standard attributes for your hero.
-</td>
-</tr>
-<tr id="4">
-<td>
-<a href="4">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSkillz.blp" width="64" height="64"
-title="SKILL_POINTS"
-alt="ReplaceableTextures\\CommandButtons\\BTNSkillz.blp"
-/></a>
-</td>
-<td>
-SKILL_POINTS
-</td>
-<td>
-SKILL_POINTS_DESCRIPTION
+N=M=y=hlE$N=c=]j5=]j5=>b=c=9=c=R=c=U=c=W=c=c=c=c=c=M=>1=
 </td>
 </tr>
-<tr id="5">
+<tr id="B.O.O.M.">
 <td>
-<a href="5">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp" width="64" height="64"
-title="Instinct"
-alt="ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp"
-/></a>
+<img class="wowr-icon" src="" />
 </td>
 <td>
-Instinct
+B.O.O.M.
 </td>
 <td>
-Increases the hero's sight and movement by 10 per point.
-</td>
-</tr>
-<tr id="6">
-<td>
-<a href="6">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNstamina.blp" width="64" height="64"
-title="Stamina"
-alt="ReplaceableTextures\\CommandButtons\\BTNstamina.blp"
-/></a>
+2000200
+<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />
 </td>
 <td>
-Stamina
+80100
+<img src="UI/Widgets/Console/Human/Infocard-lumber.blp" alt="UI/Widgets/Console/Human/Infocard-lumber.blp" />
 </td>
 <td>
-Temporarily increases the movement and attack speed 
-of your hero.
-</td>
-</tr>
-<tr id="7">
-<td>
-<a href="7">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNCloverStuff.blp" width="64" height="64"
-title="Luck"
-alt="ReplaceableTextures\\CommandButtons\\BTNCloverStuff.blp"
-/></a>
+<ul>
+<li>
+<a href="https://us.forums.blizzard.com/en/warcraft3/u/MedievalMan#1244">
+MedievalMan#1244
+</a>
+ -
+Leader
+</li>
+</ul>
 </td>
 <td>
-Luck
-</td>
-<td>
-Increases the chance for positive events for your hero.
+c8Q8Q>8yfw|c8r8aE3U8jjr8QC8r8r8r8r8r8r8r8r8r8r8r8r8r8Q8=8
 </td>
 </tr>
-<tr id="8">
-<td>
-<a href="8">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNCharm.blp" width="64" height="64"
-title="Charisma"
-alt="ReplaceableTextures\\CommandButtons\\BTNCharm.blp"
-/></a>
-</td>
-<td>
-Charisma
-</td>
-<td>
-Increases the chance to persuade other characters for 
-your hero.
-</td>
-</tr>
-<tr id="9">
-<td>
-<a href="9">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNSpellBookBLS.blp" width="64" height="64"
-title="Mystic"
-alt="ReplaceableTextures\\CommandButtons\\BTNSpellBookBLS.blp"
-/></a>
-</td>
-<td>
-Mystic
-</td>
-<td>
-Increases the hero's magic resistance by 3 and reduces 
-the cooldown by 0.2 seconds per point.
-</td>
-</tr>
-<tr id="10">
-<td>
-<a href="10">
-<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNPickPocket.blp" width="64" height="64"
-title="Thieving"
-alt="ReplaceableTextures\\CommandButtons\\BTNPickPocket.blp"
-/></a>
-</td>
-<td>
-Thieving
-</td>
-<td>
-Increases the chance to rob units and to loot chests.
-</td>
-</tr>
-<!-- Attributes generated with chat command "-website". -->
+<!-- Clans generated with chat command "-website". -->
     </tbody>
 </table>
 
 <script>
-    $('#attributes').dataTable({
+    $('#classes').dataTable({
         "paging": false,//Dont want paging
     });
 </script>

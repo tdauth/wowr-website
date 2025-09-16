@@ -14,6 +14,59 @@
 - Fix showing team name in player info.
 - Trainers can change movement types now.
 - Trainers can change primary attributes now.
+- Trainers can change attack types now.
+- Only one single Customizable hero.
+- Only one single Void Lord hero.
 - Fix registering race buildings for save codes in AddRaceBuildingsSaveObjects.
 - Do not register Freelancer buildings manually for save codes anymore but automatically in AddRaceBuildingsSaveObjects.
+- Spend all of Neptulon's skill points.
+- Fix showing the correct reason for not being able to pick up an item.
+- Goblin attack with Goblin Alchemists now.
+- Goblin attack with Goblin Artists now.
+- Register Goblin unit dependency equivalents.
+- Register Tauren unit dependency equivalents.
+- Add Tauren Shipyard building.
+- Fix wrongfully research effects of Sorceress and Spawn Hydras upgrades for several buildings.
+- Fix registered Demon units.
+- Add tiny building items for race Demon.
+- Remove Demon special building 2.
+- Add custom icon for building Legion Transporter.
+- Add custom icon for building Demon Shipyard.
+- Move research Temple of Demigods Blueprints from Guardian's Citadel to Freelancer Laboratory.
+- Research Temple of Demigods Blueprints requires any tier 3 now.
+- Fix achievement global variables.
+- Fix and translate strings for custom skilled abilities.
+- Improve School of Magic Fire Magic.
+- Add system to register unit types for summon unit abilities to apply bonuses.
+- Add creeps to Outland.
+- Add learnable spell Air Magic.
+- Change soundset of hero Fel Crossbowman.
+- Change proper names of hero Fel Crossbowman.
+- Change the location of the dropped Draenei Banner in Demon quest 4.
+- Remove spell Summon Vicaresses of Elune.
+- Remove spell Minigun Tower.
+- Remove spell Flare.
+- Remove spell Summon Telescope.
+- Make spell Spawn Tentacle C'thun learnable.
+- Make spell Spawn Eye Tentacle C'thun learnable.
+- Add back hero Engineer.
+- Add back hero Sapper.
+- Hide more command buttons to have 3 more free slots.
+- Add initial skill menu for skilling abilities for heroes.
+- Fix portrait of hero Iron Fist.
+- Disable paged buttons UI by default.
+- Show "-rename" chat command in hero name for Customizable Hero.
+- Fix Bait item Charm abilities.
+- Add missing True Sight ability to boss Antonidas.
+- Increase hit points regeneration of dummies in player selection.
+- Increase armor of dummies in player selection.
+- Redesign player selection.
+- Legendary artifact buildings are not affected by Evolution anymore.
+- Profession Engineer crafts new item Scroll of Construction now.
+- Remove header row in stats multiboard.
+- Fix quest items of Forsaken quest 1.
+- Add custom icon for ability Monsoon.
+- Fix angle of ability Slide.
+- Use 64 different tilesets instead of 16 due to patch 2.0.3.
+- Add skins.
 - Improve German translation.

@@ -75,7 +75,7 @@ Bosses will respawn like units after some time.
             <th>Level</th>
             <th>Zone</th>
             <th>Legendary Item</th>
-            <th>Spells</th>
+            <th>Class</th>
             <th>Primary Attribute</th>
             <th>Strength</th>
             <th>Agility</th>
@@ -108,9 +108,9 @@ alt="ReplaceableTextures/CommandButtons/BTNWarden2.blp"
 Xal'atath
 <br/>
 <br/>
-Cunning Hero, adept at entering and escaping combat. 
-Can learn Disarmament, Drains, Shadow Strike, Vengeance 
-and Envenomed Weapons. 
+Cunning Hero, adept at entering and escaping combat.
+Can learn Disarmament, Drains, Shadow Strike, Vengeance
+and Envenomed Weapons.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
@@ -139,33 +139,7 @@ alt="ReplaceableTextures/CommandButtons/BTNDaggerOfEscape.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A03C">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAbility_Warrior_Disarm.blp" width="64" height="64"
-title="Disarmament"
-alt="ReplaceableTextures/CommandButtons/BTNAbility_Warrior_Disarm.blp"
-/></a>
-<a href="spells.html#A0NH">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDrain.blp" width="64" height="64"
-title="Drain"
-alt="ReplaceableTextures/CommandButtons/BTNDrain.blp"
-/></a>
-<a href="spells.html#AEsh">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNShadowStrike.blp" width="64" height="64"
-title="Shadow Strike"
-alt="ReplaceableTextures/CommandButtons/BTNShadowStrike.blp"
-/></a>
-<a href="spells.html#AEsv">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpiritOfVengeance.blp" width="64" height="64"
-title="Vengeance"
-alt="ReplaceableTextures/CommandButtons/BTNSpiritOfVengeance.blp"
-/></a>
-<a href="spells.html#A1YX">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNEnvenomedSpear.blp" width="64" height="64"
-title="Envenomed Weapons"
-alt="ReplaceableTextures/PassiveButtons/PASBTNEnvenomedSpear.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -236,14 +210,14 @@ alt="ReplaceableTextures/CommandButtons/BTNVampireCombatant.blp"
 Denathrius
 <br/>
 <br/>
-Powerful Undead hero. Can learn Death Coil, Life Drain, 
+Powerful Undead hero. Can learn Death Coil, Life Drain,
 Vampiric Aura, Animate Dead, and Reincarnation Aura.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -274,32 +248,23 @@ alt="ReplaceableTextures/CommandButtons/BTNArcaniteMelee.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AUdc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDeathCoil.blp" width="64" height="64"
-title="Death Coil"
-alt="ReplaceableTextures/CommandButtons/BTNDeathCoil.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I07P">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFrostmourne.blp" width="64" height="64"
+title="Death Knight"
+alt="ReplaceableTextures/CommandButtons/BTNFrostmourne.blp"
 /></a>
-<a href="spells.html#A08N">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNLifeDrain.blp" width="64" height="64"
-title="Life Drain"
-alt="ReplaceableTextures/CommandButtons/BTNLifeDrain.blp"
-/></a>
-<a href="spells.html#AUav">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNVampiricAura.blp" width="64" height="64"
-title="Vampiric Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNVampiricAura.blp"
-/></a>
-<a href="spells.html#AUan">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAnimateDead.blp" width="64" height="64"
-title="Animate Dead"
-alt="ReplaceableTextures/CommandButtons/BTNAnimateDead.blp"
-/></a>
-<a href="spells.html#A1IT">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
+Death Knight
+<br/>
+<br/>
+Death Knight
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVampireCombatant.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNVampireCombatant.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
@@ -371,14 +336,14 @@ alt="ReplaceableTextures/CommandButtons/BTNSatyr.blp"
 Xavius
 <br/>
 <br/>
-Satyr Lord Hero. Can learn Mass Bloodlust, Unholy Aura, 
+Satyr Lord Hero. Can learn Mass Bloodlust, Unholy Aura,
 Scream, Finger of Death, and Animate Dead.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -409,33 +374,7 @@ alt="ReplaceableTextures/CommandButtons/BTNSatyr.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A173">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBloodLust.blp" width="64" height="64"
-title="Mass Bloodlust"
-alt="ReplaceableTextures/CommandButtons/BTNBloodLust.blp"
-/></a>
-<a href="spells.html#AUau">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp" width="64" height="64"
-title="Unholy Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp"
-/></a>
-<a href="spells.html#A100">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWaveOfTerror2.blp" width="64" height="64"
-title="Scream"
-alt="ReplaceableTextures/CommandButtons/BTNWaveOfTerror2.blp"
-/></a>
-<a href="spells.html#AUan">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAnimateDead.blp" width="64" height="64"
-title="Animate Dead"
-alt="ReplaceableTextures/CommandButtons/BTNAnimateDead.blp"
-/></a>
-<a href="spells.html#A060">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -462,7 +401,7 @@ alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
 Foot
 </td>
 <td>
-459
+296
 </td>
 <td>
 <img
@@ -506,15 +445,15 @@ alt="ReplaceableTextures/CommandButtons/BTNYsera.blp"
 Ysera
 <br/>
 <br/>
-Powerful flying boss hero who can cast Breath of Fire, 
-Summon Fire Elemental, Command Aura, Reincarnation 
+Powerful flying boss hero who can cast Breath of Fire,
+Summon Fire Elemental, Command Aura, Reincarnation
 and Cleaving Attack.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -545,33 +484,7 @@ alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A14F">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEntanglingRoots.blp" width="64" height="64"
-title="Mass Entangling Roots"
-alt="ReplaceableTextures/CommandButtons/BTNEntanglingRoots.blp"
-/></a>
-<a href="spells.html#A1H5">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRejuvenation.blp" width="64" height="64"
-title="Mass Rejuvenation"
-alt="ReplaceableTextures/CommandButtons/BTNRejuvenation.blp"
-/></a>
-<a href="spells.html#A14I">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64"
-title="Mass Sleep"
-alt="ReplaceableTextures/CommandButtons/BTNSleep.blp"
-/></a>
-<a href="spells.html#AEtq">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTranquility.blp" width="64" height="64"
-title="Tranquility"
-alt="ReplaceableTextures/CommandButtons/BTNTranquility.blp"
-/></a>
-<a href="spells.html#A22D">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp" width="64" height="64"
-title="Summon Green Dragon"
-alt="ReplaceableTextures/CommandButtons/BTNGreenDragon.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -642,15 +555,15 @@ alt="ReplaceableTextures/CommandButtons/BTNMarkOfFire.blp"
 Al'ar
 <br/>
 <br/>
-Kael'thas Sunstrider's pet phoenix boss hero who can 
-cast Flame Strike, Fire Attack, Phoenix Fire, Flame 
-Storm and Reincarnation Aura. 
+Kael'thas Sunstrider's pet phoenix boss hero who can
+cast Flame Strike, Fire Attack, Phoenix Fire, Flame
+Storm and Reincarnation Aura.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -681,32 +594,23 @@ alt="ReplaceableTextures/CommandButtons/BTNPhoenixEgg.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHfs">
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04M">
 <img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp" width="64" height="64"
-title="Flame Strike"
+title="Pyromancer"
 alt="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp"
 /></a>
-<a href="spells.html#A1JO">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASReinforcedFireAttack.blp" width="64" height="64"
-title="Fire Attack"
-alt="ReplaceableTextures/PassiveButtons/PASReinforcedFireAttack.blp"
-/></a>
-<a href="spells.html#A13E">
+Pyromancer
+<br/>
+<br/>
+Pyromancer
+</div>
+<button>
 <img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMarkOfFire.blp" width="64" height="64"
-title="Phoenix Fire"
 alt="ReplaceableTextures/CommandButtons/BTNMarkOfFire.blp"
-/></a>
-<a href="spells.html#A12I">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFlameStorm.blp" width="64" height="64"
-title="Flame Storm"
-alt="ReplaceableTextures/CommandButtons/BTNFlameStorm.blp"
-/></a>
-<a href="spells.html#A1IT">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
+/>
+</button>
 </div>
 </td>
 <td data-order="2" data-search="Intelligence">
@@ -778,15 +682,15 @@ alt="ReplaceableTextures/CommandButtons/BTNGruul.blp"
 Gruul the Dragonkiller
 <br/>
 <br/>
-Powerful Gronn boss hero from Outland who is the leader 
-of the Ogres. Can learn Impale, Thunder Clap, Cleaving 
-Attack, Avatar, and Reincarnation. 
+Powerful Gronn boss hero from Outland who is the leader
+of the Ogres. Can learn Impale, Thunder Clap, Cleaving
+Attack, Avatar, and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -817,32 +721,23 @@ alt="ReplaceableTextures/CommandButtons/BTNOgreClubs1.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AUim">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNImpale.blp" width="64" height="64"
-title="Impale"
-alt="ReplaceableTextures/CommandButtons/BTNImpale.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I03K">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSteelMelee.blp" width="64" height="64"
+title="Warrior"
+alt="ReplaceableTextures/CommandButtons/BTNSteelMelee.blp"
 /></a>
-<a href="spells.html#AHtc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNThunderclap.blp" width="64" height="64"
-title="Thunder Clap"
-alt="ReplaceableTextures/CommandButtons/BTNThunderclap.blp"
-/></a>
-<a href="spells.html#ANca">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp" width="64" height="64"
-title="Cleaving Attack"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp"
-/></a>
-<a href="spells.html#AHav">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAvatarOn.blp" width="64" height="64"
-title="Avatar"
-alt="ReplaceableTextures/CommandButtons/BTNAvatarOn.blp"
-/></a>
-<a href="spells.html#A1IT">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
+Warrior
+<br/>
+<br/>
+Warrior
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGruul.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNGruul.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
@@ -870,7 +765,7 @@ alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
 Foot
 </td>
 <td>
-329
+300
 </td>
 <td>
 <img
@@ -914,15 +809,15 @@ alt="ReplaceableTextures/CommandButtons/BTNWarEagle.blp"
 Ohn'ahra
 <br/>
 <br/>
-Flying Wild God boss hero who can cast Fan of Knives, 
-Forked Lightning, Summon Hawk, Reincarnation, and Chain 
-Lightning. 
+Flying Wild God boss hero who can cast Fan of Knives,
+Forked Lightning, Summon Hawk, Reincarnation, and Chain
+Lightning.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -949,33 +844,7 @@ alt="ReplaceableTextures\\CommandButtons\\BTNHarpyQueen.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AEfk">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFanOfKnives.blp" width="64" height="64"
-title="Fan of Knives"
-alt="ReplaceableTextures/CommandButtons/BTNFanOfKnives.blp"
-/></a>
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#ANsw">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWarEagle.blp" width="64" height="64"
-title="Summon Hawk"
-alt="ReplaceableTextures/CommandButtons/BTNWarEagle.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#AOcl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" width="64" height="64"
-title="Chain Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNChainLightning.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -1046,14 +915,14 @@ alt="ReplaceableTextures/CommandButtons/BTNcloudserpent.blp"
 Yu'lon
 <br/>
 <br/>
-Flying Wild God boss hero who can cast Mirror Image, 
-Drunken Brawler, Miss Aura, Bladestorm, and Reincarnation. 
+Flying Wild God boss hero who can cast Mirror Image,
+Drunken Brawler, Miss Aura, Bladestorm, and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1080,33 +949,7 @@ alt="ReplaceableTextures\\CommandButtons\\BTNTreeOfLife.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AOmi">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMirrorImage.blp" width="64" height="64"
-title="Mirror Image"
-alt="ReplaceableTextures/CommandButtons/BTNMirrorImage.blp"
-/></a>
-<a href="spells.html#ANdb">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp" width="64" height="64"
-title="Drunken Brawler"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp"
-/></a>
-<a href="spells.html#AOww">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWhirlwind.blp" width="64" height="64"
-title="Bladestorm"
-alt="ReplaceableTextures/CommandButtons/BTNWhirlwind.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#A1KX">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASPandaAura.blp" width="64" height="64"
-title="Miss Aura"
-alt="ReplaceableTextures/PassiveButtons/PASPandaAura.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -1177,16 +1020,16 @@ alt="ReplaceableTextures/CommandButtons/BTNHeroAvatarOfFlame.blp"
 Smolderon
 <br/>
 <br/>
-Mystical Hero, adept at disrupting spells and dealing 
-large amounts of fire damage. Can learn Mass Firebolt, 
-Summon Fire Elementals, Permanent Immolation, Volcano 
+Mystical Hero, adept at disrupting spells and dealing
+large amounts of fire damage. Can learn Mass Firebolt,
+Summon Fire Elementals, Permanent Immolation, Volcano
 and Fire Attack.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1213,32 +1056,23 @@ alt="ReplaceableTextures\\CommandButtons\\BTNFire.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A1GB">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFireBolt.blp" width="64" height="64"
-title="Mass Firebolt"
-alt="ReplaceableTextures/CommandButtons/BTNFireBolt.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04M">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp" width="64" height="64"
+title="Pyromancer"
+alt="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp"
 /></a>
-<a href="spells.html#A0HM">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFireSpawn.blp" width="64" height="64"
-title="Summon Fire Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNFireSpawn.blp"
-/></a>
-<a href="spells.html#A0KE">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNImmolation.blp" width="64" height="64"
-title="Permanent Immolation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNImmolation.blp"
-/></a>
-<a href="spells.html#ANvc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVolcano.blp" width="64" height="64"
-title="Volcano"
-alt="ReplaceableTextures/CommandButtons/BTNVolcano.blp"
-/></a>
-<a href="spells.html#A1JZ">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASReinforcedFireAttack.blp" width="64" height="64"
-title="Fire Attack"
-alt="ReplaceableTextures/PassiveButtons/PASReinforcedFireAttack.blp"
-/></a>
+Pyromancer
+<br/>
+<br/>
+Pyromancer
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHeroAvatarOfFlame.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNHeroAvatarOfFlame.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="1" data-search="Strength">
@@ -1310,15 +1144,15 @@ alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
 Neptulon
 <br/>
 <br/>
-Mystical Hero, adept at disrupting spells and dealing 
-large amounts of fire damage. Can learn Crushing Wave, 
+Mystical Hero, adept at disrupting spells and dealing
+large amounts of fire damage. Can learn Crushing Wave,
 Mana Shield, Bash, Monsoon and Summon Sea Elemental.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1345,33 +1179,7 @@ alt="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A1VP">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp" width="64" height="64"
-title="Crushing Wave"
-alt="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp"
-/></a>
-<a href="spells.html#ANms">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp" width="64" height="64"
-title="Mana Shield"
-alt="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp"
-/></a>
-<a href="spells.html#A061">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#A024">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Monsoon"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#A08S">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"
-title="Summon Sea Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -1442,15 +1250,15 @@ alt="ReplaceableTextures/CommandButtons/BTNIconThunderaan.blp"
 Thunderaan
 <br/>
 <br/>
-Mystical Hero, adept at disrupting spells and dealing 
-large amounts of fire damage. Can learn Forked Lightning, 
+Mystical Hero, adept at disrupting spells and dealing
+large amounts of fire damage. Can learn Forked Lightning,
 Wind Walk, Bash, Mass Cyclone and Evasion Aura.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1477,33 +1285,7 @@ alt="ReplaceableTextures\\CommandButtons\\BTNCyclone.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#AOwk">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWindWalkOn.blp" width="64" height="64"
-title="Wind Walk"
-alt="ReplaceableTextures/CommandButtons/BTNWindWalkOn.blp"
-/></a>
-<a href="spells.html#A061">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#A1H8">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCyclone.blp" width="64" height="64"
-title="Mass Cyclone"
-alt="ReplaceableTextures/CommandButtons/BTNCyclone.blp"
-/></a>
-<a href="spells.html#A1E0">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp" width="64" height="64"
-title="Evasion Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNEvasion.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -1574,15 +1356,15 @@ alt="ReplaceableTextures/CommandButtons/BTNIconTherazane.blp"
 Therazane
 <br/>
 <br/>
-Mystical Hero, adept at disrupting spells and dealing 
-large amounts of fire damage. Can learn Shockwave, 
+Mystical Hero, adept at disrupting spells and dealing
+large amounts of fire damage. Can learn Shockwave,
 Summon Earth Elemental, Bash, Earthquake and War Stomp.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1609,33 +1391,7 @@ alt="ReplaceableTextures\\CommandButtons\\BTNEarthquake.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AOsh">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNShockWave.blp" width="64" height="64"
-title="Shockwave"
-alt="ReplaceableTextures/CommandButtons/BTNShockWave.blp"
-/></a>
-<a href="spells.html#A1PQ">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEarthElemental.blp" width="64" height="64"
-title="Summon Earth Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNEarthElemental.blp"
-/></a>
-<a href="spells.html#A061">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#AOeq">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEarthquake.blp" width="64" height="64"
-title="Earthquake"
-alt="ReplaceableTextures/CommandButtons/BTNEarthquake.blp"
-/></a>
-<a href="spells.html#AOws">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWarStomp.blp" width="64" height="64"
-title="War Stomp"
-alt="ReplaceableTextures/CommandButtons/BTNWarStomp.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -1706,15 +1462,15 @@ alt="ReplaceableTextures/CommandButtons/BTNDeathwing.blp"
 Deathwing
 <br/>
 <br/>
-Powerful flying boss hero who can cast Breath of Fire, 
-Summon Fire Elemental, Command Aura, Reincarnation 
+Powerful flying boss hero who can cast Breath of Fire,
+Summon Fire Elemental, Command Aura, Reincarnation
 and Cleaving Attack.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1745,32 +1501,23 @@ alt="ReplaceableTextures/CommandButtons/BTNDeathwing.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANbf">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBreathOfFire.blp" width="64" height="64"
-title="Breath of Fire"
-alt="ReplaceableTextures/CommandButtons/BTNBreathOfFire.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04M">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp" width="64" height="64"
+title="Pyromancer"
+alt="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp"
 /></a>
-<a href="spells.html#A0HM">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFireSpawn.blp" width="64" height="64"
-title="Summon Fire Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNFireSpawn.blp"
-/></a>
-<a href="spells.html#A06Z">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNGnollCommandAura.blp" width="64" height="64"
-title="Command Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNGnollCommandAura.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#ANca">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp" width="64" height="64"
-title="Cleaving Attack"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp"
-/></a>
+Pyromancer
+<br/>
+<br/>
+Pyromancer
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDeathwing.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNDeathwing.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
@@ -1842,15 +1589,15 @@ alt="ReplaceableTextures/CommandButtons/BTNKeeperOfTheGrove.blp"
 Cenarius
 <br/>
 <br/>
-Mystical Hero, adept at using nature spells. Can learn 
-Entangling Roots, Force of Nature, Thorns Aura, Tranquility, 
-and Attribute Bonus. 
+Mystical Hero, adept at using nature spells. Can learn
+Entangling Roots, Force of Nature, Thorns Aura, Tranquility,
+and Attribute Bonus.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -1881,32 +1628,23 @@ alt="ReplaceableTextures/CommandButtons/BTNHornOfCenarius.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AEer">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEntanglingRoots.blp" width="64" height="64"
-title="Entangling Roots"
-alt="ReplaceableTextures/CommandButtons/BTNEntanglingRoots.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I06Z">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDOCAdeptTraining.blp" width="64" height="64"
+title="Druid"
+alt="ReplaceableTextures/CommandButtons/BTNDOCAdeptTraining.blp"
 /></a>
-<a href="spells.html#AEfn">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEnt.blp" width="64" height="64"
-title="Force of Nature"
-alt="ReplaceableTextures/CommandButtons/BTNEnt.blp"
-/></a>
-<a href="spells.html#AEah">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNThorns.blp" width="64" height="64"
-title="Thorns Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNThorns.blp"
-/></a>
-<a href="spells.html#AEtq">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTranquility.blp" width="64" height="64"
-title="Tranquility"
-alt="ReplaceableTextures/CommandButtons/BTNTranquility.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
+Druid
+<br/>
+<br/>
+Druid
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNKeeperOfTheGrove.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNKeeperOfTheGrove.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="2" data-search="Intelligence">
@@ -1950,7 +1688,7 @@ title="Chaos"
 1000
 </td>
 <td>
-473 - 537
+428 - 492
 </td>
 <td>
 <img
@@ -1960,7 +1698,7 @@ title="Hero"
 />
 </td>
 <td>
-29
+15
 </td>
 <td>
 1050
@@ -1978,14 +1716,14 @@ alt="ReplaceableTextures/CommandButtons/BTNFelGuardBlue.blp"
 Imonar the Soulhunter
 <br/>
 <br/>
-Powerful Fel Lord  boss hero who can cast Howl of Terror, 
-Thunder Clap, Cleaving Attack, Demon Master and Reincarnation. 
+Powerful Fel Lord  boss hero who can cast Howl of Terror,
+Thunder Clap, Cleaving Attack, Demon Master and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2016,33 +1754,7 @@ alt="ReplaceableTextures/CommandButtons/BTNOrcMeleeUpThree.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANht">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHowlOfTerror.blp" width="64" height="64"
-title="Howl of Terror"
-alt="ReplaceableTextures/CommandButtons/BTNHowlOfTerror.blp"
-/></a>
-<a href="spells.html#AHtc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNThunderclap.blp" width="64" height="64"
-title="Thunder Clap"
-alt="ReplaceableTextures/CommandButtons/BTNThunderclap.blp"
-/></a>
-<a href="spells.html#ANca">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp" width="64" height="64"
-title="Cleaving Attack"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp"
-/></a>
-<a href="spells.html#A01R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -2113,15 +1825,15 @@ alt="ReplaceableTextures/CommandButtons/BTNNagaSeaWitch.blp"
 War Queen
 <br/>
 <br/>
-Mystical Sea Witch boss hero, adept at ranged assaults. 
-Can learn Forked Lightning, Frost Arrows, Mana Shield, 
-Volcano, and Summon Watery Minion. 
+Mystical Sea Witch boss hero, adept at ranged assaults.
+Can learn Forked Lightning, Frost Arrows, Mana Shield,
+Volcano, and Summon Watery Minion.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2148,33 +1860,7 @@ alt="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#ANfa">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp" width="64" height="64"
-title="Frost Arrows"
-alt="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp"
-/></a>
-<a href="spells.html#ANms">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp" width="64" height="64"
-title="Mana Shield"
-alt="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp"
-/></a>
-<a href="spells.html#ANvc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVolcano.blp" width="64" height="64"
-title="Volcano"
-alt="ReplaceableTextures/CommandButtons/BTNVolcano.blp"
-/></a>
-<a href="spells.html#A08S">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"
-title="Summon Sea Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -2245,16 +1931,15 @@ alt="ReplaceableTextures/CommandButtons/BTNElune.blp"
 Elune
 <br/>
 <br/>
-Cunning Hero, high base hit points and high hit point 
-regeneration but only at night. Can learn Healing Wave, 
-Summon Vicaresses of Elune, Brilliance Aura  and Full 
-Regeneration. 
+Cunning Hero, high base hit points and high hit point
+regeneration but only at night. Can learn Healing Wave,
+Inner Fire, Brilliance Aura and Full Regeneration.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2285,32 +1970,23 @@ alt="ReplaceableTextures/CommandButtons/BTNMoonStone.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AOhw">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHealingWave.blp" width="64" height="64"
-title="Healing Wave"
-alt="ReplaceableTextures/CommandButtons/BTNHealingWave.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I07O">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp" width="64" height="64"
+title="Hunter"
+alt="ReplaceableTextures/CommandButtons/BTNImprovedBows.blp"
 /></a>
-<a href="spells.html#A0JY">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVicaressofElune.blp" width="64" height="64"
-title="Summon Vicaresses of Elune"
-alt="ReplaceableTextures/CommandButtons/BTNVicaressofElune.blp"
-/></a>
-<a href="spells.html#AHab">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBrilliance.blp" width="64" height="64"
-title="Brilliance Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBrilliance.blp"
-/></a>
-<a href="spells.html#A0Y2">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRegeneration.blp" width="64" height="64"
-title="Full Regeneration"
-alt="ReplaceableTextures/CommandButtons/BTNRegeneration.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
+Hunter
+<br/>
+<br/>
+Hunter
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNElune.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNElune.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="1" data-search="Strength">
@@ -2354,7 +2030,7 @@ title="Chaos"
 600
 </td>
 <td>
-183 - 205
+138 - 160
 </td>
 <td>
 <img
@@ -2364,7 +2040,7 @@ title="Hero"
 />
 </td>
 <td>
-52
+39
 </td>
 <td>
 700
@@ -2382,15 +2058,15 @@ alt="ReplaceableTextures/CommandButtons/BTNSylvanusWindrunner.blp"
 Sylvanas Windrunner
 <br/>
 <br/>
-Cunning boss Hero, adept at damaging opponents. Can 
-learn Holy Light, Cold Arrows, Trueshot Aura, and Banshee 
-Form, and Attribute Bonus. 
+Cunning boss Hero, adept at damaging opponents. Can
+learn Holy Light, Cold Arrows, Trueshot Aura, and Banshee
+Form, and Attribute Bonus.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2421,33 +2097,7 @@ alt="ReplaceableTextures/CommandButtons/BTNP_AngelWings.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHhb">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHolyBolt.blp" width="64" height="64"
-title="Holy Light"
-alt="ReplaceableTextures/CommandButtons/BTNHolyBolt.blp"
-/></a>
-<a href="spells.html#AHca">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp" width="64" height="64"
-title="Cold Arrows"
-alt="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp"
-/></a>
-<a href="spells.html#AEar">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNTrueShot.blp" width="64" height="64"
-title="Trueshot Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNTrueShot.blp"
-/></a>
-<a href="spells.html#A12R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGhost.blp" width="64" height="64"
-title="Banshee Form"
-alt="ReplaceableTextures/CommandButtons/BTNGhost.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -2490,7 +2140,7 @@ title="Chaos"
 600
 </td>
 <td>
-160 - 172
+115 - 127
 </td>
 <td>
 <img
@@ -2500,7 +2150,7 @@ title="Hero"
 />
 </td>
 <td>
-46
+32
 </td>
 <td>
 700
@@ -2518,15 +2168,15 @@ alt="ReplaceableTextures/CommandButtons/BTNGhostMage.blp"
 Antonidas
 <br/>
 <br/>
-Mystical Hero Spirit, adept at ranged assaults. Can 
-learn Summon Water Elemental, Mass Slow, Feedback, 
-Mass Polymorph and Mirror Image. 
+Mystical Hero Spirit, adept at ranged assaults. Can
+learn Summon Water Elemental, Mass Slow, Feedback,
+Mass Polymorph and Mirror Image.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2557,32 +2207,23 @@ alt="ReplaceableTextures/CommandButtons/BTNEyeOfDalaran.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHwe">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSummonWaterElemental.blp" width="64" height="64"
-title="Summon Water Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSummonWaterElemental.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I05H">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSorceressAdept.blp" width="64" height="64"
+title="Arcanist"
+alt="ReplaceableTextures/CommandButtons/BTNSorceressAdept.blp"
 /></a>
-<a href="spells.html#A0QF">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSlow.blp" width="64" height="64"
-title="Mass Slow"
-alt="ReplaceableTextures/CommandButtons/BTNSlow.blp"
-/></a>
-<a href="spells.html#A0DH">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNFeedBack.blp" width="64" height="64"
-title="Feedback"
-alt="ReplaceableTextures/PassiveButtons/PASBTNFeedBack.blp"
-/></a>
-<a href="spells.html#A0QS">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPolymorph.blp" width="64" height="64"
-title="Mass Polymorph"
-alt="ReplaceableTextures/CommandButtons/BTNPolymorph.blp"
-/></a>
-<a href="spells.html#AOmi">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMirrorImage.blp" width="64" height="64"
-title="Mirror Image"
-alt="ReplaceableTextures/CommandButtons/BTNMirrorImage.blp"
-/></a>
+Arcanist
+<br/>
+<br/>
+Arcanist
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGhostMage.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNGhostMage.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="2" data-search="Intelligence">
@@ -2654,15 +2295,15 @@ alt="ReplaceableTextures/CommandButtons/BTNRagnaros.blp"
 Ragnaros
 <br/>
 <br/>
-Mystical Hero, adept at disrupting spells and dealing 
-large amounts of fire damage.  Can learn Soul Burn, 
+Mystical Hero, adept at disrupting spells and dealing
+large amounts of fire damage.  Can learn Soul Burn,
 Summon Lava Spawn, Incinerate and Volcano.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2693,33 +2334,7 @@ alt="ReplaceableTextures/CommandButtons/BTNBlastHammer.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANic">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNIncinerate.blp" width="64" height="64"
-title="Incinerate"
-alt="ReplaceableTextures/PassiveButtons/PASBTNIncinerate.blp"
-/></a>
-<a href="spells.html#ANso">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSoulBurn.blp" width="64" height="64"
-title="Soul Burn"
-alt="ReplaceableTextures/CommandButtons/BTNSoulBurn.blp"
-/></a>
-<a href="spells.html#ANlm">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNLavaSpawn.blp" width="64" height="64"
-title="Summon Lava Spawn"
-alt="ReplaceableTextures/CommandButtons/BTNLavaSpawn.blp"
-/></a>
-<a href="spells.html#ANvc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVolcano.blp" width="64" height="64"
-title="Volcano"
-alt="ReplaceableTextures/CommandButtons/BTNVolcano.blp"
-/></a>
-<a href="spells.html#A0KE">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNImmolation.blp" width="64" height="64"
-title="Permanent Immolation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNImmolation.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="1" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-agi.blp" title="Agility" alt="Agility " />
@@ -2790,15 +2405,15 @@ alt="ReplaceableTextures/CommandButtons/BTN_Azshara_Siren.blp"
 Queen Azshara
 <br/>
 <br/>
-Mystical Sea Witch boss hero, adept at ranged assaults. 
-Can learn Forked Lightning, Frost Arrows, Mana Shield, 
-Volcano, and Summon Sea Elemental. 
+Mystical Sea Witch boss hero, adept at ranged assaults.
+Can learn Forked Lightning, Frost Arrows, Mana Shield,
+Volcano, and Summon Sea Elemental.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2829,33 +2444,7 @@ alt="ReplaceableTextures/CommandButtons/BTNHeartOfAszune.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#ANfa">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp" width="64" height="64"
-title="Frost Arrows"
-alt="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp"
-/></a>
-<a href="spells.html#ANms">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp" width="64" height="64"
-title="Mana Shield"
-alt="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp"
-/></a>
-<a href="spells.html#ANvc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVolcano.blp" width="64" height="64"
-title="Volcano"
-alt="ReplaceableTextures/CommandButtons/BTNVolcano.blp"
-/></a>
-<a href="spells.html#A08S">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"
-title="Summon Sea Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -2926,15 +2515,15 @@ alt="ReplaceableTextures/CommandButtons/BTNDranaiAkama.blp"
 Akama
 <br/>
 <br/>
-Cunning Hero, adept at maneuvering through battles. 
-Can learn Chain Lightning, Feral Spirit, Shadow Strike, 
-Critical Strike and Reincarnation. 
+Cunning Hero, adept at maneuvering through battles.
+Can learn Chain Lightning, Feral Spirit, Shadow Strike,
+Critical Strike and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -2965,32 +2554,23 @@ alt="ReplaceableTextures/CommandButtons/BTNHammer.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AOcl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" width="64" height="64"
-title="Chain Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNChainLightning.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I07Q">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDaggerOfEscape.blp" width="64" height="64"
+title="Rogue"
+alt="ReplaceableTextures/CommandButtons/BTNDaggerOfEscape.blp"
 /></a>
-<a href="spells.html#A08G">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNShadowStrike.blp" width="64" height="64"
-title="Shadow Strike"
-alt="ReplaceableTextures/CommandButtons/BTNShadowStrike.blp"
-/></a>
-<a href="spells.html#AOsf">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpiritWolf.blp" width="64" height="64"
-title="Feral Spirit"
-alt="ReplaceableTextures/CommandButtons/BTNSpiritWolf.blp"
-/></a>
-<a href="spells.html#A08K">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#AOcr">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"
-title="Critical Strike"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"
-/></a>
+Rogue
+<br/>
+<br/>
+Rogue
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDranaiAkama.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNDranaiAkama.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="2" data-search="Intelligence">
@@ -3062,15 +2642,15 @@ alt="ReplaceableTextures/CommandButtons/BTNHeroTinker.blp"
 Tinkerer Gizlock
 <br/>
 <br/>
-Cunning Hero, exceptional at disrupting battles and 
-enduring damage. Can learn Pocket Factory, Cluster 
+Cunning Hero, exceptional at disrupting battles and
+enduring damage. Can learn Pocket Factory, Cluster
 Rockets, Critical Strike, Roar, and Cleaving Attack.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3097,33 +2677,7 @@ alt="ReplaceableTextures/CommandButtons/BTNPocketFactory.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANsy">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPocketFactory.blp" width="64" height="64"
-title="Pocket Factory"
-alt="ReplaceableTextures/CommandButtons/BTNPocketFactory.blp"
-/></a>
-<a href="spells.html#ANcs">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNClusterRockets.blp" width="64" height="64"
-title="Cluster Rockets"
-alt="ReplaceableTextures/CommandButtons/BTNClusterRockets.blp"
-/></a>
-<a href="spells.html#AOcr">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"
-title="Critical Strike"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"
-/></a>
-<a href="spells.html#ANbr">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBattleRoar.blp" width="64" height="64"
-title="Roar"
-alt="ReplaceableTextures/CommandButtons/BTNBattleRoar.blp"
-/></a>
-<a href="spells.html#ANca">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp" width="64" height="64"
-title="Cleaving Attack"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -3194,15 +2748,15 @@ alt="ReplaceableTextures/CommandButtons/BTNHeroAlchemist.blp"
 Rumblefitz
 <br/>
 <br/>
-Warrior Hero, known for offensive and defensive versatility. 
-Can learn Healing Spray, Chemical Rage, Acid Bomb and 
+Warrior Hero, known for offensive and defensive versatility.
+Can learn Healing Spray, Chemical Rage, Acid Bomb and
 Transmute.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3229,33 +2783,7 @@ alt="ReplaceableTextures/CommandButtons/BTNAmmoDump.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANhs">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHealingSpray.blp" width="64" height="64"
-title="Healing Spray"
-alt="ReplaceableTextures/CommandButtons/BTNHealingSpray.blp"
-/></a>
-<a href="spells.html#ANcs">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNClusterRockets.blp" width="64" height="64"
-title="Cluster Rockets"
-alt="ReplaceableTextures/CommandButtons/BTNClusterRockets.blp"
-/></a>
-<a href="spells.html#ANab">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNAcidBomb.blp" width="64" height="64"
-title="Acid Bomb"
-alt="ReplaceableTextures/CommandButtons/BTNAcidBomb.blp"
-/></a>
-<a href="spells.html#ANtm">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTransmute.blp" width="64" height="64"
-title="Transmute"
-alt="ReplaceableTextures/CommandButtons/BTNTransmute.blp"
-/></a>
-<a href="spells.html#ANcr">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNChemicalRage.blp" width="64" height="64"
-title="Chemical Rage"
-alt="ReplaceableTextures/CommandButtons/BTNChemicalRage.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -3326,9 +2854,9 @@ alt="ReplaceableTextures/CommandButtons/BTNYogg-saronIcon.blp"
 Yogg-saron
 <br/>
 <br/>
-Ancient old god of death, who moves very slowly but 
-can use Blink to teleport. Can learn Spawn Tentacle, 
-Spawn Mace Tentacle, Breath of Frost, Frost Armor and 
+Ancient old god of death, who moves very slowly but
+can use Blink to teleport. Can learn Spawn Tentacle,
+Spawn Mace Tentacle, Breath of Frost, Frost Armor and
 Frost Arrows.
 <br/>
 Can cast a number of powerful Old God abilities.
@@ -3337,7 +2865,7 @@ Can cast a number of powerful Old God abilities.
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3368,33 +2896,7 @@ alt="ReplaceableTextures/CommandButtons/BTN_CR_Heart_of_Gold.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A0HR">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNYogg-saronTentacleIcon.blp" width="64" height="64"
-title="Spawn Tentacle"
-alt="ReplaceableTextures/CommandButtons/BTNYogg-saronTentacleIcon.blp"
-/></a>
-<a href="spells.html#A0HS">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNYogg-saronMaceIcon.blp" width="64" height="64"
-title="Spawn Mace Tentacle"
-alt="ReplaceableTextures/CommandButtons/BTNYogg-saronMaceIcon.blp"
-/></a>
-<a href="spells.html#A0HT">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBreathOfFrost.blp" width="64" height="64"
-title="Breath of Frost"
-alt="ReplaceableTextures/CommandButtons/BTNBreathOfFrost.blp"
-/></a>
-<a href="spells.html#AUfa">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFrostArmor.blp" width="64" height="64"
-title="Frost Armor"
-alt="ReplaceableTextures/CommandButtons/BTNFrostArmor.blp"
-/></a>
-<a href="spells.html#ANfa">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp" width="64" height="64"
-title="Frost Arrows"
-alt="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -3465,9 +2967,9 @@ alt="ReplaceableTextures/CommandButtons/BTNNzothIcon.blp"
 N'zoth
 <br/>
 <br/>
-Ancient old god of nightmares, who moves very slowly 
-but can use Blink to teleport. Can learn Spawn Tentacle, 
-Spawn Eye Tentacle, Death Coil, Sleep and Death and 
+Ancient old god of nightmares, who moves very slowly
+but can use Blink to teleport. Can learn Spawn Tentacle,
+Spawn Eye Tentacle, Death Coil, Sleep and Death and
 Decay.
 <br/>
 Can cast a number of powerful Old God abilities.
@@ -3476,7 +2978,7 @@ Can cast a number of powerful Old God abilities.
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3503,33 +3005,7 @@ alt="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A0HV">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNzothTentacleIcon.blp" width="64" height="64"
-title="Spawn Tentacle"
-alt="ReplaceableTextures/CommandButtons/BTNNzothTentacleIcon.blp"
-/></a>
-<a href="spells.html#A0I4">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNzothEyeIcon.blp" width="64" height="64"
-title="Spawn Eye Tentacle"
-alt="ReplaceableTextures/CommandButtons/BTNNzothEyeIcon.blp"
-/></a>
-<a href="spells.html#AUdc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDeathCoil.blp" width="64" height="64"
-title="Death Coil"
-alt="ReplaceableTextures/CommandButtons/BTNDeathCoil.blp"
-/></a>
-<a href="spells.html#AUsl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64"
-title="Sleep"
-alt="ReplaceableTextures/CommandButtons/BTNSleep.blp"
-/></a>
-<a href="spells.html#AUdd">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDeathAndDecay.blp" width="64" height="64"
-title="Death And Decay"
-alt="ReplaceableTextures/CommandButtons/BTNDeathAndDecay.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -3600,9 +3076,9 @@ alt="ReplaceableTextures/CommandButtons/BTNCthunIcon.blp"
 C'thun
 <br/>
 <br/>
-Ancient old god of madness and chaos, who moves very 
-slowly but can use Blink to teleport. Can learn Spawn 
-Tentacle, Spawn Eye Tentacle, Rain of Chaos, Critical 
+Ancient old god of madness and chaos, who moves very
+slowly but can use Blink to teleport. Can learn Spawn
+Tentacle, Spawn Eye Tentacle, Rain of Chaos, Critical
 Strike and Reincarnation.
 <br/>
 Can cast a number of powerful Old God abilities.
@@ -3611,7 +3087,7 @@ Can cast a number of powerful Old God abilities.
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3638,32 +3114,23 @@ alt="ReplaceableTextures\\CommandButtons\\BTNSARGERASDEMONBlueborder.blp"
 -
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A0HU">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCthunTentacleIcon.blp" width="64" height="64"
-title="Spawn Tentacle"
-alt="ReplaceableTextures/CommandButtons/BTNCthunTentacleIcon.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04D">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFelBurn.blp" width="64" height="64"
+title="Warlock"
+alt="ReplaceableTextures/CommandButtons/BTNFelBurn.blp"
 /></a>
-<a href="spells.html#A0I3">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCthunEyeIcon.blp" width="64" height="64"
-title="Spawn Eye Tentacle"
-alt="ReplaceableTextures/CommandButtons/BTNCthunEyeIcon.blp"
-/></a>
-<a href="spells.html#A01F">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp" width="64" height="64"
-title="Rain of Chaos"
-alt="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#AOcr">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"
-title="Critical Strike"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"
-/></a>
+Warlock
+<br/>
+<br/>
+Warlock
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCthunIcon.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNCthunIcon.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="2" data-search="Intelligence">
@@ -3735,15 +3202,15 @@ alt="ReplaceableTextures/CommandButtons/BTNSARGERASDEMONBlueborder.blp"
 Avatar of Sargeras
 <br/>
 <br/>
-Powerful titan hero Sargeras. Can learn Cripple, Critical 
-Strike, Drunken Brawler, Demon Master and Finger of 
+Powerful titan hero Sargeras. Can learn Cripple, Critical
+Strike, Drunken Brawler, Demon Master and Finger of
 Death.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3774,32 +3241,23 @@ alt="ReplaceableTextures/CommandButtons/BTNSARGERASDEMONBlueborder.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A0AC">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCripple.blp" width="64" height="64"
-title="Cripple"
-alt="ReplaceableTextures/CommandButtons/BTNCripple.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04D">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFelBurn.blp" width="64" height="64"
+title="Warlock"
+alt="ReplaceableTextures/CommandButtons/BTNFelBurn.blp"
 /></a>
-<a href="spells.html#AOcr">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"
-title="Critical Strike"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"
-/></a>
-<a href="spells.html#ANdb">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp" width="64" height="64"
-title="Drunken Brawler"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp"
-/></a>
-<a href="spells.html#A01R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-<a href="spells.html#A060">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
+Warlock
+<br/>
+<br/>
+Warlock
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSARGERASDEMONBlueborder.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNSARGERASDEMONBlueborder.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
@@ -3871,14 +3329,14 @@ alt="ReplaceableTextures/CommandButtons/BTNNagaSeaWitch.blp"
 Zar'jira
 <br/>
 <br/>
-Mystical Sea Witch, adept at ranged assaults. Can learn 
+Mystical Sea Witch, adept at ranged assaults. Can learn
 Summon Water Elemental, Brilliance Aura, and Earthquake.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -3909,33 +3367,7 @@ alt="ReplaceableTextures/CommandButtons/BTNNagaSeaWitch.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#ANfa">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp" width="64" height="64"
-title="Frost Arrows"
-alt="ReplaceableTextures/CommandButtons/BTNColdArrowsOn.blp"
-/></a>
-<a href="spells.html#ANms">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp" width="64" height="64"
-title="Mana Shield"
-alt="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp"
-/></a>
-<a href="spells.html#ANvc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNVolcano.blp" width="64" height="64"
-title="Volcano"
-alt="ReplaceableTextures/CommandButtons/BTNVolcano.blp"
-/></a>
-<a href="spells.html#A08S">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"
-title="Summon Sea Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -4006,15 +3438,15 @@ alt="ReplaceableTextures/CommandButtons/BTNChaosWarlord.blp"
 Mathog
 <br/>
 <br/>
-Mystical Hero, effective at ranged attacks and scouting. 
-Can learn Chain Lightning, Silence, Feral Spirit, Transmute 
-and Ensnare. 
+Mystical Hero, effective at ranged attacks and scouting.
+Can learn Chain Lightning, Silence, Feral Spirit, Transmute
+and Ensnare.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4045,33 +3477,7 @@ alt="ReplaceableTextures/CommandButtons/BTNCagedIllidan.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A0AF">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" width="64" height="64"
-title="Ensnare"
-alt="ReplaceableTextures/CommandButtons/BTNEnsnare.blp"
-/></a>
-<a href="spells.html#ANsi">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSilence.blp" width="64" height="64"
-title="Silence"
-alt="ReplaceableTextures/CommandButtons/BTNSilence.blp"
-/></a>
-<a href="spells.html#AOsf">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpiritWolf.blp" width="64" height="64"
-title="Feral Spirit"
-alt="ReplaceableTextures/CommandButtons/BTNSpiritWolf.blp"
-/></a>
-<a href="spells.html#AOcl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" width="64" height="64"
-title="Chain Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNChainLightning.blp"
-/></a>
-<a href="spells.html#ANtm">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTransmute.blp" width="64" height="64"
-title="Transmute"
-alt="ReplaceableTextures/CommandButtons/BTNTransmute.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -4142,15 +3548,15 @@ alt="ReplaceableTextures/CommandButtons/BTNGul'dan.blp"
 Gul'dan
 <br/>
 <br/>
-Powerful Warlock working under the tutelage of Kil'jaeden 
-himself. Can learn Rain of Fire, Drain, Mana Shield, 
-Finger of Death, and Demon Master. 
+Powerful Warlock working under the tutelage of Kil'jaeden
+himself. Can learn Rain of Fire, Drain, Mana Shield,
+Finger of Death, and Demon Master.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4181,33 +3587,7 @@ alt="ReplaceableTextures/CommandButtons/BTNGuldanSkull.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANrf">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFire.blp" width="64" height="64"
-title="Rain of Fire"
-alt="ReplaceableTextures/CommandButtons/BTNFire.blp"
-/></a>
-<a href="spells.html#A0NH">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDrain.blp" width="64" height="64"
-title="Drain"
-alt="ReplaceableTextures/CommandButtons/BTNDrain.blp"
-/></a>
-<a href="spells.html#ANms">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp" width="64" height="64"
-title="Mana Shield"
-alt="ReplaceableTextures/CommandButtons/BTNNeutralManaShield.blp"
-/></a>
-<a href="spells.html#A01I">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
-<a href="spells.html#A01R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -4278,15 +3658,15 @@ alt="ReplaceableTextures/CommandButtons/BTNDragonEye.blp"
 The Eye of Sargeras
 <br/>
 <br/>
-Mystical eye of the titan Sargeras, adept at ranged 
-assaults. Can learn Bash, Charm, Demon Master, Finger 
-of Death, and Attribute Bonus. 
+Mystical eye of the titan Sargeras, adept at ranged
+assaults. Can learn Bash, Charm, Demon Master, Finger
+of Death, and Attribute Bonus.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4317,33 +3697,7 @@ alt="ReplaceableTextures/CommandButtons/BTNDragonEye.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHbh">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#ANch">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCharm.blp" width="64" height="64"
-title="Charm"
-alt="ReplaceableTextures/CommandButtons/BTNCharm.blp"
-/></a>
-<a href="spells.html#A01R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-<a href="spells.html#A060">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -4386,7 +3740,7 @@ title="Chaos"
 600
 </td>
 <td>
-300 - 312
+255 - 267
 </td>
 <td>
 <img
@@ -4396,7 +3750,7 @@ title="Hero"
 />
 </td>
 <td>
-38
+25
 </td>
 <td>
 650
@@ -4414,15 +3768,15 @@ alt="ReplaceableTextures/CommandButtons/BTNSpiderCrab.blp"
 Spider Crab Behemoth
 <br/>
 <br/>
-Strong defensive hero, good at capturing enemy heroes. 
-Can learn Ensnare, Hex, Summon Spider Crabs, Starfall, 
-and Immolation. 
+Strong defensive hero, good at capturing enemy heroes.
+Can learn Ensnare, Hex, Summon Spider Crabs, Starfall,
+and Immolation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4453,33 +3807,7 @@ alt="ReplaceableTextures/CommandButtons/BTNSpiderCrab.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A0AF">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNEnsnare.blp" width="64" height="64"
-title="Ensnare"
-alt="ReplaceableTextures/CommandButtons/BTNEnsnare.blp"
-/></a>
-<a href="spells.html#AOhx">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHex.blp" width="64" height="64"
-title="Hex"
-alt="ReplaceableTextures/CommandButtons/BTNHex.blp"
-/></a>
-<a href="spells.html#A0AE">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSpiderCrab.blp" width="64" height="64"
-title="Summon Spider Crabs"
-alt="ReplaceableTextures/CommandButtons/BTNSpiderCrab.blp"
-/></a>
-<a href="spells.html#AEsf">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStarfall.blp" width="64" height="64"
-title="Starfall"
-alt="ReplaceableTextures/CommandButtons/BTNStarfall.blp"
-/></a>
-<a href="spells.html#AEim">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNImmolationOn.blp" width="64" height="64"
-title="Immolation"
-alt="ReplaceableTextures/CommandButtons/BTNImmolationOn.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -4550,15 +3878,15 @@ alt="ReplaceableTextures/CommandButtons/BTNMurlocNightCrawler.blp"
 Murloc Sorcerer
 <br/>
 <br/>
-Mystical Murloc, adept at ranged assaults. Can learn 
-Rain of Fire, Crushing Wave, Summon Sea Elemental, 
+Mystical Murloc, adept at ranged assaults. Can learn
+Rain of Fire, Crushing Wave, Summon Sea Elemental,
 and Tornado.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4589,33 +3917,7 @@ alt="ReplaceableTextures/CommandButtons/BTNLesserRejuvScroll.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANrf">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFire.blp" width="64" height="64"
-title="Rain of Fire"
-alt="ReplaceableTextures/CommandButtons/BTNFire.blp"
-/></a>
-<a href="spells.html#A05L">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp" width="64" height="64"
-title="Crushing Wave"
-alt="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp"
-/></a>
-<a href="spells.html#A24S">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"
-title="Summon Sea Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
-/></a>
-<a href="spells.html#ANto">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTornado.blp" width="64" height="64"
-title="Tornado"
-alt="ReplaceableTextures/CommandButtons/BTNTornado.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -4658,7 +3960,7 @@ title="Chaos"
 600
 </td>
 <td>
-252 - 264
+207 - 219
 </td>
 <td>
 <img
@@ -4668,7 +3970,7 @@ title="Hero"
 />
 </td>
 <td>
-36
+22
 </td>
 <td>
 650
@@ -4686,15 +3988,15 @@ alt="ReplaceableTextures/CommandButtons/BTNSeaTurtleRed.blp"
 Tortolla
 <br/>
 <br/>
-Defensive amphibious Hero, adept at crushing enemies 
-and protecting itself. Can learn Crushing Wave, War 
+Defensive amphibious Hero, adept at crushing enemies
+and protecting itself. Can learn Crushing Wave, War
 Stomp, Bash, Mass Devour and Spiked Shell.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4725,33 +4027,7 @@ alt="ReplaceableTextures/CommandButtons/BTNSeaTurtleRed.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A1VP">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp" width="64" height="64"
-title="Crushing Wave"
-alt="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp"
-/></a>
-<a href="spells.html#AHbh">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#AOws">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWarStomp.blp" width="64" height="64"
-title="War Stomp"
-alt="ReplaceableTextures/CommandButtons/BTNWarStomp.blp"
-/></a>
-<a href="spells.html#A10L">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNRedDragonDevour.blp" width="64" height="64"
-title="Mass Devour"
-alt="ReplaceableTextures/CommandButtons/BTNRedDragonDevour.blp"
-/></a>
-<a href="spells.html#A09F">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNThornShield.blp" width="64" height="64"
-title="Spiked Shell"
-alt="ReplaceableTextures/PassiveButtons/PASBTNThornShield.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -4822,16 +4098,16 @@ alt="ReplaceableTextures/CommandButtons/BTNHeroPaladin.blp"
 Sir Gregory Edmunson
 <br/>
 <br/>
-Warrior Hero, exceptional at defense and augmenting 
-nearby friendly troops. Can learn Holy Light, Divine 
-Shield, Devotion Aura and Resurrection, and Attribute 
-Bonus. 
+Warrior Hero, exceptional at defense and augmenting
+nearby friendly troops. Can learn Holy Light, Divine
+Shield, Devotion Aura and Resurrection, and Attribute
+Bonus.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4862,33 +4138,7 @@ alt="ReplaceableTextures/CommandButtons/BTNAshbringer.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHhb">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHolyBolt.blp" width="64" height="64"
-title="Holy Light"
-alt="ReplaceableTextures/CommandButtons/BTNHolyBolt.blp"
-/></a>
-<a href="spells.html#A1NE">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDivineIntervention.blp" width="64" height="64"
-title="Divine Shield"
-alt="ReplaceableTextures/CommandButtons/BTNDivineIntervention.blp"
-/></a>
-<a href="spells.html#AHad">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDevotion.blp" width="64" height="64"
-title="Devotion Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDevotion.blp"
-/></a>
-<a href="spells.html#AHre">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNResurrection.blp" width="64" height="64"
-title="Resurrection"
-alt="ReplaceableTextures/CommandButtons/BTNResurrection.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -4931,7 +4181,7 @@ title="Chaos"
 100
 </td>
 <td>
-176 - 188
+140 - 152
 </td>
 <td>
 <img
@@ -4941,7 +4191,7 @@ title="Hero"
 />
 </td>
 <td>
-51
+23
 </td>
 <td>
 550
@@ -4959,14 +4209,14 @@ alt="ReplaceableTextures/CommandButtons/BTNSeaGiantGreen.blp"
 King Deepbeard
 <br/>
 <br/>
-Amphibious powerful sea hero. Can learn Crushing Wave, 
-War Stomp, Bash, Monsoon, and Summon Sea Elemental. 
+Amphibious powerful sea hero. Can learn Crushing Wave,
+War Stomp, Bash, Monsoon, and Summon Sea Elemental.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -4997,33 +4247,7 @@ alt="ReplaceableTextures/CommandButtons/BTNWitchDoctorAdept.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A1VP">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp" width="64" height="64"
-title="Crushing Wave"
-alt="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp"
-/></a>
-<a href="spells.html#AOws">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWarStomp.blp" width="64" height="64"
-title="War Stomp"
-alt="ReplaceableTextures/CommandButtons/BTNWarStomp.blp"
-/></a>
-<a href="spells.html#AHbh">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#A024">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Monsoon"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#A08S">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp" width="64" height="64"
-title="Summon Sea Elemental"
-alt="ReplaceableTextures/CommandButtons/BTNSeaElemental.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -5094,15 +4318,15 @@ alt="ReplaceableTextures/CommandButtons/BTNArchimonde.blp"
 Archimonde
 <br/>
 <br/>
-Powerful Demon Lord hero adept at damaging enemies 
-and summoning minions. Can learn Divine Shield, Bash, 
+Powerful Demon Lord hero adept at damaging enemies
+and summoning minions. Can learn Divine Shield, Bash,
 Drunken Brawler, Demon Master, and Attribute Bonus.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5133,32 +4357,23 @@ alt="ReplaceableTextures/CommandButtons/BTNBookOfSummoning.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#A1NE">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDivineIntervention.blp" width="64" height="64"
-title="Divine Shield"
-alt="ReplaceableTextures/CommandButtons/BTNDivineIntervention.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04D">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFelBurn.blp" width="64" height="64"
+title="Warlock"
+alt="ReplaceableTextures/CommandButtons/BTNFelBurn.blp"
 /></a>
-<a href="spells.html#AHbh">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
-<a href="spells.html#ANdb">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp" width="64" height="64"
-title="Drunken Brawler"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp"
-/></a>
-<a href="spells.html#A041">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-<a href="spells.html#Aamk">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp" width="64" height="64"
-title="Attribute Bonus"
-alt="ReplaceableTextures/PassiveButtons/PASBTNStatUp.blp"
-/></a>
+Warlock
+<br/>
+<br/>
+Warlock
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNArchimonde.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNArchimonde.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
@@ -5202,7 +4417,7 @@ title="Chaos"
 500
 </td>
 <td>
-250 - 262
+205 - 217
 </td>
 <td>
 <img
@@ -5212,7 +4427,7 @@ title="Hero"
 />
 </td>
 <td>
-40
+26
 </td>
 <td>
 550
@@ -5230,14 +4445,14 @@ alt="ReplaceableTextures/CommandButtons/BTNKiljaedin.blp"
 Kil'jaeden
 <br/>
 <br/>
-Deceiving demon lord. Can learn Scream, Rain of Chaos, 
-Finger of Death, Demon Master, and Doom. 
+Deceiving demon lord. Can learn Scream, Rain of Chaos,
+Finger of Death, Demon Master, and Doom.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5268,33 +4483,7 @@ alt="ReplaceableTextures/CommandButtons/BTNUsedSoulGem.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANdo">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDoom.blp" width="64" height="64"
-title="Doom"
-alt="ReplaceableTextures/CommandButtons/BTNDoom.blp"
-/></a>
-<a href="spells.html#A100">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWaveOfTerror2.blp" width="64" height="64"
-title="Scream"
-alt="ReplaceableTextures/CommandButtons/BTNWaveOfTerror2.blp"
-/></a>
-<a href="spells.html#A01F">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp" width="64" height="64"
-title="Rain of Chaos"
-alt="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp"
-/></a>
-<a href="spells.html#A060">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
-<a href="spells.html#A01R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -5365,14 +4554,14 @@ alt="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp"
 Veraku
 <br/>
 <br/>
-Flying boss hero from Outland who can cast Critical 
+Flying boss hero from Outland who can cast Critical
 Strike, Evasion, Life Steal, Demon Master and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5403,33 +4592,7 @@ alt="ReplaceableTextures/CommandButtons/BTNMaskOfDeath.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AOcr">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"
-title="Critical Strike"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"
-/></a>
-<a href="spells.html#AHad">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDevotion.blp" width="64" height="64"
-title="Devotion Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDevotion.blp"
-/></a>
-<a href="spells.html#S006">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFrostMourne.blp" width="64" height="64"
-title="Life Steal"
-alt="ReplaceableTextures/CommandButtons/BTNFrostMourne.blp"
-/></a>
-<a href="spells.html#A088">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp" width="64" height="64"
-title="Nether Dragon Master"
-alt="ReplaceableTextures/CommandButtons/BTNNetherDragon.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -5482,7 +4645,7 @@ title="Hero"
 />
 </td>
 <td>
-37
+18
 </td>
 <td>
 550
@@ -5500,14 +4663,14 @@ alt="ReplaceableTextures/CommandButtons/BTNHeroDreadlord.blp"
 Varimathras the Betrayer
 <br/>
 <br/>
-Powerful Undead hero. Can learn Sleep, Vampiric Aura, 
+Powerful Undead hero. Can learn Sleep, Vampiric Aura,
 Critical Strike, Rain of Chaos, and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5538,33 +4701,7 @@ alt="ReplaceableTextures/CommandButtons/BTNStoneForm.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AUsl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSleep.blp" width="64" height="64"
-title="Sleep"
-alt="ReplaceableTextures/CommandButtons/BTNSleep.blp"
-/></a>
-<a href="spells.html#AOcr">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp" width="64" height="64"
-title="Critical Strike"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCriticalStrike.blp"
-/></a>
-<a href="spells.html#AUav">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNVampiricAura.blp" width="64" height="64"
-title="Vampiric Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNVampiricAura.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#A01F">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp" width="64" height="64"
-title="Rain of Chaos"
-alt="ReplaceableTextures/CommandButtons/BTNInfernalStone.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -5635,15 +4772,15 @@ alt="ReplaceableTextures/CommandButtons/BTNLichVersion2.blp"
 Arch Lich
 <br/>
 <br/>
-Powerful Undead hero adept at damaging enemies. Can 
-learn Frost Nova, Frost Armor, Dark Ritual, Finger 
+Powerful Undead hero adept at damaging enemies. Can
+learn Frost Nova, Frost Armor, Dark Ritual, Finger
 of Death, and Banish.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5674,32 +4811,23 @@ alt="ReplaceableTextures/CommandButtons/BTNLightningShield.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AUfn">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGlacier.blp" width="64" height="64"
-title="Frost Nova"
-alt="ReplaceableTextures/CommandButtons/BTNGlacier.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I07N">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNNecromancerAdept.blp" width="64" height="64"
+title="Necromancer"
+alt="ReplaceableTextures/CommandButtons/BTNNecromancerAdept.blp"
 /></a>
-<a href="spells.html#AUfu">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFrostArmorOn.blp" width="64" height="64"
-title="Frost Armor"
-alt="ReplaceableTextures/CommandButtons/BTNFrostArmorOn.blp"
-/></a>
-<a href="spells.html#AUdr">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDarkRitual.blp" width="64" height="64"
-title="Dark Ritual"
-alt="ReplaceableTextures/CommandButtons/BTNDarkRitual.blp"
-/></a>
-<a href="spells.html#A01I">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
-<a href="spells.html#AHbn">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNBanish.blp" width="64" height="64"
-title="Banish"
-alt="ReplaceableTextures/CommandButtons/BTNBanish.blp"
-/></a>
+Necromancer
+<br/>
+<br/>
+Necromancer
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNLichVersion2.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNLichVersion2.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="2" data-search="Intelligence">
@@ -5727,7 +4855,7 @@ alt="ReplaceableTextures/CommandButtons/BTNBanish.blp"
 Hover
 </td>
 <td>
-493
+290
 </td>
 <td>
 <img
@@ -5771,15 +4899,15 @@ alt="ReplaceableTextures/CommandButtons/BTNGreenHydra.blp"
 Hydra Queen
 <br/>
 <br/>
-Powerful amphibious monster. Can learn Shockwave, War 
-Stomp, Endurance Aura, Finger of Death, Resurrection, 
-and Reincarnation. 
+Powerful amphibious monster. Can learn Shockwave, War
+Stomp, Endurance Aura, Finger of Death, Resurrection,
+and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5810,33 +4938,7 @@ alt="ReplaceableTextures/CommandButtons/BTNGreenHydra.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AOsh">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNShockWave.blp" width="64" height="64"
-title="Shockwave"
-alt="ReplaceableTextures/CommandButtons/BTNShockWave.blp"
-/></a>
-<a href="spells.html#AOae">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCommand.blp" width="64" height="64"
-title="Endurance Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCommand.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#AOws">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWarStomp.blp" width="64" height="64"
-title="War Stomp"
-alt="ReplaceableTextures/CommandButtons/BTNWarStomp.blp"
-/></a>
-<a href="spells.html#AHre">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNResurrection.blp" width="64" height="64"
-title="Resurrection"
-alt="ReplaceableTextures/CommandButtons/BTNResurrection.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -5863,7 +4965,7 @@ alt="ReplaceableTextures/CommandButtons/BTNResurrection.blp"
 Amphibious
 </td>
 <td>
-405
+290
 </td>
 <td>
 <img
@@ -5907,15 +5009,15 @@ alt="ReplaceableTextures/CommandButtons/BTNpurpleDragonSpawn.blp"
 Dragon Temple Guardian
 <br/>
 <br/>
-Cunning Hero, adept at maneuvering through battles. 
-Can learn Mana Burn, Bash, Drunken Brawler, Reincarnation 
-and Resurrection. 
+Cunning Hero, adept at maneuvering through battles.
+Can learn Mana Burn, Bash, Drunken Brawler, Reincarnation
+and Resurrection.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -5946,32 +5048,23 @@ alt="ReplaceableTextures/CommandButtons/BTNPriestMaster.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AEmb">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNManaBurn.blp" width="64" height="64"
-title="Mana Burn"
-alt="ReplaceableTextures/CommandButtons/BTNManaBurn.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I07L">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp" width="64" height="64"
+title="Hydromancer"
+alt="ReplaceableTextures/CommandButtons/BTNCrushingWave.blp"
 /></a>
-<a href="spells.html#AHre">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNResurrection.blp" width="64" height="64"
-title="Resurrection"
-alt="ReplaceableTextures/CommandButtons/BTNResurrection.blp"
-/></a>
-<a href="spells.html#ANdb">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp" width="64" height="64"
-title="Drunken Brawler"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
-<a href="spells.html#AHbh">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNBash.blp" width="64" height="64"
-title="Bash"
-alt="ReplaceableTextures/PassiveButtons/PASBTNBash.blp"
-/></a>
+Hydromancer
+<br/>
+<br/>
+Hydromancer
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNpurpleDragonSpawn.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNpurpleDragonSpawn.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="1" data-search="Strength">
@@ -6043,15 +5136,15 @@ alt="ReplaceableTextures/CommandButtons/BTNRevenant.blp"
 Void Revenant
 <br/>
 <br/>
-Powerful Undead hero adept at damaging enemies and 
-protecting himself. Can learn Forked Lightning, Divine 
+Powerful Undead hero adept at damaging enemies and
+protecting himself. Can learn Forked Lightning, Divine
 Shield, Unholy Aura, Finger of Death, and Drunken Brawler.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land and air units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -6082,33 +5175,7 @@ alt="ReplaceableTextures/CommandButtons/BTNRevenant.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#A1NE">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNDivineIntervention.blp" width="64" height="64"
-title="Divine Shield"
-alt="ReplaceableTextures/CommandButtons/BTNDivineIntervention.blp"
-/></a>
-<a href="spells.html#ANdb">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp" width="64" height="64"
-title="Drunken Brawler"
-alt="ReplaceableTextures/PassiveButtons/PASBTNDrunkenDodge.blp"
-/></a>
-<a href="spells.html#A01I">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp" width="64" height="64"
-title="Finger of Death"
-alt="ReplaceableTextures/CommandButtons/BTNCorpseExplode.blp"
-/></a>
-<a href="spells.html#AUau">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp" width="64" height="64"
-title="Unholy Aura"
-alt="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="0" data-search="Strength">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-str.blp" title="Strength" alt="Strength " />
@@ -6135,7 +5202,7 @@ alt="ReplaceableTextures/PassiveButtons/PASBTNUnholyAura.blp"
 Foot
 </td>
 <td>
-512
+351
 </td>
 <td>
 <img
@@ -6179,15 +5246,15 @@ alt="ReplaceableTextures/CommandButtons/BTNFacelessOne.blp"
 Faceless Nightmare
 <br/>
 <br/>
-Powerful commanding Hero from the darkness, adept at 
-terrorizing enemies. Can learn Impale, Mirror Image, 
-Frost Nova, Touch of Darkness, and Flame Strike. 
+Powerful commanding Hero from the darkness, adept at
+terrorizing enemies. Can learn Impale, Mirror Image,
+Frost Nova, Touch of Darkness, and Flame Strike.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -6218,32 +5285,23 @@ alt="ReplaceableTextures/CommandButtons/BTNNecromancerMaster.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHfs">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp" width="64" height="64"
-title="Flame Strike"
-alt="ReplaceableTextures/CommandButtons/BTNWallOfFire.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I07P">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFrostmourne.blp" width="64" height="64"
+title="Death Knight"
+alt="ReplaceableTextures/CommandButtons/BTNFrostmourne.blp"
 /></a>
-<a href="spells.html#AOmi">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMirrorImage.blp" width="64" height="64"
-title="Mirror Image"
-alt="ReplaceableTextures/CommandButtons/BTNMirrorImage.blp"
-/></a>
-<a href="spells.html#AUim">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNImpale.blp" width="64" height="64"
-title="Impale"
-alt="ReplaceableTextures/CommandButtons/BTNImpale.blp"
-/></a>
-<a href="spells.html#A01K">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNManaBurn.blp" width="64" height="64"
-title="Touch of Darkness"
-alt="ReplaceableTextures/CommandButtons/BTNManaBurn.blp"
-/></a>
-<a href="spells.html#AUfn">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGlacier.blp" width="64" height="64"
-title="Frost Nova"
-alt="ReplaceableTextures/CommandButtons/BTNGlacier.blp"
-/></a>
+Death Knight
+<br/>
+<br/>
+Death Knight
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFacelessOne.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNFacelessOne.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
@@ -6315,15 +5373,15 @@ alt="ReplaceableTextures/CommandButtons/BTNThunderLizard.blp"
 Stormbringer
 <br/>
 <br/>
-Mystical Hero, adept at damaging enemies. Can learn 
-Chain Lightning, Forked Lightning, Mana Burn, Stampede 
-and Monsoon. 
+Mystical Hero, adept at damaging enemies. Can learn
+Chain Lightning, Forked Lightning, Mana Burn, Stampede
+and Monsoon.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -6354,33 +5412,7 @@ alt="ReplaceableTextures/CommandButtons/BTNThunderLizard.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#ANst">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNStampede.blp" width="64" height="64"
-title="Stampede"
-alt="ReplaceableTextures/CommandButtons/BTNStampede.blp"
-/></a>
-<a href="spells.html#AOcl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNChainLightning.blp" width="64" height="64"
-title="Chain Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNChainLightning.blp"
-/></a>
-<a href="spells.html#ANfl">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Forked Lightning"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-<a href="spells.html#AEmb">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNManaBurn.blp" width="64" height="64"
-title="Mana Burn"
-alt="ReplaceableTextures/CommandButtons/BTNManaBurn.blp"
-/></a>
-<a href="spells.html#ANmo">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMonsoon.blp" width="64" height="64"
-title="Monsoon"
-alt="ReplaceableTextures/CommandButtons/BTNMonsoon.blp"
-/></a>
-</div>
+<->
 </td>
 <td data-order="2" data-search="Intelligence">
 <img class="wowr-icon primary-attribute" src="UI\\Widgets\\Console\\Human\\Infocard-heroattributes-int.blp" title="Intelligence" alt="Intelligence " />
@@ -6451,15 +5483,15 @@ alt="ReplaceableTextures/CommandButtons/BTNPitLord.blp"
 Felwood's Pain
 <br/>
 <br/>
-Powerful Demon Hero, adept at terrorizing enemies. 
-Can learn Thunder Clap, Howl of Terror, Cleaving Attack, 
-Demon Master and Reincarnation. 
+Powerful Demon Hero, adept at terrorizing enemies.
+Can learn Thunder Clap, Howl of Terror, Cleaving Attack,
+Demon Master and Reincarnation.
 <br/>
 <br/>
 <div style="color: #ffcc00">Attacks land units.</div>
 <br/>
 <br/>
-<div style="color: #ffcc00">Boss hero requires level 
+<div style="color: #ffcc00">Boss hero requires level
 50. Use -unlock to disable this restriction.</div>
 </div>
 <button>
@@ -6490,32 +5522,23 @@ alt="ReplaceableTextures/CommandButtons/BTNCleavingAttack.blp"
 /></a>
 </td>
 <td>
-<div class="spells">
-<a href="spells.html#AHtc">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNThunderclap.blp" width="64" height="64"
-title="Thunder Clap"
-alt="ReplaceableTextures/CommandButtons/BTNThunderclap.blp"
+<div class="wowr-popover-wrapper">
+<div class="wowr-popover">
+<a href="classes.html#I04D">
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFelBurn.blp" width="64" height="64"
+title="Warlock"
+alt="ReplaceableTextures/CommandButtons/BTNFelBurn.blp"
 /></a>
-<a href="spells.html#ANht">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNHowlOfTerror.blp" width="64" height="64"
-title="Howl of Terror"
-alt="ReplaceableTextures/CommandButtons/BTNHowlOfTerror.blp"
-/></a>
-<a href="spells.html#ANca">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp" width="64" height="64"
-title="Cleaving Attack"
-alt="ReplaceableTextures/PassiveButtons/PASBTNCleavingAttack.blp"
-/></a>
-<a href="spells.html#A01R">
-<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMannoroth.blp" width="64" height="64"
-title="Demon Master"
-alt="ReplaceableTextures/CommandButtons/BTNMannoroth.blp"
-/></a>
-<a href="spells.html#AOre">
-<img class="wowr-icon" src="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp" width="64" height="64"
-title="Reincarnation"
-alt="ReplaceableTextures/PassiveButtons/PASBTNReincarnation.blp"
-/></a>
+Warlock
+<br/>
+<br/>
+Warlock
+</div>
+<button>
+<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPitLord.blp" width="64" height="64"
+alt="ReplaceableTextures/CommandButtons/BTNPitLord.blp"
+/>
+</button>
 </div>
 </td>
 <td data-order="0" data-search="Strength">
