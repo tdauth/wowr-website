@@ -5,6 +5,7 @@
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Buildings.txt ./buildings.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Players.txt ./players.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Clans.txt ./clans.html &
+./formatmapdata.sh ./map/WorldOfWarcraftReforged-Classes.txt ./classes.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Races.txt ./races.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Units.txt ./units.html &
 ./formatmapdata.sh ./map/WorldOfWarcraftReforged-Spells.txt ./spells.html &

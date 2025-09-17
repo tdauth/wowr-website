@@ -67,6 +67,7 @@
 - Fix quest items of Forsaken quest 1.
 - Add custom icon for ability Monsoon.
 - Fix angle of ability Slide.
+- Give NPC Lady Vashj both auras since Kael can be your enemy in Illidan's Outland Camp.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Add skins.
 - Improve German translation.
