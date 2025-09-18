@@ -68,6 +68,10 @@
 - Add custom icon for ability Monsoon.
 - Fix angle of ability Slide.
 - Give NPC Lady Vashj both auras since Kael can be your enemy in Illidan's Outland Camp.
+- Add hotkeys to creeps in Freelancer Mercenary Camp.
+- Fix owner of Priestesses of the Moon next to Elune.
+- Complete quest item 1 of Human quest 2 when buying the Battle Golem.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Add skins.
+- Register more NPCs.
 - Improve German translation.
