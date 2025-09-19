@@ -2804,7 +2804,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Mounts Cage" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "-" )
+	call Preload( "2" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="spells">" )
@@ -13194,7 +13194,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A028">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSacrificialSkull.blp" width="64" height="64"" )
-	call Preload( "title="Demigod´s Wrath"" )
+	call Preload( "title="Demigod's Wrath"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSacrificialSkull.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Alit">" )
@@ -13407,7 +13407,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#A028">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNSacrificialSkull.blp" width="64" height="64"" )
-	call Preload( "title="Demigod´s Wrath"" )
+	call Preload( "title="Demigod's Wrath"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNSacrificialSkull.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "<a href="spells.html#Alit">" )
@@ -86039,7 +86039,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 126.9 )
+	call PreloadEnd( 127.3 )
 
 endfunction
 

@@ -6549,8 +6549,6 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "Lich King" )
 	call Preload( "<br/>" )
-	call Preload( "5" )
-	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-supply.blp" alt="UI/Widgets/Console/Human/Infocard-supply.blp" />" )
 	call Preload( "<br/>" )
 	call Preload( "Warrior Hero, evil counterpart to the Human Paladin. " )
 	call Preload( "Can learn Death Coil, Death Pact, Unholy Aura, and " )
@@ -6670,7 +6668,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Bosses generated with chat command "-website". -->" )
-	call PreloadEnd( 1.5 )
+	call PreloadEnd( 1.4 )
 
 endfunction
 
