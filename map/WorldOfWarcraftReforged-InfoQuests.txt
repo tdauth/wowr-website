@@ -3734,6 +3734,8 @@ Note: Even " )
 	call Preload( "<li>Change armor type of boss Archimonde into Divine.</li>" )
 	call Preload( "<li>Always regenerate hit points of boss Archimonde.</li>" )
 	call Preload( "<li>Crafting stashes work now after loading them with a savecode.</li>" )
+	call Preload( "<li>Stop hero from constructing a Hideout if there is already one.</li>" )
+	call Preload( "<li>Add custom effect for ability Holy Aura.</li>" )
 	call Preload( "<li>Use 64 different tilesets instead of 16 due to patch 2.0.3.</li>" )
 	call Preload( "<li>Add skins.</li>" )
 	call Preload( "<li>Register more NPCs.</li>" )
@@ -11298,7 +11300,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.7 )
+	call PreloadEnd( 3.0 )
 
 endfunction
 

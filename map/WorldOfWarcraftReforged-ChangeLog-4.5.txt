@@ -83,6 +83,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Change armor type of boss Archimonde into Divine." )
 	call Preload( "- Always regenerate hit points of boss Archimonde." )
 	call Preload( "- Crafting stashes work now after loading them with a savecode." )
+	call Preload( "- Stop hero from constructing a Hideout if there is already one." )
+	call Preload( "- Add custom effect for ability Holy Aura." )
 	call Preload( "- Use 64 different tilesets instead of 16 due to patch 2.0.3." )
 	call Preload( "- Add skins." )
 	call Preload( "- Register more NPCs." )
