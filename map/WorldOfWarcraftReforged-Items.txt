@@ -23491,7 +23491,12 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<td>" )
 	call Preload( "-" )
 	call Preload( "</td>" )
-	call Preload( "<td data-order="-1" data-search="Default string">" )
+	call Preload( "<td data-order="0" data-search="Freelancer">" )
+	call Preload( "<a href="races.html#I05Q">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNMercenaryCamp.blp" width="64" height="64"" )
+	call Preload( "title="Freelancer"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNMercenaryCamp.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "<a href="professions.html#I0HC">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNTomeRed.blp" width="64" height="64"" )
 	call Preload( "title="Scribe"" )
@@ -53076,7 +53081,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Items generated with chat command "-website". -->" )
-	call PreloadEnd( 45.6 )
+	call PreloadEnd( 58.2 )
 
 endfunction
 
