@@ -71,6 +71,16 @@
 - Add hotkeys to creeps in Freelancer Mercenary Camp.
 - Fix owner of Priestesses of the Moon next to Elune.
 - Complete quest item 1 of Human quest 2 when buying the Battle Golem.
+- Add missing bonus hero Magtheridon.
+- Add custom icon for ability Mass Forestation.
+- Change hero Thief into Rogue.
+- Remove item Book of Mercenaries.
+- Remove item Book of Fast Travel.
+- Change armor type of boss Archimonde into Divine.
+- Always regenerate hit points of boss Archimonde.
+- Crafting stashes work now after loading them with a savecode.
+- Stop hero from constructing a Hideout if there is already one.
+- Add custom effect for ability Holy Aura.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Add skins.
 - Register more NPCs.
