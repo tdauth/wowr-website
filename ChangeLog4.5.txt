@@ -81,6 +81,14 @@
 - Crafting stashes work now after loading them with a savecode.
 - Stop hero from constructing a Hideout if there is already one.
 - Add custom effect for ability Holy Aura.
+- Add hero category Elementals.
+- Rename hero Icecrown Overlord into Frostlord.
+- Add hero Earthlord.
+- Add hero Windlord.
+- Fix missile of boss Therazane.
+- Change icon of Blink abilities.
+- Boss death events do not trigger for illusions anymore.
+- Fix portrait model of boss Mathog.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Add skins.
 - Register more NPCs.
