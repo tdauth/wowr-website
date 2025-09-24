@@ -89,6 +89,10 @@
 - Change icon of Blink abilities.
 - Boss death events do not trigger for illusions anymore.
 - Fix portrait model of boss Mathog.
+- Readd Gold Mine ability to all Gold Mines to fix AI using them.
+- Summoned units have increased damage for attack 2 for every ability level now.
+- Add boss Taran Zhu.
+- Water Elementals have amphibious movement now.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Add skins.
 - Register more NPCs.
