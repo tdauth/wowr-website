@@ -3744,6 +3744,9 @@ Note: Even " )
 	call Preload( "<li>Change icon of Blink abilities.</li>" )
 	call Preload( "<li>Boss death events do not trigger for illusions anymore.</li>" )
 	call Preload( "<li>Fix portrait model of boss Mathog.</li>" )
+	call Preload( "<li>Readd Gold Mine ability to all Gold Mines to fix AI using them.</li>" )
+	call Preload( "<li>Summoned units have increased damage for attack 2 for every ability level now.</li>" )
+	call Preload( "<li>Add boss Taran Zhu.</li>" )
 	call Preload( "<li>Use 64 different tilesets instead of 16 due to patch 2.0.3.</li>" )
 	call Preload( "<li>Add skins.</li>" )
 	call Preload( "<li>Register more NPCs.</li>" )
@@ -11308,7 +11311,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 3.0 )
+	call PreloadEnd( 3.4 )
 
 endfunction
 

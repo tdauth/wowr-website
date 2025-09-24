@@ -910,7 +910,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "- Damage" )
 	call Preload( "<br/>" )
-	call Preload( "- Renimation" )
+	call Preload( "- Reanimation" )
 	call Preload( "<br/>" )
 	call Preload( "- Weakening" )
 	call Preload( "</div>" )
@@ -1205,7 +1205,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "- Poison" )
 	call Preload( "<br/>" )
-	call Preload( "- Hiding" )
+	call Preload( "- Assassinations" )
 	call Preload( "<br/>" )
 	call Preload( "- Capture" )
 	call Preload( "<br/>" )
@@ -4832,7 +4832,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Classes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.5 )
 
 endfunction
 

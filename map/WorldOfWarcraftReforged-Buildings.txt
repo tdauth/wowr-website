@@ -1165,6 +1165,11 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "title="Invulnerable"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNDivineArmorNew.blp"" )
 	call Preload( "/></a>" )
+	call Preload( "<a href="spells.html#Agld">" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGoldMine.blp" width="64" height="64"" )
+	call Preload( "title="Gold Mine ability"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNGoldMine.blp"" )
+	call Preload( "/></a>" )
 	call Preload( "</div>" )
 	call Preload( "</td>" )
 	call Preload( "<td data-order="-1" data-search="Default string">" )
@@ -3825,7 +3830,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Legendary Artifact" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "38" )
+	call Preload( "39" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="spells">" )
@@ -86041,7 +86046,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 129.3 )
+	call PreloadEnd( 128.8 )
 
 endfunction
 
