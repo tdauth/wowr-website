@@ -3015,15 +3015,15 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="items.html#I189">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFountainOfLife.blp" width="64" height="64"" )
-	call Preload( "title="Power Wards"" )
+	call Preload( "title="Tiny Fountains of Power"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFountainOfLife.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "Power Wards" )
+	call Preload( "Tiny Fountains of Power" )
 	call Preload( "<br/>" )
 	call Preload( "64" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Summons an immovable ward that heals 0% and regenerates " )
+	call Preload( "Summons an immovable fountain that heals 0% and regenerates " )
 	call Preload( "0% mana of nearby friendly non-mechanical unit's hit " )
 	call Preload( "points per second. " )
 	call Preload( "<br/>" )
@@ -6759,7 +6759,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 2.4 )
+	call PreloadEnd( 2.7 )
 
 endfunction
 
