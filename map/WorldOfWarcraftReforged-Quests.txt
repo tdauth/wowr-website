@@ -441,7 +441,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Fight the Undead attacking the village." )
 	call Preload( "</li>" )
 	call Preload( "<li>" )
-	call Preload( "Get your reward from Gerard." )
+	call Preload( "Bring the Zombie Heads to Gerard to receive your reward." )
 	call Preload( "</li>" )
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
@@ -3495,7 +3495,7 @@ Hint: no Human genocide is allowed !" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.2 )
+	call PreloadEnd( 2.6 )
 
 endfunction
 
