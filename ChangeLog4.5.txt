@@ -19,7 +19,6 @@
 - Only one single Void Lord hero.
 - Fix registering race buildings for save codes in AddRaceBuildingsSaveObjects.
 - Do not register Freelancer buildings manually for save codes anymore but automatically in AddRaceBuildingsSaveObjects.
-- Spend all of Neptulon's skill points.
 - Fix showing the correct reason for not being able to pick up an item.
 - Goblin attack with Goblin Alchemists now.
 - Goblin attack with Goblin Artists now.
@@ -36,7 +35,6 @@
 - Research Temple of Demigods Blueprints requires any tier 3 now.
 - Fix achievement global variables.
 - Fix and translate strings for custom skilled abilities.
-- Improve School of Magic Fire Magic.
 - Add system to register unit types for summon unit abilities to apply bonuses.
 - Add creeps to Outland.
 - Add learnable spell Air Magic.
@@ -47,12 +45,11 @@
 - Remove spell Minigun Tower.
 - Remove spell Flare.
 - Remove spell Summon Telescope.
-- Make spell Spawn Tentacle C'thun learnable.
-- Make spell Spawn Eye Tentacle C'thun learnable.
 - Add back hero Engineer.
 - Add back hero Sapper.
 - Hide more command buttons to have 3 more free slots.
 - Add initial skill menu for skilling abilities for heroes.
+- Add classes which can be changed by Trainers.
 - Fix portrait of hero Iron Fist.
 - Disable paged buttons UI by default.
 - Show "-rename" chat command in hero name for Customizable Hero.
@@ -78,7 +75,8 @@
 - Remove item Book of Fast Travel.
 - Change armor type of boss Archimonde into Divine.
 - Always regenerate hit points of boss Archimonde.
-- Crafting stashes work now after loading them with a savecode.
+- Crafting Stashes work now after loading them with a savecode.
+- Record Players work now after loading them with a savecode.
 - Stop hero from constructing a Hideout if there is already one.
 - Add custom effect for ability Holy Aura.
 - Add hero category Elementals.
@@ -86,6 +84,7 @@
 - Add hero Earthlord.
 - Add hero Windlord.
 - Fix missile of boss Therazane.
+- Fix missile of hero Banshee.
 - Change icon of Blink abilities.
 - Boss death events do not trigger for illusions anymore.
 - Fix portrait model of boss Mathog.
@@ -93,9 +92,39 @@
 - Summoned units have increased damage for attack 2 for every ability level now.
 - Add boss Taran Zhu.
 - Add boss Murmur.
+- Add creep Void Elemental.
+- Add Void creeps next to boss Xal'atath.
 - Water Elementals have amphibious movement now.
+- Spell Divine Shield gives a target unit Divne armor now instead of bonus armor.
+- Moving Boxes no longer work on buildings of other players.
+- Only show crafting bonuses in text tag if they are greater than 0.
+- Show text tags when preventing unit respawns.
+- Revise costs of items for profession Engineer.
+- Add missing mapping for Tiny Power Generator for profession Engineer.
+- Fix formatting error when alliance with The Burning Legion ends.
+- Keep the primary attribute after hero transformations.
+- Keep attack types and defense type after hero transformations.
+- Fix transfering the mount on hero transformations.
+- Decrease ability skill level by Evolution to make the game more balanced.
+- Do not apply Evolution bonuses to respawning heroes anymore.
+- Add custom effect for Repair Aura buff.
+- Enable cinematics only in singleplayer by default.
+- Mention Zombie Heads in quest item 4 of Village quest 4.
+- Share vision to boss Archimonde for quest Archimonde.
+- Replace Lava Bridge in Molten Core.
+- Update Bard model to fix portrait and team color.
+- Show more detailed information in hero tooltips like attributes, race and class.
+- Allow skilling attributes for all heroes now.
+- Store save codes in a folder now.
+- Reduce initial stock delay for Drillbots.
+- Fix sold units from Record Players staying in the queue UI forever.
+- Fix tooltip of research Improved Gold Drilling.
+- Fix missile of Zeppelin mount.
+- Fix dependency equivalents of Spearmen for race Lordaeron.
+- Fix dependency equivalents of Crossbowmen for race Lordaeron.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
-- Add skins.
+- Skins are automatically registered from hero unit types now which adds a lot more skins.
 - Register more NPCs.
 - Register more creeps.
 - Improve German translation.
+- Thanks to user Lissai for a fun four hour game and finding lots of bugs.
