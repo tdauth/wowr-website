@@ -97,9 +97,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "172" )
 	call Preload( "<img src="UI/Widgets/Console/Human/Infocard-gold.blp" alt="UI/Widgets/Console/Human/Infocard-gold.blp" />" )
 	call Preload( "<br/>" )
-	call Preload( "Makes the Hero invulnerable to damage for 15 seconds " )
-	call Preload( "when used. An invulnerable Hero may not be the target " )
-	call Preload( "of spells or effects." )
+	call Preload( "Gives the Hero Divine armor for 15 seconds when used." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNGreaterInvulneralbility.blp" width="64" height="64"" )
@@ -6759,7 +6757,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 2.9 )
+	call PreloadEnd( 3.5 )
 
 endfunction
 

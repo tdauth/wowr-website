@@ -226,9 +226,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover-wrapper">" )
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="buildings.html#o09E">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNOrcTower.blp" width="64" height="64"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFelOrcWatchTower.blp" width="64" height="64"" )
 	call Preload( "title="Watch Tower"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNOrcTower.blp"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFelOrcWatchTower.blp"" )
 	call Preload( "/></a>" )
 	call Preload( "Watch Tower" )
 	call Preload( "<br/>" )
@@ -243,8 +243,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div style="color: #ffcc00">Attacks land and air units.</div>" )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNOrcTower.blp" width="64" height="64"" )
-	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNOrcTower.blp"" )
+	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNFelOrcWatchTower.blp" width="64" height="64"" )
+	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNFelOrcWatchTower.blp"" )
 	call Preload( "/>" )
 	call Preload( "</button>" )
 	call Preload( "</div>" )
@@ -1229,7 +1229,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Races generated with chat command "-website". -->" )
-	call PreloadEnd( 10.4 )
+	call PreloadEnd( 9.9 )
 
 endfunction
 
