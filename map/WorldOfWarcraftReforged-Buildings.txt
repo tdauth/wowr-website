@@ -726,7 +726,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Black Market" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "58" )
+	call Preload( "90" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
 	call Preload( "<div class="spells">" )
@@ -86605,7 +86605,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Buildings generated with chat command "-website". -->" )
-	call PreloadEnd( 158.7 )
+	call PreloadEnd( 118.6 )
 
 endfunction
 
