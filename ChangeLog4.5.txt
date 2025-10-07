@@ -45,8 +45,11 @@
 - Remove spell Minigun Tower.
 - Remove spell Flare.
 - Remove spell Summon Telescope.
+- Remove Ray spells.
 - Add back hero Engineer.
 - Add back hero Sapper.
+- Add back hero Antonidas.
+- Add back hero Antonidas Ghost.
 - Hide more command buttons to have 3 more free slots.
 - Add initial skill menu for skilling abilities for heroes.
 - Add classes which can be changed by Trainers.
@@ -63,6 +66,10 @@
 - Remove header row in stats multiboard.
 - Fix quest items of Forsaken quest 1.
 - Add custom icon for ability Monsoon.
+- Add custom icon for Gnome unit Arcanist.
+- Add custom icon for Gnome unit Sorceress.
+- Add custom icon for unit Gnome Citizen (female).
+- Change model and icon for unit Gnome Citizen (male).
 - Fix angle of ability Slide.
 - Give NPC Lady Vashj both auras since Kael can be your enemy in Illidan's Outland Camp.
 - Add hotkeys to creeps in Freelancer Mercenary Camp.
@@ -108,7 +115,7 @@
 - Decrease ability skill level by Evolution to make the game more balanced.
 - Do not apply Evolution bonuses to respawning heroes anymore.
 - Add custom effect for Repair Aura buff.
-- Enable cinematics only in singleplayer by default.
+- Enable cinematics only with one user playing by default.
 - Mention Zombie Heads in quest item 4 of Village quest 4.
 - Share vision to boss Archimonde for quest Archimonde.
 - Replace Lava Bridge in Molten Core.
@@ -122,9 +129,30 @@
 - Fix missile of Zeppelin mount.
 - Fix dependency equivalents of Spearmen for race Lordaeron.
 - Fix dependency equivalents of Crossbowmen for race Lordaeron.
+- Item type Escape Portal is not dropped by creeps anymore.
+- Add custom model and icon for Fel Orc Watch Tower.
+- Add custom icon for Ogre Warlock.
+- Fix skipping intro and still discovering main quest after showing initial load dialog.
+- Fix replaced Elven Gate when healing Quel'Thalas.
+- Replace item Orb of Fire with Orb of Slow in Human Arcane Vault.
+- Use version 2 of Orb of Fire in Blood Elf Arcane Vault.
+- Make item type Potion of Divinity pdi2 savable.
+- Change order of savecode item types.
+- Do not enumerate and stop all creeps in the beginning of the game anymore to reduce the initial lag.
+- Improve performance of initializing Hero Selectors.
+- Change icon of Hero Selectors.
+- Remove shadows of Hero Selectors.
+- Remove shadow of hero Wisp.
+- Fix death explosion effect of hero Wisp.
+- Change crafting ranks for profession Herbalist.
+- Change crafting ranks for profession Alchemist.
+- Change crafting ranks for profession Loremaster.
+- Accounts can have icons now.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Skins are automatically registered from hero unit types now which adds a lot more skins.
 - Register more NPCs.
 - Register more creeps.
 - Improve German translation.
+- Remove maximum number of stacks to 100 for different item types.
+- Add VIP Etos7#2138.
 - Thanks to user Lissai for a fun four hour game and finding lots of bugs.
