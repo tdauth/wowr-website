@@ -147,6 +147,7 @@
 - Change crafting ranks for profession Herbalist.
 - Change crafting ranks for profession Alchemist.
 - Change crafting ranks for profession Loremaster.
+- Remove chat command "-pingo".
 - Accounts can have icons now.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Skins are automatically registered from hero unit types now which adds a lot more skins.
