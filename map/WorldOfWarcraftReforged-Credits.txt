@@ -1305,6 +1305,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<li>HuanJuan, Blizzard Entertainment: Ogre Warlock</li>" )
 	call Preload( "<li>General Frank: Bloodelf Phoenix Guard</li>" )
 	call Preload( "<li>MangakaDark: Blood Mage (Female) Icon</li>" )
+	call Preload( "<li>TianJiYiPin: Xal'atath</li>" )
 	call Preload( "</ul>" )
 	call Preload( "<!-- Credits generated with chat command "-website". -->" )
 	call PreloadEnd( 0.0 )

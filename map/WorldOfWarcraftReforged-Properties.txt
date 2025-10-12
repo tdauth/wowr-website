@@ -70,11 +70,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "yes" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "<a href="zones.html#southsea">" )
-	call Preload( "<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp" width="64" height="64"" )
-	call Preload( "title="South Sea"" )
-	call Preload( "alt="ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp"" )
-	call Preload( "/></a>" )
+	call Preload( "-" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<tr id="n07I">" )
@@ -3076,7 +3072,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Properties generated with chat command "-website". -->" )
-	call PreloadEnd( 4.2 )
+	call PreloadEnd( 3.6 )
 
 endfunction
 
