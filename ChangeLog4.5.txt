@@ -149,6 +149,18 @@
 - Change crafting ranks for profession Loremaster.
 - Remove chat command "-pingo".
 - Accounts can have icons now.
+- Fix memory leak for fire traps in Gul'dan's tomb.
+- Add libraries CustomUnitTypes and WoWReforgedCustomUnitTypes to fix all unit types after loading save codes.
+- Reduce the number of OnStartGame, game time event 0 and initialization calls.
+- Reduce the number of unit enumerations during the game initialization and start.
+- Add custom model for boss Xal'atath.
+- Move hero Medivh to race Dalaran.
+- Move hero Khadgar to race Dalaran.
+- Use a hashtable in SaveCodeObjectSystem to massively improve the performance for generating save codes.
+- Remove zone descriptions.
+- Fix choosing races in AI players UI.
+- Replace Theramore bridge with land terrain.
+- Make Maiev and her guards Neutral Passive in the beginning of the game.
 - Use 64 different tilesets instead of 16 due to patch 2.0.3.
 - Skins are automatically registered from hero unit types now which adds a lot more skins.
 - Register more NPCs.
