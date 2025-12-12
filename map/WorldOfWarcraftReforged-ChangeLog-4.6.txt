@@ -1,0 +1,28 @@
+function PreloadFiles takes nothing returns nothing
+
+	call PreloadStart()
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call Preload( "- Remove unused assets." )
+	call Preload( "- Register all banner object mappings during map initialization." )
+	call Preload( "- Fix registered race unit type IDs." )
+	call Preload( "- Change QR code icon paths." )
+	call Preload( "- Remove Railway." )
+	call Preload( "- Remove SelectHeroSkill calls from map script." )
+	call Preload( "- Fix crash when loading save games by reducing the length of Naga quest 4 description." )
+	call Preload( "- Add library SafeString." )
+	call Preload( "- Witch Huts allow giving units skill menus." )
+	call Preload( "- Automatically add skill points to units with skill menus when researching Evolution." )
+	call Preload( "- Remove game mode hardcore." )
+	call Preload( "- Add ground textures to Draenei buildings." )
+	call Preload( "- Remove Alliance and Horde islands." )
+	call Preload( "- Add new icons for digits using the Warcraft III font." )
+	call Preload( "- Do not show item pickup errors anymore when using random buttons in player selection." )
+	call Preload( "- Fix crash when changing hero to the last one in AI players UI." )
+	call Preload( "- Fix tooltip of ability Shadow Strike." )
+	call Preload( "- Fix converting invalid color markers from tooltips into HTML for the website." )
+	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
+	call PreloadEnd( 0.0 )
+
+endfunction
+
+

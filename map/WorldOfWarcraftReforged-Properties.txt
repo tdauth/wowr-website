@@ -3020,9 +3020,9 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div style="color: #ffcc00">Food: 80.</div>" )
 	call Preload( "<br/>" )
 	call Preload( "<div style="color: #ffcc00">Automatically gives you " )
-	call Preload( "all researches from the race." )
+	call Preload( "all researches from the race.</div>" )
 	call Preload( "<br/>" )
-	call Preload( "Restricted to account Barade#2569.</div>" )
+	call Preload( "Restricted to account Barade#2569." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNWyrmrestTemple.blp" width="64" height="64"" )
@@ -3072,7 +3072,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Properties generated with chat command "-website". -->" )
-	call PreloadEnd( 3.6 )
+	call PreloadEnd( 4.0 )
 
 endfunction
 

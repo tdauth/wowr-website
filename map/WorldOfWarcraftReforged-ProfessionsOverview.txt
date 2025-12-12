@@ -449,7 +449,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "- Healing Wards" )
 	call Preload( "<br/>" )
-	call Preload( "- Power Wards" )
+	call Preload( "- Tiny Fountains of Power" )
 	call Preload( "<br/>" )
 	call Preload( "- Peace Wards" )
 	call Preload( "</div>" )
@@ -983,7 +983,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</button>" )
 	call Preload( "</div>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 1.3 )
+	call PreloadEnd( 0.6 )
 
 endfunction
 
