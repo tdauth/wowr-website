@@ -1,0 +1,18 @@
+- Remove unused assets.
+- Register all banner object mappings during map initialization.
+- Fix registered race unit type IDs.
+- Change QR code icon paths.
+- Remove Railway.
+- Remove SelectHeroSkill calls from map script.
+- Fix crash when loading save games by reducing the length of Naga quest 4 description.
+- Add library SafeString.
+- Witch Huts allow giving units skill menus.
+- Automatically add skill points to units with skill menus when researching Evolution.
+- Remove game mode hardcore.
+- Add ground textures to Draenei buildings.
+- Remove Alliance and Horde islands.
+- Add new icons for digits using the Warcraft III font.
+- Do not show item pickup errors anymore when using random buttons in player selection.
+- Fix crash when changing hero to the last one in AI players UI.
+- Fix tooltip of ability Shadow Strike.
+- Fix converting invalid color markers from tooltips into HTML for the website.

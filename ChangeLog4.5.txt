@@ -1,6 +1,5 @@
 - Fix automatic pick stuff in the beginning of the game to allow an instant start.
 - Fix portrait of hero Shandris Feathermoon.
-- Fix item type for learnable hero spell Summon Green Dragon.
 - Improve profession Archaeologist.
 - Add chat commands "-hide/-show".
 - Add custom icon for building Excavation Site.
@@ -37,7 +36,6 @@
 - Fix and translate strings for custom skilled abilities.
 - Add system to register unit types for summon unit abilities to apply bonuses.
 - Add creeps to Outland.
-- Add learnable spell Air Magic.
 - Change soundset of hero Fel Crossbowman.
 - Change proper names of hero Fel Crossbowman.
 - Change the location of the dropped Draenei Banner in Demon quest 4.
