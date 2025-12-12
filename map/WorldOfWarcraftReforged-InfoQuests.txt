@@ -3672,6 +3672,8 @@ Note: Even " )
 	call Preload( "<li>Fix crash when changing hero to the last one in AI players UI.</li>" )
 	call Preload( "<li>Fix tooltip of ability Shadow Strike.</li>" )
 	call Preload( "<li>Fix converting invalid color markers from tooltips into HTML for the website.</li>" )
+	call Preload( "<li>Reduce code for several quest ping triggers.</li>" )
+	call Preload( "<li>Fix function StringStartsWith.</li>" )
 	call Preload( "</ul>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
@@ -11418,7 +11420,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 2.4 )
+	call PreloadEnd( 2.8 )
 
 endfunction
 
