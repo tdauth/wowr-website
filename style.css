@@ -95,6 +95,10 @@ button {
     display: block;
 }
 
+.wowr-popover-wrapper .wowr-popover div {
+    display:inline;
+}
+
 .wowr-icon {
     width:  64px;
     height: 64px;
