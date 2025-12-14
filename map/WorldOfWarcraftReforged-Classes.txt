@@ -1295,10 +1295,10 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<div class="wowr-popover">" )
 	call Preload( "<a href="spells.html#ACss">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNShadowStrike.blp" width="64" height="64"" )
-	call Preload( "title="Default string"" )
+	call Preload( "title="Shadow Strike"" )
 	call Preload( "alt="ReplaceableTextures/CommandButtons/BTNShadowStrike.blp"" )
 	call Preload( "/></a>" )
-	call Preload( "Default string" )
+	call Preload( "Shadow Strike" )
 	call Preload( "<br/>" )
 	call Preload( "<br/>" )
 	call Preload( "Hurls a poisoned dagger at a target enemy unit, dealing " )
@@ -4843,7 +4843,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Classes generated with chat command "-website". -->" )
-	call PreloadEnd( 1.4 )
+	call PreloadEnd( 1.5 )
 
 endfunction
 
