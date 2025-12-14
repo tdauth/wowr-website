@@ -16,3 +16,24 @@
 - Fix crash when changing hero to the last one in AI players UI.
 - Fix tooltip of ability Shadow Strike.
 - Fix converting invalid color markers from tooltips into HTML for the website.
+- Reduce code for several quest ping triggers.
+- Fix function StringStartsWith.
+- Refactor zones initialization.
+- Fix several zone rects.
+- Register zone Undermine.
+- Add function UnitMessage.
+- Auto skilling shows unit message now.
+- Show accept hint in the player selection.
+- Spell Meteor destroys trees on impact now.
+- Dalaran, Nerubian and Undead child units are able to build Bannner Shops now.
+- Fix categories of heroes Khadgar and Medivh.
+- Give New Stormwind more space by including the border trees.
+- Give Kul Tiras island more space.
+- Add function GetForceFromString.
+- Add function ChatCommandAiDifficulty.
+- Refactor several AI chat commands into vJass.
+- Add translatable string for several AI chat commands.
+- New function GetActualObjectName considers if a hero is from campaign.
+- Register NPCs in vJass rather than GUI.
+- Revise terrain.
+- Improve website data.
