@@ -3690,6 +3690,7 @@ Note: Even " )
 	call Preload( "<li>Refactor several AI chat commands into vJass.</li>" )
 	call Preload( "<li>Add translatable string for several AI chat commands.</li>" )
 	call Preload( "<li>New function GetActualObjectName considers if a hero is from campaign.</li>" )
+	call Preload( "<li>Register NPCs in vJass rather than GUI.</li>" )
 	call Preload( "<li>Revise terrain.</li>" )
 	call Preload( "<li>Improve website data.</li>" )
 	call Preload( "</ul>" )
@@ -11438,7 +11439,7 @@ Note: Even " )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Info quests generated with chat command "-website". -->" )
-	call PreloadEnd( 3.5 )
+	call PreloadEnd( 2.3 )
 
 endfunction
 
