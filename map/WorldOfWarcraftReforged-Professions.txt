@@ -5537,7 +5537,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "<br/>" )
 	call Preload( "Summon Demons and craft demonic items:" )
 	call Preload( "<br/>" )
-	call Preload( "- Ward of Draining" )
+	call Preload( "- Wand of Drain" )
 	call Preload( "<br/>" )
 	call Preload( "- Demon Blood" )
 	call Preload( "<br/>" )
@@ -6757,7 +6757,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Professions generated with chat command "-website". -->" )
-	call PreloadEnd( 3.8 )
+	call PreloadEnd( 5.4 )
 
 endfunction
 

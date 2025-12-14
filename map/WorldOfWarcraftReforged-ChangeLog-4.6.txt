@@ -37,6 +37,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "- Add function ChatCommandAiDifficulty." )
 	call Preload( "- Refactor several AI chat commands into vJass." )
 	call Preload( "- Add translatable string for several AI chat commands." )
+	call Preload( "- New function GetActualObjectName considers if a hero is from campaign." )
 	call Preload( "- Revise terrain." )
 	call Preload( "- Improve website data." )
 	call Preload( "<!-- ChangeLogs generated with chat command "-website". -->" )
