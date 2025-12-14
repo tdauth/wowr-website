@@ -945,7 +945,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Charlga Razorflank" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "<a href="zones.html#razorfen_kraul">" )
+	call Preload( "<a href="zones.html#razorfenkraul">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNRazorback.blp" width="64" height="64"" )
 	call Preload( "title="Razorfen Kraul"" )
 	call Preload( "alt="ReplaceableTextures\\CommandButtons\\BTNRazorback.blp"" )
@@ -983,7 +983,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Hogger" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "<a href="zones.html#gnoll_camp">" )
+	call Preload( "<a href="zones.html#gnollcamp">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNGnollKing.blp" width="64" height="64"" )
 	call Preload( "title="Gnoll Camp"" )
 	call Preload( "alt="ReplaceableTextures\\CommandButtons\\BTNGnollKing.blp"" )
@@ -1021,7 +1021,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "General Vezax" )
 	call Preload( "</td>" )
 	call Preload( "<td>" )
-	call Preload( "<a href="zones.html#nyalotha_zone">" )
+	call Preload( "<a href="zones.html#nyalothazone">" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures\\CommandButtons\\BTNNzothIcon.blp" width="64" height="64"" )
 	call Preload( "title="Ny'alotha"" )
 	call Preload( "alt="ReplaceableTextures\\CommandButtons\\BTNNzothIcon.blp"" )
@@ -1066,7 +1066,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "/></a>" )
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
-	call PreloadEnd( 1.6 )
+	call PreloadEnd( 1.8 )
 
 endfunction
 

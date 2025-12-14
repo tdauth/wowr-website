@@ -5032,8 +5032,8 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "Levels: " )
 	call Preload( "1" )
 	call Preload( "<br/>" )
-	call Preload( "Gives specific Eredar ground units the ability to carry " )
-	call Preload( "items." )
+	call Preload( "Gives specific Draenei ground units the ability to " )
+	call Preload( "carry items." )
 	call Preload( "</div>" )
 	call Preload( "<button>" )
 	call Preload( "<img class="wowr-icon" src="ReplaceableTextures/CommandButtons/BTNPackBeast.blp" width="64" height="64"" )
@@ -23710,7 +23710,7 @@ function PreloadFiles takes nothing returns nothing
 	call Preload( "</td>" )
 	call Preload( "</tr>" )
 	call Preload( "<!-- Researches generated with chat command "-website". -->" )
-	call PreloadEnd( 15.7 )
+	call PreloadEnd( 14.2 )
 
 endfunction
 
