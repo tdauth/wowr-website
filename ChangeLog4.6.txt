@@ -30,10 +30,16 @@
 - Give New Stormwind more space by including the border trees.
 - Give Kul Tiras island more space.
 - Add function GetForceFromString.
-- Add function ChatCommandAiDifficulty.
-- Refactor several AI chat commands into vJass.
-- Add translatable string for several AI chat commands.
+- Refactor several chat commands into vJass.
+- Add translatable string for several chat commands.
 - New function GetActualObjectName considers if a hero is from campaign.
 - Register NPCs in vJass rather than GUI.
+- Fix empty ability name of Shadow Strike.
+- Fix memory leak in chat command "-pingdragons".
+- Add function PingAlliedHeroes.
+- Chat command "-pingh" pings all 3 heroes per allied player and includes left players now.
+- Add function PingAlliedFreelancerHeroes.
+- Chat command "-pingf" pings all 3 heroes per allied Freelancer player and includes left players now.
+- Make functions IsPlayerFreelancer and IsPlayerWarlord one liners to allow inlining.
 - Revise terrain.
 - Improve website data.
