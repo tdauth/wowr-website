@@ -3,7 +3,8 @@
 #set -x #echo on
 
 #FOLDER="./wowr.w3x"
-FOLDER="$HOME/privaterepos/wowr/wowr.w3x"
+#FOLDER="$HOME/privaterepos/wowr/wowr.w3x"
+FOLDER="$HOME/Dokumente/Projekte/wowr/wowr.w3x"
 echo "Folder: $FOLDER"
 
 if [ ! -d "$FOLDER" ]; then
